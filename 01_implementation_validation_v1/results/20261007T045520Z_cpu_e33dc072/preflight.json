@@ -1,0 +1,54 @@
+{
+  "status": "failed",
+  "completed_at": "2026-10-07T04:55:22.077236+00:00",
+  "scope": "implementation validation only",
+  "device": "cpu",
+  "checks_passed": 1,
+  "checks_attempted": 2,
+  "checks_planned": 10,
+  "checks": [
+    {
+      "name": "unit_contracts",
+      "started_at": "2026-10-07T04:55:21.893616+00:00",
+      "passed": true,
+      "details": {
+        "tests_run": 6,
+        "failures": 0,
+        "errors": 0
+      },
+      "seconds": 0.06082289945334196,
+      "costs": {
+        "environment_creations": 0,
+        "resets": 0,
+        "environment_steps": 0,
+        "train_iterations": 0,
+        "evaluation_episodes": 0
+      }
+    },
+    {
+      "name": "environment_inputs_and_reset",
+      "started_at": "2026-10-07T04:55:21.960494+00:00",
+      "passed": false,
+      "error": "AssertionError: Different reset seeds produced the same physical state.",
+      "seconds": 0.11811499949544668,
+      "costs": {
+        "environment_creations": 3,
+        "resets": 3,
+        "environment_steps": 0,
+        "train_iterations": 0,
+        "evaluation_episodes": 0
+      }
+    }
+  ],
+  "costs": {
+    "environment_creations": 3,
+    "resets": 3,
+    "environment_steps": 0,
+    "train_iterations": 0,
+    "evaluation_episodes": 0
+  },
+  "elapsed_seconds": 1.4865045007318258,
+  "error": "Traceback (most recent call last):\n  File \"C:\\Users\\SS\\Projects\\robot_practice_allocation\\01_implementation_validation_v1\\practice_allocation\\preflight.py\", line 316, in run\n    self.gate(\"environment_inputs_and_reset\", self.environment_contracts)\n  File \"C:\\Users\\SS\\Projects\\robot_practice_allocation\\01_implementation_validation_v1\\practice_allocation\\preflight.py\", line 65, in gate\n    record[\"details\"] = function()\n                        ^^^^^^^^^^\n  File \"C:\\Users\\SS\\Projects\\robot_practice_allocation\\01_implementation_validation_v1\\practice_allocation\\preflight.py\", line 100, in environment_contracts\n    check(first.initial_state_hash != different.initial_state_hash, \"Different reset seeds produced the same physical state.\")\n  File \"C:\\Users\\SS\\Projects\\robot_practice_allocation\\01_implementation_validation_v1\\practice_allocation\\preflight.py\", line 34, in check\n    raise AssertionError(message)\nAssertionError: Different reset seeds produced the same physical state.\n",
+  "p0_executed": false,
+  "research_branches_executed": 0
+}

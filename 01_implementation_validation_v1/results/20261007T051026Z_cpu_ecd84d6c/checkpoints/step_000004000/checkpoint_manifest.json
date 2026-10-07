@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-10-07T05:11:11.977598+00:00",
+  "boundary": "after transition, update, episode close; before next reset",
+  "step": 4000,
+  "updates": 3000,
+  "replay_size": 4000,
+  "replay_pos": 4000,
+  "state_fingerprints": {
+    "learning": "18ca14566c62d7be15319b664df2c8f0912a95faae4d7b9501d35b86a4c65671",
+    "replay": "7f23c37402cc7fc2624e7abc0888e23080018daca47bd8d5a49842c3ddb785ad",
+    "collector": "6c59b9df349d2455e1d5813db10ab3b831f833aa7dc801ff71345711fadeaf09",
+    "rng": "649be62c66a901951a2b469d6b8c7e9b6d535955a75abf9c90703bbdee662d8a"
+  },
+  "config_hash": "59a14ac245616e59db0c5fd6900f7a02fbe88fcff16c4188f98823ba1f30079f",
+  "packages": {
+    "numpy": "2.2.4",
+    "torch": "2.5.1+cu121",
+    "gymnasium": "1.2.3",
+    "mujoco": "3.5.0",
+    "metaworld": "3.0.0",
+    "stable-baselines3": "2.7.1"
+  },
+  "source_hashes": {
+    "run_validation.py": "f88f3f8b29ca4c76e821ae94f1ad821ba6a651898e7eb50b11b53f58726090ed",
+    "requirements.txt": "cb62ec70a441ab12b0a7caab26904375ffd55ce0ef5497b20e07a48205b43b1b",
+    "VERSION.json": "3e69a333f3fa82a15475de5ff75356e2964be667f3379ec2f2286db99bc569bd",
+    "practice_allocation/__init__.py": "bf497c9c5f810a8262ff1c3fdcd1c3ccf6f083e95d62d3567807c5c82afefc46",
+    "practice_allocation/core.py": "18de85d32f2abac8357011625e4b946ce0011b831c708d9b005be67395f90329",
+    "practice_allocation/engine.py": "5fdca8d452a263c00b49f052c400ed89bbcfa577b2be074a4fe52e1413283c16",
+    "practice_allocation/environment.py": "85afb8560da5160832e619f90608eae0b4b83aa75264376800111b295ef4e4e8",
+    "practice_allocation/evaluation.py": "ee85951564f80b9fe70ff33fc4e05a31a319483c68a77cb099987c656712c9d7",
+    "practice_allocation/learning.py": "e32e1f2e23490c651167af24386a3af5df005af766a33128c9bb75f719e30009",
+    "practice_allocation/preflight.py": "918375a659b3e54a03624898378e70e2b1e3595db6645ee89dbeda469ba45bab",
+    "configs/validation.json": "604f5f623431257ce8ff17745772cc33b75508165d5d4181155cbb6180c9a113",
+    "tests/test_contracts.py": "e695e8a5ebf5248878520d455f77581edeaa5a8fc53f83af85c331353d14ce53"
+  },
+  "files": {
+    "model.zip": "97812ce10c88394740c765ff3da41291a78bd05601cde2a30ed5a3972e37bd59",
+    "replay.pkl": "75656dade3eb7533a8de45c884f265e68404a956db7964cb5243ecfe252f5e88",
+    "collector_and_rng.pkl": "4ee56c9e201c6029e1cb2d69351c1f7a2a9aeebdef711669ee7ea46718b33322"
+  },
+  "seconds": 0.0823999997228384
+}

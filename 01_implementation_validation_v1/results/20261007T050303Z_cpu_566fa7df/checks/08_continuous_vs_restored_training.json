@@ -1,0 +1,52 @@
+{
+  "name": "continuous_vs_restored_training",
+  "started_at": "2026-10-07T05:03:53.557052+00:00",
+  "passed": true,
+  "details": {
+    "continuous": {
+      "steps": 1000,
+      "updates": 1000,
+      "seconds": 10.477716700173914,
+      "steps_per_second": 95.44064118315029,
+      "trace_sha256": "04ff0d13af3139b140f035f8b517f0628323cc1fa7f0bc62ccd41777b3a9aeb1",
+      "first_record": {
+        "task": "DC",
+        "observation_hash": "6becd51671461ae9cca009705b535ae85f5d0a30155dbfe50bf908a18e1008f5",
+        "action_hash": "91f8df777ce200fbe5b0ae95396c5a225a9e7038fcfbd1352121f422f8b60063",
+        "initial_state_hash": "515c4d6c0a008c436e1bfe54c39067f2c6288b8f3bb10e0bf9fd7802110a90ec",
+        "updates": 3001
+      }
+    },
+    "resumed": {
+      "steps": 1000,
+      "updates": 1000,
+      "seconds": 10.346589899621904,
+      "steps_per_second": 96.65020163179977,
+      "trace_sha256": "04ff0d13af3139b140f035f8b517f0628323cc1fa7f0bc62ccd41777b3a9aeb1",
+      "first_record": {
+        "task": "DC",
+        "observation_hash": "6becd51671461ae9cca009705b535ae85f5d0a30155dbfe50bf908a18e1008f5",
+        "action_hash": "91f8df777ce200fbe5b0ae95396c5a225a9e7038fcfbd1352121f422f8b60063",
+        "initial_state_hash": "515c4d6c0a008c436e1bfe54c39067f2c6288b8f3bb10e0bf9fd7802110a90ec",
+        "updates": 3001
+      }
+    },
+    "seconds_to_load": 0.06234649941325188,
+    "final_state_fingerprints": {
+      "learning": "b401bacfea5192b42fcda6313306aec69599823537ac4606d1aeb25ff954ba85",
+      "replay": "88f3ad8e6b7ffc1768202288fe10659c59075471a204c70cfa276cd191efe9e4",
+      "collector": "291d84910fae2a426e05a58aa567479497960098154080eccc77d38a08cd2259",
+      "rng": "feda1b7cb83e5d583ef7df10635ada275b9100f42aa61e2b9996928eede13241"
+    },
+    "parameter_max_abs_difference": 0.0,
+    "comparison": "bitwise equality on the same installed runtime and selected device"
+  },
+  "seconds": 20.89771760068834,
+  "costs": {
+    "environment_creations": 4,
+    "resets": 4,
+    "environment_steps": 2000,
+    "train_iterations": 2000,
+    "evaluation_episodes": 0
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "name": "branch_initialization_and_no_warmup",
+  "started_at": "2026-10-07T05:11:37.038513+00:00",
+  "passed": true,
+  "details": {
+    "starts": [
+      {
+        "candidate": "U",
+        "learning_state_hash": "18ca14566c62d7be15319b664df2c8f0912a95faae4d7b9501d35b86a4c65671",
+        "replay_content_hash": "7ec4a4c7fcdab0aa31ef2a7a83a4f4b93159dc98c30ecd8fba04720cc8d8f74f",
+        "step": 4000,
+        "updates": 3000
+      },
+      {
+        "candidate": "F_DO",
+        "learning_state_hash": "18ca14566c62d7be15319b664df2c8f0912a95faae4d7b9501d35b86a4c65671",
+        "replay_content_hash": "7ec4a4c7fcdab0aa31ef2a7a83a4f4b93159dc98c30ecd8fba04720cc8d8f74f",
+        "step": 4000,
+        "updates": 3000
+      },
+      {
+        "candidate": "F_DC",
+        "learning_state_hash": "18ca14566c62d7be15319b664df2c8f0912a95faae4d7b9501d35b86a4c65671",
+        "replay_content_hash": "7ec4a4c7fcdab0aa31ef2a7a83a4f4b93159dc98c30ecd8fba04720cc8d8f74f",
+        "step": 4000,
+        "updates": 3000
+      },
+      {
+        "candidate": "F_WO",
+        "learning_state_hash": "18ca14566c62d7be15319b664df2c8f0912a95faae4d7b9501d35b86a4c65671",
+        "replay_content_hash": "7ec4a4c7fcdab0aa31ef2a7a83a4f4b93159dc98c30ecd8fba04720cc8d8f74f",
+        "step": 4000,
+        "updates": 3000
+      },
+      {
+        "candidate": "F_WC",
+        "learning_state_hash": "18ca14566c62d7be15319b664df2c8f0912a95faae4d7b9501d35b86a4c65671",
+        "replay_content_hash": "7ec4a4c7fcdab0aa31ef2a7a83a4f4b93159dc98c30ecd8fba04720cc8d8f74f",
+        "step": 4000,
+        "updates": 3000
+      }
+    ],
+    "short_focus_continuation": {
+      "steps": 500,
+      "updates": 500,
+      "seconds": 5.259879300370812,
+      "steps_per_second": 95.05921551560144,
+      "trace_sha256": "fc6830202f3f9d83456af1fcde813cc1a8576115da3d9ed2bd58266f295da612",
+      "first_record": {
+        "task": "DC",
+        "observation_hash": "617b3a0a7145d1c3c196363399b3d300cecf3a598d39c6d7db001a5598a383b6",
+        "action_hash": "f0d27e893f155f3957638c4a46432587265f8704fd265b93d4e18a1e7f3b04bc",
+        "initial_state_hash": "5961adf8f19f3b3e4ace641b11141d6f9d7820d8516c10a044f0ae034d150c6b",
+        "updates": 3001
+      }
+    },
+    "new_transitions_before_mid_episode_probe": 500,
+    "new_experiences_sampled": 7588,
+    "mid_episode_checkpoint_refused": true,
+    "note": "500-step focused continuation plus one rejection probe; not a 40k research branch."
+  },
+  "seconds": 5.677240899764001,
+  "costs": {
+    "environment_creations": 2,
+    "resets": 2,
+    "environment_steps": 501,
+    "train_iterations": 501,
+    "evaluation_episodes": 0
+  }
+}

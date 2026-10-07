@@ -1,0 +1,314 @@
+{
+  "name": "actual_allocation_and_termination",
+  "started_at": "2026-10-07T05:08:55.555711+00:00",
+  "passed": true,
+  "details": {
+    "candidates": [
+      {
+        "candidate": "U",
+        "actual_steps": {
+          "DO": 1000,
+          "DC": 1000,
+          "WO": 1000,
+          "WC": 1000
+        },
+        "episodes": [
+          {
+            "task": "DC",
+            "length": 500,
+            "first_success_step": 78,
+            "initial_state_hash": "82885fac45e113b9a21ec45315c65b72d33086e6805f86d97a79a8bf128bbdbb"
+          },
+          {
+            "task": "WO",
+            "length": 500,
+            "first_success_step": 87,
+            "initial_state_hash": "87825c9aed3ef70368b52ab6720c474dc9630b0f514b7ccba54e47f28da93ebf"
+          },
+          {
+            "task": "WC",
+            "length": 500,
+            "first_success_step": 79,
+            "initial_state_hash": "392e6bf60ada09684bf1c89522a23af36641ccffdbb1bbc425efba14603849ad"
+          },
+          {
+            "task": "DO",
+            "length": 500,
+            "first_success_step": 87,
+            "initial_state_hash": "719c468a8f7039b36ef470d6362b390857933ee22a96b7eeae9443e957683302"
+          },
+          {
+            "task": "WO",
+            "length": 500,
+            "first_success_step": 82,
+            "initial_state_hash": "7ee75c475e18947bc202f246f22fa38a1c34603f3d2672f5d61e77e246f544a3"
+          },
+          {
+            "task": "DO",
+            "length": 500,
+            "first_success_step": 87,
+            "initial_state_hash": "a8077e61ef1d658cebe930ed8811a98abe964782a4d5d57fb954480a78f91bd5"
+          },
+          {
+            "task": "DC",
+            "length": 500,
+            "first_success_step": 78,
+            "initial_state_hash": "5d2d5e47d14b21f3741bbb1246b6564a6798ab2f3f37bc7a0d65b2c2dc5f8d29"
+          },
+          {
+            "task": "WC",
+            "length": 500,
+            "first_success_step": 76,
+            "initial_state_hash": "7881050cd1dfaf0add9d4c4c68e7b8d8aa439cd16e2efc37cbc450043922dfad"
+          }
+        ]
+      },
+      {
+        "candidate": "F_DO",
+        "actual_steps": {
+          "DO": 2500,
+          "DC": 500,
+          "WO": 500,
+          "WC": 500
+        },
+        "episodes": [
+          {
+            "task": "DO",
+            "length": 500,
+            "first_success_step": 87,
+            "initial_state_hash": "719c468a8f7039b36ef470d6362b390857933ee22a96b7eeae9443e957683302"
+          },
+          {
+            "task": "DC",
+            "length": 500,
+            "first_success_step": 78,
+            "initial_state_hash": "82885fac45e113b9a21ec45315c65b72d33086e6805f86d97a79a8bf128bbdbb"
+          },
+          {
+            "task": "WC",
+            "length": 500,
+            "first_success_step": 79,
+            "initial_state_hash": "392e6bf60ada09684bf1c89522a23af36641ccffdbb1bbc425efba14603849ad"
+          },
+          {
+            "task": "DO",
+            "length": 500,
+            "first_success_step": 87,
+            "initial_state_hash": "a8077e61ef1d658cebe930ed8811a98abe964782a4d5d57fb954480a78f91bd5"
+          },
+          {
+            "task": "DO",
+            "length": 500,
+            "first_success_step": 88,
+            "initial_state_hash": "55e3ede8296a47f2d563981f5201ba995da030fc277b3bf4021fc5f0baeeb528"
+          },
+          {
+            "task": "DO",
+            "length": 500,
+            "first_success_step": 88,
+            "initial_state_hash": "3dd9cc24bc7203a22d18670bf1ae8b9b3c83f7ad198f574e4bcfc1ec2fe9c27d"
+          },
+          {
+            "task": "DO",
+            "length": 500,
+            "first_success_step": 91,
+            "initial_state_hash": "5ef39c5199cfcb6f83fcc2edc3c52dd93c76f7033b98544fbf638efeb45d73de"
+          },
+          {
+            "task": "WO",
+            "length": 500,
+            "first_success_step": 87,
+            "initial_state_hash": "87825c9aed3ef70368b52ab6720c474dc9630b0f514b7ccba54e47f28da93ebf"
+          }
+        ]
+      },
+      {
+        "candidate": "F_DC",
+        "actual_steps": {
+          "DO": 500,
+          "DC": 2500,
+          "WO": 500,
+          "WC": 500
+        },
+        "episodes": [
+          {
+            "task": "DC",
+            "length": 500,
+            "first_success_step": 78,
+            "initial_state_hash": "82885fac45e113b9a21ec45315c65b72d33086e6805f86d97a79a8bf128bbdbb"
+          },
+          {
+            "task": "DC",
+            "length": 500,
+            "first_success_step": 78,
+            "initial_state_hash": "5d2d5e47d14b21f3741bbb1246b6564a6798ab2f3f37bc7a0d65b2c2dc5f8d29"
+          },
+          {
+            "task": "WC",
+            "length": 500,
+            "first_success_step": 79,
+            "initial_state_hash": "392e6bf60ada09684bf1c89522a23af36641ccffdbb1bbc425efba14603849ad"
+          },
+          {
+            "task": "DO",
+            "length": 500,
+            "first_success_step": 87,
+            "initial_state_hash": "719c468a8f7039b36ef470d6362b390857933ee22a96b7eeae9443e957683302"
+          },
+          {
+            "task": "DC",
+            "length": 500,
+            "first_success_step": 78,
+            "initial_state_hash": "515c4d6c0a008c436e1bfe54c39067f2c6288b8f3bb10e0bf9fd7802110a90ec"
+          },
+          {
+            "task": "DC",
+            "length": 500,
+            "first_success_step": 78,
+            "initial_state_hash": "394c3a59564b12358716eaacf993fdd049634e9451d5c7e7d9498606d0d615ea"
+          },
+          {
+            "task": "DC",
+            "length": 500,
+            "first_success_step": 78,
+            "initial_state_hash": "9ba70329030615e87b395f216d025e66d03d48026935f81b2c25e62ac3e0a6c9"
+          },
+          {
+            "task": "WO",
+            "length": 500,
+            "first_success_step": 87,
+            "initial_state_hash": "87825c9aed3ef70368b52ab6720c474dc9630b0f514b7ccba54e47f28da93ebf"
+          }
+        ]
+      },
+      {
+        "candidate": "F_WO",
+        "actual_steps": {
+          "DO": 500,
+          "DC": 500,
+          "WO": 2500,
+          "WC": 500
+        },
+        "episodes": [
+          {
+            "task": "WO",
+            "length": 500,
+            "first_success_step": 87,
+            "initial_state_hash": "87825c9aed3ef70368b52ab6720c474dc9630b0f514b7ccba54e47f28da93ebf"
+          },
+          {
+            "task": "WO",
+            "length": 500,
+            "first_success_step": 82,
+            "initial_state_hash": "7ee75c475e18947bc202f246f22fa38a1c34603f3d2672f5d61e77e246f544a3"
+          },
+          {
+            "task": "WC",
+            "length": 500,
+            "first_success_step": 79,
+            "initial_state_hash": "392e6bf60ada09684bf1c89522a23af36641ccffdbb1bbc425efba14603849ad"
+          },
+          {
+            "task": "DO",
+            "length": 500,
+            "first_success_step": 87,
+            "initial_state_hash": "719c468a8f7039b36ef470d6362b390857933ee22a96b7eeae9443e957683302"
+          },
+          {
+            "task": "WO",
+            "length": 500,
+            "first_success_step": 93,
+            "initial_state_hash": "881fa728389e1d1dd30fa2c8a638954a8ddb2b9f1e1e4c4f6b1ac28b04ac48cd"
+          },
+          {
+            "task": "DC",
+            "length": 500,
+            "first_success_step": 78,
+            "initial_state_hash": "82885fac45e113b9a21ec45315c65b72d33086e6805f86d97a79a8bf128bbdbb"
+          },
+          {
+            "task": "WO",
+            "length": 500,
+            "first_success_step": 88,
+            "initial_state_hash": "e8056b887dba5e80763cfd934c3983a4557c8d29c8bb60156680b85c72058536"
+          },
+          {
+            "task": "WO",
+            "length": 500,
+            "first_success_step": 85,
+            "initial_state_hash": "bd58fbb481c73202840896d156a767e1792d589cc75932f85b4ecb8fab129f61"
+          }
+        ]
+      },
+      {
+        "candidate": "F_WC",
+        "actual_steps": {
+          "DO": 500,
+          "DC": 500,
+          "WO": 500,
+          "WC": 2500
+        },
+        "episodes": [
+          {
+            "task": "WC",
+            "length": 500,
+            "first_success_step": 79,
+            "initial_state_hash": "392e6bf60ada09684bf1c89522a23af36641ccffdbb1bbc425efba14603849ad"
+          },
+          {
+            "task": "WC",
+            "length": 500,
+            "first_success_step": 76,
+            "initial_state_hash": "7881050cd1dfaf0add9d4c4c68e7b8d8aa439cd16e2efc37cbc450043922dfad"
+          },
+          {
+            "task": "WC",
+            "length": 500,
+            "first_success_step": 86,
+            "initial_state_hash": "43debafa300eb0f7f11d1fdedb5f8c0592e471b3d2fdc07443f3cc5746d7d20b"
+          },
+          {
+            "task": "DO",
+            "length": 500,
+            "first_success_step": 87,
+            "initial_state_hash": "719c468a8f7039b36ef470d6362b390857933ee22a96b7eeae9443e957683302"
+          },
+          {
+            "task": "WC",
+            "length": 500,
+            "first_success_step": 85,
+            "initial_state_hash": "fbb91f21ffd955c2d68abf3b324543ac8678bbb570e57876482da8717fc58773"
+          },
+          {
+            "task": "DC",
+            "length": 500,
+            "first_success_step": 78,
+            "initial_state_hash": "82885fac45e113b9a21ec45315c65b72d33086e6805f86d97a79a8bf128bbdbb"
+          },
+          {
+            "task": "WO",
+            "length": 500,
+            "first_success_step": 87,
+            "initial_state_hash": "87825c9aed3ef70368b52ab6720c474dc9630b0f514b7ccba54e47f28da93ebf"
+          },
+          {
+            "task": "WC",
+            "length": 500,
+            "first_success_step": 79,
+            "initial_state_hash": "4f5868ee64b5ab084f76879ce90fa0748f02f4fb74efa5528aff81924127d32f"
+          }
+        ]
+      }
+    ],
+    "success_before_500_then_continued": 40,
+    "note": "Scripted policies exercise termination semantics; this is not learned-policy success evidence."
+  },
+  "seconds": 5.360000000335276,
+  "costs": {
+    "environment_creations": 40,
+    "resets": 40,
+    "environment_steps": 20000,
+    "train_iterations": 0,
+    "evaluation_episodes": 0
+  }
+}

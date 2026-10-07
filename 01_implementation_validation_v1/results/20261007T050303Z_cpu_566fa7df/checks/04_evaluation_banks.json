@@ -1,0 +1,21 @@
+{
+  "name": "evaluation_banks",
+  "started_at": "2026-10-07T05:03:10.141292+00:00",
+  "passed": true,
+  "details": {
+    "diagnostic_states": 80,
+    "outcome_states": 200,
+    "all_states_and_task_parameters_distinct": true,
+    "banks_hash": "9363f242815c63b865cfbbf3f85fdd4e4803cc6f577ca16add76b0d5561ea355",
+    "reset_checks_per_bank": 4,
+    "distribution": "same official continuous per-task reset distribution"
+  },
+  "seconds": 8.012252599932253,
+  "costs": {
+    "environment_creations": 288,
+    "resets": 288,
+    "environment_steps": 0,
+    "train_iterations": 0,
+    "evaluation_episodes": 0
+  }
+}

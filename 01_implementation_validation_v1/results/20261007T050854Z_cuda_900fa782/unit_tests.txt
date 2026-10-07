@@ -1,0 +1,11 @@
+test_exact_40k_budgets_and_mid_block_resume (test_contracts.AllocationContracts.test_exact_40k_budgets_and_mid_block_resume) ... ok
+test_per_task_reset_stream_does_not_depend_on_candidate (test_contracts.AllocationContracts.test_per_task_reset_stream_does_not_depend_on_candidate) ... ok
+test_fingerprint_compares_values_not_array_addresses (test_contracts.ArtifactContracts.test_fingerprint_compares_values_not_array_addresses) ... ok
+test_refuse_overwrite (test_contracts.ArtifactContracts.test_refuse_overwrite) ... ok
+test_timeout_bootstraps_but_true_terminal_does_not (test_contracts.ReplayContracts.test_timeout_bootstraps_but_true_terminal_does_not) ... ok
+test_uniform_valid_sampling_and_ring_buffer_birth_steps (test_contracts.ReplayContracts.test_uniform_valid_sampling_and_ring_buffer_birth_steps) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.035s
+
+OK

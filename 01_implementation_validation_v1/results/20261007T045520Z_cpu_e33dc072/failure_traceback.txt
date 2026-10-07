@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "C:\Users\SS\Projects\robot_practice_allocation\01_implementation_validation_v1\practice_allocation\preflight.py", line 316, in run
+    self.gate("environment_inputs_and_reset", self.environment_contracts)
+  File "C:\Users\SS\Projects\robot_practice_allocation\01_implementation_validation_v1\practice_allocation\preflight.py", line 65, in gate
+    record["details"] = function()
+                        ^^^^^^^^^^
+  File "C:\Users\SS\Projects\robot_practice_allocation\01_implementation_validation_v1\practice_allocation\preflight.py", line 100, in environment_contracts
+    check(first.initial_state_hash != different.initial_state_hash, "Different reset seeds produced the same physical state.")
+  File "C:\Users\SS\Projects\robot_practice_allocation\01_implementation_validation_v1\practice_allocation\preflight.py", line 34, in check
+    raise AssertionError(message)
+AssertionError: Different reset seeds produced the same physical state.

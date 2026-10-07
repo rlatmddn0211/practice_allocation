@@ -1,0 +1,19 @@
+{
+  "name": "stock_sac_equivalence",
+  "started_at": "2026-10-07T04:57:13.848671+00:00",
+  "passed": true,
+  "details": {
+    "stock_vs_instrumented_state_identical": true,
+    "sampled_indices_identical": true,
+    "rng_identical": true,
+    "gradient_iterations_per_model": 1
+  },
+  "seconds": 0.10873730015009642,
+  "costs": {
+    "environment_creations": 0,
+    "resets": 0,
+    "environment_steps": 0,
+    "train_iterations": 2,
+    "evaluation_episodes": 0
+  }
+}

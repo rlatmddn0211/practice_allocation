@@ -1,0 +1,63 @@
+{
+  "name": "evaluation_isolation",
+  "started_at": "2026-10-07T05:03:49.740676+00:00",
+  "passed": true,
+  "details": {
+    "first": {
+      "episodes": 8,
+      "environment_steps": 4000,
+      "seconds": 1.7925932994112372,
+      "steps_per_second": 2231.404078835823,
+      "success_by_task": {
+        "DO": 0.0,
+        "DC": 0.0,
+        "WO": 0.0,
+        "WC": 0.0
+      },
+      "macro_success": 0.0,
+      "results_hash": "681308c30fa799eaf2ec888478c67ae72b7236ce89f9974553809d04aa8e6301",
+      "purpose": "technical reproducibility only; not P0 or a research comparison"
+    },
+    "second": {
+      "episodes": 8,
+      "environment_steps": 4000,
+      "seconds": 1.8173114005476236,
+      "steps_per_second": 2201.053709779541,
+      "success_by_task": {
+        "DO": 0.0,
+        "DC": 0.0,
+        "WO": 0.0,
+        "WC": 0.0
+      },
+      "macro_success": 0.0,
+      "results_hash": "681308c30fa799eaf2ec888478c67ae72b7236ce89f9974553809d04aa8e6301",
+      "purpose": "technical reproducibility only; not P0 or a research comparison"
+    },
+    "full_training_state_unchanged": true,
+    "identical_episode_results": true,
+    "outcome_bank_policy_scores_used": false,
+    "scripted_success_and_early_stop_fixture": {
+      "episodes": 4,
+      "environment_steps": 334,
+      "seconds": 0.17835579998791218,
+      "steps_per_second": 1872.661276070845,
+      "success_by_task": {
+        "DO": 1.0,
+        "DC": 1.0,
+        "WO": 1.0,
+        "WC": 1.0
+      },
+      "macro_success": 1.0,
+      "results_hash": "f882dae000238ca592a5d33dff288eab6de16a74995f2c1edabc0ca3573ab21f",
+      "purpose": "technical reproducibility only; not P0 or a research comparison"
+    }
+  },
+  "seconds": 3.8081489000469446,
+  "costs": {
+    "environment_creations": 20,
+    "resets": 20,
+    "environment_steps": 8334,
+    "train_iterations": 0,
+    "evaluation_episodes": 20
+  }
+}

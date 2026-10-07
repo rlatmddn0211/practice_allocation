@@ -1,0 +1,70 @@
+{
+  "name": "environment_inputs_and_reset",
+  "started_at": "2026-10-07T05:00:53.708502+00:00",
+  "passed": true,
+  "details": {
+    "tasks": [
+      {
+        "task": "DO",
+        "state_shape": [
+          43
+        ],
+        "action_shape": [
+          4
+        ],
+        "raw_goal_matches_target": true,
+        "same_seed_same_state": true,
+        "different_seed_changes_task_parameters": true,
+        "identical_action_trajectory_steps": 16
+      },
+      {
+        "task": "DC",
+        "state_shape": [
+          43
+        ],
+        "action_shape": [
+          4
+        ],
+        "raw_goal_matches_target": true,
+        "same_seed_same_state": true,
+        "different_seed_changes_task_parameters": true,
+        "identical_action_trajectory_steps": 16
+      },
+      {
+        "task": "WO",
+        "state_shape": [
+          43
+        ],
+        "action_shape": [
+          4
+        ],
+        "raw_goal_matches_target": true,
+        "same_seed_same_state": true,
+        "different_seed_changes_task_parameters": true,
+        "identical_action_trajectory_steps": 16
+      },
+      {
+        "task": "WC",
+        "state_shape": [
+          43
+        ],
+        "action_shape": [
+          4
+        ],
+        "raw_goal_matches_target": true,
+        "same_seed_same_state": true,
+        "different_seed_changes_task_parameters": true,
+        "identical_action_trajectory_steps": 16
+      }
+    ],
+    "global_rng_unchanged": true
+  },
+  "seconds": 0.4714248003438115,
+  "costs": {
+    "environment_creations": 12,
+    "resets": 12,
+    "environment_steps": 128,
+    "train_iterations": 0,
+    "evaluation_episodes": 0
+  }
+}

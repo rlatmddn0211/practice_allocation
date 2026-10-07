@@ -1,0 +1,25 @@
+{
+  "name": "complete_checkpoint",
+  "started_at": "2026-10-07T04:56:48.660106+00:00",
+  "passed": true,
+  "details": {
+    "step": 4000,
+    "updates": 3000,
+    "seconds_to_save": 0.0817592004314065,
+    "full_state_hashes": {
+      "learning": "18ca14566c62d7be15319b664df2c8f0912a95faae4d7b9501d35b86a4c65671",
+      "replay": "7f23c37402cc7fc2624e7abc0888e23080018daca47bd8d5a49842c3ddb785ad",
+      "collector": "6c59b9df349d2455e1d5813db10ab3b831f833aa7dc801ff71345711fadeaf09",
+      "rng": "649be62c66a901951a2b469d6b8c7e9b6d535955a75abf9c90703bbdee662d8a"
+    },
+    "overwrite_refused": true
+  },
+  "seconds": 0.08268449921160936,
+  "costs": {
+    "environment_creations": 0,
+    "resets": 0,
+    "environment_steps": 0,
+    "train_iterations": 0,
+    "evaluation_episodes": 0
+  }
+}

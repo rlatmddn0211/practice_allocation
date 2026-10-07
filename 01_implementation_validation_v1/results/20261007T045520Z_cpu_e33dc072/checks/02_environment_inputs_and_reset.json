@@ -1,0 +1,14 @@
+{
+  "name": "environment_inputs_and_reset",
+  "started_at": "2026-10-07T04:55:21.960494+00:00",
+  "passed": false,
+  "error": "AssertionError: Different reset seeds produced the same physical state.",
+  "seconds": 0.11811499949544668,
+  "costs": {
+    "environment_creations": 3,
+    "resets": 3,
+    "environment_steps": 0,
+    "train_iterations": 0,
+    "evaluation_episodes": 0
+  }
+}

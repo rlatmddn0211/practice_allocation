@@ -1,0 +1,722 @@
+{
+  "status": "passed",
+  "completed_at": "2026-10-07T04:57:19.693345+00:00",
+  "scope": "implementation validation only",
+  "device": "cpu",
+  "checks_passed": 10,
+  "checks_attempted": 10,
+  "checks_planned": 10,
+  "checks": [
+    {
+      "name": "unit_contracts",
+      "started_at": "2026-10-07T04:56:01.861706+00:00",
+      "passed": true,
+      "details": {
+        "tests_run": 6,
+        "failures": 0,
+        "errors": 0
+      },
+      "seconds": 0.04648669995367527,
+      "costs": {
+        "environment_creations": 0,
+        "resets": 0,
+        "environment_steps": 0,
+        "train_iterations": 0,
+        "evaluation_episodes": 0
+      }
+    },
+    {
+      "name": "environment_inputs_and_reset",
+      "started_at": "2026-10-07T04:56:01.893561+00:00",
+      "passed": true,
+      "details": {
+        "tasks": [
+          {
+            "task": "DO",
+            "state_shape": [
+              43
+            ],
+            "action_shape": [
+              4
+            ],
+            "raw_goal_matches_target": true,
+            "same_seed_same_state": true,
+            "different_seed_changes_task_parameters": true,
+            "identical_action_trajectory_steps": 16
+          },
+          {
+            "task": "DC",
+            "state_shape": [
+              43
+            ],
+            "action_shape": [
+              4
+            ],
+            "raw_goal_matches_target": true,
+            "same_seed_same_state": true,
+            "different_seed_changes_task_parameters": true,
+            "identical_action_trajectory_steps": 16
+          },
+          {
+            "task": "WO",
+            "state_shape": [
+              43
+            ],
+            "action_shape": [
+              4
+            ],
+            "raw_goal_matches_target": true,
+            "same_seed_same_state": true,
+            "different_seed_changes_task_parameters": true,
+            "identical_action_trajectory_steps": 16
+          },
+          {
+            "task": "WC",
+            "state_shape": [
+              43
+            ],
+            "action_shape": [
+              4
+            ],
+            "raw_goal_matches_target": true,
+            "same_seed_same_state": true,
+            "different_seed_changes_task_parameters": true,
+            "identical_action_trajectory_steps": 16
+          }
+        ],
+        "global_rng_unchanged": true
+      },
+      "seconds": 0.4369634995236993,
+      "costs": {
+        "environment_creations": 12,
+        "resets": 12,
+        "environment_steps": 128,
+        "train_iterations": 0,
+        "evaluation_episodes": 0
+      }
+    },
+    {
+      "name": "actual_allocation_and_termination",
+      "started_at": "2026-10-07T04:56:02.344399+00:00",
+      "passed": true,
+      "details": {
+        "candidates": [
+          {
+            "candidate": "U",
+            "actual_steps": {
+              "DO": 1000,
+              "DC": 1000,
+              "WO": 1000,
+              "WC": 1000
+            },
+            "episodes": [
+              {
+                "task": "DC",
+                "length": 500,
+                "first_success_step": 78,
+                "initial_state_hash": "82885fac45e113b9a21ec45315c65b72d33086e6805f86d97a79a8bf128bbdbb"
+              },
+              {
+                "task": "WO",
+                "length": 500,
+                "first_success_step": 87,
+                "initial_state_hash": "87825c9aed3ef70368b52ab6720c474dc9630b0f514b7ccba54e47f28da93ebf"
+              },
+              {
+                "task": "WC",
+                "length": 500,
+                "first_success_step": 79,
+                "initial_state_hash": "392e6bf60ada09684bf1c89522a23af36641ccffdbb1bbc425efba14603849ad"
+              },
+              {
+                "task": "DO",
+                "length": 500,
+                "first_success_step": 87,
+                "initial_state_hash": "719c468a8f7039b36ef470d6362b390857933ee22a96b7eeae9443e957683302"
+              },
+              {
+                "task": "WO",
+                "length": 500,
+                "first_success_step": 82,
+                "initial_state_hash": "7ee75c475e18947bc202f246f22fa38a1c34603f3d2672f5d61e77e246f544a3"
+              },
+              {
+                "task": "DO",
+                "length": 500,
+                "first_success_step": 87,
+                "initial_state_hash": "a8077e61ef1d658cebe930ed8811a98abe964782a4d5d57fb954480a78f91bd5"
+              },
+              {
+                "task": "DC",
+                "length": 500,
+                "first_success_step": 78,
+                "initial_state_hash": "5d2d5e47d14b21f3741bbb1246b6564a6798ab2f3f37bc7a0d65b2c2dc5f8d29"
+              },
+              {
+                "task": "WC",
+                "length": 500,
+                "first_success_step": 76,
+                "initial_state_hash": "7881050cd1dfaf0add9d4c4c68e7b8d8aa439cd16e2efc37cbc450043922dfad"
+              }
+            ]
+          },
+          {
+            "candidate": "F_DO",
+            "actual_steps": {
+              "DO": 2500,
+              "DC": 500,
+              "WO": 500,
+              "WC": 500
+            },
+            "episodes": [
+              {
+                "task": "DO",
+                "length": 500,
+                "first_success_step": 87,
+                "initial_state_hash": "719c468a8f7039b36ef470d6362b390857933ee22a96b7eeae9443e957683302"
+              },
+              {
+                "task": "DC",
+                "length": 500,
+                "first_success_step": 78,
+                "initial_state_hash": "82885fac45e113b9a21ec45315c65b72d33086e6805f86d97a79a8bf128bbdbb"
+              },
+              {
+                "task": "WC",
+                "length": 500,
+                "first_success_step": 79,
+                "initial_state_hash": "392e6bf60ada09684bf1c89522a23af36641ccffdbb1bbc425efba14603849ad"
+              },
+              {
+                "task": "DO",
+                "length": 500,
+                "first_success_step": 87,
+                "initial_state_hash": "a8077e61ef1d658cebe930ed8811a98abe964782a4d5d57fb954480a78f91bd5"
+              },
+              {
+                "task": "DO",
+                "length": 500,
+                "first_success_step": 88,
+                "initial_state_hash": "55e3ede8296a47f2d563981f5201ba995da030fc277b3bf4021fc5f0baeeb528"
+              },
+              {
+                "task": "DO",
+                "length": 500,
+                "first_success_step": 88,
+                "initial_state_hash": "3dd9cc24bc7203a22d18670bf1ae8b9b3c83f7ad198f574e4bcfc1ec2fe9c27d"
+              },
+              {
+                "task": "DO",
+                "length": 500,
+                "first_success_step": 91,
+                "initial_state_hash": "5ef39c5199cfcb6f83fcc2edc3c52dd93c76f7033b98544fbf638efeb45d73de"
+              },
+              {
+                "task": "WO",
+                "length": 500,
+                "first_success_step": 87,
+                "initial_state_hash": "87825c9aed3ef70368b52ab6720c474dc9630b0f514b7ccba54e47f28da93ebf"
+              }
+            ]
+          },
+          {
+            "candidate": "F_DC",
+            "actual_steps": {
+              "DO": 500,
+              "DC": 2500,
+              "WO": 500,
+              "WC": 500
+            },
+            "episodes": [
+              {
+                "task": "DC",
+                "length": 500,
+                "first_success_step": 78,
+                "initial_state_hash": "82885fac45e113b9a21ec45315c65b72d33086e6805f86d97a79a8bf128bbdbb"
+              },
+              {
+                "task": "DC",
+                "length": 500,
+                "first_success_step": 78,
+                "initial_state_hash": "5d2d5e47d14b21f3741bbb1246b6564a6798ab2f3f37bc7a0d65b2c2dc5f8d29"
+              },
+              {
+                "task": "WC",
+                "length": 500,
+                "first_success_step": 79,
+                "initial_state_hash": "392e6bf60ada09684bf1c89522a23af36641ccffdbb1bbc425efba14603849ad"
+              },
+              {
+                "task": "DO",
+                "length": 500,
+                "first_success_step": 87,
+                "initial_state_hash": "719c468a8f7039b36ef470d6362b390857933ee22a96b7eeae9443e957683302"
+              },
+              {
+                "task": "DC",
+                "length": 500,
+                "first_success_step": 78,
+                "initial_state_hash": "515c4d6c0a008c436e1bfe54c39067f2c6288b8f3bb10e0bf9fd7802110a90ec"
+              },
+              {
+                "task": "DC",
+                "length": 500,
+                "first_success_step": 78,
+                "initial_state_hash": "394c3a59564b12358716eaacf993fdd049634e9451d5c7e7d9498606d0d615ea"
+              },
+              {
+                "task": "DC",
+                "length": 500,
+                "first_success_step": 78,
+                "initial_state_hash": "9ba70329030615e87b395f216d025e66d03d48026935f81b2c25e62ac3e0a6c9"
+              },
+              {
+                "task": "WO",
+                "length": 500,
+                "first_success_step": 87,
+                "initial_state_hash": "87825c9aed3ef70368b52ab6720c474dc9630b0f514b7ccba54e47f28da93ebf"
+              }
+            ]
+          },
+          {
+            "candidate": "F_WO",
+            "actual_steps": {
+              "DO": 500,
+              "DC": 500,
+              "WO": 2500,
+              "WC": 500
+            },
+            "episodes": [
+              {
+                "task": "WO",
+                "length": 500,
+                "first_success_step": 87,
+                "initial_state_hash": "87825c9aed3ef70368b52ab6720c474dc9630b0f514b7ccba54e47f28da93ebf"
+              },
+              {
+                "task": "WO",
+                "length": 500,
+                "first_success_step": 82,
+                "initial_state_hash": "7ee75c475e18947bc202f246f22fa38a1c34603f3d2672f5d61e77e246f544a3"
+              },
+              {
+                "task": "WC",
+                "length": 500,
+                "first_success_step": 79,
+                "initial_state_hash": "392e6bf60ada09684bf1c89522a23af36641ccffdbb1bbc425efba14603849ad"
+              },
+              {
+                "task": "DO",
+                "length": 500,
+                "first_success_step": 87,
+                "initial_state_hash": "719c468a8f7039b36ef470d6362b390857933ee22a96b7eeae9443e957683302"
+              },
+              {
+                "task": "WO",
+                "length": 500,
+                "first_success_step": 93,
+                "initial_state_hash": "881fa728389e1d1dd30fa2c8a638954a8ddb2b9f1e1e4c4f6b1ac28b04ac48cd"
+              },
+              {
+                "task": "DC",
+                "length": 500,
+                "first_success_step": 78,
+                "initial_state_hash": "82885fac45e113b9a21ec45315c65b72d33086e6805f86d97a79a8bf128bbdbb"
+              },
+              {
+                "task": "WO",
+                "length": 500,
+                "first_success_step": 88,
+                "initial_state_hash": "e8056b887dba5e80763cfd934c3983a4557c8d29c8bb60156680b85c72058536"
+              },
+              {
+                "task": "WO",
+                "length": 500,
+                "first_success_step": 85,
+                "initial_state_hash": "bd58fbb481c73202840896d156a767e1792d589cc75932f85b4ecb8fab129f61"
+              }
+            ]
+          },
+          {
+            "candidate": "F_WC",
+            "actual_steps": {
+              "DO": 500,
+              "DC": 500,
+              "WO": 500,
+              "WC": 2500
+            },
+            "episodes": [
+              {
+                "task": "WC",
+                "length": 500,
+                "first_success_step": 79,
+                "initial_state_hash": "392e6bf60ada09684bf1c89522a23af36641ccffdbb1bbc425efba14603849ad"
+              },
+              {
+                "task": "WC",
+                "length": 500,
+                "first_success_step": 76,
+                "initial_state_hash": "7881050cd1dfaf0add9d4c4c68e7b8d8aa439cd16e2efc37cbc450043922dfad"
+              },
+              {
+                "task": "WC",
+                "length": 500,
+                "first_success_step": 86,
+                "initial_state_hash": "43debafa300eb0f7f11d1fdedb5f8c0592e471b3d2fdc07443f3cc5746d7d20b"
+              },
+              {
+                "task": "DO",
+                "length": 500,
+                "first_success_step": 87,
+                "initial_state_hash": "719c468a8f7039b36ef470d6362b390857933ee22a96b7eeae9443e957683302"
+              },
+              {
+                "task": "WC",
+                "length": 500,
+                "first_success_step": 85,
+                "initial_state_hash": "fbb91f21ffd955c2d68abf3b324543ac8678bbb570e57876482da8717fc58773"
+              },
+              {
+                "task": "DC",
+                "length": 500,
+                "first_success_step": 78,
+                "initial_state_hash": "82885fac45e113b9a21ec45315c65b72d33086e6805f86d97a79a8bf128bbdbb"
+              },
+              {
+                "task": "WO",
+                "length": 500,
+                "first_success_step": 87,
+                "initial_state_hash": "87825c9aed3ef70368b52ab6720c474dc9630b0f514b7ccba54e47f28da93ebf"
+              },
+              {
+                "task": "WC",
+                "length": 500,
+                "first_success_step": 79,
+                "initial_state_hash": "4f5868ee64b5ab084f76879ce90fa0748f02f4fb74efa5528aff81924127d32f"
+              }
+            ]
+          }
+        ],
+        "success_before_500_then_continued": 40,
+        "note": "Scripted policies exercise termination semantics; this is not learned-policy success evidence."
+      },
+      "seconds": 5.296086999587715,
+      "costs": {
+        "environment_creations": 40,
+        "resets": 40,
+        "environment_steps": 20000,
+        "train_iterations": 0,
+        "evaluation_episodes": 0
+      }
+    },
+    {
+      "name": "evaluation_banks",
+      "started_at": "2026-10-07T04:56:07.643598+00:00",
+      "passed": true,
+      "details": {
+        "diagnostic_states": 80,
+        "outcome_states": 200,
+        "all_states_and_task_parameters_distinct": true,
+        "banks_hash": "9363f242815c63b865cfbbf3f85fdd4e4803cc6f577ca16add76b0d5561ea355",
+        "reset_checks_per_bank": 4,
+        "distribution": "same official continuous per-task reset distribution"
+      },
+      "seconds": 7.9670767998322845,
+      "costs": {
+        "environment_creations": 288,
+        "resets": 288,
+        "environment_steps": 0,
+        "train_iterations": 0,
+        "evaluation_episodes": 0
+      }
+    },
+    {
+      "name": "shared_sac_training",
+      "started_at": "2026-10-07T04:56:15.610073+00:00",
+      "passed": true,
+      "details": {
+        "steps": 4000,
+        "updates": 3000,
+        "seconds": 31.997297200374305,
+        "steps_per_second": 125.01055870285218,
+        "trace_sha256": null,
+        "first_record": {
+          "task": "DC",
+          "observation_hash": "151fb62dc07a60bbbb9746a1f678ad90d91abbee390bd28cfa09a3e62a3ab323",
+          "action_hash": "8583e2847f0b8d54e0a7f629baf974061088c9de1fcb93ee6a9aea5fca92cc6c",
+          "initial_state_hash": "82885fac45e113b9a21ec45315c65b72d33086e6805f86d97a79a8bf128bbdbb",
+          "updates": 0
+        },
+        "parameter_max_changes": {
+          "actor.": 0.10068350285291672,
+          "critic.": 0.6784204244613647,
+          "critic_target.": 0.628168523311615
+        },
+        "actual_collected_steps": {
+          "DO": 1000,
+          "DC": 1000,
+          "WO": 1000,
+          "WC": 1000
+        },
+        "actual_replay_transitions": {
+          "DO": 1000,
+          "DC": 1000,
+          "WO": 1000,
+          "WC": 1000
+        },
+        "gradient_sample_counts": {
+          "DO": 154014,
+          "DC": 203914,
+          "WO": 251319,
+          "WC": 158753
+        },
+        "last_update_metrics": {
+          "actor_loss": -31.092483520507812,
+          "critic_loss": 0.026183973997831345,
+          "entropy_loss": -6.080363750457764,
+          "entropy_coefficient": 0.4065230190753937,
+          "critic_0_abs_td_error": 0.11220485717058182,
+          "critic_1_abs_td_error": 0.14110606908798218
+        },
+        "network_inputs": {
+          "actor": 43,
+          "each_critic": 47
+        },
+        "resolved_target_entropy": -4.0
+      },
+      "seconds": 33.059149000793695,
+      "costs": {
+        "environment_creations": 8,
+        "resets": 8,
+        "environment_steps": 4000,
+        "train_iterations": 3000,
+        "evaluation_episodes": 0
+      }
+    },
+    {
+      "name": "complete_checkpoint",
+      "started_at": "2026-10-07T04:56:48.660106+00:00",
+      "passed": true,
+      "details": {
+        "step": 4000,
+        "updates": 3000,
+        "seconds_to_save": 0.0817592004314065,
+        "full_state_hashes": {
+          "learning": "18ca14566c62d7be15319b664df2c8f0912a95faae4d7b9501d35b86a4c65671",
+          "replay": "7f23c37402cc7fc2624e7abc0888e23080018daca47bd8d5a49842c3ddb785ad",
+          "collector": "6c59b9df349d2455e1d5813db10ab3b831f833aa7dc801ff71345711fadeaf09",
+          "rng": "649be62c66a901951a2b469d6b8c7e9b6d535955a75abf9c90703bbdee662d8a"
+        },
+        "overwrite_refused": true
+      },
+      "seconds": 0.08268449921160936,
+      "costs": {
+        "environment_creations": 0,
+        "resets": 0,
+        "environment_steps": 0,
+        "train_iterations": 0,
+        "evaluation_episodes": 0
+      }
+    },
+    {
+      "name": "evaluation_isolation",
+      "started_at": "2026-10-07T04:56:48.743363+00:00",
+      "passed": true,
+      "details": {
+        "first": {
+          "episodes": 8,
+          "environment_steps": 4000,
+          "seconds": 1.785611200146377,
+          "steps_per_second": 2240.1293180016437,
+          "success_by_task": {
+            "DO": 0.0,
+            "DC": 0.0,
+            "WO": 0.0,
+            "WC": 0.0
+          },
+          "macro_success": 0.0,
+          "results_hash": "104a562d8e57a8ec6ca631233e80919af33b4e1e8df664c2f628d6b5f4f4a6ac",
+          "purpose": "technical reproducibility only; not P0 or a research comparison"
+        },
+        "second": {
+          "episodes": 8,
+          "environment_steps": 4000,
+          "seconds": 1.7788035003468394,
+          "steps_per_second": 2248.702568451243,
+          "success_by_task": {
+            "DO": 0.0,
+            "DC": 0.0,
+            "WO": 0.0,
+            "WC": 0.0
+          },
+          "macro_success": 0.0,
+          "results_hash": "104a562d8e57a8ec6ca631233e80919af33b4e1e8df664c2f628d6b5f4f4a6ac",
+          "purpose": "technical reproducibility only; not P0 or a research comparison"
+        },
+        "full_training_state_unchanged": true,
+        "identical_episode_results": true,
+        "outcome_bank_policy_scores_used": false
+      },
+      "seconds": 3.5781789999455214,
+      "costs": {
+        "environment_creations": 16,
+        "resets": 16,
+        "environment_steps": 8000,
+        "train_iterations": 0,
+        "evaluation_episodes": 16
+      }
+    },
+    {
+      "name": "continuous_vs_restored_training",
+      "started_at": "2026-10-07T04:56:52.326737+00:00",
+      "passed": true,
+      "details": {
+        "continuous": {
+          "steps": 1000,
+          "updates": 1000,
+          "seconds": 10.83528110012412,
+          "steps_per_second": 92.29109893499161,
+          "trace_sha256": "04ff0d13af3139b140f035f8b517f0628323cc1fa7f0bc62ccd41777b3a9aeb1",
+          "first_record": {
+            "task": "DC",
+            "observation_hash": "6becd51671461ae9cca009705b535ae85f5d0a30155dbfe50bf908a18e1008f5",
+            "action_hash": "91f8df777ce200fbe5b0ae95396c5a225a9e7038fcfbd1352121f422f8b60063",
+            "initial_state_hash": "515c4d6c0a008c436e1bfe54c39067f2c6288b8f3bb10e0bf9fd7802110a90ec",
+            "updates": 3001
+          }
+        },
+        "resumed": {
+          "steps": 1000,
+          "updates": 1000,
+          "seconds": 10.587063699960709,
+          "steps_per_second": 94.45489593150472,
+          "trace_sha256": "04ff0d13af3139b140f035f8b517f0628323cc1fa7f0bc62ccd41777b3a9aeb1",
+          "first_record": {
+            "task": "DC",
+            "observation_hash": "6becd51671461ae9cca009705b535ae85f5d0a30155dbfe50bf908a18e1008f5",
+            "action_hash": "91f8df777ce200fbe5b0ae95396c5a225a9e7038fcfbd1352121f422f8b60063",
+            "initial_state_hash": "515c4d6c0a008c436e1bfe54c39067f2c6288b8f3bb10e0bf9fd7802110a90ec",
+            "updates": 3001
+          }
+        },
+        "seconds_to_load": 0.0791510995477438,
+        "final_state_fingerprints": {
+          "learning": "b401bacfea5192b42fcda6313306aec69599823537ac4606d1aeb25ff954ba85",
+          "replay": "88f3ad8e6b7ffc1768202288fe10659c59075471a204c70cfa276cd191efe9e4",
+          "collector": "291d84910fae2a426e05a58aa567479497960098154080eccc77d38a08cd2259",
+          "rng": "feda1b7cb83e5d583ef7df10635ada275b9100f42aa61e2b9996928eede13241"
+        },
+        "parameter_max_abs_difference": 0.0,
+        "comparison": "bitwise equality on the same installed runtime and selected device"
+      },
+      "seconds": 21.513148300349712,
+      "costs": {
+        "environment_creations": 4,
+        "resets": 4,
+        "environment_steps": 2000,
+        "train_iterations": 2000,
+        "evaluation_episodes": 0
+      }
+    },
+    {
+      "name": "stock_sac_equivalence",
+      "started_at": "2026-10-07T04:57:13.848671+00:00",
+      "passed": true,
+      "details": {
+        "stock_vs_instrumented_state_identical": true,
+        "sampled_indices_identical": true,
+        "rng_identical": true,
+        "gradient_iterations_per_model": 1
+      },
+      "seconds": 0.10873730015009642,
+      "costs": {
+        "environment_creations": 0,
+        "resets": 0,
+        "environment_steps": 0,
+        "train_iterations": 2,
+        "evaluation_episodes": 0
+      }
+    },
+    {
+      "name": "branch_initialization_and_no_warmup",
+      "started_at": "2026-10-07T04:57:13.957282+00:00",
+      "passed": true,
+      "details": {
+        "starts": [
+          {
+            "candidate": "U",
+            "learning_state_hash": "18ca14566c62d7be15319b664df2c8f0912a95faae4d7b9501d35b86a4c65671",
+            "replay_content_hash": "7ec4a4c7fcdab0aa31ef2a7a83a4f4b93159dc98c30ecd8fba04720cc8d8f74f",
+            "step": 4000,
+            "updates": 3000
+          },
+          {
+            "candidate": "F_DO",
+            "learning_state_hash": "18ca14566c62d7be15319b664df2c8f0912a95faae4d7b9501d35b86a4c65671",
+            "replay_content_hash": "7ec4a4c7fcdab0aa31ef2a7a83a4f4b93159dc98c30ecd8fba04720cc8d8f74f",
+            "step": 4000,
+            "updates": 3000
+          },
+          {
+            "candidate": "F_DC",
+            "learning_state_hash": "18ca14566c62d7be15319b664df2c8f0912a95faae4d7b9501d35b86a4c65671",
+            "replay_content_hash": "7ec4a4c7fcdab0aa31ef2a7a83a4f4b93159dc98c30ecd8fba04720cc8d8f74f",
+            "step": 4000,
+            "updates": 3000
+          },
+          {
+            "candidate": "F_WO",
+            "learning_state_hash": "18ca14566c62d7be15319b664df2c8f0912a95faae4d7b9501d35b86a4c65671",
+            "replay_content_hash": "7ec4a4c7fcdab0aa31ef2a7a83a4f4b93159dc98c30ecd8fba04720cc8d8f74f",
+            "step": 4000,
+            "updates": 3000
+          },
+          {
+            "candidate": "F_WC",
+            "learning_state_hash": "18ca14566c62d7be15319b664df2c8f0912a95faae4d7b9501d35b86a4c65671",
+            "replay_content_hash": "7ec4a4c7fcdab0aa31ef2a7a83a4f4b93159dc98c30ecd8fba04720cc8d8f74f",
+            "step": 4000,
+            "updates": 3000
+          }
+        ],
+        "short_focus_continuation": {
+          "steps": 500,
+          "updates": 500,
+          "seconds": 5.336004400625825,
+          "steps_per_second": 93.70307114839679,
+          "trace_sha256": "fc6830202f3f9d83456af1fcde813cc1a8576115da3d9ed2bd58266f295da612",
+          "first_record": {
+            "task": "DC",
+            "observation_hash": "617b3a0a7145d1c3c196363399b3d300cecf3a598d39c6d7db001a5598a383b6",
+            "action_hash": "f0d27e893f155f3957638c4a46432587265f8704fd265b93d4e18a1e7f3b04bc",
+            "initial_state_hash": "5961adf8f19f3b3e4ace641b11141d6f9d7820d8516c10a044f0ae034d150c6b",
+            "updates": 3001
+          }
+        },
+        "new_transitions_before_mid_episode_probe": 500,
+        "new_experiences_sampled": 7588,
+        "mid_episode_checkpoint_refused": true,
+        "note": "500-step focused continuation plus one rejection probe; not a 40k research branch."
+      },
+      "seconds": 5.7466662004590034,
+      "costs": {
+        "environment_creations": 2,
+        "resets": 2,
+        "environment_steps": 501,
+        "train_iterations": 501,
+        "evaluation_episodes": 0
+      }
+    }
+  ],
+  "costs": {
+    "environment_creations": 370,
+    "resets": 370,
+    "environment_steps": 34629,
+    "train_iterations": 5503,
+    "evaluation_episodes": 16
+  },
+  "elapsed_seconds": 78.48138410039246,
+  "error": null,
+  "p0_executed": false,
+  "research_branches_executed": 0
+}
