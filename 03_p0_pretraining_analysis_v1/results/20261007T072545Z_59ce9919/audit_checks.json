@@ -1,0 +1,362 @@
+[
+  {
+    "name": "completed_seed901_budget",
+    "passed": true,
+    "details": null
+  },
+  {
+    "name": "800_complete_episodes",
+    "passed": true,
+    "details": null
+  },
+  {
+    "name": "200_episodes_and_100k_steps_per_task",
+    "passed": true,
+    "details": null
+  },
+  {
+    "name": "all_100_blocks_uniform",
+    "passed": true,
+    "details": null
+  },
+  {
+    "name": "unique_training_resets",
+    "passed": true,
+    "details": null
+  },
+  {
+    "name": "280_disjoint_evaluation_states",
+    "passed": true,
+    "details": null
+  },
+  {
+    "name": "no_training_reset_in_evaluation_banks",
+    "passed": true,
+    "details": null
+  },
+  {
+    "name": "complete_320_evaluation_rows",
+    "passed": true,
+    "details": null
+  },
+  {
+    "name": "public_bank_only",
+    "passed": true,
+    "details": null
+  },
+  {
+    "name": "evaluation_horizons",
+    "passed": true,
+    "details": null
+  },
+  {
+    "name": "same_physical_cases_at_all_four_checkpoints",
+    "passed": true,
+    "details": null
+  },
+  {
+    "name": "recomputed_diagnostic_0",
+    "passed": true,
+    "details": {
+      "DC": 0,
+      "DO": 0,
+      "WC": 0,
+      "WO": 0
+    }
+  },
+  {
+    "name": "recomputed_diagnostic_100000",
+    "passed": true,
+    "details": {
+      "DC": 20,
+      "DO": 0,
+      "WC": 5,
+      "WO": 0
+    }
+  },
+  {
+    "name": "recomputed_diagnostic_200000",
+    "passed": true,
+    "details": {
+      "DC": 20,
+      "DO": 0,
+      "WC": 18,
+      "WO": 1
+    }
+  },
+  {
+    "name": "recomputed_diagnostic_400000",
+    "passed": true,
+    "details": {
+      "DC": 20,
+      "DO": 1,
+      "WC": 20,
+      "WO": 8
+    }
+  },
+  {
+    "name": "all_1600_metric_rows",
+    "passed": true,
+    "details": null
+  },
+  {
+    "name": "update_contract_at_all_logged_steps",
+    "passed": true,
+    "details": null
+  },
+  {
+    "name": "collection_and_batch_accounting",
+    "passed": true,
+    "details": null
+  },
+  {
+    "name": "replay_ring_counters",
+    "passed": true,
+    "details": null
+  },
+  {
+    "name": "finite_post_warmup_metrics",
+    "passed": true,
+    "details": null
+  },
+  {
+    "name": "sampled_final_counts_match_summary",
+    "passed": true,
+    "details": null
+  },
+  {
+    "name": "recorded_parameter_changes_finite_positive",
+    "passed": true,
+    "details": null
+  },
+  {
+    "name": "cost_ledger_reconciles",
+    "passed": true,
+    "details": null
+  },
+  {
+    "name": "training_time_reconciles",
+    "passed": true,
+    "details": null
+  },
+  {
+    "name": "frozen_source_run_pretraining.py",
+    "passed": true,
+    "details": null
+  },
+  {
+    "name": "frozen_source_run_validation.py",
+    "passed": true,
+    "details": null
+  },
+  {
+    "name": "frozen_source_launch_pretraining.ps1",
+    "passed": true,
+    "details": null
+  },
+  {
+    "name": "frozen_source_requirements.txt",
+    "passed": true,
+    "details": null
+  },
+  {
+    "name": "frozen_source_VERSION.json",
+    "passed": true,
+    "details": null
+  },
+  {
+    "name": "frozen_source_practice_allocation/__init__.py",
+    "passed": true,
+    "details": null
+  },
+  {
+    "name": "frozen_source_practice_allocation/core.py",
+    "passed": true,
+    "details": null
+  },
+  {
+    "name": "frozen_source_practice_allocation/engine.py",
+    "passed": true,
+    "details": null
+  },
+  {
+    "name": "frozen_source_practice_allocation/environment.py",
+    "passed": true,
+    "details": null
+  },
+  {
+    "name": "frozen_source_practice_allocation/evaluation.py",
+    "passed": true,
+    "details": null
+  },
+  {
+    "name": "frozen_source_practice_allocation/learning.py",
+    "passed": true,
+    "details": null
+  },
+  {
+    "name": "frozen_source_practice_allocation/preflight.py",
+    "passed": true,
+    "details": null
+  },
+  {
+    "name": "frozen_source_practice_allocation/pretraining.py",
+    "passed": true,
+    "details": null
+  },
+  {
+    "name": "frozen_source_configs/pretraining.json",
+    "passed": true,
+    "details": null
+  },
+  {
+    "name": "frozen_source_configs/validation.json",
+    "passed": true,
+    "details": null
+  },
+  {
+    "name": "frozen_source_tests/test_contracts.py",
+    "passed": true,
+    "details": null
+  },
+  {
+    "name": "frozen_source_tests/test_pretraining.py",
+    "passed": true,
+    "details": null
+  },
+  {
+    "name": "checkpoint_counters_200000",
+    "passed": true,
+    "details": null
+  },
+  {
+    "name": "checkpoint_file_200000_model.zip",
+    "passed": true,
+    "details": null
+  },
+  {
+    "name": "checkpoint_file_200000_replay.pkl",
+    "passed": true,
+    "details": null
+  },
+  {
+    "name": "checkpoint_file_200000_collector_and_rng.pkl",
+    "passed": true,
+    "details": null
+  },
+  {
+    "name": "checkpoint_counters_400000",
+    "passed": true,
+    "details": null
+  },
+  {
+    "name": "checkpoint_file_400000_model.zip",
+    "passed": true,
+    "details": null
+  },
+  {
+    "name": "checkpoint_file_400000_replay.pkl",
+    "passed": true,
+    "details": null
+  },
+  {
+    "name": "checkpoint_file_400000_collector_and_rng.pkl",
+    "passed": true,
+    "details": null
+  },
+  {
+    "name": "first_eligible_checkpoint_remains_200k",
+    "passed": true,
+    "details": null
+  },
+  {
+    "name": "wilson_independent_check_0_DC",
+    "passed": true,
+    "details": null
+  },
+  {
+    "name": "wilson_independent_check_0_DO",
+    "passed": true,
+    "details": null
+  },
+  {
+    "name": "wilson_independent_check_0_WC",
+    "passed": true,
+    "details": null
+  },
+  {
+    "name": "wilson_independent_check_0_WO",
+    "passed": true,
+    "details": null
+  },
+  {
+    "name": "wilson_independent_check_100000_DC",
+    "passed": true,
+    "details": null
+  },
+  {
+    "name": "wilson_independent_check_100000_DO",
+    "passed": true,
+    "details": null
+  },
+  {
+    "name": "wilson_independent_check_100000_WC",
+    "passed": true,
+    "details": null
+  },
+  {
+    "name": "wilson_independent_check_100000_WO",
+    "passed": true,
+    "details": null
+  },
+  {
+    "name": "wilson_independent_check_200000_DC",
+    "passed": true,
+    "details": null
+  },
+  {
+    "name": "wilson_independent_check_200000_DO",
+    "passed": true,
+    "details": null
+  },
+  {
+    "name": "wilson_independent_check_200000_WC",
+    "passed": true,
+    "details": null
+  },
+  {
+    "name": "wilson_independent_check_200000_WO",
+    "passed": true,
+    "details": null
+  },
+  {
+    "name": "wilson_independent_check_400000_DC",
+    "passed": true,
+    "details": null
+  },
+  {
+    "name": "wilson_independent_check_400000_DO",
+    "passed": true,
+    "details": null
+  },
+  {
+    "name": "wilson_independent_check_400000_WC",
+    "passed": true,
+    "details": null
+  },
+  {
+    "name": "wilson_independent_check_400000_WO",
+    "passed": true,
+    "details": null
+  },
+  {
+    "name": "completed_event_speeds_match_cost_ledger",
+    "passed": true,
+    "details": null
+  },
+  {
+    "name": "input_files_unchanged",
+    "passed": true,
+    "details": null
+  }
+]

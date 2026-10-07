@@ -1,0 +1,13 @@
+{
+  "stage": "train_000212000",
+  "started_at": "2026-10-07T06:33:01.236157+00:00",
+  "passed": true,
+  "seconds": 35.48713969998062,
+  "costs": {
+    "environment_creations": 8,
+    "resets": 8,
+    "environment_steps": 4000,
+    "train_iterations": 4000,
+    "evaluation_episodes": 0
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "step": 400000,
+  "previous_step": 200000,
+  "mixed_success_tasks": [
+    "DO",
+    "WO"
+  ],
+  "eligible": true,
+  "recommendations": {
+    "Uniform": "U",
+    "Failure": "F_DO",
+    "Progress": "F_WO"
+  },
+  "progress_per_training_step": {
+    "DO": 2.5e-07,
+    "DC": 0.0,
+    "WO": 1.75e-06,
+    "WC": 5e-07
+  },
+  "input_hash": "40e1aa0988b4ce0df68a56dbffb992bbe5812e1886b37685b24dff5f3081d218",
+  "inputs": [
+    {
+      "step": 200000,
+      "success_counts": {
+        "DO": 0,
+        "DC": 20,
+        "WO": 1,
+        "WC": 18
+      },
+      "episodes_by_task": {
+        "DO": 20,
+        "DC": 20,
+        "WO": 20,
+        "WC": 20
+      },
+      "results_hash": "14f981d7e93ae7304fc7cb8e0f45603a82f87529362fe771ed81932312fb7d39"
+    },
+    {
+      "step": 400000,
+      "success_counts": {
+        "DO": 1,
+        "DC": 20,
+        "WO": 8,
+        "WC": 20
+      },
+      "episodes_by_task": {
+        "DO": 20,
+        "DC": 20,
+        "WO": 20,
+        "WC": 20
+      },
+      "results_hash": "42320bd5cefebfd2ad5ea3648376414cb46e5f6fd5f2b4e3971c9247868ae78a"
+    }
+  ],
+  "information_source": "public diagnostic bank only",
+  "outcome_scores_used": false
+}

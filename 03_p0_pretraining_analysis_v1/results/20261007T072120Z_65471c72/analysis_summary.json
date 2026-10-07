@@ -1,0 +1,175 @@
+{
+  "assessment": "technically_valid_pilot_with_uneven_task_proficiency",
+  "original_seed": 901,
+  "training_steps": 400000,
+  "gradient_iterations": 399000,
+  "evaluation_unique_initial_states": 80,
+  "evaluation_episode_records": 320,
+  "macro_success_by_step": {
+    "0": 0.0,
+    "100000": 0.3125,
+    "200000": 0.4875,
+    "400000": 0.6124999999999999
+  },
+  "final_success_rates": {
+    "DO": 0.05,
+    "DC": 1.0,
+    "WO": 0.4,
+    "WC": 1.0
+  },
+  "final_wilson95": {
+    "DO": [
+      0.008881448800795375,
+      0.236131193446742
+    ],
+    "DC": [
+      0.8388748419471808,
+      1.0
+    ],
+    "WO": [
+      0.2188065323728171,
+      0.6134184992377468
+    ],
+    "WC": [
+      0.8388748419471808,
+      1.0
+    ]
+  },
+  "last100k_training_success": {
+    "DO": 0.28,
+    "DC": 0.98,
+    "WO": 0.4,
+    "WC": 0.94
+  },
+  "last100k_training_episode_counts": {
+    "DO": 50,
+    "DC": 50,
+    "WO": 50,
+    "WC": 50
+  },
+  "last100k_mean_return": {
+    "DO": 1903.5351024341662,
+    "DC": 4491.6945978388785,
+    "WO": 619.062332299193,
+    "WC": 3702.432367407664
+  },
+  "paired_200k_to_400k": [
+    {
+      "from_step": 200000,
+      "to_step": 400000,
+      "task": "DO",
+      "paired_episodes": 20,
+      "new_successes": 1,
+      "lost_successes": 0,
+      "persistent_successes": 0,
+      "persistent_failures": 19,
+      "task_gain_pp": 5.0,
+      "macro_gain_contribution_pp": 1.25
+    },
+    {
+      "from_step": 200000,
+      "to_step": 400000,
+      "task": "DC",
+      "paired_episodes": 20,
+      "new_successes": 0,
+      "lost_successes": 0,
+      "persistent_successes": 20,
+      "persistent_failures": 0,
+      "task_gain_pp": 0.0,
+      "macro_gain_contribution_pp": 0.0
+    },
+    {
+      "from_step": 200000,
+      "to_step": 400000,
+      "task": "WO",
+      "paired_episodes": 20,
+      "new_successes": 7,
+      "lost_successes": 0,
+      "persistent_successes": 1,
+      "persistent_failures": 12,
+      "task_gain_pp": 35.0,
+      "macro_gain_contribution_pp": 8.75
+    },
+    {
+      "from_step": 200000,
+      "to_step": 400000,
+      "task": "WC",
+      "paired_episodes": 20,
+      "new_successes": 2,
+      "lost_successes": 0,
+      "persistent_successes": 18,
+      "persistent_failures": 0,
+      "task_gain_pp": 9.999999999999998,
+      "macro_gain_contribution_pp": 2.4999999999999996
+    }
+  ],
+  "final_sample_shares": {
+    "DO": 0.2495085271773183,
+    "DC": 0.25058660322681703,
+    "WO": 0.2509412691885965,
+    "WC": 0.24896360040726817
+  },
+  "final_optimization_metrics": {
+    "actor_loss": -626.259521484375,
+    "critic_loss": 30.11731338500977,
+    "entropy_loss": -0.3806322813034057,
+    "entropy_coefficient": 0.1142439469695091,
+    "critic_0_abs_td_error": 3.1846251487731934,
+    "critic_1_abs_td_error": 3.8647615909576416
+  },
+  "selected_checkpoint_step": 200000,
+  "frozen_200k_recommendations": {
+    "Uniform": "U",
+    "Failure": "F_DO",
+    "Progress": "F_WC"
+  },
+  "recorded_400k_recommendations": {
+    "Uniform": "U",
+    "Failure": "F_DO",
+    "Progress": "F_WO"
+  },
+  "timing": [
+    {
+      "category": "train",
+      "seconds": 3269.777964600362,
+      "environment_steps": 400000,
+      "steps_per_second": 122.33246548558496
+    },
+    {
+      "category": "evaluation",
+      "seconds": 112.8229672992602,
+      "environment_steps": 108436,
+      "steps_per_second": 961.1163630573208
+    },
+    {
+      "category": "checkpoint",
+      "seconds": 0.5877599008381366,
+      "environment_steps": 0,
+      "steps_per_second": 0.0
+    },
+    {
+      "category": "bank_generation",
+      "seconds": 7.847385100089014,
+      "environment_steps": 0,
+      "steps_per_second": 0.0
+    },
+    {
+      "category": "model_initialization",
+      "seconds": 1.2689634999260306,
+      "environment_steps": 0,
+      "steps_per_second": 0.0
+    }
+  ],
+  "training_transitions": 400000,
+  "evaluation_transitions": 108436,
+  "original_elapsed_seconds": 3393.059854399413,
+  "cuda_peak_pytorch_tensor_MiB": 73.123046875,
+  "interval_scope": "Approximate marginal 95% Wilson intervals conditional on one learned policy; no training-seed uncertainty or simultaneous coverage.",
+  "limits": [
+    "No outcome-bank policy scores were evaluated.",
+    "No allocation branches have run.",
+    "Only four diagnostic checkpoints; no claim of detailed deterministic learning curves or convergence.",
+    "Training success uses stochastic actions and changing policies/resets; not an unbiased estimate of final deterministic evaluation.",
+    "Task failure mechanisms, gradient conflict, and causal allocation effects are not identified by these aggregate logs."
+  ]
+}

@@ -2,3 +2,9 @@
 *.zip binary
 *.pkl binary
 *.npz binary
+
+# Preserve recorded experiment bytes so SHA-256 evidence survives Git checkout.
+02_p0_uniform_pretraining_v1/results/20261007T060310Z_p0_cuda_50621c50/** -text whitespace=cr-at-eol
+03_p0_pretraining_analysis_v1/results/** -text whitespace=cr-at-eol
+# Matplotlib SVG exports are rendered artifacts, not hand-edited source diffs.
+03_p0_pretraining_analysis_v1/results/**/*.svg -diff

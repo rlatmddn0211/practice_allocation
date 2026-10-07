@@ -1,0 +1,732 @@
+New p0_pretraining run: C:\Users\SS\Projects\robot_practice_allocation\02_p0_uniform_pretraining_v1\results\20261007T060310Z_p0_cuda_50621c50\run
+2026-10-07T06:03:12.636572+00:00 | initializing | step 0/400,000 | updates 0
+2026-10-07T06:03:13.248263+00:00 | build_evaluation_banks_started | step 0/400,000 | updates 0
+  diagnostic bank: DO 20 distinct initial states
+  diagnostic bank: DC 20 distinct initial states
+  diagnostic bank: WO 20 distinct initial states
+  diagnostic bank: WC 20 distinct initial states
+  outcome bank: DO 50 distinct initial states
+  outcome bank: DC 50 distinct initial states
+  outcome bank: WO 50 distinct initial states
+  outcome bank: WC 50 distinct initial states
+2026-10-07T06:03:21.100523+00:00 | build_evaluation_banks_completed | step 0/400,000 | updates 0
+2026-10-07T06:03:21.115526+00:00 | initialize_fresh_sac_started | step 0/400,000 | updates 0
+2026-10-07T06:03:22.375660+00:00 | initialize_fresh_sac_completed | step 0/400,000 | updates 0
+2026-10-07T06:03:22.391367+00:00 | diagnostic_000000000_started | step 0/400,000 | updates 0
+2026-10-07T06:04:01.992173+00:00 | diagnostic_result | step 0/400,000 | updates 0
+2026-10-07T06:04:02.008850+00:00 | diagnostic_000000000_completed | step 0/400,000 | updates 0
+2026-10-07T06:04:02.008850+00:00 | train_000004000_started | step 0/400,000 | updates 0
+  p0_uniform: 1000/4000 transitions, 0 total updates
+  p0_uniform: 2000/4000 transitions, 1000 total updates
+  p0_uniform: 3000/4000 transitions, 2000 total updates
+  p0_uniform: 4000/4000 transitions, 3000 total updates
+2026-10-07T06:04:24.563740+00:00 | uniform_block_audited | step 4,000/400,000 | updates 3,000
+2026-10-07T06:04:24.563740+00:00 | train_000004000_completed | step 4,000/400,000 | updates 3,000
+2026-10-07T06:04:24.563740+00:00 | train_000008000_started | step 4,000/400,000 | updates 3,000
+  p0_uniform: 1000/4000 transitions, 4000 total updates
+  p0_uniform: 2000/4000 transitions, 5000 total updates
+  p0_uniform: 3000/4000 transitions, 6000 total updates
+  p0_uniform: 4000/4000 transitions, 7000 total updates
+2026-10-07T06:04:54.525345+00:00 | uniform_block_audited | step 8,000/400,000 | updates 7,000
+2026-10-07T06:04:54.525345+00:00 | train_000008000_completed | step 8,000/400,000 | updates 7,000
+2026-10-07T06:04:54.525345+00:00 | train_000012000_started | step 8,000/400,000 | updates 7,000
+  p0_uniform: 1000/4000 transitions, 8000 total updates
+  p0_uniform: 2000/4000 transitions, 9000 total updates
+  p0_uniform: 3000/4000 transitions, 10000 total updates
+  p0_uniform: 4000/4000 transitions, 11000 total updates
+2026-10-07T06:05:30.435490+00:00 | uniform_block_audited | step 12,000/400,000 | updates 11,000
+2026-10-07T06:05:30.436492+00:00 | train_000012000_completed | step 12,000/400,000 | updates 11,000
+2026-10-07T06:05:30.436492+00:00 | train_000016000_started | step 12,000/400,000 | updates 11,000
+  p0_uniform: 1000/4000 transitions, 12000 total updates
+  p0_uniform: 2000/4000 transitions, 13000 total updates
+  p0_uniform: 3000/4000 transitions, 14000 total updates
+  p0_uniform: 4000/4000 transitions, 15000 total updates
+2026-10-07T06:06:06.031911+00:00 | uniform_block_audited | step 16,000/400,000 | updates 15,000
+2026-10-07T06:06:06.031911+00:00 | train_000016000_completed | step 16,000/400,000 | updates 15,000
+2026-10-07T06:06:06.033565+00:00 | train_000020000_started | step 16,000/400,000 | updates 15,000
+  p0_uniform: 1000/4000 transitions, 16000 total updates
+  p0_uniform: 2000/4000 transitions, 17000 total updates
+  p0_uniform: 3000/4000 transitions, 18000 total updates
+  p0_uniform: 4000/4000 transitions, 19000 total updates
+2026-10-07T06:06:38.445567+00:00 | uniform_block_audited | step 20,000/400,000 | updates 19,000
+2026-10-07T06:06:38.445567+00:00 | train_000020000_completed | step 20,000/400,000 | updates 19,000
+2026-10-07T06:06:38.445567+00:00 | train_000024000_started | step 20,000/400,000 | updates 19,000
+  p0_uniform: 1000/4000 transitions, 20000 total updates
+  p0_uniform: 2000/4000 transitions, 21000 total updates
+  p0_uniform: 3000/4000 transitions, 22000 total updates
+  p0_uniform: 4000/4000 transitions, 23000 total updates
+2026-10-07T06:07:09.528801+00:00 | uniform_block_audited | step 24,000/400,000 | updates 23,000
+2026-10-07T06:07:09.528801+00:00 | train_000024000_completed | step 24,000/400,000 | updates 23,000
+2026-10-07T06:07:09.528801+00:00 | train_000028000_started | step 24,000/400,000 | updates 23,000
+  p0_uniform: 1000/4000 transitions, 24000 total updates
+  p0_uniform: 2000/4000 transitions, 25000 total updates
+  p0_uniform: 3000/4000 transitions, 26000 total updates
+  p0_uniform: 4000/4000 transitions, 27000 total updates
+2026-10-07T06:07:42.954668+00:00 | uniform_block_audited | step 28,000/400,000 | updates 27,000
+2026-10-07T06:07:42.955664+00:00 | train_000028000_completed | step 28,000/400,000 | updates 27,000
+2026-10-07T06:07:42.955664+00:00 | train_000032000_started | step 28,000/400,000 | updates 27,000
+  p0_uniform: 1000/4000 transitions, 28000 total updates
+  p0_uniform: 2000/4000 transitions, 29000 total updates
+  p0_uniform: 3000/4000 transitions, 30000 total updates
+  p0_uniform: 4000/4000 transitions, 31000 total updates
+2026-10-07T06:08:14.553167+00:00 | uniform_block_audited | step 32,000/400,000 | updates 31,000
+2026-10-07T06:08:14.554166+00:00 | train_000032000_completed | step 32,000/400,000 | updates 31,000
+2026-10-07T06:08:14.554166+00:00 | train_000036000_started | step 32,000/400,000 | updates 31,000
+  p0_uniform: 1000/4000 transitions, 32000 total updates
+  p0_uniform: 2000/4000 transitions, 33000 total updates
+  p0_uniform: 3000/4000 transitions, 34000 total updates
+  p0_uniform: 4000/4000 transitions, 35000 total updates
+2026-10-07T06:08:45.815363+00:00 | uniform_block_audited | step 36,000/400,000 | updates 35,000
+2026-10-07T06:08:45.815566+00:00 | train_000036000_completed | step 36,000/400,000 | updates 35,000
+2026-10-07T06:08:45.816564+00:00 | train_000040000_started | step 36,000/400,000 | updates 35,000
+  p0_uniform: 1000/4000 transitions, 36000 total updates
+  p0_uniform: 2000/4000 transitions, 37000 total updates
+  p0_uniform: 3000/4000 transitions, 38000 total updates
+  p0_uniform: 4000/4000 transitions, 39000 total updates
+2026-10-07T06:09:18.048571+00:00 | uniform_block_audited | step 40,000/400,000 | updates 39,000
+2026-10-07T06:09:18.049843+00:00 | train_000040000_completed | step 40,000/400,000 | updates 39,000
+2026-10-07T06:09:18.049843+00:00 | train_000044000_started | step 40,000/400,000 | updates 39,000
+  p0_uniform: 1000/4000 transitions, 40000 total updates
+  p0_uniform: 2000/4000 transitions, 41000 total updates
+  p0_uniform: 3000/4000 transitions, 42000 total updates
+  p0_uniform: 4000/4000 transitions, 43000 total updates
+2026-10-07T06:09:49.778334+00:00 | uniform_block_audited | step 44,000/400,000 | updates 43,000
+2026-10-07T06:09:49.778334+00:00 | train_000044000_completed | step 44,000/400,000 | updates 43,000
+2026-10-07T06:09:49.778334+00:00 | train_000048000_started | step 44,000/400,000 | updates 43,000
+  p0_uniform: 1000/4000 transitions, 44000 total updates
+  p0_uniform: 2000/4000 transitions, 45000 total updates
+  p0_uniform: 3000/4000 transitions, 46000 total updates
+  p0_uniform: 4000/4000 transitions, 47000 total updates
+2026-10-07T06:10:20.450437+00:00 | uniform_block_audited | step 48,000/400,000 | updates 47,000
+2026-10-07T06:10:20.450437+00:00 | train_000048000_completed | step 48,000/400,000 | updates 47,000
+2026-10-07T06:10:20.450437+00:00 | train_000052000_started | step 48,000/400,000 | updates 47,000
+  p0_uniform: 1000/4000 transitions, 48000 total updates
+  p0_uniform: 2000/4000 transitions, 49000 total updates
+  p0_uniform: 3000/4000 transitions, 50000 total updates
+  p0_uniform: 4000/4000 transitions, 51000 total updates
+2026-10-07T06:10:50.090025+00:00 | uniform_block_audited | step 52,000/400,000 | updates 51,000
+2026-10-07T06:10:50.090025+00:00 | train_000052000_completed | step 52,000/400,000 | updates 51,000
+2026-10-07T06:10:50.090025+00:00 | train_000056000_started | step 52,000/400,000 | updates 51,000
+  p0_uniform: 1000/4000 transitions, 52000 total updates
+  p0_uniform: 2000/4000 transitions, 53000 total updates
+  p0_uniform: 3000/4000 transitions, 54000 total updates
+  p0_uniform: 4000/4000 transitions, 55000 total updates
+2026-10-07T06:11:25.466648+00:00 | uniform_block_audited | step 56,000/400,000 | updates 55,000
+2026-10-07T06:11:25.466648+00:00 | train_000056000_completed | step 56,000/400,000 | updates 55,000
+2026-10-07T06:11:25.466648+00:00 | train_000060000_started | step 56,000/400,000 | updates 55,000
+  p0_uniform: 1000/4000 transitions, 56000 total updates
+  p0_uniform: 2000/4000 transitions, 57000 total updates
+  p0_uniform: 3000/4000 transitions, 58000 total updates
+  p0_uniform: 4000/4000 transitions, 59000 total updates
+2026-10-07T06:12:02.398849+00:00 | uniform_block_audited | step 60,000/400,000 | updates 59,000
+2026-10-07T06:12:02.399400+00:00 | train_000060000_completed | step 60,000/400,000 | updates 59,000
+2026-10-07T06:12:02.399400+00:00 | train_000064000_started | step 60,000/400,000 | updates 59,000
+  p0_uniform: 1000/4000 transitions, 60000 total updates
+  p0_uniform: 2000/4000 transitions, 61000 total updates
+  p0_uniform: 3000/4000 transitions, 62000 total updates
+  p0_uniform: 4000/4000 transitions, 63000 total updates
+2026-10-07T06:12:36.868781+00:00 | uniform_block_audited | step 64,000/400,000 | updates 63,000
+2026-10-07T06:12:36.868781+00:00 | train_000064000_completed | step 64,000/400,000 | updates 63,000
+2026-10-07T06:12:36.868781+00:00 | train_000068000_started | step 64,000/400,000 | updates 63,000
+  p0_uniform: 1000/4000 transitions, 64000 total updates
+  p0_uniform: 2000/4000 transitions, 65000 total updates
+  p0_uniform: 3000/4000 transitions, 66000 total updates
+  p0_uniform: 4000/4000 transitions, 67000 total updates
+2026-10-07T06:13:07.920075+00:00 | uniform_block_audited | step 68,000/400,000 | updates 67,000
+2026-10-07T06:13:07.921073+00:00 | train_000068000_completed | step 68,000/400,000 | updates 67,000
+2026-10-07T06:13:07.921073+00:00 | train_000072000_started | step 68,000/400,000 | updates 67,000
+  p0_uniform: 1000/4000 transitions, 68000 total updates
+  p0_uniform: 2000/4000 transitions, 69000 total updates
+  p0_uniform: 3000/4000 transitions, 70000 total updates
+  p0_uniform: 4000/4000 transitions, 71000 total updates
+2026-10-07T06:13:40.337986+00:00 | uniform_block_audited | step 72,000/400,000 | updates 71,000
+2026-10-07T06:13:40.337986+00:00 | train_000072000_completed | step 72,000/400,000 | updates 71,000
+2026-10-07T06:13:40.337986+00:00 | train_000076000_started | step 72,000/400,000 | updates 71,000
+  p0_uniform: 1000/4000 transitions, 72000 total updates
+  p0_uniform: 2000/4000 transitions, 73000 total updates
+  p0_uniform: 3000/4000 transitions, 74000 total updates
+  p0_uniform: 4000/4000 transitions, 75000 total updates
+2026-10-07T06:14:11.376471+00:00 | uniform_block_audited | step 76,000/400,000 | updates 75,000
+2026-10-07T06:14:11.376471+00:00 | train_000076000_completed | step 76,000/400,000 | updates 75,000
+2026-10-07T06:14:11.376471+00:00 | train_000080000_started | step 76,000/400,000 | updates 75,000
+  p0_uniform: 1000/4000 transitions, 76000 total updates
+  p0_uniform: 2000/4000 transitions, 77000 total updates
+  p0_uniform: 3000/4000 transitions, 78000 total updates
+  p0_uniform: 4000/4000 transitions, 79000 total updates
+2026-10-07T06:14:41.729754+00:00 | uniform_block_audited | step 80,000/400,000 | updates 79,000
+2026-10-07T06:14:41.729754+00:00 | train_000080000_completed | step 80,000/400,000 | updates 79,000
+2026-10-07T06:14:41.729754+00:00 | train_000084000_started | step 80,000/400,000 | updates 79,000
+  p0_uniform: 1000/4000 transitions, 80000 total updates
+  p0_uniform: 2000/4000 transitions, 81000 total updates
+  p0_uniform: 3000/4000 transitions, 82000 total updates
+  p0_uniform: 4000/4000 transitions, 83000 total updates
+2026-10-07T06:15:14.856792+00:00 | uniform_block_audited | step 84,000/400,000 | updates 83,000
+2026-10-07T06:15:14.856792+00:00 | train_000084000_completed | step 84,000/400,000 | updates 83,000
+2026-10-07T06:15:14.856792+00:00 | train_000088000_started | step 84,000/400,000 | updates 83,000
+  p0_uniform: 1000/4000 transitions, 84000 total updates
+  p0_uniform: 2000/4000 transitions, 85000 total updates
+  p0_uniform: 3000/4000 transitions, 86000 total updates
+  p0_uniform: 4000/4000 transitions, 87000 total updates
+2026-10-07T06:15:48.080359+00:00 | uniform_block_audited | step 88,000/400,000 | updates 87,000
+2026-10-07T06:15:48.080359+00:00 | train_000088000_completed | step 88,000/400,000 | updates 87,000
+2026-10-07T06:15:48.080359+00:00 | train_000092000_started | step 88,000/400,000 | updates 87,000
+  p0_uniform: 1000/4000 transitions, 88000 total updates
+  p0_uniform: 2000/4000 transitions, 89000 total updates
+  p0_uniform: 3000/4000 transitions, 90000 total updates
+  p0_uniform: 4000/4000 transitions, 91000 total updates
+2026-10-07T06:16:21.193648+00:00 | uniform_block_audited | step 92,000/400,000 | updates 91,000
+2026-10-07T06:16:21.193648+00:00 | train_000092000_completed | step 92,000/400,000 | updates 91,000
+2026-10-07T06:16:21.193648+00:00 | train_000096000_started | step 92,000/400,000 | updates 91,000
+  p0_uniform: 1000/4000 transitions, 92000 total updates
+  p0_uniform: 2000/4000 transitions, 93000 total updates
+  p0_uniform: 3000/4000 transitions, 94000 total updates
+  p0_uniform: 4000/4000 transitions, 95000 total updates
+2026-10-07T06:16:51.683992+00:00 | uniform_block_audited | step 96,000/400,000 | updates 95,000
+2026-10-07T06:16:51.683992+00:00 | train_000096000_completed | step 96,000/400,000 | updates 95,000
+2026-10-07T06:16:51.683992+00:00 | train_000100000_started | step 96,000/400,000 | updates 95,000
+  p0_uniform: 1000/4000 transitions, 96000 total updates
+  p0_uniform: 2000/4000 transitions, 97000 total updates
+  p0_uniform: 3000/4000 transitions, 98000 total updates
+  p0_uniform: 4000/4000 transitions, 99000 total updates
+2026-10-07T06:17:27.366114+00:00 | uniform_block_audited | step 100,000/400,000 | updates 99,000
+2026-10-07T06:17:27.366114+00:00 | train_000100000_completed | step 100,000/400,000 | updates 99,000
+2026-10-07T06:17:27.366114+00:00 | diagnostic_000100000_started | step 100,000/400,000 | updates 99,000
+2026-10-07T06:18:00.405965+00:00 | diagnostic_result | step 100,000/400,000 | updates 99,000
+2026-10-07T06:18:00.408160+00:00 | diagnostic_000100000_completed | step 100,000/400,000 | updates 99,000
+2026-10-07T06:18:00.408160+00:00 | train_000104000_started | step 100,000/400,000 | updates 99,000
+  p0_uniform: 1000/4000 transitions, 100000 total updates
+  p0_uniform: 2000/4000 transitions, 101000 total updates
+  p0_uniform: 3000/4000 transitions, 102000 total updates
+  p0_uniform: 4000/4000 transitions, 103000 total updates
+2026-10-07T06:18:34.529179+00:00 | uniform_block_audited | step 104,000/400,000 | updates 103,000
+2026-10-07T06:18:34.529179+00:00 | train_000104000_completed | step 104,000/400,000 | updates 103,000
+2026-10-07T06:18:34.529179+00:00 | train_000108000_started | step 104,000/400,000 | updates 103,000
+  p0_uniform: 1000/4000 transitions, 104000 total updates
+  p0_uniform: 2000/4000 transitions, 105000 total updates
+  p0_uniform: 3000/4000 transitions, 106000 total updates
+  p0_uniform: 4000/4000 transitions, 107000 total updates
+2026-10-07T06:19:05.266290+00:00 | uniform_block_audited | step 108,000/400,000 | updates 107,000
+2026-10-07T06:19:05.266290+00:00 | train_000108000_completed | step 108,000/400,000 | updates 107,000
+2026-10-07T06:19:05.266290+00:00 | train_000112000_started | step 108,000/400,000 | updates 107,000
+  p0_uniform: 1000/4000 transitions, 108000 total updates
+  p0_uniform: 2000/4000 transitions, 109000 total updates
+  p0_uniform: 3000/4000 transitions, 110000 total updates
+  p0_uniform: 4000/4000 transitions, 111000 total updates
+2026-10-07T06:19:41.315441+00:00 | uniform_block_audited | step 112,000/400,000 | updates 111,000
+2026-10-07T06:19:41.315441+00:00 | train_000112000_completed | step 112,000/400,000 | updates 111,000
+2026-10-07T06:19:41.315441+00:00 | train_000116000_started | step 112,000/400,000 | updates 111,000
+  p0_uniform: 1000/4000 transitions, 112000 total updates
+  p0_uniform: 2000/4000 transitions, 113000 total updates
+  p0_uniform: 3000/4000 transitions, 114000 total updates
+  p0_uniform: 4000/4000 transitions, 115000 total updates
+2026-10-07T06:20:13.607918+00:00 | uniform_block_audited | step 116,000/400,000 | updates 115,000
+2026-10-07T06:20:13.607918+00:00 | train_000116000_completed | step 116,000/400,000 | updates 115,000
+2026-10-07T06:20:13.607918+00:00 | train_000120000_started | step 116,000/400,000 | updates 115,000
+  p0_uniform: 1000/4000 transitions, 116000 total updates
+  p0_uniform: 2000/4000 transitions, 117000 total updates
+  p0_uniform: 3000/4000 transitions, 118000 total updates
+  p0_uniform: 4000/4000 transitions, 119000 total updates
+2026-10-07T06:20:43.813964+00:00 | uniform_block_audited | step 120,000/400,000 | updates 119,000
+2026-10-07T06:20:43.813964+00:00 | train_000120000_completed | step 120,000/400,000 | updates 119,000
+2026-10-07T06:20:43.813964+00:00 | train_000124000_started | step 120,000/400,000 | updates 119,000
+  p0_uniform: 1000/4000 transitions, 120000 total updates
+  p0_uniform: 2000/4000 transitions, 121000 total updates
+  p0_uniform: 3000/4000 transitions, 122000 total updates
+  p0_uniform: 4000/4000 transitions, 123000 total updates
+2026-10-07T06:21:16.572202+00:00 | uniform_block_audited | step 124,000/400,000 | updates 123,000
+2026-10-07T06:21:16.572202+00:00 | train_000124000_completed | step 124,000/400,000 | updates 123,000
+2026-10-07T06:21:16.572202+00:00 | train_000128000_started | step 124,000/400,000 | updates 123,000
+  p0_uniform: 1000/4000 transitions, 124000 total updates
+  p0_uniform: 2000/4000 transitions, 125000 total updates
+  p0_uniform: 3000/4000 transitions, 126000 total updates
+  p0_uniform: 4000/4000 transitions, 127000 total updates
+2026-10-07T06:21:50.168169+00:00 | uniform_block_audited | step 128,000/400,000 | updates 127,000
+2026-10-07T06:21:50.176209+00:00 | train_000128000_completed | step 128,000/400,000 | updates 127,000
+2026-10-07T06:21:50.176209+00:00 | train_000132000_started | step 128,000/400,000 | updates 127,000
+  p0_uniform: 1000/4000 transitions, 128000 total updates
+  p0_uniform: 2000/4000 transitions, 129000 total updates
+  p0_uniform: 3000/4000 transitions, 130000 total updates
+  p0_uniform: 4000/4000 transitions, 131000 total updates
+2026-10-07T06:22:24.075170+00:00 | uniform_block_audited | step 132,000/400,000 | updates 131,000
+2026-10-07T06:22:24.075170+00:00 | train_000132000_completed | step 132,000/400,000 | updates 131,000
+2026-10-07T06:22:24.075170+00:00 | train_000136000_started | step 132,000/400,000 | updates 131,000
+  p0_uniform: 1000/4000 transitions, 132000 total updates
+  p0_uniform: 2000/4000 transitions, 133000 total updates
+  p0_uniform: 3000/4000 transitions, 134000 total updates
+  p0_uniform: 4000/4000 transitions, 135000 total updates
+2026-10-07T06:22:53.083820+00:00 | uniform_block_audited | step 136,000/400,000 | updates 135,000
+2026-10-07T06:22:53.083820+00:00 | train_000136000_completed | step 136,000/400,000 | updates 135,000
+2026-10-07T06:22:53.083820+00:00 | train_000140000_started | step 136,000/400,000 | updates 135,000
+  p0_uniform: 1000/4000 transitions, 136000 total updates
+  p0_uniform: 2000/4000 transitions, 137000 total updates
+  p0_uniform: 3000/4000 transitions, 138000 total updates
+  p0_uniform: 4000/4000 transitions, 139000 total updates
+2026-10-07T06:23:29.060936+00:00 | uniform_block_audited | step 140,000/400,000 | updates 139,000
+2026-10-07T06:23:29.060936+00:00 | train_000140000_completed | step 140,000/400,000 | updates 139,000
+2026-10-07T06:23:29.060936+00:00 | train_000144000_started | step 140,000/400,000 | updates 139,000
+  p0_uniform: 1000/4000 transitions, 140000 total updates
+  p0_uniform: 2000/4000 transitions, 141000 total updates
+  p0_uniform: 3000/4000 transitions, 142000 total updates
+  p0_uniform: 4000/4000 transitions, 143000 total updates
+2026-10-07T06:24:05.276776+00:00 | uniform_block_audited | step 144,000/400,000 | updates 143,000
+2026-10-07T06:24:05.277888+00:00 | train_000144000_completed | step 144,000/400,000 | updates 143,000
+2026-10-07T06:24:05.277888+00:00 | train_000148000_started | step 144,000/400,000 | updates 143,000
+  p0_uniform: 1000/4000 transitions, 144000 total updates
+  p0_uniform: 2000/4000 transitions, 145000 total updates
+  p0_uniform: 3000/4000 transitions, 146000 total updates
+  p0_uniform: 4000/4000 transitions, 147000 total updates
+2026-10-07T06:24:37.742722+00:00 | uniform_block_audited | step 148,000/400,000 | updates 147,000
+2026-10-07T06:24:37.742722+00:00 | train_000148000_completed | step 148,000/400,000 | updates 147,000
+2026-10-07T06:24:37.742722+00:00 | train_000152000_started | step 148,000/400,000 | updates 147,000
+  p0_uniform: 1000/4000 transitions, 148000 total updates
+  p0_uniform: 2000/4000 transitions, 149000 total updates
+  p0_uniform: 3000/4000 transitions, 150000 total updates
+  p0_uniform: 4000/4000 transitions, 151000 total updates
+2026-10-07T06:25:09.360924+00:00 | uniform_block_audited | step 152,000/400,000 | updates 151,000
+2026-10-07T06:25:09.361481+00:00 | train_000152000_completed | step 152,000/400,000 | updates 151,000
+2026-10-07T06:25:09.361481+00:00 | train_000156000_started | step 152,000/400,000 | updates 151,000
+  p0_uniform: 1000/4000 transitions, 152000 total updates
+  p0_uniform: 2000/4000 transitions, 153000 total updates
+  p0_uniform: 3000/4000 transitions, 154000 total updates
+  p0_uniform: 4000/4000 transitions, 155000 total updates
+2026-10-07T06:25:42.102822+00:00 | uniform_block_audited | step 156,000/400,000 | updates 155,000
+2026-10-07T06:25:42.102822+00:00 | train_000156000_completed | step 156,000/400,000 | updates 155,000
+2026-10-07T06:25:42.102822+00:00 | train_000160000_started | step 156,000/400,000 | updates 155,000
+  p0_uniform: 1000/4000 transitions, 156000 total updates
+  p0_uniform: 2000/4000 transitions, 157000 total updates
+  p0_uniform: 3000/4000 transitions, 158000 total updates
+  p0_uniform: 4000/4000 transitions, 159000 total updates
+2026-10-07T06:26:13.196973+00:00 | uniform_block_audited | step 160,000/400,000 | updates 159,000
+2026-10-07T06:26:13.196973+00:00 | train_000160000_completed | step 160,000/400,000 | updates 159,000
+2026-10-07T06:26:13.196973+00:00 | train_000164000_started | step 160,000/400,000 | updates 159,000
+  p0_uniform: 1000/4000 transitions, 160000 total updates
+  p0_uniform: 2000/4000 transitions, 161000 total updates
+  p0_uniform: 3000/4000 transitions, 162000 total updates
+  p0_uniform: 4000/4000 transitions, 163000 total updates
+2026-10-07T06:26:42.839715+00:00 | uniform_block_audited | step 164,000/400,000 | updates 163,000
+2026-10-07T06:26:42.839715+00:00 | train_000164000_completed | step 164,000/400,000 | updates 163,000
+2026-10-07T06:26:42.839715+00:00 | train_000168000_started | step 164,000/400,000 | updates 163,000
+  p0_uniform: 1000/4000 transitions, 164000 total updates
+  p0_uniform: 2000/4000 transitions, 165000 total updates
+  p0_uniform: 3000/4000 transitions, 166000 total updates
+  p0_uniform: 4000/4000 transitions, 167000 total updates
+2026-10-07T06:27:15.525304+00:00 | uniform_block_audited | step 168,000/400,000 | updates 167,000
+2026-10-07T06:27:15.526368+00:00 | train_000168000_completed | step 168,000/400,000 | updates 167,000
+2026-10-07T06:27:15.526778+00:00 | train_000172000_started | step 168,000/400,000 | updates 167,000
+  p0_uniform: 1000/4000 transitions, 168000 total updates
+  p0_uniform: 2000/4000 transitions, 169000 total updates
+  p0_uniform: 3000/4000 transitions, 170000 total updates
+  p0_uniform: 4000/4000 transitions, 171000 total updates
+2026-10-07T06:27:46.952503+00:00 | uniform_block_audited | step 172,000/400,000 | updates 171,000
+2026-10-07T06:27:46.952503+00:00 | train_000172000_completed | step 172,000/400,000 | updates 171,000
+2026-10-07T06:27:46.952503+00:00 | train_000176000_started | step 172,000/400,000 | updates 171,000
+  p0_uniform: 1000/4000 transitions, 172000 total updates
+  p0_uniform: 2000/4000 transitions, 173000 total updates
+  p0_uniform: 3000/4000 transitions, 174000 total updates
+  p0_uniform: 4000/4000 transitions, 175000 total updates
+2026-10-07T06:28:18.417333+00:00 | uniform_block_audited | step 176,000/400,000 | updates 175,000
+2026-10-07T06:28:18.417333+00:00 | train_000176000_completed | step 176,000/400,000 | updates 175,000
+2026-10-07T06:28:18.417333+00:00 | train_000180000_started | step 176,000/400,000 | updates 175,000
+  p0_uniform: 1000/4000 transitions, 176000 total updates
+  p0_uniform: 2000/4000 transitions, 177000 total updates
+  p0_uniform: 3000/4000 transitions, 178000 total updates
+  p0_uniform: 4000/4000 transitions, 179000 total updates
+2026-10-07T06:28:48.824014+00:00 | uniform_block_audited | step 180,000/400,000 | updates 179,000
+2026-10-07T06:28:48.825010+00:00 | train_000180000_completed | step 180,000/400,000 | updates 179,000
+2026-10-07T06:28:48.825010+00:00 | train_000184000_started | step 180,000/400,000 | updates 179,000
+  p0_uniform: 1000/4000 transitions, 180000 total updates
+  p0_uniform: 2000/4000 transitions, 181000 total updates
+  p0_uniform: 3000/4000 transitions, 182000 total updates
+  p0_uniform: 4000/4000 transitions, 183000 total updates
+2026-10-07T06:29:23.612527+00:00 | uniform_block_audited | step 184,000/400,000 | updates 183,000
+2026-10-07T06:29:23.612527+00:00 | train_000184000_completed | step 184,000/400,000 | updates 183,000
+2026-10-07T06:29:23.612527+00:00 | train_000188000_started | step 184,000/400,000 | updates 183,000
+  p0_uniform: 1000/4000 transitions, 184000 total updates
+  p0_uniform: 2000/4000 transitions, 185000 total updates
+  p0_uniform: 3000/4000 transitions, 186000 total updates
+  p0_uniform: 4000/4000 transitions, 187000 total updates
+2026-10-07T06:29:59.793780+00:00 | uniform_block_audited | step 188,000/400,000 | updates 187,000
+2026-10-07T06:29:59.793780+00:00 | train_000188000_completed | step 188,000/400,000 | updates 187,000
+2026-10-07T06:29:59.793780+00:00 | train_000192000_started | step 188,000/400,000 | updates 187,000
+  p0_uniform: 1000/4000 transitions, 188000 total updates
+  p0_uniform: 2000/4000 transitions, 189000 total updates
+  p0_uniform: 3000/4000 transitions, 190000 total updates
+  p0_uniform: 4000/4000 transitions, 191000 total updates
+2026-10-07T06:30:33.519703+00:00 | uniform_block_audited | step 192,000/400,000 | updates 191,000
+2026-10-07T06:30:33.519703+00:00 | train_000192000_completed | step 192,000/400,000 | updates 191,000
+2026-10-07T06:30:33.519703+00:00 | train_000196000_started | step 192,000/400,000 | updates 191,000
+  p0_uniform: 1000/4000 transitions, 192000 total updates
+  p0_uniform: 2000/4000 transitions, 193000 total updates
+  p0_uniform: 3000/4000 transitions, 194000 total updates
+  p0_uniform: 4000/4000 transitions, 195000 total updates
+2026-10-07T06:31:03.119385+00:00 | uniform_block_audited | step 196,000/400,000 | updates 195,000
+2026-10-07T06:31:03.119385+00:00 | train_000196000_completed | step 196,000/400,000 | updates 195,000
+2026-10-07T06:31:03.119385+00:00 | train_000200000_started | step 196,000/400,000 | updates 195,000
+  p0_uniform: 1000/4000 transitions, 196000 total updates
+  p0_uniform: 2000/4000 transitions, 197000 total updates
+  p0_uniform: 3000/4000 transitions, 198000 total updates
+  p0_uniform: 4000/4000 transitions, 199000 total updates
+2026-10-07T06:31:38.247970+00:00 | uniform_block_audited | step 200,000/400,000 | updates 199,000
+2026-10-07T06:31:38.247970+00:00 | train_000200000_completed | step 200,000/400,000 | updates 199,000
+2026-10-07T06:31:38.247970+00:00 | checkpoint_000200000_started | step 200,000/400,000 | updates 199,000
+2026-10-07T06:31:38.534425+00:00 | checkpoint_000200000_completed | step 200,000/400,000 | updates 199,000
+2026-10-07T06:31:38.534425+00:00 | diagnostic_000200000_started | step 200,000/400,000 | updates 199,000
+2026-10-07T06:31:59.770016+00:00 | diagnostic_result | step 200,000/400,000 | updates 199,000
+2026-10-07T06:31:59.770016+00:00 | diagnostic_000200000_completed | step 200,000/400,000 | updates 199,000
+2026-10-07T06:31:59.770016+00:00 | train_000204000_started | step 200,000/400,000 | updates 199,000
+  p0_uniform: 1000/4000 transitions, 200000 total updates
+  p0_uniform: 2000/4000 transitions, 201000 total updates
+  p0_uniform: 3000/4000 transitions, 202000 total updates
+  p0_uniform: 4000/4000 transitions, 203000 total updates
+2026-10-07T06:32:31.698609+00:00 | uniform_block_audited | step 204,000/400,000 | updates 203,000
+2026-10-07T06:32:31.698609+00:00 | train_000204000_completed | step 204,000/400,000 | updates 203,000
+2026-10-07T06:32:31.698609+00:00 | train_000208000_started | step 204,000/400,000 | updates 203,000
+  p0_uniform: 1000/4000 transitions, 204000 total updates
+  p0_uniform: 2000/4000 transitions, 205000 total updates
+  p0_uniform: 3000/4000 transitions, 206000 total updates
+  p0_uniform: 4000/4000 transitions, 207000 total updates
+2026-10-07T06:33:01.236157+00:00 | uniform_block_audited | step 208,000/400,000 | updates 207,000
+2026-10-07T06:33:01.236157+00:00 | train_000208000_completed | step 208,000/400,000 | updates 207,000
+2026-10-07T06:33:01.236157+00:00 | train_000212000_started | step 208,000/400,000 | updates 207,000
+  p0_uniform: 1000/4000 transitions, 208000 total updates
+  p0_uniform: 2000/4000 transitions, 209000 total updates
+  p0_uniform: 3000/4000 transitions, 210000 total updates
+  p0_uniform: 4000/4000 transitions, 211000 total updates
+2026-10-07T06:33:36.711453+00:00 | uniform_block_audited | step 212,000/400,000 | updates 211,000
+2026-10-07T06:33:36.711453+00:00 | train_000212000_completed | step 212,000/400,000 | updates 211,000
+2026-10-07T06:33:36.711453+00:00 | train_000216000_started | step 212,000/400,000 | updates 211,000
+  p0_uniform: 1000/4000 transitions, 212000 total updates
+  p0_uniform: 2000/4000 transitions, 213000 total updates
+  p0_uniform: 3000/4000 transitions, 214000 total updates
+  p0_uniform: 4000/4000 transitions, 215000 total updates
+2026-10-07T06:34:09.998564+00:00 | uniform_block_audited | step 216,000/400,000 | updates 215,000
+2026-10-07T06:34:09.998564+00:00 | train_000216000_completed | step 216,000/400,000 | updates 215,000
+2026-10-07T06:34:09.998564+00:00 | train_000220000_started | step 216,000/400,000 | updates 215,000
+  p0_uniform: 1000/4000 transitions, 216000 total updates
+  p0_uniform: 2000/4000 transitions, 217000 total updates
+  p0_uniform: 3000/4000 transitions, 218000 total updates
+  p0_uniform: 4000/4000 transitions, 219000 total updates
+2026-10-07T06:34:41.727494+00:00 | uniform_block_audited | step 220,000/400,000 | updates 219,000
+2026-10-07T06:34:41.743116+00:00 | train_000220000_completed | step 220,000/400,000 | updates 219,000
+2026-10-07T06:34:41.743116+00:00 | train_000224000_started | step 220,000/400,000 | updates 219,000
+  p0_uniform: 1000/4000 transitions, 220000 total updates
+  p0_uniform: 2000/4000 transitions, 221000 total updates
+  p0_uniform: 3000/4000 transitions, 222000 total updates
+  p0_uniform: 4000/4000 transitions, 223000 total updates
+2026-10-07T06:35:15.421595+00:00 | uniform_block_audited | step 224,000/400,000 | updates 223,000
+2026-10-07T06:35:15.421595+00:00 | train_000224000_completed | step 224,000/400,000 | updates 223,000
+2026-10-07T06:35:15.421595+00:00 | train_000228000_started | step 224,000/400,000 | updates 223,000
+  p0_uniform: 1000/4000 transitions, 224000 total updates
+  p0_uniform: 2000/4000 transitions, 225000 total updates
+  p0_uniform: 3000/4000 transitions, 226000 total updates
+  p0_uniform: 4000/4000 transitions, 227000 total updates
+2026-10-07T06:35:51.737365+00:00 | uniform_block_audited | step 228,000/400,000 | updates 227,000
+2026-10-07T06:35:51.737365+00:00 | train_000228000_completed | step 228,000/400,000 | updates 227,000
+2026-10-07T06:35:51.737365+00:00 | train_000232000_started | step 228,000/400,000 | updates 227,000
+  p0_uniform: 1000/4000 transitions, 228000 total updates
+  p0_uniform: 2000/4000 transitions, 229000 total updates
+  p0_uniform: 3000/4000 transitions, 230000 total updates
+  p0_uniform: 4000/4000 transitions, 231000 total updates
+2026-10-07T06:36:27.432647+00:00 | uniform_block_audited | step 232,000/400,000 | updates 231,000
+2026-10-07T06:36:27.432647+00:00 | train_000232000_completed | step 232,000/400,000 | updates 231,000
+2026-10-07T06:36:27.432647+00:00 | train_000236000_started | step 232,000/400,000 | updates 231,000
+  p0_uniform: 1000/4000 transitions, 232000 total updates
+  p0_uniform: 2000/4000 transitions, 233000 total updates
+  p0_uniform: 3000/4000 transitions, 234000 total updates
+  p0_uniform: 4000/4000 transitions, 235000 total updates
+2026-10-07T06:36:56.310861+00:00 | uniform_block_audited | step 236,000/400,000 | updates 235,000
+2026-10-07T06:36:56.310861+00:00 | train_000236000_completed | step 236,000/400,000 | updates 235,000
+2026-10-07T06:36:56.310861+00:00 | train_000240000_started | step 236,000/400,000 | updates 235,000
+  p0_uniform: 1000/4000 transitions, 236000 total updates
+  p0_uniform: 2000/4000 transitions, 237000 total updates
+  p0_uniform: 3000/4000 transitions, 238000 total updates
+  p0_uniform: 4000/4000 transitions, 239000 total updates
+2026-10-07T06:37:32.560750+00:00 | uniform_block_audited | step 240,000/400,000 | updates 239,000
+2026-10-07T06:37:32.560750+00:00 | train_000240000_completed | step 240,000/400,000 | updates 239,000
+2026-10-07T06:37:32.560750+00:00 | train_000244000_started | step 240,000/400,000 | updates 239,000
+  p0_uniform: 1000/4000 transitions, 240000 total updates
+  p0_uniform: 2000/4000 transitions, 241000 total updates
+  p0_uniform: 3000/4000 transitions, 242000 total updates
+  p0_uniform: 4000/4000 transitions, 243000 total updates
+2026-10-07T06:38:07.154590+00:00 | uniform_block_audited | step 244,000/400,000 | updates 243,000
+2026-10-07T06:38:07.154590+00:00 | train_000244000_completed | step 244,000/400,000 | updates 243,000
+2026-10-07T06:38:07.156135+00:00 | train_000248000_started | step 244,000/400,000 | updates 243,000
+  p0_uniform: 1000/4000 transitions, 244000 total updates
+  p0_uniform: 2000/4000 transitions, 245000 total updates
+  p0_uniform: 3000/4000 transitions, 246000 total updates
+  p0_uniform: 4000/4000 transitions, 247000 total updates
+2026-10-07T06:38:38.807522+00:00 | uniform_block_audited | step 248,000/400,000 | updates 247,000
+2026-10-07T06:38:38.807522+00:00 | train_000248000_completed | step 248,000/400,000 | updates 247,000
+2026-10-07T06:38:38.807522+00:00 | train_000252000_started | step 248,000/400,000 | updates 247,000
+  p0_uniform: 1000/4000 transitions, 248000 total updates
+  p0_uniform: 2000/4000 transitions, 249000 total updates
+  p0_uniform: 3000/4000 transitions, 250000 total updates
+  p0_uniform: 4000/4000 transitions, 251000 total updates
+2026-10-07T06:39:10.423526+00:00 | uniform_block_audited | step 252,000/400,000 | updates 251,000
+2026-10-07T06:39:10.423526+00:00 | train_000252000_completed | step 252,000/400,000 | updates 251,000
+2026-10-07T06:39:10.423526+00:00 | train_000256000_started | step 252,000/400,000 | updates 251,000
+  p0_uniform: 1000/4000 transitions, 252000 total updates
+  p0_uniform: 2000/4000 transitions, 253000 total updates
+  p0_uniform: 3000/4000 transitions, 254000 total updates
+  p0_uniform: 4000/4000 transitions, 255000 total updates
+2026-10-07T06:39:41.899070+00:00 | uniform_block_audited | step 256,000/400,000 | updates 255,000
+2026-10-07T06:39:41.899070+00:00 | train_000256000_completed | step 256,000/400,000 | updates 255,000
+2026-10-07T06:39:41.899070+00:00 | train_000260000_started | step 256,000/400,000 | updates 255,000
+  p0_uniform: 1000/4000 transitions, 256000 total updates
+  p0_uniform: 2000/4000 transitions, 257000 total updates
+  p0_uniform: 3000/4000 transitions, 258000 total updates
+  p0_uniform: 4000/4000 transitions, 259000 total updates
+2026-10-07T06:40:12.506240+00:00 | uniform_block_audited | step 260,000/400,000 | updates 259,000
+2026-10-07T06:40:12.506240+00:00 | train_000260000_completed | step 260,000/400,000 | updates 259,000
+2026-10-07T06:40:12.506240+00:00 | train_000264000_started | step 260,000/400,000 | updates 259,000
+  p0_uniform: 1000/4000 transitions, 260000 total updates
+  p0_uniform: 2000/4000 transitions, 261000 total updates
+  p0_uniform: 3000/4000 transitions, 262000 total updates
+  p0_uniform: 4000/4000 transitions, 263000 total updates
+2026-10-07T06:40:42.797333+00:00 | uniform_block_audited | step 264,000/400,000 | updates 263,000
+2026-10-07T06:40:42.797333+00:00 | train_000264000_completed | step 264,000/400,000 | updates 263,000
+2026-10-07T06:40:42.797333+00:00 | train_000268000_started | step 264,000/400,000 | updates 263,000
+  p0_uniform: 1000/4000 transitions, 264000 total updates
+  p0_uniform: 2000/4000 transitions, 265000 total updates
+  p0_uniform: 3000/4000 transitions, 266000 total updates
+  p0_uniform: 4000/4000 transitions, 267000 total updates
+2026-10-07T06:41:17.511180+00:00 | uniform_block_audited | step 268,000/400,000 | updates 267,000
+2026-10-07T06:41:17.511180+00:00 | train_000268000_completed | step 268,000/400,000 | updates 267,000
+2026-10-07T06:41:17.511180+00:00 | train_000272000_started | step 268,000/400,000 | updates 267,000
+  p0_uniform: 1000/4000 transitions, 268000 total updates
+  p0_uniform: 2000/4000 transitions, 269000 total updates
+  p0_uniform: 3000/4000 transitions, 270000 total updates
+  p0_uniform: 4000/4000 transitions, 271000 total updates
+2026-10-07T06:41:54.812023+00:00 | uniform_block_audited | step 272,000/400,000 | updates 271,000
+2026-10-07T06:41:54.812023+00:00 | train_000272000_completed | step 272,000/400,000 | updates 271,000
+2026-10-07T06:41:54.812023+00:00 | train_000276000_started | step 272,000/400,000 | updates 271,000
+  p0_uniform: 1000/4000 transitions, 272000 total updates
+  p0_uniform: 2000/4000 transitions, 273000 total updates
+  p0_uniform: 3000/4000 transitions, 274000 total updates
+  p0_uniform: 4000/4000 transitions, 275000 total updates
+2026-10-07T06:42:30.034320+00:00 | uniform_block_audited | step 276,000/400,000 | updates 275,000
+2026-10-07T06:42:30.034320+00:00 | train_000276000_completed | step 276,000/400,000 | updates 275,000
+2026-10-07T06:42:30.034320+00:00 | train_000280000_started | step 276,000/400,000 | updates 275,000
+  p0_uniform: 1000/4000 transitions, 276000 total updates
+  p0_uniform: 2000/4000 transitions, 277000 total updates
+  p0_uniform: 3000/4000 transitions, 278000 total updates
+  p0_uniform: 4000/4000 transitions, 279000 total updates
+2026-10-07T06:42:59.958027+00:00 | uniform_block_audited | step 280,000/400,000 | updates 279,000
+2026-10-07T06:42:59.958027+00:00 | train_000280000_completed | step 280,000/400,000 | updates 279,000
+2026-10-07T06:42:59.958027+00:00 | train_000284000_started | step 280,000/400,000 | updates 279,000
+  p0_uniform: 1000/4000 transitions, 280000 total updates
+  p0_uniform: 2000/4000 transitions, 281000 total updates
+  p0_uniform: 3000/4000 transitions, 282000 total updates
+  p0_uniform: 4000/4000 transitions, 283000 total updates
+2026-10-07T06:43:34.406095+00:00 | uniform_block_audited | step 284,000/400,000 | updates 283,000
+2026-10-07T06:43:34.406095+00:00 | train_000284000_completed | step 284,000/400,000 | updates 283,000
+2026-10-07T06:43:34.406095+00:00 | train_000288000_started | step 284,000/400,000 | updates 283,000
+  p0_uniform: 1000/4000 transitions, 284000 total updates
+  p0_uniform: 2000/4000 transitions, 285000 total updates
+  p0_uniform: 3000/4000 transitions, 286000 total updates
+  p0_uniform: 4000/4000 transitions, 287000 total updates
+2026-10-07T06:44:06.435325+00:00 | uniform_block_audited | step 288,000/400,000 | updates 287,000
+2026-10-07T06:44:06.435325+00:00 | train_000288000_completed | step 288,000/400,000 | updates 287,000
+2026-10-07T06:44:06.435325+00:00 | train_000292000_started | step 288,000/400,000 | updates 287,000
+  p0_uniform: 1000/4000 transitions, 288000 total updates
+  p0_uniform: 2000/4000 transitions, 289000 total updates
+  p0_uniform: 3000/4000 transitions, 290000 total updates
+  p0_uniform: 4000/4000 transitions, 291000 total updates
+2026-10-07T06:44:37.649249+00:00 | uniform_block_audited | step 292,000/400,000 | updates 291,000
+2026-10-07T06:44:37.649249+00:00 | train_000292000_completed | step 292,000/400,000 | updates 291,000
+2026-10-07T06:44:37.649249+00:00 | train_000296000_started | step 292,000/400,000 | updates 291,000
+  p0_uniform: 1000/4000 transitions, 292000 total updates
+  p0_uniform: 2000/4000 transitions, 293000 total updates
+  p0_uniform: 3000/4000 transitions, 294000 total updates
+  p0_uniform: 4000/4000 transitions, 295000 total updates
+2026-10-07T06:45:09.160766+00:00 | uniform_block_audited | step 296,000/400,000 | updates 295,000
+2026-10-07T06:45:09.160766+00:00 | train_000296000_completed | step 296,000/400,000 | updates 295,000
+2026-10-07T06:45:09.160766+00:00 | train_000300000_started | step 296,000/400,000 | updates 295,000
+  p0_uniform: 1000/4000 transitions, 296000 total updates
+  p0_uniform: 2000/4000 transitions, 297000 total updates
+  p0_uniform: 3000/4000 transitions, 298000 total updates
+  p0_uniform: 4000/4000 transitions, 299000 total updates
+2026-10-07T06:45:42.159695+00:00 | uniform_block_audited | step 300,000/400,000 | updates 299,000
+2026-10-07T06:45:42.159695+00:00 | train_000300000_completed | step 300,000/400,000 | updates 299,000
+2026-10-07T06:45:42.159695+00:00 | train_000304000_started | step 300,000/400,000 | updates 299,000
+  p0_uniform: 1000/4000 transitions, 300000 total updates
+  p0_uniform: 2000/4000 transitions, 301000 total updates
+  p0_uniform: 3000/4000 transitions, 302000 total updates
+  p0_uniform: 4000/4000 transitions, 303000 total updates
+2026-10-07T06:46:12.770702+00:00 | uniform_block_audited | step 304,000/400,000 | updates 303,000
+2026-10-07T06:46:12.770702+00:00 | train_000304000_completed | step 304,000/400,000 | updates 303,000
+2026-10-07T06:46:12.770702+00:00 | train_000308000_started | step 304,000/400,000 | updates 303,000
+  p0_uniform: 1000/4000 transitions, 304000 total updates
+  p0_uniform: 2000/4000 transitions, 305000 total updates
+  p0_uniform: 3000/4000 transitions, 306000 total updates
+  p0_uniform: 4000/4000 transitions, 307000 total updates
+2026-10-07T06:46:42.461855+00:00 | uniform_block_audited | step 308,000/400,000 | updates 307,000
+2026-10-07T06:46:42.461855+00:00 | train_000308000_completed | step 308,000/400,000 | updates 307,000
+2026-10-07T06:46:42.461855+00:00 | train_000312000_started | step 308,000/400,000 | updates 307,000
+  p0_uniform: 1000/4000 transitions, 308000 total updates
+  p0_uniform: 2000/4000 transitions, 309000 total updates
+  p0_uniform: 3000/4000 transitions, 310000 total updates
+  p0_uniform: 4000/4000 transitions, 311000 total updates
+2026-10-07T06:47:15.756643+00:00 | uniform_block_audited | step 312,000/400,000 | updates 311,000
+2026-10-07T06:47:15.756643+00:00 | train_000312000_completed | step 312,000/400,000 | updates 311,000
+2026-10-07T06:47:15.756643+00:00 | train_000316000_started | step 312,000/400,000 | updates 311,000
+  p0_uniform: 1000/4000 transitions, 312000 total updates
+  p0_uniform: 2000/4000 transitions, 313000 total updates
+  p0_uniform: 3000/4000 transitions, 314000 total updates
+  p0_uniform: 4000/4000 transitions, 315000 total updates
+2026-10-07T06:47:52.575294+00:00 | uniform_block_audited | step 316,000/400,000 | updates 315,000
+2026-10-07T06:47:52.575294+00:00 | train_000316000_completed | step 316,000/400,000 | updates 315,000
+2026-10-07T06:47:52.575294+00:00 | train_000320000_started | step 316,000/400,000 | updates 315,000
+  p0_uniform: 1000/4000 transitions, 316000 total updates
+  p0_uniform: 2000/4000 transitions, 317000 total updates
+  p0_uniform: 3000/4000 transitions, 318000 total updates
+  p0_uniform: 4000/4000 transitions, 319000 total updates
+2026-10-07T06:48:29.219899+00:00 | uniform_block_audited | step 320,000/400,000 | updates 319,000
+2026-10-07T06:48:29.219899+00:00 | train_000320000_completed | step 320,000/400,000 | updates 319,000
+2026-10-07T06:48:29.219899+00:00 | train_000324000_started | step 320,000/400,000 | updates 319,000
+  p0_uniform: 1000/4000 transitions, 320000 total updates
+  p0_uniform: 2000/4000 transitions, 321000 total updates
+  p0_uniform: 3000/4000 transitions, 322000 total updates
+  p0_uniform: 4000/4000 transitions, 323000 total updates
+2026-10-07T06:49:05.668989+00:00 | uniform_block_audited | step 324,000/400,000 | updates 323,000
+2026-10-07T06:49:05.669670+00:00 | train_000324000_completed | step 324,000/400,000 | updates 323,000
+2026-10-07T06:49:05.669670+00:00 | train_000328000_started | step 324,000/400,000 | updates 323,000
+  p0_uniform: 1000/4000 transitions, 324000 total updates
+  p0_uniform: 2000/4000 transitions, 325000 total updates
+  p0_uniform: 3000/4000 transitions, 326000 total updates
+  p0_uniform: 4000/4000 transitions, 327000 total updates
+2026-10-07T06:49:39.953030+00:00 | uniform_block_audited | step 328,000/400,000 | updates 327,000
+2026-10-07T06:49:39.953935+00:00 | train_000328000_completed | step 328,000/400,000 | updates 327,000
+2026-10-07T06:49:39.953935+00:00 | train_000332000_started | step 328,000/400,000 | updates 327,000
+  p0_uniform: 1000/4000 transitions, 328000 total updates
+  p0_uniform: 2000/4000 transitions, 329000 total updates
+  p0_uniform: 3000/4000 transitions, 330000 total updates
+  p0_uniform: 4000/4000 transitions, 331000 total updates
+2026-10-07T06:50:10.823492+00:00 | uniform_block_audited | step 332,000/400,000 | updates 331,000
+2026-10-07T06:50:10.823492+00:00 | train_000332000_completed | step 332,000/400,000 | updates 331,000
+2026-10-07T06:50:10.823492+00:00 | train_000336000_started | step 332,000/400,000 | updates 331,000
+  p0_uniform: 1000/4000 transitions, 332000 total updates
+  p0_uniform: 2000/4000 transitions, 333000 total updates
+  p0_uniform: 3000/4000 transitions, 334000 total updates
+  p0_uniform: 4000/4000 transitions, 335000 total updates
+2026-10-07T06:50:41.106778+00:00 | uniform_block_audited | step 336,000/400,000 | updates 335,000
+2026-10-07T06:50:41.106778+00:00 | train_000336000_completed | step 336,000/400,000 | updates 335,000
+2026-10-07T06:50:41.106778+00:00 | train_000340000_started | step 336,000/400,000 | updates 335,000
+  p0_uniform: 1000/4000 transitions, 336000 total updates
+  p0_uniform: 2000/4000 transitions, 337000 total updates
+  p0_uniform: 3000/4000 transitions, 338000 total updates
+  p0_uniform: 4000/4000 transitions, 339000 total updates
+2026-10-07T06:51:13.849216+00:00 | uniform_block_audited | step 340,000/400,000 | updates 339,000
+2026-10-07T06:51:13.849216+00:00 | train_000340000_completed | step 340,000/400,000 | updates 339,000
+2026-10-07T06:51:13.849216+00:00 | train_000344000_started | step 340,000/400,000 | updates 339,000
+  p0_uniform: 1000/4000 transitions, 340000 total updates
+  p0_uniform: 2000/4000 transitions, 341000 total updates
+  p0_uniform: 3000/4000 transitions, 342000 total updates
+  p0_uniform: 4000/4000 transitions, 343000 total updates
+2026-10-07T06:51:47.346665+00:00 | uniform_block_audited | step 344,000/400,000 | updates 343,000
+2026-10-07T06:51:47.346665+00:00 | train_000344000_completed | step 344,000/400,000 | updates 343,000
+2026-10-07T06:51:47.346665+00:00 | train_000348000_started | step 344,000/400,000 | updates 343,000
+  p0_uniform: 1000/4000 transitions, 344000 total updates
+  p0_uniform: 2000/4000 transitions, 345000 total updates
+  p0_uniform: 3000/4000 transitions, 346000 total updates
+  p0_uniform: 4000/4000 transitions, 347000 total updates
+2026-10-07T06:52:19.294716+00:00 | uniform_block_audited | step 348,000/400,000 | updates 347,000
+2026-10-07T06:52:19.294716+00:00 | train_000348000_completed | step 348,000/400,000 | updates 347,000
+2026-10-07T06:52:19.294716+00:00 | train_000352000_started | step 348,000/400,000 | updates 347,000
+  p0_uniform: 1000/4000 transitions, 348000 total updates
+  p0_uniform: 2000/4000 transitions, 349000 total updates
+  p0_uniform: 3000/4000 transitions, 350000 total updates
+  p0_uniform: 4000/4000 transitions, 351000 total updates
+2026-10-07T06:52:55.261653+00:00 | uniform_block_audited | step 352,000/400,000 | updates 351,000
+2026-10-07T06:52:55.261653+00:00 | train_000352000_completed | step 352,000/400,000 | updates 351,000
+2026-10-07T06:52:55.261653+00:00 | train_000356000_started | step 352,000/400,000 | updates 351,000
+  p0_uniform: 1000/4000 transitions, 352000 total updates
+  p0_uniform: 2000/4000 transitions, 353000 total updates
+  p0_uniform: 3000/4000 transitions, 354000 total updates
+  p0_uniform: 4000/4000 transitions, 355000 total updates
+2026-10-07T06:53:31.767921+00:00 | uniform_block_audited | step 356,000/400,000 | updates 355,000
+2026-10-07T06:53:31.767921+00:00 | train_000356000_completed | step 356,000/400,000 | updates 355,000
+2026-10-07T06:53:31.767921+00:00 | train_000360000_started | step 356,000/400,000 | updates 355,000
+  p0_uniform: 1000/4000 transitions, 356000 total updates
+  p0_uniform: 2000/4000 transitions, 357000 total updates
+  p0_uniform: 3000/4000 transitions, 358000 total updates
+  p0_uniform: 4000/4000 transitions, 359000 total updates
+2026-10-07T06:54:07.267835+00:00 | uniform_block_audited | step 360,000/400,000 | updates 359,000
+2026-10-07T06:54:07.282877+00:00 | train_000360000_completed | step 360,000/400,000 | updates 359,000
+2026-10-07T06:54:07.283801+00:00 | train_000364000_started | step 360,000/400,000 | updates 359,000
+  p0_uniform: 1000/4000 transitions, 360000 total updates
+  p0_uniform: 2000/4000 transitions, 361000 total updates
+  p0_uniform: 3000/4000 transitions, 362000 total updates
+  p0_uniform: 4000/4000 transitions, 363000 total updates
+2026-10-07T06:54:40.163110+00:00 | uniform_block_audited | step 364,000/400,000 | updates 363,000
+2026-10-07T06:54:40.163110+00:00 | train_000364000_completed | step 364,000/400,000 | updates 363,000
+2026-10-07T06:54:40.163110+00:00 | train_000368000_started | step 364,000/400,000 | updates 363,000
+  p0_uniform: 1000/4000 transitions, 364000 total updates
+  p0_uniform: 2000/4000 transitions, 365000 total updates
+  p0_uniform: 3000/4000 transitions, 366000 total updates
+  p0_uniform: 4000/4000 transitions, 367000 total updates
+2026-10-07T06:55:12.526257+00:00 | uniform_block_audited | step 368,000/400,000 | updates 367,000
+2026-10-07T06:55:12.526257+00:00 | train_000368000_completed | step 368,000/400,000 | updates 367,000
+2026-10-07T06:55:12.526257+00:00 | train_000372000_started | step 368,000/400,000 | updates 367,000
+  p0_uniform: 1000/4000 transitions, 368000 total updates
+  p0_uniform: 2000/4000 transitions, 369000 total updates
+  p0_uniform: 3000/4000 transitions, 370000 total updates
+  p0_uniform: 4000/4000 transitions, 371000 total updates
+2026-10-07T06:55:45.619952+00:00 | uniform_block_audited | step 372,000/400,000 | updates 371,000
+2026-10-07T06:55:45.619952+00:00 | train_000372000_completed | step 372,000/400,000 | updates 371,000
+2026-10-07T06:55:45.619952+00:00 | train_000376000_started | step 372,000/400,000 | updates 371,000
+  p0_uniform: 1000/4000 transitions, 372000 total updates
+  p0_uniform: 2000/4000 transitions, 373000 total updates
+  p0_uniform: 3000/4000 transitions, 374000 total updates
+  p0_uniform: 4000/4000 transitions, 375000 total updates
+2026-10-07T06:56:16.310081+00:00 | uniform_block_audited | step 376,000/400,000 | updates 375,000
+2026-10-07T06:56:16.310081+00:00 | train_000376000_completed | step 376,000/400,000 | updates 375,000
+2026-10-07T06:56:16.310081+00:00 | train_000380000_started | step 376,000/400,000 | updates 375,000
+  p0_uniform: 1000/4000 transitions, 376000 total updates
+  p0_uniform: 2000/4000 transitions, 377000 total updates
+  p0_uniform: 3000/4000 transitions, 378000 total updates
+  p0_uniform: 4000/4000 transitions, 379000 total updates
+2026-10-07T06:56:45.834151+00:00 | uniform_block_audited | step 380,000/400,000 | updates 379,000
+2026-10-07T06:56:45.834151+00:00 | train_000380000_completed | step 380,000/400,000 | updates 379,000
+2026-10-07T06:56:45.834151+00:00 | train_000384000_started | step 380,000/400,000 | updates 379,000
+  p0_uniform: 1000/4000 transitions, 380000 total updates
+  p0_uniform: 2000/4000 transitions, 381000 total updates
+  p0_uniform: 3000/4000 transitions, 382000 total updates
+  p0_uniform: 4000/4000 transitions, 383000 total updates
+2026-10-07T06:57:18.792240+00:00 | uniform_block_audited | step 384,000/400,000 | updates 383,000
+2026-10-07T06:57:18.792240+00:00 | train_000384000_completed | step 384,000/400,000 | updates 383,000
+2026-10-07T06:57:18.792240+00:00 | train_000388000_started | step 384,000/400,000 | updates 383,000
+  p0_uniform: 1000/4000 transitions, 384000 total updates
+  p0_uniform: 2000/4000 transitions, 385000 total updates
+  p0_uniform: 3000/4000 transitions, 386000 total updates
+  p0_uniform: 4000/4000 transitions, 387000 total updates
+2026-10-07T06:57:50.316763+00:00 | uniform_block_audited | step 388,000/400,000 | updates 387,000
+2026-10-07T06:57:50.316868+00:00 | train_000388000_completed | step 388,000/400,000 | updates 387,000
+2026-10-07T06:57:50.316868+00:00 | train_000392000_started | step 388,000/400,000 | updates 387,000
+  p0_uniform: 1000/4000 transitions, 388000 total updates
+  p0_uniform: 2000/4000 transitions, 389000 total updates
+  p0_uniform: 3000/4000 transitions, 390000 total updates
+  p0_uniform: 4000/4000 transitions, 391000 total updates
+2026-10-07T06:58:21.779111+00:00 | uniform_block_audited | step 392,000/400,000 | updates 391,000
+2026-10-07T06:58:21.779111+00:00 | train_000392000_completed | step 392,000/400,000 | updates 391,000
+2026-10-07T06:58:21.779111+00:00 | train_000396000_started | step 392,000/400,000 | updates 391,000
+  p0_uniform: 1000/4000 transitions, 392000 total updates
+  p0_uniform: 2000/4000 transitions, 393000 total updates
+  p0_uniform: 3000/4000 transitions, 394000 total updates
+  p0_uniform: 4000/4000 transitions, 395000 total updates
+2026-10-07T06:58:51.030439+00:00 | uniform_block_audited | step 396,000/400,000 | updates 395,000
+2026-10-07T06:58:51.030439+00:00 | train_000396000_completed | step 396,000/400,000 | updates 395,000
+2026-10-07T06:58:51.030439+00:00 | train_000400000_started | step 396,000/400,000 | updates 395,000
+  p0_uniform: 1000/4000 transitions, 396000 total updates
+  p0_uniform: 2000/4000 transitions, 397000 total updates
+  p0_uniform: 3000/4000 transitions, 398000 total updates
+  p0_uniform: 4000/4000 transitions, 399000 total updates
+2026-10-07T06:59:26.467089+00:00 | uniform_block_audited | step 400,000/400,000 | updates 399,000
+2026-10-07T06:59:26.467089+00:00 | train_000400000_completed | step 400,000/400,000 | updates 399,000
+2026-10-07T06:59:26.467089+00:00 | checkpoint_000400000_started | step 400,000/400,000 | updates 399,000
+2026-10-07T06:59:26.766448+00:00 | checkpoint_000400000_completed | step 400,000/400,000 | updates 399,000
+2026-10-07T06:59:26.766448+00:00 | diagnostic_000400000_started | step 400,000/400,000 | updates 399,000
+2026-10-07T06:59:45.682536+00:00 | diagnostic_result | step 400,000/400,000 | updates 399,000
+2026-10-07T06:59:45.682536+00:00 | diagnostic_000400000_completed | step 400,000/400,000 | updates 399,000
+2026-10-07T06:59:45.700263+00:00 | completed | step 400,000/400,000 | updates 399,000
+RESULT: completed | C:\Users\SS\Projects\robot_practice_allocation\02_p0_uniform_pretraining_v1\results\20261007T060310Z_p0_cuda_50621c50\run

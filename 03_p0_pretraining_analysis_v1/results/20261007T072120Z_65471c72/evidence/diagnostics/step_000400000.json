@@ -1,0 +1,29 @@
+{
+  "episodes": 80,
+  "environment_steps": 17926,
+  "seconds": 18.859658499248326,
+  "steps_per_second": 950.4944111641503,
+  "success_by_task": {
+    "DO": 0.05,
+    "DC": 1.0,
+    "WO": 0.4,
+    "WC": 1.0
+  },
+  "macro_success": 0.6125,
+  "success_counts": {
+    "DO": 1,
+    "DC": 20,
+    "WO": 8,
+    "WC": 20
+  },
+  "episodes_by_task": {
+    "DO": 20,
+    "DC": 20,
+    "WO": 20,
+    "WC": 20
+  },
+  "results_hash": "42320bd5cefebfd2ad5ea3648376414cb46e5f6fd5f2b4e3971c9247868ae78a",
+  "purpose": "P0 public diagnostic; not an outcome-bank score",
+  "step": 400000,
+  "state_unchanged": true
+}

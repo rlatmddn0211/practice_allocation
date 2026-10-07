@@ -1,0 +1,13 @@
+{
+  "stage": "diagnostic_000200000",
+  "started_at": "2026-10-07T06:31:38.534425+00:00",
+  "passed": true,
+  "seconds": 21.247650099918246,
+  "costs": {
+    "environment_creations": 80,
+    "resets": 80,
+    "environment_steps": 22157,
+    "train_iterations": 0,
+    "evaluation_episodes": 80
+  }
+}

@@ -1,0 +1,12 @@
+[
+  {
+    "severity": "minor_logging_defect",
+    "affected": "uniform_block_audited progress speed and ETA",
+    "cause": "The block audit event is written before the just-finished block duration enters cumulative training_seconds.",
+    "evidence_step": 8000,
+    "recorded_steps_per_second": 354.58301000439843,
+    "correct_steps_per_second": 152.33722028367384,
+    "impact": "Training, success metrics, completed events and final cost ledger remain consistent; this analysis uses the cost ledger.",
+    "fix_scope": "Record in a future implementation version; preserve the frozen P0 source and checkpoints."
+  }
+]

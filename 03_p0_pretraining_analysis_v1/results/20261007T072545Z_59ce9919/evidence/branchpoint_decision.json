@@ -1,0 +1,6 @@
+{
+  "selected_step": 200000,
+  "status": "eligible_checkpoint_available",
+  "research_branches_executed": 0,
+  "rule": "200k if at least two tasks have 1..19 successes; otherwise 400k; otherwise defer"
+}

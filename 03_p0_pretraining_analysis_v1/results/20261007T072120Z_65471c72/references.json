@@ -1,0 +1,20 @@
+[
+  {
+    "title": "MetaWorld evaluation documentation",
+    "url": "https://metaworld.farama.org/evaluation/evaluation/",
+    "accessed": "2026-10-07",
+    "supports": "Success rate is the evaluation metric; success at any step counts. This custom four-task bank is not an official benchmark reproduction."
+  },
+  {
+    "title": "SciPy BinomTestResult.proportion_ci",
+    "url": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats._result_classes.BinomTestResult.proportion_ci.html",
+    "accessed": "2026-10-07",
+    "supports": "Wilson proportion confidence intervals without continuity correction; local SciPy calculation independently checks the closed-form implementation."
+  },
+  {
+    "title": "Deep Reinforcement Learning at the Edge of the Statistical Precipice",
+    "url": "https://arxiv.org/abs/2108.13264",
+    "accessed": "2026-10-07",
+    "supports": "Few-run RL evaluation needs uncertainty-aware interpretation; one origin seed does not establish robustness across training runs."
+  }
+]

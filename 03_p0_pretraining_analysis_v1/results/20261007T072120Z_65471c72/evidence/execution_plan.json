@@ -1,0 +1,16 @@
+{
+  "stage": "p0_pretraining",
+  "total_steps": 400000,
+  "diagnostic_steps": [
+    0,
+    100000,
+    200000,
+    400000
+  ],
+  "checkpoint_steps": [
+    200000,
+    400000
+  ],
+  "diagnostic_episodes_per_task": 20,
+  "block_steps": 4000
+}
