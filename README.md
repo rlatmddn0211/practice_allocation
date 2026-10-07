@@ -1,7 +1,7 @@
 # Robot practice allocation
 
 사전학습된 공유 정책에 제한된 추가 연습을 배분할 때, 현재의 실패율과
-추가 학습의 가치가 일치하는지 확인하는 연구용 저장소입니다.
+추가 학습의 가치가 일치하는지
 
 설계 기준: [로컬 파일럿 설계 v0.1](LOCAL_PRACTICE_ALLOCATION_PILOT_DESIGN_20261007.md).
 
