@@ -1,0 +1,15 @@
+{
+  "stage": "p0_runner_validation",
+  "total_steps": 8000,
+  "diagnostic_steps": [
+    0,
+    4000,
+    8000
+  ],
+  "checkpoint_steps": [
+    4000,
+    8000
+  ],
+  "diagnostic_episodes_per_task": 2,
+  "block_steps": 4000
+}

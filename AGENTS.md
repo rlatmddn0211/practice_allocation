@@ -11,5 +11,5 @@
 - Do not overwrite existing run directories or checkpoints.
 - Record configuration, dependency versions, source hashes, seeds, actual costs,
   and failed checks. A smoke test is not evidence of a scientific effect.
-- Current authorized execution is implementation validation. P0 pretraining and
-  the ten research branches are separate execution stages.
+- The user authorized P0 uniform pretraining on 2026-10-07 after implementation
+  validation. Keep the ten research branches as a separate execution stage.

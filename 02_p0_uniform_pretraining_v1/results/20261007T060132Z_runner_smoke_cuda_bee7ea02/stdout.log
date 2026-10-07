@@ -1,0 +1,43 @@
+New p0_runner_validation run: C:\Users\SS\Projects\robot_practice_allocation\02_p0_uniform_pretraining_v1\results\20261007T060132Z_runner_smoke_cuda_bee7ea02\run
+2026-10-07T06:01:34.366156+00:00 | initializing | step 0/8,000 | updates 0
+2026-10-07T06:01:34.978826+00:00 | build_evaluation_banks_started | step 0/8,000 | updates 0
+  diagnostic bank: DO 20 distinct initial states
+  diagnostic bank: DC 20 distinct initial states
+  diagnostic bank: WO 20 distinct initial states
+  diagnostic bank: WC 20 distinct initial states
+  outcome bank: DO 50 distinct initial states
+  outcome bank: DC 50 distinct initial states
+  outcome bank: WO 50 distinct initial states
+  outcome bank: WC 50 distinct initial states
+2026-10-07T06:01:42.837441+00:00 | build_evaluation_banks_completed | step 0/8,000 | updates 0
+2026-10-07T06:01:42.845947+00:00 | initialize_fresh_sac_started | step 0/8,000 | updates 0
+2026-10-07T06:01:44.102933+00:00 | initialize_fresh_sac_completed | step 0/8,000 | updates 0
+2026-10-07T06:01:44.112978+00:00 | diagnostic_000000000_started | step 0/8,000 | updates 0
+2026-10-07T06:01:47.875429+00:00 | diagnostic_result | step 0/8,000 | updates 0
+2026-10-07T06:01:47.875429+00:00 | diagnostic_000000000_completed | step 0/8,000 | updates 0
+2026-10-07T06:01:47.875429+00:00 | train_000004000_started | step 0/8,000 | updates 0
+  runner_smoke: 1000/4000 transitions, 0 total updates
+  runner_smoke: 2000/4000 transitions, 1000 total updates
+  runner_smoke: 3000/4000 transitions, 2000 total updates
+  runner_smoke: 4000/4000 transitions, 3000 total updates
+2026-10-07T06:02:10.216941+00:00 | uniform_block_audited | step 4,000/8,000 | updates 3,000
+2026-10-07T06:02:10.217943+00:00 | train_000004000_completed | step 4,000/8,000 | updates 3,000
+2026-10-07T06:02:10.217943+00:00 | checkpoint_000004000_started | step 4,000/8,000 | updates 3,000
+2026-10-07T06:02:10.390826+00:00 | checkpoint_000004000_completed | step 4,000/8,000 | updates 3,000
+2026-10-07T06:02:10.390826+00:00 | diagnostic_000004000_started | step 4,000/8,000 | updates 3,000
+2026-10-07T06:02:13.799848+00:00 | diagnostic_result | step 4,000/8,000 | updates 3,000
+2026-10-07T06:02:13.799848+00:00 | diagnostic_000004000_completed | step 4,000/8,000 | updates 3,000
+2026-10-07T06:02:13.799848+00:00 | train_000008000_started | step 4,000/8,000 | updates 3,000
+  runner_smoke: 1000/4000 transitions, 4000 total updates
+  runner_smoke: 2000/4000 transitions, 5000 total updates
+  runner_smoke: 3000/4000 transitions, 6000 total updates
+  runner_smoke: 4000/4000 transitions, 7000 total updates
+2026-10-07T06:02:43.109902+00:00 | uniform_block_audited | step 8,000/8,000 | updates 7,000
+2026-10-07T06:02:43.109902+00:00 | train_000008000_completed | step 8,000/8,000 | updates 7,000
+2026-10-07T06:02:43.109902+00:00 | checkpoint_000008000_started | step 8,000/8,000 | updates 7,000
+2026-10-07T06:02:43.268031+00:00 | checkpoint_000008000_completed | step 8,000/8,000 | updates 7,000
+2026-10-07T06:02:43.268031+00:00 | diagnostic_000008000_started | step 8,000/8,000 | updates 7,000
+2026-10-07T06:02:46.699044+00:00 | diagnostic_result | step 8,000/8,000 | updates 7,000
+2026-10-07T06:02:46.699044+00:00 | diagnostic_000008000_completed | step 8,000/8,000 | updates 7,000
+2026-10-07T06:02:46.699044+00:00 | completed | step 8,000/8,000 | updates 7,000
+RESULT: completed | C:\Users\SS\Projects\robot_practice_allocation\02_p0_uniform_pretraining_v1\results\20261007T060132Z_runner_smoke_cuda_bee7ea02\run

@@ -1,0 +1,7 @@
+{
+  "status": "failed_before_worker_start",
+  "training_steps": 0,
+  "cause": "PowerShell Start-Process rejected duplicate inherited environment keys Path and PATH.",
+  "worker_created": false,
+  "resolution": "The launcher normalizes duplicate keys in its own process environment, then uses a new run directory."
+}

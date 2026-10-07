@@ -1,0 +1,63 @@
+{
+  "name": "shared_sac_training",
+  "started_at": "2026-10-07T05:46:06.784220+00:00",
+  "passed": true,
+  "details": {
+    "steps": 4000,
+    "updates": 3000,
+    "seconds": 22.389993000775576,
+    "steps_per_second": 178.65123941134962,
+    "trace_sha256": null,
+    "first_record": {
+      "task": "DC",
+      "observation_hash": "151fb62dc07a60bbbb9746a1f678ad90d91abbee390bd28cfa09a3e62a3ab323",
+      "action_hash": "8583e2847f0b8d54e0a7f629baf974061088c9de1fcb93ee6a9aea5fca92cc6c",
+      "initial_state_hash": "82885fac45e113b9a21ec45315c65b72d33086e6805f86d97a79a8bf128bbdbb",
+      "updates": 0
+    },
+    "parameter_max_changes": {
+      "actor.": 0.09330811351537704,
+      "critic.": 0.6141959428787231,
+      "critic_target.": 0.6004109382629395
+    },
+    "actual_collected_steps": {
+      "DO": 1000,
+      "DC": 1000,
+      "WO": 1000,
+      "WC": 1000
+    },
+    "actual_replay_transitions": {
+      "DO": 1000,
+      "DC": 1000,
+      "WO": 1000,
+      "WC": 1000
+    },
+    "gradient_sample_counts": {
+      "DO": 154014,
+      "DC": 203914,
+      "WO": 251319,
+      "WC": 158753
+    },
+    "last_update_metrics": {
+      "actor_loss": -30.89303207397461,
+      "critic_loss": 0.03002438135445118,
+      "entropy_loss": -6.072283744812012,
+      "entropy_coefficient": 0.40651845932006836,
+      "critic_0_abs_td_error": 0.11543100327253342,
+      "critic_1_abs_td_error": 0.12319599092006683
+    },
+    "network_inputs": {
+      "actor": 43,
+      "each_critic": 47
+    },
+    "resolved_target_entropy": -4.0
+  },
+  "seconds": 23.644066699780524,
+  "costs": {
+    "environment_creations": 8,
+    "resets": 8,
+    "environment_steps": 4000,
+    "train_iterations": 3000,
+    "evaluation_episodes": 0
+  }
+}
