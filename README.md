@@ -16,6 +16,7 @@
 | [05_results_github_archive_v1](05_results_github_archive_v1/README.md) | 전체 실험 결과의 GitHub 보관 | 01~04와 저장소 문서 1,425개 파일, 모델 checkpoint 39개 포함; 5개 ZIP의 원본 SHA-256 대조 통과 |
 | [06_p0_branch_replication_v1](06_p0_branch_replication_v1/README.md) | 같은 200k 출발점의 후속 seed 재현성 확인 | seed 1903·1904·1905 × 5개 배분 × 40k, 총 15분기·600k; 2026-10-08 14:14 KST 완료 |
 | [07_p0_replication_analysis_v1](07_p0_replication_analysis_v1/README.md) | 새 세 반복의 독립 검증·결과 해석 | 원자료·출처 검사 1,127/1,127 통과; 새 세 반복을 우선 보고하고 기존 두 반복·전체 다섯 반복을 구분; 대화형 보고서와 PNG·SVG |
+| [08_followup_experiment_design_v1](08_followup_experiment_design_v1/README.md) | 현재 관찰을 바탕으로 한 후속 실험 설계 | 측정 확인·독립 사전학습 seed와 시점·목표 연습량 고정·과제 구성 대조; 설계만 완료, 새 실험 미실행 |
 
 완료한 구현은 보존합니다. 각 단계는
 목적이 드러나는 새 폴더에 독립된 코드와

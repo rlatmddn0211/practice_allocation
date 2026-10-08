@@ -17,3 +17,4 @@
 07_p0_replication_analysis_v1/results/**/*.svg -diff
 # Generated HTML bundles are reproducible report artifacts.
 07_p0_replication_analysis_v1/**/dist/index.html -diff
+08_followup_experiment_design_v1/** -text whitespace=cr-at-eol

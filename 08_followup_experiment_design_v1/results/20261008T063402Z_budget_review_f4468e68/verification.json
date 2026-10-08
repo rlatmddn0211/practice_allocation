@@ -1,0 +1,291 @@
+{
+  "status": "passed",
+  "created_at": "2026-10-08T06:34:02.420765+00:00",
+  "python": "3.12.0",
+  "dependencies": "Python standard library only",
+  "actual_training_steps": 0,
+  "actual_policy_evaluation_episodes": 0,
+  "checks": [
+    {
+      "name": "proposal_is_not_execution",
+      "passed": true
+    },
+    {
+      "name": "references_completed",
+      "passed": true
+    },
+    {
+      "name": "standard_allocations:U",
+      "passed": true
+    },
+    {
+      "name": "standard_allocations:F_0",
+      "passed": true
+    },
+    {
+      "name": "standard_allocations:F_1",
+      "passed": true
+    },
+    {
+      "name": "standard_allocations:F_2",
+      "passed": true
+    },
+    {
+      "name": "standard_allocations:F_3",
+      "passed": true
+    },
+    {
+      "name": "donor_swap_allocations:U",
+      "passed": true
+    },
+    {
+      "name": "donor_swap_allocations:DC_plus_WO_minus",
+      "passed": true
+    },
+    {
+      "name": "donor_swap_allocations:DC_minus_WO_plus",
+      "passed": true
+    },
+    {
+      "name": "donor_swap_holds_DO_WC",
+      "passed": true
+    },
+    {
+      "name": "branch_is_complete_blocks",
+      "passed": true
+    },
+    {
+      "name": "suite:A",
+      "passed": true
+    },
+    {
+      "name": "suite:B",
+      "passed": true
+    },
+    {
+      "name": "suite:C",
+      "passed": true
+    },
+    {
+      "name": "E0:training_budget",
+      "passed": true
+    },
+    {
+      "name": "E0:evaluation_budget",
+      "passed": true
+    },
+    {
+      "name": "E1:training_budget",
+      "passed": true
+    },
+    {
+      "name": "E1:evaluation_budget",
+      "passed": true
+    },
+    {
+      "name": "E1:outcome_count",
+      "passed": true
+    },
+    {
+      "name": "E1:seed_context_count",
+      "passed": true
+    },
+    {
+      "name": "E1:continuation_count",
+      "passed": true
+    },
+    {
+      "name": "E1:public_count",
+      "passed": true
+    },
+    {
+      "name": "E2:training_budget",
+      "passed": true
+    },
+    {
+      "name": "E2:evaluation_budget",
+      "passed": true
+    },
+    {
+      "name": "E2:outcome_count",
+      "passed": true
+    },
+    {
+      "name": "E2:seed_context_count",
+      "passed": true
+    },
+    {
+      "name": "E2:continuation_count",
+      "passed": true
+    },
+    {
+      "name": "E3:training_budget",
+      "passed": true
+    },
+    {
+      "name": "E3:evaluation_budget",
+      "passed": true
+    },
+    {
+      "name": "E3:outcome_count",
+      "passed": true
+    },
+    {
+      "name": "E3:seed_context_count",
+      "passed": true
+    },
+    {
+      "name": "E3:continuation_count",
+      "passed": true
+    },
+    {
+      "name": "E3:public_count",
+      "passed": true
+    },
+    {
+      "name": "R:training_budget",
+      "passed": true
+    },
+    {
+      "name": "R:evaluation_budget",
+      "passed": true
+    },
+    {
+      "name": "R:outcome_count",
+      "passed": true
+    },
+    {
+      "name": "R:seed_context_count",
+      "passed": true
+    },
+    {
+      "name": "R:continuation_count",
+      "passed": true
+    },
+    {
+      "name": "E4:training_budget",
+      "passed": true
+    },
+    {
+      "name": "E4:evaluation_budget",
+      "passed": true
+    },
+    {
+      "name": "E4:outcome_count",
+      "passed": true
+    },
+    {
+      "name": "E4:seed_context_count",
+      "passed": true
+    },
+    {
+      "name": "E4:continuation_count",
+      "passed": true
+    },
+    {
+      "name": "E4:public_count",
+      "passed": true
+    },
+    {
+      "name": "first_package_total",
+      "passed": true
+    },
+    {
+      "name": "core_package_total",
+      "passed": true
+    },
+    {
+      "name": "source_bytes_unchanged",
+      "passed": true
+    },
+    {
+      "name": "evidence_bytes_unchanged",
+      "passed": true
+    }
+  ],
+  "source_hashes": {
+    "protocol.json": "8aca04f7d63594bd6adc946f11d4b797d1dd12662ef93ab79d3d90fe139a1fe5",
+    "README.md": "d1b973d67e90bc0a8b6f6cda9e6fd4faf1a85ee7bd6335673ba8d5eca6fd7ce3",
+    "calculate_budget.py": "fed08ab90018f1c626216e43b52c689627248988d5d554cd85470796bbd53a96"
+  },
+  "input_hashes": {
+    "02_p0_uniform_pretraining_v1/results/20261007T060310Z_p0_cuda_50621c50/run/run_summary.json": "779ade03c1dd3de707fb30c361ed59750b314e23f71177d8a715060cacbeafa9",
+    "06_p0_branch_replication_v1/results/20261008T030554Z_branch_replication_cuda_2c28c437/run/run_summary.json": "62e4c9d203533352b371a04f1980a76fc2009e840b3ce9a9277f25aca79565b2"
+  },
+  "git_head": "8eb88666c41c89dbda40138b37dd682a7ceadf19",
+  "root_pilot_design_sha256": "97b06794f2bff6a58ee1171ce79db1c31fbbc40fe62dec463784a3a4dcf295f3",
+  "timing_factors": {
+    "pretrain_seconds_per_step": 0.008174444911500905,
+    "branch_seconds_per_step": 0.009770161581503537,
+    "residual_seconds_per_episode_proxy": 0.2961745945319173
+  },
+  "budgets": [
+    {
+      "experiment": "E0",
+      "pretraining_steps": 0,
+      "branches": 0,
+      "branch_training_steps": 0,
+      "total_training_steps": 0,
+      "evaluation_episodes": 10800,
+      "evaluation_transition_upper_bound": 5400000,
+      "reference_hours": 0.8885237835957519,
+      "status": "planned_not_run"
+    },
+    {
+      "experiment": "E1",
+      "pretraining_steps": 1200000,
+      "branches": 90,
+      "branch_training_steps": 3600000,
+      "total_training_steps": 4800000,
+      "evaluation_episodes": 79200,
+      "evaluation_transition_upper_bound": 39600000,
+      "reference_hours": 19.010817631706022,
+      "status": "planned_not_run"
+    },
+    {
+      "experiment": "E2",
+      "pretraining_steps": 0,
+      "branches": 27,
+      "branch_training_steps": 1080000,
+      "total_training_steps": 1080000,
+      "evaluation_episodes": 22800,
+      "evaluation_transition_upper_bound": 11400000,
+      "reference_hours": 4.806820906486537,
+      "status": "planned_not_run"
+    },
+    {
+      "experiment": "E3",
+      "pretraining_steps": 1200000,
+      "branches": 90,
+      "branch_training_steps": 3600000,
+      "total_training_steps": 4800000,
+      "evaluation_episodes": 81600,
+      "evaluation_transition_upper_bound": 40800000,
+      "reference_hours": 19.208267361393965,
+      "status": "planned_not_run"
+    },
+    {
+      "experiment": "R",
+      "pretraining_steps": 0,
+      "branches": 36,
+      "branch_training_steps": 1440000,
+      "total_training_steps": 1440000,
+      "evaluation_episodes": 30000,
+      "evaluation_transition_upper_bound": 15000000,
+      "reference_hours": 6.376186253700726,
+      "status": "planned_not_run"
+    },
+    {
+      "experiment": "E4",
+      "pretraining_steps": 1200000,
+      "branches": 108,
+      "branch_training_steps": 4320000,
+      "total_training_steps": 5520000,
+      "evaluation_episodes": 93600,
+      "evaluation_transition_upper_bound": 46800000,
+      "reference_hours": 22.149548326134394,
+      "status": "planned_not_run"
+    }
+  ],
+  "actual_elapsed_seconds": 0.016440000385046005
+}
