@@ -1,0 +1,27 @@
+{
+  "created_at": "2026-10-08T02:33:22.024981+00:00",
+  "source_commit": "4b0ad839704b1063365a810dbd4b21ab817eb09d",
+  "source_hashes": {
+    "build_archive.py": "db0a1e7994e0515f592ca087ccb0377a157a5b774c77232e3b8f79db96df5bbf",
+    "github_release.py": "370be2b3fc3020ee9a9ef5e1d5a1c1f5feb02ca89e2fee69d9ed9ee48d16611c",
+    "publication.json": "1b2fa70303b58b4014805b9ef8b24cbae54f48486d81456a83a5d91810da8954",
+    "README.md": "0fff72c61d5e1b438e032034dff82ba7b4e0229282d2a0c797c139a73835355d",
+    "release_notes.md": "211dbe81256a3b43d4cb5ec48534512593a34b8b576fffd5cc2268eb965ff16d"
+  },
+  "python": "3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.22621-SP0",
+  "dependencies": "Python standard library only",
+  "additional_training_steps": 0,
+  "additional_evaluation_episodes": 0,
+  "configuration": {
+    "repository": "rlatmddn0211/practice_allocation",
+    "tag": "experiment-results-2026-10-08-v1",
+    "title": "Experiment results: implementation validation, P0, and ten allocation branches",
+    "experiment_directories": [
+      "01_implementation_validation_v1",
+      "02_p0_uniform_pretraining_v1",
+      "03_p0_pretraining_analysis_v1",
+      "04_p0_allocation_branches_v1"
+    ]
+  }
+}

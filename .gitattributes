@@ -11,3 +11,4 @@
 04_p0_allocation_branches_v1/results/** -text whitespace=cr-at-eol
 # Preserve the executed audit script, including its hashed final blank line.
 04_p0_allocation_branches_v1/results/20261007T165000Z_completion_audit/verify_completed_run.py whitespace=cr-at-eol,-blank-at-eof
+05_results_github_archive_v1/results/** -text whitespace=cr-at-eol
