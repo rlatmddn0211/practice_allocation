@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "shared_initial_cases": 200,
+  "identical_case_successes": true,
+  "identical_functional_result_hash": "07fc7e7aee80d35645fb2d7c2ba8b094cbe4fb2af501c2d0ea802b56f1d95af7",
+  "same_complete_200k_parent": true,
+  "comparison_excludes_only_metadata": [
+    "evaluation_id",
+    "context"
+  ],
+  "note": "The original evaluator hash includes context, which deliberately names the new replication stage."
+}

@@ -1,0 +1,41 @@
+{
+  "discovery_run": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run",
+  "file_hashes": {
+    "run_manifest.json": "eb81d4a5d96fac27b6d04f95a0b8937da7c3d450bebc064a9bc42ea392fe1b17",
+    "run_summary.json": "be4f37c86a538a2cc72d9e47f646f40170329810256b87f303006f8945affb07",
+    "evaluation_episodes.csv": "da2a1653ca5728889b1013cbe7acd24d87da31b4cb085add3bd3f9d77877c19b",
+    "allocation_comparison.csv": "a58982a058980be7c4f7b3ead500123529031158395103df49347ffc7c33248e",
+    "frozen_selection_rules.json": "7721a397a361221b1c0f829c5d329940e3921b5955c9c3a58ed80a88234a0c3f",
+    "continuation_reset_plan.json": "98ddbedb2661a21b819b374d39be9e7ffe1c532fea4bd616e4def60ea0a2b440",
+    "branches/repeat_1901_F_DC/training_reset_audit.json": "3c4467b39390e0ab47da016c9214705b11868f1c4bf9b0c3f094cc807d8ee88e",
+    "branches/repeat_1901_F_DO/training_reset_audit.json": "c2215561fe460f106bf94e10b0bc9d22900e52cad32e0c71640a833cbb5e54a7",
+    "branches/repeat_1901_F_WC/training_reset_audit.json": "2e05b4b4c4446a1084b709cc94e218c627994df9a5483ccc605a1d9bd51abffb",
+    "branches/repeat_1901_F_WO/training_reset_audit.json": "4bbc477e83fefcc1200df8b23472df44611c688cfe7550031ce6c95c30f61943",
+    "branches/repeat_1901_U/training_reset_audit.json": "1acd148939cb13103b4150da391923514d9c65add46756aa4abc0ca2d31d10a9",
+    "branches/repeat_1902_F_DC/training_reset_audit.json": "90f8051032fe204800a110b14c79591ed7609cefba6ac7dc598f1a74a9e625ba",
+    "branches/repeat_1902_F_DO/training_reset_audit.json": "0c84f9c24cb17f8512d48ec10997589f32dd9b22ad3642f222a10955fe2fb44f",
+    "branches/repeat_1902_F_WC/training_reset_audit.json": "0eed1894f94378ab766b7764aa56d75da0af3314546c2eccd77c4f6e069fd17d",
+    "branches/repeat_1902_F_WO/training_reset_audit.json": "0829b706025a7d0bac43808b81cda9a1389e093bb6112013e258d66e0bc54079",
+    "branches/repeat_1902_U/training_reset_audit.json": "facbd2807dc339a99cd42abc248aa6fc6c042c8b37ed1f625aa517a83eeaeb64",
+    "execution_plan.json": "cf1358ea3ea858987d3b3d9e1765b663a5d35c8d7a9773903c8baf3b14e4fc1b",
+    "evaluation_banks.json": "f357894d157af0cb442f7252d515fe787e5d48223fdc16f97177cc0e6eb832d0",
+    "parent_provenance.json": "27ed3bb7875474037e7ea61366d40aa83e8281880612fc2d1e33a7998c3d8e9c"
+  },
+  "discovery_seeds": [
+    1901,
+    1902
+  ],
+  "replication_seeds": [
+    1903,
+    1904,
+    1905
+  ],
+  "same_learner_config_except_version": true,
+  "same_packages": true,
+  "same_evaluation_bank": true,
+  "disjoint_reset_seeds": true,
+  "discovery_reset_cases": 400,
+  "replication_reset_cases": 600,
+  "discovery_physical_reset_states": 400,
+  "analysis_plan_hash": "f6487fd3524dd8cc4eac1685a929fc36c8f8c456e35e224a021c42771c8f9ee5"
+}

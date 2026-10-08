@@ -4,6 +4,13 @@
 P0 seed 901의 동일한 200k 전체 checkpoint에서 후속 seed **1903·1904·1905**를 사용합니다.
 기존 발견용 seed 1901·1902의 10분기는 다시 학습하지 않고 고정된 비교 자료로 읽습니다.
 
+**실행 상태:** 2026-10-08 12:05:54 KST에 CUDA 본 실행을 시작했습니다.
+[실행 계획](results/20261008T030554Z_branch_replication_cuda_2c28c437/run/execution_plan.json)은
+15분기·600k로 고정했고, 실행 소스 commit은 `f799ad5f81ccc9e4bee50b419192cb14bbd2e919`입니다.
+12:07 KST에 [공통 출발점 200개 평가 사례의 동일성 검사](results/20261008T030554Z_branch_replication_cuda_2c28c437/run/baseline/discovery_comparison.json)를
+통과한 뒤 `repeat_1903_U` 학습에 진입했습니다. 약 14:10 KST 종료 예상이며 시스템 부하에 따라 변동합니다.
+이 문단은 시작 기록입니다. 완료 여부와 실제 비용은 실행 폴더의 `run_summary.json`으로 확인합니다.
+
 | 항목 | 고정 조건 |
 | --- | --- |
 | 공유 정책 | 상태·task ID를 입력받는 SAC, 은닉층 256×256 |
