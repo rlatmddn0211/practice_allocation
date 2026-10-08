@@ -1,0 +1,19 @@
+suite,contrast,horizon,cohort,original_seed_count,equal_seed_mean_pp,seed_min_pp,seed_max_pp,positive_seed_count
+B,F_BP minus U / macro,40000,independent_pretraining,3,0.0,0.0,0.0,0
+B,F_DC minus F_DO / DO,40000,independent_pretraining,3,1.6666666666666654,-1.0000000000000009,3.9999999999999982,2
+B,F_DC minus U / macro,40000,independent_pretraining,3,1.6666666666666645,-1.0000000000000009,3.9999999999999925,2
+B,F_DO minus U / macro,40000,independent_pretraining,3,0.0,0.0,0.0,0
+B,F_PU minus U / macro,40000,independent_pretraining,3,0.0,0.0,0.0,0
+B,F_BP minus U / macro,20000,independent_pretraining,3,0.0,0.0,0.0,0
+B,F_DC minus F_DO / DO,20000,independent_pretraining,3,1.6666666666666654,-1.0000000000000009,3.9999999999999982,2
+B,F_DC minus U / macro,20000,independent_pretraining,3,1.6666666666666645,-1.0000000000000009,3.9999999999999925,2
+B,F_DO minus U / macro,20000,independent_pretraining,3,0.0,0.0,0.0,0
+B,F_PU minus U / macro,20000,independent_pretraining,3,0.0,0.0,0.0,0
+C,F_BP minus U / macro,40000,independent_pretraining,3,0.0,0.0,0.0,0
+C,F_DO minus U / macro,40000,independent_pretraining,3,0.0,0.0,0.0,0
+C,F_PP minus U / macro,40000,independent_pretraining,3,1.6666666666666645,-1.0000000000000009,3.9999999999999925,2
+C,F_PU minus U / macro,40000,independent_pretraining,3,0.0,0.0,0.0,0
+C,F_BP minus U / macro,20000,independent_pretraining,3,0.0,0.0,0.0,0
+C,F_DO minus U / macro,20000,independent_pretraining,3,0.0,0.0,0.0,0
+C,F_PP minus U / macro,20000,independent_pretraining,3,1.6666666666666645,-1.0000000000000009,3.9999999999999925,2
+C,F_PU minus U / macro,20000,independent_pretraining,3,0.0,0.0,0.0,0

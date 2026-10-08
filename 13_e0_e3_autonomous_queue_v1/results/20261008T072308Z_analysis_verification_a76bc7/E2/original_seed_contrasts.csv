@@ -1,0 +1,19 @@
+suite,contrast,horizon,cohort,original_seed,difference_pp
+A,DC_plus_WO_minus minus U / macro,20000,independent_pretraining,11,2.500000000000002
+A,DC_plus_WO_minus minus U / macro,20000,independent_pretraining,12,2.500000000000002
+A,DC_plus_WO_minus minus U / macro,20000,independent_pretraining,13,2.500000000000002
+A,DC_plus_WO_minus minus U / macro,40000,independent_pretraining,11,2.500000000000002
+A,DC_plus_WO_minus minus U / macro,40000,independent_pretraining,12,2.500000000000002
+A,DC_plus_WO_minus minus U / macro,40000,independent_pretraining,13,2.500000000000002
+A,DC_minus_WO_plus minus U / macro,20000,independent_pretraining,11,-2.500000000000002
+A,DC_minus_WO_plus minus U / macro,20000,independent_pretraining,12,-2.500000000000002
+A,DC_minus_WO_plus minus U / macro,20000,independent_pretraining,13,-2.500000000000002
+A,DC_minus_WO_plus minus U / macro,40000,independent_pretraining,11,-2.500000000000002
+A,DC_minus_WO_plus minus U / macro,40000,independent_pretraining,12,-2.500000000000002
+A,DC_minus_WO_plus minus U / macro,40000,independent_pretraining,13,-2.500000000000002
+A,DC_plus_WO_minus minus DC_minus_WO_plus / DO,20000,independent_pretraining,11,20.000000000000004
+A,DC_plus_WO_minus minus DC_minus_WO_plus / DO,20000,independent_pretraining,12,20.000000000000004
+A,DC_plus_WO_minus minus DC_minus_WO_plus / DO,20000,independent_pretraining,13,20.000000000000004
+A,DC_plus_WO_minus minus DC_minus_WO_plus / DO,40000,independent_pretraining,11,20.000000000000004
+A,DC_plus_WO_minus minus DC_minus_WO_plus / DO,40000,independent_pretraining,12,20.000000000000004
+A,DC_plus_WO_minus minus DC_minus_WO_plus / DO,40000,independent_pretraining,13,20.000000000000004

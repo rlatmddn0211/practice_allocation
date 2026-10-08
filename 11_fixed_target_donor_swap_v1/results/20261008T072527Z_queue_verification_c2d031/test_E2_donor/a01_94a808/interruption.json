@@ -1,0 +1,11 @@
+{
+  "detected_at": "2026-10-08T07:26:49.487585+00:00",
+  "error": {
+    "type": "InterruptedProcess",
+    "retryable": true,
+    "message": "Worker exited without a completion record; partial output retained. Actual interrupted costs may be a lower bound."
+  },
+  "observed_training_steps_lower_bound": 0,
+  "unobserved_training_steps_upper_bound": 4000,
+  "evaluation_cost_may_be_incomplete": false
+}

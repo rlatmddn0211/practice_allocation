@@ -1,0 +1,219 @@
+{
+  "stage": "E3",
+  "branch_evaluations": 180,
+  "summaries": [
+    {
+      "suite": "B",
+      "contrast": "F_BP minus U / macro",
+      "horizon": 40000,
+      "cohort": "independent_pretraining",
+      "original_seed_count": 3,
+      "equal_seed_mean_pp": 0.0,
+      "seed_min_pp": 0.0,
+      "seed_max_pp": 0.0,
+      "positive_seed_count": 0
+    },
+    {
+      "suite": "B",
+      "contrast": "F_DC minus F_DO / DO",
+      "horizon": 40000,
+      "cohort": "independent_pretraining",
+      "original_seed_count": 3,
+      "equal_seed_mean_pp": 1.6666666666666654,
+      "seed_min_pp": -1.0000000000000009,
+      "seed_max_pp": 3.9999999999999982,
+      "positive_seed_count": 2
+    },
+    {
+      "suite": "B",
+      "contrast": "F_DC minus U / macro",
+      "horizon": 40000,
+      "cohort": "independent_pretraining",
+      "original_seed_count": 3,
+      "equal_seed_mean_pp": 1.6666666666666645,
+      "seed_min_pp": -1.0000000000000009,
+      "seed_max_pp": 3.9999999999999925,
+      "positive_seed_count": 2
+    },
+    {
+      "suite": "B",
+      "contrast": "F_DO minus U / macro",
+      "horizon": 40000,
+      "cohort": "independent_pretraining",
+      "original_seed_count": 3,
+      "equal_seed_mean_pp": 0.0,
+      "seed_min_pp": 0.0,
+      "seed_max_pp": 0.0,
+      "positive_seed_count": 0
+    },
+    {
+      "suite": "B",
+      "contrast": "F_PU minus U / macro",
+      "horizon": 40000,
+      "cohort": "independent_pretraining",
+      "original_seed_count": 3,
+      "equal_seed_mean_pp": 0.0,
+      "seed_min_pp": 0.0,
+      "seed_max_pp": 0.0,
+      "positive_seed_count": 0
+    },
+    {
+      "suite": "B",
+      "contrast": "F_BP minus U / macro",
+      "horizon": 20000,
+      "cohort": "independent_pretraining",
+      "original_seed_count": 3,
+      "equal_seed_mean_pp": 0.0,
+      "seed_min_pp": 0.0,
+      "seed_max_pp": 0.0,
+      "positive_seed_count": 0
+    },
+    {
+      "suite": "B",
+      "contrast": "F_DC minus F_DO / DO",
+      "horizon": 20000,
+      "cohort": "independent_pretraining",
+      "original_seed_count": 3,
+      "equal_seed_mean_pp": 1.6666666666666654,
+      "seed_min_pp": -1.0000000000000009,
+      "seed_max_pp": 3.9999999999999982,
+      "positive_seed_count": 2
+    },
+    {
+      "suite": "B",
+      "contrast": "F_DC minus U / macro",
+      "horizon": 20000,
+      "cohort": "independent_pretraining",
+      "original_seed_count": 3,
+      "equal_seed_mean_pp": 1.6666666666666645,
+      "seed_min_pp": -1.0000000000000009,
+      "seed_max_pp": 3.9999999999999925,
+      "positive_seed_count": 2
+    },
+    {
+      "suite": "B",
+      "contrast": "F_DO minus U / macro",
+      "horizon": 20000,
+      "cohort": "independent_pretraining",
+      "original_seed_count": 3,
+      "equal_seed_mean_pp": 0.0,
+      "seed_min_pp": 0.0,
+      "seed_max_pp": 0.0,
+      "positive_seed_count": 0
+    },
+    {
+      "suite": "B",
+      "contrast": "F_PU minus U / macro",
+      "horizon": 20000,
+      "cohort": "independent_pretraining",
+      "original_seed_count": 3,
+      "equal_seed_mean_pp": 0.0,
+      "seed_min_pp": 0.0,
+      "seed_max_pp": 0.0,
+      "positive_seed_count": 0
+    },
+    {
+      "suite": "C",
+      "contrast": "F_BP minus U / macro",
+      "horizon": 40000,
+      "cohort": "independent_pretraining",
+      "original_seed_count": 3,
+      "equal_seed_mean_pp": 0.0,
+      "seed_min_pp": 0.0,
+      "seed_max_pp": 0.0,
+      "positive_seed_count": 0
+    },
+    {
+      "suite": "C",
+      "contrast": "F_DO minus U / macro",
+      "horizon": 40000,
+      "cohort": "independent_pretraining",
+      "original_seed_count": 3,
+      "equal_seed_mean_pp": 0.0,
+      "seed_min_pp": 0.0,
+      "seed_max_pp": 0.0,
+      "positive_seed_count": 0
+    },
+    {
+      "suite": "C",
+      "contrast": "F_PP minus U / macro",
+      "horizon": 40000,
+      "cohort": "independent_pretraining",
+      "original_seed_count": 3,
+      "equal_seed_mean_pp": 1.6666666666666645,
+      "seed_min_pp": -1.0000000000000009,
+      "seed_max_pp": 3.9999999999999925,
+      "positive_seed_count": 2
+    },
+    {
+      "suite": "C",
+      "contrast": "F_PU minus U / macro",
+      "horizon": 40000,
+      "cohort": "independent_pretraining",
+      "original_seed_count": 3,
+      "equal_seed_mean_pp": 0.0,
+      "seed_min_pp": 0.0,
+      "seed_max_pp": 0.0,
+      "positive_seed_count": 0
+    },
+    {
+      "suite": "C",
+      "contrast": "F_BP minus U / macro",
+      "horizon": 20000,
+      "cohort": "independent_pretraining",
+      "original_seed_count": 3,
+      "equal_seed_mean_pp": 0.0,
+      "seed_min_pp": 0.0,
+      "seed_max_pp": 0.0,
+      "positive_seed_count": 0
+    },
+    {
+      "suite": "C",
+      "contrast": "F_DO minus U / macro",
+      "horizon": 20000,
+      "cohort": "independent_pretraining",
+      "original_seed_count": 3,
+      "equal_seed_mean_pp": 0.0,
+      "seed_min_pp": 0.0,
+      "seed_max_pp": 0.0,
+      "positive_seed_count": 0
+    },
+    {
+      "suite": "C",
+      "contrast": "F_PP minus U / macro",
+      "horizon": 20000,
+      "cohort": "independent_pretraining",
+      "original_seed_count": 3,
+      "equal_seed_mean_pp": 1.6666666666666645,
+      "seed_min_pp": -1.0000000000000009,
+      "seed_max_pp": 3.9999999999999925,
+      "positive_seed_count": 2
+    },
+    {
+      "suite": "C",
+      "contrast": "F_PU minus U / macro",
+      "horizon": 20000,
+      "cohort": "independent_pretraining",
+      "original_seed_count": 3,
+      "equal_seed_mean_pp": 0.0,
+      "seed_min_pp": 0.0,
+      "seed_max_pp": 0.0,
+      "positive_seed_count": 0
+    }
+  ],
+  "conditional_evaluation_uncertainty": [],
+  "failure_audit": null,
+  "training_inference_unit": "original pretraining seed; checkpoints and continuation repeats nested",
+  "limitations": [
+    "E0 has only one original parent.",
+    "Three new original seeds give limited training-variability evidence.",
+    "Cross-repeat choices use branch outcomes and are retrospective diagnostics, not deployable selectors.",
+    "E2 estimates resource substitution, not isolated direct transfer.",
+    "E3 uses custom MetaWorld subsets and does not identify a pure semantic-similarity effect."
+  ],
+  "A_200k_reference": {
+    "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\13_e0_e3_autonomous_queue_v1\\results\\20261008T071805Z_analysis_verification_c95c11\\E1\\result.json",
+    "sha256": "ce3a6e9e6cfad82b622612b514f8b50b0bf55f8bef5a4eb527043f0798ea9c32"
+  },
+  "composition_scope": "A uses E1 200k only. Compare within-suite effects and rules; B/C anchors are DO, PU, BP. Raw macro levels do not rank benchmarks."
+}

@@ -1,0 +1,24 @@
+{
+  "id": "test_E2_donor",
+  "stage": "E2",
+  "suite": "A",
+  "kind": "train",
+  "original_seed": 11,
+  "completed_at": "2026-10-08T07:12:49.323033+00:00",
+  "allocation": "DC_plus_WO_minus",
+  "continuation_label": 2299,
+  "checkpoint_step": 4000,
+  "horizon": 4000,
+  "checkpoint": {
+    "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\11_fixed_target_donor_swap_v1\\results\\20261008T071101Z_queue_verification_c223e1\\test_E2_donor\\a01_bda032\\checkpoint",
+    "manifest_sha256": "61f20b00044157b296bef5b2d646f8d3aad7bf901758780ce5e706ede2af2053"
+  },
+  "step": 8000,
+  "collected_this_job": {
+    "DO": 1000,
+    "DC": 1500,
+    "WO": 500,
+    "WC": 1000
+  },
+  "training_reset_audit": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\11_fixed_target_donor_swap_v1\\results\\20261008T071101Z_queue_verification_c223e1\\test_E2_donor\\a01_bda032\\training_reset_audit.csv"
+}

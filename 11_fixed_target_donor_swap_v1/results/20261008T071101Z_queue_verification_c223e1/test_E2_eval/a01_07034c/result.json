@@ -1,0 +1,43 @@
+{
+  "id": "test_E2_eval",
+  "stage": "E2",
+  "suite": "A",
+  "kind": "evaluate",
+  "original_seed": 11,
+  "completed_at": "2026-10-08T07:13:01.510388+00:00",
+  "role": "branch",
+  "allocation": "DC_plus_WO_minus",
+  "continuation_label": 2299,
+  "checkpoint_step": 4000,
+  "horizon": 4000,
+  "evaluation": {
+    "episodes": 8,
+    "environment_steps": 3537,
+    "seconds": 3.6540222000330687,
+    "steps_per_second": 967.9744145966027,
+    "success_by_task": {
+      "DO": 0.0,
+      "DC": 0.5,
+      "WO": 0.0,
+      "WC": 0.0
+    },
+    "macro_success": 0.125,
+    "success_counts": {
+      "DO": 0,
+      "DC": 1,
+      "WO": 0,
+      "WC": 0
+    },
+    "episodes_by_task": {
+      "DO": 2,
+      "DC": 2,
+      "WO": 2,
+      "WC": 2
+    },
+    "results_hash": "0771a282a47cfaa04a39dcb52eb2fb2763e85c08bb175833b834df0c1de2f900",
+    "purpose": "technical smoke; no scientific inference"
+  },
+  "evaluation_state_unchanged": true,
+  "episodes_path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\11_fixed_target_donor_swap_v1\\results\\20261008T071101Z_queue_verification_c223e1\\test_E2_eval\\a01_07034c\\evaluation_episodes.csv",
+  "episodes_sha256": "f630113759942a28654ade96e3a57952c359f0f6edd478008477a5ceed03acd2"
+}

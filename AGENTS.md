@@ -23,3 +23,12 @@
   (15 branches, 600k steps). Keep version 06 independent, preserve the original
   learner and evaluation bank, and report these three repeats separately from
   discovery seeds 1901/1902 before a combined descriptive summary.
+- The user explicitly authorized E0 through E3 on 2026-10-08, including
+  implementation and unattended sequential execution through E3. Follow the
+  frozen protocol in version 08: fresh evaluation, independent original seeds
+  11/12/13, fixed-target donor swaps, and task compositions B/C. Implement stages
+  independently in versions 09/10/11/12 and orchestrate them in version 13.
+  Run all approved cells regardless of scientific effect direction; stop only
+  for technical integrity failures or exhausted recovery attempts. Optional R
+  and E4 are not authorized by this instruction. Use immutable full checkpoints
+  every 20k with lossless replay compression; retain interrupted attempts.

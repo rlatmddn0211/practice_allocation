@@ -1,0 +1,40 @@
+PASS unit_contracts
+PASS reset_DO
+PASS reset_DC
+PASS reset_WO
+PASS reset_WC
+PASS environment_rng_isolation
+  diagnostic bank: DO 2 distinct initial states
+  diagnostic bank: DC 2 distinct initial states
+  diagnostic bank: WO 2 distinct initial states
+  diagnostic bank: WC 2 distinct initial states
+  outcome bank: DO 2 distinct initial states
+  outcome bank: DC 2 distinct initial states
+  outcome bank: WO 2 distinct initial states
+  outcome bank: WC 2 distinct initial states
+  uniform: 1000/4000 transitions, 0 total updates
+  uniform: 2000/4000 transitions, 1000 total updates
+  uniform: 3000/4000 transitions, 2000 total updates
+  uniform: 4000/4000 transitions, 3000 total updates
+PASS shared_sac_updated
+PASS checkpoint_overwrite_refused
+PASS evaluation_reproducible_and_isolated
+  uninterrupted: 1000/1000 transitions, 4000 total updates
+  restored_original_engine: 1000/1000 transitions, 4000 total updates
+PASS compressed_resume_and_audit_observer_bitwise_equal
+PASS stock_sac_exact_update
+PASS branch_start_U
+PASS branch_start_F_DO
+PASS branch_start_F_DC
+PASS branch_start_F_WO
+PASS branch_start_F_WC
+PASS branch_start_DC_plus_WO_minus
+PASS branch_start_DC_minus_WO_plus
+  branch: 1000/4000 transitions, 4000 total updates
+  branch: 2000/4000 transitions, 5000 total updates
+  branch: 3000/4000 transitions, 6000 total updates
+  branch: 4000/4000 transitions, 7000 total updates
+PASS real_branch_quota_and_no_warmup
+PASS corrupt_input_reference_refused
+PASS failure_progress_ties_use_uniform
+{"passed": true, "output": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\10_independent_seed_checkpoint_study_v1\\results\\20261008T071738Z_verification_A_5e40cd"}

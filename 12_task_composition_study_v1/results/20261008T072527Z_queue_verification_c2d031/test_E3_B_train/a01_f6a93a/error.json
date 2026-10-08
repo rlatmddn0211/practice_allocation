@@ -1,0 +1,6 @@
+{
+  "type": "OSError",
+  "message": "[Errno 28] No space left on device",
+  "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\SS\\Projects\\robot_practice_allocation\\12_task_composition_study_v1\\run_job.py\", line 133, in main\n    result = {'checkpoint': save_portable(engine, output / 'checkpoint'),\n                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\SS\\Projects\\robot_practice_allocation\\12_task_composition_study_v1\\practice_allocation\\study_io.py\", line 51, in save_portable\n    pickle.dump(engine.model.replay_buffer, stream, protocol=pickle.HIGHEST_PROTOCOL)\n  File \"C:\\Python312\\Lib\\lzma.py\", line 241, in write\n    self._fp.write(compressed)\nOSError: [Errno 28] No space left on device\n",
+  "retryable": true
+}

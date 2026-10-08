@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "results": [
+    {
+      "stage": "E0",
+      "suite": "A",
+      "exit_code": 0,
+      "source_unchanged": true
+    },
+    {
+      "stage": "E1",
+      "suite": "A",
+      "exit_code": 0,
+      "source_unchanged": true
+    },
+    {
+      "stage": "E2",
+      "suite": "A",
+      "exit_code": 0,
+      "source_unchanged": true
+    },
+    {
+      "stage": "E3",
+      "suite": "B",
+      "exit_code": 0,
+      "source_unchanged": true
+    },
+    {
+      "stage": "E3",
+      "suite": "C",
+      "exit_code": 0,
+      "source_unchanged": true
+    }
+  ],
+  "technical_only": true
+}

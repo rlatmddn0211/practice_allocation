@@ -1,0 +1,65 @@
+{
+  "passed": true,
+  "source_sha256": "7accfbc789ec1e2eb74c7edb0d20b23c53a6efd6d30cedc8a23a7054d66b51c8",
+  "learner_core_identical_to_06": {
+    "E0": {
+      "learning.py": "e32e1f2e23490c651167af24386a3af5df005af766a33128c9bb75f719e30009",
+      "engine.py": "ae090b11d36b715eb7c66ce89c39c1021d1de140abe7fbb5e820eff1ed4a3f26",
+      "environment.py": "85afb8560da5160832e619f90608eae0b4b83aa75264376800111b295ef4e4e8",
+      "evaluation.py": "196b18ad4b60bca516511e71a449b12b78784a20a1699caa207975203d5cc525"
+    },
+    "E1": {
+      "learning.py": "e32e1f2e23490c651167af24386a3af5df005af766a33128c9bb75f719e30009",
+      "engine.py": "ae090b11d36b715eb7c66ce89c39c1021d1de140abe7fbb5e820eff1ed4a3f26",
+      "environment.py": "85afb8560da5160832e619f90608eae0b4b83aa75264376800111b295ef4e4e8",
+      "evaluation.py": "196b18ad4b60bca516511e71a449b12b78784a20a1699caa207975203d5cc525"
+    },
+    "E2": {
+      "learning.py": "e32e1f2e23490c651167af24386a3af5df005af766a33128c9bb75f719e30009",
+      "engine.py": "ae090b11d36b715eb7c66ce89c39c1021d1de140abe7fbb5e820eff1ed4a3f26",
+      "environment.py": "85afb8560da5160832e619f90608eae0b4b83aa75264376800111b295ef4e4e8",
+      "evaluation.py": "196b18ad4b60bca516511e71a449b12b78784a20a1699caa207975203d5cc525"
+    },
+    "E3": {
+      "learning.py": "e32e1f2e23490c651167af24386a3af5df005af766a33128c9bb75f719e30009",
+      "engine.py": "ae090b11d36b715eb7c66ce89c39c1021d1de140abe7fbb5e820eff1ed4a3f26",
+      "environment.py": "85afb8560da5160832e619f90608eae0b4b83aa75264376800111b295ef4e4e8",
+      "evaluation.py": "196b18ad4b60bca516511e71a449b12b78784a20a1699caa207975203d5cc525"
+    }
+  },
+  "counts": {
+    "E0": {
+      "training_steps": 0,
+      "evaluation_episodes": 10800,
+      "branches": 0,
+      "jobs": 30
+    },
+    "E1": {
+      "training_steps": 4800000,
+      "evaluation_episodes": 79200,
+      "branches": 90,
+      "jobs": 449
+    },
+    "E2": {
+      "training_steps": 1080000,
+      "evaluation_episodes": 22800,
+      "branches": 27,
+      "jobs": 113
+    },
+    "E3": {
+      "training_steps": 4800000,
+      "evaluation_episodes": 81600,
+      "branches": 90,
+      "jobs": 459
+    }
+  },
+  "jobs": 1051,
+  "checkpoints": 543,
+  "unique_continuation_contexts": 45,
+  "unique_reserved_training_reset_seeds": 12300,
+  "new_bank_seeds": 4000,
+  "train_bank_seed_intersection": 0,
+  "bank_seed_duplicates": 0,
+  "estimated_checkpoint_bytes_at_p0_compression": 4410753162,
+  "scope": "Static contract and numerical seed audit. Physical hashes are also checked at runtime."
+}

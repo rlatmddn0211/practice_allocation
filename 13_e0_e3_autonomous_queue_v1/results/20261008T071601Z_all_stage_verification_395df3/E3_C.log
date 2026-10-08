@@ -1,0 +1,38 @@
+PASS unit_contracts
+PASS reset_DO
+PASS reset_PP
+PASS reset_PU
+PASS reset_BP
+PASS environment_rng_isolation
+  diagnostic bank: DO 2 distinct initial states
+  diagnostic bank: PP 2 distinct initial states
+  diagnostic bank: PU 2 distinct initial states
+  diagnostic bank: BP 2 distinct initial states
+  outcome bank: DO 2 distinct initial states
+  outcome bank: PP 2 distinct initial states
+  outcome bank: PU 2 distinct initial states
+  outcome bank: BP 2 distinct initial states
+  uniform: 1000/4000 transitions, 0 total updates
+  uniform: 2000/4000 transitions, 1000 total updates
+  uniform: 3000/4000 transitions, 2000 total updates
+  uniform: 4000/4000 transitions, 3000 total updates
+PASS shared_sac_updated
+PASS checkpoint_overwrite_refused
+PASS evaluation_reproducible_and_isolated
+  uninterrupted: 1000/1000 transitions, 4000 total updates
+  restored_original_engine: 1000/1000 transitions, 4000 total updates
+PASS compressed_resume_and_audit_observer_bitwise_equal
+PASS stock_sac_exact_update
+PASS branch_start_U
+PASS branch_start_F_DO
+PASS branch_start_F_PP
+PASS branch_start_F_PU
+PASS branch_start_F_BP
+  branch: 1000/4000 transitions, 4000 total updates
+  branch: 2000/4000 transitions, 5000 total updates
+  branch: 3000/4000 transitions, 6000 total updates
+  branch: 4000/4000 transitions, 7000 total updates
+PASS real_branch_quota_and_no_warmup
+PASS corrupt_input_reference_refused
+PASS failure_progress_ties_use_uniform
+{"passed": true, "output": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\12_task_composition_study_v1\\results\\20261008T072220Z_verification_C_c2bcc0"}

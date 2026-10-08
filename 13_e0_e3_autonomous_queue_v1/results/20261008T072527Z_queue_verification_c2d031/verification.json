@@ -1,0 +1,10 @@
+{
+  "passed": false,
+  "checks": [
+    "Second controller exits without launching a duplicate job",
+    "Interrupted controller adopts existing worker and retains completed job",
+    "Intentionally interrupted a worker to exercise a fresh retry directory"
+  ],
+  "error": "Queue test did not reach the required state.",
+  "technical_only": true
+}

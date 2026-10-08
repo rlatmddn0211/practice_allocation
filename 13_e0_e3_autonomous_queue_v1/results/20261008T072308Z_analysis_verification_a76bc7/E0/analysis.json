@@ -1,0 +1,218 @@
+{
+  "stage": "E0",
+  "branch_evaluations": 25,
+  "summaries": [
+    {
+      "suite": "A",
+      "contrast": "F_DC minus F_DO / DO",
+      "horizon": 40000,
+      "cohort": "replication_1903_1905",
+      "original_seed_count": 1,
+      "equal_seed_mean_pp": 6.0,
+      "seed_min_pp": 6.0,
+      "seed_max_pp": 6.0,
+      "positive_seed_count": 1
+    },
+    {
+      "suite": "A",
+      "contrast": "F_DC minus U / macro",
+      "horizon": 40000,
+      "cohort": "replication_1903_1905",
+      "original_seed_count": 1,
+      "equal_seed_mean_pp": 5.999999999999996,
+      "seed_min_pp": 5.999999999999996,
+      "seed_max_pp": 5.999999999999996,
+      "positive_seed_count": 1
+    },
+    {
+      "suite": "A",
+      "contrast": "F_DO minus U / macro",
+      "horizon": 40000,
+      "cohort": "replication_1903_1905",
+      "original_seed_count": 1,
+      "equal_seed_mean_pp": 0.0,
+      "seed_min_pp": 0.0,
+      "seed_max_pp": 0.0,
+      "positive_seed_count": 0
+    },
+    {
+      "suite": "A",
+      "contrast": "F_WC minus U / macro",
+      "horizon": 40000,
+      "cohort": "replication_1903_1905",
+      "original_seed_count": 1,
+      "equal_seed_mean_pp": 0.0,
+      "seed_min_pp": 0.0,
+      "seed_max_pp": 0.0,
+      "positive_seed_count": 0
+    },
+    {
+      "suite": "A",
+      "contrast": "F_WO minus U / macro",
+      "horizon": 40000,
+      "cohort": "replication_1903_1905",
+      "original_seed_count": 1,
+      "equal_seed_mean_pp": 0.0,
+      "seed_min_pp": 0.0,
+      "seed_max_pp": 0.0,
+      "positive_seed_count": 0
+    },
+    {
+      "suite": "A",
+      "contrast": "F_DC minus F_DO / DO",
+      "horizon": 40000,
+      "cohort": "discovery_1901_1902",
+      "original_seed_count": 1,
+      "equal_seed_mean_pp": 4.999999999999999,
+      "seed_min_pp": 4.999999999999999,
+      "seed_max_pp": 4.999999999999999,
+      "positive_seed_count": 1
+    },
+    {
+      "suite": "A",
+      "contrast": "F_DC minus U / macro",
+      "horizon": 40000,
+      "cohort": "discovery_1901_1902",
+      "original_seed_count": 1,
+      "equal_seed_mean_pp": 4.999999999999999,
+      "seed_min_pp": 4.999999999999999,
+      "seed_max_pp": 4.999999999999999,
+      "positive_seed_count": 1
+    },
+    {
+      "suite": "A",
+      "contrast": "F_DO minus U / macro",
+      "horizon": 40000,
+      "cohort": "discovery_1901_1902",
+      "original_seed_count": 1,
+      "equal_seed_mean_pp": 0.0,
+      "seed_min_pp": 0.0,
+      "seed_max_pp": 0.0,
+      "positive_seed_count": 0
+    },
+    {
+      "suite": "A",
+      "contrast": "F_WC minus U / macro",
+      "horizon": 40000,
+      "cohort": "discovery_1901_1902",
+      "original_seed_count": 1,
+      "equal_seed_mean_pp": 0.0,
+      "seed_min_pp": 0.0,
+      "seed_max_pp": 0.0,
+      "positive_seed_count": 0
+    },
+    {
+      "suite": "A",
+      "contrast": "F_WO minus U / macro",
+      "horizon": 40000,
+      "cohort": "discovery_1901_1902",
+      "original_seed_count": 1,
+      "equal_seed_mean_pp": 0.0,
+      "seed_min_pp": 0.0,
+      "seed_max_pp": 0.0,
+      "positive_seed_count": 0
+    },
+    {
+      "suite": "A",
+      "contrast": "F_DC minus F_DO / DO",
+      "horizon": 40000,
+      "cohort": "combined_descriptive",
+      "original_seed_count": 1,
+      "equal_seed_mean_pp": 5.6,
+      "seed_min_pp": 5.6,
+      "seed_max_pp": 5.6,
+      "positive_seed_count": 1
+    },
+    {
+      "suite": "A",
+      "contrast": "F_DC minus U / macro",
+      "horizon": 40000,
+      "cohort": "combined_descriptive",
+      "original_seed_count": 1,
+      "equal_seed_mean_pp": 5.599999999999996,
+      "seed_min_pp": 5.599999999999996,
+      "seed_max_pp": 5.599999999999996,
+      "positive_seed_count": 1
+    },
+    {
+      "suite": "A",
+      "contrast": "F_DO minus U / macro",
+      "horizon": 40000,
+      "cohort": "combined_descriptive",
+      "original_seed_count": 1,
+      "equal_seed_mean_pp": 0.0,
+      "seed_min_pp": 0.0,
+      "seed_max_pp": 0.0,
+      "positive_seed_count": 0
+    },
+    {
+      "suite": "A",
+      "contrast": "F_WC minus U / macro",
+      "horizon": 40000,
+      "cohort": "combined_descriptive",
+      "original_seed_count": 1,
+      "equal_seed_mean_pp": 0.0,
+      "seed_min_pp": 0.0,
+      "seed_max_pp": 0.0,
+      "positive_seed_count": 0
+    },
+    {
+      "suite": "A",
+      "contrast": "F_WO minus U / macro",
+      "horizon": 40000,
+      "cohort": "combined_descriptive",
+      "original_seed_count": 1,
+      "equal_seed_mean_pp": 0.0,
+      "seed_min_pp": 0.0,
+      "seed_max_pp": 0.0,
+      "positive_seed_count": 0
+    }
+  ],
+  "conditional_evaluation_uncertainty": [
+    {
+      "suite": "A",
+      "contrast": "F_DC minus U / macro",
+      "cohort": "discovery_1901_1902",
+      "conditional_case_bootstrap_95_interval_pp": [
+        3.5000000000000004,
+        6.625
+      ],
+      "resamples": 2000,
+      "meaning": "Evaluation-case uncertainty conditional on these trained policies; not training-seed uncertainty."
+    },
+    {
+      "suite": "A",
+      "contrast": "F_DC minus U / macro",
+      "cohort": "replication_1903_1905",
+      "conditional_case_bootstrap_95_interval_pp": [
+        3.916666666666667,
+        8.249999999999998
+      ],
+      "resamples": 2000,
+      "meaning": "Evaluation-case uncertainty conditional on these trained policies; not training-seed uncertainty."
+    }
+  ],
+  "failure_audit": {
+    "historical_frozen_failure": "F_DO",
+    "new_100_case_rules": {
+      "Failure": "F_DO",
+      "Progress": "U"
+    },
+    "20_case_bootstrap_choice_probability": {
+      "F_DO": 0.8883,
+      "F_WO": 0.057,
+      "U": 0.0537,
+      "F_DC": 0.001
+    },
+    "resamples": 10000,
+    "interpretation": "Measurement sensitivity from the new public bank; does not relabel the historical choice."
+  },
+  "training_inference_unit": "original pretraining seed; checkpoints and continuation repeats nested",
+  "limitations": [
+    "E0 has only one original parent.",
+    "Three new original seeds give limited training-variability evidence.",
+    "Cross-repeat choices use branch outcomes and are retrospective diagnostics, not deployable selectors.",
+    "E2 estimates resource substitution, not isolated direct transfer.",
+    "E3 uses custom MetaWorld subsets and does not identify a pure semantic-similarity effect."
+  ]
+}

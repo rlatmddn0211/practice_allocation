@@ -1,0 +1,26 @@
+suite,contrast,original_seed,checkpoint_step,continuation_label,horizon,cohort,difference_pp
+A,F_DO minus U / macro,901,200000,1901,40000,discovery_1901_1902,0.0
+A,F_DO minus U / macro,901,200000,1902,40000,discovery_1901_1902,0.0
+A,F_DO minus U / macro,901,200000,1903,40000,replication_1903_1905,0.0
+A,F_DO minus U / macro,901,200000,1904,40000,replication_1903_1905,0.0
+A,F_DO minus U / macro,901,200000,1905,40000,replication_1903_1905,0.0
+A,F_DC minus U / macro,901,200000,1901,40000,discovery_1901_1902,9.999999999999998
+A,F_DC minus U / macro,901,200000,1902,40000,discovery_1901_1902,0.0
+A,F_DC minus U / macro,901,200000,1903,40000,replication_1903_1905,3.9999999999999925
+A,F_DC minus U / macro,901,200000,1904,40000,replication_1903_1905,5.999999999999995
+A,F_DC minus U / macro,901,200000,1905,40000,replication_1903_1905,7.9999999999999964
+A,F_WO minus U / macro,901,200000,1901,40000,discovery_1901_1902,0.0
+A,F_WO minus U / macro,901,200000,1902,40000,discovery_1901_1902,0.0
+A,F_WO minus U / macro,901,200000,1903,40000,replication_1903_1905,0.0
+A,F_WO minus U / macro,901,200000,1904,40000,replication_1903_1905,0.0
+A,F_WO minus U / macro,901,200000,1905,40000,replication_1903_1905,0.0
+A,F_WC minus U / macro,901,200000,1901,40000,discovery_1901_1902,0.0
+A,F_WC minus U / macro,901,200000,1902,40000,discovery_1901_1902,0.0
+A,F_WC minus U / macro,901,200000,1903,40000,replication_1903_1905,0.0
+A,F_WC minus U / macro,901,200000,1904,40000,replication_1903_1905,0.0
+A,F_WC minus U / macro,901,200000,1905,40000,replication_1903_1905,0.0
+A,F_DC minus F_DO / DO,901,200000,1901,40000,discovery_1901_1902,9.999999999999998
+A,F_DC minus F_DO / DO,901,200000,1902,40000,discovery_1901_1902,0.0
+A,F_DC minus F_DO / DO,901,200000,1903,40000,replication_1903_1905,3.9999999999999982
+A,F_DC minus F_DO / DO,901,200000,1904,40000,replication_1903_1905,6.0
+A,F_DC minus F_DO / DO,901,200000,1905,40000,replication_1903_1905,8.000000000000002

@@ -1,0 +1,116 @@
+{
+  "passed": true,
+  "suite": "C",
+  "checks": [
+    {
+      "name": "unit_contracts",
+      "passed": true,
+      "tests": 6
+    },
+    {
+      "name": "reset_DO",
+      "passed": true
+    },
+    {
+      "name": "reset_PP",
+      "passed": true
+    },
+    {
+      "name": "reset_PU",
+      "passed": true
+    },
+    {
+      "name": "reset_BP",
+      "passed": true
+    },
+    {
+      "name": "environment_rng_isolation",
+      "passed": true
+    },
+    {
+      "name": "shared_sac_updated",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_overwrite_refused",
+      "passed": true
+    },
+    {
+      "name": "evaluation_reproducible_and_isolated",
+      "passed": true
+    },
+    {
+      "name": "compressed_resume_and_audit_observer_bitwise_equal",
+      "passed": true
+    },
+    {
+      "name": "stock_sac_exact_update",
+      "passed": true
+    },
+    {
+      "name": "branch_start_U",
+      "passed": true
+    },
+    {
+      "name": "branch_start_F_DO",
+      "passed": true
+    },
+    {
+      "name": "branch_start_F_PP",
+      "passed": true
+    },
+    {
+      "name": "branch_start_F_PU",
+      "passed": true
+    },
+    {
+      "name": "branch_start_F_BP",
+      "passed": true
+    },
+    {
+      "name": "real_branch_quota_and_no_warmup",
+      "passed": true,
+      "counts": [
+        500,
+        2500,
+        500,
+        500
+      ],
+      "candidate": "F_PP"
+    },
+    {
+      "name": "corrupt_input_reference_refused",
+      "passed": true
+    },
+    {
+      "name": "failure_progress_ties_use_uniform",
+      "passed": true
+    }
+  ],
+  "source_hashes": {
+    "analyze_stage.py": "54f35d947201612af4cafbd0e33080bdfc4e12b6ff5d972d89333962bd8824d2",
+    "run_job.py": "8f6923440c0f20343f291e2c2f362371c4d51b45474740d80ae9c01529c05b6f",
+    "verify_stage.py": "798af2ee567cefc8ebe804b2d520704d51147e76e3a9a065b529f30dac63e274",
+    "requirements.txt": "cb62ec70a441ab12b0a7caab26904375ffd55ce0ef5497b20e07a48205b43b1b",
+    "VERSION.json": "0741ca4e4dec3bde59806f7335e6ad97e5f4809415badefddded43c3a1c01b7d",
+    "practice_allocation/__init__.py": "4215c51deb3d834c283aeed7c87b8747916234e964f1a8cd9eedadaf1e465a2f",
+    "practice_allocation/core.py": "839259896e3be34cfdc0a90ee708300f4a4330f98ec1e8a37b90ef4b158eb601",
+    "practice_allocation/engine.py": "ae090b11d36b715eb7c66ce89c39c1021d1de140abe7fbb5e820eff1ed4a3f26",
+    "practice_allocation/environment.py": "85afb8560da5160832e619f90608eae0b4b83aa75264376800111b295ef4e4e8",
+    "practice_allocation/evaluation.py": "196b18ad4b60bca516511e71a449b12b78784a20a1699caa207975203d5cc525",
+    "practice_allocation/learning.py": "e32e1f2e23490c651167af24386a3af5df005af766a33128c9bb75f719e30009",
+    "practice_allocation/study_io.py": "20b46c67027a413857c80bbbd5e9dad469fae9ccafd468ef3b942dfc76389c53",
+    "configs/learner.json": "1e7ef9fca396a85bcfbe01cf4378be36e7b3d7741e9d608692c565aa9fa3e773",
+    "configs/suites.json": "d94a146844590a1fd66e06625222db17340f442f992df674f069514330771c77",
+    "tests/test_contracts.py": "e695e8a5ebf5248878520d455f77581edeaa5a8fc53f83af85c331353d14ce53"
+  },
+  "costs": {
+    "environment_creations": 60,
+    "resets": 60,
+    "environment_steps": 18064,
+    "train_iterations": 9002,
+    "evaluation_episodes": 16
+  },
+  "seconds": 91.26710700057447,
+  "scope": "technical verification; no scientific effects"
+}

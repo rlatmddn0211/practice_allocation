@@ -1,0 +1,7 @@
+suite,contrast,horizon,cohort,original_seed_count,equal_seed_mean_pp,seed_min_pp,seed_max_pp,positive_seed_count
+A,DC_minus_WO_plus minus U / macro,40000,independent_pretraining,3,-2.500000000000002,-2.500000000000002,-2.500000000000002,0
+A,DC_plus_WO_minus minus DC_minus_WO_plus / DO,40000,independent_pretraining,3,20.000000000000004,20.000000000000004,20.000000000000004,3
+A,DC_plus_WO_minus minus U / macro,40000,independent_pretraining,3,2.500000000000002,2.500000000000002,2.500000000000002,3
+A,DC_minus_WO_plus minus U / macro,20000,independent_pretraining,3,-2.500000000000002,-2.500000000000002,-2.500000000000002,0
+A,DC_plus_WO_minus minus DC_minus_WO_plus / DO,20000,independent_pretraining,3,20.000000000000004,20.000000000000004,20.000000000000004,3
+A,DC_plus_WO_minus minus U / macro,20000,independent_pretraining,3,2.500000000000002,2.500000000000002,2.500000000000002,3

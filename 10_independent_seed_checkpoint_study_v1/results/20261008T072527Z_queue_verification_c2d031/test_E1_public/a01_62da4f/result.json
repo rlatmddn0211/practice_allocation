@@ -1,0 +1,40 @@
+{
+  "id": "test_E1_public",
+  "stage": "E1",
+  "suite": "A",
+  "kind": "evaluate",
+  "original_seed": 11,
+  "completed_at": "2026-10-08T07:26:37.136922+00:00",
+  "role": "public",
+  "checkpoint_step": 4000,
+  "evaluation": {
+    "episodes": 8,
+    "environment_steps": 3538,
+    "seconds": 3.640612700022757,
+    "steps_per_second": 971.8144421069246,
+    "success_by_task": {
+      "DO": 0.0,
+      "DC": 0.5,
+      "WO": 0.0,
+      "WC": 0.0
+    },
+    "macro_success": 0.125,
+    "success_counts": {
+      "DO": 0,
+      "DC": 1,
+      "WO": 0,
+      "WC": 0
+    },
+    "episodes_by_task": {
+      "DO": 2,
+      "DC": 2,
+      "WO": 2,
+      "WC": 2
+    },
+    "results_hash": "25f0efe960c852b1753c8215acb3897d28c0d2c4aa6700f0537b59bbde561c2a",
+    "purpose": "technical smoke; no scientific inference"
+  },
+  "evaluation_state_unchanged": true,
+  "episodes_path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\10_independent_seed_checkpoint_study_v1\\results\\20261008T072527Z_queue_verification_c2d031\\test_E1_public\\a01_62da4f\\evaluation_episodes.csv",
+  "episodes_sha256": "c78e6984d4d1a94436a3978cd65f0aa428b12d106c9be21f80d30c1fb7c6d7d7"
+}

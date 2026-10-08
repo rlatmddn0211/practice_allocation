@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "checks": [
+    "Second controller exits without launching a duplicate job",
+    "Interrupted controller adopts existing worker and retains completed job",
+    "Each reduced job runs exactly once across E0, E1, E2 and E3",
+    "E2 imports E1 full state and exchanges donor counts with target counts fixed",
+    "Completed campaign exits without any additional work"
+  ],
+  "technical_only": true,
+  "planned_smoke_training_steps": 12000,
+  "planned_smoke_evaluation_episodes": 32
+}

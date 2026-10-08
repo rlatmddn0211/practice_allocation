@@ -1,0 +1,49 @@
+{
+  "id": "test_E0_parent_eval",
+  "stage": "E0",
+  "suite": "A",
+  "original_seed": 901,
+  "kind": "evaluate",
+  "parent": {
+    "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\02_p0_uniform_pretraining_v1\\results\\20261007T060310Z_p0_cuda_50621c50\\run\\checkpoints\\step_000200000",
+    "manifest_sha256": "ee44ba7fb9a97df0cf5a1de6847d439d58277159386318f62cb06c9b80cd2f63"
+  },
+  "bank": {
+    "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\09_fresh_evaluation_audit_v1\\results\\20261008T072527Z_queue_verification_c2d031\\test_E0_bank\\a01_36b370\\evaluation_banks.json",
+    "sha256": "cbebb982c6c7f543a7ff7dfb13e5e194a9ef90d57518b0f79005e2a3f170394d"
+  },
+  "bank_kind": "diagnostic",
+  "role": "public",
+  "checkpoint_step": 200000,
+  "bank_seed": 95001,
+  "output": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\09_fresh_evaluation_audit_v1\\results\\20261008T072527Z_queue_verification_c2d031\\test_E0_parent_eval\\a01_0791dc",
+  "source_hashes": {
+    "analyze_stage.py": "54f35d947201612af4cafbd0e33080bdfc4e12b6ff5d972d89333962bd8824d2",
+    "run_job.py": "8f6923440c0f20343f291e2c2f362371c4d51b45474740d80ae9c01529c05b6f",
+    "verify_stage.py": "798af2ee567cefc8ebe804b2d520704d51147e76e3a9a065b529f30dac63e274",
+    "requirements.txt": "cb62ec70a441ab12b0a7caab26904375ffd55ce0ef5497b20e07a48205b43b1b",
+    "VERSION.json": "08e2ead1d23271296682bfe00804f23286c8b371a246fbba11ab2396bd253042",
+    "practice_allocation/__init__.py": "4215c51deb3d834c283aeed7c87b8747916234e964f1a8cd9eedadaf1e465a2f",
+    "practice_allocation/core.py": "839259896e3be34cfdc0a90ee708300f4a4330f98ec1e8a37b90ef4b158eb601",
+    "practice_allocation/engine.py": "ae090b11d36b715eb7c66ce89c39c1021d1de140abe7fbb5e820eff1ed4a3f26",
+    "practice_allocation/environment.py": "85afb8560da5160832e619f90608eae0b4b83aa75264376800111b295ef4e4e8",
+    "practice_allocation/evaluation.py": "196b18ad4b60bca516511e71a449b12b78784a20a1699caa207975203d5cc525",
+    "practice_allocation/learning.py": "e32e1f2e23490c651167af24386a3af5df005af766a33128c9bb75f719e30009",
+    "practice_allocation/study_io.py": "20b46c67027a413857c80bbbd5e9dad469fae9ccafd468ef3b942dfc76389c53",
+    "configs/learner.json": "7c73cfa8e0f5a5f18006d80929c5530289d5409c2c3432f960ffa26f0833ffcd",
+    "configs/suites.json": "d94a146844590a1fd66e06625222db17340f442f992df674f069514330771c77",
+    "tests/test_contracts.py": "e695e8a5ebf5248878520d455f77581edeaa5a8fc53f83af85c331353d14ce53"
+  },
+  "all_banks": [
+    {
+      "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\02_p0_uniform_pretraining_v1\\results\\20261007T060310Z_p0_cuda_50621c50\\run\\evaluation_banks.json",
+      "sha256": "f357894d157af0cb442f7252d515fe787e5d48223fdc16f97177cc0e6eb832d0"
+    },
+    {
+      "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\09_fresh_evaluation_audit_v1\\results\\20261008T072527Z_queue_verification_c2d031\\test_E0_bank\\a01_36b370\\evaluation_banks.json",
+      "sha256": "cbebb982c6c7f543a7ff7dfb13e5e194a9ef90d57518b0f79005e2a3f170394d"
+    }
+  ],
+  "technical_smoke": true,
+  "worker_lock": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\13_e0_e3_autonomous_queue_v1\\results\\20261008T072527Z_queue_verification_c2d031\\worker.lock"
+}

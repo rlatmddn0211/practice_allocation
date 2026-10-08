@@ -1,0 +1,21 @@
+{
+  "id": "test_E3_B_train",
+  "stage": "E3",
+  "suite": "B",
+  "kind": "train",
+  "original_seed": 11,
+  "completed_at": "2026-10-08T07:13:40.549423+00:00",
+  "allocation": "U",
+  "checkpoint": {
+    "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\12_task_composition_study_v1\\results\\20261008T071101Z_queue_verification_c223e1\\test_E3_B_train\\a01_1983ec\\checkpoint",
+    "manifest_sha256": "ef57652363587b77593e4d4617bd62e35751b258520be8cca4c3ae0947407121"
+  },
+  "step": 4000,
+  "collected_this_job": {
+    "DO": 1000,
+    "DC": 1000,
+    "PU": 1000,
+    "BP": 1000
+  },
+  "training_reset_audit": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\12_task_composition_study_v1\\results\\20261008T071101Z_queue_verification_c223e1\\test_E3_B_train\\a01_1983ec\\training_reset_audit.csv"
+}

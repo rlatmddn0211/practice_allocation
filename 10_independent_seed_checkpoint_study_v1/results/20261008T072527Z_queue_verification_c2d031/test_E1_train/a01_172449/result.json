@@ -1,0 +1,21 @@
+{
+  "id": "test_E1_train",
+  "stage": "E1",
+  "suite": "A",
+  "kind": "train",
+  "original_seed": 11,
+  "completed_at": "2026-10-08T07:26:20.326120+00:00",
+  "allocation": "U",
+  "checkpoint": {
+    "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\10_independent_seed_checkpoint_study_v1\\results\\20261008T072527Z_queue_verification_c2d031\\test_E1_train\\a01_172449\\checkpoint",
+    "manifest_sha256": "a55a5cf2c227ca196f31601e05fee8b8eaf784e217133b3547e3f5571286ab53"
+  },
+  "step": 4000,
+  "collected_this_job": {
+    "DO": 1000,
+    "DC": 1000,
+    "WO": 1000,
+    "WC": 1000
+  },
+  "training_reset_audit": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\10_independent_seed_checkpoint_study_v1\\results\\20261008T072527Z_queue_verification_c2d031\\test_E1_train\\a01_172449\\training_reset_audit.csv"
+}

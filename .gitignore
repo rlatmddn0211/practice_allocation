@@ -12,3 +12,10 @@
 07_p0_replication_analysis_v1/results/*_preview_*/stdout.log
 07_p0_replication_analysis_v1/results/*_preview_*/stderr.log
 **/node_modules/
+**/results/**/*.pkl.xz
+**/results/**/controller.lock
+**/results/**/worker.lock
+**/results/**/STATUS.json
+**/results/**/events.jsonl
+**/results/**/progress.jsonl
+13_e0_e3_autonomous_queue_v1/ACTIVE_CAMPAIGN.json

@@ -1,0 +1,28 @@
+{
+  "id": "test_E1_rules",
+  "stage": "E1",
+  "suite": "A",
+  "kind": "rules",
+  "original_seed": 11,
+  "completed_at": "2026-10-08T07:12:06.372169+00:00",
+  "checkpoint_step": 4000,
+  "rules": {
+    "Failure": "U",
+    "Progress": "U",
+    "public_success": {
+      "DO": 0.0,
+      "DC": 0.5,
+      "WO": 0.0,
+      "WC": 0.0
+    },
+    "progress_per_training_step": {
+      "DO": 0.0,
+      "DC": 0.0,
+      "WO": 0.0,
+      "WC": 0.0
+    },
+    "tie_policy": "U",
+    "frozen_before_branch_outcomes": true,
+    "created_at": "2026-10-08T07:12:06.372169+00:00"
+  }
+}

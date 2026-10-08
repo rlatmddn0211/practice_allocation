@@ -1,0 +1,12 @@
+{
+  "passed": false,
+  "retrospective_record": true,
+  "command": "C:\\Python312\\python.exe 09_fresh_evaluation_audit_v1/verify_stage.py --suite A",
+  "error": "ModuleNotFoundError: No module named metaworld",
+  "scope": "Failed during imports, before environment creation or model initialization",
+  "environment_steps": 0,
+  "evaluation_episodes": 0,
+  "train_iterations": 0,
+  "attempted_script_sha256": "798af2ee567cefc8ebe804b2d520704d51147e76e3a9a065b529f30dac63e274",
+  "resolution": "Created version 13 venv and copied the existing pinned local dependency distributions with file hash verification. pip check passed."
+}

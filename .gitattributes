@@ -18,3 +18,9 @@
 # Generated HTML bundles are reproducible report artifacts.
 07_p0_replication_analysis_v1/**/dist/index.html -diff
 08_followup_experiment_design_v1/** -text whitespace=cr-at-eol
+09_fresh_evaluation_audit_v1/** -text whitespace=cr-at-eol
+10_independent_seed_checkpoint_study_v1/** -text whitespace=cr-at-eol
+11_fixed_target_donor_swap_v1/** -text whitespace=cr-at-eol
+12_task_composition_study_v1/** -text whitespace=cr-at-eol
+13_e0_e3_autonomous_queue_v1/** -text whitespace=cr-at-eol
+*.xz binary

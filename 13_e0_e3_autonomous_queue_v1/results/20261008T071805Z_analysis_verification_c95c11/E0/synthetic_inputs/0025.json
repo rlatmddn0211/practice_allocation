@@ -1,0 +1,23 @@
+{
+  "id": "synthetic_25",
+  "stage": "E0",
+  "suite": "A",
+  "original_seed": 901,
+  "checkpoint_step": 200000,
+  "kind": "evaluate",
+  "role": "branch",
+  "allocation": "F_DC",
+  "continuation_label": 1905,
+  "horizon": 40000,
+  "evaluation": {
+    "success_by_task": {
+      "DO": 0.28,
+      "DC": 0.68,
+      "WO": 0.48,
+      "WC": 0.98
+    },
+    "macro_success": 0.605
+  },
+  "episodes_path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\13_e0_e3_autonomous_queue_v1\\results\\20261008T071805Z_analysis_verification_c95c11\\E0\\synthetic_inputs\\0025_episodes.csv",
+  "episodes_sha256": "bd95838b98322939f46ff0c5ce6db5a60d0ffde7160d72d3ed946c1c04a8ffba"
+}

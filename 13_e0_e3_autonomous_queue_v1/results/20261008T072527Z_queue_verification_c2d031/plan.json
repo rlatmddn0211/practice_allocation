@@ -1,0 +1,307 @@
+{
+  "schema": 1,
+  "authorized_at": "2026-10-08",
+  "created_at": "2026-10-08T07:25:27.190665+00:00",
+  "status": "authorized_E0_through_E3",
+  "protocol_sha256": "8aca04f7d63594bd6adc946f11d4b797d1dd12662ef93ab79d3d90fe139a1fe5",
+  "stage_directories": {
+    "E0": "09_fresh_evaluation_audit_v1",
+    "E1": "10_independent_seed_checkpoint_study_v1",
+    "E2": "11_fixed_target_donor_swap_v1",
+    "E3": "12_task_composition_study_v1"
+  },
+  "sources": {
+    "E0": {
+      "analyze_stage.py": "54f35d947201612af4cafbd0e33080bdfc4e12b6ff5d972d89333962bd8824d2",
+      "run_job.py": "8f6923440c0f20343f291e2c2f362371c4d51b45474740d80ae9c01529c05b6f",
+      "verify_stage.py": "798af2ee567cefc8ebe804b2d520704d51147e76e3a9a065b529f30dac63e274",
+      "requirements.txt": "cb62ec70a441ab12b0a7caab26904375ffd55ce0ef5497b20e07a48205b43b1b",
+      "VERSION.json": "08e2ead1d23271296682bfe00804f23286c8b371a246fbba11ab2396bd253042",
+      "practice_allocation/__init__.py": "4215c51deb3d834c283aeed7c87b8747916234e964f1a8cd9eedadaf1e465a2f",
+      "practice_allocation/core.py": "839259896e3be34cfdc0a90ee708300f4a4330f98ec1e8a37b90ef4b158eb601",
+      "practice_allocation/engine.py": "ae090b11d36b715eb7c66ce89c39c1021d1de140abe7fbb5e820eff1ed4a3f26",
+      "practice_allocation/environment.py": "85afb8560da5160832e619f90608eae0b4b83aa75264376800111b295ef4e4e8",
+      "practice_allocation/evaluation.py": "196b18ad4b60bca516511e71a449b12b78784a20a1699caa207975203d5cc525",
+      "practice_allocation/learning.py": "e32e1f2e23490c651167af24386a3af5df005af766a33128c9bb75f719e30009",
+      "practice_allocation/study_io.py": "20b46c67027a413857c80bbbd5e9dad469fae9ccafd468ef3b942dfc76389c53",
+      "configs/learner.json": "7c73cfa8e0f5a5f18006d80929c5530289d5409c2c3432f960ffa26f0833ffcd",
+      "configs/suites.json": "d94a146844590a1fd66e06625222db17340f442f992df674f069514330771c77",
+      "tests/test_contracts.py": "e695e8a5ebf5248878520d455f77581edeaa5a8fc53f83af85c331353d14ce53"
+    },
+    "E1": {
+      "analyze_stage.py": "54f35d947201612af4cafbd0e33080bdfc4e12b6ff5d972d89333962bd8824d2",
+      "run_job.py": "8f6923440c0f20343f291e2c2f362371c4d51b45474740d80ae9c01529c05b6f",
+      "verify_stage.py": "798af2ee567cefc8ebe804b2d520704d51147e76e3a9a065b529f30dac63e274",
+      "requirements.txt": "cb62ec70a441ab12b0a7caab26904375ffd55ce0ef5497b20e07a48205b43b1b",
+      "VERSION.json": "4ab92546c43470eb761651ee90c3563e6f1e7c885427a86747c64b9dfdac8386",
+      "practice_allocation/__init__.py": "4215c51deb3d834c283aeed7c87b8747916234e964f1a8cd9eedadaf1e465a2f",
+      "practice_allocation/core.py": "839259896e3be34cfdc0a90ee708300f4a4330f98ec1e8a37b90ef4b158eb601",
+      "practice_allocation/engine.py": "ae090b11d36b715eb7c66ce89c39c1021d1de140abe7fbb5e820eff1ed4a3f26",
+      "practice_allocation/environment.py": "85afb8560da5160832e619f90608eae0b4b83aa75264376800111b295ef4e4e8",
+      "practice_allocation/evaluation.py": "196b18ad4b60bca516511e71a449b12b78784a20a1699caa207975203d5cc525",
+      "practice_allocation/learning.py": "e32e1f2e23490c651167af24386a3af5df005af766a33128c9bb75f719e30009",
+      "practice_allocation/study_io.py": "20b46c67027a413857c80bbbd5e9dad469fae9ccafd468ef3b942dfc76389c53",
+      "configs/learner.json": "2fc94ea6cf83440ba4e06c2044d6d55ff337e824fc4d9ac6d4f97f64c8a0f4b7",
+      "configs/suites.json": "d94a146844590a1fd66e06625222db17340f442f992df674f069514330771c77",
+      "tests/test_contracts.py": "e695e8a5ebf5248878520d455f77581edeaa5a8fc53f83af85c331353d14ce53"
+    },
+    "E2": {
+      "analyze_stage.py": "54f35d947201612af4cafbd0e33080bdfc4e12b6ff5d972d89333962bd8824d2",
+      "run_job.py": "8f6923440c0f20343f291e2c2f362371c4d51b45474740d80ae9c01529c05b6f",
+      "verify_stage.py": "798af2ee567cefc8ebe804b2d520704d51147e76e3a9a065b529f30dac63e274",
+      "requirements.txt": "cb62ec70a441ab12b0a7caab26904375ffd55ce0ef5497b20e07a48205b43b1b",
+      "VERSION.json": "16a8f5dbf45b4964cb97466410ca84a7241a5a174140bf87e9d8d7e5cfafb9f9",
+      "practice_allocation/__init__.py": "4215c51deb3d834c283aeed7c87b8747916234e964f1a8cd9eedadaf1e465a2f",
+      "practice_allocation/core.py": "839259896e3be34cfdc0a90ee708300f4a4330f98ec1e8a37b90ef4b158eb601",
+      "practice_allocation/engine.py": "ae090b11d36b715eb7c66ce89c39c1021d1de140abe7fbb5e820eff1ed4a3f26",
+      "practice_allocation/environment.py": "85afb8560da5160832e619f90608eae0b4b83aa75264376800111b295ef4e4e8",
+      "practice_allocation/evaluation.py": "196b18ad4b60bca516511e71a449b12b78784a20a1699caa207975203d5cc525",
+      "practice_allocation/learning.py": "e32e1f2e23490c651167af24386a3af5df005af766a33128c9bb75f719e30009",
+      "practice_allocation/study_io.py": "20b46c67027a413857c80bbbd5e9dad469fae9ccafd468ef3b942dfc76389c53",
+      "configs/learner.json": "425ae510f65756a68ba88727d41f29a20cea8ef68a7984b7e3a85ca0f817b23e",
+      "configs/suites.json": "d94a146844590a1fd66e06625222db17340f442f992df674f069514330771c77",
+      "tests/test_contracts.py": "e695e8a5ebf5248878520d455f77581edeaa5a8fc53f83af85c331353d14ce53"
+    },
+    "E3": {
+      "analyze_stage.py": "54f35d947201612af4cafbd0e33080bdfc4e12b6ff5d972d89333962bd8824d2",
+      "run_job.py": "8f6923440c0f20343f291e2c2f362371c4d51b45474740d80ae9c01529c05b6f",
+      "verify_stage.py": "798af2ee567cefc8ebe804b2d520704d51147e76e3a9a065b529f30dac63e274",
+      "requirements.txt": "cb62ec70a441ab12b0a7caab26904375ffd55ce0ef5497b20e07a48205b43b1b",
+      "VERSION.json": "0741ca4e4dec3bde59806f7335e6ad97e5f4809415badefddded43c3a1c01b7d",
+      "practice_allocation/__init__.py": "4215c51deb3d834c283aeed7c87b8747916234e964f1a8cd9eedadaf1e465a2f",
+      "practice_allocation/core.py": "839259896e3be34cfdc0a90ee708300f4a4330f98ec1e8a37b90ef4b158eb601",
+      "practice_allocation/engine.py": "ae090b11d36b715eb7c66ce89c39c1021d1de140abe7fbb5e820eff1ed4a3f26",
+      "practice_allocation/environment.py": "85afb8560da5160832e619f90608eae0b4b83aa75264376800111b295ef4e4e8",
+      "practice_allocation/evaluation.py": "196b18ad4b60bca516511e71a449b12b78784a20a1699caa207975203d5cc525",
+      "practice_allocation/learning.py": "e32e1f2e23490c651167af24386a3af5df005af766a33128c9bb75f719e30009",
+      "practice_allocation/study_io.py": "20b46c67027a413857c80bbbd5e9dad469fae9ccafd468ef3b942dfc76389c53",
+      "configs/learner.json": "1e7ef9fca396a85bcfbe01cf4378be36e7b3d7741e9d608692c565aa9fa3e773",
+      "configs/suites.json": "d94a146844590a1fd66e06625222db17340f442f992df674f069514330771c77",
+      "tests/test_contracts.py": "e695e8a5ebf5248878520d455f77581edeaa5a8fc53f83af85c331353d14ce53"
+    }
+  },
+  "controller_sources": {
+    "campaign.py": "fba91109d2e541f9a8400661d819015d7183a7f586141ba899879b0032ceb61c",
+    "check_storage.py": "561f6b84b01c875bc3311556a5c84ef83672dbe77f1a68f4b5478b9c60c49006",
+    "prepare_runtime.py": "024cc5e210261e375107ee3e9689047925039ffba042a1b7cf1301208de791c0",
+    "record_bootstrap_failure.py": "376459e1ef32f0f2ca4b1da17e0e6fcda040b0e4458b69229c3abc0871cb2694",
+    "scaffold.py": "ad57f318ce9d70de6140923be3262defc3ce1b8b60f88f74544c45c2e9041026",
+    "signoff.py": "af2bbe2947c183e2115b192f06c7ac880c165763705085e27a44db36c0e5decf",
+    "sync_development_copies.py": "24c4b6a7d0ceabf5834203100a1b7ce87de7806a240010d19c344e336f493ab3",
+    "verify_all_stages.py": "9c3cc97e321dee115702b0e96894360e34702e415c247a55b6eed4c18c579ade",
+    "verify_analysis.py": "c030187da56d2c01294610519bd3da894c5013f51f16b47cc4765a01f8826d27",
+    "verify_queue.py": "36322b95b6600e9e14d0336153aba48f14da550ace2a1221234ad951c4be536e",
+    "launch_queue.ps1": "bbaff3752049f9f7773678395d4e635fce283440ddec97233c7349fedbf862e1",
+    "register_queue.ps1": "f22f6be64ebfc0b84ec13c1f7c3a1aec4dc9fe96433a630093c5bc637161a12a",
+    "requirements.txt": "1d6374462eec1c7926ed088bee084f3f8c1fc27c1f96795c98006909ab22db2b"
+  },
+  "counts": {
+    "E0": {
+      "training_steps": 0,
+      "evaluation_episodes": 10800,
+      "branches": 0,
+      "jobs": 30
+    },
+    "E1": {
+      "training_steps": 4800000,
+      "evaluation_episodes": 79200,
+      "branches": 90,
+      "jobs": 449
+    },
+    "E2": {
+      "training_steps": 1080000,
+      "evaluation_episodes": 22800,
+      "branches": 27,
+      "jobs": 113
+    },
+    "E3": {
+      "training_steps": 4800000,
+      "evaluation_episodes": 81600,
+      "branches": 90,
+      "jobs": 459
+    }
+  },
+  "jobs": [
+    {
+      "id": "test_E0_bank",
+      "stage": "E0",
+      "suite": "A",
+      "original_seed": 901,
+      "kind": "bank",
+      "bank_seed": 95951
+    },
+    {
+      "id": "test_E0_parent_eval",
+      "stage": "E0",
+      "suite": "A",
+      "original_seed": 901,
+      "kind": "evaluate",
+      "parent": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\02_p0_uniform_pretraining_v1\\results\\20261007T060310Z_p0_cuda_50621c50\\run\\checkpoints\\step_000200000",
+        "manifest_sha256": "ee44ba7fb9a97df0cf5a1de6847d439d58277159386318f62cb06c9b80cd2f63"
+      },
+      "bank": {
+        "from_job": "test_E0_bank",
+        "key": "bank"
+      },
+      "bank_kind": "diagnostic",
+      "role": "public",
+      "checkpoint_step": 200000
+    },
+    {
+      "id": "test_E1_init",
+      "stage": "E1",
+      "suite": "A",
+      "original_seed": 11,
+      "kind": "init"
+    },
+    {
+      "id": "test_E1_train",
+      "stage": "E1",
+      "suite": "A",
+      "original_seed": 11,
+      "kind": "train",
+      "parent": {
+        "from_job": "test_E1_init",
+        "key": "checkpoint"
+      },
+      "start_step": 0,
+      "steps": 4000,
+      "allocation": "U"
+    },
+    {
+      "id": "test_E1_public",
+      "stage": "E1",
+      "suite": "A",
+      "original_seed": 11,
+      "kind": "evaluate",
+      "parent": {
+        "from_job": "test_E1_train",
+        "key": "checkpoint"
+      },
+      "bank": {
+        "from_job": "test_E0_bank",
+        "key": "bank"
+      },
+      "bank_kind": "diagnostic",
+      "role": "public",
+      "checkpoint_step": 4000
+    },
+    {
+      "id": "test_E1_rules",
+      "stage": "E1",
+      "suite": "A",
+      "original_seed": 11,
+      "kind": "rules",
+      "current_public": {
+        "from_job": "test_E1_public",
+        "key": "result_ref"
+      },
+      "previous_public": {
+        "from_job": "test_E1_public",
+        "key": "result_ref"
+      },
+      "elapsed": 4000,
+      "checkpoint_step": 4000
+    },
+    {
+      "id": "test_E2_donor",
+      "stage": "E2",
+      "suite": "A",
+      "original_seed": 11,
+      "kind": "train",
+      "parent": {
+        "from_job": "test_E1_train",
+        "key": "checkpoint"
+      },
+      "start_step": 4000,
+      "steps": 4000,
+      "allocation": "DC_plus_WO_minus",
+      "start_branch": true,
+      "continuation_label": 2299,
+      "continuation_rng_seed": 81233,
+      "checkpoint_step": 4000,
+      "horizon": 4000
+    },
+    {
+      "id": "test_E2_eval",
+      "stage": "E2",
+      "suite": "A",
+      "original_seed": 11,
+      "kind": "evaluate",
+      "parent": {
+        "from_job": "test_E2_donor",
+        "key": "checkpoint"
+      },
+      "bank": {
+        "from_job": "test_E0_bank",
+        "key": "bank"
+      },
+      "bank_kind": "outcome",
+      "role": "branch",
+      "checkpoint_step": 4000,
+      "horizon": 4000,
+      "allocation": "DC_plus_WO_minus",
+      "continuation_label": 2299
+    },
+    {
+      "id": "test_E3_B_bank",
+      "stage": "E3",
+      "suite": "B",
+      "original_seed": 11,
+      "kind": "bank",
+      "bank_seed": 95952
+    },
+    {
+      "id": "test_E3_B_init",
+      "stage": "E3",
+      "suite": "B",
+      "original_seed": 11,
+      "kind": "init"
+    },
+    {
+      "id": "test_E3_B_train",
+      "stage": "E3",
+      "suite": "B",
+      "original_seed": 11,
+      "kind": "train",
+      "parent": {
+        "from_job": "test_E3_B_init",
+        "key": "checkpoint"
+      },
+      "start_step": 0,
+      "steps": 4000,
+      "allocation": "U"
+    },
+    {
+      "id": "test_E3_B_eval",
+      "stage": "E3",
+      "suite": "B",
+      "original_seed": 11,
+      "kind": "evaluate",
+      "parent": {
+        "from_job": "test_E3_B_train",
+        "key": "checkpoint"
+      },
+      "bank": {
+        "from_job": "test_E3_B_bank",
+        "key": "bank"
+      },
+      "bank_kind": "outcome",
+      "role": "public",
+      "checkpoint_step": 4000
+    }
+  ],
+  "original_seeds": [
+    11,
+    12,
+    13
+  ],
+  "technical_smoke": true,
+  "success_gates": false,
+  "optional_R_E4_included": false,
+  "maximum_attempts_per_job": 3,
+  "minimum_free_bytes": 1500000000,
+  "checkpoint_policy": "Full lossless state every 20k; exclusive attempt directories; no old output deletion.",
+  "recovery": "Resume completed jobs; retry interrupted atomic job from its immutable parent (at most 20k repeated training)."
+}

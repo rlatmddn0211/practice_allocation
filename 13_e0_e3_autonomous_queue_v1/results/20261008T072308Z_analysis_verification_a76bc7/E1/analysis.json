@@ -1,0 +1,138 @@
+{
+  "stage": "E1",
+  "branch_evaluations": 180,
+  "summaries": [
+    {
+      "suite": "A",
+      "contrast": "F_DC minus F_DO / DO",
+      "horizon": 40000,
+      "cohort": "independent_pretraining",
+      "original_seed_count": 3,
+      "equal_seed_mean_pp": 1.6666666666666659,
+      "seed_min_pp": -1.0000000000000009,
+      "seed_max_pp": 3.9999999999999987,
+      "positive_seed_count": 2
+    },
+    {
+      "suite": "A",
+      "contrast": "F_DC minus U / macro",
+      "horizon": 40000,
+      "cohort": "independent_pretraining",
+      "original_seed_count": 3,
+      "equal_seed_mean_pp": 1.6666666666666645,
+      "seed_min_pp": -1.0000000000000009,
+      "seed_max_pp": 3.9999999999999925,
+      "positive_seed_count": 2
+    },
+    {
+      "suite": "A",
+      "contrast": "F_DO minus U / macro",
+      "horizon": 40000,
+      "cohort": "independent_pretraining",
+      "original_seed_count": 3,
+      "equal_seed_mean_pp": 0.0,
+      "seed_min_pp": 0.0,
+      "seed_max_pp": 0.0,
+      "positive_seed_count": 0
+    },
+    {
+      "suite": "A",
+      "contrast": "F_WC minus U / macro",
+      "horizon": 40000,
+      "cohort": "independent_pretraining",
+      "original_seed_count": 3,
+      "equal_seed_mean_pp": 0.0,
+      "seed_min_pp": 0.0,
+      "seed_max_pp": 0.0,
+      "positive_seed_count": 0
+    },
+    {
+      "suite": "A",
+      "contrast": "F_WO minus U / macro",
+      "horizon": 40000,
+      "cohort": "independent_pretraining",
+      "original_seed_count": 3,
+      "equal_seed_mean_pp": 0.0,
+      "seed_min_pp": 0.0,
+      "seed_max_pp": 0.0,
+      "positive_seed_count": 0
+    },
+    {
+      "suite": "A",
+      "contrast": "F_DC minus F_DO / DO",
+      "horizon": 20000,
+      "cohort": "independent_pretraining",
+      "original_seed_count": 3,
+      "equal_seed_mean_pp": 1.6666666666666659,
+      "seed_min_pp": -1.0000000000000009,
+      "seed_max_pp": 3.9999999999999987,
+      "positive_seed_count": 2
+    },
+    {
+      "suite": "A",
+      "contrast": "F_DC minus U / macro",
+      "horizon": 20000,
+      "cohort": "independent_pretraining",
+      "original_seed_count": 3,
+      "equal_seed_mean_pp": 1.6666666666666645,
+      "seed_min_pp": -1.0000000000000009,
+      "seed_max_pp": 3.9999999999999925,
+      "positive_seed_count": 2
+    },
+    {
+      "suite": "A",
+      "contrast": "F_DO minus U / macro",
+      "horizon": 20000,
+      "cohort": "independent_pretraining",
+      "original_seed_count": 3,
+      "equal_seed_mean_pp": 0.0,
+      "seed_min_pp": 0.0,
+      "seed_max_pp": 0.0,
+      "positive_seed_count": 0
+    },
+    {
+      "suite": "A",
+      "contrast": "F_WC minus U / macro",
+      "horizon": 20000,
+      "cohort": "independent_pretraining",
+      "original_seed_count": 3,
+      "equal_seed_mean_pp": 0.0,
+      "seed_min_pp": 0.0,
+      "seed_max_pp": 0.0,
+      "positive_seed_count": 0
+    },
+    {
+      "suite": "A",
+      "contrast": "F_WO minus U / macro",
+      "horizon": 20000,
+      "cohort": "independent_pretraining",
+      "original_seed_count": 3,
+      "equal_seed_mean_pp": 0.0,
+      "seed_min_pp": 0.0,
+      "seed_max_pp": 0.0,
+      "positive_seed_count": 0
+    }
+  ],
+  "conditional_evaluation_uncertainty": [
+    {
+      "suite": "A",
+      "contrast": "F_DC minus U / macro",
+      "cohort": "independent_pretraining",
+      "conditional_case_bootstrap_95_interval_pp": [
+        0.6666666666666666,
+        2.8354166666666556
+      ],
+      "resamples": 2000,
+      "meaning": "Evaluation-case uncertainty conditional on these trained policies; not training-seed uncertainty."
+    }
+  ],
+  "failure_audit": null,
+  "training_inference_unit": "original pretraining seed; checkpoints and continuation repeats nested",
+  "limitations": [
+    "E0 has only one original parent.",
+    "Three new original seeds give limited training-variability evidence.",
+    "Cross-repeat choices use branch outcomes and are retrospective diagnostics, not deployable selectors.",
+    "E2 estimates resource substitution, not isolated direct transfer.",
+    "E3 uses custom MetaWorld subsets and does not identify a pure semantic-similarity effect."
+  ]
+}

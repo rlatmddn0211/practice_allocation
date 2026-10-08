@@ -1,0 +1,12 @@
+{
+  "id": "rule_A_901_200000",
+  "kind": "rules",
+  "stage": "E0",
+  "suite": "A",
+  "original_seed": 901,
+  "checkpoint_step": 200000,
+  "rules": {
+    "Failure": "F_DO",
+    "Progress": "U"
+  }
+}
