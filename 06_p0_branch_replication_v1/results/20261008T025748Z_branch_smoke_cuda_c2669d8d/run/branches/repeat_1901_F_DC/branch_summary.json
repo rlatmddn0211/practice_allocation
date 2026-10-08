@@ -1,0 +1,80 @@
+{
+  "branch_id": "repeat_1901_F_DC",
+  "candidate": "F_DC",
+  "repeat_seed": 1901,
+  "status": "completed",
+  "outcomes": {
+    "4000": {
+      "episodes": 8,
+      "environment_steps": 2242,
+      "seconds": 2.1208779998123646,
+      "steps_per_second": 1057.1093670632404,
+      "success_by_task": {
+        "DO": 0.0,
+        "DC": 1.0,
+        "WO": 0.0,
+        "WC": 1.0
+      },
+      "macro_success": 0.5,
+      "success_counts": {
+        "DO": 0,
+        "DC": 2,
+        "WO": 0,
+        "WC": 2
+      },
+      "episodes_by_task": {
+        "DO": 2,
+        "DC": 2,
+        "WO": 2,
+        "WC": 2
+      },
+      "results_hash": "47a55ab00555b77b7ab0011f1473ef4b739d31a7d49c7eefc08073d71f1058da",
+      "purpose": "Technical runner verification on public diagnostic states; not research results",
+      "evaluation_id": "repeat_1901_F_DC_h004000",
+      "bank": "diagnostic",
+      "state_unchanged": true,
+      "parent_step": 200000
+    }
+  },
+  "checkpoints": [
+    {
+      "step": 204000,
+      "path": "branches/repeat_1901_F_DC/checkpoints/extra_004000",
+      "save_seconds": 0.14043209981173277,
+      "restore_seconds": 0.1583075001835823,
+      "restored_state_matches": true,
+      "manifest_hash": "f44e11206895bd0966171ee9e4f96446d439048312caf22ad61db36a2a20c5c8"
+    }
+  ],
+  "additional_training_steps": 4000,
+  "additional_sac_iterations": 4000,
+  "collected_new_by_task": {
+    "DO": 500,
+    "DC": 2500,
+    "WO": 500,
+    "WC": 500
+  },
+  "sampled_during_branch_by_task": {
+    "DO": 256367,
+    "DC": 261844,
+    "WO": 252695,
+    "WC": 253094
+  },
+  "sampled_new_experience_fraction": 0.0199833984375,
+  "new_experience_fraction_in_final_replay": 0.04,
+  "final_state_fingerprints": {
+    "learning": "80e2ce8e2e04b05d4f0ef4252231feecc30021f82be6a93f6aede63dd1e304d2",
+    "replay": "6c1db4f6f9aed7ff72d39f94ef208afb1f33bc74409f4bf16d0de5d396285547",
+    "collector": "e31de1b7b74fe6e90f804926dfa14ee8d5d1022d5c653d61e30fc1aede6df37c",
+    "rng": "1fdb8afc45d2b238abb37164515e9d62e15149f5f99ff7c3c926c59e3705db02"
+  },
+  "completed_at": "2026-10-08T02:59:57.022843+00:00",
+  "elapsed_seconds": 44.74768779985607,
+  "costs": {
+    "environment_creations": 16,
+    "resets": 16,
+    "environment_steps": 6242,
+    "train_iterations": 4000,
+    "evaluation_episodes": 8
+  }
+}

@@ -1,0 +1,755 @@
+{
+  "implementation": "06_p0_branch_replication_v1",
+  "stage": "branch_runner_validation",
+  "created_at": "2026-10-08T02:57:50.595879+00:00",
+  "config": {
+    "version": "06_p0_branch_replication_v1",
+    "seed": 901,
+    "device": "cuda",
+    "torch_threads": 1,
+    "deterministic_torch": true,
+    "episode_steps": 500,
+    "reward_function_version": "v2",
+    "buffer_size": 100000,
+    "batch_size": 256,
+    "learning_starts": 1000,
+    "learning_rate": 0.0003,
+    "gamma": 0.99,
+    "tau": 0.005,
+    "net_arch": [
+      256,
+      256
+    ],
+    "n_critics": 2,
+    "ent_coef": "auto",
+    "target_entropy": "auto",
+    "target_update_interval": 1,
+    "train_freq": 1,
+    "gradient_steps": 1,
+    "normalize_observations": false,
+    "normalize_rewards": false,
+    "use_sde": false,
+    "action_noise": null,
+    "optimize_memory_usage": false,
+    "handle_timeout_termination": true,
+    "n_steps": 1,
+    "smoke_train_steps": 4000,
+    "resume_steps": 1000,
+    "validation_eval_episodes_per_task": 2,
+    "diagnostic_bank_episodes_per_task": 20,
+    "outcome_bank_episodes_per_task": 50,
+    "bank_seed": 74017,
+    "log_every_steps": 250,
+    "resume_atol": 0.0,
+    "resume_rtol": 0.0
+  },
+  "config_hash": "aed2c50cba8a537a588c540eee632adef668bb0d2d5c4def87cc25bb71d5cbcb",
+  "source_hashes": {
+    "run_branches.py": "28a63703eef52e2ed7ffdc2c316b44bdf43f9b78d7497688cc29c15c6dc21039",
+    "run_validation.py": "f88f3f8b29ca4c76e821ae94f1ad821ba6a651898e7eb50b11b53f58726090ed",
+    "launch_branches.ps1": "a7bcddf19e0b9b6ec3d76ecf248d5a646c1bf2854f047e0d15effde97548d78c",
+    "requirements.txt": "cb62ec70a441ab12b0a7caab26904375ffd55ce0ef5497b20e07a48205b43b1b",
+    "VERSION.json": "4bdbccc3fb6da434ed8e2cae71cc575fc5dfcac82ce9475caace0417cf6f15a1",
+    "practice_allocation/__init__.py": "4215c51deb3d834c283aeed7c87b8747916234e964f1a8cd9eedadaf1e465a2f",
+    "practice_allocation/branch_analysis.py": "c684cc28553d5b9021f023fdfae4dcb7eedc8e44fe3b15f05656adc070666689",
+    "practice_allocation/branch_protocol.py": "6bb97ff0d80843ebb9078f030ec394b23f20c14540e06fbb3c561ad03057310f",
+    "practice_allocation/branches.py": "31773c9d03db261a9c7e2c28de0e0a875526e053efc6c8146f35e0d9c664d531",
+    "practice_allocation/core.py": "33b0bf02215f3b2e6d18744bef3fc32e4dada9b716db08e22ea6408f3af8cc93",
+    "practice_allocation/engine.py": "ae090b11d36b715eb7c66ce89c39c1021d1de140abe7fbb5e820eff1ed4a3f26",
+    "practice_allocation/environment.py": "85afb8560da5160832e619f90608eae0b4b83aa75264376800111b295ef4e4e8",
+    "practice_allocation/evaluation.py": "196b18ad4b60bca516511e71a449b12b78784a20a1699caa207975203d5cc525",
+    "practice_allocation/learning.py": "e32e1f2e23490c651167af24386a3af5df005af766a33128c9bb75f719e30009",
+    "practice_allocation/preflight.py": "84c3897afa5e4a20644c67635893523d98ebb636d22b669f1b2c9e0b3da28bfa",
+    "practice_allocation/replication_analysis.py": "31c49fb2256fe7a34bf0dc95cda6a1ae92b36d86a06e736b74a98cad4284504e",
+    "practice_allocation/replication_protocol.py": "7d01fdb7fa57f98c5d9bba89ad18eb828f262a557e18b8ac83fd25c907a9549c",
+    "configs/learner.json": "c509dff2fff982c2d06cec4e656a004f93d5ff0d9194147edb222a014ac1f695",
+    "configs/parent.json": "6e424b2a1ffd00e994a6b9906897f8d5f9a9cd8453a6bfe9281dff4cfbd07dbc",
+    "configs/replication.json": "f6487fd3524dd8cc4eac1685a929fc36c8f8c456e35e224a021c42771c8f9ee5",
+    "configs/validation.json": "c509dff2fff982c2d06cec4e656a004f93d5ff0d9194147edb222a014ac1f695",
+    "tests/test_branches.py": "44bd02fc1874c7b5593a132075cdf26f3cf801d4d6344aa533232b247fcd79b0",
+    "tests/test_contracts.py": "e695e8a5ebf5248878520d455f77581edeaa5a8fc53f83af85c331353d14ce53",
+    "tests/test_replication.py": "f234cfd32949f8c803189ce556370a75cddbc0cc0279b4982ca352b46b38b166"
+  },
+  "git_revision": "d52411427f4bd11323331b6e8ff13ac86e5dc15b",
+  "git_dirty": true,
+  "packages": {
+    "numpy": "2.2.4",
+    "torch": "2.5.1+cu121",
+    "gymnasium": "1.2.3",
+    "mujoco": "3.5.0",
+    "metaworld": "3.0.0",
+    "stable-baselines3": "2.7.1"
+  },
+  "installed_packages": {
+    "Farama-Notifications": "0.0.6",
+    "GitPython": "3.1.50",
+    "ImageIO": "2.37.3",
+    "Jinja2": "3.1.6",
+    "MarkupSafe": "3.0.3",
+    "PyMuPDF": "1.27.2",
+    "PyOpenGL": "3.1.10",
+    "PyYAML": "6.0.2",
+    "Pygments": "2.19.1",
+    "absl-py": "2.4.0",
+    "aiohappyeyeballs": "2.6.1",
+    "aiohttp": "3.12.15",
+    "aiosignal": "1.4.0",
+    "annotated-types": "0.8.0",
+    "arm_pytorch_utilities": "0.5.0",
+    "asttokens": "3.0.0",
+    "attrs": "25.3.0",
+    "certifi": "2025.8.3",
+    "charset-normalizer": "3.4.3",
+    "cloudpickle": "3.1.2",
+    "colorama": "0.4.6",
+    "comm": "0.2.2",
+    "contourpy": "1.3.1",
+    "cycler": "0.12.1",
+    "dacite": "1.9.2",
+    "datasets": "4.1.1",
+    "decorator": "5.2.1",
+    "defusedxml": "0.7.1",
+    "dill": "0.4.0",
+    "dm-env": "1.6",
+    "dm-tree": "0.1.9",
+    "dm_control": "1.0.37",
+    "docstring_parser": "0.18.0",
+    "etils": "1.13.0",
+    "executing": "2.2.0",
+    "filelock": "3.19.1",
+    "flatbuffers": "25.12.19",
+    "fonttools": "4.57.0",
+    "frozenlist": "1.7.0",
+    "fsspec": "2025.9.0",
+    "gitdb": "4.0.12",
+    "glfw": "2.10.0",
+    "gymnasium": "1.2.3",
+    "gymnasium-robotics": "1.4.2",
+    "h5py": "3.16.0",
+    "huggingface-hub": "0.35.1",
+    "idna": "3.10",
+    "imageio-ffmpeg": "0.6.0",
+    "importlib_resources": "6.5.2",
+    "iniconfig": "2.3.0",
+    "inquirerpy": "0.3.4",
+    "ipympl": "0.9.7",
+    "ipython": "9.1.0",
+    "ipython_pygments_lexers": "1.1.1",
+    "ipywidgets": "8.1.5",
+    "jedi": "0.19.2",
+    "jupyterlab_widgets": "3.0.13",
+    "kiwisolver": "1.4.8",
+    "labmaze": "1.0.6",
+    "libclang": "18.1.1",
+    "llvmlite": "0.47.0",
+    "lxml": "6.0.2",
+    "mani_skill": "3.0.1",
+    "matplotlib": "3.10.1",
+    "matplotlib-inline": "0.1.7",
+    "metaworld": "3.0.0",
+    "mpmath": "1.3.0",
+    "mujoco": "3.5.0",
+    "multidict": "6.6.4",
+    "multiprocess": "0.70.16",
+    "namex": "0.1.0",
+    "networkx": "3.6.1",
+    "numba": "0.65.1",
+    "numpy": "2.2.4",
+    "nvidia-ml-py": "13.595.45",
+    "openai-codex": "0.154.0",
+    "openai-codex-cli-bin": "0.154.0",
+    "opencv-python": "4.13.0.92",
+    "packaging": "26.3",
+    "paho-mqtt": "2.1.0",
+    "pandas": "2.3.2",
+    "parso": "0.8.4",
+    "pettingzoo": "1.26.1",
+    "pfzy": "0.3.4",
+    "pillow": "11.1.0",
+    "pip": "23.2.1",
+    "pluggy": "1.6.0",
+    "prompt_toolkit": "3.0.50",
+    "propcache": "0.3.2",
+    "protobuf": "7.34.0",
+    "psutil": "7.2.2",
+    "pure_eval": "0.2.3",
+    "pyarrow": "21.0.0",
+    "pydantic": "2.13.5",
+    "pydantic_core": "2.46.5",
+    "pyparsing": "3.2.3",
+    "pyperclip": "1.11.0",
+    "pytest": "9.0.3",
+    "python-dateutil": "2.9.0.post0",
+    "python-pptx": "1.0.2",
+    "pytorch-kinematics": "0.7.6",
+    "pytorch-seed": "0.2.0",
+    "pytz": "2025.2",
+    "requests": "2.32.5",
+    "sapien": "3.0.3",
+    "scipy": "1.17.1",
+    "setuptools": "82.0.0",
+    "six": "1.17.0",
+    "smmap": "5.0.3",
+    "stable_baselines3": "2.7.1",
+    "stack-data": "0.6.3",
+    "sympy": "1.13.1",
+    "tabulate": "0.10.0",
+    "torch": "2.5.1+cu121",
+    "torchaudio": "2.5.1+cu121",
+    "torchvision": "0.20.1+cu121",
+    "tqdm": "4.67.1",
+    "traitlets": "5.14.3",
+    "transforms3d": "0.4.2",
+    "trimesh": "4.12.2",
+    "typeguard": "4.5.2",
+    "typing-inspection": "0.4.4",
+    "typing_extensions": "4.15.0",
+    "tyro": "1.0.13",
+    "tzdata": "2025.2",
+    "urllib3": "2.5.0",
+    "wcwidth": "0.2.13",
+    "wheel": "0.47.0",
+    "widgetsnbextension": "4.0.13",
+    "wrapt": "2.1.1",
+    "xlsxwriter": "3.2.9",
+    "xxhash": "3.5.0",
+    "yarl": "1.20.1",
+    "zipp": "3.23.0"
+  },
+  "python": "3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.22621-SP0",
+  "processor": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+  "logical_cpus": 24,
+  "device": "cuda",
+  "torch_threads": 1,
+  "cuda_runtime": "12.1",
+  "cuda_available": true,
+  "gpu_name": "NVIDIA GeForce RTX 3070",
+  "gpu_total_bytes": 8589410304,
+  "environment": {
+    "tasks": {
+      "DO": "drawer-open-v3",
+      "DC": "drawer-close-v3",
+      "WO": "window-open-v3",
+      "WC": "window-close-v3"
+    },
+    "observation": "39 goal-observable state values + 4 one-hot IDs",
+    "reset_distribution": "continuous official per-task _random_reset_space",
+    "reset_strategy": "fresh environment per episode; seed() before reset; freeze disabled",
+    "reward": "unmodified MetaWorld v2 dense reward",
+    "normalization": "none",
+    "train_termination": "500-step truncation; success does not terminate",
+    "eval_termination": "first success or 500-step truncation"
+  },
+  "seed_domains": {
+    "schedule": 10,
+    "train_reset": 20,
+    "warmup_action": 30,
+    "diagnostic_bank": 100,
+    "outcome_bank": 200,
+    "validation_actions": 300
+  },
+  "update_contract": "transition t > 1000: exactly one stock SB3 SAC train iteration; checkpoint after update",
+  "runtime_environment": "venv may reuse installed system/user packages; exact resolved packages are recorded",
+  "pid": 42852,
+  "plan": {
+    "stage": "branch_runner_validation",
+    "candidates": [
+      "U",
+      "F_DO",
+      "F_DC",
+      "F_WO",
+      "F_WC"
+    ],
+    "repeat_seeds": [
+      1901
+    ],
+    "parent_step": 200000,
+    "steps_per_branch": 4000,
+    "evaluation_steps": [
+      4000
+    ],
+    "bank": "diagnostic",
+    "episodes_per_task": 2,
+    "block_steps": 4000,
+    "branch_count": 5,
+    "total_additional_training_steps": 20000,
+    "baseline_evaluated_once_and_shared": true,
+    "cohort": "technical_validation",
+    "discovery_seeds_not_rerun": [],
+    "primary_horizon": 4000,
+    "candidate_order": "repeat first, then U/F_DO/F_DC/F_WO/F_WC"
+  },
+  "validation_evidence": {
+    "implementation": {
+      "path": "results/20261008T025609Z_cuda_4f86cee8",
+      "result_hash": "f7b66063521df47104a87962cf259de4b11b3378035f93ef27c6c52fcb115ada",
+      "manifest_hash": "f219ce35d8787dc42415bd2484b1eb70bfcb5299071b5a1f92259a88b3303651"
+    }
+  },
+  "initialization": "Same complete P0 seed-901 checkpoint at 200k for every branch",
+  "status": "completed",
+  "completed_at": "2026-10-08T03:01:19.821241+00:00",
+  "parent_step": 200000,
+  "original_seed": 901,
+  "continuation_seeds": [
+    1901
+  ],
+  "branches_completed": 5,
+  "branches_planned": 5,
+  "additional_training_steps": 20000,
+  "training_seconds": 188.09288040269166,
+  "elapsed_seconds": 209.31728269997984,
+  "costs": {
+    "environment_creations": 88,
+    "resets": 88,
+    "environment_steps": 35065,
+    "train_iterations": 20000,
+    "evaluation_episodes": 48
+  },
+  "evaluation_transitions": 15065,
+  "outcome_bank_episodes_evaluated": 0,
+  "baseline": {
+    "episodes": 8,
+    "environment_steps": 2596,
+    "seconds": 3.0311631998047233,
+    "steps_per_second": 856.4368953038365,
+    "success_by_task": {
+      "DO": 0.0,
+      "DC": 1.0,
+      "WO": 0.0,
+      "WC": 0.5
+    },
+    "macro_success": 0.375,
+    "success_counts": {
+      "DO": 0,
+      "DC": 2,
+      "WO": 0,
+      "WC": 1
+    },
+    "episodes_by_task": {
+      "DO": 2,
+      "DC": 2,
+      "WO": 2,
+      "WC": 2
+    },
+    "results_hash": "ec8462d7adf7af4eaf3f5b02581dc409b35c9633efa64d00fba3881a4c4ab043",
+    "purpose": "Technical runner verification on public diagnostic states; not research results",
+    "evaluation_id": "baseline",
+    "bank": "diagnostic",
+    "state_unchanged": true,
+    "parent_step": 200000
+  },
+  "branches": [
+    {
+      "branch_id": "repeat_1901_U",
+      "candidate": "U",
+      "repeat_seed": 1901,
+      "status": "completed",
+      "outcomes": {
+        "4000": {
+          "episodes": 8,
+          "environment_steps": 3037,
+          "seconds": 2.8022421998903155,
+          "steps_per_second": 1083.7749856592957,
+          "success_by_task": {
+            "DO": 0.0,
+            "DC": 1.0,
+            "WO": 0.0,
+            "WC": 0.0
+          },
+          "macro_success": 0.25,
+          "success_counts": {
+            "DO": 0,
+            "DC": 2,
+            "WO": 0,
+            "WC": 0
+          },
+          "episodes_by_task": {
+            "DO": 2,
+            "DC": 2,
+            "WO": 2,
+            "WC": 2
+          },
+          "results_hash": "1756fb887b7fdb652f39cefaa83a1e1bc271221c09e599e81b0e35d0bb916f41",
+          "purpose": "Technical runner verification on public diagnostic states; not research results",
+          "evaluation_id": "repeat_1901_U_h004000",
+          "bank": "diagnostic",
+          "state_unchanged": true,
+          "parent_step": 200000
+        }
+      },
+      "checkpoints": [
+        {
+          "step": 204000,
+          "path": "branches/repeat_1901_U/checkpoints/extra_004000",
+          "save_seconds": 0.14484139997512102,
+          "restore_seconds": 0.15579780004918575,
+          "restored_state_matches": true,
+          "manifest_hash": "eac4a20a0ca0d2288b1514de039ecd91a4a7cd1adb9f18594c1d4f6b26a003f3"
+        }
+      ],
+      "additional_training_steps": 4000,
+      "additional_sac_iterations": 4000,
+      "collected_new_by_task": {
+        "DO": 1000,
+        "DC": 1000,
+        "WO": 1000,
+        "WC": 1000
+      },
+      "sampled_during_branch_by_task": {
+        "DO": 260525,
+        "DC": 252446,
+        "WO": 256382,
+        "WC": 254647
+      },
+      "sampled_new_experience_fraction": 0.0199833984375,
+      "new_experience_fraction_in_final_replay": 0.04,
+      "final_state_fingerprints": {
+        "learning": "9684014ef65893783be85b2274f9a4cd9d69849e4e7b0334fb4f5ea53e2232ed",
+        "replay": "7156b1827755c885768c5fc05442f12225ed4e1e4387a867b388d4b4fc57f970",
+        "collector": "480b40e91c2ca11210a8d4778ffd3ba6db86008647903ef5c8ef88da73790f58",
+        "rng": "1fdb8afc45d2b238abb37164515e9d62e15149f5f99ff7c3c926c59e3705db02"
+      },
+      "completed_at": "2026-10-08T02:58:33.186075+00:00",
+      "elapsed_seconds": 37.093992800451815,
+      "costs": {
+        "environment_creations": 16,
+        "resets": 16,
+        "environment_steps": 7037,
+        "train_iterations": 4000,
+        "evaluation_episodes": 8
+      }
+    },
+    {
+      "branch_id": "repeat_1901_F_DO",
+      "candidate": "F_DO",
+      "repeat_seed": 1901,
+      "status": "completed",
+      "outcomes": {
+        "4000": {
+          "episodes": 8,
+          "environment_steps": 2334,
+          "seconds": 2.3016494000330567,
+          "steps_per_second": 1014.05539869212,
+          "success_by_task": {
+            "DO": 0.0,
+            "DC": 1.0,
+            "WO": 0.0,
+            "WC": 1.0
+          },
+          "macro_success": 0.5,
+          "success_counts": {
+            "DO": 0,
+            "DC": 2,
+            "WO": 0,
+            "WC": 2
+          },
+          "episodes_by_task": {
+            "DO": 2,
+            "DC": 2,
+            "WO": 2,
+            "WC": 2
+          },
+          "results_hash": "5d3a8907cdf3e1ae23c66d8d96041c90bdad15b2a11c3c3a23a9dce44d87ee47",
+          "purpose": "Technical runner verification on public diagnostic states; not research results",
+          "evaluation_id": "repeat_1901_F_DO_h004000",
+          "bank": "diagnostic",
+          "state_unchanged": true,
+          "parent_step": 200000
+        }
+      },
+      "checkpoints": [
+        {
+          "step": 204000,
+          "path": "branches/repeat_1901_F_DO/checkpoints/extra_004000",
+          "save_seconds": 0.12853839993476868,
+          "restore_seconds": 0.15514609962701797,
+          "restored_state_matches": true,
+          "manifest_hash": "8851f40db00e2a7ba9c4250bc881546c6e55dce7283b2991cf1130a1f406be15"
+        }
+      ],
+      "additional_training_steps": 4000,
+      "additional_sac_iterations": 4000,
+      "collected_new_by_task": {
+        "DO": 2500,
+        "DC": 500,
+        "WO": 500,
+        "WC": 500
+      },
+      "sampled_during_branch_by_task": {
+        "DO": 270498,
+        "DC": 247713,
+        "WO": 252695,
+        "WC": 253094
+      },
+      "sampled_new_experience_fraction": 0.0199833984375,
+      "new_experience_fraction_in_final_replay": 0.04,
+      "final_state_fingerprints": {
+        "learning": "dd7a86d67a0995145e499d468011f3fd122e82b24b1a89c93f11102953e40eb9",
+        "replay": "1be43605c123a7282462bcfb3de835985e8470f039849917c690a08fdab39621",
+        "collector": "0d21326517200bda6b623e8043a0baabe44b8cd05b8cff2a8b6f846edf17966b",
+        "rng": "1fdb8afc45d2b238abb37164515e9d62e15149f5f99ff7c3c926c59e3705db02"
+      },
+      "completed_at": "2026-10-08T02:59:12.220289+00:00",
+      "elapsed_seconds": 38.966029699891806,
+      "costs": {
+        "environment_creations": 16,
+        "resets": 16,
+        "environment_steps": 6334,
+        "train_iterations": 4000,
+        "evaluation_episodes": 8
+      }
+    },
+    {
+      "branch_id": "repeat_1901_F_DC",
+      "candidate": "F_DC",
+      "repeat_seed": 1901,
+      "status": "completed",
+      "outcomes": {
+        "4000": {
+          "episodes": 8,
+          "environment_steps": 2242,
+          "seconds": 2.1208779998123646,
+          "steps_per_second": 1057.1093670632404,
+          "success_by_task": {
+            "DO": 0.0,
+            "DC": 1.0,
+            "WO": 0.0,
+            "WC": 1.0
+          },
+          "macro_success": 0.5,
+          "success_counts": {
+            "DO": 0,
+            "DC": 2,
+            "WO": 0,
+            "WC": 2
+          },
+          "episodes_by_task": {
+            "DO": 2,
+            "DC": 2,
+            "WO": 2,
+            "WC": 2
+          },
+          "results_hash": "47a55ab00555b77b7ab0011f1473ef4b739d31a7d49c7eefc08073d71f1058da",
+          "purpose": "Technical runner verification on public diagnostic states; not research results",
+          "evaluation_id": "repeat_1901_F_DC_h004000",
+          "bank": "diagnostic",
+          "state_unchanged": true,
+          "parent_step": 200000
+        }
+      },
+      "checkpoints": [
+        {
+          "step": 204000,
+          "path": "branches/repeat_1901_F_DC/checkpoints/extra_004000",
+          "save_seconds": 0.14043209981173277,
+          "restore_seconds": 0.1583075001835823,
+          "restored_state_matches": true,
+          "manifest_hash": "f44e11206895bd0966171ee9e4f96446d439048312caf22ad61db36a2a20c5c8"
+        }
+      ],
+      "additional_training_steps": 4000,
+      "additional_sac_iterations": 4000,
+      "collected_new_by_task": {
+        "DO": 500,
+        "DC": 2500,
+        "WO": 500,
+        "WC": 500
+      },
+      "sampled_during_branch_by_task": {
+        "DO": 256367,
+        "DC": 261844,
+        "WO": 252695,
+        "WC": 253094
+      },
+      "sampled_new_experience_fraction": 0.0199833984375,
+      "new_experience_fraction_in_final_replay": 0.04,
+      "final_state_fingerprints": {
+        "learning": "80e2ce8e2e04b05d4f0ef4252231feecc30021f82be6a93f6aede63dd1e304d2",
+        "replay": "6c1db4f6f9aed7ff72d39f94ef208afb1f33bc74409f4bf16d0de5d396285547",
+        "collector": "e31de1b7b74fe6e90f804926dfa14ee8d5d1022d5c653d61e30fc1aede6df37c",
+        "rng": "1fdb8afc45d2b238abb37164515e9d62e15149f5f99ff7c3c926c59e3705db02"
+      },
+      "completed_at": "2026-10-08T02:59:57.022843+00:00",
+      "elapsed_seconds": 44.74768779985607,
+      "costs": {
+        "environment_creations": 16,
+        "resets": 16,
+        "environment_steps": 6242,
+        "train_iterations": 4000,
+        "evaluation_episodes": 8
+      }
+    },
+    {
+      "branch_id": "repeat_1901_F_WO",
+      "candidate": "F_WO",
+      "repeat_seed": 1901,
+      "status": "completed",
+      "outcomes": {
+        "4000": {
+          "episodes": 8,
+          "environment_steps": 2245,
+          "seconds": 2.1343897003680468,
+          "steps_per_second": 1051.8229166927108,
+          "success_by_task": {
+            "DO": 0.0,
+            "DC": 1.0,
+            "WO": 0.0,
+            "WC": 1.0
+          },
+          "macro_success": 0.5,
+          "success_counts": {
+            "DO": 0,
+            "DC": 2,
+            "WO": 0,
+            "WC": 2
+          },
+          "episodes_by_task": {
+            "DO": 2,
+            "DC": 2,
+            "WO": 2,
+            "WC": 2
+          },
+          "results_hash": "f4868d62499571b447f9365cbb736ea271b666b47909d6579c23664a32f96f7d",
+          "purpose": "Technical runner verification on public diagnostic states; not research results",
+          "evaluation_id": "repeat_1901_F_WO_h004000",
+          "bank": "diagnostic",
+          "state_unchanged": true,
+          "parent_step": 200000
+        }
+      },
+      "checkpoints": [
+        {
+          "step": 204000,
+          "path": "branches/repeat_1901_F_WO/checkpoints/extra_004000",
+          "save_seconds": 0.12369129993021488,
+          "restore_seconds": 0.1596357999369502,
+          "restored_state_matches": true,
+          "manifest_hash": "c082d96346e18377004241e55b3413ecaeaa38e8b67010c27a51844aeff950cd"
+        }
+      ],
+      "additional_training_steps": 4000,
+      "additional_sac_iterations": 4000,
+      "collected_new_by_task": {
+        "DO": 500,
+        "DC": 500,
+        "WO": 2500,
+        "WC": 500
+      },
+      "sampled_during_branch_by_task": {
+        "DO": 256367,
+        "DC": 251545,
+        "WO": 262994,
+        "WC": 253094
+      },
+      "sampled_new_experience_fraction": 0.0199833984375,
+      "new_experience_fraction_in_final_replay": 0.04,
+      "final_state_fingerprints": {
+        "learning": "596933c333a82f8d95f9e3574670e3ca55b6e501f2f5965ef3d04b41ad9a72f6",
+        "replay": "0a5a8fe5dd051853a0bd465827da97bf69a967d3345f00e9aeb46b51d60f44c2",
+        "collector": "b9cd5b9a25d81046fdb9511f2472fbd5bd4a4fce64847da2fe7aac7f8a80fb22",
+        "rng": "1fdb8afc45d2b238abb37164515e9d62e15149f5f99ff7c3c926c59e3705db02"
+      },
+      "completed_at": "2026-10-08T03:00:39.057896+00:00",
+      "elapsed_seconds": 41.98069979995489,
+      "costs": {
+        "environment_creations": 16,
+        "resets": 16,
+        "environment_steps": 6245,
+        "train_iterations": 4000,
+        "evaluation_episodes": 8
+      }
+    },
+    {
+      "branch_id": "repeat_1901_F_WC",
+      "candidate": "F_WC",
+      "repeat_seed": 1901,
+      "status": "completed",
+      "outcomes": {
+        "4000": {
+          "episodes": 8,
+          "environment_steps": 2611,
+          "seconds": 2.58152539934963,
+          "steps_per_second": 1011.4175133267314,
+          "success_by_task": {
+            "DO": 0.0,
+            "DC": 1.0,
+            "WO": 0.0,
+            "WC": 0.5
+          },
+          "macro_success": 0.375,
+          "success_counts": {
+            "DO": 0,
+            "DC": 2,
+            "WO": 0,
+            "WC": 1
+          },
+          "episodes_by_task": {
+            "DO": 2,
+            "DC": 2,
+            "WO": 2,
+            "WC": 2
+          },
+          "results_hash": "4b16f073a98907ef20b7c9c27279010619c1017224c4cc0a8de8d232ca7e5455",
+          "purpose": "Technical runner verification on public diagnostic states; not research results",
+          "evaluation_id": "repeat_1901_F_WC_h004000",
+          "bank": "diagnostic",
+          "state_unchanged": true,
+          "parent_step": 200000
+        }
+      },
+      "checkpoints": [
+        {
+          "step": 204000,
+          "path": "branches/repeat_1901_F_WC/checkpoints/extra_004000",
+          "save_seconds": 0.1428236998617649,
+          "restore_seconds": 0.15528469998389482,
+          "restored_state_matches": true,
+          "manifest_hash": "a5aee36c84295c6a432e2244938d6f032950fffd8bcde2ab5a20623d1220c296"
+        }
+      ],
+      "additional_training_steps": 4000,
+      "additional_sac_iterations": 4000,
+      "collected_new_by_task": {
+        "DO": 500,
+        "DC": 500,
+        "WO": 500,
+        "WC": 2500
+      },
+      "sampled_during_branch_by_task": {
+        "DO": 256367,
+        "DC": 251545,
+        "WO": 253375,
+        "WC": 262713
+      },
+      "sampled_new_experience_fraction": 0.0199833984375,
+      "new_experience_fraction_in_final_replay": 0.04,
+      "final_state_fingerprints": {
+        "learning": "0e6bdb4e9f673a2c9817f36c998d51c9c3953f8c20ea56f1654718850097ecea",
+        "replay": "d123c6417a8f192996bb8dd7d3167d0b0f8f3c7d55f6a2134ffefbb3c962a3a0",
+        "collector": "fac313771c0f68ffc6100781cd8d45b66f34e485b7043383f264b25ecbb395d4",
+        "rng": "1fdb8afc45d2b238abb37164515e9d62e15149f5f99ff7c3c926c59e3705db02"
+      },
+      "completed_at": "2026-10-08T03:01:19.648858+00:00",
+      "elapsed_seconds": 40.52310870029032,
+      "costs": {
+        "environment_creations": 16,
+        "resets": 16,
+        "environment_steps": 6611,
+        "train_iterations": 4000,
+        "evaluation_episodes": 8
+      }
+    }
+  ],
+  "comparison": {
+    "primary_horizon": 4000,
+    "primary_rows": 5,
+    "comparison_rows": 5,
+    "paired_rows": 40,
+    "cross_repeat_directions": 0
+  },
+  "replication_report": null,
+  "error": null,
+  "cuda_peak_allocated_bytes": 76685824
+}

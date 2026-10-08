@@ -1,0 +1,11 @@
+{
+  "implementation": "06_p0_branch_replication_v1",
+  "schema_version": 1,
+  "stage": "p0_branch_replication",
+  "independent_source_tree": true,
+  "copied_learner_from": "02_p0_uniform_pretraining_v1",
+  "copied_orchestration_from": "04_p0_allocation_branches_v1",
+  "parent_git_revision": "d52411427f4bd11323331b6e8ff13ac86e5dc15b",
+  "research_branches_authorized_on": "2026-10-08",
+  "checkpoint_import": "Same pinned complete P0 seed-901 200k state; byte-identical core learner; no imports from earlier source trees"
+}

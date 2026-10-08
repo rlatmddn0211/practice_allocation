@@ -1,0 +1,90 @@
+New branch_runner_validation run: C:\Users\SS\Projects\robot_practice_allocation\06_p0_branch_replication_v1\results\20261008T025748Z_branch_smoke_cuda_c2669d8d\run
+2026-10-08T02:57:51.173546+00:00 | verify_p0_provenance_started | shared | additional 0/20,000 | branches 0/5
+2026-10-08T02:57:51.205175+00:00 | verify_p0_provenance_completed | shared | additional 0/20,000 | branches 0/5
+2026-10-08T02:57:51.228299+00:00 | import_complete_parent_state_started | shared | additional 0/20,000 | branches 0/5
+2026-10-08T02:57:52.587537+00:00 | import_complete_parent_state_completed | shared | additional 0/20,000 | branches 0/5
+2026-10-08T02:57:52.603162+00:00 | save_and_verify_initial_checkpoint_started | shared | additional 0/20,000 | branches 0/5
+2026-10-08T02:57:52.948024+00:00 | save_and_verify_initial_checkpoint_completed | shared | additional 0/20,000 | branches 0/5
+2026-10-08T02:57:52.948024+00:00 | evaluate_shared_baseline_started | shared | additional 0/20,000 | branches 0/5
+2026-10-08T02:57:56.026546+00:00 | evaluation_result | shared | additional 0/20,000 | branches 0/5
+2026-10-08T02:57:56.037432+00:00 | evaluate_shared_baseline_completed | shared | additional 0/20,000 | branches 0/5
+2026-10-08T02:57:56.089787+00:00 | initialize_repeat_1901_U_started | repeat_1901_U | additional 0/20,000 | branches 0/5
+2026-10-08T02:57:56.277722+00:00 | initialize_repeat_1901_U_completed | repeat_1901_U | additional 0/20,000 | branches 0/5
+2026-10-08T02:57:56.277722+00:00 | train_repeat_1901_U_004000_started | repeat_1901_U | additional 0/20,000 | branches 0/5
+  repeat_1901_U: 1000/4000 transitions, 200000 total updates
+  repeat_1901_U: 2000/4000 transitions, 201000 total updates
+  repeat_1901_U: 3000/4000 transitions, 202000 total updates
+  repeat_1901_U: 4000/4000 transitions, 203000 total updates
+2026-10-08T02:58:29.931642+00:00 | train_repeat_1901_U_004000_completed | repeat_1901_U | additional 4,000/20,000 | branches 0/5
+2026-10-08T02:58:29.931642+00:00 | allocation_block_audited | repeat_1901_U | additional 4,000/20,000 | branches 0/5
+2026-10-08T02:58:29.931642+00:00 | checkpoint_repeat_1901_U_004000_started | repeat_1901_U | additional 4,000/20,000 | branches 0/5
+2026-10-08T02:58:30.249295+00:00 | checkpoint_repeat_1901_U_004000_completed | repeat_1901_U | additional 4,000/20,000 | branches 0/5
+2026-10-08T02:58:30.264966+00:00 | evaluation_repeat_1901_U_004000_started | repeat_1901_U | additional 4,000/20,000 | branches 0/5
+2026-10-08T02:58:33.128149+00:00 | evaluation_result | repeat_1901_U | additional 4,000/20,000 | branches 0/5
+2026-10-08T02:58:33.128149+00:00 | evaluation_repeat_1901_U_004000_completed | repeat_1901_U | additional 4,000/20,000 | branches 0/5
+2026-10-08T02:58:33.249109+00:00 | branch_completed | repeat_1901_U | additional 4,000/20,000 | branches 1/5
+2026-10-08T02:58:33.249109+00:00 | initialize_repeat_1901_F_DO_started | repeat_1901_F_DO | additional 4,000/20,000 | branches 1/5
+2026-10-08T02:58:33.437943+00:00 | initialize_repeat_1901_F_DO_completed | repeat_1901_F_DO | additional 4,000/20,000 | branches 1/5
+2026-10-08T02:58:33.437943+00:00 | train_repeat_1901_F_DO_004000_started | repeat_1901_F_DO | additional 4,000/20,000 | branches 1/5
+  repeat_1901_F_DO: 1000/4000 transitions, 200000 total updates
+  repeat_1901_F_DO: 2000/4000 transitions, 201000 total updates
+  repeat_1901_F_DO: 3000/4000 transitions, 202000 total updates
+  repeat_1901_F_DO: 4000/4000 transitions, 203000 total updates
+2026-10-08T02:59:09.471057+00:00 | train_repeat_1901_F_DO_004000_completed | repeat_1901_F_DO | additional 8,000/20,000 | branches 1/5
+2026-10-08T02:59:09.471057+00:00 | allocation_block_audited | repeat_1901_F_DO | additional 8,000/20,000 | branches 1/5
+2026-10-08T02:59:09.471057+00:00 | checkpoint_repeat_1901_F_DO_004000_started | repeat_1901_F_DO | additional 8,000/20,000 | branches 1/5
+2026-10-08T02:59:09.784048+00:00 | checkpoint_repeat_1901_F_DO_004000_completed | repeat_1901_F_DO | additional 8,000/20,000 | branches 1/5
+2026-10-08T02:59:09.784048+00:00 | evaluation_repeat_1901_F_DO_004000_started | repeat_1901_F_DO | additional 8,000/20,000 | branches 1/5
+2026-10-08T02:59:12.155196+00:00 | evaluation_result | repeat_1901_F_DO | additional 8,000/20,000 | branches 1/5
+2026-10-08T02:59:12.155196+00:00 | evaluation_repeat_1901_F_DO_004000_completed | repeat_1901_F_DO | additional 8,000/20,000 | branches 1/5
+2026-10-08T02:59:12.267157+00:00 | branch_completed | repeat_1901_F_DO | additional 8,000/20,000 | branches 2/5
+2026-10-08T02:59:12.267157+00:00 | initialize_repeat_1901_F_DC_started | repeat_1901_F_DC | additional 8,000/20,000 | branches 2/5
+2026-10-08T02:59:12.484057+00:00 | initialize_repeat_1901_F_DC_completed | repeat_1901_F_DC | additional 8,000/20,000 | branches 2/5
+2026-10-08T02:59:12.484057+00:00 | train_repeat_1901_F_DC_004000_started | repeat_1901_F_DC | additional 8,000/20,000 | branches 2/5
+  repeat_1901_F_DC: 1000/4000 transitions, 200000 total updates
+  repeat_1901_F_DC: 2000/4000 transitions, 201000 total updates
+  repeat_1901_F_DC: 3000/4000 transitions, 202000 total updates
+  repeat_1901_F_DC: 4000/4000 transitions, 203000 total updates
+2026-10-08T02:59:54.442156+00:00 | train_repeat_1901_F_DC_004000_completed | repeat_1901_F_DC | additional 12,000/20,000 | branches 2/5
+2026-10-08T02:59:54.442156+00:00 | allocation_block_audited | repeat_1901_F_DC | additional 12,000/20,000 | branches 2/5
+2026-10-08T02:59:54.442156+00:00 | checkpoint_repeat_1901_F_DC_004000_started | repeat_1901_F_DC | additional 12,000/20,000 | branches 2/5
+2026-10-08T02:59:54.761268+00:00 | checkpoint_repeat_1901_F_DC_004000_completed | repeat_1901_F_DC | additional 12,000/20,000 | branches 2/5
+2026-10-08T02:59:54.761268+00:00 | evaluation_repeat_1901_F_DC_004000_started | repeat_1901_F_DC | additional 12,000/20,000 | branches 2/5
+2026-10-08T02:59:56.959820+00:00 | evaluation_result | repeat_1901_F_DC | additional 12,000/20,000 | branches 2/5
+2026-10-08T02:59:56.959820+00:00 | evaluation_repeat_1901_F_DC_004000_completed | repeat_1901_F_DC | additional 12,000/20,000 | branches 2/5
+2026-10-08T02:59:57.085839+00:00 | branch_completed | repeat_1901_F_DC | additional 12,000/20,000 | branches 3/5
+2026-10-08T02:59:57.085839+00:00 | initialize_repeat_1901_F_WO_started | repeat_1901_F_WO | additional 12,000/20,000 | branches 3/5
+2026-10-08T02:59:57.289376+00:00 | initialize_repeat_1901_F_WO_completed | repeat_1901_F_WO | additional 12,000/20,000 | branches 3/5
+2026-10-08T02:59:57.297474+00:00 | train_repeat_1901_F_WO_004000_started | repeat_1901_F_WO | additional 12,000/20,000 | branches 3/5
+  repeat_1901_F_WO: 1000/4000 transitions, 200000 total updates
+  repeat_1901_F_WO: 2000/4000 transitions, 201000 total updates
+  repeat_1901_F_WO: 3000/4000 transitions, 202000 total updates
+  repeat_1901_F_WO: 4000/4000 transitions, 203000 total updates
+2026-10-08T03:00:36.481250+00:00 | train_repeat_1901_F_WO_004000_completed | repeat_1901_F_WO | additional 16,000/20,000 | branches 3/5
+2026-10-08T03:00:36.481250+00:00 | allocation_block_audited | repeat_1901_F_WO | additional 16,000/20,000 | branches 3/5
+2026-10-08T03:00:36.481250+00:00 | checkpoint_repeat_1901_F_WO_004000_started | repeat_1901_F_WO | additional 16,000/20,000 | branches 3/5
+2026-10-08T03:00:36.795715+00:00 | checkpoint_repeat_1901_F_WO_004000_completed | repeat_1901_F_WO | additional 16,000/20,000 | branches 3/5
+2026-10-08T03:00:36.795715+00:00 | evaluation_repeat_1901_F_WO_004000_started | repeat_1901_F_WO | additional 16,000/20,000 | branches 3/5
+2026-10-08T03:00:39.003944+00:00 | evaluation_result | repeat_1901_F_WO | additional 16,000/20,000 | branches 3/5
+2026-10-08T03:00:39.003944+00:00 | evaluation_repeat_1901_F_WO_004000_completed | repeat_1901_F_WO | additional 16,000/20,000 | branches 3/5
+2026-10-08T03:00:39.120895+00:00 | branch_completed | repeat_1901_F_WO | additional 16,000/20,000 | branches 4/5
+2026-10-08T03:00:39.120895+00:00 | initialize_repeat_1901_F_WC_started | repeat_1901_F_WC | additional 16,000/20,000 | branches 4/5
+2026-10-08T03:00:39.327432+00:00 | initialize_repeat_1901_F_WC_completed | repeat_1901_F_WC | additional 16,000/20,000 | branches 4/5
+2026-10-08T03:00:39.327432+00:00 | train_repeat_1901_F_WC_004000_started | repeat_1901_F_WC | additional 16,000/20,000 | branches 4/5
+  repeat_1901_F_WC: 1000/4000 transitions, 200000 total updates
+  repeat_1901_F_WC: 2000/4000 transitions, 201000 total updates
+  repeat_1901_F_WC: 3000/4000 transitions, 202000 total updates
+  repeat_1901_F_WC: 4000/4000 transitions, 203000 total updates
+2026-10-08T03:01:16.600070+00:00 | train_repeat_1901_F_WC_004000_completed | repeat_1901_F_WC | additional 20,000/20,000 | branches 4/5
+2026-10-08T03:01:16.600070+00:00 | allocation_block_audited | repeat_1901_F_WC | additional 20,000/20,000 | branches 4/5
+2026-10-08T03:01:16.600070+00:00 | checkpoint_repeat_1901_F_WC_004000_started | repeat_1901_F_WC | additional 20,000/20,000 | branches 4/5
+2026-10-08T03:01:16.930111+00:00 | checkpoint_repeat_1901_F_WC_004000_completed | repeat_1901_F_WC | additional 20,000/20,000 | branches 4/5
+2026-10-08T03:01:16.930111+00:00 | evaluation_repeat_1901_F_WC_004000_started | repeat_1901_F_WC | additional 20,000/20,000 | branches 4/5
+2026-10-08T03:01:19.570544+00:00 | evaluation_result | repeat_1901_F_WC | additional 20,000/20,000 | branches 4/5
+2026-10-08T03:01:19.584395+00:00 | evaluation_repeat_1901_F_WC_004000_completed | repeat_1901_F_WC | additional 20,000/20,000 | branches 4/5
+2026-10-08T03:01:19.711453+00:00 | branch_completed | repeat_1901_F_WC | additional 20,000/20,000 | branches 5/5
+2026-10-08T03:01:19.711453+00:00 | final_comparison_started | shared | additional 20,000/20,000 | branches 5/5
+2026-10-08T03:01:19.727131+00:00 | final_comparison_completed | shared | additional 20,000/20,000 | branches 5/5
+2026-10-08T03:01:19.727131+00:00 | verify_parent_unchanged_at_end_started | shared | additional 20,000/20,000 | branches 5/5
+2026-10-08T03:01:19.758706+00:00 | verify_parent_unchanged_at_end_completed | shared | additional 20,000/20,000 | branches 5/5
+2026-10-08T03:01:19.821241+00:00 | completed | shared | additional 20,000/20,000 | branches 5/5

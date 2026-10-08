@@ -17,3 +17,9 @@
   Run them in an independent version from the fixed P0 seed-901 200k checkpoint:
   five allocations, two continuation seeds, 40k additional steps each.
   New pretraining conditions and additional original seeds remain separate stages.
+- The user explicitly authorized the replication stage on 2026-10-08:
+  continue from the same fixed P0 seed-901 200k checkpoint with new continuation
+  seeds 1903, 1904, 1905, all five allocations, and 40k additional steps per branch
+  (15 branches, 600k steps). Keep version 06 independent, preserve the original
+  learner and evaluation bank, and report these three repeats separately from
+  discovery seeds 1901/1902 before a combined descriptive summary.

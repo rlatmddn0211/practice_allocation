@@ -1,0 +1,105 @@
+{
+  "stage": "branch_runner_validation",
+  "primary_horizon": 4000,
+  "primary_results": [
+    {
+      "original_seed": 901,
+      "parent_step": 200000,
+      "repeat_seed": 1901,
+      "candidate": "U",
+      "additional_steps": 4000,
+      "macro_success": 0.25,
+      "gain_pp": -12.5,
+      "extra_gain_vs_uniform_pp": 0.0,
+      "max_drop_pp": 50.0,
+      "worst_task_success": 0.0,
+      "success_DO": 0.0,
+      "success_DC": 1.0,
+      "success_WO": 0.0,
+      "success_WC": 0.0
+    },
+    {
+      "original_seed": 901,
+      "parent_step": 200000,
+      "repeat_seed": 1901,
+      "candidate": "F_DO",
+      "additional_steps": 4000,
+      "macro_success": 0.5,
+      "gain_pp": 12.5,
+      "extra_gain_vs_uniform_pp": 25.0,
+      "max_drop_pp": 0,
+      "worst_task_success": 0.0,
+      "success_DO": 0.0,
+      "success_DC": 1.0,
+      "success_WO": 0.0,
+      "success_WC": 1.0
+    },
+    {
+      "original_seed": 901,
+      "parent_step": 200000,
+      "repeat_seed": 1901,
+      "candidate": "F_DC",
+      "additional_steps": 4000,
+      "macro_success": 0.5,
+      "gain_pp": 12.5,
+      "extra_gain_vs_uniform_pp": 25.0,
+      "max_drop_pp": 0,
+      "worst_task_success": 0.0,
+      "success_DO": 0.0,
+      "success_DC": 1.0,
+      "success_WO": 0.0,
+      "success_WC": 1.0
+    },
+    {
+      "original_seed": 901,
+      "parent_step": 200000,
+      "repeat_seed": 1901,
+      "candidate": "F_WO",
+      "additional_steps": 4000,
+      "macro_success": 0.5,
+      "gain_pp": 12.5,
+      "extra_gain_vs_uniform_pp": 25.0,
+      "max_drop_pp": 0,
+      "worst_task_success": 0.0,
+      "success_DO": 0.0,
+      "success_DC": 1.0,
+      "success_WO": 0.0,
+      "success_WC": 1.0
+    },
+    {
+      "original_seed": 901,
+      "parent_step": 200000,
+      "repeat_seed": 1901,
+      "candidate": "F_WC",
+      "additional_steps": 4000,
+      "macro_success": 0.375,
+      "gain_pp": 0.0,
+      "extra_gain_vs_uniform_pp": 12.5,
+      "max_drop_pp": 0,
+      "worst_task_success": 0.0,
+      "success_DO": 0.0,
+      "success_DC": 1.0,
+      "success_WO": 0.0,
+      "success_WC": 0.5
+    }
+  ],
+  "frozen_recommendations": {
+    "Uniform": "U",
+    "Failure": "F_DO",
+    "Progress": "F_WC"
+  },
+  "cross_repeat_selection_diagnostic": [],
+  "tie_order": [
+    "U",
+    "F_DO",
+    "F_DC",
+    "F_WO",
+    "F_WC"
+  ],
+  "limits": [
+    "One original training seed; continuation repeats are not independent pretrained policies.",
+    "Descriptive pilot results; no automated significance or generalization claim.",
+    "Emphasizing one task also reduces practice on other tasks.",
+    "Cross-repeat candidate selection is a diagnostic, not an operational selector."
+  ]
+}

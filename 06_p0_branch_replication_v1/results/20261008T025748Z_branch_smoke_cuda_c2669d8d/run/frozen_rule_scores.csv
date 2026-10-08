@@ -1,0 +1,4 @@
+rule,original_seed,parent_step,repeat_seed,candidate,additional_steps,macro_success,gain_pp,extra_gain_vs_uniform_pp,max_drop_pp,worst_task_success,success_DO,success_DC,success_WO,success_WC
+Uniform,901,200000,1901,U,4000,0.25,-12.5,0.0,50.0,0.0,0.0,1.0,0.0,0.0
+Failure,901,200000,1901,F_DO,4000,0.5,12.5,25.0,0,0.0,0.0,1.0,0.0,1.0
+Progress,901,200000,1901,F_WC,4000,0.375,0.0,12.5,0,0.0,0.0,1.0,0.0,0.5
