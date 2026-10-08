@@ -7,3 +7,8 @@
 **/results/**/*.zip
 **/results/**/source_snapshot/
 **/results/worker.lock
+# Local report browser caches and mutable HTTP access logs are retained locally.
+07_p0_replication_analysis_v1/results/**/browser_profile/
+07_p0_replication_analysis_v1/results/*_preview_*/stdout.log
+07_p0_replication_analysis_v1/results/*_preview_*/stderr.log
+**/node_modules/

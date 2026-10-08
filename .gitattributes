@@ -13,3 +13,7 @@
 04_p0_allocation_branches_v1/results/20261007T165000Z_completion_audit/verify_completed_run.py whitespace=cr-at-eol,-blank-at-eof
 05_results_github_archive_v1/results/** -text whitespace=cr-at-eol
 06_p0_branch_replication_v1/results/** -text whitespace=cr-at-eol
+07_p0_replication_analysis_v1/** -text whitespace=cr-at-eol
+07_p0_replication_analysis_v1/results/**/*.svg -diff
+# Generated HTML bundles are reproducible report artifacts.
+07_p0_replication_analysis_v1/**/dist/index.html -diff

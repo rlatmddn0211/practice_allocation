@@ -1,0 +1,10 @@
+{
+  "method": "Direct visual inspection of all four desktop and five narrow screenshot tiles",
+  "status": "corrections_required",
+  "findings": [
+    "Two bold Markdown runs rendered literal markers next to Korean suffixes.",
+    "Four long Korean chart category labels were crowded at 420px width."
+  ],
+  "resolution": "Removed the two problematic markers, shortened chart labels without changing meaning, and rebuilt in a new output directory.",
+  "follow_up": "../20261008T060051Z_report_browser_be63ab24/verification.json"
+}

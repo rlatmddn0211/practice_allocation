@@ -1,0 +1,498 @@
+{
+  "started_at": "2026-10-08T06:00:51.381Z",
+  "status": "passed",
+  "url": "http://127.0.0.1:8707/",
+  "script_sha256": "080f00a07104f6bb9e11c7be6a0daeb4025f4cddac988de53491e1f7ff613c7b",
+  "built_html_sha256": "7640ad919480051f023304aa69f77bbfe1b8a0ef7634fb987e6560c1a8090297",
+  "node": "v24.18.0",
+  "checks": [
+    {
+      "name": "browser_started",
+      "passed": true
+    },
+    {
+      "name": "report_rendered",
+      "passed": true
+    },
+    {
+      "name": "all_authored_components",
+      "passed": true,
+      "details": [
+        {
+          "id": "replication-summary",
+          "characters": 295
+        },
+        {
+          "id": "primary-results",
+          "characters": 292
+        },
+        {
+          "id": "baseline-context",
+          "characters": 233
+        },
+        {
+          "id": "replication-effect",
+          "characters": 82
+        },
+        {
+          "id": "outlier-context",
+          "characters": 292
+        },
+        {
+          "id": "drawer-finding",
+          "characters": 283
+        },
+        {
+          "id": "drawer-contrast",
+          "characters": 242
+        },
+        {
+          "id": "recovery-finding",
+          "characters": 232
+        },
+        {
+          "id": "window-recovery",
+          "characters": 172
+        },
+        {
+          "id": "task-finding",
+          "characters": 265
+        },
+        {
+          "id": "task-contributions",
+          "characters": 243
+        },
+        {
+          "id": "task-detail",
+          "characters": 306
+        },
+        {
+          "id": "budget-finding",
+          "characters": 195
+        },
+        {
+          "id": "budget-table",
+          "characters": 265
+        },
+        {
+          "id": "combined-context",
+          "characters": 173
+        },
+        {
+          "id": "cohort-comparison",
+          "characters": 285
+        },
+        {
+          "id": "scope-next",
+          "characters": 467
+        },
+        {
+          "id": "execution-methods",
+          "characters": 344
+        }
+      ]
+    },
+    {
+      "name": "key_values_visible",
+      "passed": true
+    },
+    {
+      "name": "no_template_or_unicode_damage",
+      "passed": true
+    },
+    {
+      "name": "no_unrendered_markdown_markers",
+      "passed": true
+    },
+    {
+      "name": "desktop_page_no_overflow",
+      "passed": true,
+      "details": {
+        "width": 1265,
+        "scroll": 1265,
+        "chart": [
+          {
+            "width": 36,
+            "height": 13.304443359375
+          },
+          {
+            "width": 36,
+            "height": 86.4781494140625
+          },
+          {
+            "width": 36,
+            "height": 33.2608642578125
+          },
+          {
+            "width": 36,
+            "height": 39.9129638671875
+          },
+          {
+            "width": 36,
+            "height": 133.04345703125
+          },
+          {
+            "width": 35.999969482421875,
+            "height": 106.434814453125
+          },
+          {
+            "width": 36,
+            "height": 199.565185546875
+          },
+          {
+            "width": 36,
+            "height": 192.9129638671875
+          },
+          {
+            "width": 36,
+            "height": 106.434814453125
+          },
+          {
+            "width": 36,
+            "height": 46.565185546875
+          },
+          {
+            "width": 36,
+            "height": 19.95654296875
+          },
+          {
+            "width": 36,
+            "height": 26.6087646484375
+          }
+        ],
+        "tables": 7
+      }
+    },
+    {
+      "name": "desktop_bars_painted",
+      "passed": true,
+      "details": [
+        {
+          "width": 36,
+          "height": 13.304443359375
+        },
+        {
+          "width": 36,
+          "height": 86.4781494140625
+        },
+        {
+          "width": 36,
+          "height": 33.2608642578125
+        },
+        {
+          "width": 36,
+          "height": 39.9129638671875
+        },
+        {
+          "width": 36,
+          "height": 133.04345703125
+        },
+        {
+          "width": 35.999969482421875,
+          "height": 106.434814453125
+        },
+        {
+          "width": 36,
+          "height": 199.565185546875
+        },
+        {
+          "width": 36,
+          "height": 192.9129638671875
+        },
+        {
+          "width": 36,
+          "height": 106.434814453125
+        },
+        {
+          "width": 36,
+          "height": 46.565185546875
+        },
+        {
+          "width": 36,
+          "height": 19.95654296875
+        },
+        {
+          "width": 36,
+          "height": 26.6087646484375
+        }
+      ]
+    },
+    {
+      "name": "desktop_seven_tables",
+      "passed": true,
+      "details": 7
+    },
+    {
+      "name": "narrow_page_no_overflow",
+      "passed": true,
+      "details": {
+        "width": 405,
+        "scroll": 405,
+        "chart": [
+          {
+            "width": 10,
+            "height": 13.304443359375
+          },
+          {
+            "width": 9.999984741210938,
+            "height": 86.4781494140625
+          },
+          {
+            "width": 10,
+            "height": 33.2608642578125
+          },
+          {
+            "width": 10,
+            "height": 39.9129638671875
+          },
+          {
+            "width": 10.000007629394531,
+            "height": 133.04345703125
+          },
+          {
+            "width": 10,
+            "height": 106.434814453125
+          },
+          {
+            "width": 10,
+            "height": 199.565185546875
+          },
+          {
+            "width": 10,
+            "height": 192.9129638671875
+          },
+          {
+            "width": 10,
+            "height": 106.434814453125
+          },
+          {
+            "width": 10,
+            "height": 46.565185546875
+          },
+          {
+            "width": 10.000015258789062,
+            "height": 19.95654296875
+          },
+          {
+            "width": 10,
+            "height": 26.6087646484375
+          }
+        ],
+        "tables": 7
+      }
+    },
+    {
+      "name": "narrow_bars_painted",
+      "passed": true,
+      "details": [
+        {
+          "width": 10,
+          "height": 13.304443359375
+        },
+        {
+          "width": 9.999984741210938,
+          "height": 86.4781494140625
+        },
+        {
+          "width": 10,
+          "height": 33.2608642578125
+        },
+        {
+          "width": 10,
+          "height": 39.9129638671875
+        },
+        {
+          "width": 10.000007629394531,
+          "height": 133.04345703125
+        },
+        {
+          "width": 10,
+          "height": 106.434814453125
+        },
+        {
+          "width": 10,
+          "height": 199.565185546875
+        },
+        {
+          "width": 10,
+          "height": 192.9129638671875
+        },
+        {
+          "width": 10,
+          "height": 106.434814453125
+        },
+        {
+          "width": 10,
+          "height": 46.565185546875
+        },
+        {
+          "width": 10.000015258789062,
+          "height": 19.95654296875
+        },
+        {
+          "width": 10,
+          "height": 26.6087646484375
+        }
+      ]
+    },
+    {
+      "name": "narrow_seven_tables",
+      "passed": true,
+      "details": 7
+    },
+    {
+      "name": "seed_filter_1905",
+      "passed": true,
+      "details": "40k 과제별 성공률 상세 (%)\n후속 seed\n새 3개 평균\n1903\n1904\n1905\n평균으로 초기화\n40k 과제별 성공률 상세 (%)\n배분\t서랍열기\t서랍닫기\t창문열기\t창문닫기\t평균\n균등\t8.00\t100.00\t4.00\t96.00\t52.00\n서랍열기 집중\t22.00\t100.00\t2.00\t52.00\t44.00\n서랍닫기 집중\t34.00\t100.00\t2.00\t86.00\t55.50\n창문열기 집중\t16.00\t100.00\t0.00\t98.00\t53.50\n창문닫기 집중\t0.00\t100.00\t0.00\t100.00\t50.00\n1–5 of 5 results"
+    },
+    {
+      "name": "seed_filter_reset",
+      "passed": true,
+      "details": {
+        "seed": "all",
+        "text": "40k 과제별 성공률 상세 (%)\n후속 seed\n새 3개 평균\n1903\n1904\n1905\n평균으로 초기화\n40k 과제별 성공률 상세 (%)\n배분\t서랍열기\t서랍닫기\t창문열기\t창문닫기\t평균\n균등\t12.00\t100.00\t2.00\t82.00\t49.00\n서랍열기 집중\t12.00\t100.00\t1.33\t84.00\t49.33\n서랍닫기 집중\t21.33\t100.00\t7.33\t91.33\t55.00\n창문열기 집중\t23.33\t100.00\t5.33\t92.67\t55.33\n창문닫기 집중\t14.67\t100.00\t2.00\t100.00\t54.17\n1–5 of 5 results"
+      }
+    },
+    {
+      "name": "no_uncaught_browser_exceptions",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "source_script_unchanged",
+      "passed": true
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "desktop_00.png",
+      "width": 1280,
+      "y": 0,
+      "height": 1400
+    },
+    {
+      "file": "desktop_01.png",
+      "width": 1280,
+      "y": 1400,
+      "height": 1400
+    },
+    {
+      "file": "desktop_02.png",
+      "width": 1280,
+      "y": 2800,
+      "height": 1400
+    },
+    {
+      "file": "desktop_03.png",
+      "width": 1280,
+      "y": 4200,
+      "height": 688
+    },
+    {
+      "file": "narrow_00.png",
+      "width": 420,
+      "y": 0,
+      "height": 1400
+    },
+    {
+      "file": "narrow_01.png",
+      "width": 420,
+      "y": 1400,
+      "height": 1400
+    },
+    {
+      "file": "narrow_02.png",
+      "width": 420,
+      "y": 2800,
+      "height": 1400
+    },
+    {
+      "file": "narrow_03.png",
+      "width": 420,
+      "y": 4200,
+      "height": 1400
+    },
+    {
+      "file": "narrow_04.png",
+      "width": 420,
+      "y": 5600,
+      "height": 1153
+    }
+  ],
+  "exceptions": [],
+  "components": [
+    {
+      "id": "replication-summary",
+      "characters": 295
+    },
+    {
+      "id": "primary-results",
+      "characters": 292
+    },
+    {
+      "id": "baseline-context",
+      "characters": 233
+    },
+    {
+      "id": "replication-effect",
+      "characters": 82
+    },
+    {
+      "id": "outlier-context",
+      "characters": 292
+    },
+    {
+      "id": "drawer-finding",
+      "characters": 283
+    },
+    {
+      "id": "drawer-contrast",
+      "characters": 242
+    },
+    {
+      "id": "recovery-finding",
+      "characters": 232
+    },
+    {
+      "id": "window-recovery",
+      "characters": 172
+    },
+    {
+      "id": "task-finding",
+      "characters": 265
+    },
+    {
+      "id": "task-contributions",
+      "characters": 243
+    },
+    {
+      "id": "task-detail",
+      "characters": 306
+    },
+    {
+      "id": "budget-finding",
+      "characters": 195
+    },
+    {
+      "id": "budget-table",
+      "characters": 265
+    },
+    {
+      "id": "combined-context",
+      "characters": 173
+    },
+    {
+      "id": "cohort-comparison",
+      "characters": 285
+    },
+    {
+      "id": "scope-next",
+      "characters": 467
+    },
+    {
+      "id": "execution-methods",
+      "characters": 344
+    }
+  ],
+  "completed_at": "2026-10-08T06:00:53.640Z"
+}

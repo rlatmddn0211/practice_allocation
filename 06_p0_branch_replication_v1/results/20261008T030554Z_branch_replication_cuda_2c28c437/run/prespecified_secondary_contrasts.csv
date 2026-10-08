@@ -1,0 +1,6 @@
+cohort,repeat_seed,do_at_40k_under_f_dc,do_at_40k_under_f_do,do_f_dc_minus_f_do_pp,do_discovery_direction_repeated,f_do_wc_baseline,f_do_wc_20k,f_do_wc_40k,wc_20k_minus_baseline_pp,wc_40k_minus_20k_pp,wc_40k_minus_baseline_pp,wc_dip_then_return_to_baseline
+replication,1903,0.2,0.08,12.0,True,0.84,0.0,1.0,-84.0,100.0,16.000000000000004,True
+replication,1904,0.1,0.06,4.0,True,0.84,0.94,1.0,9.999999999999998,6.000000000000005,16.000000000000004,False
+replication,1905,0.34,0.22,12.0,True,0.84,0.94,0.52,9.999999999999998,-41.99999999999999,-31.999999999999996,False
+discovery,1901,0.32,0.16,16.0,True,0.84,0.0,1.0,-84.0,100.0,16.000000000000004,True
+discovery,1902,0.32,0.18,14.0,True,0.84,0.0,1.0,-84.0,100.0,16.000000000000004,True

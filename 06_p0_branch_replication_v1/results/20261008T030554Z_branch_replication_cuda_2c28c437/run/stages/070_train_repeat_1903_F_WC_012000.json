@@ -1,0 +1,13 @@
+{
+  "stage": "train_repeat_1903_F_WC_012000",
+  "started_at": "2026-10-08T03:42:36.341841+00:00",
+  "passed": true,
+  "seconds": 42.72502410039306,
+  "costs": {
+    "environment_creations": 8,
+    "resets": 8,
+    "environment_steps": 4000,
+    "train_iterations": 4000,
+    "evaluation_episodes": 0
+  }
+}

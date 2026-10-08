@@ -1,0 +1,11 @@
+{
+  "method": "Direct visual inspection of final desktop_00.png, narrow_01.png, narrow_02.png after full nine-tile review of the preceding build",
+  "status": "passed",
+  "findings": [
+    "Baseline and recovery prose no longer displays literal Markdown markers.",
+    "Four task labels are separated at 420px width.",
+    "Seed IDs and uniform reference labels are readable; primary numbers match the audited rows."
+  ],
+  "built_html_sha256": "7640ad919480051f023304aa69f77bbfe1b8a0ef7634fb987e6560c1a8090297",
+  "automated_checks": "16/16 passed; nine final screenshot tiles retained"
+}

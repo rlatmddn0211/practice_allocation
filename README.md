@@ -14,7 +14,8 @@
 | [03_p0_pretraining_analysis_v1](03_p0_pretraining_analysis_v1/README.md) | P0 결과와 구현·평가 자료 분석 | 과제별 성능·짝지은 변화·불확실성·실제 학습 노출 확인, 68/68 검사 통과 |
 | [04_p0_allocation_branches_v1](04_p0_allocation_branches_v1/README.md) | 동일 200k 출발점의 추가 연습 배분 비교 | 5개 배분 × 후속 seed 1901·1902, 분기당 40k; 10/10 완료, 원자료 검사 367/367 통과 |
 | [05_results_github_archive_v1](05_results_github_archive_v1/README.md) | 전체 실험 결과의 GitHub 보관 | 01~04와 저장소 문서 1,425개 파일, 모델 checkpoint 39개 포함; 5개 ZIP의 원본 SHA-256 대조 통과 |
-| [06_p0_branch_replication_v1](06_p0_branch_replication_v1/README.md) | 같은 200k 출발점의 후속 seed 재현성 확인 | seed 1903·1904·1905 × 5개 배분 × 40k, 총 15분기·600k; 2026-10-08 12:05 KST 본 실행 시작 |
+| [06_p0_branch_replication_v1](06_p0_branch_replication_v1/README.md) | 같은 200k 출발점의 후속 seed 재현성 확인 | seed 1903·1904·1905 × 5개 배분 × 40k, 총 15분기·600k; 2026-10-08 14:14 KST 완료 |
+| [07_p0_replication_analysis_v1](07_p0_replication_analysis_v1/README.md) | 새 세 반복의 독립 검증·결과 해석 | 원자료·출처 검사 1,127/1,127 통과; 새 세 반복을 우선 보고하고 기존 두 반복·전체 다섯 반복을 구분; 대화형 보고서와 PNG·SVG |
 
 완료한 구현은 보존합니다. 각 단계는
 목적이 드러나는 새 폴더에 독립된 코드와
@@ -43,3 +44,12 @@ P0 결과의 해석과 제한사항은 [P0 상세 분석](03_p0_pretraining_anal
 두 반복과 구분해 보고하고, 전체 다섯 반복의 합산 결과는 기술적 요약으로 제시합니다.
 CUDA 사전검증 10/10·단위 검사 13/13·실행기 smoke 5/5를 통과했고,
 12:07 KST에 기존 출발점의 200개 평가 사례가 같은 결과를 내는지 확인한 뒤 첫 분기 학습을 시작했습니다.
+
+15개 분기는 14:14:14 KST에 모두 완료했습니다. 새 세 반복의 40k 평균 성공률은
+균등 49.00%, 서랍열기 집중 49.33%, 서랍닫기 집중 55.00%, 창문열기 집중 55.33%,
+창문닫기 집중 54.17%입니다. 서랍닫기·창문열기 집중은 새 세 seed 모두에서 균등을 앞섰고,
+실패율 규칙이 선택한 서랍열기 집중은 1승·2패였습니다. 이는 한 원래 seed의 한 출발점에
+대한 결과이며 적응형 선택기의 효과를 입증하지 않습니다.
+[완료 결과 분석](07_p0_replication_analysis_v1/README.md)에 반복된 관찰과 재현되지 않은 관찰,
+과제별 변화, 비용, 검증 기록을 정리했습니다. 06의 대용량 모델·replay는 로컬 원본에
+보존되며, 앞서 올린 00~04 Release ZIP에는 포함되지 않습니다.

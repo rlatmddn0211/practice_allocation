@@ -1,0 +1,1204 @@
+{
+  "completion": {
+    "stage": "p0_branch_replication",
+    "status": "completed",
+    "completed_at": "2026-10-08T05:14:14.440648+00:00",
+    "parent_step": 200000,
+    "original_seed": 901,
+    "continuation_seeds": [
+      1903,
+      1904,
+      1905
+    ],
+    "branches_completed": 15,
+    "branches_planned": 15,
+    "additional_training_steps": 600000,
+    "training_seconds": 5862.096948902123,
+    "elapsed_seconds": 7698.37943500001,
+    "costs": {
+      "environment_creations": 7400,
+      "resets": 7400,
+      "environment_steps": 2330026,
+      "train_iterations": 600000,
+      "evaluation_episodes": 6200
+    },
+    "evaluation_transitions": 1730026,
+    "outcome_bank_episodes_evaluated": 6200,
+    "comparison": {
+      "primary_horizon": 40000,
+      "primary_rows": 15,
+      "comparison_rows": 30,
+      "paired_rows": 240,
+      "cross_repeat_directions": 0
+    },
+    "replication_report": {
+      "replication_repeats": 3,
+      "discovery_repeats": 2,
+      "original_pretraining_seeds": 1,
+      "cohort_summary_rows": 15,
+      "secondary_contrast_rows": 5
+    },
+    "error": null,
+    "cuda_peak_allocated_bytes": 76685824
+  },
+  "primary_cohorts": [
+    {
+      "cohort": "replication",
+      "candidate": "U",
+      "allocation": "균등",
+      "n": 3,
+      "macro_pct": 49.0,
+      "gain_pp": 0.5,
+      "delta_pp": 0.0,
+      "min_delta_pp": 0.0,
+      "max_delta_pp": 0.0,
+      "wins": 0,
+      "ties": 3,
+      "losses": 0,
+      "DO": 12.0,
+      "DC": 100.0,
+      "WO": 2.0,
+      "WC": 82.0
+    },
+    {
+      "cohort": "replication",
+      "candidate": "F_DO",
+      "allocation": "서랍열기 집중",
+      "n": 3,
+      "macro_pct": 49.333333333333336,
+      "gain_pp": 0.8333333333333334,
+      "delta_pp": 0.3333333333333333,
+      "min_delta_pp": -8.0,
+      "max_delta_pp": 10.0,
+      "wins": 1,
+      "ties": 0,
+      "losses": 2,
+      "DO": 12.0,
+      "DC": 100.0,
+      "WO": 1.3333333333333333,
+      "WC": 84.0
+    },
+    {
+      "cohort": "replication",
+      "candidate": "F_DC",
+      "allocation": "서랍닫기 집중",
+      "n": 3,
+      "macro_pct": 55.0,
+      "gain_pp": 6.5,
+      "delta_pp": 6.0,
+      "min_delta_pp": 3.5,
+      "max_delta_pp": 8.0,
+      "wins": 3,
+      "ties": 0,
+      "losses": 0,
+      "DO": 21.333333333333332,
+      "DC": 100.0,
+      "WO": 7.333333333333333,
+      "WC": 91.33333333333333
+    },
+    {
+      "cohort": "replication",
+      "candidate": "F_WO",
+      "allocation": "창문열기 집중",
+      "n": 3,
+      "macro_pct": 55.333333333333336,
+      "gain_pp": 6.833333333333333,
+      "delta_pp": 6.333333333333333,
+      "min_delta_pp": 1.5,
+      "max_delta_pp": 15.0,
+      "wins": 3,
+      "ties": 0,
+      "losses": 0,
+      "DO": 23.333333333333332,
+      "DC": 100.0,
+      "WO": 5.333333333333333,
+      "WC": 92.66666666666667
+    },
+    {
+      "cohort": "replication",
+      "candidate": "F_WC",
+      "allocation": "창문닫기 집중",
+      "n": 3,
+      "macro_pct": 54.166666666666664,
+      "gain_pp": 5.666666666666667,
+      "delta_pp": 5.166666666666667,
+      "min_delta_pp": -2.0,
+      "max_delta_pp": 14.5,
+      "wins": 2,
+      "ties": 0,
+      "losses": 1,
+      "DO": 14.666666666666666,
+      "DC": 100.0,
+      "WO": 2.0,
+      "WC": 100.0
+    },
+    {
+      "cohort": "discovery",
+      "candidate": "U",
+      "allocation": "균등",
+      "n": 2,
+      "macro_pct": 54.0,
+      "gain_pp": 5.5,
+      "delta_pp": 0.0,
+      "min_delta_pp": 0.0,
+      "max_delta_pp": 0.0,
+      "wins": 0,
+      "ties": 2,
+      "losses": 0,
+      "DO": 18.0,
+      "DC": 100.0,
+      "WO": 7.0,
+      "WC": 91.0
+    },
+    {
+      "cohort": "discovery",
+      "candidate": "F_DO",
+      "allocation": "서랍열기 집중",
+      "n": 2,
+      "macro_pct": 55.25,
+      "gain_pp": 6.75,
+      "delta_pp": 1.25,
+      "min_delta_pp": -3.5,
+      "max_delta_pp": 6.0,
+      "wins": 1,
+      "ties": 0,
+      "losses": 1,
+      "DO": 17.0,
+      "DC": 100.0,
+      "WO": 4.0,
+      "WC": 100.0
+    },
+    {
+      "cohort": "discovery",
+      "candidate": "F_DC",
+      "allocation": "서랍닫기 집중",
+      "n": 2,
+      "macro_pct": 56.5,
+      "gain_pp": 8.0,
+      "delta_pp": 2.5,
+      "min_delta_pp": -2.5,
+      "max_delta_pp": 7.5,
+      "wins": 1,
+      "ties": 0,
+      "losses": 1,
+      "DO": 32.0,
+      "DC": 100.0,
+      "WO": 3.0,
+      "WC": 91.0
+    },
+    {
+      "cohort": "discovery",
+      "candidate": "F_WO",
+      "allocation": "창문열기 집중",
+      "n": 2,
+      "macro_pct": 53.5,
+      "gain_pp": 5.0,
+      "delta_pp": -0.5,
+      "min_delta_pp": -3.5,
+      "max_delta_pp": 2.5,
+      "wins": 1,
+      "ties": 0,
+      "losses": 1,
+      "DO": 8.0,
+      "DC": 100.0,
+      "WO": 6.0,
+      "WC": 100.0
+    },
+    {
+      "cohort": "discovery",
+      "candidate": "F_WC",
+      "allocation": "창문닫기 집중",
+      "n": 2,
+      "macro_pct": 56.5,
+      "gain_pp": 8.0,
+      "delta_pp": 2.5,
+      "min_delta_pp": -0.5,
+      "max_delta_pp": 5.5,
+      "wins": 1,
+      "ties": 0,
+      "losses": 1,
+      "DO": 20.0,
+      "DC": 98.0,
+      "WO": 8.0,
+      "WC": 100.0
+    },
+    {
+      "cohort": "combined_descriptive",
+      "candidate": "U",
+      "allocation": "균등",
+      "n": 5,
+      "macro_pct": 51.0,
+      "gain_pp": 2.5,
+      "delta_pp": 0.0,
+      "min_delta_pp": 0.0,
+      "max_delta_pp": 0.0,
+      "wins": 0,
+      "ties": 5,
+      "losses": 0,
+      "DO": 14.4,
+      "DC": 100.0,
+      "WO": 4.0,
+      "WC": 85.6
+    },
+    {
+      "cohort": "combined_descriptive",
+      "candidate": "F_DO",
+      "allocation": "서랍열기 집중",
+      "n": 5,
+      "macro_pct": 51.7,
+      "gain_pp": 3.2,
+      "delta_pp": 0.7,
+      "min_delta_pp": -8.0,
+      "max_delta_pp": 10.0,
+      "wins": 2,
+      "ties": 0,
+      "losses": 3,
+      "DO": 14.0,
+      "DC": 100.0,
+      "WO": 2.4,
+      "WC": 90.4
+    },
+    {
+      "cohort": "combined_descriptive",
+      "candidate": "F_DC",
+      "allocation": "서랍닫기 집중",
+      "n": 5,
+      "macro_pct": 55.6,
+      "gain_pp": 7.1,
+      "delta_pp": 4.6,
+      "min_delta_pp": -2.5,
+      "max_delta_pp": 8.0,
+      "wins": 4,
+      "ties": 0,
+      "losses": 1,
+      "DO": 25.6,
+      "DC": 100.0,
+      "WO": 5.6,
+      "WC": 91.2
+    },
+    {
+      "cohort": "combined_descriptive",
+      "candidate": "F_WO",
+      "allocation": "창문열기 집중",
+      "n": 5,
+      "macro_pct": 54.6,
+      "gain_pp": 6.1,
+      "delta_pp": 3.6,
+      "min_delta_pp": -3.5,
+      "max_delta_pp": 15.0,
+      "wins": 4,
+      "ties": 0,
+      "losses": 1,
+      "DO": 17.2,
+      "DC": 100.0,
+      "WO": 5.6,
+      "WC": 95.6
+    },
+    {
+      "cohort": "combined_descriptive",
+      "candidate": "F_WC",
+      "allocation": "창문닫기 집중",
+      "n": 5,
+      "macro_pct": 55.1,
+      "gain_pp": 6.6,
+      "delta_pp": 4.1,
+      "min_delta_pp": -2.0,
+      "max_delta_pp": 14.5,
+      "wins": 3,
+      "ties": 0,
+      "losses": 2,
+      "DO": 16.8,
+      "DC": 99.2,
+      "WO": 4.4,
+      "WC": 100.0
+    }
+  ],
+  "secondary": [
+    {
+      "cohort": "replication",
+      "seed": 1903,
+      "DO_F_DC": 20.0,
+      "DO_F_DO": 8.0,
+      "DO_difference_pp": 12.0,
+      "DO_direction_repeated": true,
+      "WC_baseline": 84.0,
+      "WC_20k": 0.0,
+      "WC_40k": 100.0,
+      "WC_dip_recovery": true
+    },
+    {
+      "cohort": "replication",
+      "seed": 1904,
+      "DO_F_DC": 10.0,
+      "DO_F_DO": 6.0,
+      "DO_difference_pp": 4.0,
+      "DO_direction_repeated": true,
+      "WC_baseline": 84.0,
+      "WC_20k": 94.0,
+      "WC_40k": 100.0,
+      "WC_dip_recovery": false
+    },
+    {
+      "cohort": "replication",
+      "seed": 1905,
+      "DO_F_DC": 34.0,
+      "DO_F_DO": 22.0,
+      "DO_difference_pp": 12.0,
+      "DO_direction_repeated": true,
+      "WC_baseline": 84.0,
+      "WC_20k": 94.0,
+      "WC_40k": 52.0,
+      "WC_dip_recovery": false
+    },
+    {
+      "cohort": "discovery",
+      "seed": 1901,
+      "DO_F_DC": 32.0,
+      "DO_F_DO": 16.0,
+      "DO_difference_pp": 16.0,
+      "DO_direction_repeated": true,
+      "WC_baseline": 84.0,
+      "WC_20k": 0.0,
+      "WC_40k": 100.0,
+      "WC_dip_recovery": true
+    },
+    {
+      "cohort": "discovery",
+      "seed": 1902,
+      "DO_F_DC": 32.0,
+      "DO_F_DO": 18.0,
+      "DO_difference_pp": 14.0,
+      "DO_direction_repeated": true,
+      "WC_baseline": 84.0,
+      "WC_20k": 0.0,
+      "WC_40k": 100.0,
+      "WC_dip_recovery": true
+    }
+  ],
+  "budget_comparison": [
+    {
+      "cohort": "replication",
+      "candidate": "U",
+      "allocation": "균등",
+      "horizon": 20000,
+      "macro_pct": 47.166666666666664,
+      "gain_pp": -1.3333333333333333,
+      "delta_pp": 0.0
+    },
+    {
+      "cohort": "replication",
+      "candidate": "U",
+      "allocation": "균등",
+      "horizon": 40000,
+      "macro_pct": 49.0,
+      "gain_pp": 0.5,
+      "delta_pp": 0.0
+    },
+    {
+      "cohort": "replication",
+      "candidate": "F_DO",
+      "allocation": "서랍열기 집중",
+      "horizon": 20000,
+      "macro_pct": 45.333333333333336,
+      "gain_pp": -3.1666666666666665,
+      "delta_pp": -1.8333333333333333
+    },
+    {
+      "cohort": "replication",
+      "candidate": "F_DO",
+      "allocation": "서랍열기 집중",
+      "horizon": 40000,
+      "macro_pct": 49.333333333333336,
+      "gain_pp": 0.8333333333333334,
+      "delta_pp": 0.3333333333333333
+    },
+    {
+      "cohort": "replication",
+      "candidate": "F_DC",
+      "allocation": "서랍닫기 집중",
+      "horizon": 20000,
+      "macro_pct": 46.166666666666664,
+      "gain_pp": -2.3333333333333335,
+      "delta_pp": -1.0
+    },
+    {
+      "cohort": "replication",
+      "candidate": "F_DC",
+      "allocation": "서랍닫기 집중",
+      "horizon": 40000,
+      "macro_pct": 55.0,
+      "gain_pp": 6.5,
+      "delta_pp": 6.0
+    },
+    {
+      "cohort": "replication",
+      "candidate": "F_WO",
+      "allocation": "창문열기 집중",
+      "horizon": 20000,
+      "macro_pct": 40.833333333333336,
+      "gain_pp": -7.666666666666667,
+      "delta_pp": -6.333333333333333
+    },
+    {
+      "cohort": "replication",
+      "candidate": "F_WO",
+      "allocation": "창문열기 집중",
+      "horizon": 40000,
+      "macro_pct": 55.333333333333336,
+      "gain_pp": 6.833333333333333,
+      "delta_pp": 6.333333333333333
+    },
+    {
+      "cohort": "replication",
+      "candidate": "F_WC",
+      "allocation": "창문닫기 집중",
+      "horizon": 20000,
+      "macro_pct": 47.666666666666664,
+      "gain_pp": -0.8333333333333334,
+      "delta_pp": 0.5
+    },
+    {
+      "cohort": "replication",
+      "candidate": "F_WC",
+      "allocation": "창문닫기 집중",
+      "horizon": 40000,
+      "macro_pct": 54.166666666666664,
+      "gain_pp": 5.666666666666667,
+      "delta_pp": 5.166666666666667
+    },
+    {
+      "cohort": "discovery",
+      "candidate": "U",
+      "allocation": "균등",
+      "horizon": 20000,
+      "macro_pct": 48.5,
+      "gain_pp": 0.0,
+      "delta_pp": 0.0
+    },
+    {
+      "cohort": "discovery",
+      "candidate": "U",
+      "allocation": "균등",
+      "horizon": 40000,
+      "macro_pct": 54.0,
+      "gain_pp": 5.5,
+      "delta_pp": 0.0
+    },
+    {
+      "cohort": "discovery",
+      "candidate": "F_DO",
+      "allocation": "서랍열기 집중",
+      "horizon": 20000,
+      "macro_pct": 28.25,
+      "gain_pp": -20.25,
+      "delta_pp": -20.25
+    },
+    {
+      "cohort": "discovery",
+      "candidate": "F_DO",
+      "allocation": "서랍열기 집중",
+      "horizon": 40000,
+      "macro_pct": 55.25,
+      "gain_pp": 6.75,
+      "delta_pp": 1.25
+    },
+    {
+      "cohort": "discovery",
+      "candidate": "F_DC",
+      "allocation": "서랍닫기 집중",
+      "horizon": 20000,
+      "macro_pct": 52.0,
+      "gain_pp": 3.5,
+      "delta_pp": 3.5
+    },
+    {
+      "cohort": "discovery",
+      "candidate": "F_DC",
+      "allocation": "서랍닫기 집중",
+      "horizon": 40000,
+      "macro_pct": 56.5,
+      "gain_pp": 8.0,
+      "delta_pp": 2.5
+    },
+    {
+      "cohort": "discovery",
+      "candidate": "F_WO",
+      "allocation": "창문열기 집중",
+      "horizon": 20000,
+      "macro_pct": 35.75,
+      "gain_pp": -12.75,
+      "delta_pp": -12.75
+    },
+    {
+      "cohort": "discovery",
+      "candidate": "F_WO",
+      "allocation": "창문열기 집중",
+      "horizon": 40000,
+      "macro_pct": 53.5,
+      "gain_pp": 5.0,
+      "delta_pp": -0.5
+    },
+    {
+      "cohort": "discovery",
+      "candidate": "F_WC",
+      "allocation": "창문닫기 집중",
+      "horizon": 20000,
+      "macro_pct": 48.25,
+      "gain_pp": -0.25,
+      "delta_pp": -0.25
+    },
+    {
+      "cohort": "discovery",
+      "candidate": "F_WC",
+      "allocation": "창문닫기 집중",
+      "horizon": 40000,
+      "macro_pct": 56.5,
+      "gain_pp": 8.0,
+      "delta_pp": 2.5
+    },
+    {
+      "cohort": "combined_descriptive",
+      "candidate": "U",
+      "allocation": "균등",
+      "horizon": 20000,
+      "macro_pct": 47.7,
+      "gain_pp": -0.8,
+      "delta_pp": 0.0
+    },
+    {
+      "cohort": "combined_descriptive",
+      "candidate": "U",
+      "allocation": "균등",
+      "horizon": 40000,
+      "macro_pct": 51.0,
+      "gain_pp": 2.5,
+      "delta_pp": 0.0
+    },
+    {
+      "cohort": "combined_descriptive",
+      "candidate": "F_DO",
+      "allocation": "서랍열기 집중",
+      "horizon": 20000,
+      "macro_pct": 38.5,
+      "gain_pp": -10.0,
+      "delta_pp": -9.2
+    },
+    {
+      "cohort": "combined_descriptive",
+      "candidate": "F_DO",
+      "allocation": "서랍열기 집중",
+      "horizon": 40000,
+      "macro_pct": 51.7,
+      "gain_pp": 3.2,
+      "delta_pp": 0.7
+    },
+    {
+      "cohort": "combined_descriptive",
+      "candidate": "F_DC",
+      "allocation": "서랍닫기 집중",
+      "horizon": 20000,
+      "macro_pct": 48.5,
+      "gain_pp": 0.0,
+      "delta_pp": 0.8
+    },
+    {
+      "cohort": "combined_descriptive",
+      "candidate": "F_DC",
+      "allocation": "서랍닫기 집중",
+      "horizon": 40000,
+      "macro_pct": 55.6,
+      "gain_pp": 7.1,
+      "delta_pp": 4.6
+    },
+    {
+      "cohort": "combined_descriptive",
+      "candidate": "F_WO",
+      "allocation": "창문열기 집중",
+      "horizon": 20000,
+      "macro_pct": 38.8,
+      "gain_pp": -9.7,
+      "delta_pp": -8.9
+    },
+    {
+      "cohort": "combined_descriptive",
+      "candidate": "F_WO",
+      "allocation": "창문열기 집중",
+      "horizon": 40000,
+      "macro_pct": 54.6,
+      "gain_pp": 6.1,
+      "delta_pp": 3.6
+    },
+    {
+      "cohort": "combined_descriptive",
+      "candidate": "F_WC",
+      "allocation": "창문닫기 집중",
+      "horizon": 20000,
+      "macro_pct": 47.9,
+      "gain_pp": -0.6,
+      "delta_pp": 0.2
+    },
+    {
+      "cohort": "combined_descriptive",
+      "candidate": "F_WC",
+      "allocation": "창문닫기 집중",
+      "horizon": 40000,
+      "macro_pct": 55.1,
+      "gain_pp": 6.6,
+      "delta_pp": 4.1
+    }
+  ],
+  "task_contributions": [
+    {
+      "cohort": "replication",
+      "candidate": "U",
+      "allocation": "균등",
+      "task": "DO",
+      "task_difference_pp": 0.0,
+      "macro_contribution_pp": 0.0
+    },
+    {
+      "cohort": "replication",
+      "candidate": "U",
+      "allocation": "균등",
+      "task": "DC",
+      "task_difference_pp": 0.0,
+      "macro_contribution_pp": 0.0
+    },
+    {
+      "cohort": "replication",
+      "candidate": "U",
+      "allocation": "균등",
+      "task": "WO",
+      "task_difference_pp": 0.0,
+      "macro_contribution_pp": 0.0
+    },
+    {
+      "cohort": "replication",
+      "candidate": "U",
+      "allocation": "균등",
+      "task": "WC",
+      "task_difference_pp": 0.0,
+      "macro_contribution_pp": 0.0
+    },
+    {
+      "cohort": "replication",
+      "candidate": "F_DO",
+      "allocation": "서랍열기 집중",
+      "task": "DO",
+      "task_difference_pp": 0.0,
+      "macro_contribution_pp": 0.0
+    },
+    {
+      "cohort": "replication",
+      "candidate": "F_DO",
+      "allocation": "서랍열기 집중",
+      "task": "DC",
+      "task_difference_pp": 0.0,
+      "macro_contribution_pp": 0.0
+    },
+    {
+      "cohort": "replication",
+      "candidate": "F_DO",
+      "allocation": "서랍열기 집중",
+      "task": "WO",
+      "task_difference_pp": -0.6666666666666666,
+      "macro_contribution_pp": -0.16666666666666666
+    },
+    {
+      "cohort": "replication",
+      "candidate": "F_DO",
+      "allocation": "서랍열기 집중",
+      "task": "WC",
+      "task_difference_pp": 2.0,
+      "macro_contribution_pp": 0.5
+    },
+    {
+      "cohort": "replication",
+      "candidate": "F_DC",
+      "allocation": "서랍닫기 집중",
+      "task": "DO",
+      "task_difference_pp": 9.333333333333334,
+      "macro_contribution_pp": 2.3333333333333335
+    },
+    {
+      "cohort": "replication",
+      "candidate": "F_DC",
+      "allocation": "서랍닫기 집중",
+      "task": "DC",
+      "task_difference_pp": 0.0,
+      "macro_contribution_pp": 0.0
+    },
+    {
+      "cohort": "replication",
+      "candidate": "F_DC",
+      "allocation": "서랍닫기 집중",
+      "task": "WO",
+      "task_difference_pp": 5.333333333333333,
+      "macro_contribution_pp": 1.3333333333333333
+    },
+    {
+      "cohort": "replication",
+      "candidate": "F_DC",
+      "allocation": "서랍닫기 집중",
+      "task": "WC",
+      "task_difference_pp": 9.333333333333334,
+      "macro_contribution_pp": 2.3333333333333335
+    },
+    {
+      "cohort": "replication",
+      "candidate": "F_WO",
+      "allocation": "창문열기 집중",
+      "task": "DO",
+      "task_difference_pp": 11.333333333333334,
+      "macro_contribution_pp": 2.8333333333333335
+    },
+    {
+      "cohort": "replication",
+      "candidate": "F_WO",
+      "allocation": "창문열기 집중",
+      "task": "DC",
+      "task_difference_pp": 0.0,
+      "macro_contribution_pp": 0.0
+    },
+    {
+      "cohort": "replication",
+      "candidate": "F_WO",
+      "allocation": "창문열기 집중",
+      "task": "WO",
+      "task_difference_pp": 3.3333333333333335,
+      "macro_contribution_pp": 0.8333333333333334
+    },
+    {
+      "cohort": "replication",
+      "candidate": "F_WO",
+      "allocation": "창문열기 집중",
+      "task": "WC",
+      "task_difference_pp": 10.666666666666666,
+      "macro_contribution_pp": 2.6666666666666665
+    },
+    {
+      "cohort": "replication",
+      "candidate": "F_WC",
+      "allocation": "창문닫기 집중",
+      "task": "DO",
+      "task_difference_pp": 2.6666666666666665,
+      "macro_contribution_pp": 0.6666666666666666
+    },
+    {
+      "cohort": "replication",
+      "candidate": "F_WC",
+      "allocation": "창문닫기 집중",
+      "task": "DC",
+      "task_difference_pp": 0.0,
+      "macro_contribution_pp": 0.0
+    },
+    {
+      "cohort": "replication",
+      "candidate": "F_WC",
+      "allocation": "창문닫기 집중",
+      "task": "WO",
+      "task_difference_pp": 0.0,
+      "macro_contribution_pp": 0.0
+    },
+    {
+      "cohort": "replication",
+      "candidate": "F_WC",
+      "allocation": "창문닫기 집중",
+      "task": "WC",
+      "task_difference_pp": 18.0,
+      "macro_contribution_pp": 4.5
+    },
+    {
+      "cohort": "discovery",
+      "candidate": "U",
+      "allocation": "균등",
+      "task": "DO",
+      "task_difference_pp": 0.0,
+      "macro_contribution_pp": 0.0
+    },
+    {
+      "cohort": "discovery",
+      "candidate": "U",
+      "allocation": "균등",
+      "task": "DC",
+      "task_difference_pp": 0.0,
+      "macro_contribution_pp": 0.0
+    },
+    {
+      "cohort": "discovery",
+      "candidate": "U",
+      "allocation": "균등",
+      "task": "WO",
+      "task_difference_pp": 0.0,
+      "macro_contribution_pp": 0.0
+    },
+    {
+      "cohort": "discovery",
+      "candidate": "U",
+      "allocation": "균등",
+      "task": "WC",
+      "task_difference_pp": 0.0,
+      "macro_contribution_pp": 0.0
+    },
+    {
+      "cohort": "discovery",
+      "candidate": "F_DO",
+      "allocation": "서랍열기 집중",
+      "task": "DO",
+      "task_difference_pp": -1.0,
+      "macro_contribution_pp": -0.25
+    },
+    {
+      "cohort": "discovery",
+      "candidate": "F_DO",
+      "allocation": "서랍열기 집중",
+      "task": "DC",
+      "task_difference_pp": 0.0,
+      "macro_contribution_pp": 0.0
+    },
+    {
+      "cohort": "discovery",
+      "candidate": "F_DO",
+      "allocation": "서랍열기 집중",
+      "task": "WO",
+      "task_difference_pp": -3.0,
+      "macro_contribution_pp": -0.75
+    },
+    {
+      "cohort": "discovery",
+      "candidate": "F_DO",
+      "allocation": "서랍열기 집중",
+      "task": "WC",
+      "task_difference_pp": 9.0,
+      "macro_contribution_pp": 2.25
+    },
+    {
+      "cohort": "discovery",
+      "candidate": "F_DC",
+      "allocation": "서랍닫기 집중",
+      "task": "DO",
+      "task_difference_pp": 14.0,
+      "macro_contribution_pp": 3.5
+    },
+    {
+      "cohort": "discovery",
+      "candidate": "F_DC",
+      "allocation": "서랍닫기 집중",
+      "task": "DC",
+      "task_difference_pp": 0.0,
+      "macro_contribution_pp": 0.0
+    },
+    {
+      "cohort": "discovery",
+      "candidate": "F_DC",
+      "allocation": "서랍닫기 집중",
+      "task": "WO",
+      "task_difference_pp": -4.0,
+      "macro_contribution_pp": -1.0
+    },
+    {
+      "cohort": "discovery",
+      "candidate": "F_DC",
+      "allocation": "서랍닫기 집중",
+      "task": "WC",
+      "task_difference_pp": 0.0,
+      "macro_contribution_pp": 0.0
+    },
+    {
+      "cohort": "discovery",
+      "candidate": "F_WO",
+      "allocation": "창문열기 집중",
+      "task": "DO",
+      "task_difference_pp": -10.0,
+      "macro_contribution_pp": -2.5
+    },
+    {
+      "cohort": "discovery",
+      "candidate": "F_WO",
+      "allocation": "창문열기 집중",
+      "task": "DC",
+      "task_difference_pp": 0.0,
+      "macro_contribution_pp": 0.0
+    },
+    {
+      "cohort": "discovery",
+      "candidate": "F_WO",
+      "allocation": "창문열기 집중",
+      "task": "WO",
+      "task_difference_pp": -1.0,
+      "macro_contribution_pp": -0.25
+    },
+    {
+      "cohort": "discovery",
+      "candidate": "F_WO",
+      "allocation": "창문열기 집중",
+      "task": "WC",
+      "task_difference_pp": 9.0,
+      "macro_contribution_pp": 2.25
+    },
+    {
+      "cohort": "discovery",
+      "candidate": "F_WC",
+      "allocation": "창문닫기 집중",
+      "task": "DO",
+      "task_difference_pp": 2.0,
+      "macro_contribution_pp": 0.5
+    },
+    {
+      "cohort": "discovery",
+      "candidate": "F_WC",
+      "allocation": "창문닫기 집중",
+      "task": "DC",
+      "task_difference_pp": -2.0,
+      "macro_contribution_pp": -0.5
+    },
+    {
+      "cohort": "discovery",
+      "candidate": "F_WC",
+      "allocation": "창문닫기 집중",
+      "task": "WO",
+      "task_difference_pp": 1.0,
+      "macro_contribution_pp": 0.25
+    },
+    {
+      "cohort": "discovery",
+      "candidate": "F_WC",
+      "allocation": "창문닫기 집중",
+      "task": "WC",
+      "task_difference_pp": 9.0,
+      "macro_contribution_pp": 2.25
+    },
+    {
+      "cohort": "combined_descriptive",
+      "candidate": "U",
+      "allocation": "균등",
+      "task": "DO",
+      "task_difference_pp": 0.0,
+      "macro_contribution_pp": 0.0
+    },
+    {
+      "cohort": "combined_descriptive",
+      "candidate": "U",
+      "allocation": "균등",
+      "task": "DC",
+      "task_difference_pp": 0.0,
+      "macro_contribution_pp": 0.0
+    },
+    {
+      "cohort": "combined_descriptive",
+      "candidate": "U",
+      "allocation": "균등",
+      "task": "WO",
+      "task_difference_pp": 0.0,
+      "macro_contribution_pp": 0.0
+    },
+    {
+      "cohort": "combined_descriptive",
+      "candidate": "U",
+      "allocation": "균등",
+      "task": "WC",
+      "task_difference_pp": 0.0,
+      "macro_contribution_pp": 0.0
+    },
+    {
+      "cohort": "combined_descriptive",
+      "candidate": "F_DO",
+      "allocation": "서랍열기 집중",
+      "task": "DO",
+      "task_difference_pp": -0.4,
+      "macro_contribution_pp": -0.1
+    },
+    {
+      "cohort": "combined_descriptive",
+      "candidate": "F_DO",
+      "allocation": "서랍열기 집중",
+      "task": "DC",
+      "task_difference_pp": 0.0,
+      "macro_contribution_pp": 0.0
+    },
+    {
+      "cohort": "combined_descriptive",
+      "candidate": "F_DO",
+      "allocation": "서랍열기 집중",
+      "task": "WO",
+      "task_difference_pp": -1.6,
+      "macro_contribution_pp": -0.4
+    },
+    {
+      "cohort": "combined_descriptive",
+      "candidate": "F_DO",
+      "allocation": "서랍열기 집중",
+      "task": "WC",
+      "task_difference_pp": 4.8,
+      "macro_contribution_pp": 1.2
+    },
+    {
+      "cohort": "combined_descriptive",
+      "candidate": "F_DC",
+      "allocation": "서랍닫기 집중",
+      "task": "DO",
+      "task_difference_pp": 11.2,
+      "macro_contribution_pp": 2.8
+    },
+    {
+      "cohort": "combined_descriptive",
+      "candidate": "F_DC",
+      "allocation": "서랍닫기 집중",
+      "task": "DC",
+      "task_difference_pp": 0.0,
+      "macro_contribution_pp": 0.0
+    },
+    {
+      "cohort": "combined_descriptive",
+      "candidate": "F_DC",
+      "allocation": "서랍닫기 집중",
+      "task": "WO",
+      "task_difference_pp": 1.6,
+      "macro_contribution_pp": 0.4
+    },
+    {
+      "cohort": "combined_descriptive",
+      "candidate": "F_DC",
+      "allocation": "서랍닫기 집중",
+      "task": "WC",
+      "task_difference_pp": 5.6,
+      "macro_contribution_pp": 1.4
+    },
+    {
+      "cohort": "combined_descriptive",
+      "candidate": "F_WO",
+      "allocation": "창문열기 집중",
+      "task": "DO",
+      "task_difference_pp": 2.8,
+      "macro_contribution_pp": 0.7
+    },
+    {
+      "cohort": "combined_descriptive",
+      "candidate": "F_WO",
+      "allocation": "창문열기 집중",
+      "task": "DC",
+      "task_difference_pp": 0.0,
+      "macro_contribution_pp": 0.0
+    },
+    {
+      "cohort": "combined_descriptive",
+      "candidate": "F_WO",
+      "allocation": "창문열기 집중",
+      "task": "WO",
+      "task_difference_pp": 1.6,
+      "macro_contribution_pp": 0.4
+    },
+    {
+      "cohort": "combined_descriptive",
+      "candidate": "F_WO",
+      "allocation": "창문열기 집중",
+      "task": "WC",
+      "task_difference_pp": 10.0,
+      "macro_contribution_pp": 2.5
+    },
+    {
+      "cohort": "combined_descriptive",
+      "candidate": "F_WC",
+      "allocation": "창문닫기 집중",
+      "task": "DO",
+      "task_difference_pp": 2.4,
+      "macro_contribution_pp": 0.6
+    },
+    {
+      "cohort": "combined_descriptive",
+      "candidate": "F_WC",
+      "allocation": "창문닫기 집중",
+      "task": "DC",
+      "task_difference_pp": -0.8,
+      "macro_contribution_pp": -0.2
+    },
+    {
+      "cohort": "combined_descriptive",
+      "candidate": "F_WC",
+      "allocation": "창문닫기 집중",
+      "task": "WO",
+      "task_difference_pp": 0.4,
+      "macro_contribution_pp": 0.1
+    },
+    {
+      "cohort": "combined_descriptive",
+      "candidate": "F_WC",
+      "allocation": "창문닫기 집중",
+      "task": "WC",
+      "task_difference_pp": 14.4,
+      "macro_contribution_pp": 3.6
+    }
+  ],
+  "sensitivity_exploratory": [
+    {
+      "candidate": "F_DO",
+      "omitted_seed_for_diagnostic": 1903,
+      "remaining_mean_delta_pp": 1.0
+    },
+    {
+      "candidate": "F_DO",
+      "omitted_seed_for_diagnostic": 1904,
+      "remaining_mean_delta_pp": -4.5
+    },
+    {
+      "candidate": "F_DO",
+      "omitted_seed_for_diagnostic": 1905,
+      "remaining_mean_delta_pp": 4.5
+    },
+    {
+      "candidate": "F_DC",
+      "omitted_seed_for_diagnostic": 1903,
+      "remaining_mean_delta_pp": 5.75
+    },
+    {
+      "candidate": "F_DC",
+      "omitted_seed_for_diagnostic": 1904,
+      "remaining_mean_delta_pp": 5.0
+    },
+    {
+      "candidate": "F_DC",
+      "omitted_seed_for_diagnostic": 1905,
+      "remaining_mean_delta_pp": 7.25
+    },
+    {
+      "candidate": "F_WO",
+      "omitted_seed_for_diagnostic": 1903,
+      "remaining_mean_delta_pp": 8.25
+    },
+    {
+      "candidate": "F_WO",
+      "omitted_seed_for_diagnostic": 1904,
+      "remaining_mean_delta_pp": 2.0
+    },
+    {
+      "candidate": "F_WO",
+      "omitted_seed_for_diagnostic": 1905,
+      "remaining_mean_delta_pp": 8.75
+    },
+    {
+      "candidate": "F_WC",
+      "omitted_seed_for_diagnostic": 1903,
+      "remaining_mean_delta_pp": 6.25
+    },
+    {
+      "candidate": "F_WC",
+      "omitted_seed_for_diagnostic": 1904,
+      "remaining_mean_delta_pp": 0.5
+    },
+    {
+      "candidate": "F_WC",
+      "omitted_seed_for_diagnostic": 1905,
+      "remaining_mean_delta_pp": 8.75
+    }
+  ],
+  "limits": [
+    "One original pretrained seed 901 at one 200k checkpoint.",
+    "Three new continuation seeds; original two discovery seeds remain separate.",
+    "50 fixed cases per task reused across all evaluations; 6200 episodes are not 6200 independent cases.",
+    "Observed ranges are not confidence intervals; no automatic significance test.",
+    "Allocation changes both focused practice and other practice; it does not isolate direct transfer.",
+    "Three evaluation horizons cannot establish complete learning curves or future recovery.",
+    "One fixed start cannot establish a state-aware selector or the need for extra information."
+  ],
+  "scientific_scope": "Descriptive replication, prespecified 40k endpoint and two secondary contrasts; decomposition and leave-one-seed-out means are exploratory."
+}
