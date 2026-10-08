@@ -1,0 +1,29 @@
+{"at": "2026-10-08T02:36:48.506103+00:00", "event": "release_ready", "release_id": 406349760, "draft": true}
+{"at": "2026-10-08T02:36:48.883326+00:00", "event": "upload_started", "asset": "00_repository_context.zip", "bytes": 24791}
+{"at": "2026-10-08T02:36:49.745688+00:00", "event": "asset_verified", "name": "00_repository_context.zip", "asset_id": 620500653, "digest": "sha256:566c4ce3b508e2199c96dc54ef11b21a78c94b0b655ae00a8759ea7e0c3ac12e", "bytes": 24791}
+{"at": "2026-10-08T02:36:49.745688+00:00", "event": "upload_started", "asset": "01_implementation_validation_v1.zip", "bytes": 14935068}
+{"at": "2026-10-08T02:36:52.713286+00:00", "event": "asset_verified", "name": "01_implementation_validation_v1.zip", "asset_id": 620500700, "digest": "sha256:76ff61c7b995364be316b9ee5fee95f196e92a5ce700ac9b9481ab161e16cb00", "bytes": 14935068}
+{"at": "2026-10-08T02:36:52.713286+00:00", "event": "upload_started", "asset": "02_p0_uniform_pretraining_v1.zip", "bytes": 29817873}
+{"at": "2026-10-08T02:36:56.776368+00:00", "event": "asset_verified", "name": "02_p0_uniform_pretraining_v1.zip", "asset_id": 620500771, "digest": "sha256:318af96a5578e30f0f6c5e26a1aec2b8d0093f3776c00ed430ebd33aba697743", "bytes": 29817873}
+{"at": "2026-10-08T02:36:56.776368+00:00", "event": "upload_started", "asset": "03_p0_pretraining_analysis_v1.zip", "bytes": 2243439}
+{"at": "2026-10-08T02:36:57.828954+00:00", "event": "asset_verified", "name": "03_p0_pretraining_analysis_v1.zip", "asset_id": 620500860, "digest": "sha256:ece967ab577f816ee11019745b3c582c504414b4f828d2b2e351add76f84eaab", "bytes": 2243439}
+{"at": "2026-10-08T02:36:57.828954+00:00", "event": "upload_started", "asset": "04_p0_allocation_branches_v1.zip", "bytes": 235972585}
+{"at": "2026-10-08T02:37:00.572904+00:00", "event": "upload_progress", "asset": "04_p0_allocation_branches_v1.zip", "sent_bytes": 33554432, "total_bytes": 235972585}
+{"at": "2026-10-08T02:37:02.332039+00:00", "event": "upload_progress", "asset": "04_p0_allocation_branches_v1.zip", "sent_bytes": 67108864, "total_bytes": 235972585}
+{"at": "2026-10-08T02:37:03.917562+00:00", "event": "upload_progress", "asset": "04_p0_allocation_branches_v1.zip", "sent_bytes": 100663296, "total_bytes": 235972585}
+{"at": "2026-10-08T02:37:05.454956+00:00", "event": "upload_progress", "asset": "04_p0_allocation_branches_v1.zip", "sent_bytes": 134217728, "total_bytes": 235972585}
+{"at": "2026-10-08T02:37:07.008483+00:00", "event": "upload_progress", "asset": "04_p0_allocation_branches_v1.zip", "sent_bytes": 167772160, "total_bytes": 235972585}
+{"at": "2026-10-08T02:37:08.436651+00:00", "event": "upload_progress", "asset": "04_p0_allocation_branches_v1.zip", "sent_bytes": 201326592, "total_bytes": 235972585}
+{"at": "2026-10-08T02:37:09.896257+00:00", "event": "upload_progress", "asset": "04_p0_allocation_branches_v1.zip", "sent_bytes": 234881024, "total_bytes": 235972585}
+{"at": "2026-10-08T02:37:17.018168+00:00", "event": "asset_verified", "name": "04_p0_allocation_branches_v1.zip", "asset_id": 620500882, "digest": "sha256:ff11a7e2cc9e573629373d13cbe9a883a839dd1dd748979f98a48094298388a5", "bytes": 235972585}
+{"at": "2026-10-08T02:37:17.018168+00:00", "event": "upload_started", "asset": "run_started.json", "bytes": 1274}
+{"at": "2026-10-08T02:37:17.693154+00:00", "event": "asset_verified", "name": "run_started.json", "asset_id": 620501848, "digest": "sha256:83ddd8997f02612705047c8b5335f4583c092463e489e8e5f7ba1cca22ed1b23", "bytes": 1274}
+{"at": "2026-10-08T02:37:17.693154+00:00", "event": "upload_started", "asset": "archive_manifest.json", "bytes": 385301}
+{"at": "2026-10-08T02:37:18.534953+00:00", "event": "asset_verified", "name": "archive_manifest.json", "asset_id": 620501876, "digest": "sha256:460450d72651b81fbbc7b01abd7331d7c00e7a8a203269028f216e18145b4697", "bytes": 385301}
+{"at": "2026-10-08T02:37:18.534953+00:00", "event": "upload_started", "asset": "archive_verification.json", "bytes": 437}
+{"at": "2026-10-08T02:37:19.467092+00:00", "event": "asset_verified", "name": "archive_verification.json", "asset_id": 620501906, "digest": "sha256:92cbcf3bd8d11f9a3571ab6dd48bfee766bc228811b3c795a5cec97ec7c9412f", "bytes": 437}
+{"at": "2026-10-08T02:37:19.467092+00:00", "event": "upload_started", "asset": "archive_events.jsonl", "bytes": 2499}
+{"at": "2026-10-08T02:37:20.078032+00:00", "event": "asset_verified", "name": "archive_events.jsonl", "asset_id": 620501927, "digest": "sha256:6f43e0282eb2b7903cb8eb05271e955c39932e6fd373417f204deeae835b0e74", "bytes": 2499}
+{"at": "2026-10-08T02:37:20.093657+00:00", "event": "upload_started", "asset": "SHA256SUMS.txt", "bytes": 842}
+{"at": "2026-10-08T02:37:20.784049+00:00", "event": "asset_verified", "name": "SHA256SUMS.txt", "asset_id": 620501940, "digest": "sha256:721ff3e331ffef063c6c186d61ff6c2d4aa97a91de559a9b63d5ea40bf957375", "bytes": 842}
+{"at": "2026-10-08T02:37:22.465016+00:00", "event": "published", "url": "https://github.com/rlatmddn0211/practice_allocation/releases/tag/experiment-results-2026-10-08-v1", "assets": 10, "receipt": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\05_results_github_archive_v1\\results\\20261008T023647Z_github_publication_7ee887ea\\publication_receipt.json"}
