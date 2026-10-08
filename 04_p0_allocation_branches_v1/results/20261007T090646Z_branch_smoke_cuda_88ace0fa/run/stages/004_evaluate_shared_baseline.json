@@ -1,0 +1,13 @@
+{
+  "stage": "evaluate_shared_baseline",
+  "started_at": "2026-10-07T09:06:50.940086+00:00",
+  "passed": true,
+  "seconds": 2.9301633993163705,
+  "costs": {
+    "environment_creations": 8,
+    "resets": 8,
+    "environment_steps": 2596,
+    "train_iterations": 0,
+    "evaluation_episodes": 8
+  }
+}

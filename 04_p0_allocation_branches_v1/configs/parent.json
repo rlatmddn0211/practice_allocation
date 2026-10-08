@@ -1,0 +1,13 @@
+{
+  "run_relative_to_version": "../02_p0_uniform_pretraining_v1/results/20261007T060310Z_p0_cuda_50621c50/run",
+  "step": 200000,
+  "original_seed": 901,
+  "file_hashes": {
+    "run_manifest.json": "d0140796b076704ff9894f761dd24e8c6e221759241731373a29735f8fee909a",
+    "run_summary.json": "779ade03c1dd3de707fb30c361ed59750b314e23f71177d8a715060cacbeafa9",
+    "selected_checkpoint.json": "7721a397a361221b1c0f829c5d329940e3921b5955c9c3a58ed80a88234a0c3f",
+    "evaluation_banks.json": "f357894d157af0cb442f7252d515fe787e5d48223fdc16f97177cc0e6eb832d0",
+    "checkpoints/step_000200000/checkpoint_manifest.json": "ee44ba7fb9a97df0cf5a1de6847d439d58277159386318f62cb06c9b80cd2f63",
+    "checkpoints/step_000200000/restore_verification.json": "38ebde8edd033206bc18e9bf0f7ce126255c08cfda22e6b2537aef2c235a07de"
+  }
+}

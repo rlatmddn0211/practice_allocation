@@ -1,0 +1,119 @@
+{
+  "branch_id": "repeat_1902_F_WO",
+  "candidate": "F_WO",
+  "repeat_seed": 1902,
+  "status": "completed",
+  "outcomes": {
+    "20000": {
+      "episodes": 200,
+      "environment_steps": 73230,
+      "seconds": 69.69379440043122,
+      "steps_per_second": 1050.73917455622,
+      "success_by_task": {
+        "DO": 0.08,
+        "DC": 1.0,
+        "WO": 0.04,
+        "WC": 0.0
+      },
+      "macro_success": 0.28,
+      "success_counts": {
+        "DO": 4,
+        "DC": 50,
+        "WO": 2,
+        "WC": 0
+      },
+      "episodes_by_task": {
+        "DO": 50,
+        "DC": 50,
+        "WO": 50,
+        "WC": 50
+      },
+      "results_hash": "b8dd2281c6abaa036d83f2fd90ad17c0bea420c5435e49ea1d4b9e2eaed83681",
+      "purpose": "Research outcome; never selector input",
+      "evaluation_id": "repeat_1902_F_WO_h020000",
+      "bank": "outcome",
+      "state_unchanged": true,
+      "parent_step": 200000
+    },
+    "40000": {
+      "episodes": 200,
+      "environment_steps": 50897,
+      "seconds": 51.8134046997875,
+      "steps_per_second": 982.313366490829,
+      "success_by_task": {
+        "DO": 0.0,
+        "DC": 1.0,
+        "WO": 0.12,
+        "WC": 1.0
+      },
+      "macro_success": 0.53,
+      "success_counts": {
+        "DO": 0,
+        "DC": 50,
+        "WO": 6,
+        "WC": 50
+      },
+      "episodes_by_task": {
+        "DO": 50,
+        "DC": 50,
+        "WO": 50,
+        "WC": 50
+      },
+      "results_hash": "d4873ff2a4b8f15db3d997984be550e21891b1f93f9aa17110b630d1a7bedd20",
+      "purpose": "Research outcome; never selector input",
+      "evaluation_id": "repeat_1902_F_WO_h040000",
+      "bank": "outcome",
+      "state_unchanged": true,
+      "parent_step": 200000
+    }
+  },
+  "checkpoints": [
+    {
+      "step": 220000,
+      "path": "branches/repeat_1902_F_WO/checkpoints/extra_020000",
+      "save_seconds": 0.12035940028727055,
+      "restore_seconds": 0.1484452998265624,
+      "restored_state_matches": true,
+      "manifest_hash": "a0e55872e48853b0b63207e905fa446af4d72518db57d37256fed1a6c5585f56"
+    },
+    {
+      "step": 240000,
+      "path": "branches/repeat_1902_F_WO/checkpoints/extra_040000",
+      "save_seconds": 0.12129690032452345,
+      "restore_seconds": 0.1467964993789792,
+      "restored_state_matches": true,
+      "manifest_hash": "128b09935d5ed493c6d407cb9da9a17e4b0acb5177dcf7e83c30439358b74b55"
+    }
+  ],
+  "additional_training_steps": 40000,
+  "additional_sac_iterations": 40000,
+  "collected_new_by_task": {
+    "DO": 5000,
+    "DC": 5000,
+    "WO": 25000,
+    "WC": 5000
+  },
+  "sampled_during_branch_by_task": {
+    "DO": 2305929,
+    "DC": 2297307,
+    "WO": 3331568,
+    "WC": 2305196
+  },
+  "sampled_new_experience_fraction": 0.19994677734375,
+  "new_experience_fraction_in_final_replay": 0.4,
+  "final_state_fingerprints": {
+    "learning": "cf8ca2838d52f2e99545d6f7f05650e804d0dd78b78225679ef17fdf44654911",
+    "replay": "640bb679dd7be8164540942a4054ee333288db4e62efa675c8ebb6ecc8659c5d",
+    "collector": "8793b36b41a59de5dc0952fe3913901fa49aa16f25c1d697ad91be800679241e",
+    "rng": "1b3c2e454294c030d563a9e1973f4ec4f811986e27caa2763347ef3a7502e07c"
+  },
+  "completed_at": "2026-10-07T10:26:01.805522+00:00",
+  "elapsed_seconds": 499.49200099986047,
+  "costs": {
+    "environment_creations": 480,
+    "resets": 480,
+    "environment_steps": 164127,
+    "train_iterations": 40000,
+    "evaluation_episodes": 400
+  }
+}

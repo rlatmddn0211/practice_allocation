@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-10-07T09:52:32.662126+00:00",
+  "boundary": "after transition, update, episode close; before next reset",
+  "step": 240000,
+  "updates": 239000,
+  "replay_size": 100000,
+  "replay_pos": 40000,
+  "state_fingerprints": {
+    "learning": "48382d6f1e4934b92a95fd5d88ab6c10f5c3a8e97d5fcae2c4117a5aedc3f542",
+    "replay": "802ec5e6a483ee55a07f21248a76b7890a79714931db1a7f92d021ba90ebe4e4",
+    "collector": "b7fb5538e648749b5d348101f8fba57400a424ecd4d8220f9568b21605c289ba",
+    "rng": "2f130ba08372493cc9cccbde5b2c150634aba04d0c83c8e189f8e07777625af6"
+  },
+  "config_hash": "72f14591de5cee4e8c2c612417c1551ee81bb11e9bc4bcdb397a1bd9412d9a97",
+  "packages": {
+    "numpy": "2.2.4",
+    "torch": "2.5.1+cu121",
+    "gymnasium": "1.2.3",
+    "mujoco": "3.5.0",
+    "metaworld": "3.0.0",
+    "stable-baselines3": "2.7.1"
+  },
+  "source_hashes": {
+    "run_branches.py": "3220ac9bb14376a9e0446e3ba8b0cd31cbab3a94641c6e4cb5230fe3035141a7",
+    "run_validation.py": "f88f3f8b29ca4c76e821ae94f1ad821ba6a651898e7eb50b11b53f58726090ed",
+    "launch_branches.ps1": "fc5b01bc800f2421d3a717b28fb55b2a013bfad6d716652af3e9b70f311f41ef",
+    "requirements.txt": "cb62ec70a441ab12b0a7caab26904375ffd55ce0ef5497b20e07a48205b43b1b",
+    "VERSION.json": "03e28916395a51cf21f504208c9944cf88f520a0ba6edf384caf11813e7171bb",
+    "practice_allocation/__init__.py": "4215c51deb3d834c283aeed7c87b8747916234e964f1a8cd9eedadaf1e465a2f",
+    "practice_allocation/branch_analysis.py": "0ec4f9e51f095e1624789e575e5542bf16e06a9a13743c9ad8e8768822b3173a",
+    "practice_allocation/branch_protocol.py": "74c5ac2ec497cc88ce4cd13b83e8c4bef22d8829139c4f6e6e9a41f2aa7be222",
+    "practice_allocation/branches.py": "7057e30377d9b8f86011d5fa363c5a5c9f8ddfe02e7078ad31133ab8085e0656",
+    "practice_allocation/core.py": "33b0bf02215f3b2e6d18744bef3fc32e4dada9b716db08e22ea6408f3af8cc93",
+    "practice_allocation/engine.py": "ae090b11d36b715eb7c66ce89c39c1021d1de140abe7fbb5e820eff1ed4a3f26",
+    "practice_allocation/environment.py": "85afb8560da5160832e619f90608eae0b4b83aa75264376800111b295ef4e4e8",
+    "practice_allocation/evaluation.py": "196b18ad4b60bca516511e71a449b12b78784a20a1699caa207975203d5cc525",
+    "practice_allocation/learning.py": "e32e1f2e23490c651167af24386a3af5df005af766a33128c9bb75f719e30009",
+    "practice_allocation/preflight.py": "918375a659b3e54a03624898378e70e2b1e3595db6645ee89dbeda469ba45bab",
+    "configs/learner.json": "8ceeae1249b8b9d1c94a29ba791f8f22918b75333d50c0fdd8cfbd4fed843571",
+    "configs/parent.json": "6e424b2a1ffd00e994a6b9906897f8d5f9a9cd8453a6bfe9281dff4cfbd07dbc",
+    "configs/validation.json": "8ceeae1249b8b9d1c94a29ba791f8f22918b75333d50c0fdd8cfbd4fed843571",
+    "tests/test_branches.py": "0b5e82b3ded2ddb8515437e502db2c099c04157b05a23c94b8c422818582b8a5",
+    "tests/test_contracts.py": "e695e8a5ebf5248878520d455f77581edeaa5a8fc53f83af85c331353d14ce53"
+  },
+  "files": {
+    "model.zip": "528c3ff02439dc86e6b3c5401ce2e05a87d98874bb4848f027e7c164c41f5bb9",
+    "replay.pkl": "d984b18c3f74edbe884c8c8c95922faa98c64e81da5e420367ab664688420783",
+    "collector_and_rng.pkl": "35ce0161b671171c85fb04cc4bd7e7a40eb39e216b037b3379ca3daed496706f"
+  },
+  "seconds": 0.12531790044158697
+}

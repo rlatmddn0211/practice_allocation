@@ -1,0 +1,26 @@
+{
+  "stage": "branch_runner_validation",
+  "candidates": [
+    "U",
+    "F_DO",
+    "F_DC",
+    "F_WO",
+    "F_WC"
+  ],
+  "repeat_seeds": [
+    1901
+  ],
+  "parent_step": 200000,
+  "steps_per_branch": 4000,
+  "evaluation_steps": [
+    4000
+  ],
+  "bank": "diagnostic",
+  "episodes_per_task": 2,
+  "block_steps": 4000,
+  "branch_count": 5,
+  "total_additional_training_steps": 20000,
+  "baseline_evaluated_once_and_shared": true,
+  "primary_horizon": 4000,
+  "candidate_order": "repeat first, then U/F_DO/F_DC/F_WO/F_WC"
+}

@@ -1,0 +1,36 @@
+{
+  "parent_run": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\02_p0_uniform_pretraining_v1\\results\\20261007T060310Z_p0_cuda_50621c50\\run",
+  "checkpoint": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\02_p0_uniform_pretraining_v1\\results\\20261007T060310Z_p0_cuda_50621c50\\run\\checkpoints\\step_000200000",
+  "pinned_inputs": {
+    "run_manifest.json": "d0140796b076704ff9894f761dd24e8c6e221759241731373a29735f8fee909a",
+    "run_summary.json": "779ade03c1dd3de707fb30c361ed59750b314e23f71177d8a715060cacbeafa9",
+    "selected_checkpoint.json": "7721a397a361221b1c0f829c5d329940e3921b5955c9c3a58ed80a88234a0c3f",
+    "evaluation_banks.json": "f357894d157af0cb442f7252d515fe787e5d48223fdc16f97177cc0e6eb832d0",
+    "checkpoints/step_000200000/checkpoint_manifest.json": "ee44ba7fb9a97df0cf5a1de6847d439d58277159386318f62cb06c9b80cd2f63",
+    "checkpoints/step_000200000/restore_verification.json": "38ebde8edd033206bc18e9bf0f7ce126255c08cfda22e6b2537aef2c235a07de"
+  },
+  "checkpoint_files": {
+    "model.zip": "e892459fd6600f0ef0653f31b3b6179c5e9d9ad082bbfd4c577601c0a321c138",
+    "replay.pkl": "70a13d5021dc45ccefafae63aecef98c833c2fd28769aae6ce705f5b3e9bc8e0",
+    "collector_and_rng.pkl": "b6b0ab80fb18a3d9a9f1e2e85c13a97ba5728da934fba55eb2ec9e4a409f33d3"
+  },
+  "byte_identical_learner_modules": {
+    "practice_allocation/core.py": "33b0bf02215f3b2e6d18744bef3fc32e4dada9b716db08e22ea6408f3af8cc93",
+    "practice_allocation/engine.py": "ae090b11d36b715eb7c66ce89c39c1021d1de140abe7fbb5e820eff1ed4a3f26",
+    "practice_allocation/environment.py": "85afb8560da5160832e619f90608eae0b4b83aa75264376800111b295ef4e4e8",
+    "practice_allocation/learning.py": "e32e1f2e23490c651167af24386a3af5df005af766a33128c9bb75f719e30009",
+    "practice_allocation/evaluation.py": "196b18ad4b60bca516511e71a449b12b78784a20a1699caa207975203d5cc525"
+  },
+  "original_config_hash": "c36455f9c50ce954e6c00233958405a90537cd819546cef784d922d2fae787ef",
+  "current_config_hash": "72f14591de5cee4e8c2c612417c1551ee81bb11e9bc4bcdb397a1bd9412d9a97",
+  "metadata_only_config_change": [
+    "version"
+  ],
+  "selection_input_hash": "e62697e86e550c2803c4ce9e8d980f2a5daa05f5026a08f16b6949106f235c86",
+  "parent_state_fingerprints": {
+    "learning": "923de0b055ae01ca4b20c6c4d4d45329015b1c90c28627600046a482889bcdbe",
+    "replay": "936fec2df78346bc3ade55ee699a056d8ebe4a77fcb21bc7412e93b631faff89",
+    "collector": "1eb0f0883f0c06f9f857f238b693d97e7289487a3a354b8ee7a1ac2716998ee1",
+    "rng": "eac8d0b951aeb81709008f88113a5dd84d4e5ed0ae8becc6da86cbd7b04e53f7"
+  }
+}

@@ -8,3 +8,6 @@
 03_p0_pretraining_analysis_v1/results/** -text whitespace=cr-at-eol
 # Matplotlib SVG exports are rendered artifacts, not hand-edited source diffs.
 03_p0_pretraining_analysis_v1/results/**/*.svg -diff
+04_p0_allocation_branches_v1/results/** -text whitespace=cr-at-eol
+# Preserve the executed audit script, including its hashed final blank line.
+04_p0_allocation_branches_v1/results/20261007T165000Z_completion_audit/verify_completed_run.py whitespace=cr-at-eol,-blank-at-eof

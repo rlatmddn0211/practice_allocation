@@ -1,0 +1,31 @@
+{
+  "episodes": 8,
+  "environment_steps": 2245,
+  "seconds": 2.2438278002664447,
+  "steps_per_second": 1000.5224107364282,
+  "success_by_task": {
+    "DO": 0.0,
+    "DC": 1.0,
+    "WO": 0.0,
+    "WC": 1.0
+  },
+  "macro_success": 0.5,
+  "success_counts": {
+    "DO": 0,
+    "DC": 2,
+    "WO": 0,
+    "WC": 2
+  },
+  "episodes_by_task": {
+    "DO": 2,
+    "DC": 2,
+    "WO": 2,
+    "WC": 2
+  },
+  "results_hash": "f4868d62499571b447f9365cbb736ea271b666b47909d6579c23664a32f96f7d",
+  "purpose": "Technical runner verification on public diagnostic states; not research results",
+  "evaluation_id": "repeat_1901_F_WO_h004000",
+  "bank": "diagnostic",
+  "state_unchanged": true,
+  "parent_step": 200000
+}

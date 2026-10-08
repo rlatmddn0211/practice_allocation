@@ -1,0 +1,31 @@
+{
+  "episodes": 200,
+  "environment_steps": 49760,
+  "seconds": 52.35145209915936,
+  "steps_per_second": 950.4989452011595,
+  "success_by_task": {
+    "DO": 0.18,
+    "DC": 1.0,
+    "WO": 0.08,
+    "WC": 1.0
+  },
+  "macro_success": 0.565,
+  "success_counts": {
+    "DO": 9,
+    "DC": 50,
+    "WO": 4,
+    "WC": 50
+  },
+  "episodes_by_task": {
+    "DO": 50,
+    "DC": 50,
+    "WO": 50,
+    "WC": 50
+  },
+  "results_hash": "0dedf315335d3ce9ccda9210890af4543ec88610d79e671e65c056025bb5d312",
+  "purpose": "Research outcome; never selector input",
+  "evaluation_id": "repeat_1902_F_DO_h040000",
+  "bank": "outcome",
+  "state_unchanged": true,
+  "parent_step": 200000
+}

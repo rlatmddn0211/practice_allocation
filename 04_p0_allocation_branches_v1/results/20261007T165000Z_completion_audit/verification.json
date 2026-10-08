@@ -1,0 +1,1666 @@
+{
+  "created_at": "2026-10-07T16:50:01.635032+00:00",
+  "source_run": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run",
+  "audit_script_sha256": "1bf0007d6e0805a3715a6415e9d135f1071b882a1e32bca82efbd4e4300a0836",
+  "additional_training_steps_executed": 0,
+  "additional_evaluation_episodes_executed": 0,
+  "status": "passed",
+  "results": {
+    "baseline_macro": 0.485,
+    "primary_by_candidate": {
+      "U": [
+        {
+          "repeat_seed": 1901,
+          "macro_success": 0.575,
+          "extra_gain_pp": 0.0
+        },
+        {
+          "repeat_seed": 1902,
+          "macro_success": 0.505,
+          "extra_gain_pp": 0.0
+        }
+      ],
+      "F_DO": [
+        {
+          "repeat_seed": 1901,
+          "macro_success": 0.54,
+          "extra_gain_pp": -3.499999999999992
+        },
+        {
+          "repeat_seed": 1902,
+          "macro_success": 0.565,
+          "extra_gain_pp": 5.999999999999995
+        }
+      ],
+      "F_DC": [
+        {
+          "repeat_seed": 1901,
+          "macro_success": 0.55,
+          "extra_gain_pp": -2.499999999999991
+        },
+        {
+          "repeat_seed": 1902,
+          "macro_success": 0.58,
+          "extra_gain_pp": 7.499999999999996
+        }
+      ],
+      "F_WO": [
+        {
+          "repeat_seed": 1901,
+          "macro_success": 0.54,
+          "extra_gain_pp": -3.499999999999992
+        },
+        {
+          "repeat_seed": 1902,
+          "macro_success": 0.53,
+          "extra_gain_pp": 2.500000000000002
+        }
+      ],
+      "F_WC": [
+        {
+          "repeat_seed": 1901,
+          "macro_success": 0.57,
+          "extra_gain_pp": -0.5000000000000004
+        },
+        {
+          "repeat_seed": 1902,
+          "macro_success": 0.56,
+          "extra_gain_pp": 5.500000000000005
+        }
+      ]
+    },
+    "mean_primary": {
+      "U": {
+        "macro_success": 0.54,
+        "extra_gain_pp": 0.0
+      },
+      "F_DO": {
+        "macro_success": 0.5525,
+        "extra_gain_pp": 1.2500000000000013
+      },
+      "F_DC": {
+        "macro_success": 0.565,
+        "extra_gain_pp": 2.500000000000002
+      },
+      "F_WO": {
+        "macro_success": 0.535,
+        "extra_gain_pp": -0.4999999999999949
+      },
+      "F_WC": {
+        "macro_success": 0.565,
+        "extra_gain_pp": 2.5000000000000027
+      }
+    },
+    "completed_at": "2026-10-07T10:33:42.720789+00:00",
+    "elapsed_seconds": 4933.51970739942,
+    "additional_training_steps": 400000,
+    "evaluation_episodes": 4200,
+    "unique_evaluation_states": 200
+  },
+  "checks": [
+    {
+      "name": "ten_branches_completed",
+      "passed": true
+    },
+    {
+      "name": "original_and_continuation_seeds",
+      "passed": true
+    },
+    {
+      "name": "frozen_source:run_branches.py",
+      "passed": true
+    },
+    {
+      "name": "frozen_source:run_validation.py",
+      "passed": true
+    },
+    {
+      "name": "frozen_source:launch_branches.ps1",
+      "passed": true
+    },
+    {
+      "name": "frozen_source:requirements.txt",
+      "passed": true
+    },
+    {
+      "name": "frozen_source:VERSION.json",
+      "passed": true
+    },
+    {
+      "name": "frozen_source:practice_allocation/__init__.py",
+      "passed": true
+    },
+    {
+      "name": "frozen_source:practice_allocation/branch_analysis.py",
+      "passed": true
+    },
+    {
+      "name": "frozen_source:practice_allocation/branch_protocol.py",
+      "passed": true
+    },
+    {
+      "name": "frozen_source:practice_allocation/branches.py",
+      "passed": true
+    },
+    {
+      "name": "frozen_source:practice_allocation/core.py",
+      "passed": true
+    },
+    {
+      "name": "frozen_source:practice_allocation/engine.py",
+      "passed": true
+    },
+    {
+      "name": "frozen_source:practice_allocation/environment.py",
+      "passed": true
+    },
+    {
+      "name": "frozen_source:practice_allocation/evaluation.py",
+      "passed": true
+    },
+    {
+      "name": "frozen_source:practice_allocation/learning.py",
+      "passed": true
+    },
+    {
+      "name": "frozen_source:practice_allocation/preflight.py",
+      "passed": true
+    },
+    {
+      "name": "frozen_source:configs/learner.json",
+      "passed": true
+    },
+    {
+      "name": "frozen_source:configs/parent.json",
+      "passed": true
+    },
+    {
+      "name": "frozen_source:configs/validation.json",
+      "passed": true
+    },
+    {
+      "name": "frozen_source:tests/test_branches.py",
+      "passed": true
+    },
+    {
+      "name": "frozen_source:tests/test_contracts.py",
+      "passed": true
+    },
+    {
+      "name": "parent_input:run_manifest.json",
+      "passed": true
+    },
+    {
+      "name": "parent_input:run_summary.json",
+      "passed": true
+    },
+    {
+      "name": "parent_input:selected_checkpoint.json",
+      "passed": true
+    },
+    {
+      "name": "parent_input:evaluation_banks.json",
+      "passed": true
+    },
+    {
+      "name": "parent_input:checkpoints/step_000200000/checkpoint_manifest.json",
+      "passed": true
+    },
+    {
+      "name": "parent_input:checkpoints/step_000200000/restore_verification.json",
+      "passed": true
+    },
+    {
+      "name": "parent_checkpoint:model.zip",
+      "passed": true
+    },
+    {
+      "name": "parent_checkpoint:replay.pkl",
+      "passed": true
+    },
+    {
+      "name": "parent_checkpoint:collector_and_rng.pkl",
+      "passed": true
+    },
+    {
+      "name": "parent_source:run_pretraining.py",
+      "passed": true
+    },
+    {
+      "name": "parent_source:run_validation.py",
+      "passed": true
+    },
+    {
+      "name": "parent_source:launch_pretraining.ps1",
+      "passed": true
+    },
+    {
+      "name": "parent_source:requirements.txt",
+      "passed": true
+    },
+    {
+      "name": "parent_source:VERSION.json",
+      "passed": true
+    },
+    {
+      "name": "parent_source:practice_allocation/__init__.py",
+      "passed": true
+    },
+    {
+      "name": "parent_source:practice_allocation/core.py",
+      "passed": true
+    },
+    {
+      "name": "parent_source:practice_allocation/engine.py",
+      "passed": true
+    },
+    {
+      "name": "parent_source:practice_allocation/environment.py",
+      "passed": true
+    },
+    {
+      "name": "parent_source:practice_allocation/evaluation.py",
+      "passed": true
+    },
+    {
+      "name": "parent_source:practice_allocation/learning.py",
+      "passed": true
+    },
+    {
+      "name": "parent_source:practice_allocation/preflight.py",
+      "passed": true
+    },
+    {
+      "name": "parent_source:practice_allocation/pretraining.py",
+      "passed": true
+    },
+    {
+      "name": "parent_source:configs/pretraining.json",
+      "passed": true
+    },
+    {
+      "name": "parent_source:configs/validation.json",
+      "passed": true
+    },
+    {
+      "name": "parent_source:tests/test_contracts.py",
+      "passed": true
+    },
+    {
+      "name": "parent_source:tests/test_pretraining.py",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_restore:initial_checkpoint",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_bytes:initial_checkpoint\\model.zip",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_bytes:initial_checkpoint\\replay.pkl",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_bytes:initial_checkpoint\\collector_and_rng.pkl",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_restore:branches\\repeat_1901_F_DC\\checkpoints\\extra_020000",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_bytes:branches\\repeat_1901_F_DC\\checkpoints\\extra_020000\\model.zip",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_bytes:branches\\repeat_1901_F_DC\\checkpoints\\extra_020000\\replay.pkl",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_bytes:branches\\repeat_1901_F_DC\\checkpoints\\extra_020000\\collector_and_rng.pkl",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_restore:branches\\repeat_1901_F_DC\\checkpoints\\extra_040000",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_bytes:branches\\repeat_1901_F_DC\\checkpoints\\extra_040000\\model.zip",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_bytes:branches\\repeat_1901_F_DC\\checkpoints\\extra_040000\\replay.pkl",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_bytes:branches\\repeat_1901_F_DC\\checkpoints\\extra_040000\\collector_and_rng.pkl",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_restore:branches\\repeat_1901_F_DO\\checkpoints\\extra_020000",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_bytes:branches\\repeat_1901_F_DO\\checkpoints\\extra_020000\\model.zip",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_bytes:branches\\repeat_1901_F_DO\\checkpoints\\extra_020000\\replay.pkl",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_bytes:branches\\repeat_1901_F_DO\\checkpoints\\extra_020000\\collector_and_rng.pkl",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_restore:branches\\repeat_1901_F_DO\\checkpoints\\extra_040000",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_bytes:branches\\repeat_1901_F_DO\\checkpoints\\extra_040000\\model.zip",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_bytes:branches\\repeat_1901_F_DO\\checkpoints\\extra_040000\\replay.pkl",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_bytes:branches\\repeat_1901_F_DO\\checkpoints\\extra_040000\\collector_and_rng.pkl",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_restore:branches\\repeat_1901_F_WC\\checkpoints\\extra_020000",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_bytes:branches\\repeat_1901_F_WC\\checkpoints\\extra_020000\\model.zip",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_bytes:branches\\repeat_1901_F_WC\\checkpoints\\extra_020000\\replay.pkl",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_bytes:branches\\repeat_1901_F_WC\\checkpoints\\extra_020000\\collector_and_rng.pkl",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_restore:branches\\repeat_1901_F_WC\\checkpoints\\extra_040000",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_bytes:branches\\repeat_1901_F_WC\\checkpoints\\extra_040000\\model.zip",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_bytes:branches\\repeat_1901_F_WC\\checkpoints\\extra_040000\\replay.pkl",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_bytes:branches\\repeat_1901_F_WC\\checkpoints\\extra_040000\\collector_and_rng.pkl",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_restore:branches\\repeat_1901_F_WO\\checkpoints\\extra_020000",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_bytes:branches\\repeat_1901_F_WO\\checkpoints\\extra_020000\\model.zip",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_bytes:branches\\repeat_1901_F_WO\\checkpoints\\extra_020000\\replay.pkl",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_bytes:branches\\repeat_1901_F_WO\\checkpoints\\extra_020000\\collector_and_rng.pkl",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_restore:branches\\repeat_1901_F_WO\\checkpoints\\extra_040000",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_bytes:branches\\repeat_1901_F_WO\\checkpoints\\extra_040000\\model.zip",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_bytes:branches\\repeat_1901_F_WO\\checkpoints\\extra_040000\\replay.pkl",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_bytes:branches\\repeat_1901_F_WO\\checkpoints\\extra_040000\\collector_and_rng.pkl",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_restore:branches\\repeat_1901_U\\checkpoints\\extra_020000",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_bytes:branches\\repeat_1901_U\\checkpoints\\extra_020000\\model.zip",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_bytes:branches\\repeat_1901_U\\checkpoints\\extra_020000\\replay.pkl",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_bytes:branches\\repeat_1901_U\\checkpoints\\extra_020000\\collector_and_rng.pkl",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_restore:branches\\repeat_1901_U\\checkpoints\\extra_040000",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_bytes:branches\\repeat_1901_U\\checkpoints\\extra_040000\\model.zip",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_bytes:branches\\repeat_1901_U\\checkpoints\\extra_040000\\replay.pkl",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_bytes:branches\\repeat_1901_U\\checkpoints\\extra_040000\\collector_and_rng.pkl",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_restore:branches\\repeat_1902_F_DC\\checkpoints\\extra_020000",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_bytes:branches\\repeat_1902_F_DC\\checkpoints\\extra_020000\\model.zip",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_bytes:branches\\repeat_1902_F_DC\\checkpoints\\extra_020000\\replay.pkl",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_bytes:branches\\repeat_1902_F_DC\\checkpoints\\extra_020000\\collector_and_rng.pkl",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_restore:branches\\repeat_1902_F_DC\\checkpoints\\extra_040000",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_bytes:branches\\repeat_1902_F_DC\\checkpoints\\extra_040000\\model.zip",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_bytes:branches\\repeat_1902_F_DC\\checkpoints\\extra_040000\\replay.pkl",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_bytes:branches\\repeat_1902_F_DC\\checkpoints\\extra_040000\\collector_and_rng.pkl",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_restore:branches\\repeat_1902_F_DO\\checkpoints\\extra_020000",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_bytes:branches\\repeat_1902_F_DO\\checkpoints\\extra_020000\\model.zip",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_bytes:branches\\repeat_1902_F_DO\\checkpoints\\extra_020000\\replay.pkl",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_bytes:branches\\repeat_1902_F_DO\\checkpoints\\extra_020000\\collector_and_rng.pkl",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_restore:branches\\repeat_1902_F_DO\\checkpoints\\extra_040000",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_bytes:branches\\repeat_1902_F_DO\\checkpoints\\extra_040000\\model.zip",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_bytes:branches\\repeat_1902_F_DO\\checkpoints\\extra_040000\\replay.pkl",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_bytes:branches\\repeat_1902_F_DO\\checkpoints\\extra_040000\\collector_and_rng.pkl",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_restore:branches\\repeat_1902_F_WC\\checkpoints\\extra_020000",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_bytes:branches\\repeat_1902_F_WC\\checkpoints\\extra_020000\\model.zip",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_bytes:branches\\repeat_1902_F_WC\\checkpoints\\extra_020000\\replay.pkl",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_bytes:branches\\repeat_1902_F_WC\\checkpoints\\extra_020000\\collector_and_rng.pkl",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_restore:branches\\repeat_1902_F_WC\\checkpoints\\extra_040000",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_bytes:branches\\repeat_1902_F_WC\\checkpoints\\extra_040000\\model.zip",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_bytes:branches\\repeat_1902_F_WC\\checkpoints\\extra_040000\\replay.pkl",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_bytes:branches\\repeat_1902_F_WC\\checkpoints\\extra_040000\\collector_and_rng.pkl",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_restore:branches\\repeat_1902_F_WO\\checkpoints\\extra_020000",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_bytes:branches\\repeat_1902_F_WO\\checkpoints\\extra_020000\\model.zip",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_bytes:branches\\repeat_1902_F_WO\\checkpoints\\extra_020000\\replay.pkl",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_bytes:branches\\repeat_1902_F_WO\\checkpoints\\extra_020000\\collector_and_rng.pkl",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_restore:branches\\repeat_1902_F_WO\\checkpoints\\extra_040000",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_bytes:branches\\repeat_1902_F_WO\\checkpoints\\extra_040000\\model.zip",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_bytes:branches\\repeat_1902_F_WO\\checkpoints\\extra_040000\\replay.pkl",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_bytes:branches\\repeat_1902_F_WO\\checkpoints\\extra_040000\\collector_and_rng.pkl",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_restore:branches\\repeat_1902_U\\checkpoints\\extra_020000",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_bytes:branches\\repeat_1902_U\\checkpoints\\extra_020000\\model.zip",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_bytes:branches\\repeat_1902_U\\checkpoints\\extra_020000\\replay.pkl",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_bytes:branches\\repeat_1902_U\\checkpoints\\extra_020000\\collector_and_rng.pkl",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_restore:branches\\repeat_1902_U\\checkpoints\\extra_040000",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_bytes:branches\\repeat_1902_U\\checkpoints\\extra_040000\\model.zip",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_bytes:branches\\repeat_1902_U\\checkpoints\\extra_040000\\replay.pkl",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_bytes:branches\\repeat_1902_U\\checkpoints\\extra_040000\\collector_and_rng.pkl",
+      "passed": true
+    },
+    {
+      "name": "evaluation_grain",
+      "passed": true
+    },
+    {
+      "name": "evaluation_cases:baseline",
+      "passed": true
+    },
+    {
+      "name": "evaluation_cases:repeat_1901_U_h020000",
+      "passed": true
+    },
+    {
+      "name": "evaluation_cases:repeat_1901_U_h040000",
+      "passed": true
+    },
+    {
+      "name": "evaluation_cases:repeat_1901_F_DO_h020000",
+      "passed": true
+    },
+    {
+      "name": "evaluation_cases:repeat_1901_F_DO_h040000",
+      "passed": true
+    },
+    {
+      "name": "evaluation_cases:repeat_1901_F_DC_h020000",
+      "passed": true
+    },
+    {
+      "name": "evaluation_cases:repeat_1901_F_DC_h040000",
+      "passed": true
+    },
+    {
+      "name": "evaluation_cases:repeat_1901_F_WO_h020000",
+      "passed": true
+    },
+    {
+      "name": "evaluation_cases:repeat_1901_F_WO_h040000",
+      "passed": true
+    },
+    {
+      "name": "evaluation_cases:repeat_1901_F_WC_h020000",
+      "passed": true
+    },
+    {
+      "name": "evaluation_cases:repeat_1901_F_WC_h040000",
+      "passed": true
+    },
+    {
+      "name": "evaluation_cases:repeat_1902_U_h020000",
+      "passed": true
+    },
+    {
+      "name": "evaluation_cases:repeat_1902_U_h040000",
+      "passed": true
+    },
+    {
+      "name": "evaluation_cases:repeat_1902_F_DO_h020000",
+      "passed": true
+    },
+    {
+      "name": "evaluation_cases:repeat_1902_F_DO_h040000",
+      "passed": true
+    },
+    {
+      "name": "evaluation_cases:repeat_1902_F_DC_h020000",
+      "passed": true
+    },
+    {
+      "name": "evaluation_cases:repeat_1902_F_DC_h040000",
+      "passed": true
+    },
+    {
+      "name": "evaluation_cases:repeat_1902_F_WO_h020000",
+      "passed": true
+    },
+    {
+      "name": "evaluation_cases:repeat_1902_F_WO_h040000",
+      "passed": true
+    },
+    {
+      "name": "evaluation_cases:repeat_1902_F_WC_h020000",
+      "passed": true
+    },
+    {
+      "name": "evaluation_cases:repeat_1902_F_WC_h040000",
+      "passed": true
+    },
+    {
+      "name": "baseline_recalculation",
+      "passed": true
+    },
+    {
+      "name": "branch_start:repeat_1901_U",
+      "passed": true
+    },
+    {
+      "name": "branch_budget:repeat_1901_U",
+      "passed": true
+    },
+    {
+      "name": "training_episodes:repeat_1901_U",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1901_U:0",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1901_U:1",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1901_U:2",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1901_U:3",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1901_U:4",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1901_U:5",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1901_U:6",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1901_U:7",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1901_U:8",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1901_U:9",
+      "passed": true
+    },
+    {
+      "name": "collected_exposure:repeat_1901_U",
+      "passed": true
+    },
+    {
+      "name": "sampled_exposure:repeat_1901_U",
+      "passed": true
+    },
+    {
+      "name": "reset_audit:repeat_1901_U",
+      "passed": true
+    },
+    {
+      "name": "result_recalculation:repeat_1901_U:20000",
+      "passed": true
+    },
+    {
+      "name": "result_recalculation:repeat_1901_U:40000",
+      "passed": true
+    },
+    {
+      "name": "branch_start:repeat_1901_F_DO",
+      "passed": true
+    },
+    {
+      "name": "branch_budget:repeat_1901_F_DO",
+      "passed": true
+    },
+    {
+      "name": "training_episodes:repeat_1901_F_DO",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1901_F_DO:0",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1901_F_DO:1",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1901_F_DO:2",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1901_F_DO:3",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1901_F_DO:4",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1901_F_DO:5",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1901_F_DO:6",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1901_F_DO:7",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1901_F_DO:8",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1901_F_DO:9",
+      "passed": true
+    },
+    {
+      "name": "collected_exposure:repeat_1901_F_DO",
+      "passed": true
+    },
+    {
+      "name": "sampled_exposure:repeat_1901_F_DO",
+      "passed": true
+    },
+    {
+      "name": "reset_audit:repeat_1901_F_DO",
+      "passed": true
+    },
+    {
+      "name": "result_recalculation:repeat_1901_F_DO:20000",
+      "passed": true
+    },
+    {
+      "name": "result_recalculation:repeat_1901_F_DO:40000",
+      "passed": true
+    },
+    {
+      "name": "branch_start:repeat_1901_F_DC",
+      "passed": true
+    },
+    {
+      "name": "branch_budget:repeat_1901_F_DC",
+      "passed": true
+    },
+    {
+      "name": "training_episodes:repeat_1901_F_DC",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1901_F_DC:0",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1901_F_DC:1",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1901_F_DC:2",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1901_F_DC:3",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1901_F_DC:4",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1901_F_DC:5",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1901_F_DC:6",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1901_F_DC:7",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1901_F_DC:8",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1901_F_DC:9",
+      "passed": true
+    },
+    {
+      "name": "collected_exposure:repeat_1901_F_DC",
+      "passed": true
+    },
+    {
+      "name": "sampled_exposure:repeat_1901_F_DC",
+      "passed": true
+    },
+    {
+      "name": "reset_audit:repeat_1901_F_DC",
+      "passed": true
+    },
+    {
+      "name": "result_recalculation:repeat_1901_F_DC:20000",
+      "passed": true
+    },
+    {
+      "name": "result_recalculation:repeat_1901_F_DC:40000",
+      "passed": true
+    },
+    {
+      "name": "branch_start:repeat_1901_F_WO",
+      "passed": true
+    },
+    {
+      "name": "branch_budget:repeat_1901_F_WO",
+      "passed": true
+    },
+    {
+      "name": "training_episodes:repeat_1901_F_WO",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1901_F_WO:0",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1901_F_WO:1",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1901_F_WO:2",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1901_F_WO:3",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1901_F_WO:4",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1901_F_WO:5",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1901_F_WO:6",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1901_F_WO:7",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1901_F_WO:8",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1901_F_WO:9",
+      "passed": true
+    },
+    {
+      "name": "collected_exposure:repeat_1901_F_WO",
+      "passed": true
+    },
+    {
+      "name": "sampled_exposure:repeat_1901_F_WO",
+      "passed": true
+    },
+    {
+      "name": "reset_audit:repeat_1901_F_WO",
+      "passed": true
+    },
+    {
+      "name": "result_recalculation:repeat_1901_F_WO:20000",
+      "passed": true
+    },
+    {
+      "name": "result_recalculation:repeat_1901_F_WO:40000",
+      "passed": true
+    },
+    {
+      "name": "branch_start:repeat_1901_F_WC",
+      "passed": true
+    },
+    {
+      "name": "branch_budget:repeat_1901_F_WC",
+      "passed": true
+    },
+    {
+      "name": "training_episodes:repeat_1901_F_WC",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1901_F_WC:0",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1901_F_WC:1",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1901_F_WC:2",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1901_F_WC:3",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1901_F_WC:4",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1901_F_WC:5",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1901_F_WC:6",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1901_F_WC:7",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1901_F_WC:8",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1901_F_WC:9",
+      "passed": true
+    },
+    {
+      "name": "collected_exposure:repeat_1901_F_WC",
+      "passed": true
+    },
+    {
+      "name": "sampled_exposure:repeat_1901_F_WC",
+      "passed": true
+    },
+    {
+      "name": "reset_audit:repeat_1901_F_WC",
+      "passed": true
+    },
+    {
+      "name": "result_recalculation:repeat_1901_F_WC:20000",
+      "passed": true
+    },
+    {
+      "name": "result_recalculation:repeat_1901_F_WC:40000",
+      "passed": true
+    },
+    {
+      "name": "branch_start:repeat_1902_U",
+      "passed": true
+    },
+    {
+      "name": "branch_budget:repeat_1902_U",
+      "passed": true
+    },
+    {
+      "name": "training_episodes:repeat_1902_U",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1902_U:0",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1902_U:1",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1902_U:2",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1902_U:3",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1902_U:4",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1902_U:5",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1902_U:6",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1902_U:7",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1902_U:8",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1902_U:9",
+      "passed": true
+    },
+    {
+      "name": "collected_exposure:repeat_1902_U",
+      "passed": true
+    },
+    {
+      "name": "sampled_exposure:repeat_1902_U",
+      "passed": true
+    },
+    {
+      "name": "reset_audit:repeat_1902_U",
+      "passed": true
+    },
+    {
+      "name": "result_recalculation:repeat_1902_U:20000",
+      "passed": true
+    },
+    {
+      "name": "result_recalculation:repeat_1902_U:40000",
+      "passed": true
+    },
+    {
+      "name": "branch_start:repeat_1902_F_DO",
+      "passed": true
+    },
+    {
+      "name": "branch_budget:repeat_1902_F_DO",
+      "passed": true
+    },
+    {
+      "name": "training_episodes:repeat_1902_F_DO",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1902_F_DO:0",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1902_F_DO:1",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1902_F_DO:2",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1902_F_DO:3",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1902_F_DO:4",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1902_F_DO:5",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1902_F_DO:6",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1902_F_DO:7",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1902_F_DO:8",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1902_F_DO:9",
+      "passed": true
+    },
+    {
+      "name": "collected_exposure:repeat_1902_F_DO",
+      "passed": true
+    },
+    {
+      "name": "sampled_exposure:repeat_1902_F_DO",
+      "passed": true
+    },
+    {
+      "name": "reset_audit:repeat_1902_F_DO",
+      "passed": true
+    },
+    {
+      "name": "result_recalculation:repeat_1902_F_DO:20000",
+      "passed": true
+    },
+    {
+      "name": "result_recalculation:repeat_1902_F_DO:40000",
+      "passed": true
+    },
+    {
+      "name": "branch_start:repeat_1902_F_DC",
+      "passed": true
+    },
+    {
+      "name": "branch_budget:repeat_1902_F_DC",
+      "passed": true
+    },
+    {
+      "name": "training_episodes:repeat_1902_F_DC",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1902_F_DC:0",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1902_F_DC:1",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1902_F_DC:2",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1902_F_DC:3",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1902_F_DC:4",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1902_F_DC:5",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1902_F_DC:6",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1902_F_DC:7",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1902_F_DC:8",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1902_F_DC:9",
+      "passed": true
+    },
+    {
+      "name": "collected_exposure:repeat_1902_F_DC",
+      "passed": true
+    },
+    {
+      "name": "sampled_exposure:repeat_1902_F_DC",
+      "passed": true
+    },
+    {
+      "name": "reset_audit:repeat_1902_F_DC",
+      "passed": true
+    },
+    {
+      "name": "result_recalculation:repeat_1902_F_DC:20000",
+      "passed": true
+    },
+    {
+      "name": "result_recalculation:repeat_1902_F_DC:40000",
+      "passed": true
+    },
+    {
+      "name": "branch_start:repeat_1902_F_WO",
+      "passed": true
+    },
+    {
+      "name": "branch_budget:repeat_1902_F_WO",
+      "passed": true
+    },
+    {
+      "name": "training_episodes:repeat_1902_F_WO",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1902_F_WO:0",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1902_F_WO:1",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1902_F_WO:2",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1902_F_WO:3",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1902_F_WO:4",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1902_F_WO:5",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1902_F_WO:6",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1902_F_WO:7",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1902_F_WO:8",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1902_F_WO:9",
+      "passed": true
+    },
+    {
+      "name": "collected_exposure:repeat_1902_F_WO",
+      "passed": true
+    },
+    {
+      "name": "sampled_exposure:repeat_1902_F_WO",
+      "passed": true
+    },
+    {
+      "name": "reset_audit:repeat_1902_F_WO",
+      "passed": true
+    },
+    {
+      "name": "result_recalculation:repeat_1902_F_WO:20000",
+      "passed": true
+    },
+    {
+      "name": "result_recalculation:repeat_1902_F_WO:40000",
+      "passed": true
+    },
+    {
+      "name": "branch_start:repeat_1902_F_WC",
+      "passed": true
+    },
+    {
+      "name": "branch_budget:repeat_1902_F_WC",
+      "passed": true
+    },
+    {
+      "name": "training_episodes:repeat_1902_F_WC",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1902_F_WC:0",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1902_F_WC:1",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1902_F_WC:2",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1902_F_WC:3",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1902_F_WC:4",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1902_F_WC:5",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1902_F_WC:6",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1902_F_WC:7",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1902_F_WC:8",
+      "passed": true
+    },
+    {
+      "name": "block_quota:repeat_1902_F_WC:9",
+      "passed": true
+    },
+    {
+      "name": "collected_exposure:repeat_1902_F_WC",
+      "passed": true
+    },
+    {
+      "name": "sampled_exposure:repeat_1902_F_WC",
+      "passed": true
+    },
+    {
+      "name": "reset_audit:repeat_1902_F_WC",
+      "passed": true
+    },
+    {
+      "name": "result_recalculation:repeat_1902_F_WC:20000",
+      "passed": true
+    },
+    {
+      "name": "result_recalculation:repeat_1902_F_WC:40000",
+      "passed": true
+    },
+    {
+      "name": "distinct_final_models",
+      "passed": true
+    },
+    {
+      "name": "total_training_transitions",
+      "passed": true
+    },
+    {
+      "name": "cost_ledger:environment_creations",
+      "passed": true
+    },
+    {
+      "name": "cost_ledger:resets",
+      "passed": true
+    },
+    {
+      "name": "cost_ledger:environment_steps",
+      "passed": true
+    },
+    {
+      "name": "cost_ledger:train_iterations",
+      "passed": true
+    },
+    {
+      "name": "cost_ledger:evaluation_episodes",
+      "passed": true
+    },
+    {
+      "name": "evaluation_transitions",
+      "passed": true
+    },
+    {
+      "name": "total_environment_transitions",
+      "passed": true
+    },
+    {
+      "name": "training_seconds",
+      "passed": true
+    },
+    {
+      "name": "comparison_cardinality",
+      "passed": true
+    },
+    {
+      "name": "comparison_recalculation:1901:U:20000",
+      "passed": true
+    },
+    {
+      "name": "comparison_recalculation:1901:U:40000",
+      "passed": true
+    },
+    {
+      "name": "comparison_recalculation:1901:F_DO:20000",
+      "passed": true
+    },
+    {
+      "name": "comparison_recalculation:1901:F_DO:40000",
+      "passed": true
+    },
+    {
+      "name": "comparison_recalculation:1901:F_DC:20000",
+      "passed": true
+    },
+    {
+      "name": "comparison_recalculation:1901:F_DC:40000",
+      "passed": true
+    },
+    {
+      "name": "comparison_recalculation:1901:F_WO:20000",
+      "passed": true
+    },
+    {
+      "name": "comparison_recalculation:1901:F_WO:40000",
+      "passed": true
+    },
+    {
+      "name": "comparison_recalculation:1901:F_WC:20000",
+      "passed": true
+    },
+    {
+      "name": "comparison_recalculation:1901:F_WC:40000",
+      "passed": true
+    },
+    {
+      "name": "comparison_recalculation:1902:U:20000",
+      "passed": true
+    },
+    {
+      "name": "comparison_recalculation:1902:U:40000",
+      "passed": true
+    },
+    {
+      "name": "comparison_recalculation:1902:F_DO:20000",
+      "passed": true
+    },
+    {
+      "name": "comparison_recalculation:1902:F_DO:40000",
+      "passed": true
+    },
+    {
+      "name": "comparison_recalculation:1902:F_DC:20000",
+      "passed": true
+    },
+    {
+      "name": "comparison_recalculation:1902:F_DC:40000",
+      "passed": true
+    },
+    {
+      "name": "comparison_recalculation:1902:F_WO:20000",
+      "passed": true
+    },
+    {
+      "name": "comparison_recalculation:1902:F_WO:40000",
+      "passed": true
+    },
+    {
+      "name": "comparison_recalculation:1902:F_WC:20000",
+      "passed": true
+    },
+    {
+      "name": "comparison_recalculation:1902:F_WC:40000",
+      "passed": true
+    },
+    {
+      "name": "selectors_unchanged",
+      "passed": true
+    }
+  ],
+  "checks_passed": 367,
+  "input_hashes": {
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\run_summary.json": "be4f37c86a538a2cc72d9e47f646f40170329810256b87f303006f8945affb07",
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\run_manifest.json": "eb81d4a5d96fac27b6d04f95a0b8937da7c3d450bebc064a9bc42ea392fe1b17",
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\parent_provenance.json": "27ed3bb7875474037e7ea61366d40aa83e8281880612fc2d1e33a7998c3d8e9c",
+    "02_p0_uniform_pretraining_v1\\results\\20261007T060310Z_p0_cuda_50621c50\\run\\checkpoints\\step_000200000\\checkpoint_manifest.json": "ee44ba7fb9a97df0cf5a1de6847d439d58277159386318f62cb06c9b80cd2f63",
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\initial_checkpoint\\checkpoint_manifest.json": "8c9ad724b59dbef545a168d5a0c09d0d1f8bcf15d155b8225cb7868a6440827f",
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\initial_checkpoint\\restore_verification.json": "27f21862c9aa14c4d30b5e54381ed49eec72dcfb12e1c920faff5b49e416f509",
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\branches\\repeat_1901_F_DC\\checkpoints\\extra_020000\\checkpoint_manifest.json": "8caef0a2efe0bbf809b9a153cf5b63f89a8a55e879af82b8d719f2f069931f8c",
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\branches\\repeat_1901_F_DC\\checkpoints\\extra_020000\\restore_verification.json": "34ba51d8331b98505d60b7208b547c5e6d17d35b190c93c8d9f8baec16e28148",
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\branches\\repeat_1901_F_DC\\checkpoints\\extra_040000\\checkpoint_manifest.json": "712ea2641d01d60735d90b8c075e0a17b002e4b32e3dae248c47369b812ac3c2",
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\branches\\repeat_1901_F_DC\\checkpoints\\extra_040000\\restore_verification.json": "e6e7923c54d0a8d2eb6edc13f2f439c155e7b391f2082bdb3f76a96c1d294e86",
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\branches\\repeat_1901_F_DO\\checkpoints\\extra_020000\\checkpoint_manifest.json": "58a832f8a33dd609c35a6b879124d6b9c610c6bc3fcaf315bec7d27d2d913a09",
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\branches\\repeat_1901_F_DO\\checkpoints\\extra_020000\\restore_verification.json": "982e8522057533f006f650a04c688a8e68a25f78e4ab610c4e380ba8b8258d97",
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\branches\\repeat_1901_F_DO\\checkpoints\\extra_040000\\checkpoint_manifest.json": "3594be747c9d7e40e0d0c595ea78e11305ad2ee923924afdec8f79b2ec3746c6",
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\branches\\repeat_1901_F_DO\\checkpoints\\extra_040000\\restore_verification.json": "d1c9f12b53e1e6eabc325f87a274f9b0f58ab4659b061175604d0d395f8144c7",
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\branches\\repeat_1901_F_WC\\checkpoints\\extra_020000\\checkpoint_manifest.json": "c5a050bc8323519c30abd8da460a246b9b3429d853dc2b8f406a1d8fd574bc09",
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\branches\\repeat_1901_F_WC\\checkpoints\\extra_020000\\restore_verification.json": "a266340e0f7d5178378920955c7d6bca03968c453089925966bed5d1e0556d61",
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\branches\\repeat_1901_F_WC\\checkpoints\\extra_040000\\checkpoint_manifest.json": "526f47e91546a22ddbbf2b5de1e2e0fccfc50df24c501913fc8124d1cc00a45b",
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\branches\\repeat_1901_F_WC\\checkpoints\\extra_040000\\restore_verification.json": "95464571b5be18a4c43278913c6c148911dd8108bd1c1849c3e2ca2cd5fb28db",
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\branches\\repeat_1901_F_WO\\checkpoints\\extra_020000\\checkpoint_manifest.json": "705bccb63f59d0d3305eafe51ed478fdc0cdac55ce02a21937c8766d9dc6dfc7",
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\branches\\repeat_1901_F_WO\\checkpoints\\extra_020000\\restore_verification.json": "266790a1974e9da60d063e92fa35e3e52537b376cfe44f58918ab70d1ee34c92",
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\branches\\repeat_1901_F_WO\\checkpoints\\extra_040000\\checkpoint_manifest.json": "24506307545b5dd40bac24035bd30dc494753418539cadba9931757801406adf",
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\branches\\repeat_1901_F_WO\\checkpoints\\extra_040000\\restore_verification.json": "112141ccf0e4ae6f434abde8b16b986189d0aec072f9989a52edd63ebbda12e0",
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\branches\\repeat_1901_U\\checkpoints\\extra_020000\\checkpoint_manifest.json": "8d9a3e82af29caed2becc63dfe5e821bb23a7fa8f39c057402e1e953ba4e2b76",
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\branches\\repeat_1901_U\\checkpoints\\extra_020000\\restore_verification.json": "8900b4c0c463076d4de6fb030de39d80664475d88710d36fa13dcf58e11d6faa",
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\branches\\repeat_1901_U\\checkpoints\\extra_040000\\checkpoint_manifest.json": "ad738a95b0f84a5ffa06189132890e9db71f1356d827e68013856c3ac7cf81c2",
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\branches\\repeat_1901_U\\checkpoints\\extra_040000\\restore_verification.json": "1522dacae700a9ba7337dc881e35d621d44ff7ba5f3c2a9a0c96cc6d4cc39515",
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\branches\\repeat_1902_F_DC\\checkpoints\\extra_020000\\checkpoint_manifest.json": "44a1de73447a15d06cac1c5fa2b5503371db2fcc761562921b6684618c364957",
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\branches\\repeat_1902_F_DC\\checkpoints\\extra_020000\\restore_verification.json": "832ed14878ab054b3923e18908806750a4d92ed42406c2ea23b0840fcbb66ae4",
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\branches\\repeat_1902_F_DC\\checkpoints\\extra_040000\\checkpoint_manifest.json": "cfbc34a138b7322436b1c1d0ccd331977e136f126751422b3d5e4d75f01c582b",
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\branches\\repeat_1902_F_DC\\checkpoints\\extra_040000\\restore_verification.json": "f60cbf281ca1db98129ce2d1b1296c6417044223b453bc4bf2582d26bfddaa91",
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\branches\\repeat_1902_F_DO\\checkpoints\\extra_020000\\checkpoint_manifest.json": "7c2780bcbb474ee234526dfa39767b0bdc7d894f7fd712b1445fb2e7ee9d2210",
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\branches\\repeat_1902_F_DO\\checkpoints\\extra_020000\\restore_verification.json": "5738ee1cd9bbb570b2fad22337afb2980b5e2fc50898e260c4f4cd5286c71999",
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\branches\\repeat_1902_F_DO\\checkpoints\\extra_040000\\checkpoint_manifest.json": "a3d4ab0cfcaa69b236d2d2e418f734dd01d12c6288d9572235f50f650fd6af5d",
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\branches\\repeat_1902_F_DO\\checkpoints\\extra_040000\\restore_verification.json": "8c1079d874bcde8703a047a8883fc1e3cee48f1e15c795d55486e162ffa2d703",
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\branches\\repeat_1902_F_WC\\checkpoints\\extra_020000\\checkpoint_manifest.json": "52a3497d4521dab123306ec6abca05e13ef24bf6e8d178f34f1e2dab9c61251c",
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\branches\\repeat_1902_F_WC\\checkpoints\\extra_020000\\restore_verification.json": "76e3e77894b8d1abd5a7e74dd32579d87ab2fa794e86aa7ba7b9dc14fbacd362",
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\branches\\repeat_1902_F_WC\\checkpoints\\extra_040000\\checkpoint_manifest.json": "ebfc534e04dc00dba094590a457ece3efd6935e82885101d95c06a316ecabf6d",
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\branches\\repeat_1902_F_WC\\checkpoints\\extra_040000\\restore_verification.json": "01ec2bcc5250be86008cd64299f6911252f24d67a3c2610fcbbd97b2f482334e",
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\branches\\repeat_1902_F_WO\\checkpoints\\extra_020000\\checkpoint_manifest.json": "a0e55872e48853b0b63207e905fa446af4d72518db57d37256fed1a6c5585f56",
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\branches\\repeat_1902_F_WO\\checkpoints\\extra_020000\\restore_verification.json": "2076130e5a8f4216b8beb8f8a8f619ef4521acd558de8bbe8a28f644900fd802",
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\branches\\repeat_1902_F_WO\\checkpoints\\extra_040000\\checkpoint_manifest.json": "128b09935d5ed493c6d407cb9da9a17e4b0acb5177dcf7e83c30439358b74b55",
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\branches\\repeat_1902_F_WO\\checkpoints\\extra_040000\\restore_verification.json": "08bafe20eb7a2a778190a953da0fefa764e33cfb81a80ce8e59290bbe7a28445",
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\branches\\repeat_1902_U\\checkpoints\\extra_020000\\checkpoint_manifest.json": "29e74603884f6553208861949ab7128d747f8ed75fa1019d1f3e677917166894",
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\branches\\repeat_1902_U\\checkpoints\\extra_020000\\restore_verification.json": "8e295c985ea2c639fe9519ea77ceb4babb8f3b1aa2d7e76a47411a43d4936029",
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\branches\\repeat_1902_U\\checkpoints\\extra_040000\\checkpoint_manifest.json": "9ac2af14a9cc08f9ece6d13bcc0c34421bd4d2297185c2eb88bbfe1ef396b0c0",
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\branches\\repeat_1902_U\\checkpoints\\extra_040000\\restore_verification.json": "4705237359ced6e4a4dbb292a8a0df9c0c5aaba04343258a72e9da99bc53e7c5",
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\evaluation_episodes.csv": "da2a1653ca5728889b1013cbe7acd24d87da31b4cb085add3bd3f9d77877c19b",
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\evaluation_banks.json": "f357894d157af0cb442f7252d515fe787e5d48223fdc16f97177cc0e6eb832d0",
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\baseline\\evaluation.json": "b9d9459511b8822e409e6238ce65ce6e78ab52ebaa3fc643ed42b464296bd67a",
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\branches\\repeat_1901_U\\branch_summary.json": "fa5bf25e7129690436d93b3d7600a16ed37ee69129ec1fb1d6d56fc4b7750197",
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\branches\\repeat_1901_U\\branch_started.json": "42b38d161996f3174f63ca3cab6fb7c29bb627dca0d1c1cb88c16f0cfc86e757",
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\branches\\repeat_1901_U\\train_episodes.csv": "e6662f5202eaeba23445e06549399742037662b84ed52876c193f871ca4a7d3e",
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\branches\\repeat_1901_U\\training_reset_audit.json": "1acd148939cb13103b4150da391923514d9c65add46756aa4abc0ca2d31d10a9",
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\branches\\repeat_1901_F_DO\\branch_summary.json": "9509265b919ca46a748c73df6bb2e2fc9791e9fa1a2b99ac54abc7e8eccfd47a",
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\branches\\repeat_1901_F_DO\\branch_started.json": "894556e6398a842eedc9df6cf3c37be3f9d44b2b4cbe657dcffa30898b019d36",
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\branches\\repeat_1901_F_DO\\train_episodes.csv": "3d3905e705edb104db2564d787cd72d3077d97e6ace174ce42e11c5187ba7362",
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\branches\\repeat_1901_F_DO\\training_reset_audit.json": "c2215561fe460f106bf94e10b0bc9d22900e52cad32e0c71640a833cbb5e54a7",
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\branches\\repeat_1901_F_DC\\branch_summary.json": "c1067418ae86f6f72b36fd23f66056b7ad189b7ec96fc11cb6e6516a3d547f88",
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\branches\\repeat_1901_F_DC\\branch_started.json": "06de9a40fba6fae4878b797f8bd1ae91f321510937cacc3f2c2b2be5012f6397",
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\branches\\repeat_1901_F_DC\\train_episodes.csv": "1132b37e5c73bf8978181c409d5728f3ab21d1e4bb0a3b8abbe3279d5c0a85dc",
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\branches\\repeat_1901_F_DC\\training_reset_audit.json": "3c4467b39390e0ab47da016c9214705b11868f1c4bf9b0c3f094cc807d8ee88e",
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\branches\\repeat_1901_F_WO\\branch_summary.json": "033b2179ec463ab212f6dc0a747bab72ed907f09c8534426ec7147f10a8a1ab8",
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\branches\\repeat_1901_F_WO\\branch_started.json": "82519bec72a082c69b62dc49e005cd1fc3b3e87fbfee25a81780ccb11f5d2ff6",
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\branches\\repeat_1901_F_WO\\train_episodes.csv": "8b31662402c3cfbc814152179dd27be55a71a1adf7322a3701d9712090cf3639",
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\branches\\repeat_1901_F_WO\\training_reset_audit.json": "4bbc477e83fefcc1200df8b23472df44611c688cfe7550031ce6c95c30f61943",
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\branches\\repeat_1901_F_WC\\branch_summary.json": "377d3c9ab70a2c0ad2ff00a2292b423e8bec3cc0438cde2d9e5d17d56edb9b27",
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\branches\\repeat_1901_F_WC\\branch_started.json": "24992df59b2c7b42a4698da11a126aedb7bffdd83fc6511e95a22f8441273495",
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\branches\\repeat_1901_F_WC\\train_episodes.csv": "cd688be3679b11a7e55b8c646b46ba3b534655ccf29cd763be88ee8764eb067f",
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\branches\\repeat_1901_F_WC\\training_reset_audit.json": "2e05b4b4c4446a1084b709cc94e218c627994df9a5483ccc605a1d9bd51abffb",
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\branches\\repeat_1902_U\\branch_summary.json": "4e2011a508c64423fe3b97a3492ad13f00e81aec8ea1304b5a3e78cf4b085ea7",
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\branches\\repeat_1902_U\\branch_started.json": "506d2026ed3aa08858e34111d522cde86bacf98c4ef3ba404bfdbe3538fb076b",
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\branches\\repeat_1902_U\\train_episodes.csv": "ab70f7ab0a0b6916038edff31a08168170cdf992ddf2662b6ad884fc278a0a48",
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\branches\\repeat_1902_U\\training_reset_audit.json": "facbd2807dc339a99cd42abc248aa6fc6c042c8b37ed1f625aa517a83eeaeb64",
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\branches\\repeat_1902_F_DO\\branch_summary.json": "18532abb8c35c9839288bdb25ab59dbc1d18486cba04a0d16966b5dfd1651da3",
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\branches\\repeat_1902_F_DO\\branch_started.json": "f6a14a04549d669f5bd6432e022d442683a2c6e0c52a13a13f95e8fa0ce11aa6",
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\branches\\repeat_1902_F_DO\\train_episodes.csv": "89b467ef136c6eecad16e2981c3b6a0274cdd730c6625803e49b9853ab1a1401",
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\branches\\repeat_1902_F_DO\\training_reset_audit.json": "0c84f9c24cb17f8512d48ec10997589f32dd9b22ad3642f222a10955fe2fb44f",
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\branches\\repeat_1902_F_DC\\branch_summary.json": "d2f332fae998af35351fae0d36ac6252ba1d12019a5357827ac3f59eae6395ac",
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\branches\\repeat_1902_F_DC\\branch_started.json": "e05e6fbe6f3d6c9f62cb59142afce8d4d854e709b497274b8e5c779286e0e3c9",
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\branches\\repeat_1902_F_DC\\train_episodes.csv": "b62e8b11824db2a9c16491533052ca2974a6e4f99256c9e3b978ab338288e22d",
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\branches\\repeat_1902_F_DC\\training_reset_audit.json": "90f8051032fe204800a110b14c79591ed7609cefba6ac7dc598f1a74a9e625ba",
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\branches\\repeat_1902_F_WO\\branch_summary.json": "0514dd1ea50721dedaa68c051966ba659e8c96c00f2b5b0ff6c8f7934b39109d",
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\branches\\repeat_1902_F_WO\\branch_started.json": "ebe394bdb7e99a22fba4b4c6d7b1b2b67bbd92c0c94f1c9e540ee16889945c9f",
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\branches\\repeat_1902_F_WO\\train_episodes.csv": "0e5b07c6d9f80ec643734bd9bfe0661fc8d3694ec4f90ee552ea42e9c20cb553",
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\branches\\repeat_1902_F_WO\\training_reset_audit.json": "0829b706025a7d0bac43808b81cda9a1389e093bb6112013e258d66e0bc54079",
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\branches\\repeat_1902_F_WC\\branch_summary.json": "de2494600c40a9a33b16882a7f2f4ae4d8d12f6686b452754e2a54336b47e9db",
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\branches\\repeat_1902_F_WC\\branch_started.json": "b7a955dc6517ca82b106b00c977c71d57a3648f90835893f786f7e1a37eb04dd",
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\branches\\repeat_1902_F_WC\\train_episodes.csv": "61d28a0c3afde40cecb8ff9893ae84f5613ff3a751e22fa89a5ecd078b857e28",
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\branches\\repeat_1902_F_WC\\training_reset_audit.json": "0eed1894f94378ab766b7764aa56d75da0af3314546c2eccd77c4f6e069fd17d",
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\cost_ledger.csv": "744771ad121726d91e9206d8dda671069670a42e20351dc4ec76c93640c59041",
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\allocation_comparison.csv": "a58982a058980be7c4f7b3ead500123529031158395103df49347ffc7c33248e",
+    "04_p0_allocation_branches_v1\\results\\20261007T091127Z_allocation_branches_cuda_64ec1ea7\\run\\frozen_selection_rules.json": "7721a397a361221b1c0f829c5d329940e3921b5955c9c3a58ed80a88234a0c3f",
+    "02_p0_uniform_pretraining_v1\\results\\20261007T060310Z_p0_cuda_50621c50\\run\\selected_checkpoint.json": "7721a397a361221b1c0f829c5d329940e3921b5955c9c3a58ed80a88234a0c3f"
+  }
+}

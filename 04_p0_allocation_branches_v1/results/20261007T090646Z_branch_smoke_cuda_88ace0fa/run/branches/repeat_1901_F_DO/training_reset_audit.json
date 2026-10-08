@@ -1,0 +1,103 @@
+{
+  "passed": true,
+  "common_reset_cases_match": true,
+  "no_evaluation_states_used_for_training": true,
+  "episodes": [
+    {
+      "step": "200500",
+      "episode": "401",
+      "task": "DO",
+      "success": "True",
+      "return": "2937.1271944411756",
+      "length": "500",
+      "initial_state_hash": "4c5cc54e06561dc6f23728ecd2eb71040297aacf54750bfa3179f9642cbf4839",
+      "repeat_seed": 1901,
+      "task_visit": 0,
+      "reset_seed": 2072820626
+    },
+    {
+      "step": "201000",
+      "episode": "402",
+      "task": "DO",
+      "success": "False",
+      "return": "972.2298391349705",
+      "length": "500",
+      "initial_state_hash": "5712a8ad9cef437a98ab0ee26f6cacf56638a7864daa1f93b0c9a306bb8ee6c2",
+      "repeat_seed": 1901,
+      "task_visit": 1,
+      "reset_seed": 550472683
+    },
+    {
+      "step": "201500",
+      "episode": "403",
+      "task": "DO",
+      "success": "True",
+      "return": "1408.4566298699344",
+      "length": "500",
+      "initial_state_hash": "a16caac70c19095400e35fc92b2ad644ab6d29aecddc838b9f65025de9f5ff86",
+      "repeat_seed": 1901,
+      "task_visit": 2,
+      "reset_seed": 2319877206
+    },
+    {
+      "step": "202000",
+      "episode": "404",
+      "task": "DO",
+      "success": "True",
+      "return": "2630.7766383732906",
+      "length": "500",
+      "initial_state_hash": "3bfb69eb58752f6f5a42858d24d7ce10871bce7f4d002893eb96b6a3209f2836",
+      "repeat_seed": 1901,
+      "task_visit": 3,
+      "reset_seed": 3906706996
+    },
+    {
+      "step": "202500",
+      "episode": "405",
+      "task": "DO",
+      "success": "False",
+      "return": "2563.87894132124",
+      "length": "500",
+      "initial_state_hash": "609edf9f6ddf37e0edf87f5e3e5b834729df740983df5a6ce5d4bea072ab0d6f",
+      "repeat_seed": 1901,
+      "task_visit": 4,
+      "reset_seed": 2248850163
+    },
+    {
+      "step": "203000",
+      "episode": "406",
+      "task": "WO",
+      "success": "False",
+      "return": "254.17188534655847",
+      "length": "500",
+      "initial_state_hash": "97a1a41171a0cf73943d40d90bf548111673028387b41706854292a2ced95977",
+      "repeat_seed": 1901,
+      "task_visit": 0,
+      "reset_seed": 2765925113
+    },
+    {
+      "step": "203500",
+      "episode": "407",
+      "task": "WC",
+      "success": "True",
+      "return": "2165.1530309928326",
+      "length": "500",
+      "initial_state_hash": "2ef77f1e614bf133742b3c9b1c93d17052ffc094fd3002a1fc412eb1623e2aef",
+      "repeat_seed": 1901,
+      "task_visit": 0,
+      "reset_seed": 2082236615
+    },
+    {
+      "step": "204000",
+      "episode": "408",
+      "task": "DC",
+      "success": "True",
+      "return": "4835.104773879051",
+      "length": "500",
+      "initial_state_hash": "68706550c445c90193801f268c29069622813fe2f05d613153860086748553bd",
+      "repeat_seed": 1901,
+      "task_visit": 0,
+      "reset_seed": 2895423460
+    }
+  ]
+}

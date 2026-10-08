@@ -1,0 +1,13 @@
+{
+  "stage": "train_repeat_1901_F_DC_004000",
+  "started_at": "2026-10-07T09:08:07.635034+00:00",
+  "passed": true,
+  "seconds": 31.752774300053716,
+  "costs": {
+    "environment_creations": 8,
+    "resets": 8,
+    "environment_steps": 4000,
+    "train_iterations": 4000,
+    "evaluation_episodes": 0
+  }
+}

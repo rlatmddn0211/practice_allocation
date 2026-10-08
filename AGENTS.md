@@ -13,3 +13,7 @@
   and failed checks. A smoke test is not evidence of a scientific effect.
 - The user authorized P0 uniform pretraining on 2026-10-07 after implementation
   validation. Keep the ten research branches as a separate execution stage.
+- The user explicitly authorized the ten research branches on 2026-10-07.
+  Run them in an independent version from the fixed P0 seed-901 200k checkpoint:
+  five allocations, two continuation seeds, 40k additional steps each.
+  New pretraining conditions and additional original seeds remain separate stages.

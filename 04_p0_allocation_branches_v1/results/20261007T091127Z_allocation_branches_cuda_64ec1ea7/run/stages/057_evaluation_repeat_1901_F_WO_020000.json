@@ -1,0 +1,13 @@
+{
+  "stage": "evaluation_repeat_1901_F_WO_020000",
+  "started_at": "2026-10-07T09:40:12.457734+00:00",
+  "passed": true,
+  "seconds": 59.80358249973506,
+  "costs": {
+    "environment_creations": 200,
+    "resets": 200,
+    "environment_steps": 61186,
+    "train_iterations": 0,
+    "evaluation_episodes": 200
+  }
+}

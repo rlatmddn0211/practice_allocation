@@ -1,0 +1,39 @@
+{
+  "created_at": "2026-10-07T09:09:18.995934+00:00",
+  "candidate": "F_WC",
+  "repeat_seed": 1901,
+  "original_seed": 901,
+  "parent_step": 200000,
+  "before_fingerprints": {
+    "learning": "923de0b055ae01ca4b20c6c4d4d45329015b1c90c28627600046a482889bcdbe",
+    "replay": "936fec2df78346bc3ade55ee699a056d8ebe4a77fcb21bc7412e93b631faff89",
+    "collector": "1eb0f0883f0c06f9f857f238b693d97e7289487a3a354b8ee7a1ac2716998ee1",
+    "rng": "eac8d0b951aeb81709008f88113a5dd84d4e5ed0ae8becc6da86cbd7b04e53f7"
+  },
+  "after_fingerprints": {
+    "learning": "923de0b055ae01ca4b20c6c4d4d45329015b1c90c28627600046a482889bcdbe",
+    "replay": "d3e8e51dc59e2b19f96700e1eb8adbce0a1594a17cf577ed3b0d4c6ae9d909e3",
+    "collector": "7b44e15f39146df6df1d35861a1b5b34bc668decc4b4bd83ac5e7f82f9cc6ece",
+    "rng": "397ade78b7642bb419cb5c9fa7cee784ea95f3d5b0543469b5a72b3d47ee2a73"
+  },
+  "learned_state_and_replay_history_preserved": true,
+  "changed": [
+    "continuation learning RNG",
+    "task schedule/reset streams",
+    "replay branch-age marker"
+  ],
+  "baseline_reference": "../../baseline/evaluation.json",
+  "config_hash": "72f14591de5cee4e8c2c612417c1551ee81bb11e9bc4bcdb397a1bd9412d9a97",
+  "collected_baseline": [
+    50000,
+    50000,
+    50000,
+    50000
+  ],
+  "sampled_baseline": [
+    12704433,
+    12799257,
+    12823067,
+    12617243
+  ]
+}

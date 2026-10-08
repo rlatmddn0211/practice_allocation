@@ -1,0 +1,28 @@
+{
+  "stage": "p0_allocation_branches",
+  "candidates": [
+    "U",
+    "F_DO",
+    "F_DC",
+    "F_WO",
+    "F_WC"
+  ],
+  "repeat_seeds": [
+    1901,
+    1902
+  ],
+  "parent_step": 200000,
+  "steps_per_branch": 40000,
+  "evaluation_steps": [
+    20000,
+    40000
+  ],
+  "bank": "outcome",
+  "episodes_per_task": 50,
+  "block_steps": 4000,
+  "branch_count": 10,
+  "total_additional_training_steps": 400000,
+  "baseline_evaluated_once_and_shared": true,
+  "primary_horizon": 40000,
+  "candidate_order": "repeat first, then U/F_DO/F_DC/F_WO/F_WC"
+}
