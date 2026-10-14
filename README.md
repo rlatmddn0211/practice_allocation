@@ -22,6 +22,13 @@
 | [11_fixed_target_donor_swap_v1](11_fixed_target_donor_swap_v1/README.md) | E2 목표 과제 수집량 고정 | E1 200k 재사용, DC/WO 배분 교환, 27분기·1.08M 학습 |
 | [12_task_composition_study_v1](12_task_composition_study_v1/README.md) | E3 과제 구성 변경 | B·C 조합 각각 3개 원래 seed, 90분기·4.80M 학습 |
 | [13_e0_e3_autonomous_queue_v1](13_e0_e3_autonomous_queue_v1/README.md) | 승인된 E0→E1→E2→E3 자동 실행 | 총 10.68M 학습·207분기·194,400 평가, 20k 저장과 무인 재시작 |
+| [14_power_interruption_audit_v1](14_power_interruption_audit_v1/) | 전원 중단 시점과 보존 자료 감사 | 원래 자료를 바꾸지 않는 실행 이력 점검 |
+| [15_verified_power_loss_recovery_v1](15_verified_power_loss_recovery_v1/) | 검증한 checkpoint에서 실행 복구 | 중단 시도 보존과 독립 복구 검사 |
+| [16_e0_e2_results_analysis_v1](16_e0_e2_results_analysis_v1/) | 완료 E0–E2의 원자료 재계산 | 259개 분기 평가 행과 공개 규칙·donor 비교 |
+| [17_e0_e2_detailed_research_report_v1](17_e0_e2_detailed_research_report_v1/README.md) | E0–E2 상세 연구 보고서 | 과제별 손익·seed 변동·horizon·선택 규칙·비용 |
+| [18_practice_allocation_literature_review_v1](18_practice_allocation_literature_review_v1/README.md) | 기존 연구와 정밀 비교 | 핵심 12편과 인접 6편, 차별화 후보와 한계 |
+| [19_budgeted_practice_research_feasibility_v1](19_budgeted_practice_research_feasibility_v1/README.md) | 국소 신호와 최종 성능 예측의 연구 가능성 | 기존 E1 재분석·단순 보정의 실패·비용 포함 검증안; 새 RL 실행 없음 |
+| [20_e0_e2_github_publication_v1](20_e0_e2_github_publication_v1/README.md) | E0–E2 원자료와 전체 checkpoint 보관 | 112,800 평가 행, 18,123 원본 파일, 참조된 전체 checkpoint 323개 |
 
 완료한 구현은 보존합니다. 각 단계는
 목적이 드러나는 새 폴더에 독립된 코드와
@@ -35,6 +42,14 @@
 Release의 `00`~`04` ZIP 다섯 개를 같은 디렉터리에 풀면 원래 폴더 구조가 복원됩니다.
 가상환경과 Python 캐시, Git 내부 파일, 실행 잠금 파일은 제외합니다.
 원본 파일과 ZIP의 hash 목록은 [보관 manifest](05_results_github_archive_v1/results/20261008T023322Z_complete_archive_6169480e/archive_manifest.json)에 있습니다.
+
+E0–E2 완료 결과의 별도 보관은 [20번 출판 안내](20_e0_e2_github_publication_v1/README.md)와
+[E0–E2 Release](https://github.com/rlatmddn0211/practice_allocation/releases/tag/e0-e2-results-2026-10-13-v1)에 정리합니다.
+09–11의 원시 평가·학습 로그·소스 사본·모델·replay와 E0가 실제 평가한 과거 부모 checkpoint를 포함합니다.
+완료 학습은 총 5.88M step, 평가는 112,800 episode입니다. 독립 원래 seed를 사용한 E1에서
+DC 집중의 Uniform 대비 평균 차이는 +0.39%p였고, E2의 DO donor contrast는 −0.78%p였습니다.
+특정 donor의 보편적 우월성이나 비용을 포함한 적응형 배분기의 성공을 입증한 결과가 아닙니다.
+현재 근거와 후속 연구 기준은 [19번 연구 설계](19_budgeted_practice_research_feasibility_v1/research_plan_ko.md)에 있습니다.
 
 사용자가 2026-10-07에 승인한 P0 사전학습은 같은 날 15:59:45 KST에 완료했습니다.
 400k 공개 진단은 DO 5%, DC 100%, WO 40%, WC 100%로 과제당 20개 초기 상태에서

@@ -1,0 +1,15 @@
+{
+  "version": "15_verified_power_loss_recovery_v1",
+  "created_on": "2026-10-12",
+  "purpose": "Verified recovery of the interrupted E3 C-suite seed-11 140k-to-160k job",
+  "campaign": "20261008T081301Z_e03_b26922",
+  "frozen_experiment_implementation": "12_task_composition_study_v1",
+  "frozen_queue_implementation": "13_e0_e3_autonomous_queue_v1",
+  "scientific_protocol_changed": false,
+  "scripts": {
+    "recover.py": "One-time guarded status recovery; preserves all completed outputs and the interrupted attempt",
+    "verify_resumption.py": "Verifies the completed retry and compares its logged trajectory with the interrupted prefix"
+  },
+  "cost_note": "The interrupted attempt logged at least 9000 steps beyond the last checkpoint; up to 11000 further steps may be unrecorded. These costs are separate from the frozen scientific budget.",
+  "root_cause_limit": "The earlier JSONDecodeError did not identify a file. Recovery verifies preserved files and does not claim to fix an identified parser defect."
+}

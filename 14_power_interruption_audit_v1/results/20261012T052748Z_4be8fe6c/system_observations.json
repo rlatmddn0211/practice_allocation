@@ -1,0 +1,36 @@
+{
+    "observed_at":  "2026-10-12T14:36:23.5272140+09:00",
+    "last_boot":  "2026-10-12T14:19:32.5000000+09:00",
+    "processes":  [
+
+                  ],
+    "scheduler":  {
+                      "name":  "PracticeAllocation_E0_E3_20261008T081301Z_e03_b26922",
+                      "state":  "Ready",
+                      "last_run":  "2026-10-12T14:33:33.0000000+09:00",
+                      "last_result":  0,
+                      "next_run":  "2026-10-12T14:38:38.0000000+09:00",
+                      "execute":  "C:\\Users\\SS\\Projects\\robot_practice_allocation\\13_e0_e3_autonomous_queue_v1\\.venv\\Scripts\\pythonw.exe",
+                      "arguments":  "\"C:\\Users\\SS\\Projects\\robot_practice_allocation\\13_e0_e3_autonomous_queue_v1\\campaign.py\" run --campaign \"D:\\robot_practice_allocation_runs\\13_e0_e3_autonomous_queue_v1\\results\\20261008T081301Z_e03_b26922\""
+                  },
+    "power_events":  [
+                         {
+                             "time":  "2026-10-12T14:19:37.8002748+09:00",
+                             "id":  41,
+                             "provider":  "Microsoft-Windows-Kernel-Power",
+                             "message":  "The system has rebooted without cleanly shutting down first. This error could be caused if the system stopped responding, crashed, or lost power unexpectedly."
+                         },
+                         {
+                             "time":  "2026-10-12T14:19:44.3408690+09:00",
+                             "id":  6005,
+                             "provider":  "EventLog",
+                             "message":  "The Event log service was started."
+                         },
+                         {
+                             "time":  "2026-10-12T14:19:44.3405478+09:00",
+                             "id":  6008,
+                             "provider":  "EventLog",
+                             "message":  "The previous system shutdown at 오후 5:01:38 on ‎2026-‎10-‎10 was unexpected."
+                         }
+                     ]
+}

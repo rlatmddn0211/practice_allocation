@@ -1,0 +1,169 @@
+{
+  "status": "verified",
+  "analysis_type": "post_hoc_exploratory_no_new_RL",
+  "independent_original_seeds": 3,
+  "nested_starting_states": 6,
+  "tie_priority": [
+    "U",
+    "F_DO",
+    "F_DC",
+    "F_WO",
+    "F_WC"
+  ],
+  "contexts": [
+    {
+      "original_seed": 11,
+      "checkpoint_step": 200000,
+      "spearman_20_to_40": -0.3,
+      "best_20k": "F_WC",
+      "best_40k": "U",
+      "same_best": false,
+      "selected_at_20k_gain_at_40k_pp": -11.916666666666666,
+      "best_observed_40k_gain_pp": 0.0,
+      "descriptive_selection_gap_pp": 11.916666666666666
+    },
+    {
+      "original_seed": 11,
+      "checkpoint_step": 400000,
+      "spearman_20_to_40": -0.3,
+      "best_20k": "U",
+      "best_40k": "F_WO",
+      "same_best": false,
+      "selected_at_20k_gain_at_40k_pp": 0.0,
+      "best_observed_40k_gain_pp": 6.25,
+      "descriptive_selection_gap_pp": 6.25
+    },
+    {
+      "original_seed": 12,
+      "checkpoint_step": 200000,
+      "spearman_20_to_40": 0.4,
+      "best_20k": "F_WO",
+      "best_40k": "F_WO",
+      "same_best": true,
+      "selected_at_20k_gain_at_40k_pp": 2.6666666666666665,
+      "best_observed_40k_gain_pp": 2.6666666666666665,
+      "descriptive_selection_gap_pp": 0.0
+    },
+    {
+      "original_seed": 12,
+      "checkpoint_step": 400000,
+      "spearman_20_to_40": -0.1,
+      "best_20k": "U",
+      "best_40k": "F_DC",
+      "same_best": false,
+      "selected_at_20k_gain_at_40k_pp": 0.0,
+      "best_observed_40k_gain_pp": 3.3333333333333335,
+      "descriptive_selection_gap_pp": 3.3333333333333335
+    },
+    {
+      "original_seed": 13,
+      "checkpoint_step": 200000,
+      "spearman_20_to_40": 0.7,
+      "best_20k": "F_DO",
+      "best_40k": "F_DO",
+      "same_best": true,
+      "selected_at_20k_gain_at_40k_pp": 12.083333333333334,
+      "best_observed_40k_gain_pp": 12.083333333333334,
+      "descriptive_selection_gap_pp": 0.0
+    },
+    {
+      "original_seed": 13,
+      "checkpoint_step": 400000,
+      "spearman_20_to_40": 0.3,
+      "best_20k": "F_WC",
+      "best_40k": "F_WO",
+      "same_best": false,
+      "selected_at_20k_gain_at_40k_pp": 1.4166666666666667,
+      "best_observed_40k_gain_pp": 5.666666666666667,
+      "descriptive_selection_gap_pp": 4.25
+    }
+  ],
+  "rank_reversals": {
+    "all_pairs": 60,
+    "non_tied_pairs": 60,
+    "non_tied_reversals": 26,
+    "pairs_with_both_absolute_differences_over_2pp": 32,
+    "reversals_with_both_absolute_differences_over_2pp": 17
+  },
+  "same_winner_contexts": 2,
+  "own_positive_macro_negative_context_allocations": 4,
+  "selection_rules": [
+    {
+      "rule": "Uniform",
+      "mean_vs_U_pp": 0.0,
+      "positive_decisions": 0,
+      "decisions": 18,
+      "seed_11_pp": 0.0,
+      "seed_12_pp": 0.0,
+      "seed_13_pp": 0.0
+    },
+    {
+      "rule": "long_40k_macro_reference",
+      "mean_vs_U_pp": 3.5694444444444446,
+      "positive_decisions": 11,
+      "decisions": 18,
+      "seed_11_pp": 1.0833333333333333,
+      "seed_12_pp": 0.75,
+      "seed_13_pp": 8.875
+    },
+    {
+      "rule": "other_seed_checkpoint_fixed",
+      "mean_vs_U_pp": -1.4583333333333333,
+      "positive_decisions": 6,
+      "decisions": 18,
+      "seed_11_pp": -4.291666666666667,
+      "seed_12_pp": -2.9166666666666665,
+      "seed_13_pp": 2.8333333333333335
+    },
+    {
+      "rule": "short_20k_macro",
+      "mean_vs_U_pp": -1.6944444444444444,
+      "positive_decisions": 4,
+      "decisions": 18,
+      "seed_11_pp": -7.458333333333333,
+      "seed_12_pp": -1.5,
+      "seed_13_pp": 3.875
+    },
+    {
+      "rule": "short_20k_own_task_only",
+      "mean_vs_U_pp": -0.1388888888888889,
+      "positive_decisions": 6,
+      "decisions": 18,
+      "seed_11_pp": -5.958333333333333,
+      "seed_12_pp": 1.4166666666666667,
+      "seed_13_pp": 4.125
+    },
+    {
+      "rule": "short_20k_plus_other_seed_drift",
+      "mean_vs_U_pp": -2.0416666666666665,
+      "positive_decisions": 6,
+      "decisions": 18,
+      "seed_11_pp": -6.958333333333333,
+      "seed_12_pp": -2.0833333333333335,
+      "seed_13_pp": 2.9166666666666665
+    }
+  ],
+  "public_evaluation_cost": {
+    "min_steps": 65294,
+    "max_steps": 115666,
+    "mean_steps": 90207
+  },
+  "cost_caveat": "Selection rules use outcomes retrospectively on the same evaluation bank. Probe training, measurement and offline calibration costs are NOT charged. They are not deployment results.",
+  "short_probe_cost_per_state": {
+    "one_repeat_five_allocations_steps": 100000,
+    "two_repeats_five_allocations_steps": 200000
+  },
+  "limits": [
+    "No cheap 0.5k-4k response checkpoints in these data.",
+    "No switching-policy outcome can be synthesized from static branches.",
+    "Continuation holdout does not hold out the evaluation cases or original state.",
+    "All hypotheses are post hoc; no confirmatory p-values.",
+    "A public measurement already present before the decision can be a common sunk input; a fresh measurement must be charged."
+  ],
+  "training_steps_run": 0,
+  "evaluation_episodes_run": 0,
+  "wall_seconds": 0.015473999999812804,
+  "python": "3.12.0",
+  "dependencies": "Python standard library only",
+  "source_sha256": "98c2024ba7db12c586684fed849c64921075fa02822a1850b305738c8ee0c560"
+}

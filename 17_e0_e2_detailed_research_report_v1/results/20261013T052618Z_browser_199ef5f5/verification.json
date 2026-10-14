@@ -1,0 +1,33 @@
+{
+  "started_at": "2026-10-13T05:26:18.021Z",
+  "url": "http://127.0.0.1:8717/",
+  "node": "v24.18.0",
+  "status": "failed",
+  "checks": [
+    {
+      "name": "browser_started",
+      "passed": true
+    }
+  ],
+  "exceptions": [],
+  "screenshots": [],
+  "source_sha256": "d76a246bfc53a17bd81ac918478c5b034905987bb3d2d193d14b15f1672bff5e",
+  "build": {
+    "version": 1,
+    "kind": "separate-data-v1",
+    "html": {
+      "path": "index.html",
+      "sha256": "11896b9fdb7b8c62eb2a99626a681cd2cd5ff1bc387b9eb24384b4b96bee47e0",
+      "bytes": 2875113
+    },
+    "snapshot": {
+      "path": "snapshot.17f336a40ea3aeb0ab440ede99af95009f613a5111db7148d28039ec3ee4dc9e.json",
+      "sha256": "17f336a40ea3aeb0ab440ede99af95009f613a5111db7148d28039ec3ee4dc9e",
+      "bytes": 279445
+    },
+    "runtimeSha256": "9e3ede84b28aded3c7379b6e6a5611f0d95b9977eb0f781e279ceefabfcbd27e",
+    "sourceSnapshotSha256": "17f336a40ea3aeb0ab440ede99af95009f613a5111db7148d28039ec3ee4dc9e"
+  },
+  "error": "Error: Runtime.enable timeout\n    at Timeout._onTimeout (file:///C:/Users/SS/Projects/robot_practice_allocation/17_e0_e2_detailed_research_report_v1/verify_report.mjs:36:128)\n    at listOnTimeout (node:internal/timers:605:17)\n    at process.processTimers (node:internal/timers:541:7)",
+  "finished_at": "2026-10-13T05:26:48.542Z"
+}

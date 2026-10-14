@@ -1,0 +1,118 @@
+{
+  "passed": true,
+  "claims": [
+    {
+      "claim": "E0 primary",
+      "actual": 7.916666666666671,
+      "reported": 7.92
+    },
+    {
+      "claim": "E1 primary",
+      "actual": 0.38888888888888573,
+      "reported": 0.39
+    },
+    {
+      "claim": "E2 primary",
+      "actual": -0.7777777777777779,
+      "reported": -0.78
+    },
+    {
+      "claim": "E1 F_DO",
+      "actual": -3.4722222222222223,
+      "reported": -3.47
+    },
+    {
+      "claim": "E1 F_DC",
+      "actual": 0.388888888888889,
+      "reported": 0.39
+    },
+    {
+      "claim": "E1 F_WO",
+      "actual": 1.4583333333333335,
+      "reported": 1.46
+    },
+    {
+      "claim": "E1 F_WC",
+      "actual": -3.1805555555555554,
+      "reported": -3.18
+    },
+    {
+      "claim": "WO checkpoint interaction 11",
+      "actual": 19.75,
+      "reported": 19.75
+    },
+    {
+      "claim": "WO checkpoint interaction 12",
+      "actual": -1.75,
+      "reported": -1.75
+    },
+    {
+      "claim": "WO checkpoint interaction 13",
+      "actual": -1.083333333333333,
+      "reported": -1.08
+    },
+    {
+      "claim": "DC task contribution DO",
+      "actual": 6.111111111111111,
+      "reported": 6.11
+    },
+    {
+      "claim": "DC task contribution DC",
+      "actual": 0.8333333333333334,
+      "reported": 0.83
+    },
+    {
+      "claim": "DC task contribution WO",
+      "actual": -2.111111111111111,
+      "reported": -2.11
+    },
+    {
+      "claim": "DC task contribution WC",
+      "actual": -3.2777777777777777,
+      "reported": -3.28
+    },
+    {
+      "claim": "E1 rule Failure",
+      "actual": -3.875,
+      "reported": -3.88
+    },
+    {
+      "claim": "E1 rule Progress",
+      "actual": -2.430555555555556,
+      "reported": -2.43
+    },
+    {
+      "claim": "E1 rule cross_repeat_diagnostic",
+      "actual": 3.5694444444444446,
+      "reported": 3.57
+    },
+    {
+      "claim": "E2 parent DO",
+      "actual": 7.666666666666667,
+      "reported": 7.67
+    },
+    {
+      "claim": "E2 WO+ macro advantage",
+      "actual": 2.388888888888889,
+      "reported": 2.39
+    },
+    {
+      "claim": "E2 DC+ macro advantage",
+      "actual": -1.722222222222222,
+      "reported": -1.72
+    },
+    {
+      "claim": "E2 WC exchange effect",
+      "actual": 10.0,
+      "reported": 10
+    }
+  ],
+  "source_sha256": "ab3dbd3ff7f077be0843d9d94c2abc2ad54a0b5a9e93d14f1f4a58f2b9bb02ff",
+  "analysis_sha256": "fa048ea1150b143303437ca63bd6d4b22add8c7772459439a24ade03e75c4b67",
+  "snapshot_sha256": "2ab90102bd1335d4550f3ae56d5fcf7019c2084ac9e686bd76d4de5be76ee930",
+  "analysis_result": "results/20261013T052346Z_7e2f6a68",
+  "new_training_steps": 0,
+  "new_evaluation_episodes": 0,
+  "python": "3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)]",
+  "wall_seconds": 0.016547999999602325
+}

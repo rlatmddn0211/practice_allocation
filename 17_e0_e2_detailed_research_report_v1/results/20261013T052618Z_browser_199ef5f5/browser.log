@@ -1,0 +1,14 @@
+[2028:21440:1013/142618.335:ERROR:net\base\network_change_notifier_win.cc:224] WSALookupServiceBegin failed with: -1
+[2028:3432:1013/142618.361:ERROR:chrome\installer\util\google_update_settings_win.cc:270] Failed opening key Software\Google\Update\ClientStateMedium\{8A69D345-D564-463c-AFF1-A69D9E530F96} to set usagestats; result: 5
+
+DevTools listening on ws://127.0.0.1:2539/devtools/browser/672ad179-ada2-446a-b023-b9377e7f480d
+[2028:21440:1013/142618.484:ERROR:content\browser\gpu\gpu_process_host.cc:1130] GPU process exited unexpectedly: exit_code=-1073741790
+[2028:3432:1013/142618.484:ERROR:components\viz\host\persistent_cache_sandboxed_file_factory.cc:153] Failed to open persistent cache files in directory "C:\Users\SS\Projects\robot_practice_allocation\17_e0_e2_detailed_research_report_v1\results\20261013T052618Z_browser_199ef5f5\profile\GPUPersistentCache\DawnGraphiteCache\H6POMLZSBZPTMTLBCTMXRDH27BAKUDTA", error: 0: 다른 프로세스가 파일을 사용 중이기 때문에 프로세스가 액세스 할 수 없습니다. (0x20)
+[2028:21440:1013/142618.527:ERROR:content\browser\gpu\gpu_process_host.cc:1130] GPU process exited unexpectedly: exit_code=-1073741790
+[2028:21440:1013/142618.535:ERROR:content\browser\gpu\gpu_process_host.cc:1130] GPU process exited unexpectedly: exit_code=-1073741790
+[2028:21572:1013/142618.535:ERROR:components\viz\host\persistent_cache_sandboxed_file_factory.cc:153] Failed to open persistent cache files in directory "C:\Users\SS\Projects\robot_practice_allocation\17_e0_e2_detailed_research_report_v1\results\20261013T052618Z_browser_199ef5f5\profile\GPUPersistentCache\DawnGraphiteCache\H6POMLZSBZPTMTLBCTMXRDH27BAKUDTA", error: 0: 다른 프로세스가 파일을 사용 중이기 때문에 프로세스가 액세스 할 수 없습니다. (0x20)
+[2028:21440:1013/142618.539:ERROR:content\browser\gpu\gpu_process_host.cc:1130] GPU process exited unexpectedly: exit_code=-1073741790
+[2028:21440:1013/142618.544:ERROR:content\browser\gpu\gpu_process_host.cc:1130] GPU process exited unexpectedly: exit_code=-1073741790
+[2028:27712:1013/142618.544:ERROR:components\viz\host\persistent_cache_sandboxed_file_factory.cc:153] Failed to open persistent cache files in directory "C:\Users\SS\Projects\robot_practice_allocation\17_e0_e2_detailed_research_report_v1\results\20261013T052618Z_browser_199ef5f5\profile\GPUPersistentCache\DawnGraphiteCache\H6POMLZSBZPTMTLBCTMXRDH27BAKUDTA", error: 0: 다른 프로세스가 파일을 사용 중이기 때문에 프로세스가 액세스 할 수 없습니다. (0x20)
+[2028:21440:1013/142618.548:ERROR:content\browser\gpu\gpu_process_host.cc:1130] GPU process exited unexpectedly: exit_code=-1073741790
+[2028:21440:1013/142618.548:FATAL:content\browser\gpu\gpu_data_manager_impl_private.cc:417] GPU process isn't usable. Goodbye.

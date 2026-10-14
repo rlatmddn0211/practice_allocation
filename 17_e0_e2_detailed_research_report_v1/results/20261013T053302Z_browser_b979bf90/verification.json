@@ -1,0 +1,825 @@
+{
+  "started_at": "2026-10-13T05:33:02.342Z",
+  "url": "http://127.0.0.1:8717/",
+  "node": "v24.18.0",
+  "status": "passed",
+  "checks": [
+    {
+      "name": "browser_started",
+      "passed": true
+    },
+    {
+      "name": "report_mounted",
+      "passed": true
+    },
+    {
+      "name": "all_24_authored_components",
+      "passed": true,
+      "details": [
+        {
+          "id": "main-finding",
+          "characters": 409
+        },
+        {
+          "id": "primary-table",
+          "characters": 232
+        },
+        {
+          "id": "design",
+          "characters": 902
+        },
+        {
+          "id": "e0-finding",
+          "characters": 824
+        },
+        {
+          "id": "e0-results",
+          "characters": 323
+        },
+        {
+          "id": "baseline-finding",
+          "characters": 462
+        },
+        {
+          "id": "baseline-table",
+          "characters": 349
+        },
+        {
+          "id": "e1-primary-finding",
+          "characters": 474
+        },
+        {
+          "id": "e1-mean-seeds",
+          "characters": 285
+        },
+        {
+          "id": "context-finding",
+          "characters": 601
+        },
+        {
+          "id": "context-table",
+          "characters": 374
+        },
+        {
+          "id": "task-finding",
+          "characters": 661
+        },
+        {
+          "id": "task-tradeoffs",
+          "characters": 90
+        },
+        {
+          "id": "task-absolute-table",
+          "characters": 268
+        },
+        {
+          "id": "budget-finding",
+          "characters": 426
+        },
+        {
+          "id": "budget-chart",
+          "characters": 85
+        },
+        {
+          "id": "selector-finding",
+          "characters": 883
+        },
+        {
+          "id": "rules-table",
+          "characters": 407
+        },
+        {
+          "id": "e2-finding",
+          "characters": 878
+        },
+        {
+          "id": "e2-absolute-table",
+          "characters": 234
+        },
+        {
+          "id": "e2-seed-chart",
+          "characters": 79
+        },
+        {
+          "id": "research-judgment",
+          "characters": 664
+        },
+        {
+          "id": "uncertainty",
+          "characters": 791
+        },
+        {
+          "id": "cost-table",
+          "characters": 147
+        }
+      ]
+    },
+    {
+      "name": "no_fixture_or_encoding_markers",
+      "passed": true,
+      "details": {
+        "fixture": false,
+        "replacement": false,
+        "raw_markdown": null
+      }
+    },
+    {
+      "name": "e0-results_values",
+      "passed": true,
+      "details": "E0 확인용 반복 3개 · 최종 성공률과 U 대비 차이\nE0 확인용 반복 3개 · 최종 성공률과 U 대비 차이\n배분\tMacro (%)\tU 대비 (%p)\tDO (%)\tDC (%)\tWO (%)\tWC (%)\nUniform\t49.42\t0.00\t9.00\t100.00\t3.00\t85.67\nDO 집중\t50.17\t+0.75\t13.33\t100.00\t2.33\t85.00\nDC 집중\t57.33\t+7.92\t27.33\t100.00\t7.33\t94.67\nWO 집중\t56.92\t+7.50\t29.67\t100.00\t3.33\t94.67\nWC 집중\t54.75\t+5.33\t16.33\t100.00\t2.67\t100.00"
+    },
+    {
+      "name": "e1-mean-seeds_values",
+      "passed": true,
+      "details": "E1 +40k · 평균과 원래 seed별 U 대비 차이\nE1 +40k · 평균과 원래 seed별 U 대비 차이\n배분\tMacro (%)\t평균 (%p)\tseed 11\tseed 12\tseed 13\nUniform\t66.51\t0.00\t0.00\t0.00\t0.00\nDO 집중\t63.04\t-3.47\t-13.71\t-0.29\t+3.58\nDC 집중\t66.90\t+0.39\t-1.92\t-1.71\t+4.79\nWO 집중\t67.97\t+1.46\t-3.63\t+1.79\t+6.21\nWC 집중\t63.33\t-3.18\t-8.08\t-1.75\t+0.29"
+    },
+    {
+      "name": "e2-absolute-table_values",
+      "passed": true,
+      "details": "E2 +40k · 최종 성공률과 U 대비 차이\nE2 +40k · 최종 성공률과 U 대비 차이\n배분\tMacro (%)\tU 대비 (%p)\tDO (%)\tDC (%)\tWO (%)\tWC (%)\nUniform\t62.69\t0.00\t0.67\t99.11\t71.00\t80.00\nDC+ / WO−\t60.97\t-1.72\t4.11\t99.11\t64.89\t75.78\nDC− / WO+\t65.08\t+2.39\t4.89\t98.22\t71.44\t85.78"
+    },
+    {
+      "name": "rules-table_values",
+      "passed": true,
+      "details": "E1 선택 규칙 · Uniform 대비 macro 차이 (%p)\nE1 선택 규칙 · Uniform 대비 macro 차이 (%p)\n규칙\t+20k\t+40k\t40k seed 11\t40k seed 12\t40k seed 13\n실패율 기준\t-4.19\t-3.88\t-12.25\t-0.29\t+0.92\nDC 고정\t-3.04\t+0.39\t-1.92\t-1.71\t+4.79\n다른 seed로 고른 고정 배분\t-1.06\t-1.78\t-3.63\t-1.71\t0.00\n다른 seed로 고른 시점별 배분\t-3.68\t-1.46\t-4.29\t-2.92\t+2.83\n최근 진전 기준\t-3.88\t-2.43\t-8.88\t-0.83\t+2.42\nUniform\t0.00\t0.00\t0.00\t0.00\t0.00\n다른 반복으로 고른 배분*\t-3.60\t+3.57\t+1.08\t+0.75\t+8.88"
+    },
+    {
+      "name": "desktop_no_horizontal_page_overflow",
+      "passed": true,
+      "details": {
+        "width": 1345,
+        "scroll": 1345,
+        "charts": [
+          {
+            "id": "task-tradeoffs",
+            "bars": [
+              {
+                "w": 26,
+                "h": 2.3125
+              },
+              {
+                "w": 26,
+                "h": 63.59375
+              },
+              {
+                "w": 26,
+                "h": 55.5
+              },
+              {
+                "w": 26,
+                "h": 46.25
+              },
+              {
+                "w": 26,
+                "h": 18.5
+              },
+              {
+                "w": 26,
+                "h": 8.671875
+              },
+              {
+                "w": 26,
+                "h": 7.515625
+              },
+              {
+                "w": 26,
+                "h": 31.21875
+              },
+              {
+                "w": 26,
+                "h": 31.796875
+              },
+              {
+                "w": 26,
+                "h": 21.96875
+              },
+              {
+                "w": 26,
+                "h": 135.859375
+              },
+              {
+                "w": 26.00006103515625,
+                "h": 36.421875
+              },
+              {
+                "w": 26,
+                "h": 160.140625
+              },
+              {
+                "w": 26,
+                "h": 34.109375
+              },
+              {
+                "w": 26,
+                "h": 138.171875
+              },
+              {
+                "w": 26,
+                "h": 111
+              }
+            ]
+          },
+          {
+            "id": "budget-chart",
+            "bars": [
+              {
+                "w": 57,
+                "h": 204.970703125
+              },
+              {
+                "w": 57,
+                "h": 148.14697265625
+              },
+              {
+                "w": 57,
+                "h": 188.7353515625
+              },
+              {
+                "w": 57,
+                "h": 43.970703125
+              },
+              {
+                "w": 57,
+                "h": 169.11767578125
+              },
+              {
+                "w": 57,
+                "h": 18.94091796875
+              },
+              {
+                "w": 57,
+                "h": 71.029296875
+              },
+              {
+                "w": 57,
+                "h": 154.912109375
+              }
+            ]
+          },
+          {
+            "id": "e2-seed-chart",
+            "bars": [
+              {
+                "w": 76,
+                "h": 168
+              },
+              {
+                "w": 76,
+                "h": 12
+              },
+              {
+                "w": 76,
+                "h": 108
+              },
+              {
+                "w": 76,
+                "h": 48
+              },
+              {
+                "w": 76,
+                "h": 6
+              },
+              {
+                "w": 76,
+                "h": 12
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "desktop_three_visible_charts",
+      "passed": true,
+      "details": [
+        {
+          "id": "task-tradeoffs",
+          "bars": [
+            {
+              "w": 26,
+              "h": 2.3125
+            },
+            {
+              "w": 26,
+              "h": 63.59375
+            },
+            {
+              "w": 26,
+              "h": 55.5
+            },
+            {
+              "w": 26,
+              "h": 46.25
+            },
+            {
+              "w": 26,
+              "h": 18.5
+            },
+            {
+              "w": 26,
+              "h": 8.671875
+            },
+            {
+              "w": 26,
+              "h": 7.515625
+            },
+            {
+              "w": 26,
+              "h": 31.21875
+            },
+            {
+              "w": 26,
+              "h": 31.796875
+            },
+            {
+              "w": 26,
+              "h": 21.96875
+            },
+            {
+              "w": 26,
+              "h": 135.859375
+            },
+            {
+              "w": 26.00006103515625,
+              "h": 36.421875
+            },
+            {
+              "w": 26,
+              "h": 160.140625
+            },
+            {
+              "w": 26,
+              "h": 34.109375
+            },
+            {
+              "w": 26,
+              "h": 138.171875
+            },
+            {
+              "w": 26,
+              "h": 111
+            }
+          ]
+        },
+        {
+          "id": "budget-chart",
+          "bars": [
+            {
+              "w": 57,
+              "h": 204.970703125
+            },
+            {
+              "w": 57,
+              "h": 148.14697265625
+            },
+            {
+              "w": 57,
+              "h": 188.7353515625
+            },
+            {
+              "w": 57,
+              "h": 43.970703125
+            },
+            {
+              "w": 57,
+              "h": 169.11767578125
+            },
+            {
+              "w": 57,
+              "h": 18.94091796875
+            },
+            {
+              "w": 57,
+              "h": 71.029296875
+            },
+            {
+              "w": 57,
+              "h": 154.912109375
+            }
+          ]
+        },
+        {
+          "id": "e2-seed-chart",
+          "bars": [
+            {
+              "w": 76,
+              "h": 168
+            },
+            {
+              "w": 76,
+              "h": 12
+            },
+            {
+              "w": 76,
+              "h": 108
+            },
+            {
+              "w": 76,
+              "h": 48
+            },
+            {
+              "w": 76,
+              "h": 6
+            },
+            {
+              "w": 76,
+              "h": 12
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "narrow_no_horizontal_page_overflow",
+      "passed": true,
+      "details": {
+        "width": 405,
+        "scroll": 405,
+        "charts": [
+          {
+            "id": "task-tradeoffs",
+            "bars": [
+              {
+                "w": 6,
+                "h": 2.3125
+              },
+              {
+                "w": 6,
+                "h": 63.59375
+              },
+              {
+                "w": 6,
+                "h": 55.5
+              },
+              {
+                "w": 6,
+                "h": 46.25
+              },
+              {
+                "w": 6,
+                "h": 18.5
+              },
+              {
+                "w": 6,
+                "h": 8.671875
+              },
+              {
+                "w": 6,
+                "h": 7.515625
+              },
+              {
+                "w": 6,
+                "h": 31.21875
+              },
+              {
+                "w": 6,
+                "h": 31.796875
+              },
+              {
+                "w": 6,
+                "h": 21.96875
+              },
+              {
+                "w": 5.9999847412109375,
+                "h": 135.859375
+              },
+              {
+                "w": 6,
+                "h": 36.421875
+              },
+              {
+                "w": 6,
+                "h": 160.140625
+              },
+              {
+                "w": 6,
+                "h": 34.109375
+              },
+              {
+                "w": 6,
+                "h": 138.171875
+              },
+              {
+                "w": 6.000030517578125,
+                "h": 111
+              }
+            ]
+          },
+          {
+            "id": "budget-chart",
+            "bars": [
+              {
+                "w": 17,
+                "h": 204.970703125
+              },
+              {
+                "w": 17,
+                "h": 148.1474609375
+              },
+              {
+                "w": 17,
+                "h": 188.7353515625
+              },
+              {
+                "w": 17,
+                "h": 43.970703125
+              },
+              {
+                "w": 17,
+                "h": 169.1181640625
+              },
+              {
+                "w": 17,
+                "h": 18.94140625
+              },
+              {
+                "w": 17,
+                "h": 71.029296875
+              },
+              {
+                "w": 17,
+                "h": 154.912109375
+              }
+            ]
+          },
+          {
+            "id": "e2-seed-chart",
+            "bars": [
+              {
+                "w": 22.99999237060547,
+                "h": 168
+              },
+              {
+                "w": 23,
+                "h": 12
+              },
+              {
+                "w": 22.999969482421875,
+                "h": 108
+              },
+              {
+                "w": 22.99999237060547,
+                "h": 48
+              },
+              {
+                "w": 23,
+                "h": 6
+              },
+              {
+                "w": 23,
+                "h": 12
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "narrow_three_visible_charts",
+      "passed": true,
+      "details": [
+        {
+          "id": "task-tradeoffs",
+          "bars": [
+            {
+              "w": 6,
+              "h": 2.3125
+            },
+            {
+              "w": 6,
+              "h": 63.59375
+            },
+            {
+              "w": 6,
+              "h": 55.5
+            },
+            {
+              "w": 6,
+              "h": 46.25
+            },
+            {
+              "w": 6,
+              "h": 18.5
+            },
+            {
+              "w": 6,
+              "h": 8.671875
+            },
+            {
+              "w": 6,
+              "h": 7.515625
+            },
+            {
+              "w": 6,
+              "h": 31.21875
+            },
+            {
+              "w": 6,
+              "h": 31.796875
+            },
+            {
+              "w": 6,
+              "h": 21.96875
+            },
+            {
+              "w": 5.9999847412109375,
+              "h": 135.859375
+            },
+            {
+              "w": 6,
+              "h": 36.421875
+            },
+            {
+              "w": 6,
+              "h": 160.140625
+            },
+            {
+              "w": 6,
+              "h": 34.109375
+            },
+            {
+              "w": 6,
+              "h": 138.171875
+            },
+            {
+              "w": 6.000030517578125,
+              "h": 111
+            }
+          ]
+        },
+        {
+          "id": "budget-chart",
+          "bars": [
+            {
+              "w": 17,
+              "h": 204.970703125
+            },
+            {
+              "w": 17,
+              "h": 148.1474609375
+            },
+            {
+              "w": 17,
+              "h": 188.7353515625
+            },
+            {
+              "w": 17,
+              "h": 43.970703125
+            },
+            {
+              "w": 17,
+              "h": 169.1181640625
+            },
+            {
+              "w": 17,
+              "h": 18.94140625
+            },
+            {
+              "w": 17,
+              "h": 71.029296875
+            },
+            {
+              "w": 17,
+              "h": 154.912109375
+            }
+          ]
+        },
+        {
+          "id": "e2-seed-chart",
+          "bars": [
+            {
+              "w": 22.99999237060547,
+              "h": 168
+            },
+            {
+              "w": 23,
+              "h": 12
+            },
+            {
+              "w": 22.999969482421875,
+              "h": 108
+            },
+            {
+              "w": 22.99999237060547,
+              "h": 48
+            },
+            {
+              "w": 23,
+              "h": 6
+            },
+            {
+              "w": 23,
+              "h": 12
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "checkpoint_filter_200k",
+      "passed": true,
+      "details": {
+        "rows": 3,
+        "text": "E1 출발점별 +40k · U는 성공률 %, 나머지는 U 대비 %p\n전체\n200k\n400k\nE1 출발점별 +40k · U는 성공률 %, 나머지는 U 대비 %p\nseed · 출발점\tU (%)\tDO 집중\tDC 집중\tWO 집중\tWC 집중\n11 · 200k\t65.17\t-14.83\t-1.00\t-13.50\t-11.92\n12 · 200k\t67.08\t+0.92\t-6.75\t+2.67\t-2.58\n13 · 200k\t56.50\t+12.08\t+7.75\t+6.75\t-0.83"
+      }
+    },
+    {
+      "name": "checkpoint_filter_400k",
+      "passed": true,
+      "details": {
+        "rows": 3,
+        "text": "E1 출발점별 +40k · U는 성공률 %, 나머지는 U 대비 %p\n전체\n200k\n400k\nE1 출발점별 +40k · U는 성공률 %, 나머지는 U 대비 %p\nseed · 출발점\tU (%)\tDO 집중\tDC 집중\tWO 집중\tWC 집중\n11 · 400k\t67.25\t-12.58\t-2.83\t+6.25\t-4.25\n12 · 400k\t69.67\t-1.50\t+3.33\t+0.92\t-0.92\n13 · 400k\t73.42\t-4.92\t+1.83\t+5.67\t+1.42"
+      }
+    },
+    {
+      "name": "checkpoint_filter_전체",
+      "passed": true,
+      "details": {
+        "rows": 6,
+        "text": "E1 출발점별 +40k · U는 성공률 %, 나머지는 U 대비 %p\n전체\n200k\n400k\nE1 출발점별 +40k · U는 성공률 %, 나머지는 U 대비 %p\nseed · 출발점\tU (%)\tDO 집중\tDC 집중\tWO 집중\tWC 집중\n11 · 200k\t65.17\t-14.83\t-1.00\t-13.50\t-11.92\n11 · 400k\t67.25\t-12.58\t-2.83\t+6.25\t-4.25\n12 · 200k\t67.08\t+0.92\t-6.75\t+2.67\t-2.58\n12 · 400k\t69.67\t-1.50\t+3.33\t+0.92\t-0.92\n13 · 200k\t56.50\t+12.08\t+7.75\t+6.75\t-0.83\n13 · 400k\t73.42\t-4.92\t+1.83\t+5.67\t+1.42"
+      }
+    },
+    {
+      "name": "one_current_snapshot",
+      "passed": true,
+      "details": [
+        "snapshot.2ab90102bd1335d4550f3ae56d5fcf7019c2084ac9e686bd76d4de5be76ee930.json"
+      ]
+    },
+    {
+      "name": "served_snapshot_has_18_queries",
+      "passed": true,
+      "details": [
+        "primary",
+        "e0",
+        "e0_failure",
+        "e1",
+        "e2",
+        "baselines",
+        "context",
+        "seed_effects",
+        "checkpoint_means",
+        "temporal",
+        "task_tradeoffs",
+        "checkpoint_interaction",
+        "rules",
+        "rule_choices",
+        "diagnostics",
+        "risk",
+        "e2_contrast",
+        "costs"
+      ]
+    },
+    {
+      "name": "no_uncaught_browser_errors",
+      "passed": true,
+      "details": []
+    }
+  ],
+  "exceptions": [],
+  "screenshots": [
+    "desktop_main-finding.png",
+    "desktop_e0-results.png",
+    "desktop_baseline-table.png",
+    "desktop_e1-mean-seeds.png",
+    "desktop_context-table.png",
+    "desktop_task-tradeoffs.png",
+    "desktop_task-absolute-table.png",
+    "desktop_budget-chart.png",
+    "desktop_rules-table.png",
+    "desktop_e2-absolute-table.png",
+    "desktop_e2-seed-chart.png",
+    "desktop_cost-table.png",
+    "narrow_main-finding.png",
+    "narrow_e0-results.png",
+    "narrow_baseline-table.png",
+    "narrow_e1-mean-seeds.png",
+    "narrow_context-table.png",
+    "narrow_task-tradeoffs.png",
+    "narrow_task-absolute-table.png",
+    "narrow_budget-chart.png",
+    "narrow_rules-table.png",
+    "narrow_e2-absolute-table.png",
+    "narrow_e2-seed-chart.png",
+    "narrow_cost-table.png"
+  ],
+  "source_sha256": "1d616368451ccbf3d911b708afe65f3f3633f4ab8b2e8676276bd6410373ccaa",
+  "build": {
+    "version": 1,
+    "kind": "separate-data-v1",
+    "html": {
+      "path": "index.html",
+      "sha256": "2e76fd0c643d9b7b57f70af51e2335b33a10f255a2bdc7bd85e3dd1bc8bcac5e",
+      "bytes": 2875190
+    },
+    "snapshot": {
+      "path": "snapshot.2ab90102bd1335d4550f3ae56d5fcf7019c2084ac9e686bd76d4de5be76ee930.json",
+      "sha256": "2ab90102bd1335d4550f3ae56d5fcf7019c2084ac9e686bd76d4de5be76ee930",
+      "bytes": 275281
+    },
+    "runtimeSha256": "9e3ede84b28aded3c7379b6e6a5611f0d95b9977eb0f781e279ceefabfcbd27e",
+    "sourceSnapshotSha256": "2ab90102bd1335d4550f3ae56d5fcf7019c2084ac9e686bd76d4de5be76ee930"
+  },
+  "build_status": "complete",
+  "finished_at": "2026-10-13T05:33:06.362Z"
+}

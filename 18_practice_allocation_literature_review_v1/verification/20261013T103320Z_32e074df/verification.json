@@ -1,0 +1,96 @@
+{
+  "created_utc": "2026-10-13T10:33:20.416637+00:00",
+  "passed": true,
+  "checks": [
+    {
+      "name": "unique_reference_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "18_curated_references",
+      "passed": true,
+      "detail": 18
+    },
+    {
+      "name": "consistent_cutoff",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reference_dates_before_cutoff",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "evidence_locators_and_read_depth",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all_reference_ids_used",
+      "passed": true,
+      "detail": {
+        "unused": [],
+        "unknown": []
+      }
+    },
+    {
+      "name": "web_citations_registered",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "https_primary_source_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "local_evidence_links_exist",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "no_internal_web_reference_tokens",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no_replacement_characters",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "comparison_matches_current_sources",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "errors": [],
+  "input_sha256": {
+    "18_practice_allocation_literature_review_v1\\README.md": "75481aaf0696f367018b3e424589269aea892e4bbb26b4d1f868295e41063d18",
+    "18_practice_allocation_literature_review_v1\\literature_review_ko.md": "7604f29ba46b7e1b43434885a810eb8708c6e87e1f42faa8a3274674a0a89bc9",
+    "18_practice_allocation_literature_review_v1\\sources.json": "074c62984789edcea11d74af97b4c4bc62b2bde1a01bb84a53100fde6c6b8204",
+    "18_practice_allocation_literature_review_v1\\search_log.json": "6c6950c74c0a7862d1e9917734c65ad88e685e9c52c308a79d5c1cf8f97c95cb",
+    "18_practice_allocation_literature_review_v1\\verify_review.py": "f0e5ef90cca47aa0029e63b55f4b3eab8447b2428df39fb1516afe0c460606af",
+    "LOCAL_PRACTICE_ALLOCATION_PILOT_DESIGN_20261007.md": "97b06794f2bff6a58ee1171ce79db1c31fbbc40fe62dec463784a3a4dcf295f3",
+    "17_e0_e2_detailed_research_report_v1\\README.md": "4179d69b55b81377f7617c76993e40f0055460338980f2b2dbefec09a59200dc",
+    "17_e0_e2_detailed_research_report_v1\\results\\20261013T052346Z_7e2f6a68\\extended_analysis.json": "fa048ea1150b143303437ca63bd6d4b22add8c7772459439a24ade03e75c4b67"
+  },
+  "output_sha256": {
+    "comparison.csv": "a65a0dd9e33c8ee25eae8ddea363b9c6be01f04617b35e714fcfa21d09c70e35"
+  },
+  "environment": {
+    "python": "3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.22621-SP0",
+    "dependencies": "Python standard library only"
+  },
+  "actual_cost": {
+    "verification_wall_seconds": 0.10731700000178535,
+    "training_steps": 0,
+    "evaluation_episodes": 0,
+    "financial_cost": "not measured",
+    "random_seed": "not applicable; document checks only"
+  },
+  "limits": "Mechanical checks do not validate scientific interpretations, priority claims, or cited empirical results."
+}

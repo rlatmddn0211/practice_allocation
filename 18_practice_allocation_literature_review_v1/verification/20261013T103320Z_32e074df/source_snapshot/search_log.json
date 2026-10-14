@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-13",
+  "cutoff_date": "2026-10-13",
+  "method": "Targeted web search followed by primary full-text inspection and reference snowballing; not exhaustive systematic retrieval.",
+  "families": ["robot autonomous practice", "RL curriculum and meta-curriculum", "multi-task transfer and forgetting", "language-model data mixing", "learning-curve extrapolation and budgeted algorithm selection", "cost-aware active experiment selection"],
+  "representative_queries_executed": [
+    "Model-Based Meta Automatic Curriculum Learning pdf",
+    "Efficiently Identifying Task Groupings Fifty transfer affinity 2021",
+    "Meta-learning from learning curves for budget-limited algorithm selection",
+    "reinforcement learning curriculum remaining budget transfer",
+    "curriculum value of information learning",
+    "Teacher-Student Curriculum Learning forgetting absolute",
+    "Freeze-Thaw Bayesian Optimization entropy learning curves",
+    "Skill-It budget skills framework language models",
+    "DoGE gradient data mixture generalization",
+    "data mixing learning dynamics budget transfer model",
+    "practice allocation reinforcement learning budget",
+    "Data Mixing Laws arxiv",
+    "DOGE: Domain Reweighting with Generalization Estimation arxiv",
+    "In-Context Freeze-Thaw Bayesian Optimization for Hyperparameter Optimization ICML 2024",
+    "Aioli reinforcement learning mixing",
+    "budget task allocation learning progress robot 2025 2026"
+  ],
+  "primary_reading_sequence": [
+    "Closest robotic formulations: Deliberate Practice and EES",
+    "State-conditioned learning dynamics: MM-ACL final CoLLAs 2023 version",
+    "Shared-model mixtures: Skill-It, Data Mixing Laws, Aioli, DoGE",
+    "Recent transfer-aware RL and cost-aware robot experiments: TAC and EmbodiedRSI",
+    "Asymmetric retention and independent-curve resource allocation: Task Scheduling & Forgetting, MetaLC",
+    "Supporting affinity, curriculum, gradient and freeze-thaw literature"
+  ],
+  "access_failures_and_recoveries": [
+    {"url": "https://openreview.net/pdf?id=Kp716SJ5dbJ", "issue": "Browser verification page", "recovery": "Read the expanded CoLLAs 2023 final paper from PMLR; do not attribute final-paper details to the workshop draft."},
+    {"url": "https://proceedings.mlr.press/v235/fan24e/fan24e.pdf", "issue": "Web tool could not access PDF", "recovery": "Confirmed publication metadata on PMLR; read arXiv 2310.15393v2 method."},
+    {"url": "https://raw.githubusercontent.com/mlresearch/v235/main/assets/fan24e/fan24e.pdf", "issue": "Web tool rejected application/octet-stream content type", "recovery": "Used arXiv PDF, not a secondary summary."},
+    {"url": "https://arxiv.org/html/2310.15393v3", "issue": "404; requested version does not exist", "recovery": "Checked the abstract page and PDF; actual version used is v2 dated 2024-02-05."},
+    {"item": "Large batched web outputs", "issue": "Combined output truncation", "recovery": "Stored tool responses in session and inspected focused line ranges, with additional method/limitation queries."},
+    {"item": "PowerShell default text decoding", "issue": "Korean repository prose rendered incorrectly in an initial read", "recovery": "Read UTF-8 explicitly; no source file was altered."}
+  ],
+  "screened_not_used_for_detailed_claims": [
+    "PAC: Progress-Augmented Advantage Curriculum for Multi-Task Reinforcement Learning of LLMs",
+    "Task Selection Policies for Multitask Learning",
+    "Optimal Practice Allocation Under Learning Saturation",
+    "DABO: Difficulty-Aware Bayesian Optimization with Diffusion-Learned Priors",
+    "ModalMix / compute-aware multimodal data-mixture work",
+    "OpenDataArena"
+  ],
+  "limits": [
+    "No exhaustive database search, citation-count ranking, or proof of absence of prior art.",
+    "No reproduction of any paper's code or reported performance.",
+    "Detailed method comparisons rest on primary text; abstract-only supporting items are labeled in sources.json.",
+    "Very recent preprints count as publicly disclosed ideas, but empirical claims have not been independently validated here.",
+    "The proposed remaining gap is the reviewer's inference, not an established priority claim.",
+    "Root design mentions two earlier RFM documents absent from this workspace; they were not treated as reviewed evidence."
+  ]
+}
