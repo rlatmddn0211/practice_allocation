@@ -1,0 +1,64 @@
+{
+  "status": "published_and_verified",
+  "completed_at": "2026-10-14T02:27:19.651201+00:00",
+  "url": "https://github.com/rlatmddn0211/practice_allocation/releases/tag/e0-e2-results-2026-10-13-v1",
+  "release_id": 412278709,
+  "tag": "e0-e2-results-2026-10-13-v1",
+  "target_commit": "b094f932f8b79c0ebfea53f89e1aae7adf0eee22",
+  "experiment_source_commit": "e056338ab1493ec88dcf6ae1f01b5f233019172f",
+  "archive_manifest_sha256": "c0a150e0a41d6a0bbee584f8bc7c19ad5feceade3a83621ee8d0a054220ca67d",
+  "all_asset_sha256_verified_with_github": true,
+  "asset_count": 7,
+  "total_asset_bytes": 2667762242,
+  "assets": [
+    {
+      "id": 638954821,
+      "name": "archive_manifest.json",
+      "size": 9214735,
+      "digest": "sha256:c0a150e0a41d6a0bbee584f8bc7c19ad5feceade3a83621ee8d0a054220ca67d",
+      "browser_download_url": "https://github.com/rlatmddn0211/practice_allocation/releases/download/untagged-fa5554f29bf2e1907fe0/archive_manifest.json"
+    },
+    {
+      "id": 638947995,
+      "name": "E0.zip",
+      "size": 2407967,
+      "digest": "sha256:d4abdec282c44b78887acaa0d120ae41e2197c468a9b0441a19033814b0d017a",
+      "browser_download_url": "https://github.com/rlatmddn0211/practice_allocation/releases/download/untagged-fa5554f29bf2e1907fe0/E0.zip"
+    },
+    {
+      "id": 638954167,
+      "name": "E0_parent_checkpoints.zip",
+      "size": 250252762,
+      "digest": "sha256:d7b715a745e7940adac5a5e3d37b18a4292e0326e324f7688c10494a6b5ce4a8",
+      "browser_download_url": "https://github.com/rlatmddn0211/practice_allocation/releases/download/untagged-fa5554f29bf2e1907fe0/E0_parent_checkpoints.zip"
+    },
+    {
+      "id": 638948074,
+      "name": "E1.zip",
+      "size": 1957017716,
+      "digest": "sha256:5ee518adcb2eb3c1fe4c11872a36717d49b5b76880e73f440aff22a47dbb9e50",
+      "browser_download_url": "https://github.com/rlatmddn0211/practice_allocation/releases/download/untagged-fa5554f29bf2e1907fe0/E1.zip"
+    },
+    {
+      "id": 638953093,
+      "name": "E2.zip",
+      "size": 447865859,
+      "digest": "sha256:645ab5597d08b26e8bd8fbe2352725521fdb8afafbf3310ba8ad379fb47e6a82",
+      "browser_download_url": "https://github.com/rlatmddn0211/practice_allocation/releases/download/untagged-fa5554f29bf2e1907fe0/E2.zip"
+    },
+    {
+      "id": 638954775,
+      "name": "queue_provenance.zip",
+      "size": 1002717,
+      "digest": "sha256:e0311f42d7e7acd164e6afe13a80f8d1444bdc9121067c185addde5ad9932e48",
+      "browser_download_url": "https://github.com/rlatmddn0211/practice_allocation/releases/download/untagged-fa5554f29bf2e1907fe0/queue_provenance.zip"
+    },
+    {
+      "id": 638954876,
+      "name": "SHA256SUMS.txt",
+      "size": 486,
+      "digest": "sha256:f4e1284585874ebc609b0955743cf7b7d9f3266fb81d8a51bf4d45fbbd440777",
+      "browser_download_url": "https://github.com/rlatmddn0211/practice_allocation/releases/download/untagged-fa5554f29bf2e1907fe0/SHA256SUMS.txt"
+    }
+  ]
+}

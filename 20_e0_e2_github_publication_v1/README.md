@@ -2,6 +2,8 @@
 
 E0–E2 완료 결과와 재현에 필요한 원자료를 보관합니다. 학습 코드를 수정하거나 새 학습을 실행하지 않는 독립 출판 버전입니다.
 
+2026-10-14 11:27 KST에 Release 공개를 완료했습니다. ZIP 5개, manifest, checksum 목록의 총 7개 asset 모두 GitHub 서버의 SHA-256과 크기가 로컬 원본과 일치합니다. 태그의 2026-10-13은 자료를 정리한 날짜이며 실제 게시 시각은 [게시 영수증](results/20261014T022410Z_github_publication_c84a33df/publication_receipt.json)에 기록했습니다.
+
 - [GitHub Release](https://github.com/rlatmddn0211/practice_allocation/releases/tag/e0-e2-results-2026-10-13-v1)
 - [원본·압축파일 SHA-256 manifest](results/20261013T105002Z_archive_d19752fc/archive_manifest.json)
 - [검증 기록](results/20261013T105002Z_archive_d19752fc/verification.json)

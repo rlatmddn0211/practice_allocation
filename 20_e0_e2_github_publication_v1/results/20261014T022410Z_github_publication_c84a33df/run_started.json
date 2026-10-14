@@ -1,0 +1,50 @@
+{
+  "archive_run": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\20_e0_e2_github_publication_v1\\results\\20261013T105002Z_archive_d19752fc",
+  "target_commit": "b094f932f8b79c0ebfea53f89e1aae7adf0eee22",
+  "uploader_sha256": "e7e2249aa653f4d47ceb07e0f33a1f8612fd546e44de954389f00ff02585e210",
+  "configuration_sha256": "59f806496a75291d424a8dd252232679e5a72c23472f5746345f5471e6483c00",
+  "configuration": {
+    "repository": "rlatmddn0211/practice_allocation",
+    "tag": "e0-e2-results-2026-10-13-v1",
+    "title": "E0–E2 completed results, checkpoints and research audit (2026-10-13)"
+  },
+  "assets": [
+    {
+      "name": "E0.zip",
+      "bytes": 2407967,
+      "sha256": "d4abdec282c44b78887acaa0d120ae41e2197c468a9b0441a19033814b0d017a"
+    },
+    {
+      "name": "E1.zip",
+      "bytes": 1957017716,
+      "sha256": "5ee518adcb2eb3c1fe4c11872a36717d49b5b76880e73f440aff22a47dbb9e50"
+    },
+    {
+      "name": "E2.zip",
+      "bytes": 447865859,
+      "sha256": "645ab5597d08b26e8bd8fbe2352725521fdb8afafbf3310ba8ad379fb47e6a82"
+    },
+    {
+      "name": "E0_parent_checkpoints.zip",
+      "bytes": 250252762,
+      "sha256": "d7b715a745e7940adac5a5e3d37b18a4292e0326e324f7688c10494a6b5ce4a8"
+    },
+    {
+      "name": "queue_provenance.zip",
+      "bytes": 1002717,
+      "sha256": "e0311f42d7e7acd164e6afe13a80f8d1444bdc9121067c185addde5ad9932e48"
+    },
+    {
+      "name": "archive_manifest.json",
+      "bytes": 9214735,
+      "sha256": "c0a150e0a41d6a0bbee584f8bc7c19ad5feceade3a83621ee8d0a054220ca67d"
+    },
+    {
+      "name": "SHA256SUMS.txt",
+      "bytes": 486,
+      "sha256": "f4e1284585874ebc609b0955743cf7b7d9f3266fb81d8a51bf4d45fbbd440777"
+    }
+  ],
+  "training_steps": 0,
+  "evaluation_episodes": 0
+}

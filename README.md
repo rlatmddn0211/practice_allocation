@@ -44,7 +44,7 @@ Release의 `00`~`04` ZIP 다섯 개를 같은 디렉터리에 풀면 원래 폴�
 원본 파일과 ZIP의 hash 목록은 [보관 manifest](05_results_github_archive_v1/results/20261008T023322Z_complete_archive_6169480e/archive_manifest.json)에 있습니다.
 
 E0–E2 완료 결과의 별도 보관은 [20번 출판 안내](20_e0_e2_github_publication_v1/README.md)와
-[E0–E2 Release](https://github.com/rlatmddn0211/practice_allocation/releases/tag/e0-e2-results-2026-10-13-v1)에 정리합니다.
+[E0–E2 Release](https://github.com/rlatmddn0211/practice_allocation/releases/tag/e0-e2-results-2026-10-13-v1)에 보관했습니다.
 09–11의 원시 평가·학습 로그·소스 사본·모델·replay와 E0가 실제 평가한 과거 부모 checkpoint를 포함합니다.
 완료 학습은 총 5.88M step, 평가는 112,800 episode입니다. 독립 원래 seed를 사용한 E1에서
 DC 집중의 Uniform 대비 평균 차이는 +0.39%p였고, E2의 DO donor contrast는 −0.78%p였습니다.
