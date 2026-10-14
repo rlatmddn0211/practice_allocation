@@ -1,0 +1,32 @@
+{
+  "status": "generated",
+  "input": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\21_e3_completed_results_analysis_v1\\results\\20261014T024817Z_ca372238\\analysis.json",
+  "input_sha256": "632d84182dd11d11d4a3e8a5062de88217c4930556eab05c9930fa5139202dd6",
+  "source_sha256": "579efa22363513205ab23455317c9d6e0deb3c7a6f7e1d7f61566666a3bbdaad",
+  "matplotlib": "3.10.1",
+  "figures": [
+    {
+      "name": "allocation_effects.png",
+      "bytes": 125380,
+      "sha256": "e1dc12beffdc211f2db35afa5a7ad8ed5d7c1f94456b01c8a2d7e373da921c4d"
+    },
+    {
+      "name": "allocation_effects.svg",
+      "bytes": 78346,
+      "sha256": "0b343378d2d2f49dc1e7c49e3eb2cb811907355590fbb1ec996732b1b032af8d"
+    },
+    {
+      "name": "task_success.png",
+      "bytes": 168747,
+      "sha256": "c655431adbcec1726c8c45b02bb529acd5ac4cf393741e9437b2238e579d364e"
+    },
+    {
+      "name": "task_success.svg",
+      "bytes": 89324,
+      "sha256": "ec4638378f2c54719371cab55c88bb538d068ec8af3b55254af325584dba0a80"
+    }
+  ],
+  "training_steps": 0,
+  "evaluation_episodes": 0,
+  "visual_review": "pending"
+}

@@ -1,0 +1,99 @@
+{
+  "review_date": "2026-10-14",
+  "scope": "Targeted candidate-factor grounding from E0-E3 and primary research, not an exhaustive novelty survey.",
+  "papers": [
+    {
+      "id": "S01",
+      "title": "Revisiting Fundamentals of Experience Replay",
+      "year": 2020,
+      "url": "https://proceedings.mlr.press/v119/fedus20a.html",
+      "read": "Publisher abstract and bibliographic record",
+      "supports": "Replay capacity and replay ratio are distinct variables with algorithm-dependent effects.",
+      "boundary": "Q-learning results are background; they do not establish the direction or cause of E3 SAC allocation effects."
+    },
+    {
+      "id": "S02",
+      "title": "Gradient Surgery for Multi-Task Learning",
+      "year": 2020,
+      "url": "https://arxiv.org/html/2001.06782v4",
+      "read": "Sections 1 and 2.2-2.4",
+      "supports": "Conflict, relative gradient magnitude and curvature are considered jointly in detrimental multi-task interference.",
+      "boundary": "Negative cosine alone is not a verified predictor of long-horizon SAC success or a causal diagnosis of E3 forgetting."
+    },
+    {
+      "id": "S03",
+      "title": "Overcoming Exploration in Reinforcement Learning with Demonstrations",
+      "year": 2018,
+      "url": "https://arxiv.org/abs/1709.10089v2",
+      "read": "Versioned author abstract and ICRA 2018 metadata",
+      "supports": "Demonstrations and useful experience address exploration difficulties in sparse-reward robot tasks.",
+      "boundary": "Our rewards are dense. This source motivates an exploration candidate; it does not diagnose our low-success tasks or authorize demonstration training."
+    },
+    {
+      "id": "S04",
+      "title": "Addressing Function Approximation Error in Actor-Critic Methods",
+      "year": 2018,
+      "url": "https://proceedings.mlr.press/v80/fujimoto18a.html",
+      "read": "Publisher abstract and bibliographic record",
+      "supports": "Function approximation error and value overestimation affect actor-critic methods.",
+      "boundary": "TD error, critic loss and twin-critic disagreement are not calibrated measures of learning value or uncertainty in our SAC."
+    },
+    {
+      "id": "S05",
+      "title": "The Primacy Bias in Deep Reinforcement Learning",
+      "year": 2022,
+      "url": "https://proceedings.mlr.press/v162/nikishin22a.html",
+      "read": "Publisher abstract and bibliographic record",
+      "supports": "Over-reliance on early experience can impair subsequent learning in tested RL settings.",
+      "boundary": "Plasticity loss has not been measured here. Resetting parameters would be a separate intervention, not just a diagnostic feature."
+    },
+    {
+      "id": "S06",
+      "title": "The Dormant Neuron Phenomenon in Deep Reinforcement Learning",
+      "year": 2023,
+      "url": "https://proceedings.mlr.press/v202/sokar23a.html",
+      "full_text": "https://proceedings.mlr.press/v202/sokar23a/sokar23a.pdf",
+      "read": "Abstract, definition and Appendix B including Figures 18-20 and Table 6",
+      "supports": "Dormant neurons arise in actor/critic networks, including SAC. The paper studies recycling dormant capacity.",
+      "boundary": "Standard-size SAC MuJoCo conditions showed maintenance rather than gains from ReDo; narrower networks showed some gains. Dormancy alone is not proof of a performance bottleneck."
+    },
+    {
+      "id": "S07",
+      "title": "Deep Reinforcement Learning at the Edge of the Statistical Precipice",
+      "year": 2021,
+      "url": "https://arxiv.org/html/2108.13264",
+      "read": "Introduction and evaluation methodology",
+      "supports": "Small numbers of RL runs and variable results require explicit uncertainty and careful comparisons.",
+      "boundary": "Large numbers of branches or evaluation episodes do not replace independent pretraining seeds; this project preserves its frozen macro objective."
+    },
+    {
+      "id": "S08",
+      "title": "Aioli: A Unified Optimization Framework for Language Model Data Mixing",
+      "year": 2025,
+      "url": "https://arxiv.org/html/2411.05735v2",
+      "read": "Abstract and framework findings; previous v18 review of sections 4-5 and 8",
+      "supports": "Dynamic mixing-law parameter estimation is prior work; its tested LM laws can be well specified while estimated coefficients are inaccurate.",
+      "boundary": "It does not establish nonlinear mixture or ordering effects in our SAC. Dynamic response estimation alone is not a novelty claim."
+    },
+    {
+      "id": "S09",
+      "title": "Transferability for General Reasoning: An Automated Curriculum for Multi-Domain RLVR",
+      "year": 2026,
+      "status": "arXiv preprint v2",
+      "url": "https://arxiv.org/html/2606.25178v2",
+      "read": "Primary text gradient/advantage method passages, alongside prior v18 review",
+      "supports": "Gradient/advantage-based transfer-aware curriculum signals already exist in multi-domain RLVR.",
+      "boundary": "RLVR is distinct from replay-based robot SAC; an adaptation is not a reproduction of the original setting."
+    }
+  ],
+  "local_sources": [
+    "../17_e0_e2_detailed_research_report_v1/README.md",
+    "../19_budgeted_practice_research_feasibility_v1/research_plan_ko.md",
+    "../21_e3_completed_results_analysis_v1/report_ko.md",
+    "../12_task_composition_study_v1/practice_allocation/learning.py",
+    "../12_task_composition_study_v1/practice_allocation/engine.py",
+    "../12_task_composition_study_v1/configs/learner.json"
+  ],
+  "new_RL_training_steps": 0,
+  "new_environment_evaluation_episodes": 0
+}

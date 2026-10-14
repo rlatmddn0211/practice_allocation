@@ -1,0 +1,283 @@
+{
+  "status": "verified",
+  "created_at": "2026-10-14T03:02:14.599639+00:00",
+  "checks": [
+    {
+      "name": "full_audit_passed",
+      "passed": true
+    },
+    {
+      "name": "executed_analysis_source",
+      "passed": true
+    },
+    {
+      "name": "seed_hierarchy",
+      "passed": true
+    },
+    {
+      "name": "completed_design",
+      "passed": true
+    },
+    {
+      "name": "episodes_and_checkpoints",
+      "passed": true
+    },
+    {
+      "name": "cost_totals",
+      "passed": true
+    },
+    {
+      "name": "no_new_RL",
+      "passed": true
+    },
+    {
+      "name": "local_link:README.md:report_ko.md",
+      "passed": true
+    },
+    {
+      "name": "local_link:README.md:results/20261014T024817Z_ca372238/analysis.json",
+      "passed": true
+    },
+    {
+      "name": "local_link:README.md:results/20261014T024817Z_ca372238/allocation_summary.csv",
+      "passed": true
+    },
+    {
+      "name": "local_link:README.md:results/20261014T024817Z_ca372238/original_seed_effects.csv",
+      "passed": true
+    },
+    {
+      "name": "local_link:README.md:results/20261014T024817Z_ca372238/rule_summary.csv",
+      "passed": true
+    },
+    {
+      "name": "local_link:README.md:results/20261014T024817Z_ca372238/horizon_contexts.csv",
+      "passed": true
+    },
+    {
+      "name": "local_link:README.md:results/20261014T024817Z_ca372238/composition_200k_comparison.csv",
+      "passed": true
+    },
+    {
+      "name": "local_link:README.md:results/20261014T025205Z_figures_e78210f9/allocation_effects.png",
+      "passed": true
+    },
+    {
+      "name": "local_link:README.md:results/20261014T025205Z_figures_e78210f9/allocation_effects.svg",
+      "passed": true
+    },
+    {
+      "name": "local_link:README.md:results/20261014T025205Z_figures_e78210f9/task_success.png",
+      "passed": true
+    },
+    {
+      "name": "local_link:README.md:results/20261014T025205Z_figures_e78210f9/task_success.svg",
+      "passed": true
+    },
+    {
+      "name": "local_link:README.md:results/20261014T024817Z_ca372238/input_hashes.json",
+      "passed": true
+    },
+    {
+      "name": "local_link:report_ko.md:../12_task_composition_study_v1/README.md",
+      "passed": true
+    },
+    {
+      "name": "local_link:report_ko.md:results/20261014T024817Z_ca372238/analysis.json",
+      "passed": true
+    },
+    {
+      "name": "local_link:report_ko.md:results/20261014T024817Z_ca372238/allocation_summary.csv",
+      "passed": true
+    },
+    {
+      "name": "local_link:report_ko.md:results/20261014T024817Z_ca372238/original_seed_effects.csv",
+      "passed": true
+    },
+    {
+      "name": "local_link:report_ko.md:results/20261014T024817Z_ca372238/rule_summary.csv",
+      "passed": true
+    },
+    {
+      "name": "local_link:report_ko.md:results/20261014T024817Z_ca372238/public_rules.csv",
+      "passed": true
+    },
+    {
+      "name": "local_link:report_ko.md:results/20261014T024817Z_ca372238/horizon_contexts.csv",
+      "passed": true
+    },
+    {
+      "name": "local_link:report_ko.md:results/20261014T024817Z_ca372238/composition_200k_comparison.csv",
+      "passed": true
+    },
+    {
+      "name": "local_link:report_ko.md:../19_budgeted_practice_research_feasibility_v1/research_plan_ko.md",
+      "passed": true
+    },
+    {
+      "name": "local_link:report_ko.md:results/20261014T025205Z_figures_e78210f9/allocation_effects.png",
+      "passed": true
+    },
+    {
+      "name": "local_link:report_ko.md:results/20261014T025205Z_figures_e78210f9/task_success.png",
+      "passed": true
+    },
+    {
+      "name": "local_link:report_ko.md:results/20261014T024817Z_ca372238/checks.json",
+      "passed": true
+    },
+    {
+      "name": "local_link:report_ko.md:results/20261014T024817Z_ca372238/input_hashes.json",
+      "passed": true
+    },
+    {
+      "name": "local_link:report_ko.md:results/20261014T024817Z_ca372238/branch_recomputed.csv",
+      "passed": true
+    },
+    {
+      "name": "baseline:B",
+      "passed": true
+    },
+    {
+      "name": "allocation_row:B:U",
+      "passed": true
+    },
+    {
+      "name": "allocation_row:B:F_DO",
+      "passed": true
+    },
+    {
+      "name": "allocation_row:B:F_DC",
+      "passed": true
+    },
+    {
+      "name": "allocation_row:B:F_PU",
+      "passed": true
+    },
+    {
+      "name": "allocation_row:B:F_BP",
+      "passed": true
+    },
+    {
+      "name": "baseline:C",
+      "passed": true
+    },
+    {
+      "name": "allocation_row:C:U",
+      "passed": true
+    },
+    {
+      "name": "allocation_row:C:F_DO",
+      "passed": true
+    },
+    {
+      "name": "allocation_row:C:F_PP",
+      "passed": true
+    },
+    {
+      "name": "allocation_row:C:F_PU",
+      "passed": true
+    },
+    {
+      "name": "allocation_row:C:F_BP",
+      "passed": true
+    },
+    {
+      "name": "rule_row:Failure",
+      "passed": true
+    },
+    {
+      "name": "rule_row:Progress",
+      "passed": true
+    },
+    {
+      "name": "rule_row:LOSO_fixed",
+      "passed": true
+    },
+    {
+      "name": "rule_row:cross_repeat_same_horizon",
+      "passed": true
+    },
+    {
+      "name": "rule_row:cross_repeat_20k_to_40k",
+      "passed": true
+    },
+    {
+      "name": "B_BP_all_original_seeds_positive",
+      "passed": true
+    },
+    {
+      "name": "C_all_pooled_gains_negative",
+      "passed": true
+    },
+    {
+      "name": "C13_best_still_loses_10pp",
+      "passed": true
+    },
+    {
+      "name": "horizon_winners_4_of_6",
+      "passed": true
+    },
+    {
+      "name": "figure_input_hash",
+      "passed": true
+    },
+    {
+      "name": "figure_source_hash",
+      "passed": true
+    },
+    {
+      "name": "figure_bytes:allocation_effects.png",
+      "passed": true
+    },
+    {
+      "name": "figure_bytes:allocation_effects.svg",
+      "passed": true
+    },
+    {
+      "name": "figure_bytes:task_success.png",
+      "passed": true
+    },
+    {
+      "name": "figure_bytes:task_success.svg",
+      "passed": true
+    },
+    {
+      "name": "reviewed_render:allocation_effects.png",
+      "passed": true
+    },
+    {
+      "name": "reviewed_render:task_success.png",
+      "passed": true
+    }
+  ],
+  "inputs": {
+    "C:\\Users\\SS\\Projects\\robot_practice_allocation\\21_e3_completed_results_analysis_v1\\results\\20261014T024817Z_ca372238\\analysis.json": "632d84182dd11d11d4a3e8a5062de88217c4930556eab05c9930fa5139202dd6",
+    "C:\\Users\\SS\\Projects\\robot_practice_allocation\\21_e3_completed_results_analysis_v1\\results\\20261014T024817Z_ca372238\\checks.json": "c7478809d739ae939cfbccf0a9e5e8a8d94abf9bf3a8432c1c662d548318bb5e",
+    "C:\\Users\\SS\\Projects\\robot_practice_allocation\\21_e3_completed_results_analysis_v1\\results\\20261014T024817Z_ca372238\\analysis_source.py": "82caca72fb288e9f2fbc6cd2304fcc2afa942c11d91643983a16d4fb11294e32",
+    "C:\\Users\\SS\\Projects\\robot_practice_allocation\\21_e3_completed_results_analysis_v1\\README.md": "a61646520c5f5cfa9029e9b14aed71fc076f8c89c58ab3ef25d4abbf6f597136",
+    "C:\\Users\\SS\\Projects\\robot_practice_allocation\\21_e3_completed_results_analysis_v1\\report_ko.md": "5023a672edd7763ebb004ebdd51787dc48fee439bc6f1645d850964c0644a239",
+    "C:\\Users\\SS\\Projects\\robot_practice_allocation\\21_e3_completed_results_analysis_v1\\results\\20261014T024817Z_ca372238\\original_seed_effects.csv": "e2045a1f4f8712db375b1e264fa082f2b63a84139b56a3ef671b403e3e1efe6a",
+    "C:\\Users\\SS\\Projects\\robot_practice_allocation\\21_e3_completed_results_analysis_v1\\results\\20261014T025205Z_figures_e78210f9\\figure_manifest.json": "3ad87cfc24d254edd19a8593b2fafe0f6bb5718245721a35a85fc123384affb8",
+    "C:\\Users\\SS\\Projects\\robot_practice_allocation\\21_e3_completed_results_analysis_v1\\results\\20261014T025205Z_figures_e78210f9\\plot_source.py": "579efa22363513205ab23455317c9d6e0deb3c7a6f7e1d7f61566666a3bbdaad",
+    "C:\\Users\\SS\\Projects\\robot_practice_allocation\\21_e3_completed_results_analysis_v1\\results\\20261014T025205Z_figures_e78210f9\\allocation_effects.png": "e1dc12beffdc211f2db35afa5a7ad8ed5d7c1f94456b01c8a2d7e373da921c4d",
+    "C:\\Users\\SS\\Projects\\robot_practice_allocation\\21_e3_completed_results_analysis_v1\\results\\20261014T025205Z_figures_e78210f9\\allocation_effects.svg": "0b343378d2d2f49dc1e7c49e3eb2cb811907355590fbb1ec996732b1b032af8d",
+    "C:\\Users\\SS\\Projects\\robot_practice_allocation\\21_e3_completed_results_analysis_v1\\results\\20261014T025205Z_figures_e78210f9\\task_success.png": "c655431adbcec1726c8c45b02bb529acd5ac4cf393741e9437b2238e579d364e",
+    "C:\\Users\\SS\\Projects\\robot_practice_allocation\\21_e3_completed_results_analysis_v1\\results\\20261014T025205Z_figures_e78210f9\\task_success.svg": "ec4638378f2c54719371cab55c88bb538d068ec8af3b55254af325584dba0a80"
+  },
+  "source_sha256": "0ddef507a9dc04780c56d1e8568150171b362e042ab738b5221d29dc0bf97ed4",
+  "python": "3.12.0",
+  "dependencies": "Python standard library only",
+  "visual_review": {
+    "status": "passed",
+    "reviewed_images": {
+      "allocation_effects.png": "e1dc12beffdc211f2db35afa5a7ad8ed5d7c1f94456b01c8a2d7e373da921c4d",
+      "task_success.png": "c655431adbcec1726c8c45b02bb529acd5ac4cf393741e9437b2238e579d364e"
+    },
+    "findings": "Both rendered PNGs inspected: readable labels, visible legend and color scale, no cropped data or text. Means are explicitly distinguished from confidence intervals.",
+    "recording": "This sidecar resolves the generation manifest pending status without overwriting it."
+  },
+  "training_steps": 0,
+  "evaluation_episodes": 0,
+  "inspection_note": "An exploratory schema read looked for nonexistent rule_summary and raised KeyError; the actual key rules was used. No analysis artifact was changed."
+}

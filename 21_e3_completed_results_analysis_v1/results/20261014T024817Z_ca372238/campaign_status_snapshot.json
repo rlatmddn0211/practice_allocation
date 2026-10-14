@@ -1,0 +1,39 @@
+{
+  "state": "completed",
+  "time": "2026-10-13T16:27:59.111785+00:00",
+  "controller_pid": 25472,
+  "completed_jobs": 1051,
+  "total_jobs": 1051,
+  "planned_costs": {
+    "E0": {
+      "training_steps": 0,
+      "evaluation_episodes": 10800,
+      "branches": 0,
+      "jobs": 30
+    },
+    "E1": {
+      "training_steps": 4800000,
+      "evaluation_episodes": 79200,
+      "branches": 90,
+      "jobs": 449
+    },
+    "E2": {
+      "training_steps": 1080000,
+      "evaluation_episodes": 22800,
+      "branches": 27,
+      "jobs": 113
+    },
+    "E3": {
+      "training_steps": 4800000,
+      "evaluation_episodes": 81600,
+      "branches": 90,
+      "jobs": 459
+    }
+  },
+  "reports": {
+    "E0": "D:\\robot_practice_allocation_runs\\09_fresh_evaluation_audit_v1\\results\\20261008T081301Z_e03_b26922\\E0_analysis\\a01_6c8b0a\\REPORT.md",
+    "E1": "D:\\robot_practice_allocation_runs\\10_independent_seed_checkpoint_study_v1\\results\\20261008T081301Z_e03_b26922\\E1_analysis\\a01_a5e96d\\REPORT.md",
+    "E2": "D:\\robot_practice_allocation_runs\\11_fixed_target_donor_swap_v1\\results\\20261008T081301Z_e03_b26922\\E2_analysis\\a01_3f9fca\\REPORT.md",
+    "E3": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_analysis\\a01_3d42fe\\REPORT.md"
+  }
+}

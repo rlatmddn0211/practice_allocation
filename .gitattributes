@@ -31,5 +31,8 @@
 18_practice_allocation_literature_review_v1/** -text whitespace=cr-at-eol
 19_budgeted_practice_research_feasibility_v1/** -text whitespace=cr-at-eol
 20_e0_e2_github_publication_v1/** -text whitespace=cr-at-eol
+21_e3_completed_results_analysis_v1/** -text whitespace=cr-at-eol
+21_e3_completed_results_analysis_v1/results/**/*.svg -diff
+22_candidate_factor_grounding_v1/** -text whitespace=cr-at-eol
 # Keep the validated report bundle intact, including generated whitespace.
 17_e0_e2_detailed_research_report_v1/**/dist/index.html -diff

@@ -5,6 +5,36 @@
 
 설계 기준: [로컬 파일럿 설계 v0.1](LOCAL_PRACTICE_ALLOCATION_PILOT_DESIGN_20261007.md).
 
+## 현재 연구 질문과 후보 요인
+
+사전학습된 공유 정책의 현재 상태에서, 남은 예산을 어떤 과제에 얼마나 배분해야
+전체 과제의 최종 성능이 가장 좋아지는지 결정하는 기준을 연구합니다.
+국소적인 학습·전이 신호가 최종 이득을 잘못 예측하는 조건을 찾고,
+제한된 진단으로 그 오류를 보정했을 때 진단 비용을 포함한 동일 총예산에서
+기존 배분보다 좋은 결과를 얻을 수 있는지 확인합니다.
+
+현재의 세 가지 기본 후보 요인은 다음과 같습니다. 아직 최종 이득의 원인이나
+유효한 배분 기준으로 확정된 것은 아닙니다.
+
+| 후보 요인 | 측정하려는 것 |
+|---|---|
+| 학습 반응성 | 짧게 더 연습했을 때 해당 과제가 얼마나 개선되는가 |
+| 다른 능력의 변화 | 그 연습으로 다른 과제의 성능이 얼마나 좋아지거나 떨어지는가 |
+| 효과의 지속성 | 연습을 이어갈수록 개선 속도가 유지되는가, 포화되거나 역전되는가 |
+
+검증은 **후보 요인 정의 → 의사결정 시점에 가능한 측정 → 새로운 출발 상태에서
+최종 이득 예측 → 비용을 포함한 실제 배분 비교** 순서로 진행합니다.
+예측력이 높아지는 것과 최종 성능이 좋아지는 것은 각각 확인합니다.
+Uniform, 실패율 기반 배분, 개발 자료에서 정한 좋은 고정 배분을 비교 기준에 포함하고,
+추가 학습 전 정책도 성능 유지의 참고점으로 둡니다.
+
+E0–E3는 후보를 세우는 탐색 근거입니다. B에서는 ButtonPress 고정 집중이 강했고,
+C에서는 기존 능력의 손실이 중요했습니다. 현재까지의 질문 변화와 관찰·가설의 구분은
+[연구 구체화 과정](22_candidate_factor_grounding_v1/research_development_ko.md)에 기록합니다.
+실제 replay 노출, 탐험 경험, 업데이트 관계, 가치 추정, 가소성, 신호의 신뢰도와
+배분 순서에 관한 [추가 후보 검토](22_candidate_factor_grounding_v1/candidate_factors_ko.md)는
+기본 세 요인을 설명하거나 보완할 탐색 가설로 구분합니다.
+
 ## 독립 버전
 
 | 폴더 | 목적 | 실행 범위 |
@@ -29,6 +59,8 @@
 | [18_practice_allocation_literature_review_v1](18_practice_allocation_literature_review_v1/README.md) | 기존 연구와 정밀 비교 | 핵심 12편과 인접 6편, 차별화 후보와 한계 |
 | [19_budgeted_practice_research_feasibility_v1](19_budgeted_practice_research_feasibility_v1/README.md) | 국소 신호와 최종 성능 예측의 연구 가능성 | 기존 E1 재분석·단순 보정의 실패·비용 포함 검증안; 새 RL 실행 없음 |
 | [20_e0_e2_github_publication_v1](20_e0_e2_github_publication_v1/README.md) | E0–E2 원자료와 전체 checkpoint 보관 | 112,800 평가 행, 18,123 원본 파일, 참조된 전체 checkpoint 323개 |
+| [21_e3_completed_results_analysis_v1](21_e3_completed_results_analysis_v1/README.md) | 완료 E3의 원자료 검증과 연구 해석 | 90분기·81,600 평가 행·246개 전체 checkpoint 검증; 구성·seed별 손익과 선택 규칙 |
+| [22_candidate_factor_grounding_v1](22_candidate_factor_grounding_v1/README.md) | 연구 구체화 과정과 후보 요인의 근거 | 기본 세 요인과 추가 후보의 측정 가능성·문헌 근거·검증 기준; 새 RL 실행 없음 |
 
 완료한 구현은 보존합니다. 각 단계는
 목적이 드러나는 새 폴더에 독립된 코드와
@@ -50,6 +82,11 @@ E0–E2 완료 결과의 별도 보관은 [20번 출판 안내](20_e0_e2_github_
 DC 집중의 Uniform 대비 평균 차이는 +0.39%p였고, E2의 DO donor contrast는 −0.78%p였습니다.
 특정 donor의 보편적 우월성이나 비용을 포함한 적응형 배분기의 성공을 입증한 결과가 아닙니다.
 현재 근거와 후속 연구 기준은 [19번 연구 설계](19_budgeted_practice_research_feasibility_v1/research_plan_ko.md)에 있습니다.
+
+E3도 2026-10-14 01:27:59 KST에 완료되어 E0–E3 전체 큐 1,051개 작업이 모두 끝났습니다.
+B 조합의 ButtonPress 집중은 Uniform 대비 +5.86%p였고, 세 원래 seed에서 모두 이득이 있었습니다.
+C 조합에서는 모든 배분의 평균이 출발점보다 낮았으며 큰 손실은 seed 13에 집중됐습니다.
+배분별 결과와 비용·한계는 [E3 상세 분석](21_e3_completed_results_analysis_v1/report_ko.md)에 있습니다.
 
 사용자가 2026-10-07에 승인한 P0 사전학습은 같은 날 15:59:45 KST에 완료했습니다.
 400k 공개 진단은 DO 5%, DC 100%, WO 40%, WC 100%로 과제당 20개 초기 상태에서
