@@ -1,0 +1,16 @@
+{
+  "deterministic_episodes": 4,
+  "MC_episodes": 8,
+  "new_environment_steps": 6000,
+  "episodes_path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\31_fixed_horizon_alignment_v1\\results\\20261015T033342Z_verify_implementation_C_5bb14fb1\\diagnostics\\episodes.csv",
+  "episodes_sha256": "7b8ae0260f60f7e0892abbe440451d1e0a70a3256fcca44c0fdd54a812aba4c2",
+  "mc_path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\31_fixed_horizon_alignment_v1\\results\\20261015T033342Z_verify_implementation_C_5bb14fb1\\diagnostics\\mc_episodes.csv",
+  "mc_sha256": "6f157552439fccbedda52a993e4ee6b4461345987d9ad834657ad908e9cceed6",
+  "traces_path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\31_fixed_horizon_alignment_v1\\results\\20261015T033342Z_verify_implementation_C_5bb14fb1\\diagnostics\\traces.npz",
+  "traces_sha256": "c6901841c9ebbaddb13507c2e64a26fb518452e600d751393b84021b76d15c72",
+  "alpha": 0.07631396502256393,
+  "gamma": 0.99,
+  "sampling_scope": "first2 new-D initial states/task,4 independent action streams each; finite-horizon tail bootstrap",
+  "learner_unchanged": true,
+  "technical_smoke": true
+}

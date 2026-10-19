@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "purpose": "Design arithmetic and local-reference audit only; no scientific validation.",
+  "started_utc": "2026-10-14T05:02:30.214170+00:00",
+  "finished_utc": "2026-10-14T05:02:30.229229+00:00",
+  "runtime_seconds": 0.015477800014195964,
+  "python_version": "3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.22621-SP0",
+  "dependencies": "Python standard library only",
+  "random_seed": null,
+  "environment_steps_executed": 0,
+  "learner_updates_executed": 0,
+  "gpu_seconds": 0,
+  "checks_total": 83,
+  "checks_failed": 0,
+  "error": null,
+  "source_manifest": "source_manifest.json"
+}

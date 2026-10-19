@@ -1,0 +1,15 @@
+{
+  "status": "completed",
+  "factor": "F02_F03",
+  "technical_smoke": true,
+  "snapshots": 3,
+  "task_rows": 12,
+  "official_training_episode_uses": 240,
+  "new_environment_steps": 0,
+  "coverage_definition": "parent-only raw-state standardization; no task semantic labels inferred",
+  "wall_seconds": 2.1653293000126723,
+  "cpu_seconds": 0.546875,
+  "checks_passed": 386,
+  "checks_failed": 0,
+  "new_learner_updates": 0
+}

@@ -1,0 +1,19 @@
+{
+  "status": "completed",
+  "technical_smoke": true,
+  "snapshots": 3,
+  "batch_rows": 96,
+  "task_batch_rows": 192,
+  "unique_replay_transitions": 24576,
+  "gradient_evaluations": 384,
+  "virtual_optimizer_steps": 192,
+  "gpu_compute_seconds": 4.281054321289063,
+  "device": "cuda",
+  "gpu": "NVIDIA GeForce RTX 3070",
+  "wall_seconds": 8.333111500018276,
+  "cpu_seconds": 4.578125,
+  "checks_passed": 535,
+  "checks_failed": 0,
+  "new_environment_steps": 0,
+  "new_learner_updates": 0
+}

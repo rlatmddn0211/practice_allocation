@@ -1,0 +1,71 @@
+[
+  {
+    "id": "E1_A_s11_c200_base",
+    "suite": "A",
+    "original_seed": 11,
+    "checkpoint_step": 200000,
+    "horizon": 0,
+    "continuation": 0,
+    "allocation": "parent",
+    "checkpoint": {
+      "path": "D:\\robot_practice_allocation_runs\\10_independent_seed_checkpoint_study_v1\\results\\20261008T081301Z_e03_b26922\\E1_A_s11_pre200\\a01_9114cd\\checkpoint",
+      "manifest_sha256": "c38a29b87d0102ab4e7699057697cb90347b7de57daf0df4268d952ee2bbffe2"
+    },
+    "raw_path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\28_gradient_update_screening_v1\\results\\20261014T070649Z_smoke_cb0ca422\\raw\\E1_A_s11_c200_base.json",
+    "raw_sha256": "cb8aa76e2b39a23acf6162114ff02ba3f1f1fcc4213416db1482a21d9b2e0d3d",
+    "wall_seconds": 4.87573080000584,
+    "compute_wall_seconds": 2.229118799994467,
+    "gpu_compute_seconds": 2.228687728881836,
+    "virtual_optimizer_steps": 64,
+    "gradient_evaluations": 128,
+    "unique_replay_transitions": 8192,
+    "model_state_hash": "503c0bf93c424370d0bbbcba5a9f385fd71524758417af0cd3ab4e7e66bddb02",
+    "replay_state_hash": "3d138bdbd050243fb007c593ca48806925d544ef2850e5d1b1015f4806b13e70"
+  },
+  {
+    "id": "E1_A_s11_c200_r2101_U_t20",
+    "suite": "A",
+    "original_seed": 11,
+    "checkpoint_step": 200000,
+    "horizon": 20000,
+    "continuation": 2101,
+    "allocation": "U",
+    "checkpoint": {
+      "path": "D:\\robot_practice_allocation_runs\\10_independent_seed_checkpoint_study_v1\\results\\20261008T081301Z_e03_b26922\\E1_A_s11_c200_r2101_U_t20\\a01_475307\\checkpoint",
+      "manifest_sha256": "d59257c50502c26f299b66443f44b77e2e5b9f0ded88d54c922f6df5380a4751"
+    },
+    "raw_path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\28_gradient_update_screening_v1\\results\\20261014T070649Z_smoke_cb0ca422\\raw\\E1_A_s11_c200_r2101_U_t20.json",
+    "raw_sha256": "d526782b8ace4bebba7b8bf2fb9d266787df4e9b62643d888faf0761077e03f8",
+    "wall_seconds": 1.47738009999739,
+    "compute_wall_seconds": 0.9754350999719463,
+    "gpu_compute_seconds": 0.9750137405395508,
+    "virtual_optimizer_steps": 64,
+    "gradient_evaluations": 128,
+    "unique_replay_transitions": 8192,
+    "model_state_hash": "d399ef2fed58eb15d86920cd7d6ad68fe8e59d6025ef661d517bb36e9c49f7c5",
+    "replay_state_hash": "70a7dd6e7d0a3ac0fd36f661eda2138c2ce7f8432c859f0b8fdce7c59fe8233c"
+  },
+  {
+    "id": "E1_A_s11_c200_r2101_F_DO_t20",
+    "suite": "A",
+    "original_seed": 11,
+    "checkpoint_step": 200000,
+    "horizon": 20000,
+    "continuation": 2101,
+    "allocation": "F_DO",
+    "checkpoint": {
+      "path": "D:\\robot_practice_allocation_runs\\10_independent_seed_checkpoint_study_v1\\results\\20261008T081301Z_e03_b26922\\E1_A_s11_c200_r2101_F_DO_t20\\a01_34c301\\checkpoint",
+      "manifest_sha256": "be714f71455a3a4922673ef7e15d2b18e2e50aab95d348082bfc811b95051577"
+    },
+    "raw_path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\28_gradient_update_screening_v1\\results\\20261014T070649Z_smoke_cb0ca422\\raw\\E1_A_s11_c200_r2101_F_DO_t20.json",
+    "raw_sha256": "b80ec62469a1f492e8d6cd2fc66de5342193f028a90d542854ca17b9ac2fc02d",
+    "wall_seconds": 1.577649399987422,
+    "compute_wall_seconds": 1.0778429000056349,
+    "gpu_compute_seconds": 1.0773528518676758,
+    "virtual_optimizer_steps": 64,
+    "gradient_evaluations": 128,
+    "unique_replay_transitions": 8192,
+    "model_state_hash": "410779e91723a810f16691280a92a724c0380a27756d3ba3857f03aaf30917a4",
+    "replay_state_hash": "2a57a1f35915338eef39aee70d0debe8c1bc2dc81473350aa09343d9f36b18ad"
+  }
+]

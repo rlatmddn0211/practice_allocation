@@ -1,0 +1,40 @@
+{
+  "id": "F08_B_r3801_dose25_outcome",
+  "factor": "F08",
+  "suite": "B",
+  "kind": "evaluate",
+  "original_seed": 12,
+  "condition": "dose25",
+  "continuation": 3801,
+  "horizon": 40000,
+  "evaluation": {
+    "episodes": 400,
+    "environment_steps": 129143,
+    "seconds": 236.29898590000812,
+    "steps_per_second": 546.5237165877975,
+    "success_by_task": {
+      "DO": 0.0,
+      "DC": 1.0,
+      "PU": 0.0,
+      "BP": 0.52
+    },
+    "macro_success": 0.38,
+    "success_counts": {
+      "DO": 0,
+      "DC": 100,
+      "PU": 0,
+      "BP": 52
+    },
+    "episodes_by_task": {
+      "DO": 100,
+      "DC": 100,
+      "PU": 100,
+      "BP": 100
+    },
+    "results_hash": "43466f98775b931b7666e5e428e25cd59ed04b04a002f40dfacf1a2351af4435",
+    "purpose": "F08 developmental controlled comparison"
+  },
+  "evaluation_state_unchanged": true,
+  "episodes_path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\32_dose_order_intervention_v1\\results\\20261015T034631Z_remaining_0ce5f69e\\F08_B_r3801_dose25_outcome\\a01_56237ba8\\evaluation_episodes.csv",
+  "episodes_sha256": "618ae2ad9f6513b90ae3c9dbe3e4b9e4f9d405c9b33261a034ce3bce34b8d823"
+}

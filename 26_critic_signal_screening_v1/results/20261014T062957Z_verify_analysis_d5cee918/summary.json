@@ -1,0 +1,47 @@
+{
+  "status": "completed",
+  "source": "26_critic_signal_screening_v1\\results\\20261014T062648Z_analysis_4a05b167",
+  "raw_evaluation_rows": 148800,
+  "features_verified": 180,
+  "ridge_fits_verified": 15,
+  "predictions_verified": 900,
+  "selections_verified": 648,
+  "choice_changes": [
+    {
+      "mode": "same_repeat",
+      "method": "Base_scale_F05",
+      "changed_choices_of36": 0
+    },
+    {
+      "mode": "same_repeat",
+      "method": "Base_scale_F05_audit_panel",
+      "changed_choices_of36": 0
+    },
+    {
+      "mode": "same_repeat",
+      "method": "Base_scale_raw_F05",
+      "changed_choices_of36": 1
+    },
+    {
+      "mode": "cross_repeat",
+      "method": "Base_scale_F05",
+      "changed_choices_of36": 0
+    },
+    {
+      "mode": "cross_repeat",
+      "method": "Base_scale_F05_audit_panel",
+      "changed_choices_of36": 0
+    },
+    {
+      "mode": "cross_repeat",
+      "method": "Base_scale_raw_F05",
+      "changed_choices_of36": 0
+    }
+  ],
+  "wall_seconds": 0.5193647000123747,
+  "cpu_seconds": 0.125,
+  "checks_passed": 13233,
+  "checks_failed": 0,
+  "new_environment_steps": 0,
+  "new_learner_updates": 0
+}

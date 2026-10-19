@@ -1,0 +1,13 @@
+﻿suite,original_seed,checkpoint_step,winner20,winner40,winner_same,boundary_task_policy_cells,total_task_policy_cells
+A,11,200000,F_WC,U,False,57,120
+A,11,400000,U,F_WO,False,57,120
+A,12,200000,F_WO,F_WO,True,52,120
+A,12,400000,U,F_DC,False,68,120
+A,13,200000,F_DO,F_DO,True,50,120
+A,13,400000,F_WC,F_WO,False,45,120
+B,11,200000,F_BP,F_BP,True,57,120
+B,12,200000,F_BP,F_BP,True,67,120
+B,13,200000,F_DC,F_BP,False,68,120
+C,11,200000,F_BP,F_BP,True,53,120
+C,12,200000,F_BP,U,False,73,120
+C,13,200000,F_PP,F_PP,True,43,120

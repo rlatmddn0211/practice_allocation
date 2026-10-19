@@ -1,0 +1,10 @@
+{
+  "status": "failed",
+  "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\SS\\Projects\\robot_practice_allocation\\28_gradient_update_screening_v1\\verify_delivery.py\", line 27, in main\n    run.check('no experiment sys.path injection '+path.name,'sys.path.insert' not in path.read_text(encoding='utf-8'))\n  File \"C:\\Users\\SS\\Projects\\robot_practice_allocation\\28_gradient_update_screening_v1\\common.py\", line 61, in check\n    raise AssertionError(name + ': ' + str(detail))\nAssertionError: no experiment sys.path injection verify_delivery.py: None\n",
+  "wall_seconds": 0.38206450000870973,
+  "cpu_seconds": 0.046875,
+  "checks_passed": 94,
+  "checks_failed": 1,
+  "new_environment_steps": 0,
+  "new_learner_updates": 0
+}

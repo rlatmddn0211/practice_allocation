@@ -1,0 +1,29 @@
+{
+  "status": "completed",
+  "factor": "F06",
+  "audited_runs": 7,
+  "preserved_failed_runs": 1,
+  "prior_run_cost_totals": {
+    "wall_seconds": 362.29641429992625,
+    "cpu_seconds": 195.359375,
+    "clone_optimizer_steps": 16420,
+    "new_environment_steps": 0,
+    "new_persistent_learner_updates": 0,
+    "measured_cuda_event_seconds_only": 203.7900471191406,
+    "all_run_gpu_time_measured": false
+  },
+  "primary_screen_pass": false,
+  "scientific_decision": "defer_current_summary_features",
+  "local_document_links": 84,
+  "python_files_audited": 10,
+  "artifacts": 542,
+  "artifact_bytes": 228802031,
+  "clone_optimizer_steps": 0,
+  "scope": "Recorded source snapshots, local analysis inputs, documents and final artifact inventory. Original checkpoint payload integrity is covered by the completed measurement audit.",
+  "wall_seconds": 2.659239600005094,
+  "cpu_seconds": 0.375,
+  "checks_passed": 1272,
+  "checks_failed": 0,
+  "new_environment_steps": 0,
+  "new_learner_updates": 0
+}

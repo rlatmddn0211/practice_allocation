@@ -1,0 +1,7 @@
+﻿mode,comparator,increment_pp,case_only_lo_pp,case_only_hi_pp,scope
+same_repeat,Base_scale,0.0,0.0,0.0,"fixed learned policies, fits, diagnostic cases and selections; jointly resampled O cases only"
+same_repeat,Development_fixed,1.9907407407407405,1.2685185185185186,2.75,"fixed learned policies, fits, diagnostic cases and selections; jointly resampled O cases only"
+same_repeat,Greedy20,-0.39814814814814814,-0.6018518518518517,-0.19444444444444442,"fixed learned policies, fits, diagnostic cases and selections; jointly resampled O cases only"
+cross_repeat,Base_scale,0.0,0.0,0.0,"fixed learned policies, fits, diagnostic cases and selections; jointly resampled O cases only"
+cross_repeat,Development_fixed,1.1102230246251565e-16,-0.6388888888888887,0.6391203703703673,"fixed learned policies, fits, diagnostic cases and selections; jointly resampled O cases only"
+cross_repeat,Greedy20,-0.09259259259259259,-0.24999999999999994,0.0648148148148148,"fixed learned policies, fits, diagnostic cases and selections; jointly resampled O cases only"

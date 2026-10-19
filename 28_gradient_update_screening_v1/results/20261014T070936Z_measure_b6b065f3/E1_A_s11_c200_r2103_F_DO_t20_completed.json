@@ -1,0 +1,23 @@
+{
+  "id": "E1_A_s11_c200_r2103_F_DO_t20",
+  "suite": "A",
+  "original_seed": 11,
+  "checkpoint_step": 200000,
+  "horizon": 20000,
+  "continuation": 2103,
+  "allocation": "F_DO",
+  "checkpoint": {
+    "path": "D:\\robot_practice_allocation_runs\\10_independent_seed_checkpoint_study_v1\\results\\20261008T081301Z_e03_b26922\\E1_A_s11_c200_r2103_F_DO_t20\\a01_e0e0c1\\checkpoint",
+    "manifest_sha256": "e6554d326d9b17e4dc6ba17bc0d304e88af7228797e5008070e19ca08f0d6929"
+  },
+  "raw_path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\28_gradient_update_screening_v1\\results\\20261014T070936Z_measure_b6b065f3\\raw\\E1_A_s11_c200_r2103_F_DO_t20.json",
+  "raw_sha256": "8cc1ceca3610b723711c695bb89c99ef3564f66c44b8f081a8da65a7b150e031",
+  "wall_seconds": 1.6210677000053693,
+  "compute_wall_seconds": 1.1248646999592893,
+  "gpu_compute_seconds": 1.1243801879882813,
+  "virtual_optimizer_steps": 64,
+  "gradient_evaluations": 128,
+  "unique_replay_transitions": 8192,
+  "model_state_hash": "f84b6d13526d49cbfa0162af78022f48daf2ba1274abd809425d390fea6dd853",
+  "replay_state_hash": "a56f5d0e8a3277b51a634b1dc9a2efc287c1441b473d4c7336d4a5bd83e3ff0c"
+}

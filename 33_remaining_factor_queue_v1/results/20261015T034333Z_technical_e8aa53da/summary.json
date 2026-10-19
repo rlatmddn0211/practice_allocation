@@ -1,0 +1,122 @@
+{
+  "status": "completed",
+  "technical_smoke": true,
+  "jobs_completed": 7,
+  "actual_environment_steps_including_failed_attempts": 10866,
+  "actual_train_iterations_including_failed_attempts": 1000,
+  "worker_wall_seconds_sum": 62.92908310008352,
+  "worker_cpu_seconds_sum": 25.046875,
+  "costs": [
+    {
+      "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\31_fixed_horizon_alignment_v1\\results\\20261015T034333Z_technical_e8aa53da\\F05_A_bank\\a01_e43dd292\\costs.json",
+      "status": "completed",
+      "costs": {
+        "environment_creations": 12,
+        "resets": 12,
+        "environment_steps": 0,
+        "train_iterations": 0,
+        "evaluation_episodes": 0
+      },
+      "wall_seconds": 1.1037606000027154,
+      "cpu_seconds": 0.828125,
+      "cuda_event_seconds": null,
+      "technical_smoke": true
+    },
+    {
+      "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\31_fixed_horizon_alignment_v1\\results\\20261015T034333Z_technical_e8aa53da\\F05_E1_A_s12_c200_base\\a01_c9ceb544\\costs.json",
+      "status": "completed",
+      "costs": {
+        "environment_creations": 12,
+        "resets": 12,
+        "environment_steps": 6000,
+        "train_iterations": 0,
+        "evaluation_episodes": 12
+      },
+      "wall_seconds": 15.859991500008618,
+      "cpu_seconds": 6.546875,
+      "cuda_event_seconds": null,
+      "technical_smoke": true
+    },
+    {
+      "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\32_dose_order_intervention_v1\\results\\20261015T034333Z_technical_e8aa53da\\F08_A_bank\\a01_d47cbd4f\\costs.json",
+      "status": "completed",
+      "costs": {
+        "environment_creations": 16,
+        "resets": 16,
+        "environment_steps": 0,
+        "train_iterations": 0,
+        "evaluation_episodes": 0
+      },
+      "wall_seconds": 1.2051611000206321,
+      "cpu_seconds": 0.859375,
+      "cuda_event_seconds": null,
+      "gpu_timing": "not instrumented; same device recorded in runtime",
+      "technical_smoke": true
+    },
+    {
+      "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\32_dose_order_intervention_v1\\results\\20261015T034333Z_technical_e8aa53da\\F08_A_base_outcome\\a01_898dc2c2\\costs.json",
+      "status": "completed",
+      "costs": {
+        "environment_creations": 8,
+        "resets": 8,
+        "environment_steps": 1826,
+        "train_iterations": 0,
+        "evaluation_episodes": 8
+      },
+      "wall_seconds": 6.821686700015562,
+      "cpu_seconds": 2.875,
+      "cuda_event_seconds": null,
+      "gpu_timing": "not instrumented; same device recorded in runtime",
+      "technical_smoke": true
+    },
+    {
+      "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\32_dose_order_intervention_v1\\results\\20261015T034333Z_technical_e8aa53da\\F08_A_r3801_dose4375_outcome\\a01_0c66e6b2\\costs.json",
+      "status": "completed",
+      "costs": {
+        "environment_creations": 8,
+        "resets": 8,
+        "environment_steps": 2040,
+        "train_iterations": 0,
+        "evaluation_episodes": 8
+      },
+      "wall_seconds": 7.638424500008114,
+      "cpu_seconds": 3.265625,
+      "cuda_event_seconds": null,
+      "gpu_timing": "not instrumented; same device recorded in runtime",
+      "technical_smoke": true
+    },
+    {
+      "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\32_dose_order_intervention_v1\\results\\20261015T034333Z_technical_e8aa53da\\F08_A_r3801_dose4375_t1000\\a01_41879621\\costs.json",
+      "status": "completed",
+      "costs": {
+        "environment_creations": 1,
+        "resets": 1,
+        "environment_steps": 500,
+        "train_iterations": 500,
+        "evaluation_episodes": 0
+      },
+      "wall_seconds": 15.234486600005766,
+      "cpu_seconds": 5.4375,
+      "cuda_event_seconds": null,
+      "gpu_timing": "not instrumented; same device recorded in runtime",
+      "technical_smoke": true
+    },
+    {
+      "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\32_dose_order_intervention_v1\\results\\20261015T034333Z_technical_e8aa53da\\F08_A_r3801_dose4375_t500\\a01_6d482df5\\costs.json",
+      "status": "completed",
+      "costs": {
+        "environment_creations": 1,
+        "resets": 1,
+        "environment_steps": 500,
+        "train_iterations": 500,
+        "evaluation_episodes": 0
+      },
+      "wall_seconds": 15.06557210002211,
+      "cpu_seconds": 5.234375,
+      "cuda_event_seconds": null,
+      "gpu_timing": "not instrumented; same device recorded in runtime",
+      "technical_smoke": true
+    }
+  ],
+  "note": "Technical preflights and analysis CPU costs retained in their separate run summaries; no GPU busy-time measurement."
+}

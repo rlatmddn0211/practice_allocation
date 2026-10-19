@@ -1,0 +1,16 @@
+{
+  "status": "completed",
+  "source": "26_critic_signal_screening_v1\\results\\20261014T062246Z_measure_10dac0ac",
+  "snapshots": 192,
+  "raw_transitions": 1572864,
+  "max_float32_target_reconstruction_difference": 0.0009434720532226493,
+  "max_float32_target_sd_reconstruction_difference": 0.0005340171269239136,
+  "max_sd_error_to_float32_bound": 0.16530052418698352,
+  "technical_smoke_source": false,
+  "wall_seconds": 21.147509900009027,
+  "cpu_seconds": 9.390625,
+  "checks_passed": 24195,
+  "checks_failed": 0,
+  "new_environment_steps": 0,
+  "new_learner_updates": 0
+}

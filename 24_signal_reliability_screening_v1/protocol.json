@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "created_on": "2026-10-14",
+  "scope": "F07 only: retrospective reliability analysis on frozen E1/E3; no RL or new environment evaluation",
+  "stages": ["E1", "E3"],
+  "suites": {"A": ["DO", "DC", "WO", "WC"], "B": ["DO", "DC", "PU", "BP"], "C": ["DO", "PP", "PU", "BP"]},
+  "original_seeds": [11, 12, 13],
+  "checkpoints": {"A": [200000, 400000], "B": [200000], "C": [200000]},
+  "continuations": {"A": [2101, 2102, 2103], "B": [2301, 2302, 2303], "C": [2301, 2302, 2303]},
+  "horizons": [20000, 40000],
+  "case_split": "Within each suite/task, sort the 100 outcome cases by SHA256('F07-v1|'+suite+'|'+task+'|'+initial_state_hash). First 50 are diagnostic development pool D; last 50 are held-out scoring pool O. Same split across all policies/horizons/seeds. No success or return used in the split. These remain previously seen research data, not a new blind experiment.",
+  "small_bank_cases_per_task": [2, 5, 10, 20, 50],
+  "subset_draws": 2000,
+  "subset_seed": 2407101,
+  "bootstrap_draws": 5000,
+  "bootstrap_seed": 2407102,
+  "subset_sampling": "without replacement from D; paired across tasks' policy comparisons and nested across sample sizes; independent per task; common draws across contexts in a suite",
+  "tie_priority": "Uniform, then the suite's task order; track exact ties",
+  "development_fixed": "Choose allocation by mean 40k macro on D only from the other two original seeds, same suite/checkpoint, all three continuations. Exclude held-out original seed entirely; no O outcomes used.",
+  "modes": [
+    "measurement_only_20",
+    "cross_repeat_20",
+    "cross_repeat_20_to_40",
+    "cross_repeat_40",
+    "same_trajectory_20_to_40"
+  ],
+  "mode_definitions": {
+    "measurement_only_20": "Select with two continuations at 20k, score the same two continuations at 20k on O: finite-case selection uncertainty.",
+    "cross_repeat_20": "Same selector as measurement_only_20, score the third continuation at 20k on O.",
+    "cross_repeat_20_to_40": "Same selector as measurement_only_20, score the third continuation at 40k on O. Primary retrospective transfer target.",
+    "cross_repeat_40": "Select with two continuations at 40k, score the third at 40k on O. Expensive diagnostic reference, unavailable at 20k.",
+    "same_trajectory_20_to_40": "Select using one continuation at 20k, score that continuation at 40k on O. Retrospective same-trajectory sensitivity."
+  },
+  "methods": ["Uniform", "Development_fixed", "Greedy", "Gap2_Uniform", "Reliability_Uniform", "Gap2_Development_fixed", "Reliability_Development_fixed"],
+  "reliability_rule": {
+    "raw_gap_min_pp": 2.0,
+    "symmetric_dirichlet_prior_total": 1.0,
+    "paired_difference_support": "For k diagnostic continuations, support is -1,-1+1/k,...,1 with equal prior mass, applied separately by task. Average continuations within each matched case before counting; do not count them as independent evaluation cases.",
+    "lower_score_z": 1.6448536269514722,
+    "rule": "Switch from the fallback only if raw macro gap >=2pp, the paired regularized posterior mean minus z times posterior SD is positive, and the chosen allocation beats fallback in every diagnostic continuation. Otherwise retain fallback.",
+    "meaning": "Predeclared heuristic, not a calibrated confidence interval or future-success probability. Prior prevents zero uncertainty in all-zero/all-one samples; repeated learning uncertainty is only screened by agreement.",
+    "gap_only_control": "Same fallback and 2pp raw gap threshold, without uncertainty/agreement terms."
+  },
+  "primary": {"mode": "cross_repeat_20_to_40", "cases_per_task": 2, "method": "Reliability_Development_fixed", "comparators": ["Greedy", "Development_fixed", "Gap2_Development_fixed"]},
+  "secondary_cases_per_task": 20,
+  "aggregation": "Report A200,A400,B200,C200 separately. Pooled result gives A/B/C equal weight; within A average its two checkpoints; then equal original-seed weight. Monte Carlo draws are not independent training repetitions.",
+  "uncertainty": "Report all three original-seed values and their range, without claiming a well-estimated population interval from three seeds. Conditional paired case bootstrap fixes trained policies and resamples cases jointly across all policies, continuations and horizons within task. Pointwise intervals are descriptive; additionally show per-context simultaneous max-standardized bands across 20 horizon/pair contrasts. No global familywise claim across all contexts. Zero empirical case variance does not imply zero population uncertainty.",
+  "horizon_reversal": "Opposite strict signs for an allocation pair's mean 20k vs 40k difference; >=2pp magnitude at both horizons is secondary. Conditional robust reversal requires opposite-sign intervals excluding zero. Confirm variability across individual continuations separately.",
+  "variance_comparison": "Compare observed continuation SD of paired macro differences on the fixed 100-case bank to RMS conditional case SE for a single continuation. This is not an additive causal variance decomposition.",
+  "costs": "New environment and learner steps are zero. Record actual CPU/wall time, source and input hashes, package versions and failures. Record simulated diagnostic evaluation cost using observed episode lengths and all diagnostic policy evaluations; 20k/40k all-allocation probes remain costly offline references. Do not fabricate equal-budget net gains from full-40k outcomes.",
+  "forbidden_claims": ["validated low-cost 4k selector", "independent confirmation", "causal mechanism identified", "2000 independent RL runs", "conditional case bootstrap is uncertainty over new pretrained seeds"],
+  "initial_inspection_notes": ["Two guessed marker names did not exist during schema discovery; actual discovered IDs use E1_A_bank and *_e20. No experiment files changed."]
+}

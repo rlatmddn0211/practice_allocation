@@ -1,0 +1,715 @@
+{
+  "status": "completed",
+  "checks": [
+    {
+      "kind": "local_link",
+      "file": "README.md",
+      "target": "LOCAL_PRACTICE_ALLOCATION_PILOT_DESIGN_20261007.md",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "README.md",
+      "target": "22_candidate_factor_grounding_v1/research_development_ko.md",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "README.md",
+      "target": "22_candidate_factor_grounding_v1/candidate_factors_ko.md",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "README.md",
+      "target": "23_candidate_factor_screening_design_v1/research_design_ko.md",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "README.md",
+      "target": "24_signal_reliability_screening_v1/report_ko.md",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "README.md",
+      "target": "26_critic_signal_screening_v1/report_ko.md",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "README.md",
+      "target": "31_fixed_horizon_alignment_v1/README.md",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "README.md",
+      "target": "36_all_candidate_evidence_review_v1/report_ko.md",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "README.md",
+      "target": "27_success_retention_screening_v1/report_ko.md",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "README.md",
+      "target": "28_gradient_update_screening_v1/report_ko.md",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "README.md",
+      "target": "29_neural_plasticity_screening_v1/report_ko.md",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "README.md",
+      "target": "30_exposure_experience_screening_v1/report_ko.md",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "README.md",
+      "target": "33_remaining_factor_queue_v1/README.md",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "README.md",
+      "target": "32_dose_order_intervention_v1/README.md",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "README.md",
+      "target": "33_remaining_factor_queue_v1/ACTIVE_CAMPAIGN.json",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "README.md",
+      "target": "37_f08_integrated_candidate_review_v1/factor_status_ko.md",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "README.md",
+      "target": "25_candidate_factor_evidence_register_v1/README.md",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "README.md",
+      "target": "34_completed_factor_clue_review_v1/report_ko.md",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "README.md",
+      "target": "36_all_candidate_evidence_review_v1/report_ko.md",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "README.md",
+      "target": "37_f08_integrated_candidate_review_v1/report_ko.md",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "README.md",
+      "target": "01_implementation_validation_v1/README.md",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "README.md",
+      "target": "02_p0_uniform_pretraining_v1/README.md",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "README.md",
+      "target": "03_p0_pretraining_analysis_v1/README.md",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "README.md",
+      "target": "04_p0_allocation_branches_v1/README.md",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "README.md",
+      "target": "05_results_github_archive_v1/README.md",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "README.md",
+      "target": "06_p0_branch_replication_v1/README.md",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "README.md",
+      "target": "07_p0_replication_analysis_v1/README.md",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "README.md",
+      "target": "08_followup_experiment_design_v1/README.md",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "README.md",
+      "target": "09_fresh_evaluation_audit_v1/README.md",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "README.md",
+      "target": "10_independent_seed_checkpoint_study_v1/README.md",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "README.md",
+      "target": "11_fixed_target_donor_swap_v1/README.md",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "README.md",
+      "target": "12_task_composition_study_v1/README.md",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "README.md",
+      "target": "13_e0_e3_autonomous_queue_v1/README.md",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "README.md",
+      "target": "14_power_interruption_audit_v1/",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "README.md",
+      "target": "15_verified_power_loss_recovery_v1/",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "README.md",
+      "target": "16_e0_e2_results_analysis_v1/",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "README.md",
+      "target": "17_e0_e2_detailed_research_report_v1/README.md",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "README.md",
+      "target": "18_practice_allocation_literature_review_v1/README.md",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "README.md",
+      "target": "19_budgeted_practice_research_feasibility_v1/README.md",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "README.md",
+      "target": "20_e0_e2_github_publication_v1/README.md",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "README.md",
+      "target": "21_e3_completed_results_analysis_v1/README.md",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "README.md",
+      "target": "22_candidate_factor_grounding_v1/README.md",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "README.md",
+      "target": "23_candidate_factor_screening_design_v1/README.md",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "README.md",
+      "target": "24_signal_reliability_screening_v1/README.md",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "README.md",
+      "target": "25_candidate_factor_evidence_register_v1/README.md",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "README.md",
+      "target": "26_critic_signal_screening_v1/README.md",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "README.md",
+      "target": "27_success_retention_screening_v1/README.md",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "README.md",
+      "target": "28_gradient_update_screening_v1/README.md",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "README.md",
+      "target": "29_neural_plasticity_screening_v1/README.md",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "README.md",
+      "target": "30_exposure_experience_screening_v1/README.md",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "README.md",
+      "target": "31_fixed_horizon_alignment_v1/README.md",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "README.md",
+      "target": "32_dose_order_intervention_v1/README.md",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "README.md",
+      "target": "33_remaining_factor_queue_v1/README.md",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "README.md",
+      "target": "34_completed_factor_clue_review_v1/README.md",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "README.md",
+      "target": "35_remaining_factor_progress_audit_v1/README.md",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "README.md",
+      "target": "36_all_candidate_evidence_review_v1/README.md",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "README.md",
+      "target": "37_f08_integrated_candidate_review_v1/README.md",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "README.md",
+      "target": "05_results_github_archive_v1/results/20261008T023322Z_complete_archive_6169480e/archive_manifest.json",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "README.md",
+      "target": "20_e0_e2_github_publication_v1/README.md",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "README.md",
+      "target": "19_budgeted_practice_research_feasibility_v1/research_plan_ko.md",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "README.md",
+      "target": "21_e3_completed_results_analysis_v1/report_ko.md",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "README.md",
+      "target": "03_p0_pretraining_analysis_v1/README.md",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "README.md",
+      "target": "04_p0_allocation_branches_v1/README.md",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "README.md",
+      "target": "06_p0_branch_replication_v1/README.md",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "README.md",
+      "target": "07_p0_replication_analysis_v1/README.md",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "37_f08_integrated_candidate_review_v1\\factor_status_ko.md",
+      "target": "../36_all_candidate_evidence_review_v1/factor_status_ko.md",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "37_f08_integrated_candidate_review_v1\\factor_status_ko.md",
+      "target": "../25_candidate_factor_evidence_register_v1/README.md",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "37_f08_integrated_candidate_review_v1\\factor_status_ko.md",
+      "target": "../27_success_retention_screening_v1/report_ko.md",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "37_f08_integrated_candidate_review_v1\\factor_status_ko.md",
+      "target": "../30_exposure_experience_screening_v1/report_ko.md",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "37_f08_integrated_candidate_review_v1\\factor_status_ko.md",
+      "target": "../30_exposure_experience_screening_v1/report_ko.md",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "37_f08_integrated_candidate_review_v1\\factor_status_ko.md",
+      "target": "../31_fixed_horizon_alignment_v1/results/20261015T100729Z_analysis_5fa7ae88/report_ko.md",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "37_f08_integrated_candidate_review_v1\\factor_status_ko.md",
+      "target": "../28_gradient_update_screening_v1/report_ko.md",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "37_f08_integrated_candidate_review_v1\\factor_status_ko.md",
+      "target": "../26_critic_signal_screening_v1/report_ko.md",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "37_f08_integrated_candidate_review_v1\\factor_status_ko.md",
+      "target": "../36_all_candidate_evidence_review_v1/factor_status_ko.md",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "37_f08_integrated_candidate_review_v1\\factor_status_ko.md",
+      "target": "../29_neural_plasticity_screening_v1/report_ko.md",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "37_f08_integrated_candidate_review_v1\\factor_status_ko.md",
+      "target": "../24_signal_reliability_screening_v1/report_ko.md",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "37_f08_integrated_candidate_review_v1\\factor_status_ko.md",
+      "target": "../32_dose_order_intervention_v1/results/20261016T071742Z_analysis_3cb34e0e/report_ko.md",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "37_f08_integrated_candidate_review_v1\\factor_status_ko.md",
+      "target": "report_ko.md",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "37_f08_integrated_candidate_review_v1\\factor_status_ko.md",
+      "target": "../32_dose_order_intervention_v1/results/20261016T071747Z_verify_analysis_3394c755/summary.json",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "37_f08_integrated_candidate_review_v1\\factor_status_ko.md",
+      "target": "results/20261019T024708Z_review_cef06973/contrast_review.csv",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "37_f08_integrated_candidate_review_v1\\factor_status_ko.md",
+      "target": "results/20261019T024708Z_review_cef06973/F08_cost_receipts.csv",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "37_f08_integrated_candidate_review_v1\\factor_status_ko.md",
+      "target": "../32_dose_order_intervention_v1/protocol.json",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "37_f08_integrated_candidate_review_v1\\factor_status_ko.md",
+      "target": "../33_remaining_factor_queue_v1/results/20261015T034631Z_remaining_0ce5f69e/plan.json",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "37_f08_integrated_candidate_review_v1\\factor_status_ko.md",
+      "target": "results/20261019T024708Z_review_cef06973/outcome_provenance.csv",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "37_f08_integrated_candidate_review_v1\\factor_status_ko.md",
+      "target": "results/20261019T024708Z_review_cef06973/input_hashes.json",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "37_f08_integrated_candidate_review_v1\\factor_status_ko.md",
+      "target": "results/20261019T024708Z_review_cef06973/source_hashes.json",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "37_f08_integrated_candidate_review_v1\\factor_status_ko.md",
+      "target": "technical_notes_ko.md",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "37_f08_integrated_candidate_review_v1\\README.md",
+      "target": "../36_all_candidate_evidence_review_v1/README.md",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "37_f08_integrated_candidate_review_v1\\README.md",
+      "target": "report_ko.md",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "37_f08_integrated_candidate_review_v1\\README.md",
+      "target": "factor_status_ko.md",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "37_f08_integrated_candidate_review_v1\\README.md",
+      "target": "results/20261019T024807Z_figure_e8001806/F08_all_branches.png",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "37_f08_integrated_candidate_review_v1\\README.md",
+      "target": "results/20261019T024807Z_figure_e8001806/F08_all_branches.svg",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "37_f08_integrated_candidate_review_v1\\README.md",
+      "target": "results/20261019T024708Z_review_cef06973/condition_means.csv",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "37_f08_integrated_candidate_review_v1\\README.md",
+      "target": "results/20261019T024708Z_review_cef06973/contrast_review.csv",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "37_f08_integrated_candidate_review_v1\\README.md",
+      "target": "results/20261019T024708Z_review_cef06973/contrast_task_means.csv",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "37_f08_integrated_candidate_review_v1\\README.md",
+      "target": "results/20261019T024708Z_review_cef06973/summary.json",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "37_f08_integrated_candidate_review_v1\\README.md",
+      "target": "results/20261019T024727Z_verify_8ec46ef7/summary.json",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "37_f08_integrated_candidate_review_v1\\README.md",
+      "target": "protocol.json",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "37_f08_integrated_candidate_review_v1\\README.md",
+      "target": "technical_notes_ko.md",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "37_f08_integrated_candidate_review_v1\\report_ko.md",
+      "target": "../36_all_candidate_evidence_review_v1/report_ko.md",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "37_f08_integrated_candidate_review_v1\\report_ko.md",
+      "target": "../32_dose_order_intervention_v1/protocol.json",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "37_f08_integrated_candidate_review_v1\\report_ko.md",
+      "target": "results/20261019T024708Z_review_cef06973/branch_scores.csv",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "37_f08_integrated_candidate_review_v1\\report_ko.md",
+      "target": "results/20261019T024807Z_figure_e8001806/F08_all_branches.png",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "37_f08_integrated_candidate_review_v1\\report_ko.md",
+      "target": "results/20261019T024708Z_review_cef06973/contrast_review.csv",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "37_f08_integrated_candidate_review_v1\\report_ko.md",
+      "target": "results/20261019T024708Z_review_cef06973/contrast_task_means.csv",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "37_f08_integrated_candidate_review_v1\\report_ko.md",
+      "target": "../36_all_candidate_evidence_review_v1/factor_status_ko.md",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "37_f08_integrated_candidate_review_v1\\report_ko.md",
+      "target": "results/20261019T024708Z_review_cef06973/F08_cost_receipts.csv",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "37_f08_integrated_candidate_review_v1\\report_ko.md",
+      "target": "results/20261019T024708Z_review_cef06973/summary.json",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "37_f08_integrated_candidate_review_v1\\report_ko.md",
+      "target": "results/20261019T024727Z_verify_8ec46ef7/summary.json",
+      "passed": true
+    },
+    {
+      "kind": "local_link",
+      "file": "37_f08_integrated_candidate_review_v1\\report_ko.md",
+      "target": "technical_notes_ko.md",
+      "passed": true
+    },
+    {
+      "kind": "original_three_factor_table",
+      "passed": true
+    }
+  ],
+  "artifact_hashes": {
+    "README.md": "690aa46c394ebf8062e1eb7da0966db0c6872c26afe8fdaffe3eed37a21dc93c",
+    "37_f08_integrated_candidate_review_v1/factor_status_ko.md": "4d88b8f95d6b96b0d6dbb36884e06e79ec83af10df6ca45453244a9047647475",
+    "37_f08_integrated_candidate_review_v1/README.md": "ada0f18c69c889dcb17bbe45c7c1cb4338bea45f1883197adb6a59e7f83e3981",
+    "37_f08_integrated_candidate_review_v1/report_ko.md": "99f9e78be8e22fbfb50f600cf0ec235c9a5cc1d708085f907badeb3e6c72b8b9",
+    "37_f08_integrated_candidate_review_v1/technical_notes_ko.md": "a697826463d159bca4cbfb93bd83ff1c270b6275ba75c79072ab251b2be9b4e9",
+    "37_f08_integrated_candidate_review_v1/analyze.py": "f54cdc9598f67f4a9041ad7437541bf6edcc14df19b69511f736e6f527613fc2",
+    "37_f08_integrated_candidate_review_v1/check_delivery.py": "0abfd6e9df18c427f23be7734ed0cff50c69752a6a46247e02f7b69e8a3ca21f",
+    "37_f08_integrated_candidate_review_v1/plot.py": "7a131fabd6ee76a27631012d0d9b1fd7c7d864d0a40275f3fc0af8ba6b017f1d",
+    "37_f08_integrated_candidate_review_v1/verify.py": "f2d9e97abd8187e89acc547100ca8ead20f19dd5f43ad2cf39a5f0ee5e654042",
+    "37_f08_integrated_candidate_review_v1/protocol.json": "33ed5654ce85554acee748068e45f0334689ed4c3e69945fa71b6dcf13963251",
+    "37_f08_integrated_candidate_review_v1/results/20261019T024708Z_review_cef06973/branch_scores.csv": "03c6d9e270afb0e74a9b52caa2336bd49dc379c7d43233d3b57006af28f070a9",
+    "37_f08_integrated_candidate_review_v1/results/20261019T024708Z_review_cef06973/checks.json": "d140abbb373c31edf163727c3a70de26a4fa4eb7f382088d9a2125775b54cebb",
+    "37_f08_integrated_candidate_review_v1/results/20261019T024708Z_review_cef06973/condition_means.csv": "3d5b35dff5699f7ac4cfdb4c201e326af1c80f2160d7faac7f5011f220b75c2f",
+    "37_f08_integrated_candidate_review_v1/results/20261019T024708Z_review_cef06973/contrast_review.csv": "025fbd33d92622a6114248908e610fb67e3dd93a9bf58cf8778f1b41eed55b2f",
+    "37_f08_integrated_candidate_review_v1/results/20261019T024708Z_review_cef06973/contrast_task_means.csv": "dc1f36500d3682762a0c931a8e5351f3bc4bfd78ca7441b90ec047d7d18087d0",
+    "37_f08_integrated_candidate_review_v1/results/20261019T024708Z_review_cef06973/contrast_task_repeat.csv": "56900a548fd3aea61134b806139fc946126ccb2c640ccde0de7b47cb5ae3ca51",
+    "37_f08_integrated_candidate_review_v1/results/20261019T024708Z_review_cef06973/F08_cost_receipts.csv": "c359228700f1b15f4450b42adde60f695d47a26990d6a0a945c4d262a3428d05",
+    "37_f08_integrated_candidate_review_v1/results/20261019T024708Z_review_cef06973/F08_cost_summary.csv": "72d53105aabb327ff4e1c996250b04ed01548745000a34f66be62a7e47e83ad2",
+    "37_f08_integrated_candidate_review_v1/results/20261019T024708Z_review_cef06973/input_hashes.json": "5fd3aec8930a2c3a4941055a267a9ea9b9c3217b136f13bc687c10109e09d05f",
+    "37_f08_integrated_candidate_review_v1/results/20261019T024708Z_review_cef06973/outcome_provenance.csv": "eec148d89b2bc2f44d7e68192b7dae15ee5d832ffa611bd28af3ca6409b60987",
+    "37_f08_integrated_candidate_review_v1/results/20261019T024708Z_review_cef06973/parent_scores.csv": "3d46bd3920a0e2911d2103bed87bba230e724ba820ee179c98f5b5207abc9a59",
+    "37_f08_integrated_candidate_review_v1/results/20261019T024708Z_review_cef06973/prior_common_baseline_review.csv": "473f3058c1876f1b944f37c73fc56e22e999e42d8a134ced80a48a0515b95c3f",
+    "37_f08_integrated_candidate_review_v1/results/20261019T024708Z_review_cef06973/prior_comparisons.csv": "3fc2e8db9fb9eaa344f3a47dc187fff1df5672c2ce6c257984246d80d0d61229",
+    "37_f08_integrated_candidate_review_v1/results/20261019T024708Z_review_cef06973/prior_F07_reference_rules.csv": "99e75b8ef0e109df50f9561ff500f51f09db5acd0e5fe2514d5472cbb72ebab5",
+    "37_f08_integrated_candidate_review_v1/results/20261019T024708Z_review_cef06973/runtime.json": "d1d387d0bf868ce77d3931df5ffe880cc75e1489440ac3406d8576f9cfd83e19",
+    "37_f08_integrated_candidate_review_v1/results/20261019T024708Z_review_cef06973/source_hashes.json": "4a16716f0c16cc86fbb75c3302ab38b4c4a577b71a69fa398bfcc7c334875bd8",
+    "37_f08_integrated_candidate_review_v1/results/20261019T024708Z_review_cef06973/summary.json": "5eada9e609a34a4da5a474d3dd6efe7802b60727de0baf8d0a24b3182b4173e3",
+    "37_f08_integrated_candidate_review_v1/results/20261019T024708Z_review_cef06973/training_allocations.csv": "a5e043e071ef9a2b0d7bf8fc497c2c4a880d2676e11fde918f625502bf0e0c08",
+    "37_f08_integrated_candidate_review_v1/results/20261019T024727Z_verify_8ec46ef7/checks.json": "9d3c81b7b2610d40b39e1434e0f4398c6b91327913ce6d85a9f3c854886e5212",
+    "37_f08_integrated_candidate_review_v1/results/20261019T024727Z_verify_8ec46ef7/input_hashes.json": "2e91497c97ad2239bd22070443b70f22b61d65d93b4603d85c6b5dd944645908",
+    "37_f08_integrated_candidate_review_v1/results/20261019T024727Z_verify_8ec46ef7/runtime.json": "03b23ff05edc003acb8a6dc8a8c9942e689e667072ae4a8944487c46d7ae0a96",
+    "37_f08_integrated_candidate_review_v1/results/20261019T024727Z_verify_8ec46ef7/source_hashes.json": "4a16716f0c16cc86fbb75c3302ab38b4c4a577b71a69fa398bfcc7c334875bd8",
+    "37_f08_integrated_candidate_review_v1/results/20261019T024727Z_verify_8ec46ef7/summary.json": "bfbbde347421a58ae656675127523d835c5288c6ad95039e468a389cc5a3ba06",
+    "37_f08_integrated_candidate_review_v1/results/20261019T024807Z_figure_e8001806/F08_all_branches.png": "4388955f1e77bb6eb8b90a413ea8a516f0ed6d9074f6d75f61a7ed1c4ba022b1",
+    "37_f08_integrated_candidate_review_v1/results/20261019T024807Z_figure_e8001806/F08_all_branches.svg": "e8fc3bce8d421bfd04241239ca5b060a31146cd8213194c0b0c94bb766770e93",
+    "37_f08_integrated_candidate_review_v1/results/20261019T024807Z_figure_e8001806/summary.json": "e487101d09a5c4bb9b74e5e27c2440c5c1470ba4660143ff6565839cd090a655"
+  },
+  "python": "3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)]",
+  "dependencies": "standard library only",
+  "final_png_visual_inspection": "Performed via view_image: six panels, common scale, observed repeats, parent references, legend and footer; overlap fixed in second immutable output.",
+  "svg_browser_inspection": "not performed; same Matplotlib data export",
+  "new_environment_steps": 0,
+  "new_learner_updates": 0,
+  "wall_seconds": 0.04920969996601343,
+  "cpu_seconds": 0.0
+}

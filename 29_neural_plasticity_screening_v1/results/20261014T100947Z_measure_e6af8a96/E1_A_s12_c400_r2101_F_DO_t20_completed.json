@@ -1,0 +1,22 @@
+{
+  "id": "E1_A_s12_c400_r2101_F_DO_t20",
+  "suite": "A",
+  "original_seed": 12,
+  "checkpoint_step": 400000,
+  "horizon": 20000,
+  "continuation": 2101,
+  "allocation": "F_DO",
+  "checkpoint": {
+    "path": "D:\\robot_practice_allocation_runs\\10_independent_seed_checkpoint_study_v1\\results\\20261008T081301Z_e03_b26922\\E1_A_s12_c400_r2101_F_DO_t20\\a01_323bfb\\checkpoint",
+    "manifest_sha256": "babb7a9d7a916c592a48ce3a77c2fb127797f5b5340a977704ba8da7ff3e15b2"
+  },
+  "raw_path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\29_neural_plasticity_screening_v1\\results\\20261014T100947Z_measure_e6af8a96\\raw\\E1_A_s12_c400_r2101_F_DO_t20.json",
+  "raw_sha256": "ab37daf97f73b3bf7ebdc64b3e9f24d90f20bf2140e7080dac1f8914dba50d54",
+  "model_state_hash": "c2e9492bc8aa0da9e873952ef39effe2ded73f16244047495c875c9ae5d03c63",
+  "replay_state_hash": "908af809eacd42973571b619cca30694f2d30fae09374ffbdccc9fc481d92fa8",
+  "wall_seconds": 1.5353703000000678,
+  "compute_wall_seconds": 1.0368802000011783,
+  "gpu_compute_seconds": 1.03677001953125,
+  "clone_optimizer_steps": 80,
+  "panel_transition_entries": 8192
+}

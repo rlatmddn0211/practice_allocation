@@ -1,0 +1,7 @@
+﻿stage,contexts,branches,pretrain_env_steps,branch_train_or_inclusive_budget_steps,diagnostic_eval_episodes_outside_branch_budget,outcome_eval_episodes,diagnostic_eval_steps_max_outside_branch_budget,outcome_eval_steps_max,total_env_steps_max,note
+snapshot_only,12,0,0,0,0,0,0,0,0,No new environment steps; future diagnostic compute costs must be recorded.
+shared_4k_probe,12,180,0,720000,15360,0,7680000,0,8400000,Development only; new probes and old completions aggregate separately by parent/allocation.
+optional_4k_to_8k_increment,12,180,0,720000,14400,0,7200000,0,7920000,Incremental costs only; not included in the shared 4k row.
+optional_F08_pilot,3,72,0,2880000,240,30000,120000,15000000,18000000,Standalone upper bound; dose and sequence families use distinct controlled schedules.
+G3_confirmation_example,24,240,4800000,9600000,23040,105600,11520000,52800000,78720000,"N=8 is a costing example, not a power calculation; probe and final are the same trajectory."
+G4_online_example,24,336,4800000,13440000,3840,144000,1920000,72000000,92160000,In-run diagnostics/discarded probes are already inside each 40k budget; do not add them twice.

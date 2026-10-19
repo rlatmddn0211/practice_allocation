@@ -1,0 +1,67 @@
+{
+  "status": "completed",
+  "original_seed_count_per_suite": 1,
+  "original_seed": 12,
+  "continuations": [
+    3801,
+    3802,
+    3803
+  ],
+  "raw_outcome_rows": 30000,
+  "raw_training_episode_rows": 5760,
+  "branches": 72,
+  "predefined_contrasts": 21,
+  "parent_macro_pp": {
+    "A": 53.25,
+    "B": 27.750000000000004,
+    "C": 26.5
+  },
+  "below_parent_by_suite": {
+    "A": 1,
+    "B": 3,
+    "C": 19
+  },
+  "F08_costs": [
+    {
+      "kind": "bank",
+      "jobs": 3,
+      "environment_steps": 0,
+      "train_iterations": 0,
+      "wall_seconds": 82.02111109998077,
+      "cpu_seconds": 24.140625
+    },
+    {
+      "kind": "train",
+      "jobs": 144,
+      "environment_steps": 2880000,
+      "train_iterations": 2880000,
+      "wall_seconds": 57410.0287680999,
+      "cpu_seconds": 15805.0625
+    },
+    {
+      "kind": "evaluate",
+      "jobs": 78,
+      "environment_steps": 9495447,
+      "train_iterations": 0,
+      "wall_seconds": 17601.691331800073,
+      "cpu_seconds": 7043.15625
+    }
+  ],
+  "prior_original_seeds": [
+    11,
+    12,
+    13
+  ],
+  "prior_receipts_reused_not_new_replications": true,
+  "original_checkpoint_hashes_reverified": false,
+  "full_checkpoint_verification_reused": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\32_dose_order_intervention_v1\\results\\20261016T071747Z_verify_analysis_3394c755\\summary.json",
+  "new_environment_steps": 0,
+  "new_persistent_updates": 0,
+  "new_cloned_updates": 0,
+  "scientific_confirmation": false,
+  "cost_inclusive_policy_tested": false,
+  "wall_seconds": 6.367003099992871,
+  "cpu_seconds": 0.578125,
+  "checks_passed": 32358,
+  "checks_failed": 0
+}

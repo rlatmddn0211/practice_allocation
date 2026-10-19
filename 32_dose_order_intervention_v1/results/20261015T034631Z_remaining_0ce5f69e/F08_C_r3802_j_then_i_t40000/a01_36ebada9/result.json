@@ -1,0 +1,23 @@
+{
+  "id": "F08_C_r3802_j_then_i_t40000",
+  "factor": "F08",
+  "suite": "C",
+  "kind": "train",
+  "original_seed": 12,
+  "condition": "j_then_i",
+  "continuation": 3802,
+  "horizon": 40000,
+  "checkpoint": {
+    "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\32_dose_order_intervention_v1\\results\\20261015T034631Z_remaining_0ce5f69e\\F08_C_r3802_j_then_i_t40000\\a01_36ebada9\\checkpoint",
+    "manifest_sha256": "38ddfaa19032d2d0bd0d4a7431353923be0b9953d0a740d026ede7658c4e6ca1"
+  },
+  "step": 240000,
+  "collected": {
+    "DO": 2500,
+    "PP": 12500,
+    "PU": 2500,
+    "BP": 2500
+  },
+  "episode_order_verified": true,
+  "training_reset_audit": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\32_dose_order_intervention_v1\\results\\20261015T034631Z_remaining_0ce5f69e\\F08_C_r3802_j_then_i_t40000\\a01_36ebada9\\training_reset_audit.csv"
+}

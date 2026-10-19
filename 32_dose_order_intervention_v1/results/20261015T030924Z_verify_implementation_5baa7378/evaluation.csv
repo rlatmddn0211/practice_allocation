@@ -1,0 +1,5 @@
+evaluation_id,context,policy_type,bank,task,episode_index,seed,initial_state_hash,success,return,length
+technical,technical smoke,learned_sac,technical,DO,0,2856995703,de152175d39b733cc1daf63394b6476b5d5fc16db3bbbec658a746a750c1aaaa,0,1347.1963470248616,500
+technical,technical smoke,learned_sac,technical,DC,0,3379096975,0b3c818c7bbd6e9e4a572a2e7e934455192685f06409232e82839c51a2497fea,1,10.0,17
+technical,technical smoke,learned_sac,technical,WO,0,2787478298,8862fd5485e96a84fecfcdb7bf7ec0095dddf5cec3bcd388e8e257c14eb4af83,0,228.40597027014223,500
+technical,technical smoke,learned_sac,technical,WC,0,2852554783,39bc88d3c63c9fc2d8d41b6cb0cd6776b2010a979e01fe076b20c1f968192044,1,228.33426112866636,112

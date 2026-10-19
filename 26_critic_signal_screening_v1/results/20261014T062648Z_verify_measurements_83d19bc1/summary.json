@@ -1,0 +1,10 @@
+{
+  "status": "failed",
+  "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\SS\\Projects\\robot_practice_allocation\\26_critic_signal_screening_v1\\verify_measurements.py\", line 41, in main\n    run.check('target action variation',np.allclose(targets.std(0,ddof=1),a['target_mc_sd'],atol=2e-4,rtol=2e-5))\n  File \"C:\\Users\\SS\\Projects\\robot_practice_allocation\\26_critic_signal_screening_v1\\common.py\", line 61, in check\n    raise AssertionError(name + ': ' + str(detail))\nAssertionError: target action variation: None\n",
+  "wall_seconds": 11.384007799992105,
+  "cpu_seconds": 6.0,
+  "checks_passed": 14193,
+  "checks_failed": 1,
+  "new_environment_steps": 0,
+  "new_learner_updates": 0
+}

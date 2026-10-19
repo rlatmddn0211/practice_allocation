@@ -1,0 +1,166 @@
+{
+  "status": "completed",
+  "factor": "F04",
+  "measurement": "28_gradient_update_screening_v1/results/20261014T070936Z_measure_b6b065f3",
+  "feature_rows": 180,
+  "diagnostics": {
+    "measurement": "28_gradient_update_screening_v1\\results\\20261014T070936Z_measure_b6b065f3",
+    "snapshots": 192,
+    "stability": [
+      {
+        "module": "actor",
+        "branches": 180,
+        "panel_spearman": 0.8272518699136803,
+        "panel_sign_agreement_pct": 97.77777777777777,
+        "mixed_batch_sign_branches": 23,
+        "mean_negative_raw_pair_pct": 35.59027777777778,
+        "median_gradient_norm_ratio": 2.237935029961434,
+        "negative_mean_adam_descent_branches": 3
+      },
+      {
+        "module": "critic",
+        "branches": 180,
+        "panel_spearman": 0.9438007345905737,
+        "panel_sign_agreement_pct": 92.77777777777779,
+        "mixed_batch_sign_branches": 51,
+        "mean_negative_raw_pair_pct": 29.386574074074073,
+        "median_gradient_norm_ratio": 5.434010520219273,
+        "negative_mean_adam_descent_branches": 27
+      }
+    ],
+    "measurement_costs": {
+      "status": "completed",
+      "technical_smoke": false,
+      "snapshots": 192,
+      "batch_rows": 6144,
+      "task_batch_rows": 12288,
+      "unique_replay_transitions": 1572864,
+      "gradient_evaluations": 24576,
+      "virtual_optimizer_steps": 12288,
+      "gpu_compute_seconds": 211.27449172973633,
+      "device": "cuda",
+      "gpu": "NVIDIA GeForce RTX 3070",
+      "wall_seconds": 334.46515099998214,
+      "cpu_seconds": 168.21875,
+      "checks_passed": 9974,
+      "checks_failed": 0,
+      "new_environment_steps": 0,
+      "new_learner_updates": 0
+    }
+  },
+  "primary": {
+    "mode": "same_repeat",
+    "method": "CriticBase_F04",
+    "score_pp": 45.18518518518518,
+    "vs_uniform_pp": 2.7870370370370368,
+    "vs_fixed_pp": 2.2870370370370376,
+    "vs_base_pp": 0.06481481481481495,
+    "vs_greedy_pp": -0.10185185185185172,
+    "absolute_gain_pp": 3.851851851851852,
+    "hindsight_regret_pp": 3.972222222222223,
+    "max_task_drop_pp": 10.481481481481483,
+    "probe_training_steps": 100000.00000000003,
+    "total_training_steps": 120000.0,
+    "parent_D_eval_steps": 62710.88888888889,
+    "probe_D_eval_steps": 309081.9444444445,
+    "changed_choices": 3,
+    "choices": 36
+  },
+  "original_seed_increments_pp": [
+    0.1944444444444448,
+    0.0,
+    0.0
+  ],
+  "group_increments_pp": [
+    -1.8333333333333326,
+    2.2222222222222223,
+    0.0,
+    0.0
+  ],
+  "operational_screen_pass": false,
+  "prediction_metrics": [
+    {
+      "method": "Profile",
+      "O40_MAE_pp": 6.452132152393171
+    },
+    {
+      "method": "CriticBase",
+      "O40_MAE_pp": 6.46125113120853
+    },
+    {
+      "method": "CriticBase_cosine",
+      "O40_MAE_pp": 6.406540246473611
+    },
+    {
+      "method": "CriticBase_raw",
+      "O40_MAE_pp": 6.384829612463534
+    },
+    {
+      "method": "CriticBase_F04",
+      "O40_MAE_pp": 6.492826313128201
+    },
+    {
+      "method": "CriticBase_F04_audit",
+      "O40_MAE_pp": 6.459230338456766
+    },
+    {
+      "method": "CriticBase_F04_uniform",
+      "O40_MAE_pp": 6.492236406228166
+    },
+    {
+      "method": "Profile_F04",
+      "O40_MAE_pp": 6.487869524216463
+    }
+  ],
+  "conditional_intervals": [
+    {
+      "mode": "same_repeat",
+      "comparator": "CriticBase",
+      "increment_pp": 0.06481481481481483,
+      "case_only_lo_pp": -0.16666666666666663,
+      "case_only_hi_pp": 0.31481481481481477
+    },
+    {
+      "mode": "same_repeat",
+      "comparator": "Greedy20",
+      "increment_pp": -0.10185185185185186,
+      "case_only_lo_pp": -0.3333333333333332,
+      "case_only_hi_pp": 0.1296296296296296
+    },
+    {
+      "mode": "same_repeat",
+      "comparator": "Development_fixed",
+      "increment_pp": 2.2870370370370368,
+      "case_only_lo_pp": 1.60162037037037,
+      "case_only_hi_pp": 2.9629629629629624
+    },
+    {
+      "mode": "cross_repeat",
+      "comparator": "CriticBase",
+      "increment_pp": 0.11111111111111109,
+      "case_only_lo_pp": -0.009259259259259266,
+      "case_only_hi_pp": 0.24074074074074073
+    },
+    {
+      "mode": "cross_repeat",
+      "comparator": "Greedy20",
+      "increment_pp": 0.8240740740740741,
+      "case_only_lo_pp": 0.4444444444444443,
+      "case_only_hi_pp": 1.1944444444444444
+    },
+    {
+      "mode": "cross_repeat",
+      "comparator": "Development_fixed",
+      "increment_pp": 0.9166666666666665,
+      "case_only_lo_pp": 0.2407407407407408,
+      "case_only_hi_pp": 1.6018518518518516
+    }
+  ],
+  "independent_confirmation": false,
+  "wall_seconds": 1.1670221999811474,
+  "cpu_seconds": 0.359375,
+  "checks_passed": 6591,
+  "checks_failed": 0,
+  "new_environment_steps": 0,
+  "new_learner_updates": 0
+}

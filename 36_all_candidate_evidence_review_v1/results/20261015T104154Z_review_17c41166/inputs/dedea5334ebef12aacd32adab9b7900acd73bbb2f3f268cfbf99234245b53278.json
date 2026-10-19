@@ -1,0 +1,25 @@
+{
+  "id": "F05_E3_C_s13_c200_r2301_F_BP_t20",
+  "factor": "F05_alignment",
+  "suite": "C",
+  "kind": "measure",
+  "original_seed": 13,
+  "deterministic_episodes": 80,
+  "MC_episodes": 32,
+  "new_environment_steps": 56000,
+  "episodes_path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\31_fixed_horizon_alignment_v1\\results\\20261015T034631Z_remaining_0ce5f69e\\F05_E3_C_s13_c200_r2301_F_BP_t20\\a01_938c41b2\\diagnostics\\episodes.csv",
+  "episodes_sha256": "97c1ea8a0048b98b5ec702763817d3caba603711f1a6fdb690274792ae41b3a1",
+  "mc_path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\31_fixed_horizon_alignment_v1\\results\\20261015T034631Z_remaining_0ce5f69e\\F05_E3_C_s13_c200_r2301_F_BP_t20\\a01_938c41b2\\diagnostics\\mc_episodes.csv",
+  "mc_sha256": "8c080eeb5080fe7fbc4f3a6a32100aafbcf5e456eff279bbf40dc97ffc0793f3",
+  "traces_path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\31_fixed_horizon_alignment_v1\\results\\20261015T034631Z_remaining_0ce5f69e\\F05_E3_C_s13_c200_r2301_F_BP_t20\\a01_938c41b2\\diagnostics\\traces.npz",
+  "traces_sha256": "56fda99edde7d4429718370acbddb4146f5680cd7289dd803a9f196a29fccd75",
+  "alpha": 0.07822848111391068,
+  "gamma": 0.99,
+  "sampling_scope": "first2 new-D initial states/task,4 independent action streams each; finite-horizon tail bootstrap",
+  "learner_unchanged": true,
+  "checkpoint": {
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_C_s13_c200_r2301_F_BP_t20\\a01_bac7fd\\checkpoint",
+    "manifest_sha256": "fcbad0f2af7206d61fd1d8bd68db1da6e02bc5ad90c110c05e08ce9f4701d0ff"
+  },
+  "original_id": "E3_C_s13_c200_r2301_F_BP_t20"
+}

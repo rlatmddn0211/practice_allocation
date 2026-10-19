@@ -1,0 +1,18 @@
+{
+  "27_success_retention_screening_v1": {
+    "known_run_wall_sum_seconds": 4.173201600002358,
+    "known_run_cpu_sum_seconds": 1.015625,
+    "instrumented_CUDA_elapsed_sum_seconds": 0,
+    "virtual_optimizer_steps": 0,
+    "missing_final_time_summaries": 0,
+    "note": "Run wall sums may overlap. CUDA elapsed excludes uninstrumented verification GPU work. Current delivery bookkeeping excluded."
+  },
+  "28_gradient_update_screening_v1": {
+    "known_run_wall_sum_seconds": 366.6317581999756,
+    "known_run_cpu_sum_seconds": 184.25,
+    "instrumented_CUDA_elapsed_sum_seconds": 215.5555460510254,
+    "virtual_optimizer_steps": 12480,
+    "missing_final_time_summaries": 1,
+    "note": "Run wall sums may overlap. CUDA elapsed excludes uninstrumented verification GPU work. Current delivery bookkeeping excluded."
+  }
+}

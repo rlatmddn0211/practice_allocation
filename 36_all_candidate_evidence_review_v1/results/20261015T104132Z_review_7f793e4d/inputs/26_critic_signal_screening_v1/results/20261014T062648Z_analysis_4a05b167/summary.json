@@ -1,0 +1,155 @@
+{
+  "status": "completed",
+  "source_measurements": "26_critic_signal_screening_v1\\results\\20261014T062246Z_measure_10dac0ac",
+  "feature_rows": 180,
+  "original_seed_blocks": [
+    11,
+    12,
+    13
+  ],
+  "primary": {
+    "mode": "same_repeat",
+    "method": "Base_scale_F05",
+    "score_pp": 44.888888888888886,
+    "vs_uniform_pp": 2.49074074074074,
+    "vs_fixed_pp": 1.990740740740741,
+    "vs_base_scale_pp": 0.0,
+    "absolute_gain_pp": 3.5555555555555554,
+    "hindsight_regret_pp": 4.26851851851852,
+    "max_task_drop_pp": 12.66666666666667,
+    "simulated_probe_training_steps": 100000.00000000003,
+    "simulated_selection_eval_steps": 309081.9444444445
+  },
+  "primary_original_seed_increments_pp": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "primary_group_increments_pp": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "operational_screen_pass": false,
+  "screen_is_not_independent_confirmation": true,
+  "panel_stability": [
+    {
+      "metric": "residual_normalized",
+      "horizon": 0,
+      "pairs": 48,
+      "spearman": 0.9282457663916629,
+      "median_symmetric_relative_difference_pct": 15.712745826762081,
+      "p90_symmetric_relative_difference_pct": 60.286220619142014
+    },
+    {
+      "metric": "residual_normalized",
+      "horizon": 20000,
+      "pairs": 720,
+      "spearman": 0.9249170362339946,
+      "median_symmetric_relative_difference_pct": 13.324946322514009,
+      "p90_symmetric_relative_difference_pct": 49.579840676241744
+    },
+    {
+      "metric": "gap_normalized",
+      "horizon": 0,
+      "pairs": 48,
+      "spearman": 0.967216673903604,
+      "median_symmetric_relative_difference_pct": 11.269891291016883,
+      "p90_symmetric_relative_difference_pct": 36.84480910794406
+    },
+    {
+      "metric": "gap_normalized",
+      "horizon": 20000,
+      "pairs": 720,
+      "spearman": 0.9635994668199591,
+      "median_symmetric_relative_difference_pct": 10.024195923042848,
+      "p90_symmetric_relative_difference_pct": 33.393523804350245
+    }
+  ],
+  "prediction_metrics": [
+    {
+      "method": "Base",
+      "held_original_seed_O40_MAE_pp": 6.377965846810363
+    },
+    {
+      "method": "Base_scale",
+      "held_original_seed_O40_MAE_pp": 6.361370718972667
+    },
+    {
+      "method": "Base_scale_F05",
+      "held_original_seed_O40_MAE_pp": 6.3891718468990275
+    },
+    {
+      "method": "Base_scale_F05_audit_panel",
+      "held_original_seed_O40_MAE_pp": 6.369412310617349
+    },
+    {
+      "method": "Base_scale_raw_F05",
+      "held_original_seed_O40_MAE_pp": 6.4430796215313215
+    }
+  ],
+  "conditional_intervals": [
+    {
+      "mode": "same_repeat",
+      "comparator": "Base_scale",
+      "increment_pp": 0.0,
+      "case_only_lo_pp": 0.0,
+      "case_only_hi_pp": 0.0,
+      "scope": "fixed learned policies, fits, diagnostic cases and selections; jointly resampled O cases only"
+    },
+    {
+      "mode": "same_repeat",
+      "comparator": "Development_fixed",
+      "increment_pp": 1.9907407407407405,
+      "case_only_lo_pp": 1.2685185185185186,
+      "case_only_hi_pp": 2.75,
+      "scope": "fixed learned policies, fits, diagnostic cases and selections; jointly resampled O cases only"
+    },
+    {
+      "mode": "same_repeat",
+      "comparator": "Greedy20",
+      "increment_pp": -0.39814814814814814,
+      "case_only_lo_pp": -0.6018518518518517,
+      "case_only_hi_pp": -0.19444444444444442,
+      "scope": "fixed learned policies, fits, diagnostic cases and selections; jointly resampled O cases only"
+    },
+    {
+      "mode": "cross_repeat",
+      "comparator": "Base_scale",
+      "increment_pp": 0.0,
+      "case_only_lo_pp": 0.0,
+      "case_only_hi_pp": 0.0,
+      "scope": "fixed learned policies, fits, diagnostic cases and selections; jointly resampled O cases only"
+    },
+    {
+      "mode": "cross_repeat",
+      "comparator": "Development_fixed",
+      "increment_pp": 1.1102230246251565e-16,
+      "case_only_lo_pp": -0.6388888888888887,
+      "case_only_hi_pp": 0.6391203703703673,
+      "scope": "fixed learned policies, fits, diagnostic cases and selections; jointly resampled O cases only"
+    },
+    {
+      "mode": "cross_repeat",
+      "comparator": "Greedy20",
+      "increment_pp": -0.09259259259259259,
+      "case_only_lo_pp": -0.24999999999999994,
+      "case_only_hi_pp": 0.0648148148148148,
+      "scope": "fixed learned policies, fits, diagnostic cases and selections; jointly resampled O cases only"
+    }
+  ],
+  "F05_scope_remaining": [
+    "matched-length return/success calibration",
+    "true soft-value calibration",
+    "4k diagnostics",
+    "new original-seed confirmation",
+    "cost-inclusive online allocation"
+  ],
+  "wall_seconds": 1.001913100015372,
+  "cpu_seconds": 0.421875,
+  "checks_passed": 4313,
+  "checks_failed": 0,
+  "new_environment_steps": 0,
+  "new_learner_updates": 0
+}

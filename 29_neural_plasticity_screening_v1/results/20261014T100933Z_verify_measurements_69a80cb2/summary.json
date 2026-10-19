@@ -1,0 +1,25 @@
+{
+  "status": "completed",
+  "source": "29_neural_plasticity_screening_v1\\results\\20261014T100715Z_smoke_a19f937f",
+  "technical_smoke_source": true,
+  "snapshots_verified": 3,
+  "static_rows_verified": 72,
+  "clone_loss_rows_verified": 288,
+  "reference_snapshots": [
+    {
+      "id": "E1_A_s11_c200_base",
+      "max_independent_mean_loss_abs_error": 0.0
+    },
+    {
+      "id": "E1_A_s11_c200_r2101_F_DO_t20",
+      "max_independent_mean_loss_abs_error": 0.0
+    }
+  ],
+  "clone_optimizer_steps": 164,
+  "wall_seconds": 5.862257200002205,
+  "cpu_seconds": 3.53125,
+  "checks_passed": 3456,
+  "checks_failed": 0,
+  "new_environment_steps": 0,
+  "new_learner_updates": 0
+}

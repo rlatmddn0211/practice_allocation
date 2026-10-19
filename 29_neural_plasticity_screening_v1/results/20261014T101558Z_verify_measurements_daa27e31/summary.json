@@ -1,0 +1,49 @@
+{
+  "status": "completed",
+  "source": "29_neural_plasticity_screening_v1\\results\\20261014T100947Z_measure_e6af8a96",
+  "technical_smoke_source": false,
+  "snapshots_verified": 192,
+  "static_rows_verified": 4608,
+  "clone_loss_rows_verified": 18432,
+  "reference_snapshots": [
+    {
+      "id": "E1_A_s11_c200_base",
+      "max_independent_mean_loss_abs_error": 0.0
+    },
+    {
+      "id": "E1_A_s11_c200_r2101_F_DO_t20",
+      "max_independent_mean_loss_abs_error": 0.0
+    },
+    {
+      "id": "E1_A_s11_c400_base",
+      "max_independent_mean_loss_abs_error": 0.0
+    },
+    {
+      "id": "E1_A_s11_c400_r2101_F_DO_t20",
+      "max_independent_mean_loss_abs_error": 0.0
+    },
+    {
+      "id": "E3_B_s11_c200_base",
+      "max_independent_mean_loss_abs_error": 0.0
+    },
+    {
+      "id": "E3_B_s11_c200_r2301_F_DO_t20",
+      "max_independent_mean_loss_abs_error": 0.0
+    },
+    {
+      "id": "E3_C_s11_c200_base",
+      "max_independent_mean_loss_abs_error": 0.0
+    },
+    {
+      "id": "E3_C_s11_c200_r2301_F_DO_t20",
+      "max_independent_mean_loss_abs_error": 0.0
+    }
+  ],
+  "clone_optimizer_steps": 656,
+  "wall_seconds": 19.634593299997505,
+  "cpu_seconds": 11.4375,
+  "checks_passed": 178881,
+  "checks_failed": 0,
+  "new_environment_steps": 0,
+  "new_learner_updates": 0
+}

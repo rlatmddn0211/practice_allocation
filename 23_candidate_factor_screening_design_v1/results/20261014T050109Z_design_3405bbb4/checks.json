@@ -1,0 +1,442 @@
+[
+  {
+    "name": "shared probe snapshot count",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "8k extension snapshot count",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "F08 parent plus final outcomes",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "F08 diagnostic parents",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "eight distinct factors",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "whole F08 episodes",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "whole dose blocks",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "dose 0.25: exact total and balanced other tasks",
+    "passed": true,
+    "detail": [
+      20,
+      20,
+      20,
+      20
+    ]
+  },
+  {
+    "name": "dose 0.4375: exact total and balanced other tasks",
+    "passed": true,
+    "detail": [
+      35,
+      15,
+      15,
+      15
+    ]
+  },
+  {
+    "name": "dose 0.625: exact total and balanced other tasks",
+    "passed": true,
+    "detail": [
+      50,
+      10,
+      10,
+      10
+    ]
+  },
+  {
+    "name": "dose 0.8125: exact total and balanced other tasks",
+    "passed": true,
+    "detail": [
+      65,
+      5,
+      5,
+      5
+    ]
+  },
+  {
+    "name": "whole even sequence blocks",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "forward, reverse and alternating totals equal static mix",
+    "passed": true,
+    "detail": [
+      30,
+      30,
+      10,
+      10
+    ]
+  },
+  {
+    "name": "F08 condition count",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "online evaluation cap calculation",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "online probe plus evaluation fits diagnostic cap",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "online retained policy training length",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "online discarded probe training length",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "development full bank cannot be free online diagnosis",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "small bank is a subset of full diagnostic bank",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "development, confirmation and online seeds disjoint",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "confirmation continuation labels",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "online continuation labels",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "design only",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "budget appears in document: shared_4k_probe",
+    "passed": true,
+    "detail": "8.40M"
+  },
+  {
+    "name": "budget appears in document: optional_4k_to_8k_increment",
+    "passed": true,
+    "detail": "7.92M"
+  },
+  {
+    "name": "budget appears in document: optional_F08_pilot",
+    "passed": true,
+    "detail": "18.00M"
+  },
+  {
+    "name": "budget appears in document: G3_confirmation_example",
+    "passed": true,
+    "detail": "78.72M"
+  },
+  {
+    "name": "budget appears in document: G4_online_example",
+    "passed": true,
+    "detail": "92.16M"
+  },
+  {
+    "name": "G3 per-seed scaling",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "G4 per-seed scaling",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "local link: 23_candidate_factor_screening_design_v1/README.md -> research_design_ko.md",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "local link: 23_candidate_factor_screening_design_v1/README.md -> protocol.json",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "local link: 23_candidate_factor_screening_design_v1/README.md -> check_design.py",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "local link: 23_candidate_factor_screening_design_v1/README.md -> results/",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "local link: 23_candidate_factor_screening_design_v1/research_design_ko.md -> ../22_candidate_factor_grounding_v1/candidate_factors_ko.md",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "local link: 23_candidate_factor_screening_design_v1/research_design_ko.md -> ../19_budgeted_practice_research_feasibility_v1/research_plan_ko.md",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "local link: 23_candidate_factor_screening_design_v1/research_design_ko.md -> ../22_candidate_factor_grounding_v1/results/20261014T040516Z_replay_b4e477d0/analysis.json",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "local link: README.md -> LOCAL_PRACTICE_ALLOCATION_PILOT_DESIGN_20261007.md",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "local link: README.md -> 22_candidate_factor_grounding_v1/research_development_ko.md",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "local link: README.md -> 22_candidate_factor_grounding_v1/candidate_factors_ko.md",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "local link: README.md -> 23_candidate_factor_screening_design_v1/research_design_ko.md",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "local link: README.md -> 01_implementation_validation_v1/README.md",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "local link: README.md -> 02_p0_uniform_pretraining_v1/README.md",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "local link: README.md -> 03_p0_pretraining_analysis_v1/README.md",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "local link: README.md -> 04_p0_allocation_branches_v1/README.md",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "local link: README.md -> 05_results_github_archive_v1/README.md",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "local link: README.md -> 06_p0_branch_replication_v1/README.md",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "local link: README.md -> 07_p0_replication_analysis_v1/README.md",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "local link: README.md -> 08_followup_experiment_design_v1/README.md",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "local link: README.md -> 09_fresh_evaluation_audit_v1/README.md",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "local link: README.md -> 10_independent_seed_checkpoint_study_v1/README.md",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "local link: README.md -> 11_fixed_target_donor_swap_v1/README.md",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "local link: README.md -> 12_task_composition_study_v1/README.md",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "local link: README.md -> 13_e0_e3_autonomous_queue_v1/README.md",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "local link: README.md -> 14_power_interruption_audit_v1/",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "local link: README.md -> 15_verified_power_loss_recovery_v1/",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "local link: README.md -> 16_e0_e2_results_analysis_v1/",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "local link: README.md -> 17_e0_e2_detailed_research_report_v1/README.md",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "local link: README.md -> 18_practice_allocation_literature_review_v1/README.md",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "local link: README.md -> 19_budgeted_practice_research_feasibility_v1/README.md",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "local link: README.md -> 20_e0_e2_github_publication_v1/README.md",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "local link: README.md -> 21_e3_completed_results_analysis_v1/README.md",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "local link: README.md -> 22_candidate_factor_grounding_v1/README.md",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "local link: README.md -> 23_candidate_factor_screening_design_v1/README.md",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "local link: README.md -> 05_results_github_archive_v1/results/20261008T023322Z_complete_archive_6169480e/archive_manifest.json",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "local link: README.md -> 20_e0_e2_github_publication_v1/README.md",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "local link: README.md -> 19_budgeted_practice_research_feasibility_v1/research_plan_ko.md",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "local link: README.md -> 21_e3_completed_results_analysis_v1/report_ko.md",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "local link: README.md -> 03_p0_pretraining_analysis_v1/README.md",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "local link: README.md -> 04_p0_allocation_branches_v1/README.md",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "local link: README.md -> 06_p0_branch_replication_v1/README.md",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "local link: README.md -> 07_p0_replication_analysis_v1/README.md",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "requested README table row preserved",
+    "passed": true,
+    "detail": "| 학습 반응성 | 짧게 더 연습했을 때 해당 과제가 얼마나 개선되는가 |"
+  },
+  {
+    "name": "requested README table row preserved",
+    "passed": true,
+    "detail": "| 다른 능력의 변화 | 그 연습으로 다른 과제의 성능이 얼마나 좋아지거나 떨어지는가 |"
+  },
+  {
+    "name": "requested README table row preserved",
+    "passed": true,
+    "detail": "| 효과의 지속성 | 연습을 이어갈수록 개선 속도가 유지되는가, 포화되거나 역전되는가 |"
+  },
+  {
+    "name": "input unchanged: 23_candidate_factor_screening_design_v1/check_design.py",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "input unchanged: 23_candidate_factor_screening_design_v1/protocol.json",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "input unchanged: 23_candidate_factor_screening_design_v1/README.md",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "input unchanged: 23_candidate_factor_screening_design_v1/research_design_ko.md",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "input unchanged: README.md",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "input unchanged: AGENTS.md",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "input unchanged: .gitattributes",
+    "passed": true,
+    "detail": null
+  }
+]

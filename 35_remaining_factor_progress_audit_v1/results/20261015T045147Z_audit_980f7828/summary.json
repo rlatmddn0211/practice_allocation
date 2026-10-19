@@ -1,0 +1,120 @@
+{
+  "status": "completed",
+  "audit": {
+    "observed_at_kst": "2026-10-15T13:51:47.579898+09:00",
+    "campaign": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\33_remaining_factor_queue_v1\\results\\20261015T034631Z_remaining_0ce5f69e",
+    "state": "running",
+    "current_job": "F05_E1_A_s11_c400_r2103_F_WO_t20",
+    "completed_job_counts": {
+      "F05:bank": 3,
+      "F05:measure": 30,
+      "F08:bank": 3
+    },
+    "F05_models_complete": 30,
+    "F05_models_total": 192,
+    "F05_complete_fraction": 0.15625,
+    "F05_verified_models": 30,
+    "completed_worker_env_steps": 1680000,
+    "completed_worker_train_updates": 0,
+    "current_progress": {
+      "time": "2026-10-15T04:51:47.459997+00:00",
+      "costs": {
+        "environment_creations": 104,
+        "resets": 104,
+        "environment_steps": 52000,
+        "train_iterations": 0,
+        "evaluation_episodes": 104
+      },
+      "kind": "MC",
+      "task": "WO",
+      "episode": 1,
+      "repeat": 3
+    },
+    "production_error_files": [],
+    "cycle_seconds": {
+      "mean": 121.78268956666666,
+      "recent5_mean": 122.402918,
+      "min": 105.373097,
+      "max": 130.539999
+    },
+    "F05_remaining_hours_range": [
+      5.532142162159392,
+      6.977677702699241
+    ],
+    "F05_completion_kst_range": [
+      "2026-10-15T19:23:43.291682+09:00",
+      "2026-10-15T20:50:27.219628+09:00"
+    ],
+    "F08_historical_reference_hours": 19.630818256322,
+    "F08_duration_hours_range": [
+      19.880818256322,
+      25.038522820402505
+    ],
+    "full_completion_kst_range": [
+      "2026-10-16T15:16:34.237405+09:00",
+      "2026-10-16T21:52:45.901781+09:00"
+    ],
+    "forecast_scope": "At this audit F08 is queued. F05 actual cycle average extrapolated; F08 past E1/E3 seed12 timing references. +25% and explicit setup/analysis allowances are planning assumptions, not probabilistic intervals. New schedules, policy success and computer load can change duration. No effect estimate or early stopping rule.",
+    "historical_speed_by_suite": {
+      "A": {
+        "train": {
+          "n": 30,
+          "mean_seconds": 360.9906623366289,
+          "median_seconds": 360.97698839986697,
+          "min_seconds": 356.96431529987603,
+          "max_seconds": 367.47230469994247
+        },
+        "evaluate": {
+          "n": 15,
+          "mean_seconds": 150.57801196003953,
+          "median_seconds": 144.29667300079018,
+          "min_seconds": 124.13751860056072,
+          "max_seconds": 186.8695447994396
+        }
+      },
+      "B": {
+        "train": {
+          "n": 30,
+          "mean_seconds": 352.9672251399999,
+          "median_seconds": 354.2857842500016,
+          "min_seconds": 329.64213369999925,
+          "max_seconds": 357.27655080000113
+        },
+        "evaluate": {
+          "n": 15,
+          "mean_seconds": 230.18878350000207,
+          "median_seconds": 229.80892029999814,
+          "min_seconds": 200.478652400001,
+          "max_seconds": 256.0803678000011
+        }
+      },
+      "C": {
+        "train": {
+          "n": 30,
+          "mean_seconds": 389.7309353099981,
+          "median_seconds": 382.14170775000093,
+          "min_seconds": 344.2824202999909,
+          "max_seconds": 508.3134204999951
+        },
+        "evaluate": {
+          "n": 15,
+          "mean_seconds": 326.9884937000034,
+          "median_seconds": 320.954081200005,
+          "min_seconds": 269.3694169000082,
+          "max_seconds": 491.5232085000025
+        }
+      }
+    },
+    "disk_C_free_GiB": 164.0747947692871,
+    "gpu_snapshot": "NVIDIA GeForce RTX 3070, 25 %, 2683 MiB, 8192 MiB, 47",
+    "gpu_read_returncode": 0
+  },
+  "checks_passed": 514,
+  "checks_failed": 0,
+  "wall_seconds": 0.16018149998853914,
+  "cpu_seconds": 0.015625,
+  "new_environment_steps": 0,
+  "learner_updates": 0,
+  "python": "3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)]",
+  "error": null
+}

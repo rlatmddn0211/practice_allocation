@@ -1,0 +1,180 @@
+{
+  "status": "completed",
+  "factor": "F05_alignment",
+  "measurement": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\33_remaining_factor_queue_v1\\results\\20261015T034631Z_remaining_0ce5f69e",
+  "feature_rows": 180,
+  "diagnostics": {
+    "snapshots": 192,
+    "new_diagnostic_environment_steps": 10752000,
+    "persistent_updates": 0,
+    "calibration": "task-specific, original-seed-excluded; clipped ridge linear probability",
+    "rollout_note": "finite500step soft estimate with16draw currentQ tail,4 sampled trajectories/initial state; not exact value"
+  },
+  "primary": {
+    "mode": "same_repeat",
+    "method": "CalibratedReturn",
+    "score_pp": 44.70370370370371,
+    "vs_uniform_pp": 2.3055555555555562,
+    "vs_fixed_pp": 1.8055555555555567,
+    "vs_base_pp": -0.29629629629629634,
+    "vs_greedy_pp": -0.5833333333333333,
+    "absolute_gain_pp": 3.3703703703703725,
+    "hindsight_regret_pp": 4.453703703703705,
+    "max_task_drop_pp": 12.888888888888891,
+    "probe_training_steps": 100000.00000000003,
+    "total_training_steps": 120000.0,
+    "parent_D_eval_steps": 62710.88888888889,
+    "probe_D_eval_steps": 309081.9444444445,
+    "new_fixed_D_eval_steps": 240000.0,
+    "new_MC_eval_steps": 0.0,
+    "changed_choices": 6,
+    "choices": 36
+  },
+  "original_seed_increments_pp": [
+    0.08333333333333333,
+    0.1944444444444444,
+    -1.1666666666666665
+  ],
+  "group_increments_pp": [
+    -1.3333333333333326,
+    0.0,
+    -0.9444444444444445,
+    0.7222222222222222
+  ],
+  "operational_screen_pass": false,
+  "prediction_metrics": [
+    {
+      "method": "CriticBase",
+      "O40_MAE_pp": 6.46125113120853
+    },
+    {
+      "method": "SuccessBase",
+      "O40_MAE_pp": 6.474684331919636
+    },
+    {
+      "method": "RawReturn",
+      "O40_MAE_pp": 6.610733827478564
+    },
+    {
+      "method": "CalibratedReturn",
+      "O40_MAE_pp": 6.504818273719871
+    },
+    {
+      "method": "RolloutBase",
+      "O40_MAE_pp": 6.523322386020692
+    },
+    {
+      "method": "RolloutValue",
+      "O40_MAE_pp": 6.576511662278422
+    },
+    {
+      "method": "NearObject",
+      "O40_MAE_pp": 6.499296156390958
+    }
+  ],
+  "conditional_intervals": [
+    {
+      "mode": "same_repeat",
+      "method": "CalibratedReturn",
+      "comparator": "SuccessBase",
+      "increment_pp": -0.2962962962962963,
+      "case_only_lo_pp": -0.7037037037037037,
+      "case_only_hi_pp": 0.1203703703703704
+    },
+    {
+      "mode": "same_repeat",
+      "method": "CalibratedReturn",
+      "comparator": "Greedy20",
+      "increment_pp": -0.5833333333333331,
+      "case_only_lo_pp": -1.111111111111111,
+      "case_only_hi_pp": -0.037037037037037035
+    },
+    {
+      "mode": "same_repeat",
+      "method": "CalibratedReturn",
+      "comparator": "Development_fixed",
+      "increment_pp": 1.8055555555555551,
+      "case_only_lo_pp": 1.1296296296296293,
+      "case_only_hi_pp": 2.49074074074074
+    },
+    {
+      "mode": "same_repeat",
+      "method": "RolloutValue",
+      "comparator": "RolloutBase",
+      "increment_pp": 0.08333333333333331,
+      "case_only_lo_pp": -0.07407407407407407,
+      "case_only_hi_pp": 0.23148148148148145
+    },
+    {
+      "mode": "same_repeat",
+      "method": "RolloutValue",
+      "comparator": "Greedy20",
+      "increment_pp": -0.2870370370370371,
+      "case_only_lo_pp": -0.6759259259259258,
+      "case_only_hi_pp": 0.08333333333333334
+    },
+    {
+      "mode": "same_repeat",
+      "method": "RolloutValue",
+      "comparator": "Development_fixed",
+      "increment_pp": 2.1018518518518516,
+      "case_only_lo_pp": 1.407407407407407,
+      "case_only_hi_pp": 2.7870370370370363
+    },
+    {
+      "mode": "cross_repeat",
+      "method": "CalibratedReturn",
+      "comparator": "SuccessBase",
+      "increment_pp": -0.3518518518518517,
+      "case_only_lo_pp": -0.6944444444444444,
+      "case_only_hi_pp": -0.009259259259259217
+    },
+    {
+      "mode": "cross_repeat",
+      "method": "CalibratedReturn",
+      "comparator": "Greedy20",
+      "increment_pp": -0.13888888888888895,
+      "case_only_lo_pp": -0.4814814814814814,
+      "case_only_hi_pp": 0.21296296296296272
+    },
+    {
+      "mode": "cross_repeat",
+      "method": "CalibratedReturn",
+      "comparator": "Development_fixed",
+      "increment_pp": -0.04629629629629628,
+      "case_only_lo_pp": -0.7222222222222219,
+      "case_only_hi_pp": 0.6206018518518486
+    },
+    {
+      "mode": "cross_repeat",
+      "method": "RolloutValue",
+      "comparator": "RolloutBase",
+      "increment_pp": 0.3055555555555555,
+      "case_only_lo_pp": 0.18518518518518517,
+      "case_only_hi_pp": 0.4259259259259258
+    },
+    {
+      "mode": "cross_repeat",
+      "method": "RolloutValue",
+      "comparator": "Greedy20",
+      "increment_pp": 0.6851851851851851,
+      "case_only_lo_pp": 0.32407407407407385,
+      "case_only_hi_pp": 1.0462962962962963
+    },
+    {
+      "mode": "cross_repeat",
+      "method": "RolloutValue",
+      "comparator": "Development_fixed",
+      "increment_pp": 0.7777777777777777,
+      "case_only_lo_pp": 0.12962962962962954,
+      "case_only_hi_pp": 1.4259259259259256
+    }
+  ],
+  "independent_confirmation": false,
+  "wall_seconds": 3.134083200013265,
+  "cpu_seconds": 0.890625,
+  "checks_passed": 5751,
+  "checks_failed": 0,
+  "new_environment_steps": 0,
+  "new_learner_updates": 0
+}

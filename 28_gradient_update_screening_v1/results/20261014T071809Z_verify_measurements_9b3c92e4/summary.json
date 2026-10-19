@@ -1,0 +1,28 @@
+{
+  "status": "completed",
+  "source": "28_gradient_update_screening_v1\\results\\20261014T070936Z_measure_b6b065f3",
+  "technical_smoke_source": false,
+  "snapshots_verified": 192,
+  "batch_rows_verified": 6144,
+  "reference_snapshots": [
+    "E1_A_s11_c200_base",
+    "E1_A_s11_c200_r2101_F_DO_t20",
+    "E1_A_s11_c400_base",
+    "E1_A_s11_c400_r2101_F_DO_t20",
+    "E3_B_s11_c200_base",
+    "E3_B_s11_c200_r2301_F_DO_t20",
+    "E3_C_s11_c200_base",
+    "E3_C_s11_c200_r2301_F_DO_t20"
+  ],
+  "finite_difference_cases": 16,
+  "virtual_optimizer_steps": 0,
+  "finite_difference_parameter_perturbations": 64,
+  "max_float32_mixed_norm_error": 8.763319783611223e-05,
+  "max_roundoff_bound_ratio": 0.009020781262718595,
+  "wall_seconds": 10.993031200021505,
+  "cpu_seconds": 5.5,
+  "checks_passed": 87608,
+  "checks_failed": 0,
+  "new_environment_steps": 0,
+  "new_learner_updates": 0
+}

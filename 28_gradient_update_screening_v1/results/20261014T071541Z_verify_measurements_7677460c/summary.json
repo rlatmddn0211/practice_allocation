@@ -1,0 +1,10 @@
+{
+  "status": "failed",
+  "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\SS\\Projects\\robot_practice_allocation\\28_gradient_update_screening_v1\\verify_measurements.py\", line 111, in main\n    close(run,'raw alignment reconstruction',dr['weighted_alignment'],alignment,rtol=2e-6)\n  File \"C:\\Users\\SS\\Projects\\robot_practice_allocation\\28_gradient_update_screening_v1\\verify_measurements.py\", line 13, in close\n    run.check(name,np.allclose(a,b,rtol=rtol,atol=atol),{'max_error':float(np.max(np.abs(np.asarray(a)-np.asarray(b))))})\n  File \"C:\\Users\\SS\\Projects\\robot_practice_allocation\\28_gradient_update_screening_v1\\common.py\", line 61, in check\n    raise AssertionError(name + ': ' + str(detail))\nAssertionError: raw alignment reconstruction: {'max_error': 1.2980732391754124e-09}\n",
+  "wall_seconds": 1.8349397999991197,
+  "cpu_seconds": 0.859375,
+  "checks_passed": 71793,
+  "checks_failed": 1,
+  "new_environment_steps": 0,
+  "new_learner_updates": 0
+}

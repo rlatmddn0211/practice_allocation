@@ -1,0 +1,22 @@
+{
+  "status": "completed",
+  "local_links_checked": 72,
+  "scientific_runs": {
+    "measurement": "20261014T062246Z_measure_10dac0ac",
+    "analysis": "20261014T062648Z_analysis_4a05b167",
+    "verify_measurements": "20261014T062957Z_verify_measurements_61c9843d",
+    "verify_analysis": "20261014T062957Z_verify_analysis_d5cee918"
+  },
+  "attempts": 9,
+  "failed_attempts_preserved": 2,
+  "program_wall_seconds_sum_including_parallel_overlap": 264.80317279999144,
+  "program_cpu_seconds_sum": 176.25,
+  "forward_gpu_seconds_sum": 26.244277890205385,
+  "scope": "F05 critic diagnostic screen completed; other F05 subquestions remain untested",
+  "wall_seconds": 0.13032009999733418,
+  "cpu_seconds": 0.0,
+  "checks_passed": 133,
+  "checks_failed": 0,
+  "new_environment_steps": 0,
+  "new_learner_updates": 0
+}

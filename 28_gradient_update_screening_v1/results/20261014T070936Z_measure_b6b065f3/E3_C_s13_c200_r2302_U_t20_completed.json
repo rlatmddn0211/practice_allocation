@@ -1,0 +1,23 @@
+{
+  "id": "E3_C_s13_c200_r2302_U_t20",
+  "suite": "C",
+  "original_seed": 13,
+  "checkpoint_step": 200000,
+  "horizon": 20000,
+  "continuation": 2302,
+  "allocation": "U",
+  "checkpoint": {
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_C_s13_c200_r2302_U_t20\\a01_906a9a\\checkpoint",
+    "manifest_sha256": "e6e69b6cbcf8359e21f75158a6dd1da6831477f138090316db39ccaf528a5331"
+  },
+  "raw_path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\28_gradient_update_screening_v1\\results\\20261014T070936Z_measure_b6b065f3\\raw\\E3_C_s13_c200_r2302_U_t20.json",
+  "raw_sha256": "4aae015768fd2e86aa13161f599ca64e21824a1cb07b757ebe1ed804947079f4",
+  "wall_seconds": 1.6480197999917436,
+  "compute_wall_seconds": 1.0719988000346348,
+  "gpu_compute_seconds": 1.0715472564697266,
+  "virtual_optimizer_steps": 64,
+  "gradient_evaluations": 128,
+  "unique_replay_transitions": 8192,
+  "model_state_hash": "df50f53e86f6ec5855b8cfeff58d06fdd840100b800ca1a7ff695c6b84d0940e",
+  "replay_state_hash": "2277fb9ff70c884c149c3fd9d9b4d3d1a33d55d540877b3f169ca5f4b868d39a"
+}

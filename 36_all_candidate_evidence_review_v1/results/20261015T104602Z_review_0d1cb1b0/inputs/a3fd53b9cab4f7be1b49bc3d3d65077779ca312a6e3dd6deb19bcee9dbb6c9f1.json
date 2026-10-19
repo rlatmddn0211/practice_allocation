@@ -1,0 +1,22 @@
+{
+  "factor":"F02_F03",
+  "created_on":"2026-10-15",
+  "scope":"Remaining-candidate exploratory screen; existing E1/E3 checkpoints, no new environment or learner updates.",
+  "suites":{"A":["DO","DC","WO","WC"],"B":["DO","DC","PU","BP"],"C":["DO","PP","PU","BP"]},
+  "original_seeds":[11,12,13],"checkpoints":{"A":[200000,400000],"B":[200000],"C":[200000]},
+  "continuations":{"A":[2101,2102,2103],"B":[2301,2302,2303],"C":[2301,2302,2303]},
+  "panel":{"samples_per_task_per_panel":1024,"age_strata":8,"seed":2605101},
+  "snapshot_manifest":"29_neural_plasticity_screening_v1/results/20261014T100947Z_measure_e6af8a96/snapshot_manifest.json",
+  "prior_artifact_manifest":"29_neural_plasticity_screening_v1/results/20261014T102305Z_verify_delivery_16407d21/artifact_manifest.csv",
+  "prior_features":"29_neural_plasticity_screening_v1/results/20261014T101557Z_analysis_e77c6ebb/features.csv",
+  "F02":"Exact replay cumulative sample counter difference parent->20k, collected task counts, new/old sample fraction, per-task age and expected FIFO exposure from initial ring and observed collection order. No future20k->40k sample values.",
+  "F03":"Last20 completed500-step training episodes/task, walking verified checkpoint ancestry when branch has fewer20. Official episode success, equal-length return, unique initial-state hashes and experience recency. No high-reward success imputation.",
+  "coverage":"M/A raw39-D replay moments. Primary exploration feature is successful-experience fraction focus/other; secondary coverage is log1p RMS standardized displacement to PARENT mean, scale sqrt(parent variance) floored0.01. This parent-only reference differs from v23 proposed pooled development-fold scaling, is fixed here before new measurement, and is available at decision time; regression standardization still train-fold only. No neural features, no inference of semantic progress from raw distance.",
+  "models":"CriticBase=full marginal success controls+F05 scales/residual/gap. F02 adds focus collection-minus-observed sample share and all-task new-data sample fraction. F02_expected replaces observed focus share by exact expected FIFO share. F02_age adds focus/other mean replay age normalized by buffer_size. ExperienceBase adds recent500-step return focus/other and log1p age of oldest included episode focus/other. F03 adds recent success fractions focus/other. F03_coverage adds raw displacement focus/other. F03_both combines four. F03_unique adds unique counts focus/other. All prespecified, no threshold/model tuning.",
+  "primary_model":"F03","primary_comparator":"ExperienceBase",
+  "planned_contrasts":{"F02":"CriticBase","F02_expected":"CriticBase","F02_age":"CriticBase","F03":"ExperienceBase","F03_coverage":"ExperienceBase","F03_both":"ExperienceBase","F03_unique":"ExperienceBase"},
+  "prediction":"Copy frozen held-original-seed ridge protocol: lambda1 weighted mean loss, fold-only standardization, D50/O50 hash split, A/B/C equal and A checkpoints half. Features20k predict same-branch D40-D20. Same-repeat primary and cross-repeat secondary. Historical data exploratory.",
+  "bootstrap_seed":300215,"bootstrap_draws":5000,
+  "screen":"Each candidate primary vs its stated baseline: >=1pp, >=2 positive original seeds, no group below-2pp. F02 primary observed exposure, F03 primary success experience. Case-only intervals do not cover training/model/selection uncertainty.",
+  "limitations":"F02 sampling causal intervention is conditional future stage; F03 experience measurement does not establish exploration mechanism. Phase reach metrics, if collected in v31, remain supplementary. Not G3/G4."
+}

@@ -1,0 +1,26 @@
+{
+  "purpose": "Post-completion F08 interpretation integrated with frozen F01-F07 evidence; descriptive review, not a newly preregistered effect test",
+  "review_date": "2026-10-19",
+  "campaign": "33_remaining_factor_queue_v1/results/20261015T034631Z_remaining_0ce5f69e",
+  "f08_analysis": "32_dose_order_intervention_v1/results/20261016T071742Z_analysis_3cb34e0e",
+  "f08_verification": "32_dose_order_intervention_v1/results/20261016T071747Z_verify_analysis_3394c755",
+  "prior_review": "36_all_candidate_evidence_review_v1/results/20261015T104602Z_review_0d1cb1b0",
+  "prior_verification": "36_all_candidate_evidence_review_v1/results/20261015T105530Z_verify_bd300470",
+  "operations": [
+    "Independently aggregate all 30000 fixed-policy outcome episodes and all 5760 training episode records",
+    "Recompute every predefined contrast by continuation and task; preserve all unfavorable results",
+    "Reproduce the existing paired-case bootstrap only as an arithmetic check; no new seed confidence interval",
+    "Add post-hoc parent comparisons, task contribution accounting, and all leave-one-continuation-out means",
+    "Reuse the verified F01-F07 review without treating its records as independent replications",
+    "No predictor refitting, no best-condition deployment, no new training, no simulator evaluation, no scheduling"
+  ],
+  "interpretation_limits": [
+    "F08 has one original seed (12) per composition, continuation labels 3801/3802/3803, fixed 200k parents and 40k branches",
+    "Developmental task pairs and parent selection were informed by previous results",
+    "All 21 predefined contrasts remain visible; pointwise case intervals are not multiple-comparison adjusted",
+    "F08 schedule contrasts are not commensurate with F01-F07 incremental predictor-selection scores",
+    "Task contribution accounting does not identify a learning mechanism",
+    "The 20k checkpoints were retained, but no fresh intermediate outcome evaluation was run in this packet",
+    "No G3 independent-original-seed confirmation or G4 cost-inclusive adaptive allocation test"
+  ]
+}

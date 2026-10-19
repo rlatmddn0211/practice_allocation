@@ -1,0 +1,46 @@
+{
+  "id": "F05_E3_C_s12_c200_r2301_U_t20",
+  "stage": "F05",
+  "suite": "C",
+  "original_seed": 12,
+  "kind": "measure",
+  "original_id": "E3_C_s12_c200_r2301_U_t20",
+  "parent": {
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_C_s12_c200_r2301_U_t20\\a01_0fea83\\checkpoint",
+    "manifest_sha256": "bee5d34cb31af0c70deddf3b1b27b413659f70027b9d95523309bc97e9006c8a"
+  },
+  "bank": {
+    "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\31_fixed_horizon_alignment_v1\\results\\20261015T034631Z_remaining_0ce5f69e\\F05_C_bank\\a01_7a684a93\\evaluation_banks.json",
+    "sha256": "6e522f7c299567c66b5ebb3faaf7428a4e9580ace816fc89767c4437af6ffada"
+  },
+  "output": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\31_fixed_horizon_alignment_v1\\results\\20261015T034631Z_remaining_0ce5f69e\\F05_E3_C_s12_c200_r2301_U_t20\\a01_cbe6951c",
+  "technical_smoke": false,
+  "source_hashes": {
+    "analyze.py": "0127d07b092daa2170f58463ded5dfc6f988376c612ad60e4e23a089c5ec4438",
+    "common.py": "a50ef5f30e21752bf18447f07ec1cf440f9b87cc82a1d2b12d8edeb070051567",
+    "configs/learner.json": "61c12c703a2791ffd5551a2bb4fe2de33b712fd62022cebfbbca4076239e01f2",
+    "configs/suites.json": "d94a146844590a1fd66e06625222db17340f442f992df674f069514330771c77",
+    "diagnostics.py": "1561e2fad4955bce08aaa7a60e73eb8c0d60e57b76459e7d79b16d165dd4a968",
+    "features.py": "782be74aed8b32c14ba6dbf102db6e8e7ebe5b549d7f15a2e1921bdacf8635a0",
+    "outcomes.py": "dcfc744993cee9598ed337ec7ba7f178353192d7ddbb753d66ca0caef676c377",
+    "performance_controls.py": "892530c561b48005bb7f46073ab125adbc0d25659468b95cea44b73a3d3144cd",
+    "practice_allocation/__init__.py": "4215c51deb3d834c283aeed7c87b8747916234e964f1a8cd9eedadaf1e465a2f",
+    "practice_allocation/core.py": "479e40b35fecd1abcc4dc5701d38ea658c146fbdd44e6f29a9f9f92d0ace174d",
+    "practice_allocation/engine.py": "ae090b11d36b715eb7c66ce89c39c1021d1de140abe7fbb5e820eff1ed4a3f26",
+    "practice_allocation/environment.py": "85afb8560da5160832e619f90608eae0b4b83aa75264376800111b295ef4e4e8",
+    "practice_allocation/evaluation.py": "196b18ad4b60bca516511e71a449b12b78784a20a1699caa207975203d5cc525",
+    "practice_allocation/learning.py": "e32e1f2e23490c651167af24386a3af5df005af766a33128c9bb75f719e30009",
+    "practice_allocation/study_io.py": "20b46c67027a413857c80bbbd5e9dad469fae9ccafd468ef3b942dfc76389c53",
+    "protocol.json": "1b63f18cf531bb5f6113cf507be6ee9f3b955f97531de9f21d18809628e8fb41",
+    "requirements.txt": "cb62ec70a441ab12b0a7caab26904375ffd55ce0ef5497b20e07a48205b43b1b",
+    "snapshot_io.py": "1330299eb2617b5aeb984f1e0b7555b39e18fbbe362decbc2568d5f64f180c28",
+    "verify_analysis.py": "5f55cb59a3f1cbc2ad9e4940d207ad92f1fdf2f9c691cc4ba906c90318fdae08",
+    "verify_implementation.py": "8ddff5b4aa7d6953d24715a1bfaf7649bd6864c9123bb7d325cec664e0387e95",
+    "verify_traces.py": "51d19b51553aaae8a7ff315ab46b9c8bcb0ecfaa6f71f67b5a3e5e27f4e17f8c",
+    "VERSION.json": "1f4d741f8ef4b28925ab5d90b57c2a03cbd7f5a99d726df1130b3bc7960f2c62",
+    "worker.py": "cd91eb89d2ad44fc7892fdef6e3970775813c23ef63e50c35aaaec8230c4393c"
+  },
+  "historical_forbidden": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\33_remaining_factor_queue_v1\\results\\20261015T034631Z_remaining_0ce5f69e\\historical_forbidden.json",
+  "historical_forbidden_sha256": "2fb5d0e576a1be33c19cdb19b1a7ad0691beb5ee2c137b82d52d7ea7f6d403ba",
+  "worker_lock": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\33_remaining_factor_queue_v1\\results\\20261015T034631Z_remaining_0ce5f69e\\worker.lock"
+}

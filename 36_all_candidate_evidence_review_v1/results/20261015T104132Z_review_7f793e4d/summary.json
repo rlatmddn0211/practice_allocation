@@ -1,0 +1,8 @@
+{
+  "status": "failed",
+  "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\SS\\Projects\\robot_practice_allocation\\36_all_candidate_evidence_review_v1\\analyze.py\", line 243, in main\n    attempt=Path(marker['attempt']);cost=read(attempt/'costs.json');trace=read(attempt/'trace_verified.json')\n                                                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\SS\\Projects\\robot_practice_allocation\\36_all_candidate_evidence_review_v1\\analyze.py\", line 85, in read\n    return json.loads(pin(path).read_text(encoding='utf-8-sig'))\n                      ^^^^^^^^^\n  File \"C:\\Users\\SS\\Projects\\robot_practice_allocation\\36_all_candidate_evidence_review_v1\\analyze.py\", line 81, in pin\n    shutil.copy2(path, dest)\n  File \"C:\\Python312\\Lib\\shutil.py\", line 448, in copy2\n    _winapi.CopyFile2(src_, dst_, flags)\nFileNotFoundError: [WinError 3] 지정된 경로를 찾을 수 없습니다\n",
+  "wall_seconds": 0.334356100007426,
+  "cpu_seconds": 0.046875,
+  "checks_passed": 19718,
+  "checks_failed": 0
+}

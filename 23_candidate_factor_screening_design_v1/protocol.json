@@ -1,0 +1,361 @@
+{
+  "schema_version": 1,
+  "status": "design_only_not_executed",
+  "created_on": "2026-10-14",
+  "question": "Which decision-time measurements add reliable, affordable information for choosing practice allocations that improve final macro success?",
+  "frozen_prior_versions": [
+    8,
+    19,
+    21,
+    22
+  ],
+  "objective": {
+    "metric": "equal-weight mean success over four tasks",
+    "primary_horizon_steps": 40000,
+    "secondary_horizon_steps": 20000,
+    "report_absolute_gain": true,
+    "report_uniform_relative_gain": true,
+    "report_maximum_task_drop": true,
+    "no_learning_reference": true
+  },
+  "development": {
+    "source": "E1 A at 200k/400k; E3 B/C at 200k",
+    "original_seed_blocks": [
+      11,
+      12,
+      13
+    ],
+    "contexts": 12,
+    "distinct_pretrained_policies": 9,
+    "allocations": 5,
+    "probe_to_historical_outcome_rule": "Aggregate probes and historical completions separately within parent and allocation; never arbitrarily pair continuation seeds or splice trajectories.",
+    "same_trajectory_prediction_confirmed_only_in_G3": true,
+    "continuation_labels_proposed": [
+      3301,
+      3302,
+      3303
+    ],
+    "snapshot_measurement": {
+      "transitions_per_task": 2048,
+      "measurement_transitions_per_task": 1024,
+      "audit_transitions_per_task": 1024,
+      "minibatches_per_task": 8,
+      "minibatch_size": 128,
+      "independent_diagnostic_rng": true,
+      "retain_full_parent_state": true
+    }
+  },
+  "factor_groups": [
+    {
+      "id": "F01",
+      "name": "출발 성능과 취약성",
+      "role": "mandatory_context_plus_optional_risk_feature",
+      "primary_measurements": [
+        "public_task_success_vector",
+        "historical_public_decline_or_variability"
+      ],
+      "optional_measurement": "paired loss of previously successful cases after the shared 4k probe",
+      "control": "initial success and recent progress",
+      "reject_if": "fragility feature adds no held-out selection value beyond initial competence",
+      "causal_claim": "not implied by prediction"
+    },
+    {
+      "id": "F02",
+      "name": "실제 학습 노출과 replay 지연",
+      "role": "predictor",
+      "primary_measurements": [
+        "planned_collection_vs_predicted_sample_exposure_gap",
+        "replay_age_and_effective_new_data_share"
+      ],
+      "control": "horizon, allocation and replay capacity",
+      "reject_if": "effect reduces to horizon or has no between-state variation",
+      "mechanism_probe": "separate task sampling proportions from within-task recent/old age sampling"
+    },
+    {
+      "id": "F03",
+      "name": "유용한 경험과 탐험 접근성",
+      "role": "predictor",
+      "primary_measurements": [
+        "recent_training_success_coverage",
+        "taskwise_state_coverage_or_verified_stage_reach"
+      ],
+      "control": "initial success, recent return, task and sample count",
+      "reject_if": "more novelty only, without useful progress or held-out prediction"
+    },
+    {
+      "id": "F04",
+      "name": "업데이트 방향과 크기",
+      "role": "predictor",
+      "primary_measurements": [
+        "actor_update_compatibility_weighted_by_exposure",
+        "critic_update_compatibility_and_norm_imbalance"
+      ],
+      "control": "actual sampled task mix, current success and F05 critic diagnostics",
+      "reject_if": "unstable across panels or no incremental value beyond empirical task changes",
+      "mechanism_probe": "raw versus Adam-aware diagnostic; projection only in a separate norm-controlled learner intervention"
+    },
+    {
+      "id": "F05",
+      "name": "학습 신호와 평가 목표의 관계",
+      "display_name_ko": "학습 신호와 평가 목표의 관계",
+      "role": "predictor_and_signal_reliability",
+      "primary_measurements": [
+        "within_task_return_to_success_calibration",
+        "taskwise_normalized_Bellman_residual_and_twin_critic_gap"
+      ],
+      "control": "success, reward scale, episode length, exploration policy",
+      "reject_if": "signal is just reward scale or loss change without selection benefit"
+    },
+    {
+      "id": "F06",
+      "name": "신경망 가소성",
+      "role": "predictor",
+      "primary_measurements": [
+        "actor_and_critic_dormant_fraction",
+        "normalized_effective_representation_rank"
+      ],
+      "optional_measurement": "held-out response to 20 clone-only diagnostic updates",
+      "control": "task, initial success, replay coverage and critic reliability",
+      "reject_if": "dormancy or rank is present but does not explain learning response",
+      "mechanism_probe": "separate from core allocation; resets change more than plasticity"
+    },
+    {
+      "id": "F07",
+      "name": "신호의 재현성과 배분 차이",
+      "role": "diagnostic_gate",
+      "primary_measurements": [
+        "paired_episode_and_minibatch_uncertainty",
+        "predicted_top_choice_gap_and_resampling_stability"
+      ],
+      "control": "mean predicted gain and per-diagnostic cost",
+      "reject_if": "uncertainty gate does not improve calibration or net-cost decisions",
+      "special_rule": "do not reject solely because mean gain R-squared does not improve"
+    },
+    {
+      "id": "F08",
+      "name": "배분 강도와 순서",
+      "role": "action_space_hypothesis",
+      "primary_measurements": [
+        "dose_response_curvature",
+        "same_total_exposure_order_contrast"
+      ],
+      "control": "same parent, total steps, task totals and continuation seed",
+      "reject_if": "linear mixture or static allocation suffices in controlled new runs",
+      "dose_fractions": [
+        0.25,
+        0.4375,
+        0.625,
+        0.8125
+      ],
+      "dose_episode_counts": [
+        [
+          20,
+          20,
+          20,
+          20
+        ],
+        [
+          35,
+          15,
+          15,
+          15
+        ],
+        [
+          50,
+          10,
+          10,
+          10
+        ],
+        [
+          65,
+          5,
+          5,
+          5
+        ]
+      ],
+      "sequence_conditions": [
+        "focus_i_20k_then_focus_j_20k",
+        "focus_j_20k_then_focus_i_20k",
+        "alternate_focus_i_j_each_4k",
+        "static_37.5_37.5_12.5_12.5"
+      ],
+      "dose_block_episodes": 16,
+      "sequence_block_episodes": 8,
+      "focus_block_episode_counts": [5, 1, 1, 1],
+      "static_pair_block_episode_counts": [3, 3, 1, 1],
+      "sequence_aggregate_episode_counts": [
+        30,
+        30,
+        10,
+        10
+      ]
+    }
+  ],
+  "feature_timing": {
+    "t0": "Only parent state and pretraining history; planned future exposure may be computed from known scheduler.",
+    "t4k": "Only measurements up to the 4k branch snapshot; all diagnostics charged.",
+    "t8k": "Optional, same-clock comparator; never call it a 4k feature.",
+    "forbidden": [
+      "40k observed gain used as an input",
+      "future sample counts used for a t0 prediction",
+      "old continuation and new probe spliced into a trajectory",
+      "collector task label treated as task-specific mixed-batch loss",
+      "same parent's checkpoints split across train and test"
+    ]
+  },
+  "selection": {
+    "mandatory_baseline": "F01 current task performance, public history, candidate allocation, horizon",
+    "model": "small regularized linear predictor; fold-local preprocessing; no seed ID feature",
+    "factor_addition": "one group at a time; at most two predeclared scalar summaries per optional group in the first screen",
+    "max_optional_core_groups": 3,
+    "allowed_interactions": [
+      [
+        "F02",
+        "F04"
+      ],
+      [
+        "F02",
+        "F05"
+      ],
+      [
+        "F01",
+        "F03"
+      ]
+    ],
+    "primary_screen_metric": "held-out chosen-allocation macro success difference versus matched-information baseline",
+    "secondary_metrics": [
+      "task and macro gain MAE",
+      "pairwise rank accuracy",
+      "descriptive hindsight regret",
+      "worst task drop",
+      "calibration",
+      "actual diagnostic costs"
+    ],
+    "development_threshold_proposal": {
+      "mean_choice_gain_pp": 1,
+      "positive_original_seed_blocks_at_least": 2,
+      "original_seed_blocks": 3,
+      "composition_harm_flag_pp": 2,
+      "meaning": "operational triage proposal, not a significance threshold"
+    },
+    "confirmation": {
+      "original_seeds_proposed": [
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "compositions": [
+        "A",
+        "B",
+        "C"
+      ],
+      "pretrain_steps": 200000,
+      "allocations": 5,
+      "continuations": 2,
+      "continuation_labels_proposed": [
+        4301,
+        4302
+      ],
+      "checkpoint_steps": [
+        100000,
+        200000
+      ],
+      "branch_diagnostic_steps": [
+        4000
+      ],
+      "final_steps": 40000,
+      "precision_rule": "Recalculate required original-seed count before unblinding from development paired variance and a predeclared 2pp practical target; eight is a costing example, not guaranteed power.",
+      "candidate_model_and_feature_definitions_frozen_before_new_outcomes": true,
+      "feature_confirmation": "predeclared ablations, simultaneous uncertainty for up to three retained groups; overlap with zero means unresolved, not proof of no effect"
+    },
+    "online": {
+      "fresh_original_seeds_proposed": [
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68
+      ],
+      "compositions": [
+        "A",
+        "B",
+        "C"
+      ],
+      "pretrain_steps": 200000,
+      "continuations": 2,
+      "continuation_labels_proposed": [
+        6301,
+        6302
+      ],
+      "methods": [
+        "Uniform",
+        "Failure",
+        "Learning_progress",
+        "Development_fixed",
+        "Gradient_transfer_SAC_adaptation",
+        "Aioli_style_SAC_adaptation",
+        "Selected_factor_allocator"
+      ],
+      "budget_steps_including_diagnostics": 40000,
+      "primary_diagnostic_cap_fraction": 0.2,
+      "feasible_diagnostic_example": {
+        "candidate_probes": 1,
+        "probe_steps_each": 4000,
+        "evaluation_episodes_per_task": 2,
+        "evaluation_steps_per_episode": 500,
+        "all_probe_steps_count_toward_diagnostic_cap": true,
+        "retained_probe_counted_once_in_total_environment_budget": true,
+        "full_probe_evaluation_steps_max": 4000,
+        "selected_policy_training_steps_if_retained_min": 36000,
+        "selected_policy_training_steps_if_all_discarded_min": 32000,
+        "development_downsampling": "Predetermined outcome-independent two-case subsets per task; assess small-bank predictions and decision gates before confirmation; subset draws are not independent pretrained policies."
+      },
+      "horizon_and_action_caveat": "Forty-k fixed-allocation prediction does not validate 32k/36k or switched-action outcomes. Interpolation is an explicit assumption tested by G4; any F08 new actions need separately budgeted confirmation cells.",
+      "sensitivity_cap_fractions": [
+        0,
+        0.1
+      ],
+      "initial_public_checkpoints": [
+        100000,
+        200000
+      ],
+      "no_learning_evaluations_per_parent": 1,
+      "actual_win_proposal_pp": 2,
+      "success_rule": "positive primary paired interval versus the strongest development-frozen comparator and practically material gain; report all comparators, absolute gain, and factor ablations as separate optional costs."
+    }
+  },
+  "costing": {
+    "max_episode_steps": 500,
+    "diagnostic_episodes_per_task": 20,
+    "outcome_episodes_per_task": 100,
+    "tasks_per_composition": 4,
+    "shared_probe": {
+      "contexts": 12,
+      "allocations": 5,
+      "continuations": 3,
+      "steps": 4000,
+      "diagnostic_policy_snapshots": 192
+    },
+    "optional_probe_extension": {
+      "extra_steps_each": 4000,
+      "extra_policy_snapshots": 180
+    },
+    "factor8_pilot": {
+      "contexts": 3,
+      "continuations": 3,
+      "conditions": 8,
+      "steps": 40000,
+      "diagnostic_policy_snapshots": 3,
+      "outcome_policy_snapshots": 75,
+      "scope": "three named development states, two fixed task identities per composition, eight cells; dose .4375 versus pair-static .375/.375 controls distinct; actual sequential learner states, no spliced independent branches"
+    }
+  }
+}

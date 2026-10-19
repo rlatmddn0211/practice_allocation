@@ -1,0 +1,15 @@
+{
+  "status": "completed",
+  "costs": {
+    "environment_creations": 80,
+    "resets": 80,
+    "environment_steps": 30491,
+    "train_iterations": 0,
+    "evaluation_episodes": 80
+  },
+  "wall_seconds": 56.86103670002194,
+  "cpu_seconds": 36.671875,
+  "cuda_event_seconds": null,
+  "gpu_timing": "not instrumented; same device recorded in runtime",
+  "technical_smoke": false
+}

@@ -1,0 +1,2162 @@
+[
+  {
+    "suite": "A",
+    "kind": "train",
+    "job": "E1_A_s12_c200_r2101_U_t20",
+    "path": "D:\\robot_practice_allocation_runs\\10_independent_seed_checkpoint_study_v1\\results\\20261008T081301Z_e03_b26922\\E1_A_s12_c200_r2101_U_t20\\a01_1ab8f2\\costs.json",
+    "costs": {
+      "environment_creations": 40,
+      "resets": 40,
+      "environment_steps": 20000,
+      "train_iterations": 20000,
+      "evaluation_episodes": 0
+    },
+    "wall_seconds": 361.29616739973426,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "A",
+    "kind": "train",
+    "job": "E1_A_s12_c200_r2101_U_t40",
+    "path": "D:\\robot_practice_allocation_runs\\10_independent_seed_checkpoint_study_v1\\results\\20261008T081301Z_e03_b26922\\E1_A_s12_c200_r2101_U_t40\\a01_213e93\\costs.json",
+    "costs": {
+      "environment_creations": 40,
+      "resets": 40,
+      "environment_steps": 20000,
+      "train_iterations": 20000,
+      "evaluation_episodes": 0
+    },
+    "wall_seconds": 360.24128339998424,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "A",
+    "kind": "train",
+    "job": "E1_A_s12_c200_r2101_F_DO_t20",
+    "path": "D:\\robot_practice_allocation_runs\\10_independent_seed_checkpoint_study_v1\\results\\20261008T081301Z_e03_b26922\\E1_A_s12_c200_r2101_F_DO_t20\\a01_47aa6d\\costs.json",
+    "costs": {
+      "environment_creations": 40,
+      "resets": 40,
+      "environment_steps": 20000,
+      "train_iterations": 20000,
+      "evaluation_episodes": 0
+    },
+    "wall_seconds": 359.76952699944377,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "A",
+    "kind": "train",
+    "job": "E1_A_s12_c200_r2101_F_DO_t40",
+    "path": "D:\\robot_practice_allocation_runs\\10_independent_seed_checkpoint_study_v1\\results\\20261008T081301Z_e03_b26922\\E1_A_s12_c200_r2101_F_DO_t40\\a01_9a98ca\\costs.json",
+    "costs": {
+      "environment_creations": 40,
+      "resets": 40,
+      "environment_steps": 20000,
+      "train_iterations": 20000,
+      "evaluation_episodes": 0
+    },
+    "wall_seconds": 360.3263215003535,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "A",
+    "kind": "train",
+    "job": "E1_A_s12_c200_r2101_F_DC_t20",
+    "path": "D:\\robot_practice_allocation_runs\\10_independent_seed_checkpoint_study_v1\\results\\20261008T081301Z_e03_b26922\\E1_A_s12_c200_r2101_F_DC_t20\\a01_9745fc\\costs.json",
+    "costs": {
+      "environment_creations": 40,
+      "resets": 40,
+      "environment_steps": 20000,
+      "train_iterations": 20000,
+      "evaluation_episodes": 0
+    },
+    "wall_seconds": 358.9456242006272,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "A",
+    "kind": "train",
+    "job": "E1_A_s12_c200_r2101_F_DC_t40",
+    "path": "D:\\robot_practice_allocation_runs\\10_independent_seed_checkpoint_study_v1\\results\\20261008T081301Z_e03_b26922\\E1_A_s12_c200_r2101_F_DC_t40\\a01_fa6dea\\costs.json",
+    "costs": {
+      "environment_creations": 40,
+      "resets": 40,
+      "environment_steps": 20000,
+      "train_iterations": 20000,
+      "evaluation_episodes": 0
+    },
+    "wall_seconds": 359.5793808000162,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "A",
+    "kind": "train",
+    "job": "E1_A_s12_c200_r2101_F_WO_t20",
+    "path": "D:\\robot_practice_allocation_runs\\10_independent_seed_checkpoint_study_v1\\results\\20261008T081301Z_e03_b26922\\E1_A_s12_c200_r2101_F_WO_t20\\a01_b16b38\\costs.json",
+    "costs": {
+      "environment_creations": 40,
+      "resets": 40,
+      "environment_steps": 20000,
+      "train_iterations": 20000,
+      "evaluation_episodes": 0
+    },
+    "wall_seconds": 356.96431529987603,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "A",
+    "kind": "train",
+    "job": "E1_A_s12_c200_r2101_F_WO_t40",
+    "path": "D:\\robot_practice_allocation_runs\\10_independent_seed_checkpoint_study_v1\\results\\20261008T081301Z_e03_b26922\\E1_A_s12_c200_r2101_F_WO_t40\\a01_095cda\\costs.json",
+    "costs": {
+      "environment_creations": 40,
+      "resets": 40,
+      "environment_steps": 20000,
+      "train_iterations": 20000,
+      "evaluation_episodes": 0
+    },
+    "wall_seconds": 361.72163010016084,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "A",
+    "kind": "train",
+    "job": "E1_A_s12_c200_r2101_F_WC_t20",
+    "path": "D:\\robot_practice_allocation_runs\\10_independent_seed_checkpoint_study_v1\\results\\20261008T081301Z_e03_b26922\\E1_A_s12_c200_r2101_F_WC_t20\\a01_e4e0df\\costs.json",
+    "costs": {
+      "environment_creations": 40,
+      "resets": 40,
+      "environment_steps": 20000,
+      "train_iterations": 20000,
+      "evaluation_episodes": 0
+    },
+    "wall_seconds": 359.89573199953884,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "A",
+    "kind": "train",
+    "job": "E1_A_s12_c200_r2101_F_WC_t40",
+    "path": "D:\\robot_practice_allocation_runs\\10_independent_seed_checkpoint_study_v1\\results\\20261008T081301Z_e03_b26922\\E1_A_s12_c200_r2101_F_WC_t40\\a01_500627\\costs.json",
+    "costs": {
+      "environment_creations": 40,
+      "resets": 40,
+      "environment_steps": 20000,
+      "train_iterations": 20000,
+      "evaluation_episodes": 0
+    },
+    "wall_seconds": 362.9391313996166,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "A",
+    "kind": "train",
+    "job": "E1_A_s12_c200_r2102_U_t20",
+    "path": "D:\\robot_practice_allocation_runs\\10_independent_seed_checkpoint_study_v1\\results\\20261008T081301Z_e03_b26922\\E1_A_s12_c200_r2102_U_t20\\a01_dab764\\costs.json",
+    "costs": {
+      "environment_creations": 40,
+      "resets": 40,
+      "environment_steps": 20000,
+      "train_iterations": 20000,
+      "evaluation_episodes": 0
+    },
+    "wall_seconds": 362.5940073998645,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "A",
+    "kind": "train",
+    "job": "E1_A_s12_c200_r2102_U_t40",
+    "path": "D:\\robot_practice_allocation_runs\\10_independent_seed_checkpoint_study_v1\\results\\20261008T081301Z_e03_b26922\\E1_A_s12_c200_r2102_U_t40\\a01_8f5131\\costs.json",
+    "costs": {
+      "environment_creations": 40,
+      "resets": 40,
+      "environment_steps": 20000,
+      "train_iterations": 20000,
+      "evaluation_episodes": 0
+    },
+    "wall_seconds": 360.7141584996134,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "A",
+    "kind": "train",
+    "job": "E1_A_s12_c200_r2102_F_DO_t20",
+    "path": "D:\\robot_practice_allocation_runs\\10_independent_seed_checkpoint_study_v1\\results\\20261008T081301Z_e03_b26922\\E1_A_s12_c200_r2102_F_DO_t20\\a01_339a43\\costs.json",
+    "costs": {
+      "environment_creations": 40,
+      "resets": 40,
+      "environment_steps": 20000,
+      "train_iterations": 20000,
+      "evaluation_episodes": 0
+    },
+    "wall_seconds": 361.8580350000411,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "A",
+    "kind": "train",
+    "job": "E1_A_s12_c200_r2102_F_DO_t40",
+    "path": "D:\\robot_practice_allocation_runs\\10_independent_seed_checkpoint_study_v1\\results\\20261008T081301Z_e03_b26922\\E1_A_s12_c200_r2102_F_DO_t40\\a01_b18669\\costs.json",
+    "costs": {
+      "environment_creations": 40,
+      "resets": 40,
+      "environment_steps": 20000,
+      "train_iterations": 20000,
+      "evaluation_episodes": 0
+    },
+    "wall_seconds": 361.9802402006462,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "A",
+    "kind": "train",
+    "job": "E1_A_s12_c200_r2102_F_DC_t20",
+    "path": "D:\\robot_practice_allocation_runs\\10_independent_seed_checkpoint_study_v1\\results\\20261008T081301Z_e03_b26922\\E1_A_s12_c200_r2102_F_DC_t20\\a01_1faded\\costs.json",
+    "costs": {
+      "environment_creations": 40,
+      "resets": 40,
+      "environment_steps": 20000,
+      "train_iterations": 20000,
+      "evaluation_episodes": 0
+    },
+    "wall_seconds": 359.95228490047157,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "A",
+    "kind": "train",
+    "job": "E1_A_s12_c200_r2102_F_DC_t40",
+    "path": "D:\\robot_practice_allocation_runs\\10_independent_seed_checkpoint_study_v1\\results\\20261008T081301Z_e03_b26922\\E1_A_s12_c200_r2102_F_DC_t40\\a01_7b4bd5\\costs.json",
+    "costs": {
+      "environment_creations": 40,
+      "resets": 40,
+      "environment_steps": 20000,
+      "train_iterations": 20000,
+      "evaluation_episodes": 0
+    },
+    "wall_seconds": 358.06812649965286,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "A",
+    "kind": "train",
+    "job": "E1_A_s12_c200_r2102_F_WO_t20",
+    "path": "D:\\robot_practice_allocation_runs\\10_independent_seed_checkpoint_study_v1\\results\\20261008T081301Z_e03_b26922\\E1_A_s12_c200_r2102_F_WO_t20\\a01_afb424\\costs.json",
+    "costs": {
+      "environment_creations": 40,
+      "resets": 40,
+      "environment_steps": 20000,
+      "train_iterations": 20000,
+      "evaluation_episodes": 0
+    },
+    "wall_seconds": 361.4442056994885,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "A",
+    "kind": "train",
+    "job": "E1_A_s12_c200_r2102_F_WO_t40",
+    "path": "D:\\robot_practice_allocation_runs\\10_independent_seed_checkpoint_study_v1\\results\\20261008T081301Z_e03_b26922\\E1_A_s12_c200_r2102_F_WO_t40\\a01_3fcd55\\costs.json",
+    "costs": {
+      "environment_creations": 40,
+      "resets": 40,
+      "environment_steps": 20000,
+      "train_iterations": 20000,
+      "evaluation_episodes": 0
+    },
+    "wall_seconds": 363.2650483995676,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "A",
+    "kind": "train",
+    "job": "E1_A_s12_c200_r2102_F_WC_t20",
+    "path": "D:\\robot_practice_allocation_runs\\10_independent_seed_checkpoint_study_v1\\results\\20261008T081301Z_e03_b26922\\E1_A_s12_c200_r2102_F_WC_t20\\a01_9e508b\\costs.json",
+    "costs": {
+      "environment_creations": 40,
+      "resets": 40,
+      "environment_steps": 20000,
+      "train_iterations": 20000,
+      "evaluation_episodes": 0
+    },
+    "wall_seconds": 361.23981830012053,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "A",
+    "kind": "train",
+    "job": "E1_A_s12_c200_r2102_F_WC_t40",
+    "path": "D:\\robot_practice_allocation_runs\\10_independent_seed_checkpoint_study_v1\\results\\20261008T081301Z_e03_b26922\\E1_A_s12_c200_r2102_F_WC_t40\\a01_d47050\\costs.json",
+    "costs": {
+      "environment_creations": 40,
+      "resets": 40,
+      "environment_steps": 20000,
+      "train_iterations": 20000,
+      "evaluation_episodes": 0
+    },
+    "wall_seconds": 360.4861922999844,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "A",
+    "kind": "train",
+    "job": "E1_A_s12_c200_r2103_U_t20",
+    "path": "D:\\robot_practice_allocation_runs\\10_independent_seed_checkpoint_study_v1\\results\\20261008T081301Z_e03_b26922\\E1_A_s12_c200_r2103_U_t20\\a01_517321\\costs.json",
+    "costs": {
+      "environment_creations": 40,
+      "resets": 40,
+      "environment_steps": 20000,
+      "train_iterations": 20000,
+      "evaluation_episodes": 0
+    },
+    "wall_seconds": 359.92533230036497,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "A",
+    "kind": "train",
+    "job": "E1_A_s12_c200_r2103_U_t40",
+    "path": "D:\\robot_practice_allocation_runs\\10_independent_seed_checkpoint_study_v1\\results\\20261008T081301Z_e03_b26922\\E1_A_s12_c200_r2103_U_t40\\a01_ab06aa\\costs.json",
+    "costs": {
+      "environment_creations": 40,
+      "resets": 40,
+      "environment_steps": 20000,
+      "train_iterations": 20000,
+      "evaluation_episodes": 0
+    },
+    "wall_seconds": 358.6653591003269,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "A",
+    "kind": "train",
+    "job": "E1_A_s12_c200_r2103_F_DO_t20",
+    "path": "D:\\robot_practice_allocation_runs\\10_independent_seed_checkpoint_study_v1\\results\\20261008T081301Z_e03_b26922\\E1_A_s12_c200_r2103_F_DO_t20\\a01_2284e2\\costs.json",
+    "costs": {
+      "environment_creations": 40,
+      "resets": 40,
+      "environment_steps": 20000,
+      "train_iterations": 20000,
+      "evaluation_episodes": 0
+    },
+    "wall_seconds": 361.3861670996994,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "A",
+    "kind": "train",
+    "job": "E1_A_s12_c200_r2103_F_DO_t40",
+    "path": "D:\\robot_practice_allocation_runs\\10_independent_seed_checkpoint_study_v1\\results\\20261008T081301Z_e03_b26922\\E1_A_s12_c200_r2103_F_DO_t40\\a01_3e3345\\costs.json",
+    "costs": {
+      "environment_creations": 40,
+      "resets": 40,
+      "environment_steps": 20000,
+      "train_iterations": 20000,
+      "evaluation_episodes": 0
+    },
+    "wall_seconds": 358.89091010019183,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "A",
+    "kind": "train",
+    "job": "E1_A_s12_c200_r2103_F_DC_t20",
+    "path": "D:\\robot_practice_allocation_runs\\10_independent_seed_checkpoint_study_v1\\results\\20261008T081301Z_e03_b26922\\E1_A_s12_c200_r2103_F_DC_t20\\a01_15ff5e\\costs.json",
+    "costs": {
+      "environment_creations": 40,
+      "resets": 40,
+      "environment_steps": 20000,
+      "train_iterations": 20000,
+      "evaluation_episodes": 0
+    },
+    "wall_seconds": 361.8354487000033,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "A",
+    "kind": "train",
+    "job": "E1_A_s12_c200_r2103_F_DC_t40",
+    "path": "D:\\robot_practice_allocation_runs\\10_independent_seed_checkpoint_study_v1\\results\\20261008T081301Z_e03_b26922\\E1_A_s12_c200_r2103_F_DC_t40\\a01_90e605\\costs.json",
+    "costs": {
+      "environment_creations": 40,
+      "resets": 40,
+      "environment_steps": 20000,
+      "train_iterations": 20000,
+      "evaluation_episodes": 0
+    },
+    "wall_seconds": 367.47230469994247,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "A",
+    "kind": "train",
+    "job": "E1_A_s12_c200_r2103_F_WO_t20",
+    "path": "D:\\robot_practice_allocation_runs\\10_independent_seed_checkpoint_study_v1\\results\\20261008T081301Z_e03_b26922\\E1_A_s12_c200_r2103_F_WO_t20\\a01_9f6db6\\costs.json",
+    "costs": {
+      "environment_creations": 40,
+      "resets": 40,
+      "environment_steps": 20000,
+      "train_iterations": 20000,
+      "evaluation_episodes": 0
+    },
+    "wall_seconds": 362.46584980003536,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "A",
+    "kind": "train",
+    "job": "E1_A_s12_c200_r2103_F_WO_t40",
+    "path": "D:\\robot_practice_allocation_runs\\10_independent_seed_checkpoint_study_v1\\results\\20261008T081301Z_e03_b26922\\E1_A_s12_c200_r2103_F_WO_t40\\a01_9d599c\\costs.json",
+    "costs": {
+      "environment_creations": 40,
+      "resets": 40,
+      "environment_steps": 20000,
+      "train_iterations": 20000,
+      "evaluation_episodes": 0
+    },
+    "wall_seconds": 363.458780400455,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "A",
+    "kind": "train",
+    "job": "E1_A_s12_c200_r2103_F_WC_t20",
+    "path": "D:\\robot_practice_allocation_runs\\10_independent_seed_checkpoint_study_v1\\results\\20261008T081301Z_e03_b26922\\E1_A_s12_c200_r2103_F_WC_t20\\a01_6a6e25\\costs.json",
+    "costs": {
+      "environment_creations": 40,
+      "resets": 40,
+      "environment_steps": 20000,
+      "train_iterations": 20000,
+      "evaluation_episodes": 0
+    },
+    "wall_seconds": 360.27511339914054,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "A",
+    "kind": "train",
+    "job": "E1_A_s12_c200_r2103_F_WC_t40",
+    "path": "D:\\robot_practice_allocation_runs\\10_independent_seed_checkpoint_study_v1\\results\\20261008T081301Z_e03_b26922\\E1_A_s12_c200_r2103_F_WC_t40\\a01_6f928e\\costs.json",
+    "costs": {
+      "environment_creations": 40,
+      "resets": 40,
+      "environment_steps": 20000,
+      "train_iterations": 20000,
+      "evaluation_episodes": 0
+    },
+    "wall_seconds": 362.0633741999045,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "A",
+    "kind": "evaluate",
+    "job": "E1_A_s12_c200_r2101_U_e40",
+    "path": "D:\\robot_practice_allocation_runs\\10_independent_seed_checkpoint_study_v1\\results\\20261008T081301Z_e03_b26922\\E1_A_s12_c200_r2101_U_e40\\a01_1aa01b\\costs.json",
+    "costs": {
+      "environment_creations": 400,
+      "resets": 400,
+      "environment_steps": 72466,
+      "train_iterations": 0,
+      "evaluation_episodes": 400
+    },
+    "wall_seconds": 134.21929170005023,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "A",
+    "kind": "evaluate",
+    "job": "E1_A_s12_c200_r2101_F_DO_e40",
+    "path": "D:\\robot_practice_allocation_runs\\10_independent_seed_checkpoint_study_v1\\results\\20261008T081301Z_e03_b26922\\E1_A_s12_c200_r2101_F_DO_e40\\a01_c510d9\\costs.json",
+    "costs": {
+      "environment_creations": 400,
+      "resets": 400,
+      "environment_steps": 76352,
+      "train_iterations": 0,
+      "evaluation_episodes": 400
+    },
+    "wall_seconds": 139.4038960998878,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "A",
+    "kind": "evaluate",
+    "job": "E1_A_s12_c200_r2101_F_DC_e40",
+    "path": "D:\\robot_practice_allocation_runs\\10_independent_seed_checkpoint_study_v1\\results\\20261008T081301Z_e03_b26922\\E1_A_s12_c200_r2101_F_DC_e40\\a01_755a6f\\costs.json",
+    "costs": {
+      "environment_creations": 400,
+      "resets": 400,
+      "environment_steps": 94617,
+      "train_iterations": 0,
+      "evaluation_episodes": 400
+    },
+    "wall_seconds": 167.11958959978074,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "A",
+    "kind": "evaluate",
+    "job": "E1_A_s12_c200_r2101_F_WO_e40",
+    "path": "D:\\robot_practice_allocation_runs\\10_independent_seed_checkpoint_study_v1\\results\\20261008T081301Z_e03_b26922\\E1_A_s12_c200_r2101_F_WO_e40\\a01_cead3d\\costs.json",
+    "costs": {
+      "environment_creations": 400,
+      "resets": 400,
+      "environment_steps": 85220,
+      "train_iterations": 0,
+      "evaluation_episodes": 400
+    },
+    "wall_seconds": 155.38403009995818,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "A",
+    "kind": "evaluate",
+    "job": "E1_A_s12_c200_r2101_F_WC_e40",
+    "path": "D:\\robot_practice_allocation_runs\\10_independent_seed_checkpoint_study_v1\\results\\20261008T081301Z_e03_b26922\\E1_A_s12_c200_r2101_F_WC_e40\\a01_e1cc08\\costs.json",
+    "costs": {
+      "environment_creations": 400,
+      "resets": 400,
+      "environment_steps": 108788,
+      "train_iterations": 0,
+      "evaluation_episodes": 400
+    },
+    "wall_seconds": 186.8695447994396,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "A",
+    "kind": "evaluate",
+    "job": "E1_A_s12_c200_r2102_U_e40",
+    "path": "D:\\robot_practice_allocation_runs\\10_independent_seed_checkpoint_study_v1\\results\\20261008T081301Z_e03_b26922\\E1_A_s12_c200_r2102_U_e40\\a01_7b7584\\costs.json",
+    "costs": {
+      "environment_creations": 400,
+      "resets": 400,
+      "environment_steps": 74770,
+      "train_iterations": 0,
+      "evaluation_episodes": 400
+    },
+    "wall_seconds": 139.74761909991503,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "A",
+    "kind": "evaluate",
+    "job": "E1_A_s12_c200_r2102_F_DO_e40",
+    "path": "D:\\robot_practice_allocation_runs\\10_independent_seed_checkpoint_study_v1\\results\\20261008T081301Z_e03_b26922\\E1_A_s12_c200_r2102_F_DO_e40\\a01_f2f3a8\\costs.json",
+    "costs": {
+      "environment_creations": 400,
+      "resets": 400,
+      "environment_steps": 66061,
+      "train_iterations": 0,
+      "evaluation_episodes": 400
+    },
+    "wall_seconds": 124.13751860056072,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "A",
+    "kind": "evaluate",
+    "job": "E1_A_s12_c200_r2102_F_DC_e40",
+    "path": "D:\\robot_practice_allocation_runs\\10_independent_seed_checkpoint_study_v1\\results\\20261008T081301Z_e03_b26922\\E1_A_s12_c200_r2102_F_DC_e40\\a01_48226c\\costs.json",
+    "costs": {
+      "environment_creations": 400,
+      "resets": 400,
+      "environment_steps": 93717,
+      "train_iterations": 0,
+      "evaluation_episodes": 400
+    },
+    "wall_seconds": 165.60653190035373,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "A",
+    "kind": "evaluate",
+    "job": "E1_A_s12_c200_r2102_F_WO_e40",
+    "path": "D:\\robot_practice_allocation_runs\\10_independent_seed_checkpoint_study_v1\\results\\20261008T081301Z_e03_b26922\\E1_A_s12_c200_r2102_F_WO_e40\\a01_47009b\\costs.json",
+    "costs": {
+      "environment_creations": 400,
+      "resets": 400,
+      "environment_steps": 73974,
+      "train_iterations": 0,
+      "evaluation_episodes": 400
+    },
+    "wall_seconds": 138.43304200004786,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "A",
+    "kind": "evaluate",
+    "job": "E1_A_s12_c200_r2102_F_WC_e40",
+    "path": "D:\\robot_practice_allocation_runs\\10_independent_seed_checkpoint_study_v1\\results\\20261008T081301Z_e03_b26922\\E1_A_s12_c200_r2102_F_WC_e40\\a01_a354e1\\costs.json",
+    "costs": {
+      "environment_creations": 400,
+      "resets": 400,
+      "environment_steps": 78302,
+      "train_iterations": 0,
+      "evaluation_episodes": 400
+    },
+    "wall_seconds": 144.29667300079018,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "A",
+    "kind": "evaluate",
+    "job": "E1_A_s12_c200_r2103_U_e40",
+    "path": "D:\\robot_practice_allocation_runs\\10_independent_seed_checkpoint_study_v1\\results\\20261008T081301Z_e03_b26922\\E1_A_s12_c200_r2103_U_e40\\a01_22ea5a\\costs.json",
+    "costs": {
+      "environment_creations": 400,
+      "resets": 400,
+      "environment_steps": 90130,
+      "train_iterations": 0,
+      "evaluation_episodes": 400
+    },
+    "wall_seconds": 163.13291370030493,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "A",
+    "kind": "evaluate",
+    "job": "E1_A_s12_c200_r2103_F_DO_e40",
+    "path": "D:\\robot_practice_allocation_runs\\10_independent_seed_checkpoint_study_v1\\results\\20261008T081301Z_e03_b26922\\E1_A_s12_c200_r2103_F_DO_e40\\a01_533676\\costs.json",
+    "costs": {
+      "environment_creations": 400,
+      "resets": 400,
+      "environment_steps": 92986,
+      "train_iterations": 0,
+      "evaluation_episodes": 400
+    },
+    "wall_seconds": 163.47198220063,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "A",
+    "kind": "evaluate",
+    "job": "E1_A_s12_c200_r2103_F_DC_e40",
+    "path": "D:\\robot_practice_allocation_runs\\10_independent_seed_checkpoint_study_v1\\results\\20261008T081301Z_e03_b26922\\E1_A_s12_c200_r2103_F_DC_e40\\a01_ef0051\\costs.json",
+    "costs": {
+      "environment_creations": 400,
+      "resets": 400,
+      "environment_steps": 89123,
+      "train_iterations": 0,
+      "evaluation_episodes": 400
+    },
+    "wall_seconds": 171.7117297993973,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "A",
+    "kind": "evaluate",
+    "job": "E1_A_s12_c200_r2103_F_WO_e40",
+    "path": "D:\\robot_practice_allocation_runs\\10_independent_seed_checkpoint_study_v1\\results\\20261008T081301Z_e03_b26922\\E1_A_s12_c200_r2103_F_WO_e40\\a01_304137\\costs.json",
+    "costs": {
+      "environment_creations": 400,
+      "resets": 400,
+      "environment_steps": 71177,
+      "train_iterations": 0,
+      "evaluation_episodes": 400
+    },
+    "wall_seconds": 131.22802029922605,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "A",
+    "kind": "evaluate",
+    "job": "E1_A_s12_c200_r2103_F_WC_e40",
+    "path": "D:\\robot_practice_allocation_runs\\10_independent_seed_checkpoint_study_v1\\results\\20261008T081301Z_e03_b26922\\E1_A_s12_c200_r2103_F_WC_e40\\a01_c9d8b1\\costs.json",
+    "costs": {
+      "environment_creations": 400,
+      "resets": 400,
+      "environment_steps": 69212,
+      "train_iterations": 0,
+      "evaluation_episodes": 400
+    },
+    "wall_seconds": 133.9077965002507,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "B",
+    "kind": "train",
+    "job": "E3_B_s12_c200_r2301_U_t20",
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_B_s12_c200_r2301_U_t20\\a01_748d0d\\costs.json",
+    "costs": {
+      "environment_creations": 40,
+      "resets": 40,
+      "environment_steps": 20000,
+      "train_iterations": 20000,
+      "evaluation_episodes": 0
+    },
+    "wall_seconds": 354.8111790999974,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "B",
+    "kind": "train",
+    "job": "E3_B_s12_c200_r2301_U_t40",
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_B_s12_c200_r2301_U_t40\\a01_8a54a3\\costs.json",
+    "costs": {
+      "environment_creations": 40,
+      "resets": 40,
+      "environment_steps": 20000,
+      "train_iterations": 20000,
+      "evaluation_episodes": 0
+    },
+    "wall_seconds": 357.27655080000113,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "B",
+    "kind": "train",
+    "job": "E3_B_s12_c200_r2301_F_DO_t20",
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_B_s12_c200_r2301_F_DO_t20\\a01_6312da\\costs.json",
+    "costs": {
+      "environment_creations": 40,
+      "resets": 40,
+      "environment_steps": 20000,
+      "train_iterations": 20000,
+      "evaluation_episodes": 0
+    },
+    "wall_seconds": 334.27100470000005,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "B",
+    "kind": "train",
+    "job": "E3_B_s12_c200_r2301_F_DO_t40",
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_B_s12_c200_r2301_F_DO_t40\\a01_ff5dd9\\costs.json",
+    "costs": {
+      "environment_creations": 40,
+      "resets": 40,
+      "environment_steps": 20000,
+      "train_iterations": 20000,
+      "evaluation_episodes": 0
+    },
+    "wall_seconds": 353.23555230000056,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "B",
+    "kind": "train",
+    "job": "E3_B_s12_c200_r2301_F_DC_t20",
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_B_s12_c200_r2301_F_DC_t20\\a01_94c8a2\\costs.json",
+    "costs": {
+      "environment_creations": 40,
+      "resets": 40,
+      "environment_steps": 20000,
+      "train_iterations": 20000,
+      "evaluation_episodes": 0
+    },
+    "wall_seconds": 353.22169900000154,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "B",
+    "kind": "train",
+    "job": "E3_B_s12_c200_r2301_F_DC_t40",
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_B_s12_c200_r2301_F_DC_t40\\a01_60d0a9\\costs.json",
+    "costs": {
+      "environment_creations": 40,
+      "resets": 40,
+      "environment_steps": 20000,
+      "train_iterations": 20000,
+      "evaluation_episodes": 0
+    },
+    "wall_seconds": 329.64213369999925,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "B",
+    "kind": "train",
+    "job": "E3_B_s12_c200_r2301_F_PU_t20",
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_B_s12_c200_r2301_F_PU_t20\\a01_54cd04\\costs.json",
+    "costs": {
+      "environment_creations": 40,
+      "resets": 40,
+      "environment_steps": 20000,
+      "train_iterations": 20000,
+      "evaluation_episodes": 0
+    },
+    "wall_seconds": 353.2909814999948,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "B",
+    "kind": "train",
+    "job": "E3_B_s12_c200_r2301_F_PU_t40",
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_B_s12_c200_r2301_F_PU_t40\\a01_ede060\\costs.json",
+    "costs": {
+      "environment_creations": 40,
+      "resets": 40,
+      "environment_steps": 20000,
+      "train_iterations": 20000,
+      "evaluation_episodes": 0
+    },
+    "wall_seconds": 356.54924429999664,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "B",
+    "kind": "train",
+    "job": "E3_B_s12_c200_r2301_F_BP_t20",
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_B_s12_c200_r2301_F_BP_t20\\a01_e27e1c\\costs.json",
+    "costs": {
+      "environment_creations": 40,
+      "resets": 40,
+      "environment_steps": 20000,
+      "train_iterations": 20000,
+      "evaluation_episodes": 0
+    },
+    "wall_seconds": 355.9579300999976,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "B",
+    "kind": "train",
+    "job": "E3_B_s12_c200_r2301_F_BP_t40",
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_B_s12_c200_r2301_F_BP_t40\\a01_48e8c6\\costs.json",
+    "costs": {
+      "environment_creations": 40,
+      "resets": 40,
+      "environment_steps": 20000,
+      "train_iterations": 20000,
+      "evaluation_episodes": 0
+    },
+    "wall_seconds": 352.548841900003,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "B",
+    "kind": "train",
+    "job": "E3_B_s12_c200_r2302_U_t20",
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_B_s12_c200_r2302_U_t20\\a01_e06cd8\\costs.json",
+    "costs": {
+      "environment_creations": 40,
+      "resets": 40,
+      "environment_steps": 20000,
+      "train_iterations": 20000,
+      "evaluation_episodes": 0
+    },
+    "wall_seconds": 352.6872992999997,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "B",
+    "kind": "train",
+    "job": "E3_B_s12_c200_r2302_U_t40",
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_B_s12_c200_r2302_U_t40\\a01_580605\\costs.json",
+    "costs": {
+      "environment_creations": 40,
+      "resets": 40,
+      "environment_steps": 20000,
+      "train_iterations": 20000,
+      "evaluation_episodes": 0
+    },
+    "wall_seconds": 353.379342799999,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "B",
+    "kind": "train",
+    "job": "E3_B_s12_c200_r2302_F_DO_t20",
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_B_s12_c200_r2302_F_DO_t20\\a01_05208c\\costs.json",
+    "costs": {
+      "environment_creations": 40,
+      "resets": 40,
+      "environment_steps": 20000,
+      "train_iterations": 20000,
+      "evaluation_episodes": 0
+    },
+    "wall_seconds": 351.9088330000013,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "B",
+    "kind": "train",
+    "job": "E3_B_s12_c200_r2302_F_DO_t40",
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_B_s12_c200_r2302_F_DO_t40\\a01_8ad561\\costs.json",
+    "costs": {
+      "environment_creations": 40,
+      "resets": 40,
+      "environment_steps": 20000,
+      "train_iterations": 20000,
+      "evaluation_episodes": 0
+    },
+    "wall_seconds": 355.03713149999385,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "B",
+    "kind": "train",
+    "job": "E3_B_s12_c200_r2302_F_DC_t20",
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_B_s12_c200_r2302_F_DC_t20\\a01_1f4687\\costs.json",
+    "costs": {
+      "environment_creations": 40,
+      "resets": 40,
+      "environment_steps": 20000,
+      "train_iterations": 20000,
+      "evaluation_episodes": 0
+    },
+    "wall_seconds": 355.5510632000005,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "B",
+    "kind": "train",
+    "job": "E3_B_s12_c200_r2302_F_DC_t40",
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_B_s12_c200_r2302_F_DC_t40\\a01_51474d\\costs.json",
+    "costs": {
+      "environment_creations": 40,
+      "resets": 40,
+      "environment_steps": 20000,
+      "train_iterations": 20000,
+      "evaluation_episodes": 0
+    },
+    "wall_seconds": 354.26654010000493,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "B",
+    "kind": "train",
+    "job": "E3_B_s12_c200_r2302_F_PU_t20",
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_B_s12_c200_r2302_F_PU_t20\\a01_6eab67\\costs.json",
+    "costs": {
+      "environment_creations": 40,
+      "resets": 40,
+      "environment_steps": 20000,
+      "train_iterations": 20000,
+      "evaluation_episodes": 0
+    },
+    "wall_seconds": 355.8105097000007,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "B",
+    "kind": "train",
+    "job": "E3_B_s12_c200_r2302_F_PU_t40",
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_B_s12_c200_r2302_F_PU_t40\\a01_98c907\\costs.json",
+    "costs": {
+      "environment_creations": 40,
+      "resets": 40,
+      "environment_steps": 20000,
+      "train_iterations": 20000,
+      "evaluation_episodes": 0
+    },
+    "wall_seconds": 354.37163970000256,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "B",
+    "kind": "train",
+    "job": "E3_B_s12_c200_r2302_F_BP_t20",
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_B_s12_c200_r2302_F_BP_t20\\a01_fcdbd7\\costs.json",
+    "costs": {
+      "environment_creations": 40,
+      "resets": 40,
+      "environment_steps": 20000,
+      "train_iterations": 20000,
+      "evaluation_episodes": 0
+    },
+    "wall_seconds": 354.305635100005,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "B",
+    "kind": "train",
+    "job": "E3_B_s12_c200_r2302_F_BP_t40",
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_B_s12_c200_r2302_F_BP_t40\\a01_adb2dd\\costs.json",
+    "costs": {
+      "environment_creations": 40,
+      "resets": 40,
+      "environment_steps": 20000,
+      "train_iterations": 20000,
+      "evaluation_episodes": 0
+    },
+    "wall_seconds": 355.2516453999997,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "B",
+    "kind": "train",
+    "job": "E3_B_s12_c200_r2303_U_t20",
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_B_s12_c200_r2303_U_t20\\a01_6b356f\\costs.json",
+    "costs": {
+      "environment_creations": 40,
+      "resets": 40,
+      "environment_steps": 20000,
+      "train_iterations": 20000,
+      "evaluation_episodes": 0
+    },
+    "wall_seconds": 353.795821599997,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "B",
+    "kind": "train",
+    "job": "E3_B_s12_c200_r2303_U_t40",
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_B_s12_c200_r2303_U_t40\\a01_f5bec2\\costs.json",
+    "costs": {
+      "environment_creations": 40,
+      "resets": 40,
+      "environment_steps": 20000,
+      "train_iterations": 20000,
+      "evaluation_episodes": 0
+    },
+    "wall_seconds": 354.24871610000264,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "B",
+    "kind": "train",
+    "job": "E3_B_s12_c200_r2303_F_DO_t20",
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_B_s12_c200_r2303_F_DO_t20\\a01_eec13c\\costs.json",
+    "costs": {
+      "environment_creations": 40,
+      "resets": 40,
+      "environment_steps": 20000,
+      "train_iterations": 20000,
+      "evaluation_episodes": 0
+    },
+    "wall_seconds": 354.30502839999826,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "B",
+    "kind": "train",
+    "job": "E3_B_s12_c200_r2303_F_DO_t40",
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_B_s12_c200_r2303_F_DO_t40\\a01_fb647d\\costs.json",
+    "costs": {
+      "environment_creations": 40,
+      "resets": 40,
+      "environment_steps": 20000,
+      "train_iterations": 20000,
+      "evaluation_episodes": 0
+    },
+    "wall_seconds": 353.20461950000026,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "B",
+    "kind": "train",
+    "job": "E3_B_s12_c200_r2303_F_DC_t20",
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_B_s12_c200_r2303_F_DC_t20\\a01_a48a26\\costs.json",
+    "costs": {
+      "environment_creations": 40,
+      "resets": 40,
+      "environment_steps": 20000,
+      "train_iterations": 20000,
+      "evaluation_episodes": 0
+    },
+    "wall_seconds": 356.06009079999785,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "B",
+    "kind": "train",
+    "job": "E3_B_s12_c200_r2303_F_DC_t40",
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_B_s12_c200_r2303_F_DC_t40\\a01_3fd885\\costs.json",
+    "costs": {
+      "environment_creations": 40,
+      "resets": 40,
+      "environment_steps": 20000,
+      "train_iterations": 20000,
+      "evaluation_episodes": 0
+    },
+    "wall_seconds": 354.06611079999857,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "B",
+    "kind": "train",
+    "job": "E3_B_s12_c200_r2303_F_PU_t20",
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_B_s12_c200_r2303_F_PU_t20\\a01_d2ea23\\costs.json",
+    "costs": {
+      "environment_creations": 40,
+      "resets": 40,
+      "environment_steps": 20000,
+      "train_iterations": 20000,
+      "evaluation_episodes": 0
+    },
+    "wall_seconds": 355.7158539000011,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "B",
+    "kind": "train",
+    "job": "E3_B_s12_c200_r2303_F_PU_t40",
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_B_s12_c200_r2303_F_PU_t40\\a01_fe0d99\\costs.json",
+    "costs": {
+      "environment_creations": 40,
+      "resets": 40,
+      "environment_steps": 20000,
+      "train_iterations": 20000,
+      "evaluation_episodes": 0
+    },
+    "wall_seconds": 353.3569781999977,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "B",
+    "kind": "train",
+    "job": "E3_B_s12_c200_r2303_F_BP_t20",
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_B_s12_c200_r2303_F_BP_t20\\a01_e260aa\\costs.json",
+    "costs": {
+      "environment_creations": 40,
+      "resets": 40,
+      "environment_steps": 20000,
+      "train_iterations": 20000,
+      "evaluation_episodes": 0
+    },
+    "wall_seconds": 355.74098040000536,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "B",
+    "kind": "train",
+    "job": "E3_B_s12_c200_r2303_F_BP_t40",
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_B_s12_c200_r2303_F_BP_t40\\a01_8ac33a\\costs.json",
+    "costs": {
+      "environment_creations": 40,
+      "resets": 40,
+      "environment_steps": 20000,
+      "train_iterations": 20000,
+      "evaluation_episodes": 0
+    },
+    "wall_seconds": 355.1477973000001,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "B",
+    "kind": "evaluate",
+    "job": "E3_B_s12_c200_r2301_U_e40",
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_B_s12_c200_r2301_U_e40\\a01_02482a\\costs.json",
+    "costs": {
+      "environment_creations": 400,
+      "resets": 400,
+      "environment_steps": 132638,
+      "train_iterations": 0,
+      "evaluation_episodes": 400
+    },
+    "wall_seconds": 216.21502060000057,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "B",
+    "kind": "evaluate",
+    "job": "E3_B_s12_c200_r2301_F_DO_e40",
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_B_s12_c200_r2301_F_DO_e40\\a01_10bc9b\\costs.json",
+    "costs": {
+      "environment_creations": 400,
+      "resets": 400,
+      "environment_steps": 132067,
+      "train_iterations": 0,
+      "evaluation_episodes": 400
+    },
+    "wall_seconds": 221.94128490000003,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "B",
+    "kind": "evaluate",
+    "job": "E3_B_s12_c200_r2301_F_DC_e40",
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_B_s12_c200_r2301_F_DC_e40\\a01_c87861\\costs.json",
+    "costs": {
+      "environment_creations": 400,
+      "resets": 400,
+      "environment_steps": 135818,
+      "train_iterations": 0,
+      "evaluation_episodes": 400
+    },
+    "wall_seconds": 221.70997580000403,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "B",
+    "kind": "evaluate",
+    "job": "E3_B_s12_c200_r2301_F_PU_e40",
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_B_s12_c200_r2301_F_PU_e40\\a01_9fc5b9\\costs.json",
+    "costs": {
+      "environment_creations": 400,
+      "resets": 400,
+      "environment_steps": 123346,
+      "train_iterations": 0,
+      "evaluation_episodes": 400
+    },
+    "wall_seconds": 209.66341620000458,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "B",
+    "kind": "evaluate",
+    "job": "E3_B_s12_c200_r2301_F_BP_e40",
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_B_s12_c200_r2301_F_BP_e40\\a01_d3c582\\costs.json",
+    "costs": {
+      "environment_creations": 400,
+      "resets": 400,
+      "environment_steps": 154694,
+      "train_iterations": 0,
+      "evaluation_episodes": 400
+    },
+    "wall_seconds": 256.0803678000011,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "B",
+    "kind": "evaluate",
+    "job": "E3_B_s12_c200_r2302_U_e40",
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_B_s12_c200_r2302_U_e40\\a01_3a2eb4\\costs.json",
+    "costs": {
+      "environment_creations": 400,
+      "resets": 400,
+      "environment_steps": 141499,
+      "train_iterations": 0,
+      "evaluation_episodes": 400
+    },
+    "wall_seconds": 233.63698560000194,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "B",
+    "kind": "evaluate",
+    "job": "E3_B_s12_c200_r2302_F_DO_e40",
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_B_s12_c200_r2302_F_DO_e40\\a01_d61af9\\costs.json",
+    "costs": {
+      "environment_creations": 400,
+      "resets": 400,
+      "environment_steps": 145822,
+      "train_iterations": 0,
+      "evaluation_episodes": 400
+    },
+    "wall_seconds": 240.54311280000547,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "B",
+    "kind": "evaluate",
+    "job": "E3_B_s12_c200_r2302_F_DC_e40",
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_B_s12_c200_r2302_F_DC_e40\\a01_b7f352\\costs.json",
+    "costs": {
+      "environment_creations": 400,
+      "resets": 400,
+      "environment_steps": 132179,
+      "train_iterations": 0,
+      "evaluation_episodes": 400
+    },
+    "wall_seconds": 223.86023879999993,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "B",
+    "kind": "evaluate",
+    "job": "E3_B_s12_c200_r2302_F_PU_e40",
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_B_s12_c200_r2302_F_PU_e40\\a01_f56bc5\\costs.json",
+    "costs": {
+      "environment_creations": 400,
+      "resets": 400,
+      "environment_steps": 139606,
+      "train_iterations": 0,
+      "evaluation_episodes": 400
+    },
+    "wall_seconds": 228.56931310000073,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "B",
+    "kind": "evaluate",
+    "job": "E3_B_s12_c200_r2302_F_BP_e40",
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_B_s12_c200_r2302_F_BP_e40\\a01_5a7b5b\\costs.json",
+    "costs": {
+      "environment_creations": 400,
+      "resets": 400,
+      "environment_steps": 113673,
+      "train_iterations": 0,
+      "evaluation_episodes": 400
+    },
+    "wall_seconds": 200.478652400001,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "B",
+    "kind": "evaluate",
+    "job": "E3_B_s12_c200_r2303_U_e40",
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_B_s12_c200_r2303_U_e40\\a01_512d01\\costs.json",
+    "costs": {
+      "environment_creations": 400,
+      "resets": 400,
+      "environment_steps": 145084,
+      "train_iterations": 0,
+      "evaluation_episodes": 400
+    },
+    "wall_seconds": 238.01753580000513,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "B",
+    "kind": "evaluate",
+    "job": "E3_B_s12_c200_r2303_F_DO_e40",
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_B_s12_c200_r2303_F_DO_e40\\a01_70cab9\\costs.json",
+    "costs": {
+      "environment_creations": 400,
+      "resets": 400,
+      "environment_steps": 154494,
+      "train_iterations": 0,
+      "evaluation_episodes": 400
+    },
+    "wall_seconds": 254.40487479999865,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "B",
+    "kind": "evaluate",
+    "job": "E3_B_s12_c200_r2303_F_DC_e40",
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_B_s12_c200_r2303_F_DC_e40\\a01_e3b481\\costs.json",
+    "costs": {
+      "environment_creations": 400,
+      "resets": 400,
+      "environment_steps": 148152,
+      "train_iterations": 0,
+      "evaluation_episodes": 400
+    },
+    "wall_seconds": 244.3600826000038,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "B",
+    "kind": "evaluate",
+    "job": "E3_B_s12_c200_r2303_F_PU_e40",
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_B_s12_c200_r2303_F_PU_e40\\a01_2a4639\\costs.json",
+    "costs": {
+      "environment_creations": 400,
+      "resets": 400,
+      "environment_steps": 146217,
+      "train_iterations": 0,
+      "evaluation_episodes": 400
+    },
+    "wall_seconds": 233.54197100000601,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "B",
+    "kind": "evaluate",
+    "job": "E3_B_s12_c200_r2303_F_BP_e40",
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_B_s12_c200_r2303_F_BP_e40\\a01_4c4dad\\costs.json",
+    "costs": {
+      "environment_creations": 400,
+      "resets": 400,
+      "environment_steps": 134498,
+      "train_iterations": 0,
+      "evaluation_episodes": 400
+    },
+    "wall_seconds": 229.80892029999814,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "C",
+    "kind": "train",
+    "job": "E3_C_s12_c200_r2301_U_t20",
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_C_s12_c200_r2301_U_t20\\a01_0fea83\\costs.json",
+    "costs": {
+      "environment_creations": 40,
+      "resets": 40,
+      "environment_steps": 20000,
+      "train_iterations": 20000,
+      "evaluation_episodes": 0
+    },
+    "wall_seconds": 385.0802205999935,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "C",
+    "kind": "train",
+    "job": "E3_C_s12_c200_r2301_U_t40",
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_C_s12_c200_r2301_U_t40\\a01_689598\\costs.json",
+    "costs": {
+      "environment_creations": 40,
+      "resets": 40,
+      "environment_steps": 20000,
+      "train_iterations": 20000,
+      "evaluation_episodes": 0
+    },
+    "wall_seconds": 384.9055434000038,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "C",
+    "kind": "train",
+    "job": "E3_C_s12_c200_r2301_F_DO_t20",
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_C_s12_c200_r2301_F_DO_t20\\a01_e3bcdd\\costs.json",
+    "costs": {
+      "environment_creations": 40,
+      "resets": 40,
+      "environment_steps": 20000,
+      "train_iterations": 20000,
+      "evaluation_episodes": 0
+    },
+    "wall_seconds": 380.0010259999981,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "C",
+    "kind": "train",
+    "job": "E3_C_s12_c200_r2301_F_DO_t40",
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_C_s12_c200_r2301_F_DO_t40\\a01_479227\\costs.json",
+    "costs": {
+      "environment_creations": 40,
+      "resets": 40,
+      "environment_steps": 20000,
+      "train_iterations": 20000,
+      "evaluation_episodes": 0
+    },
+    "wall_seconds": 378.4551700000011,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "C",
+    "kind": "train",
+    "job": "E3_C_s12_c200_r2301_F_PP_t20",
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_C_s12_c200_r2301_F_PP_t20\\a01_41118d\\costs.json",
+    "costs": {
+      "environment_creations": 40,
+      "resets": 40,
+      "environment_steps": 20000,
+      "train_iterations": 20000,
+      "evaluation_episodes": 0
+    },
+    "wall_seconds": 376.2841944999964,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "C",
+    "kind": "train",
+    "job": "E3_C_s12_c200_r2301_F_PP_t40",
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_C_s12_c200_r2301_F_PP_t40\\a01_745c20\\costs.json",
+    "costs": {
+      "environment_creations": 40,
+      "resets": 40,
+      "environment_steps": 20000,
+      "train_iterations": 20000,
+      "evaluation_episodes": 0
+    },
+    "wall_seconds": 365.3416700000089,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "C",
+    "kind": "train",
+    "job": "E3_C_s12_c200_r2301_F_PU_t20",
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_C_s12_c200_r2301_F_PU_t20\\a01_d2921a\\costs.json",
+    "costs": {
+      "environment_creations": 40,
+      "resets": 40,
+      "environment_steps": 20000,
+      "train_iterations": 20000,
+      "evaluation_episodes": 0
+    },
+    "wall_seconds": 372.8467459999956,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "C",
+    "kind": "train",
+    "job": "E3_C_s12_c200_r2301_F_PU_t40",
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_C_s12_c200_r2301_F_PU_t40\\a01_f58ee2\\costs.json",
+    "costs": {
+      "environment_creations": 40,
+      "resets": 40,
+      "environment_steps": 20000,
+      "train_iterations": 20000,
+      "evaluation_episodes": 0
+    },
+    "wall_seconds": 370.6500315000012,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "C",
+    "kind": "train",
+    "job": "E3_C_s12_c200_r2301_F_BP_t20",
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_C_s12_c200_r2301_F_BP_t20\\a01_98469a\\costs.json",
+    "costs": {
+      "environment_creations": 40,
+      "resets": 40,
+      "environment_steps": 20000,
+      "train_iterations": 20000,
+      "evaluation_episodes": 0
+    },
+    "wall_seconds": 374.157653000002,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "C",
+    "kind": "train",
+    "job": "E3_C_s12_c200_r2301_F_BP_t40",
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_C_s12_c200_r2301_F_BP_t40\\a01_7af78b\\costs.json",
+    "costs": {
+      "environment_creations": 40,
+      "resets": 40,
+      "environment_steps": 20000,
+      "train_iterations": 20000,
+      "evaluation_episodes": 0
+    },
+    "wall_seconds": 362.7699905999907,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "C",
+    "kind": "train",
+    "job": "E3_C_s12_c200_r2302_U_t20",
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_C_s12_c200_r2302_U_t20\\a01_6acb58\\costs.json",
+    "costs": {
+      "environment_creations": 40,
+      "resets": 40,
+      "environment_steps": 20000,
+      "train_iterations": 20000,
+      "evaluation_episodes": 0
+    },
+    "wall_seconds": 384.2823895000038,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "C",
+    "kind": "train",
+    "job": "E3_C_s12_c200_r2302_U_t40",
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_C_s12_c200_r2302_U_t40\\a01_eb5a4b\\costs.json",
+    "costs": {
+      "environment_creations": 40,
+      "resets": 40,
+      "environment_steps": 20000,
+      "train_iterations": 20000,
+      "evaluation_episodes": 0
+    },
+    "wall_seconds": 450.607197099991,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "C",
+    "kind": "train",
+    "job": "E3_C_s12_c200_r2302_F_DO_t20",
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_C_s12_c200_r2302_F_DO_t20\\a01_220cf8\\costs.json",
+    "costs": {
+      "environment_creations": 40,
+      "resets": 40,
+      "environment_steps": 20000,
+      "train_iterations": 20000,
+      "evaluation_episodes": 0
+    },
+    "wall_seconds": 411.5911924999964,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "C",
+    "kind": "train",
+    "job": "E3_C_s12_c200_r2302_F_DO_t40",
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_C_s12_c200_r2302_F_DO_t40\\a01_4c984b\\costs.json",
+    "costs": {
+      "environment_creations": 40,
+      "resets": 40,
+      "environment_steps": 20000,
+      "train_iterations": 20000,
+      "evaluation_episodes": 0
+    },
+    "wall_seconds": 409.368109499992,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "C",
+    "kind": "train",
+    "job": "E3_C_s12_c200_r2302_F_PP_t20",
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_C_s12_c200_r2302_F_PP_t20\\a01_d49e4f\\costs.json",
+    "costs": {
+      "environment_creations": 40,
+      "resets": 40,
+      "environment_steps": 20000,
+      "train_iterations": 20000,
+      "evaluation_episodes": 0
+    },
+    "wall_seconds": 410.265333599993,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "C",
+    "kind": "train",
+    "job": "E3_C_s12_c200_r2302_F_PP_t40",
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_C_s12_c200_r2302_F_PP_t40\\a01_512953\\costs.json",
+    "costs": {
+      "environment_creations": 40,
+      "resets": 40,
+      "environment_steps": 20000,
+      "train_iterations": 20000,
+      "evaluation_episodes": 0
+    },
+    "wall_seconds": 419.9078911999968,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "C",
+    "kind": "train",
+    "job": "E3_C_s12_c200_r2302_F_PU_t20",
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_C_s12_c200_r2302_F_PU_t20\\a01_9f0fb0\\costs.json",
+    "costs": {
+      "environment_creations": 40,
+      "resets": 40,
+      "environment_steps": 20000,
+      "train_iterations": 20000,
+      "evaluation_episodes": 0
+    },
+    "wall_seconds": 407.98785489999864,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "C",
+    "kind": "train",
+    "job": "E3_C_s12_c200_r2302_F_PU_t40",
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_C_s12_c200_r2302_F_PU_t40\\a01_f562f1\\costs.json",
+    "costs": {
+      "environment_creations": 40,
+      "resets": 40,
+      "environment_steps": 20000,
+      "train_iterations": 20000,
+      "evaluation_episodes": 0
+    },
+    "wall_seconds": 417.0844349000108,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "C",
+    "kind": "train",
+    "job": "E3_C_s12_c200_r2302_F_BP_t20",
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_C_s12_c200_r2302_F_BP_t20\\a01_da0dc0\\costs.json",
+    "costs": {
+      "environment_creations": 40,
+      "resets": 40,
+      "environment_steps": 20000,
+      "train_iterations": 20000,
+      "evaluation_episodes": 0
+    },
+    "wall_seconds": 388.45859850000124,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "C",
+    "kind": "train",
+    "job": "E3_C_s12_c200_r2302_F_BP_t40",
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_C_s12_c200_r2302_F_BP_t40\\a01_cd5928\\costs.json",
+    "costs": {
+      "environment_creations": 40,
+      "resets": 40,
+      "environment_steps": 20000,
+      "train_iterations": 20000,
+      "evaluation_episodes": 0
+    },
+    "wall_seconds": 387.9574761999975,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "C",
+    "kind": "train",
+    "job": "E3_C_s12_c200_r2303_U_t20",
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_C_s12_c200_r2303_U_t20\\a01_0781fd\\costs.json",
+    "costs": {
+      "environment_creations": 40,
+      "resets": 40,
+      "environment_steps": 20000,
+      "train_iterations": 20000,
+      "evaluation_episodes": 0
+    },
+    "wall_seconds": 508.3134204999951,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "C",
+    "kind": "train",
+    "job": "E3_C_s12_c200_r2303_U_t40",
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_C_s12_c200_r2303_U_t40\\a01_fbafb5\\costs.json",
+    "costs": {
+      "environment_creations": 40,
+      "resets": 40,
+      "environment_steps": 20000,
+      "train_iterations": 20000,
+      "evaluation_episodes": 0
+    },
+    "wall_seconds": 389.4124797999975,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "C",
+    "kind": "train",
+    "job": "E3_C_s12_c200_r2303_F_DO_t20",
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_C_s12_c200_r2303_F_DO_t20\\a01_3d01d3\\costs.json",
+    "costs": {
+      "environment_creations": 40,
+      "resets": 40,
+      "environment_steps": 20000,
+      "train_iterations": 20000,
+      "evaluation_episodes": 0
+    },
+    "wall_seconds": 369.1657634000003,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "C",
+    "kind": "train",
+    "job": "E3_C_s12_c200_r2303_F_DO_t40",
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_C_s12_c200_r2303_F_DO_t40\\a01_163d44\\costs.json",
+    "costs": {
+      "environment_creations": 40,
+      "resets": 40,
+      "environment_steps": 20000,
+      "train_iterations": 20000,
+      "evaluation_episodes": 0
+    },
+    "wall_seconds": 391.2851055999927,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "C",
+    "kind": "train",
+    "job": "E3_C_s12_c200_r2303_F_PP_t20",
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_C_s12_c200_r2303_F_PP_t20\\a01_8acf76\\costs.json",
+    "costs": {
+      "environment_creations": 40,
+      "resets": 40,
+      "environment_steps": 20000,
+      "train_iterations": 20000,
+      "evaluation_episodes": 0
+    },
+    "wall_seconds": 376.5505584999919,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "C",
+    "kind": "train",
+    "job": "E3_C_s12_c200_r2303_F_PP_t40",
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_C_s12_c200_r2303_F_PP_t40\\a01_95f34d\\costs.json",
+    "costs": {
+      "environment_creations": 40,
+      "resets": 40,
+      "environment_steps": 20000,
+      "train_iterations": 20000,
+      "evaluation_episodes": 0
+    },
+    "wall_seconds": 370.7280430999963,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "C",
+    "kind": "train",
+    "job": "E3_C_s12_c200_r2303_F_PU_t20",
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_C_s12_c200_r2303_F_PU_t20\\a01_626802\\costs.json",
+    "costs": {
+      "environment_creations": 40,
+      "resets": 40,
+      "environment_steps": 20000,
+      "train_iterations": 20000,
+      "evaluation_episodes": 0
+    },
+    "wall_seconds": 374.54705380000814,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "C",
+    "kind": "train",
+    "job": "E3_C_s12_c200_r2303_F_PU_t40",
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_C_s12_c200_r2303_F_PU_t40\\a01_8068ac\\costs.json",
+    "costs": {
+      "environment_creations": 40,
+      "resets": 40,
+      "environment_steps": 20000,
+      "train_iterations": 20000,
+      "evaluation_episodes": 0
+    },
+    "wall_seconds": 376.1596881000005,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "C",
+    "kind": "train",
+    "job": "E3_C_s12_c200_r2303_F_BP_t20",
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_C_s12_c200_r2303_F_BP_t20\\a01_c3b413\\costs.json",
+    "costs": {
+      "environment_creations": 40,
+      "resets": 40,
+      "environment_steps": 20000,
+      "train_iterations": 20000,
+      "evaluation_episodes": 0
+    },
+    "wall_seconds": 353.4808026999963,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "C",
+    "kind": "train",
+    "job": "E3_C_s12_c200_r2303_F_BP_t40",
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_C_s12_c200_r2303_F_BP_t40\\a01_6c2137\\costs.json",
+    "costs": {
+      "environment_creations": 40,
+      "resets": 40,
+      "environment_steps": 20000,
+      "train_iterations": 20000,
+      "evaluation_episodes": 0
+    },
+    "wall_seconds": 344.2824202999909,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "C",
+    "kind": "evaluate",
+    "job": "E3_C_s12_c200_r2301_U_e40",
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_C_s12_c200_r2301_U_e40\\a01_baf668\\costs.json",
+    "costs": {
+      "environment_creations": 400,
+      "resets": 400,
+      "environment_steps": 152141,
+      "train_iterations": 0,
+      "evaluation_episodes": 400
+    },
+    "wall_seconds": 322.43311170001107,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "C",
+    "kind": "evaluate",
+    "job": "E3_C_s12_c200_r2301_F_DO_e40",
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_C_s12_c200_r2301_F_DO_e40\\a01_3df433\\costs.json",
+    "costs": {
+      "environment_creations": 400,
+      "resets": 400,
+      "environment_steps": 151154,
+      "train_iterations": 0,
+      "evaluation_episodes": 400
+    },
+    "wall_seconds": 320.954081200005,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "C",
+    "kind": "evaluate",
+    "job": "E3_C_s12_c200_r2301_F_PP_e40",
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_C_s12_c200_r2301_F_PP_e40\\a01_dfc781\\costs.json",
+    "costs": {
+      "environment_creations": 400,
+      "resets": 400,
+      "environment_steps": 152799,
+      "train_iterations": 0,
+      "evaluation_episodes": 400
+    },
+    "wall_seconds": 290.2265247000032,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "C",
+    "kind": "evaluate",
+    "job": "E3_C_s12_c200_r2301_F_PU_e40",
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_C_s12_c200_r2301_F_PU_e40\\a01_f10a5b\\costs.json",
+    "costs": {
+      "environment_creations": 400,
+      "resets": 400,
+      "environment_steps": 151373,
+      "train_iterations": 0,
+      "evaluation_episodes": 400
+    },
+    "wall_seconds": 307.6988909000065,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "C",
+    "kind": "evaluate",
+    "job": "E3_C_s12_c200_r2301_F_BP_e40",
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_C_s12_c200_r2301_F_BP_e40\\a01_a6d515\\costs.json",
+    "costs": {
+      "environment_creations": 400,
+      "resets": 400,
+      "environment_steps": 150016,
+      "train_iterations": 0,
+      "evaluation_episodes": 400
+    },
+    "wall_seconds": 269.3694169000082,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "C",
+    "kind": "evaluate",
+    "job": "E3_C_s12_c200_r2302_U_e40",
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_C_s12_c200_r2302_U_e40\\a01_2d008c\\costs.json",
+    "costs": {
+      "environment_creations": 400,
+      "resets": 400,
+      "environment_steps": 150307,
+      "train_iterations": 0,
+      "evaluation_episodes": 400
+    },
+    "wall_seconds": 304.35646540000744,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "C",
+    "kind": "evaluate",
+    "job": "E3_C_s12_c200_r2302_F_DO_e40",
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_C_s12_c200_r2302_F_DO_e40\\a01_f868f0\\costs.json",
+    "costs": {
+      "environment_creations": 400,
+      "resets": 400,
+      "environment_steps": 152958,
+      "train_iterations": 0,
+      "evaluation_episodes": 400
+    },
+    "wall_seconds": 322.726716899997,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "C",
+    "kind": "evaluate",
+    "job": "E3_C_s12_c200_r2302_F_PP_e40",
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_C_s12_c200_r2302_F_PP_e40\\a01_18d835\\costs.json",
+    "costs": {
+      "environment_creations": 400,
+      "resets": 400,
+      "environment_steps": 153003,
+      "train_iterations": 0,
+      "evaluation_episodes": 400
+    },
+    "wall_seconds": 318.26037199998973,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "C",
+    "kind": "evaluate",
+    "job": "E3_C_s12_c200_r2302_F_PU_e40",
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_C_s12_c200_r2302_F_PU_e40\\a01_2500f4\\costs.json",
+    "costs": {
+      "environment_creations": 400,
+      "resets": 400,
+      "environment_steps": 153434,
+      "train_iterations": 0,
+      "evaluation_episodes": 400
+    },
+    "wall_seconds": 316.1488883999991,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "C",
+    "kind": "evaluate",
+    "job": "E3_C_s12_c200_r2302_F_BP_e40",
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_C_s12_c200_r2302_F_BP_e40\\a01_db7b08\\costs.json",
+    "costs": {
+      "environment_creations": 400,
+      "resets": 400,
+      "environment_steps": 153024,
+      "train_iterations": 0,
+      "evaluation_episodes": 400
+    },
+    "wall_seconds": 491.5232085000025,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "C",
+    "kind": "evaluate",
+    "job": "E3_C_s12_c200_r2303_U_e40",
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_C_s12_c200_r2303_U_e40\\a01_15af89\\costs.json",
+    "costs": {
+      "environment_creations": 400,
+      "resets": 400,
+      "environment_steps": 154869,
+      "train_iterations": 0,
+      "evaluation_episodes": 400
+    },
+    "wall_seconds": 335.99285960001,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "C",
+    "kind": "evaluate",
+    "job": "E3_C_s12_c200_r2303_F_DO_e40",
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_C_s12_c200_r2303_F_DO_e40\\a01_d83874\\costs.json",
+    "costs": {
+      "environment_creations": 400,
+      "resets": 400,
+      "environment_steps": 153929,
+      "train_iterations": 0,
+      "evaluation_episodes": 400
+    },
+    "wall_seconds": 328.8737426000007,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "C",
+    "kind": "evaluate",
+    "job": "E3_C_s12_c200_r2303_F_PP_e40",
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_C_s12_c200_r2303_F_PP_e40\\a01_45ece4\\costs.json",
+    "costs": {
+      "environment_creations": 400,
+      "resets": 400,
+      "environment_steps": 153437,
+      "train_iterations": 0,
+      "evaluation_episodes": 400
+    },
+    "wall_seconds": 320.6364353000099,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "C",
+    "kind": "evaluate",
+    "job": "E3_C_s12_c200_r2303_F_PU_e40",
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_C_s12_c200_r2303_F_PU_e40\\a01_47e84a\\costs.json",
+    "costs": {
+      "environment_creations": 400,
+      "resets": 400,
+      "environment_steps": 152370,
+      "train_iterations": 0,
+      "evaluation_episodes": 400
+    },
+    "wall_seconds": 334.24002219999966,
+    "success": true,
+    "technical_smoke": false
+  },
+  {
+    "suite": "C",
+    "kind": "evaluate",
+    "job": "E3_C_s12_c200_r2303_F_BP_e40",
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_C_s12_c200_r2303_F_BP_e40\\a01_73deaf\\costs.json",
+    "costs": {
+      "environment_creations": 400,
+      "resets": 400,
+      "environment_steps": 170487,
+      "train_iterations": 0,
+      "evaluation_episodes": 400
+    },
+    "wall_seconds": 321.38666920000105,
+    "success": true,
+    "technical_smoke": false
+  }
+]

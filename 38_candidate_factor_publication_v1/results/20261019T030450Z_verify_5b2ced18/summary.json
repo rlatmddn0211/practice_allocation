@@ -1,0 +1,121 @@
+{
+  "status": "completed",
+  "base_commit": "4c6e547d462b252597dffeee47eb4bee153bfe99",
+  "fetched_origin_main": "4c6e547d462b252597dffeee47eb4bee153bfe99",
+  "staged_evidence_files": 16399,
+  "staged_evidence_bytes": 758672629,
+  "largest_file_bytes": 20288287,
+  "groups": {
+    "23_candidate_factor_screening_design_v1": [
+      28,
+      252066
+    ],
+    "24_signal_reliability_screening_v1": [
+      71,
+      6877956
+    ],
+    "25_candidate_factor_evidence_register_v1": [
+      2,
+      20393
+    ],
+    "26_critic_signal_screening_v1": [
+      545,
+      203016436
+    ],
+    "27_success_retention_screening_v1": [
+      82,
+      22527940
+    ],
+    "28_gradient_update_screening_v1": [
+      620,
+      86719136
+    ],
+    "29_neural_plasticity_screening_v1": [
+      572,
+      229404668
+    ],
+    "30_exposure_experience_screening_v1": [
+      280,
+      63606893
+    ],
+    "31_fixed_horizon_alignment_v1": [
+      6551,
+      43488465
+    ],
+    "32_dose_order_intervention_v1": [
+      2809,
+      26449924
+    ],
+    "33_remaining_factor_queue_v1": [
+      571,
+      8507695
+    ],
+    "34_completed_factor_clue_review_v1": [
+      59,
+      2574642
+    ],
+    "35_remaining_factor_progress_audit_v1": [
+      12,
+      295354
+    ],
+    "36_all_candidate_evidence_review_v1": [
+      3054,
+      41400831
+    ],
+    "37_f08_integrated_candidate_review_v1": [
+      1127,
+      14637974
+    ],
+    "38_candidate_factor_publication_v1": [
+      16,
+      8892256
+    ]
+  },
+  "publication_links_checked": 141,
+  "headline_facts": [
+    {
+      "factor": "F01",
+      "value_pp": -0.07407407407407407,
+      "baseline": "Profile",
+      "mode": "same_repeat"
+    },
+    {
+      "factor": "F02",
+      "value_pp": 0.0,
+      "baseline": "CriticBase",
+      "mode": "same_repeat"
+    },
+    {
+      "factor": "F03",
+      "value_pp": -0.36111111111111094,
+      "baseline": "ExperienceBase",
+      "mode": "same_repeat"
+    },
+    {
+      "factor": "F04",
+      "value_pp": 0.06481481481481495,
+      "baseline": "CriticBase",
+      "mode": "same_repeat"
+    },
+    {
+      "factor": "F05_alignment",
+      "value_pp": -0.29629629629629617,
+      "baseline": "SuccessBase",
+      "mode": "same_repeat"
+    },
+    {
+      "factor": "F06",
+      "value_pp": 0.07407407407407407,
+      "baseline": "StepBase",
+      "mode": "same_repeat"
+    }
+  ],
+  "scientific_recomputation": "Reused v36/v37; publication audit is not a fresh scientific replication",
+  "new_environment_steps": 0,
+  "new_learner_updates": 0,
+  "remote_push_verified": false,
+  "wall_seconds": 1.5839467999758199,
+  "cpu_seconds": 0.375,
+  "checks_passed": 38199,
+  "checks_failed": 0
+}

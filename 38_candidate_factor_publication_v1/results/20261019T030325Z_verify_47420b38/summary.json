@@ -1,0 +1,8 @@
+{
+  "status": "failed",
+  "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\SS\\Projects\\robot_practice_allocation\\38_candidate_factor_publication_v1\\verify_publication.py\", line 109, in main\n    check('linked artifact is included in Git '+link, rel in stage)\n  File \"C:\\Users\\SS\\Projects\\robot_practice_allocation\\38_candidate_factor_publication_v1\\verify_publication.py\", line 48, in check\n    raise AssertionError(label)\nAssertionError: linked artifact is included in Git 14_power_interruption_audit_v1/\n",
+  "wall_seconds": 34.65231710008811,
+  "cpu_seconds": 0.578125,
+  "checks_passed": 37952,
+  "checks_failed": 1
+}

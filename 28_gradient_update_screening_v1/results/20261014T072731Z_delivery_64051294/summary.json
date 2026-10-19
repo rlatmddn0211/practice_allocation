@@ -1,0 +1,41 @@
+{
+  "status": "completed",
+  "versions": [
+    "27_success_retention_screening_v1",
+    "28_gradient_update_screening_v1"
+  ],
+  "prior_runs": 14,
+  "artifact_files": 646,
+  "artifact_bytes": 108679553,
+  "recorded_costs": {
+    "27_success_retention_screening_v1": {
+      "known_run_wall_sum_seconds": 4.173201600002358,
+      "known_run_cpu_sum_seconds": 1.015625,
+      "instrumented_CUDA_elapsed_sum_seconds": 0,
+      "virtual_optimizer_steps": 0,
+      "missing_final_time_summaries": 0,
+      "note": "Run wall sums may overlap. CUDA elapsed excludes uninstrumented verification GPU work. Current delivery bookkeeping excluded."
+    },
+    "28_gradient_update_screening_v1": {
+      "known_run_wall_sum_seconds": 366.6317581999756,
+      "known_run_cpu_sum_seconds": 184.25,
+      "instrumented_CUDA_elapsed_sum_seconds": 215.5555460510254,
+      "virtual_optimizer_steps": 12480,
+      "missing_final_time_summaries": 1,
+      "note": "Run wall sums may overlap. CUDA elapsed excludes uninstrumented verification GPU work. Current delivery bookkeeping excluded."
+    }
+  },
+  "failed_or_incomplete_runs": [
+    "20261014T071541Z_verify_measurements_7677460c",
+    "20261014T071639Z_verify_measurements_1ff20d0b",
+    "20261014T072613Z_delivery_80e7e3f7",
+    "20261014T072648Z_delivery_3130b95d"
+  ],
+  "publication": "local only; no git commit or push by this delivery",
+  "wall_seconds": 0.72854810001445,
+  "cpu_seconds": 0.046875,
+  "checks_passed": 277,
+  "checks_failed": 0,
+  "new_environment_steps": 0,
+  "new_learner_updates": 0
+}

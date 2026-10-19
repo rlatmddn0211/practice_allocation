@@ -1,0 +1,10 @@
+{
+  "status": "failed",
+  "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\SS\\Projects\\robot_practice_allocation\\28_gradient_update_screening_v1\\verify_delivery.py\", line 82, in main\n    run.hashed(path,oldhash[str(path)])\n                    ~~~~~~~^^^^^^^^^^^\nKeyError: 'C:\\\\Users\\\\SS\\\\Projects\\\\robot_practice_allocation\\\\26_critic_signal_screening_v1\\\\results\\\\20261014T062246Z_measure_10dac0ac\\\\task_diagnostics.csv'\n",
+  "wall_seconds": 1.6708002999948803,
+  "cpu_seconds": 0.078125,
+  "checks_passed": 260,
+  "checks_failed": 0,
+  "new_environment_steps": 0,
+  "new_learner_updates": 0
+}

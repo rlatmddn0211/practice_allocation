@@ -1,0 +1,17 @@
+{
+  "status": "failed",
+  "suite": "A",
+  "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\SS\\Projects\\robot_practice_allocation\\31_fixed_horizon_alignment_v1\\verify_implementation.py\", line 47, in main\n    check('return prefix equals original evaluator',float(a['return'])==float(b['return_to_first_success']))\n  File \"C:\\Users\\SS\\Projects\\robot_practice_allocation\\31_fixed_horizon_alignment_v1\\verify_implementation.py\", line 29, in check\n    if not value:raise AssertionError(name)\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: return prefix equals original evaluator\n",
+  "scientific_evidence": false,
+  "costs": {
+    "environment_creations": 20,
+    "resets": 20,
+    "environment_steps": 7103,
+    "train_iterations": 0,
+    "evaluation_episodes": 16
+  },
+  "wall_seconds": 20.530748599994695,
+  "cpu_seconds": 7.328125,
+  "checks_passed": 105,
+  "checks_failed": 1
+}

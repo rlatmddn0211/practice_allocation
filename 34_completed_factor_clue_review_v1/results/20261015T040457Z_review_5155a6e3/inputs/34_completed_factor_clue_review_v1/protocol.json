@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-15",
+  "scope": "Post-hoc synthesis requested by user: completed F01/F02/F03/F04/F06/F07. Read frozen artifacts; no training, rollout, feature search, predictor refit or experiment change.",
+  "status": "Exploratory comparison after reading previous reports, not preregistration or independent replication.",
+  "primary_comparisons": {
+    "F01": ["F01", "Profile_F01", "Profile"],
+    "F02": ["F02_F03", "F02", "CriticBase"],
+    "F03": ["F02_F03", "F03", "ExperienceBase"],
+    "F04": ["F04", "CriticBase_F04", "CriticBase"],
+    "F06": ["F06", "StepBase_F06", "StepBase"]
+  },
+  "secondary_comparisons": {
+    "F06_static": ["F06", "CoverageBase_static", "CoverageBase"],
+    "F04_raw": ["F04", "CriticBase_raw", "CriticBase"],
+    "F06_total20": ["F06", "CoverageBase_total20", "CoverageBase"],
+    "F03_coverage": ["F02_F03", "F03_coverage", "ExperienceBase"]
+  },
+  "decisions": "36 suite/original/checkpoint/continuation cells per method and mode. Equal A/B/C weights, A200/A400 half each; same and cross repeat kept separate. Compare each candidate to its own stated baseline; do not rank candidates by incompatible increments.",
+  "audit": "Recompute weighted selected outcomes, MAE, changes and worst-task-drop differences; reconstruct selected O from branch-level features and chosen allocations from frozen predictions. Compare common baselines across versions. List ALL primary changed choices and top-two prediction margins.",
+  "headroom": "Observed hindsight best among five fixed branches, same O cases. Descriptive upper reference subject to max-selection bias; not true oracle, not an available policy and not cost-adjusted gain.",
+  "critic_followup": "One exploratory link: F06 critic normalized total20 train-minus-other-panel improvement gap versus absolute O40-D20 discrepancy. Report Spearman overall, by four context groups and three original seed blocks, no p-values, no thresholds or candidate selection. O40-D20 combines evaluation-case differences and temporal change. Raw signed gap retained; no positive-only clipping.",
+  "limitations": "The six analyses reuse largely the SAME historical experiment, three original seed blocks and two task-composition extensions. No evidence pooling as independent replications. F07 uses a different rule/diagnostic budget and is not put into the same candidate-increment ranking. No tuning from this inspection. Future hypotheses must be fixed before fresh data.",
+  "cost": "New environment steps0, persistent updates0, cloned updates0; record actual CPU/wall and inputs. Ongoing F05/F08 sources and protocol remain frozen."
+}

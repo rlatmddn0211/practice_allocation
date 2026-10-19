@@ -1,0 +1,1805 @@
+[
+  {
+    "name": "measurement completed",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "hash matches: C:\\Users\\SS\\Projects\\robot_practice_allocation\\26_critic_signal_screening_v1\\results\\20261014T062230Z_smoke_cf5858ef\\raw\\E1_A_s11_c200_base.csv.gz",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "eight panels E1_A_s11_c200_base",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "1024 samples E1_A_s11_c200_base(0, 0)",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "unique transitions",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "soft Bellman target E1_A_s11_c200_base(0, 0)",
+    "passed": true,
+    "detail": 7.004263807175448e-05
+  },
+  {
+    "name": "target action variation",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseDOMresidual_rms",
+    "passed": true,
+    "detail": {
+      "stored": 2.6325370055551223,
+      "recomputed": 2.6325370055551223
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseDOMgap_rms",
+    "passed": true,
+    "detail": {
+      "stored": 2.8496868134770597,
+      "recomputed": 2.8496868134770597
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseDOMtarget_rms",
+    "passed": true,
+    "detail": {
+      "stored": 425.85285167683406,
+      "recomputed": 425.852851676834
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseDOMresidual_normalized",
+    "passed": true,
+    "detail": {
+      "stored": 0.006181799640860147,
+      "recomputed": 0.006181799640860148
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseDOMgap_normalized",
+    "passed": true,
+    "detail": {
+      "stored": 0.006691717108987671,
+      "recomputed": 0.006691717108987672
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseDOMreward_rms",
+    "passed": true,
+    "detail": {
+      "stored": 3.9978964383826034,
+      "recomputed": 3.9978964383826034
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseDOMq_mean",
+    "passed": true,
+    "detail": {
+      "stored": 402.43697748705745,
+      "recomputed": 402.43697748705745
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseDOMtarget_mean",
+    "passed": true,
+    "detail": {
+      "stored": 401.76677656918764,
+      "recomputed": 401.76677656918764
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseDOMtarget_mc_sd_mean",
+    "passed": true,
+    "detail": {
+      "stored": 0.40777568504199735,
+      "recomputed": 0.40777568504199735
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseDOMtimeout_count",
+    "passed": true,
+    "detail": {
+      "stored": 2.0,
+      "recomputed": 2.0
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseDOMsample_count",
+    "passed": true,
+    "detail": {
+      "stored": 1024.0,
+      "recomputed": 1024.0
+    }
+  },
+  {
+    "name": "1024 samples E1_A_s11_c200_base(0, 1)",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "unique transitions",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "soft Bellman target E1_A_s11_c200_base(0, 1)",
+    "passed": true,
+    "detail": 6.446131453685666e-05
+  },
+  {
+    "name": "target action variation",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseDOAresidual_rms",
+    "passed": true,
+    "detail": {
+      "stored": 3.0028931414164237,
+      "recomputed": 3.0028931414164237
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseDOAgap_rms",
+    "passed": true,
+    "detail": {
+      "stored": 2.6277769640471274,
+      "recomputed": 2.6277769640471274
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseDOAtarget_rms",
+    "passed": true,
+    "detail": {
+      "stored": 431.091386782959,
+      "recomputed": 431.0913867829588
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseDOAresidual_normalized",
+    "passed": true,
+    "detail": {
+      "stored": 0.006965792482716168,
+      "recomputed": 0.006965792482716171
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseDOAgap_normalized",
+    "passed": true,
+    "detail": {
+      "stored": 0.006095637826719398,
+      "recomputed": 0.0060956378267194005
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseDOAreward_rms",
+    "passed": true,
+    "detail": {
+      "stored": 4.376203994325884,
+      "recomputed": 4.376203994325884
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseDOAq_mean",
+    "passed": true,
+    "detail": {
+      "stored": 424.8848497197032,
+      "recomputed": 424.8848497197032
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseDOAtarget_mean",
+    "passed": true,
+    "detail": {
+      "stored": 424.15422807633877,
+      "recomputed": 424.15422807633877
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseDOAtarget_mc_sd_mean",
+    "passed": true,
+    "detail": {
+      "stored": 0.35047198955362546,
+      "recomputed": 0.35047198955362546
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseDOAtimeout_count",
+    "passed": true,
+    "detail": {
+      "stored": 4.0,
+      "recomputed": 4.0
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseDOAsample_count",
+    "passed": true,
+    "detail": {
+      "stored": 1024.0,
+      "recomputed": 1024.0
+    }
+  },
+  {
+    "name": "1024 samples E1_A_s11_c200_base(1, 0)",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "unique transitions",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "soft Bellman target E1_A_s11_c200_base(1, 0)",
+    "passed": true,
+    "detail": 0.00013893341974835494
+  },
+  {
+    "name": "target action variation",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseDCMresidual_rms",
+    "passed": true,
+    "detail": {
+      "stored": 4.203850732738396,
+      "recomputed": 4.203850732738396
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseDCMgap_rms",
+    "passed": true,
+    "detail": {
+      "stored": 4.0752219839307955,
+      "recomputed": 4.0752219839307955
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseDCMtarget_rms",
+    "passed": true,
+    "detail": {
+      "stored": 945.7869022716874,
+      "recomputed": 945.786902271687
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseDCMresidual_normalized",
+    "passed": true,
+    "detail": {
+      "stored": 0.004444818090249674,
+      "recomputed": 0.0044448180902496755
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseDCMgap_normalized",
+    "passed": true,
+    "detail": {
+      "stored": 0.004308816260980684,
+      "recomputed": 0.004308816260980685
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseDCMreward_rms",
+    "passed": true,
+    "detail": {
+      "stored": 9.233449673236043,
+      "recomputed": 9.233449673236043
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseDCMq_mean",
+    "passed": true,
+    "detail": {
+      "stored": 940.5138614177704,
+      "recomputed": 940.5138614177704
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseDCMtarget_mean",
+    "passed": true,
+    "detail": {
+      "stored": 939.6814260482788,
+      "recomputed": 939.6814260482788
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseDCMtarget_mc_sd_mean",
+    "passed": true,
+    "detail": {
+      "stored": 0.38173237010596495,
+      "recomputed": 0.38173237010596495
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseDCMtimeout_count",
+    "passed": true,
+    "detail": {
+      "stored": 3.0,
+      "recomputed": 3.0
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseDCMsample_count",
+    "passed": true,
+    "detail": {
+      "stored": 1024.0,
+      "recomputed": 1024.0
+    }
+  },
+  {
+    "name": "1024 samples E1_A_s11_c200_base(1, 1)",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "unique transitions",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "soft Bellman target E1_A_s11_c200_base(1, 1)",
+    "passed": true,
+    "detail": 0.0001494770622230135
+  },
+  {
+    "name": "target action variation",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseDCAresidual_rms",
+    "passed": true,
+    "detail": {
+      "stored": 3.71241919924392,
+      "recomputed": 3.71241919924392
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseDCAgap_rms",
+    "passed": true,
+    "detail": {
+      "stored": 4.165145097025363,
+      "recomputed": 4.165145097025363
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseDCAtarget_rms",
+    "passed": true,
+    "detail": {
+      "stored": 969.5324175810998,
+      "recomputed": 969.5324175810996
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseDCAresidual_normalized",
+    "passed": true,
+    "detail": {
+      "stored": 0.00382908207288838,
+      "recomputed": 0.003829082072888381
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseDCAgap_normalized",
+    "passed": true,
+    "detail": {
+      "stored": 0.004296034894240094,
+      "recomputed": 0.004296034894240095
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseDCAreward_rms",
+    "passed": true,
+    "detail": {
+      "stored": 9.647447948762855,
+      "recomputed": 9.647447948762855
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseDCAq_mean",
+    "passed": true,
+    "detail": {
+      "stored": 966.5613378733397,
+      "recomputed": 966.5613378733397
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseDCAtarget_mean",
+    "passed": true,
+    "detail": {
+      "stored": 966.2695782184601,
+      "recomputed": 966.2695782184601
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseDCAtarget_mc_sd_mean",
+    "passed": true,
+    "detail": {
+      "stored": 0.38143099938133673,
+      "recomputed": 0.38143099938133673
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseDCAtimeout_count",
+    "passed": true,
+    "detail": {
+      "stored": 2.0,
+      "recomputed": 2.0
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseDCAsample_count",
+    "passed": true,
+    "detail": {
+      "stored": 1024.0,
+      "recomputed": 1024.0
+    }
+  },
+  {
+    "name": "1024 samples E1_A_s11_c200_base(2, 0)",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "unique transitions",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "soft Bellman target E1_A_s11_c200_base(2, 0)",
+    "passed": true,
+    "detail": 7.400645336019807e-05
+  },
+  {
+    "name": "target action variation",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseWOMresidual_rms",
+    "passed": true,
+    "detail": {
+      "stored": 5.4233950125348755,
+      "recomputed": 5.4233950125348755
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseWOMgap_rms",
+    "passed": true,
+    "detail": {
+      "stored": 5.185210616901346,
+      "recomputed": 5.185210616901346
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseWOMtarget_rms",
+    "passed": true,
+    "detail": {
+      "stored": 316.46818407676477,
+      "recomputed": 316.4681840767647
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseWOMresidual_normalized",
+    "passed": true,
+    "detail": {
+      "stored": 0.01713725197481254,
+      "recomputed": 0.017137251974812542
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseWOMgap_normalized",
+    "passed": true,
+    "detail": {
+      "stored": 0.016384618984774734,
+      "recomputed": 0.016384618984774738
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseWOMreward_rms",
+    "passed": true,
+    "detail": {
+      "stored": 3.4066324996300303,
+      "recomputed": 3.4066324996300303
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseWOMq_mean",
+    "passed": true,
+    "detail": {
+      "stored": 260.329293536357,
+      "recomputed": 260.329293536357
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseWOMtarget_mean",
+    "passed": true,
+    "detail": {
+      "stored": 259.1857431596145,
+      "recomputed": 259.1857431596145
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseWOMtarget_mc_sd_mean",
+    "passed": true,
+    "detail": {
+      "stored": 0.4516078808082966,
+      "recomputed": 0.4516078808082966
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseWOMtimeout_count",
+    "passed": true,
+    "detail": {
+      "stored": 2.0,
+      "recomputed": 2.0
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseWOMsample_count",
+    "passed": true,
+    "detail": {
+      "stored": 1024.0,
+      "recomputed": 1024.0
+    }
+  },
+  {
+    "name": "1024 samples E1_A_s11_c200_base(2, 1)",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "unique transitions",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "soft Bellman target E1_A_s11_c200_base(2, 1)",
+    "passed": true,
+    "detail": 9.605442392057739e-05
+  },
+  {
+    "name": "target action variation",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseWOAresidual_rms",
+    "passed": true,
+    "detail": {
+      "stored": 5.027550862990114,
+      "recomputed": 5.027550862990113
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseWOAgap_rms",
+    "passed": true,
+    "detail": {
+      "stored": 4.027950501855699,
+      "recomputed": 4.027950501855699
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseWOAtarget_rms",
+    "passed": true,
+    "detail": {
+      "stored": 315.9699555270038,
+      "recomputed": 315.9699555270038
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseWOAresidual_normalized",
+    "passed": true,
+    "detail": {
+      "stored": 0.015911483908666892,
+      "recomputed": 0.01591148390866689
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseWOAgap_normalized",
+    "passed": true,
+    "detail": {
+      "stored": 0.012747890840246226,
+      "recomputed": 0.012747890840246226
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseWOAreward_rms",
+    "passed": true,
+    "detail": {
+      "stored": 3.1943594491883402,
+      "recomputed": 3.1943594491883402
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseWOAq_mean",
+    "passed": true,
+    "detail": {
+      "stored": 265.1642295726633,
+      "recomputed": 265.1642295726633
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseWOAtarget_mean",
+    "passed": true,
+    "detail": {
+      "stored": 263.5781158595346,
+      "recomputed": 263.5781158595346
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseWOAtarget_mc_sd_mean",
+    "passed": true,
+    "detail": {
+      "stored": 0.4613328422092309,
+      "recomputed": 0.4613328422092309
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseWOAtimeout_count",
+    "passed": true,
+    "detail": {
+      "stored": 3.0,
+      "recomputed": 3.0
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseWOAsample_count",
+    "passed": true,
+    "detail": {
+      "stored": 1024.0,
+      "recomputed": 1024.0
+    }
+  },
+  {
+    "name": "1024 samples E1_A_s11_c200_base(3, 0)",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "unique transitions",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "soft Bellman target E1_A_s11_c200_base(3, 0)",
+    "passed": true,
+    "detail": 9.422910045486788e-05
+  },
+  {
+    "name": "target action variation",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseWCMresidual_rms",
+    "passed": true,
+    "detail": {
+      "stored": 5.264433990411925,
+      "recomputed": 5.264433990411925
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseWCMgap_rms",
+    "passed": true,
+    "detail": {
+      "stored": 4.0853191973945195,
+      "recomputed": 4.0853191973945195
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseWCMtarget_rms",
+    "passed": true,
+    "detail": {
+      "stored": 417.6533288632907,
+      "recomputed": 417.6533288632907
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseWCMresidual_normalized",
+    "passed": true,
+    "detail": {
+      "stored": 0.012604793561061542,
+      "recomputed": 0.012604793561061542
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseWCMgap_normalized",
+    "passed": true,
+    "detail": {
+      "stored": 0.0097816033419711,
+      "recomputed": 0.0097816033419711
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseWCMreward_rms",
+    "passed": true,
+    "detail": {
+      "stored": 3.4747248083402003,
+      "recomputed": 3.4747248083402003
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseWCMq_mean",
+    "passed": true,
+    "detail": {
+      "stored": 365.22038508206606,
+      "recomputed": 365.22038508206606
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseWCMtarget_mean",
+    "passed": true,
+    "detail": {
+      "stored": 363.8655334711075,
+      "recomputed": 363.8655334711075
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseWCMtarget_mc_sd_mean",
+    "passed": true,
+    "detail": {
+      "stored": 0.47727177444903646,
+      "recomputed": 0.47727177444903646
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseWCMtimeout_count",
+    "passed": true,
+    "detail": {
+      "stored": 2.0,
+      "recomputed": 2.0
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseWCMsample_count",
+    "passed": true,
+    "detail": {
+      "stored": 1024.0,
+      "recomputed": 1024.0
+    }
+  },
+  {
+    "name": "1024 samples E1_A_s11_c200_base(3, 1)",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "unique transitions",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "soft Bellman target E1_A_s11_c200_base(3, 1)",
+    "passed": true,
+    "detail": 9.062497565537342e-05
+  },
+  {
+    "name": "target action variation",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseWCAresidual_rms",
+    "passed": true,
+    "detail": {
+      "stored": 6.718635323480074,
+      "recomputed": 6.718635323480074
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseWCAgap_rms",
+    "passed": true,
+    "detail": {
+      "stored": 3.979496145327264,
+      "recomputed": 3.979496145327264
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseWCAtarget_rms",
+    "passed": true,
+    "detail": {
+      "stored": 449.7486308880033,
+      "recomputed": 449.7486308880033
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseWCAresidual_normalized",
+    "passed": true,
+    "detail": {
+      "stored": 0.014938645416695338,
+      "recomputed": 0.014938645416695338
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseWCAgap_normalized",
+    "passed": true,
+    "detail": {
+      "stored": 0.008848267392098501,
+      "recomputed": 0.008848267392098501
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseWCAreward_rms",
+    "passed": true,
+    "detail": {
+      "stored": 3.322155805878298,
+      "recomputed": 3.322155805878298
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseWCAq_mean",
+    "passed": true,
+    "detail": {
+      "stored": 407.9242266342044,
+      "recomputed": 407.9242266342044
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseWCAtarget_mean",
+    "passed": true,
+    "detail": {
+      "stored": 406.36325430125,
+      "recomputed": 406.36325430125
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseWCAtarget_mc_sd_mean",
+    "passed": true,
+    "detail": {
+      "stored": 0.490000436137052,
+      "recomputed": 0.490000436137052
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseWCAtimeout_count",
+    "passed": true,
+    "detail": {
+      "stored": 2.0,
+      "recomputed": 2.0
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseWCAsample_count",
+    "passed": true,
+    "detail": {
+      "stored": 1024.0,
+      "recomputed": 1024.0
+    }
+  },
+  {
+    "name": "episode exclusion E1_A_s11_c200_base0",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "episode exclusion E1_A_s11_c200_base1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "episode exclusion E1_A_s11_c200_base2",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "episode exclusion E1_A_s11_c200_base3",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "hash matches: C:\\Users\\SS\\Projects\\robot_practice_allocation\\26_critic_signal_screening_v1\\results\\20261014T062230Z_smoke_cf5858ef\\raw\\E1_A_s11_c200_r2101_U_t20.csv.gz",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "eight panels E1_A_s11_c200_r2101_U_t20",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "1024 samples E1_A_s11_c200_r2101_U_t20(0, 0)",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "unique transitions",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "soft Bellman target E1_A_s11_c200_r2101_U_t20(0, 0)",
+    "passed": true,
+    "detail": 5.210296791346991e-05
+  },
+  {
+    "name": "target action variation",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "recompute E1_A_s11_c200_r2101_U_t20DOMresidual_rms",
+    "passed": true,
+    "detail": {
+      "stored": 4.37057411293046,
+      "recomputed": 4.37057411293046
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_r2101_U_t20DOMgap_rms",
+    "passed": true,
+    "detail": {
+      "stored": 3.448800056975084,
+      "recomputed": 3.448800056975084
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_r2101_U_t20DOMtarget_rms",
+    "passed": true,
+    "detail": {
+      "stored": 426.74694346425474,
+      "recomputed": 426.7469434642547
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_r2101_U_t20DOMresidual_normalized",
+    "passed": true,
+    "detail": {
+      "stored": 0.010241606131846962,
+      "recomputed": 0.010241606131846962
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_r2101_U_t20DOMgap_normalized",
+    "passed": true,
+    "detail": {
+      "stored": 0.008081604589779476,
+      "recomputed": 0.008081604589779478
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_r2101_U_t20DOMreward_rms",
+    "passed": true,
+    "detail": {
+      "stored": 4.251646560667227,
+      "recomputed": 4.251646560667227
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_r2101_U_t20DOMq_mean",
+    "passed": true,
+    "detail": {
+      "stored": 413.0501994380029,
+      "recomputed": 413.0501994380029
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_r2101_U_t20DOMtarget_mean",
+    "passed": true,
+    "detail": {
+      "stored": 413.94427747279406,
+      "recomputed": 413.94427747279406
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_r2101_U_t20DOMtarget_mc_sd_mean",
+    "passed": true,
+    "detail": {
+      "stored": 0.42678845627597184,
+      "recomputed": 0.42678845627597184
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_r2101_U_t20DOMtimeout_count",
+    "passed": true,
+    "detail": {
+      "stored": 1.0,
+      "recomputed": 1.0
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_r2101_U_t20DOMsample_count",
+    "passed": true,
+    "detail": {
+      "stored": 1024.0,
+      "recomputed": 1024.0
+    }
+  },
+  {
+    "name": "1024 samples E1_A_s11_c200_r2101_U_t20(0, 1)",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "unique transitions",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "soft Bellman target E1_A_s11_c200_r2101_U_t20(0, 1)",
+    "passed": true,
+    "detail": 5.997664311507833e-05
+  },
+  {
+    "name": "target action variation",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "recompute E1_A_s11_c200_r2101_U_t20DOAresidual_rms",
+    "passed": true,
+    "detail": {
+      "stored": 3.2272721092122927,
+      "recomputed": 3.2272721092122927
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_r2101_U_t20DOAgap_rms",
+    "passed": true,
+    "detail": {
+      "stored": 2.5095918474829473,
+      "recomputed": 2.5095918474829473
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_r2101_U_t20DOAtarget_rms",
+    "passed": true,
+    "detail": {
+      "stored": 436.89726924897303,
+      "recomputed": 436.8972692489729
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_r2101_U_t20DOAresidual_normalized",
+    "passed": true,
+    "detail": {
+      "stored": 0.007386798536781833,
+      "recomputed": 0.007386798536781835
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_r2101_U_t20DOAgap_normalized",
+    "passed": true,
+    "detail": {
+      "stored": 0.005744123445305435,
+      "recomputed": 0.005744123445305437
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_r2101_U_t20DOAreward_rms",
+    "passed": true,
+    "detail": {
+      "stored": 4.208401821313394,
+      "recomputed": 4.208401821313394
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_r2101_U_t20DOAq_mean",
+    "passed": true,
+    "detail": {
+      "stored": 431.8252951577306,
+      "recomputed": 431.8252951577306
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_r2101_U_t20DOAtarget_mean",
+    "passed": true,
+    "detail": {
+      "stored": 432.41752806305885,
+      "recomputed": 432.41752806305885
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_r2101_U_t20DOAtarget_mc_sd_mean",
+    "passed": true,
+    "detail": {
+      "stored": 0.4392952165853785,
+      "recomputed": 0.4392952165853785
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_r2101_U_t20DOAtimeout_count",
+    "passed": true,
+    "detail": {
+      "stored": 3.0,
+      "recomputed": 3.0
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_r2101_U_t20DOAsample_count",
+    "passed": true,
+    "detail": {
+      "stored": 1024.0,
+      "recomputed": 1024.0
+    }
+  },
+  {
+    "name": "1024 samples E1_A_s11_c200_r2101_U_t20(1, 0)",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "unique transitions",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "soft Bellman target E1_A_s11_c200_r2101_U_t20(1, 0)",
+    "passed": true,
+    "detail": 0.00015777315411469317
+  },
+  {
+    "name": "target action variation",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "recompute E1_A_s11_c200_r2101_U_t20DCMresidual_rms",
+    "passed": true,
+    "detail": {
+      "stored": 4.3681544885059855,
+      "recomputed": 4.3681544885059855
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_r2101_U_t20DCMgap_rms",
+    "passed": true,
+    "detail": {
+      "stored": 4.63533856527568,
+      "recomputed": 4.63533856527568
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_r2101_U_t20DCMtarget_rms",
+    "passed": true,
+    "detail": {
+      "stored": 940.4784628067436,
+      "recomputed": 940.4784628067433
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_r2101_U_t20DCMresidual_normalized",
+    "passed": true,
+    "detail": {
+      "stored": 0.004644608740395564,
+      "recomputed": 0.004644608740395565
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_r2101_U_t20DCMgap_normalized",
+    "passed": true,
+    "detail": {
+      "stored": 0.004928702515358061,
+      "recomputed": 0.004928702515358062
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_r2101_U_t20DCMreward_rms",
+    "passed": true,
+    "detail": {
+      "stored": 9.422041979855507,
+      "recomputed": 9.422041979855507
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_r2101_U_t20DCMq_mean",
+    "passed": true,
+    "detail": {
+      "stored": 936.1752221435308,
+      "recomputed": 936.1752221435308
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_r2101_U_t20DCMtarget_mean",
+    "passed": true,
+    "detail": {
+      "stored": 936.1023215651512,
+      "recomputed": 936.1023215651512
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_r2101_U_t20DCMtarget_mc_sd_mean",
+    "passed": true,
+    "detail": {
+      "stored": 0.45714070954636554,
+      "recomputed": 0.45714070954636554
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_r2101_U_t20DCMtimeout_count",
+    "passed": true,
+    "detail": {
+      "stored": 2.0,
+      "recomputed": 2.0
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_r2101_U_t20DCMsample_count",
+    "passed": true,
+    "detail": {
+      "stored": 1024.0,
+      "recomputed": 1024.0
+    }
+  },
+  {
+    "name": "1024 samples E1_A_s11_c200_r2101_U_t20(1, 1)",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "unique transitions",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "soft Bellman target E1_A_s11_c200_r2101_U_t20(1, 1)",
+    "passed": true,
+    "detail": 0.00012758599586959463
+  },
+  {
+    "name": "target action variation",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "recompute E1_A_s11_c200_r2101_U_t20DCAresidual_rms",
+    "passed": true,
+    "detail": {
+      "stored": 4.616039177795802,
+      "recomputed": 4.616039177795802
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_r2101_U_t20DCAgap_rms",
+    "passed": true,
+    "detail": {
+      "stored": 4.550368592717693,
+      "recomputed": 4.550368592717693
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_r2101_U_t20DCAtarget_rms",
+    "passed": true,
+    "detail": {
+      "stored": 924.1487135860787,
+      "recomputed": 924.1487135860784
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_r2101_U_t20DCAresidual_normalized",
+    "passed": true,
+    "detail": {
+      "stored": 0.004994909487980201,
+      "recomputed": 0.004994909487980203
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_r2101_U_t20DCAgap_normalized",
+    "passed": true,
+    "detail": {
+      "stored": 0.004923848863090859,
+      "recomputed": 0.004923848863090861
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_r2101_U_t20DCAreward_rms",
+    "passed": true,
+    "detail": {
+      "stored": 9.249373635999545,
+      "recomputed": 9.249373635999545
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_r2101_U_t20DCAq_mean",
+    "passed": true,
+    "detail": {
+      "stored": 914.8122476041317,
+      "recomputed": 914.8122476041317
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_r2101_U_t20DCAtarget_mean",
+    "passed": true,
+    "detail": {
+      "stored": 914.3748175799847,
+      "recomputed": 914.3748175799847
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_r2101_U_t20DCAtarget_mc_sd_mean",
+    "passed": true,
+    "detail": {
+      "stored": 0.4531292947158363,
+      "recomputed": 0.4531292947158363
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_r2101_U_t20DCAtimeout_count",
+    "passed": true,
+    "detail": {
+      "stored": 0.0,
+      "recomputed": 0.0
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_r2101_U_t20DCAsample_count",
+    "passed": true,
+    "detail": {
+      "stored": 1024.0,
+      "recomputed": 1024.0
+    }
+  },
+  {
+    "name": "1024 samples E1_A_s11_c200_r2101_U_t20(2, 0)",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "unique transitions",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "soft Bellman target E1_A_s11_c200_r2101_U_t20(2, 0)",
+    "passed": true,
+    "detail": 9.743579585119733e-05
+  },
+  {
+    "name": "target action variation",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "recompute E1_A_s11_c200_r2101_U_t20WOMresidual_rms",
+    "passed": true,
+    "detail": {
+      "stored": 5.426909438909425,
+      "recomputed": 5.426909438909425
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_r2101_U_t20WOMgap_rms",
+    "passed": true,
+    "detail": {
+      "stored": 4.431032349969887,
+      "recomputed": 4.431032349969887
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_r2101_U_t20WOMtarget_rms",
+    "passed": true,
+    "detail": {
+      "stored": 362.19747270136685,
+      "recomputed": 362.19747270136685
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_r2101_U_t20WOMresidual_normalized",
+    "passed": true,
+    "detail": {
+      "stored": 0.014983289083808521,
+      "recomputed": 0.014983289083808521
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_r2101_U_t20WOMgap_normalized",
+    "passed": true,
+    "detail": {
+      "stored": 0.012233747289626423,
+      "recomputed": 0.012233747289626423
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_r2101_U_t20WOMreward_rms",
+    "passed": true,
+    "detail": {
+      "stored": 3.5755241716634485,
+      "recomputed": 3.5755241716634485
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_r2101_U_t20WOMq_mean",
+    "passed": true,
+    "detail": {
+      "stored": 298.7056006657367,
+      "recomputed": 298.7056006657367
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_r2101_U_t20WOMtarget_mean",
+    "passed": true,
+    "detail": {
+      "stored": 297.9142475228291,
+      "recomputed": 297.9142475228291
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_r2101_U_t20WOMtarget_mc_sd_mean",
+    "passed": true,
+    "detail": {
+      "stored": 0.45946040003036615,
+      "recomputed": 0.45946040003036615
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_r2101_U_t20WOMtimeout_count",
+    "passed": true,
+    "detail": {
+      "stored": 3.0,
+      "recomputed": 3.0
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_r2101_U_t20WOMsample_count",
+    "passed": true,
+    "detail": {
+      "stored": 1024.0,
+      "recomputed": 1024.0
+    }
+  },
+  {
+    "name": "1024 samples E1_A_s11_c200_r2101_U_t20(2, 1)",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "unique transitions",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "soft Bellman target E1_A_s11_c200_r2101_U_t20(2, 1)",
+    "passed": true,
+    "detail": 8.67136625402054e-05
+  },
+  {
+    "name": "target action variation",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "recompute E1_A_s11_c200_r2101_U_t20WOAresidual_rms",
+    "passed": true,
+    "detail": {
+      "stored": 6.985170528054191,
+      "recomputed": 6.985170528054191
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_r2101_U_t20WOAgap_rms",
+    "passed": true,
+    "detail": {
+      "stored": 4.604250485293634,
+      "recomputed": 4.604250485293634
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_r2101_U_t20WOAtarget_rms",
+    "passed": true,
+    "detail": {
+      "stored": 376.5392434033167,
+      "recomputed": 376.5392434033167
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_r2101_U_t20WOAresidual_normalized",
+    "passed": true,
+    "detail": {
+      "stored": 0.01855097616099545,
+      "recomputed": 0.01855097616099545
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_r2101_U_t20WOAgap_normalized",
+    "passed": true,
+    "detail": {
+      "stored": 0.012227810423366561,
+      "recomputed": 0.012227810423366561
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_r2101_U_t20WOAreward_rms",
+    "passed": true,
+    "detail": {
+      "stored": 3.312649672604759,
+      "recomputed": 3.312649672604759
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_r2101_U_t20WOAq_mean",
+    "passed": true,
+    "detail": {
+      "stored": 329.85941194498446,
+      "recomputed": 329.85941194498446
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_r2101_U_t20WOAtarget_mean",
+    "passed": true,
+    "detail": {
+      "stored": 328.53200055802154,
+      "recomputed": 328.53200055802154
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_r2101_U_t20WOAtarget_mc_sd_mean",
+    "passed": true,
+    "detail": {
+      "stored": 0.4442804178406732,
+      "recomputed": 0.4442804178406732
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_r2101_U_t20WOAtimeout_count",
+    "passed": true,
+    "detail": {
+      "stored": 2.0,
+      "recomputed": 2.0
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_r2101_U_t20WOAsample_count",
+    "passed": true,
+    "detail": {
+      "stored": 1024.0,
+      "recomputed": 1024.0
+    }
+  },
+  {
+    "name": "1024 samples E1_A_s11_c200_r2101_U_t20(3, 0)",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "unique transitions",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "soft Bellman target E1_A_s11_c200_r2101_U_t20(3, 0)",
+    "passed": true,
+    "detail": 0.00011437109355938446
+  },
+  {
+    "name": "target action variation",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "recompute E1_A_s11_c200_r2101_U_t20WCMresidual_rms",
+    "passed": true,
+    "detail": {
+      "stored": 5.0938553608505295,
+      "recomputed": 5.0938553608505295
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_r2101_U_t20WCMgap_rms",
+    "passed": true,
+    "detail": {
+      "stored": 4.6460751623782945,
+      "recomputed": 4.6460751623782945
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_r2101_U_t20WCMtarget_rms",
+    "passed": true,
+    "detail": {
+      "stored": 443.474901931498,
+      "recomputed": 443.474901931498
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_r2101_U_t20WCMresidual_normalized",
+    "passed": true,
+    "detail": {
+      "stored": 0.011486231438723807,
+      "recomputed": 0.011486231438723807
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_r2101_U_t20WCMgap_normalized",
+    "passed": true,
+    "detail": {
+      "stored": 0.01047652334358249,
+      "recomputed": 0.01047652334358249
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_r2101_U_t20WCMreward_rms",
+    "passed": true,
+    "detail": {
+      "stored": 3.6770830723719166,
+      "recomputed": 3.6770830723719166
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_r2101_U_t20WCMq_mean",
+    "passed": true,
+    "detail": {
+      "stored": 389.69726378656924,
+      "recomputed": 389.69726378656924
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_r2101_U_t20WCMtarget_mean",
+    "passed": true,
+    "detail": {
+      "stored": 388.27766831964254,
+      "recomputed": 388.27766831964254
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_r2101_U_t20WCMtarget_mc_sd_mean",
+    "passed": true,
+    "detail": {
+      "stored": 0.4700317153856304,
+      "recomputed": 0.4700317153856304
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_r2101_U_t20WCMtimeout_count",
+    "passed": true,
+    "detail": {
+      "stored": 5.0,
+      "recomputed": 5.0
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_r2101_U_t20WCMsample_count",
+    "passed": true,
+    "detail": {
+      "stored": 1024.0,
+      "recomputed": 1024.0
+    }
+  },
+  {
+    "name": "1024 samples E1_A_s11_c200_r2101_U_t20(3, 1)",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "unique transitions",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "soft Bellman target E1_A_s11_c200_r2101_U_t20(3, 1)",
+    "passed": true,
+    "detail": 0.00010762120768958994
+  },
+  {
+    "name": "target action variation",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "recompute E1_A_s11_c200_r2101_U_t20WCAresidual_rms",
+    "passed": true,
+    "detail": {
+      "stored": 6.638249257534412,
+      "recomputed": 6.638249257534412
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_r2101_U_t20WCAgap_rms",
+    "passed": true,
+    "detail": {
+      "stored": 4.803071030098977,
+      "recomputed": 4.803071030098977
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_r2101_U_t20WCAtarget_rms",
+    "passed": true,
+    "detail": {
+      "stored": 438.13719741246547,
+      "recomputed": 438.1371974124654
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_r2101_U_t20WCAresidual_normalized",
+    "passed": true,
+    "detail": {
+      "stored": 0.015151074359215195,
+      "recomputed": 0.015151074359215196
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_r2101_U_t20WCAgap_normalized",
+    "passed": true,
+    "detail": {
+      "stored": 0.010962481748787313,
+      "recomputed": 0.010962481748787315
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_r2101_U_t20WCAreward_rms",
+    "passed": true,
+    "detail": {
+      "stored": 3.8610701440717103,
+      "recomputed": 3.8610701440717103
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_r2101_U_t20WCAq_mean",
+    "passed": true,
+    "detail": {
+      "stored": 385.71375738456845,
+      "recomputed": 385.71375738456845
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_r2101_U_t20WCAtarget_mean",
+    "passed": true,
+    "detail": {
+      "stored": 384.3880571946502,
+      "recomputed": 384.3880571946502
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_r2101_U_t20WCAtarget_mc_sd_mean",
+    "passed": true,
+    "detail": {
+      "stored": 0.46771856016584934,
+      "recomputed": 0.46771856016584934
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_r2101_U_t20WCAtimeout_count",
+    "passed": true,
+    "detail": {
+      "stored": 4.0,
+      "recomputed": 4.0
+    }
+  },
+  {
+    "name": "recompute E1_A_s11_c200_r2101_U_t20WCAsample_count",
+    "passed": true,
+    "detail": {
+      "stored": 1024.0,
+      "recomputed": 1024.0
+    }
+  },
+  {
+    "name": "episode exclusion E1_A_s11_c200_r2101_U_t200",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "episode exclusion E1_A_s11_c200_r2101_U_t201",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "episode exclusion E1_A_s11_c200_r2101_U_t202",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "episode exclusion E1_A_s11_c200_r2101_U_t203",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "all samples reconciled",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "terminal vs timeout targets",
+    "passed": true,
+    "detail": null
+  }
+]

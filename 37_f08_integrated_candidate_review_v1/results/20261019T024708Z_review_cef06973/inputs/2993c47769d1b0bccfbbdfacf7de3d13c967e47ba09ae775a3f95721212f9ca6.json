@@ -1,0 +1,17 @@
+{
+  "status": "completed",
+  "review": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\36_all_candidate_evidence_review_v1\\results\\20261015T104602Z_review_0d1cb1b0",
+  "review_summary_sha256": "e87f76d76b0b48735be1e939dcc374cffe35a4020abdb0824ca8f03c6ac034f1",
+  "raw_F05_deterministic_episodes": 15360,
+  "raw_F05_MC_episodes": 6144,
+  "calibration_cells": 21,
+  "MC_model_task_cells": 768,
+  "scope": "All retained inputs hashed; contrasts independently aggregated; F05 current-episode calibration and MC summary recomputed from CSV; no full trace replay or scientific predictor retuning.",
+  "new_environment_steps": 0,
+  "new_persistent_updates": 0,
+  "new_cloned_updates": 0,
+  "wall_seconds": 0.45646419998956844,
+  "cpu_seconds": 0.046875,
+  "checks_passed": 9054,
+  "checks_failed": 0
+}

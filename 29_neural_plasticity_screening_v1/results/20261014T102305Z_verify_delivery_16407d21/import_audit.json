@@ -1,0 +1,112 @@
+{
+  "analyze.py": [
+    "argparse",
+    "common",
+    "features",
+    "numpy",
+    "outcomes",
+    "pathlib",
+    "traceback"
+  ],
+  "common.py": [
+    "__future__",
+    "csv",
+    "datetime",
+    "hashlib",
+    "importlib.metadata",
+    "json",
+    "numpy",
+    "pathlib",
+    "platform",
+    "shutil",
+    "sys",
+    "time",
+    "uuid"
+  ],
+  "features.py": [
+    "collections",
+    "common",
+    "numpy",
+    "outcomes",
+    "pathlib",
+    "performance_controls",
+    "scipy.stats"
+  ],
+  "measure.py": [
+    "argparse",
+    "common",
+    "copy",
+    "gc",
+    "inspect",
+    "math",
+    "numpy",
+    "pathlib",
+    "snapshot_io",
+    "stable_baselines3",
+    "stable_baselines3.common.distributions",
+    "stable_baselines3.sac.policies",
+    "time",
+    "torch",
+    "traceback"
+  ],
+  "outcomes.py": [
+    "common",
+    "hashlib",
+    "numpy"
+  ],
+  "performance_controls.py": [
+    "numpy"
+  ],
+  "snapshot_io.py": [
+    "__future__",
+    "argparse",
+    "common",
+    "csv",
+    "gc",
+    "gzip",
+    "hashlib",
+    "importlib.metadata",
+    "json",
+    "lzma",
+    "numpy",
+    "pathlib",
+    "pickle",
+    "stable_baselines3",
+    "stable_baselines3.common.buffers",
+    "time",
+    "torch",
+    "traceback"
+  ],
+  "verify_analysis.py": [
+    "argparse",
+    "collections",
+    "common",
+    "hashlib",
+    "math",
+    "numpy",
+    "pathlib",
+    "traceback"
+  ],
+  "verify_delivery.py": [
+    "__future__",
+    "ast",
+    "common",
+    "json",
+    "pathlib",
+    "re",
+    "shutil",
+    "traceback",
+    "urllib.parse"
+  ],
+  "verify_measurements.py": [
+    "argparse",
+    "common",
+    "copy",
+    "math",
+    "numpy",
+    "pathlib",
+    "snapshot_io",
+    "torch",
+    "traceback"
+  ]
+}

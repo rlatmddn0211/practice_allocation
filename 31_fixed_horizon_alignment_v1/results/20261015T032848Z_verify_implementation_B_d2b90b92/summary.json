@@ -1,0 +1,17 @@
+{
+  "status": "completed",
+  "suite": "B",
+  "scientific_evidence": false,
+  "maximum_return_sum_roundoff": 9.094947017729282e-13,
+  "costs": {
+    "environment_creations": 20,
+    "resets": 20,
+    "environment_steps": 7517,
+    "train_iterations": 0,
+    "evaluation_episodes": 16
+  },
+  "wall_seconds": 19.771904900000663,
+  "cpu_seconds": 8.0625,
+  "checks_passed": 117,
+  "checks_failed": 0
+}

@@ -1,0 +1,127 @@
+{
+  "status": "completed",
+  "scientific_evidence": false,
+  "checks": [
+    {
+      "check": "calibration independently fit False",
+      "passed": true
+    },
+    {
+      "check": "calibration independently fit True",
+      "passed": true
+    },
+    {
+      "check": "allocation ridge independently fit 11",
+      "passed": true
+    },
+    {
+      "check": "held outcomes cannot affect fit 11",
+      "passed": true
+    },
+    {
+      "check": "fold materialization preserves source 11",
+      "passed": true
+    },
+    {
+      "check": "allocation ridge independently fit 12",
+      "passed": true
+    },
+    {
+      "check": "held outcomes cannot affect fit 12",
+      "passed": true
+    },
+    {
+      "check": "fold materialization preserves source 12",
+      "passed": true
+    },
+    {
+      "check": "allocation ridge independently fit 13",
+      "passed": true
+    },
+    {
+      "check": "held outcomes cannot affect fit 13",
+      "passed": true
+    },
+    {
+      "check": "fold materialization preserves source 13",
+      "passed": true
+    },
+    {
+      "check": "deterministic tie breaking",
+      "passed": true
+    },
+    {
+      "check": "seven preregistered contrasts",
+      "passed": true
+    },
+    {
+      "check": "constant outcome cancels dose81_minus25",
+      "passed": true
+    },
+    {
+      "check": "constant outcome cancels dose4375_nonlinearity",
+      "passed": true
+    },
+    {
+      "check": "linear dose has zero curvature dose4375_nonlinearity",
+      "passed": true
+    },
+    {
+      "check": "constant outcome cancels dose625_nonlinearity",
+      "passed": true
+    },
+    {
+      "check": "linear dose has zero curvature dose625_nonlinearity",
+      "passed": true
+    },
+    {
+      "check": "constant outcome cancels forward_minus_reverse",
+      "passed": true
+    },
+    {
+      "check": "constant outcome cancels forward_minus_mixture",
+      "passed": true
+    },
+    {
+      "check": "constant outcome cancels reverse_minus_mixture",
+      "passed": true
+    },
+    {
+      "check": "constant outcome cancels alternate_minus_mixture",
+      "passed": true
+    },
+    {
+      "check": "paired case bootstrap percentage-point unit",
+      "passed": true
+    }
+  ],
+  "source_hashes": {
+    "31_fixed_horizon_alignment_v1/analyze.py": "0127d07b092daa2170f58463ded5dfc6f988376c612ad60e4e23a089c5ec4438",
+    "31_fixed_horizon_alignment_v1/common.py": "a50ef5f30e21752bf18447f07ec1cf440f9b87cc82a1d2b12d8edeb070051567",
+    "31_fixed_horizon_alignment_v1/diagnostics.py": "1561e2fad4955bce08aaa7a60e73eb8c0d60e57b76459e7d79b16d165dd4a968",
+    "31_fixed_horizon_alignment_v1/features.py": "782be74aed8b32c14ba6dbf102db6e8e7ebe5b549d7f15a2e1921bdacf8635a0",
+    "31_fixed_horizon_alignment_v1/outcomes.py": "dcfc744993cee9598ed337ec7ba7f178353192d7ddbb753d66ca0caef676c377",
+    "31_fixed_horizon_alignment_v1/performance_controls.py": "892530c561b48005bb7f46073ab125adbc0d25659468b95cea44b73a3d3144cd",
+    "31_fixed_horizon_alignment_v1/snapshot_io.py": "1330299eb2617b5aeb984f1e0b7555b39e18fbbe362decbc2568d5f64f180c28",
+    "31_fixed_horizon_alignment_v1/verify_analysis.py": "5f55cb59a3f1cbc2ad9e4940d207ad92f1fdf2f9c691cc4ba906c90318fdae08",
+    "31_fixed_horizon_alignment_v1/verify_implementation.py": "8ddff5b4aa7d6953d24715a1bfaf7649bd6864c9123bb7d325cec664e0387e95",
+    "31_fixed_horizon_alignment_v1/verify_traces.py": "51d19b51553aaae8a7ff315ab46b9c8bcb0ecfaa6f71f67b5a3e5e27f4e17f8c",
+    "31_fixed_horizon_alignment_v1/worker.py": "cd91eb89d2ad44fc7892fdef6e3970775813c23ef63e50c35aaaec8230c4393c",
+    "32_dose_order_intervention_v1/analyze.py": "3a53406e635c0f3008e5a97d231b7209dc11d30231ea7df4639f53b6c2dabe61",
+    "32_dose_order_intervention_v1/common.py": "a50ef5f30e21752bf18447f07ec1cf440f9b87cc82a1d2b12d8edeb070051567",
+    "32_dose_order_intervention_v1/verify_analysis.py": "bb67a7496550e7d8eaeea8af0a4f611d8edfb05e906bde60dbac7d6691ef00a9",
+    "32_dose_order_intervention_v1/verify_implementation.py": "61a07668a96561f42835d1ee67372288f30a09b8546b360b4b4ac1eea60bd531",
+    "32_dose_order_intervention_v1/worker.py": "0c582315cf5cb5e42af401f6d6cc4e528ac7feee9e6549ea53945f75e8526c7c",
+    "33_remaining_factor_queue_v1/campaign.py": "fd4f45080a7c03cbc01b4c54a0e9d6f80121728f6955f410431d7275aed70033",
+    "33_remaining_factor_queue_v1/verify_analysis_math.py": "6ce86dd66d66538bde56865c37fa10d8d0d7029fe676956b588ce5664fedf4bf"
+  },
+  "wall_seconds": 0.07084080000640824,
+  "cpu_seconds": 0.046875,
+  "new_environment_steps": 0,
+  "train_iterations": 0,
+  "runtime": {
+    "python": "3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)]",
+    "numpy": "2.2.4"
+  },
+  "error": null
+}

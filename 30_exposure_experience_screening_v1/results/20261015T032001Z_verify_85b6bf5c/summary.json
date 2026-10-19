@@ -1,0 +1,18 @@
+{
+  "status": "completed",
+  "snapshots_verified": 192,
+  "reference_FIFO_snapshots": [
+    "E1_A_s11_c200_r2101_F_DO_t20",
+    "E1_A_s11_c400_r2101_F_DO_t20",
+    "E3_B_s11_c200_r2301_F_DO_t20",
+    "E3_C_s11_c200_r2301_F_DO_t20"
+  ],
+  "analysis_verified": true,
+  "scientific_confirmation": false,
+  "wall_seconds": 7.2452874000009615,
+  "cpu_seconds": 2.390625,
+  "checks_passed": 13196,
+  "checks_failed": 0,
+  "new_environment_steps": 0,
+  "new_learner_updates": 0
+}

@@ -1,0 +1,41 @@
+[
+  {
+    "id": "E1_A_s11_c200_base",
+    "suite": "A",
+    "original_seed": 11,
+    "checkpoint_step": 200000,
+    "horizon": 0,
+    "continuation": 0,
+    "allocation": "parent",
+    "checkpoint": {
+      "path": "D:\\robot_practice_allocation_runs\\10_independent_seed_checkpoint_study_v1\\results\\20261008T081301Z_e03_b26922\\E1_A_s11_pre200\\a01_9114cd\\checkpoint",
+      "manifest_sha256": "c38a29b87d0102ab4e7699057697cb90347b7de57daf0df4268d952ee2bbffe2"
+    }
+  },
+  {
+    "id": "E1_A_s11_c200_r2101_U_t20",
+    "suite": "A",
+    "original_seed": 11,
+    "checkpoint_step": 200000,
+    "horizon": 20000,
+    "continuation": 2101,
+    "allocation": "U",
+    "checkpoint": {
+      "path": "D:\\robot_practice_allocation_runs\\10_independent_seed_checkpoint_study_v1\\results\\20261008T081301Z_e03_b26922\\E1_A_s11_c200_r2101_U_t20\\a01_475307\\checkpoint",
+      "manifest_sha256": "d59257c50502c26f299b66443f44b77e2e5b9f0ded88d54c922f6df5380a4751"
+    }
+  },
+  {
+    "id": "E1_A_s11_c200_r2101_F_DO_t20",
+    "suite": "A",
+    "original_seed": 11,
+    "checkpoint_step": 200000,
+    "horizon": 20000,
+    "continuation": 2101,
+    "allocation": "F_DO",
+    "checkpoint": {
+      "path": "D:\\robot_practice_allocation_runs\\10_independent_seed_checkpoint_study_v1\\results\\20261008T081301Z_e03_b26922\\E1_A_s11_c200_r2101_F_DO_t20\\a01_34c301\\checkpoint",
+      "manifest_sha256": "be714f71455a3a4922673ef7e15d2b18e2e50aab95d348082bfc811b95051577"
+    }
+  }
+]

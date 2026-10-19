@@ -34,5 +34,24 @@
 21_e3_completed_results_analysis_v1/** -text whitespace=cr-at-eol
 21_e3_completed_results_analysis_v1/results/**/*.svg -diff
 22_candidate_factor_grounding_v1/** -text whitespace=cr-at-eol
+23_candidate_factor_screening_design_v1/** -text whitespace=cr-at-eol
+24_signal_reliability_screening_v1/** -text whitespace=cr-at-eol
+24_signal_reliability_screening_v1/results/**/*.svg -diff
+25_candidate_factor_evidence_register_v1/** -text whitespace=cr-at-eol
+26_critic_signal_screening_v1/** -text whitespace=cr-at-eol
+26_critic_signal_screening_v1/results/**/*.csv.gz binary
+27_success_retention_screening_v1/** -text whitespace=cr-at-eol
+28_gradient_update_screening_v1/** -text whitespace=cr-at-eol
+29_neural_plasticity_screening_v1/** -text whitespace=cr-at-eol
+30_exposure_experience_screening_v1/** -text whitespace=cr-at-eol
+31_fixed_horizon_alignment_v1/** -text whitespace=cr-at-eol
+32_dose_order_intervention_v1/** -text whitespace=cr-at-eol
+33_remaining_factor_queue_v1/** -text whitespace=cr-at-eol
+34_completed_factor_clue_review_v1/** -text whitespace=cr-at-eol
+35_remaining_factor_progress_audit_v1/** -text whitespace=cr-at-eol
+36_all_candidate_evidence_review_v1/** -text whitespace=cr-at-eol
+37_f08_integrated_candidate_review_v1/** -text whitespace=cr-at-eol
+37_f08_integrated_candidate_review_v1/results/**/*.svg -diff
+38_candidate_factor_publication_v1/** -text whitespace=cr-at-eol
 # Keep the validated report bundle intact, including generated whitespace.
 17_e0_e2_detailed_research_report_v1/**/dist/index.html -diff

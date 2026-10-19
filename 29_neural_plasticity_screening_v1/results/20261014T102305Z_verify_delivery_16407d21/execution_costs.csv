@@ -1,0 +1,8 @@
+﻿role,run,status,wall_seconds,cpu_seconds,clone_optimizer_steps,measured_cuda_event_seconds,new_environment_steps,new_persistent_learner_updates
+failed_smoke,20261014T100703Z_smoke_6fb9c18d,failed,1.915494699991541,1.4375,0,,0,0
+successful_smoke,20261014T100715Z_smoke_a19f937f,completed,8.052941999980249,4.75,240,4.188666870117188,0,0
+smoke_verification,20261014T100933Z_verify_measurements_69a80cb2,completed,5.862257200002205,3.53125,164,,0,0
+measurement,20261014T100947Z_measure_e6af8a96,completed,322.6029980999883,171.828125,15360,199.60138024902344,0,0
+analysis,20261014T101557Z_analysis_e77c6ebb,completed,1.5368116999743506,0.875,0,,0,0
+measurement_verification,20261014T101558Z_verify_measurements_daa27e31,completed,19.634593299997505,11.4375,656,,0,0
+analysis_verification,20261014T101613Z_verify_analysis_30186f0e,completed,2.691317299992079,1.5,0,,0,0

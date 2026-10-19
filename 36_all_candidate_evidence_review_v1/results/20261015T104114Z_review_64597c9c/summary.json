@@ -1,0 +1,8 @@
+{
+  "status": "failed",
+  "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\SS\\Projects\\robot_practice_allocation\\36_all_candidate_evidence_review_v1\\analyze.py\", line 118, in main\n    near('MAE '+name+method, math.fsum(float(r['weight'])*abs(pred[method][r['id']]-float(r['O40']))*100 for r in feature.values()), metric['O40_MAE_pp'])\n                                                                                                                                     ~~~~~~^^^^^^^^^^^^^^\nKeyError: 'O40_MAE_pp'\n",
+  "wall_seconds": 0.21575540001504123,
+  "cpu_seconds": 0.015625,
+  "checks_passed": 10285,
+  "checks_failed": 0
+}

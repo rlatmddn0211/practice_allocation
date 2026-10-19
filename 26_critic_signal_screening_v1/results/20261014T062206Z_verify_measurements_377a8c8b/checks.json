@@ -1,0 +1,82 @@
+[
+  {
+    "name": "measurement completed",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "hash matches: C:\\Users\\SS\\Projects\\robot_practice_allocation\\26_critic_signal_screening_v1\\results\\20261014T062109Z_smoke_e280ff87\\raw\\E1_A_s11_c200_base.csv.gz",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "eight panels E1_A_s11_c200_base",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "1024 samples E1_A_s11_c200_base(0, 0)",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "unique transitions",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "soft Bellman target E1_A_s11_c200_base(0, 0)",
+    "passed": true,
+    "detail": 7.004263807175448e-05
+  },
+  {
+    "name": "target action variation",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseDOMresidual_rms",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseDOMgap_rms",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseDOMtarget_rms",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseDOMresidual_normalized",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseDOMgap_normalized",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseDOMreward_rms",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseDOMq_mean",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseDOMtarget_mean",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "recompute E1_A_s11_c200_baseDOMtarget_mc_sd_mean",
+    "passed": false,
+    "detail": null
+  }
+]

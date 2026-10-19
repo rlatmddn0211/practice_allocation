@@ -1,0 +1,41 @@
+{
+  "created_on": "2026-10-15",
+  "scope": "User-requested comprehensive retrospective review of all eight candidate factors. F01-F07 completed screens including fresh F05 diagnostics; F08 execution status only. No new training, environment rollout, predictor fitting, hyperparameter search, or changes to frozen implementations.",
+  "status": "Post-hoc audit and synthesis after earlier reports and F05 summary have been read. This is neither preregistration nor independent scientific confirmation.",
+  "sources": {
+    "F01": "27_success_retention_screening_v1/results/20261014T071242Z_analysis_1ce07d19",
+    "F02_F03": "30_exposure_experience_screening_v1/results/20261015T031819Z_analysis_56a74006",
+    "F04": "28_gradient_update_screening_v1/results/20261014T071540Z_analysis_d2e18cbf",
+    "F05_critic": "26_critic_signal_screening_v1/results/20261014T062648Z_analysis_4a05b167",
+    "F05_alignment": "31_fixed_horizon_alignment_v1/results/20261015T100729Z_analysis_5fa7ae88",
+    "F06": "29_neural_plasticity_screening_v1/results/20261014T101557Z_analysis_e77c6ebb",
+    "F07": "24_signal_reliability_screening_v1/results/20261014T053612Z_df5ecad4"
+  },
+  "comparisons": [
+    ["F01", "F01", "Profile_F01", "Profile", "primary"],
+    ["F02", "F02_F03", "F02", "CriticBase", "primary"],
+    ["F03", "F02_F03", "F03", "ExperienceBase", "primary"],
+    ["F04", "F04", "CriticBase_F04", "CriticBase", "primary"],
+    ["F05_critic", "F05_critic", "Base_scale_F05", "Base_scale", "earlier_primary"],
+    ["F05_alignment", "F05_alignment", "CalibratedReturn", "SuccessBase", "primary"],
+    ["F05_raw_return", "F05_alignment", "RawReturn", "SuccessBase", "secondary"],
+    ["F05_rollout", "F05_alignment", "RolloutValue", "RolloutBase", "secondary"],
+    ["F03_near_object", "F05_alignment", "NearObject", "SuccessBase", "secondary"],
+    ["F06", "F06", "StepBase_F06", "StepBase", "primary"],
+    ["F06_static", "F06", "CoverageBase_static", "CoverageBase", "secondary"],
+    ["F06_total20", "F06", "CoverageBase_total20", "CoverageBase", "secondary"]
+  ],
+  "planned_review_calculations": [
+    "Recompute every stored model prediction MAE, allocation choice, selected O40, weighted aggregation, and common-baseline consistency from frozen branch features and predictions. Do not refit models.",
+    "For the listed original primary and secondary contrasts, show both same- and cross-repeat increments, all three original-seed blocks and four context groups, all changed choices, and baseline top-two predicted margin. Do not replace original primary contrasts with favorable auxiliary results.",
+    "Audit concentration by reporting changed-choice counts, gains and losses, and the descriptive effect of omitting the single largest positive contribution without renormalizing. This is not a new selection rule or a confidence interval.",
+    "Recompute current-episode return-to-success calibration Brier comparisons across all 21 task/held-seed cells. Distinguish contemporaneous encoding from predicting future improvements and choosing an allocation.",
+    "Summarize all 768 model-task rollout errors, finite-rollout sampling SE, no-tail differences and tail magnitudes; do not treat tail bootstrap as exact ground truth.",
+    "Verify all F05 completion references, preserved-model flags, raw diagnostic episode/MC CSV hashes, trace-verification receipts, and actual measurement/verification costs. Reuse original full-trace verification; do not claim to have re-executed 10.752M simulator steps.",
+    "Reconcile F07 pair reversals and reliability rule summaries; keep its subsampling scheme separate from other primary contrasts.",
+    "Report common-baseline outcome and original-policy losses by context. Hindsight best is only a biased descriptive reference; no adaptive stopping or policy switch is evaluated here."
+  ],
+  "limitations": "Most labels are the same historical 180 branches and 148800 evaluation rows: 12 starting states, 9 pretraining histories, 3 original seed blocks. D50/O50 and leave-original-seed-out fitting do not make repeated research on these data independent confirmation. No leave-composition-out confirmation, common 4k packet, causal replay manipulation, new original seeds, or equal-total-budget online comparison is performed.",
+  "decision_rule": "Preserve prior frozen screening rules (at least1pp primary gain, at least2 positive original seed blocks, no context group below-2pp). Keep measured phenomena, useful predictors, operational policies, and causal explanations separate. Mechanistic explanations and proposed future tests are hypotheses, not newly authorized experiments.",
+  "cost": "Only offline CPU/file review; new environment steps0, persistent learner updates0, cloned learner updates0. Timestamped immutable outputs and code/input hashes; preserve failed attempts."
+}

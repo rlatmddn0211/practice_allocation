@@ -11,6 +11,16 @@
 - Do not overwrite existing run directories or checkpoints.
 - Record configuration, dependency versions, source hashes, seeds, actual costs,
   and failed checks. A smoke test is not evidence of a scientific effect.
+- The user requested durable per-factor result records on 2026-10-14. After each
+  candidate-factor analysis, record its execution status separately from its
+  scientific conclusion, including effect sizes, baselines, uncertainty scope,
+  original/continuation seeds, actual costs, source and input provenance,
+  unfavorable or inconclusive findings, limitations, and next decision criteria.
+  Use `25_candidate_factor_evidence_register_v1` as the first dated snapshot and
+  record template. Preserve delivered records; put later evidence or corrections
+  in a new numbered version linked to the prior record and update the root index.
+  Do not label unmeasured factors as ineffective or completed analyses as proven
+  allocation improvements. Recording a proposal does not authorize its execution.
 - The user authorized P0 uniform pretraining on 2026-10-07 after implementation
   validation. Keep the ten research branches as a separate execution stage.
 - The user explicitly authorized the ten research branches on 2026-10-07.

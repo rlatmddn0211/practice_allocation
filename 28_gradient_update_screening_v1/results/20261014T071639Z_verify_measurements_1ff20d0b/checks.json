@@ -1,0 +1,60 @@
+[
+  {
+    "name": "hash matches: C:\\Users\\SS\\Projects\\robot_practice_allocation\\28_gradient_update_screening_v1\\results\\20261014T070936Z_measure_b6b065f3\\raw\\E1_A_s11_c200_base.json",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "disjoint unique indices E1_A_s11_c200_base0",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "disjoint unique indices E1_A_s11_c200_base1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "disjoint unique indices E1_A_s11_c200_base2",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "disjoint unique indices E1_A_s11_c200_base3",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "batch reconstructed raw_cosine",
+    "passed": true,
+    "detail": {
+      "max_error": 3.469446951953614e-18
+    }
+  },
+  {
+    "name": "batch reconstructed negative_pair_fraction",
+    "passed": true,
+    "detail": {
+      "max_error": 0.0
+    }
+  },
+  {
+    "name": "batch reconstructed gradient_norm_mean",
+    "passed": true,
+    "detail": {
+      "max_error": 0.0
+    }
+  },
+  {
+    "name": "batch reconstructed gradient_norm_ratio",
+    "passed": true,
+    "detail": {
+      "max_error": 0.0
+    }
+  },
+  {
+    "name": "float32 mixed-gradient rounding bound",
+    "passed": true,
+    "detail": {
+      "error": 1.180849640292081e-09,
+      "bound": 

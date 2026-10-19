@@ -1,0 +1,80 @@
+[
+  {
+    "stage": "snapshot_only",
+    "contexts": 12,
+    "branches": 0,
+    "pretrain_env_steps": 0,
+    "branch_train_or_inclusive_budget_steps": 0,
+    "diagnostic_eval_episodes_outside_branch_budget": 0,
+    "outcome_eval_episodes": 0,
+    "diagnostic_eval_steps_max_outside_branch_budget": 0,
+    "outcome_eval_steps_max": 0,
+    "total_env_steps_max": 0,
+    "note": "No new environment steps; future diagnostic compute costs must be recorded."
+  },
+  {
+    "stage": "shared_4k_probe",
+    "contexts": 12,
+    "branches": 180,
+    "pretrain_env_steps": 0,
+    "branch_train_or_inclusive_budget_steps": 720000,
+    "diagnostic_eval_episodes_outside_branch_budget": 15360,
+    "outcome_eval_episodes": 0,
+    "diagnostic_eval_steps_max_outside_branch_budget": 7680000,
+    "outcome_eval_steps_max": 0,
+    "total_env_steps_max": 8400000,
+    "note": "Development only; new probes and old completions aggregate separately by parent/allocation."
+  },
+  {
+    "stage": "optional_4k_to_8k_increment",
+    "contexts": 12,
+    "branches": 180,
+    "pretrain_env_steps": 0,
+    "branch_train_or_inclusive_budget_steps": 720000,
+    "diagnostic_eval_episodes_outside_branch_budget": 14400,
+    "outcome_eval_episodes": 0,
+    "diagnostic_eval_steps_max_outside_branch_budget": 7200000,
+    "outcome_eval_steps_max": 0,
+    "total_env_steps_max": 7920000,
+    "note": "Incremental costs only; not included in the shared 4k row."
+  },
+  {
+    "stage": "optional_F08_pilot",
+    "contexts": 3,
+    "branches": 72,
+    "pretrain_env_steps": 0,
+    "branch_train_or_inclusive_budget_steps": 2880000,
+    "diagnostic_eval_episodes_outside_branch_budget": 240,
+    "outcome_eval_episodes": 30000,
+    "diagnostic_eval_steps_max_outside_branch_budget": 120000,
+    "outcome_eval_steps_max": 15000000,
+    "total_env_steps_max": 18000000,
+    "note": "Standalone upper bound; dose and sequence families use distinct controlled schedules."
+  },
+  {
+    "stage": "G3_confirmation_example",
+    "contexts": 24,
+    "branches": 240,
+    "pretrain_env_steps": 4800000,
+    "branch_train_or_inclusive_budget_steps": 9600000,
+    "diagnostic_eval_episodes_outside_branch_budget": 23040,
+    "outcome_eval_episodes": 105600,
+    "diagnostic_eval_steps_max_outside_branch_budget": 11520000,
+    "outcome_eval_steps_max": 52800000,
+    "total_env_steps_max": 78720000,
+    "note": "N=8 is a costing example, not a power calculation; probe and final are the same trajectory."
+  },
+  {
+    "stage": "G4_online_example",
+    "contexts": 24,
+    "branches": 336,
+    "pretrain_env_steps": 4800000,
+    "branch_train_or_inclusive_budget_steps": 13440000,
+    "diagnostic_eval_episodes_outside_branch_budget": 3840,
+    "outcome_eval_episodes": 144000,
+    "diagnostic_eval_steps_max_outside_branch_budget": 1920000,
+    "outcome_eval_steps_max": 72000000,
+    "total_env_steps_max": 92160000,
+    "note": "In-run diagnostics/discarded probes are already inside each 40k budget; do not add them twice."
+  }
+]

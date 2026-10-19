@@ -1,0 +1,10 @@
+{
+  "status": "failed",
+  "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\SS\\Projects\\robot_practice_allocation\\26_critic_signal_screening_v1\\verify_measurements.py\", line 53, in main\n    run.check('recompute '+entry['id']+task+panel+name,np.isclose(float(old[name]),value,atol=1e-9,rtol=1e-9))\n  File \"C:\\Users\\SS\\Projects\\robot_practice_allocation\\26_critic_signal_screening_v1\\common.py\", line 61, in check\n    raise AssertionError(name + ': ' + str(detail))\nAssertionError: recompute E1_A_s11_c200_baseDOMtarget_mc_sd_mean: None\n",
+  "wall_seconds": 0.1978264999925159,
+  "cpu_seconds": 0.03125,
+  "checks_passed": 15,
+  "checks_failed": 1,
+  "new_environment_steps": 0,
+  "new_learner_updates": 0
+}

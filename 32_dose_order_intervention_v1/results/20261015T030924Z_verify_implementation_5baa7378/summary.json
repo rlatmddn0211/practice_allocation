@@ -1,0 +1,16 @@
+{
+  "status": "completed",
+  "scientific_evidence": false,
+  "resume_exact": true,
+  "costs": {
+    "environment_creations": 11,
+    "resets": 11,
+    "environment_steps": 2629,
+    "train_iterations": 1500,
+    "evaluation_episodes": 4
+  },
+  "wall_seconds": 42.76889189999201,
+  "cpu_seconds": 10.21875,
+  "checks_passed": 163,
+  "checks_failed": 0
+}

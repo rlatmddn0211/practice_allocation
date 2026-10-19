@@ -1,0 +1,865 @@
+{
+  "version": 1,
+  "artifact": {
+    "identity": "36_all_candidate_evidence_review_v1",
+    "revision": "2105da680f3f9dcd61941a3610ac466b70b932ab72937d6f16b5a74760d9a30d",
+    "view": "Eight-factor research evidence synthesis; no dashboard"
+  },
+  "categories": [
+    {
+      "id": "usefulness",
+      "label": "Question coverage and completeness",
+      "applicable": true,
+      "assessment": "All eight candidates included; F08 outcome remains pending."
+    },
+    {
+      "id": "clarity",
+      "label": "Analytical clarity",
+      "applicable": true,
+      "assessment": "Candidate-specific comparators, primary/secondary roles, and conditional uncertainty distinguished."
+    },
+    {
+      "id": "visual",
+      "label": "Visual and interaction consistency",
+      "applicable": false,
+      "reason": "Static Markdown and CSV; no dashboard or chart.",
+      "assessment": "N/A: static Markdown and CSV; no dashboard or chart."
+    },
+    {
+      "id": "authority",
+      "label": "Source authority and scope",
+      "applicable": true,
+      "assessment": "Frozen local protocols and completed artifacts; current F08 status only."
+    },
+    {
+      "id": "accuracy",
+      "label": "Value accuracy",
+      "applicable": true,
+      "assessment": "All frozen prediction/choice arithmetic checked for F01-F06; F07 aggregate reconciliation and prior verification reused, not a new full bootstrap."
+    },
+    {
+      "id": "within-chart",
+      "label": "Within-chart agreement",
+      "applicable": false,
+      "reason": "No charts in this artifact.",
+      "assessment": "N/A: no charts."
+    },
+    {
+      "id": "details",
+      "label": "App source-detail surfaces",
+      "applicable": false,
+      "reason": "No app; file provenance and source links are provided.",
+      "assessment": "N/A: no app; source links and input snapshots are provided."
+    },
+    {
+      "id": "cross",
+      "label": "Cross-artifact consistency",
+      "applicable": true,
+      "assessment": "Root index updated after F05 completion; dated historical records preserved."
+    },
+    {
+      "id": "quality",
+      "label": "Data separation and dependence controls",
+      "applicable": true,
+      "assessment": "Historical seed blocks, D/O splitting and shared baselines inspected; no new independent sample implied."
+    },
+    {
+      "id": "conclusion",
+      "label": "Conclusion support",
+      "applicable": true,
+      "assessment": "Exploratory findings only; no established causal factor or equal-budget deployment improvement."
+    }
+  ],
+  "units": [
+    {
+      "id": "F01",
+      "label": "F01 reviewed scope",
+      "kind": "component",
+      "revision": "2105da680f3f9dcd61941a3610ac466b70b932ab72937d6f16b5a74760d9a30d",
+      "categories": {
+        "usefulness": {
+          "checks": [
+            {
+              "id": "F01-usefulness",
+              "state": "passed",
+              "revision": "2105da680f3f9dcd61941a3610ac466b70b932ab72937d6f16b5a74760d9a30d",
+              "evidence": [
+                "../27_success_retention_screening_v1/report_ko.md",
+                "report_ko.md",
+                "results/20261015T104602Z_review_0d1cb1b0/summary.json"
+              ]
+            }
+          ],
+          "findings": []
+        },
+        "clarity": {
+          "checks": [
+            {
+              "id": "F01-clarity",
+              "state": "passed",
+              "revision": "2105da680f3f9dcd61941a3610ac466b70b932ab72937d6f16b5a74760d9a30d",
+              "evidence": [
+                "../27_success_retention_screening_v1/report_ko.md",
+                "report_ko.md",
+                "results/20261015T104602Z_review_0d1cb1b0/summary.json"
+              ]
+            }
+          ],
+          "findings": []
+        },
+        "authority": {
+          "checks": [
+            {
+              "id": "F01-authority",
+              "state": "passed",
+              "revision": "2105da680f3f9dcd61941a3610ac466b70b932ab72937d6f16b5a74760d9a30d",
+              "evidence": [
+                "../27_success_retention_screening_v1/report_ko.md",
+                "report_ko.md",
+                "results/20261015T104602Z_review_0d1cb1b0/summary.json"
+              ]
+            }
+          ],
+          "findings": []
+        },
+        "conclusion": {
+          "checks": [
+            {
+              "id": "F01-conclusion",
+              "state": "passed",
+              "revision": "2105da680f3f9dcd61941a3610ac466b70b932ab72937d6f16b5a74760d9a30d",
+              "evidence": [
+                "../27_success_retention_screening_v1/report_ko.md",
+                "report_ko.md",
+                "results/20261015T104602Z_review_0d1cb1b0/summary.json"
+              ]
+            }
+          ],
+          "findings": []
+        },
+        "accuracy": {
+          "checks": [
+            {
+              "id": "F01-accuracy",
+              "state": "passed",
+              "revision": "2105da680f3f9dcd61941a3610ac466b70b932ab72937d6f16b5a74760d9a30d",
+              "evidence": [
+                "../27_success_retention_screening_v1/report_ko.md",
+                "report_ko.md",
+                "results/20261015T104602Z_review_0d1cb1b0/summary.json"
+              ]
+            }
+          ],
+          "findings": []
+        },
+        "quality": {
+          "checks": [
+            {
+              "id": "F01-quality",
+              "state": "passed",
+              "revision": "2105da680f3f9dcd61941a3610ac466b70b932ab72937d6f16b5a74760d9a30d",
+              "evidence": [
+                "../27_success_retention_screening_v1/report_ko.md",
+                "report_ko.md",
+                "results/20261015T104602Z_review_0d1cb1b0/summary.json"
+              ]
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "F02",
+      "label": "F02 reviewed scope",
+      "kind": "component",
+      "revision": "2105da680f3f9dcd61941a3610ac466b70b932ab72937d6f16b5a74760d9a30d",
+      "categories": {
+        "usefulness": {
+          "checks": [
+            {
+              "id": "F02-usefulness",
+              "state": "passed",
+              "revision": "2105da680f3f9dcd61941a3610ac466b70b932ab72937d6f16b5a74760d9a30d",
+              "evidence": [
+                "../30_exposure_experience_screening_v1/report_ko.md",
+                "report_ko.md",
+                "results/20261015T104602Z_review_0d1cb1b0/summary.json"
+              ]
+            }
+          ],
+          "findings": []
+        },
+        "clarity": {
+          "checks": [
+            {
+              "id": "F02-clarity",
+              "state": "passed",
+              "revision": "2105da680f3f9dcd61941a3610ac466b70b932ab72937d6f16b5a74760d9a30d",
+              "evidence": [
+                "../30_exposure_experience_screening_v1/report_ko.md",
+                "report_ko.md",
+                "results/20261015T104602Z_review_0d1cb1b0/summary.json"
+              ]
+            }
+          ],
+          "findings": []
+        },
+        "authority": {
+          "checks": [
+            {
+              "id": "F02-authority",
+              "state": "passed",
+              "revision": "2105da680f3f9dcd61941a3610ac466b70b932ab72937d6f16b5a74760d9a30d",
+              "evidence": [
+                "../30_exposure_experience_screening_v1/report_ko.md",
+                "report_ko.md",
+                "results/20261015T104602Z_review_0d1cb1b0/summary.json"
+              ]
+            }
+          ],
+          "findings": []
+        },
+        "conclusion": {
+          "checks": [
+            {
+              "id": "F02-conclusion",
+              "state": "passed",
+              "revision": "2105da680f3f9dcd61941a3610ac466b70b932ab72937d6f16b5a74760d9a30d",
+              "evidence": [
+                "../30_exposure_experience_screening_v1/report_ko.md",
+                "report_ko.md",
+                "results/20261015T104602Z_review_0d1cb1b0/summary.json"
+              ]
+            }
+          ],
+          "findings": []
+        },
+        "accuracy": {
+          "checks": [
+            {
+              "id": "F02-accuracy",
+              "state": "passed",
+              "revision": "2105da680f3f9dcd61941a3610ac466b70b932ab72937d6f16b5a74760d9a30d",
+              "evidence": [
+                "../30_exposure_experience_screening_v1/report_ko.md",
+                "report_ko.md",
+                "results/20261015T104602Z_review_0d1cb1b0/summary.json"
+              ]
+            }
+          ],
+          "findings": []
+        },
+        "quality": {
+          "checks": [
+            {
+              "id": "F02-quality",
+              "state": "passed",
+              "revision": "2105da680f3f9dcd61941a3610ac466b70b932ab72937d6f16b5a74760d9a30d",
+              "evidence": [
+                "../30_exposure_experience_screening_v1/report_ko.md",
+                "report_ko.md",
+                "results/20261015T104602Z_review_0d1cb1b0/summary.json"
+              ]
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "F03",
+      "label": "F03 reviewed scope",
+      "kind": "component",
+      "revision": "2105da680f3f9dcd61941a3610ac466b70b932ab72937d6f16b5a74760d9a30d",
+      "categories": {
+        "usefulness": {
+          "checks": [
+            {
+              "id": "F03-usefulness",
+              "state": "passed",
+              "revision": "2105da680f3f9dcd61941a3610ac466b70b932ab72937d6f16b5a74760d9a30d",
+              "evidence": [
+                "../30_exposure_experience_screening_v1/report_ko.md",
+                "report_ko.md",
+                "results/20261015T104602Z_review_0d1cb1b0/summary.json"
+              ]
+            }
+          ],
+          "findings": []
+        },
+        "clarity": {
+          "checks": [
+            {
+              "id": "F03-clarity",
+              "state": "passed",
+              "revision": "2105da680f3f9dcd61941a3610ac466b70b932ab72937d6f16b5a74760d9a30d",
+              "evidence": [
+                "../30_exposure_experience_screening_v1/report_ko.md",
+                "report_ko.md",
+                "results/20261015T104602Z_review_0d1cb1b0/summary.json"
+              ]
+            }
+          ],
+          "findings": []
+        },
+        "authority": {
+          "checks": [
+            {
+              "id": "F03-authority",
+              "state": "passed",
+              "revision": "2105da680f3f9dcd61941a3610ac466b70b932ab72937d6f16b5a74760d9a30d",
+              "evidence": [
+                "../30_exposure_experience_screening_v1/report_ko.md",
+                "report_ko.md",
+                "results/20261015T104602Z_review_0d1cb1b0/summary.json"
+              ]
+            }
+          ],
+          "findings": []
+        },
+        "conclusion": {
+          "checks": [
+            {
+              "id": "F03-conclusion",
+              "state": "passed",
+              "revision": "2105da680f3f9dcd61941a3610ac466b70b932ab72937d6f16b5a74760d9a30d",
+              "evidence": [
+                "../30_exposure_experience_screening_v1/report_ko.md",
+                "report_ko.md",
+                "results/20261015T104602Z_review_0d1cb1b0/summary.json"
+              ]
+            }
+          ],
+          "findings": []
+        },
+        "accuracy": {
+          "checks": [
+            {
+              "id": "F03-accuracy",
+              "state": "passed",
+              "revision": "2105da680f3f9dcd61941a3610ac466b70b932ab72937d6f16b5a74760d9a30d",
+              "evidence": [
+                "../30_exposure_experience_screening_v1/report_ko.md",
+                "report_ko.md",
+                "results/20261015T104602Z_review_0d1cb1b0/summary.json"
+              ]
+            }
+          ],
+          "findings": []
+        },
+        "quality": {
+          "checks": [
+            {
+              "id": "F03-quality",
+              "state": "passed",
+              "revision": "2105da680f3f9dcd61941a3610ac466b70b932ab72937d6f16b5a74760d9a30d",
+              "evidence": [
+                "../30_exposure_experience_screening_v1/report_ko.md",
+                "report_ko.md",
+                "results/20261015T104602Z_review_0d1cb1b0/summary.json"
+              ]
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "F04",
+      "label": "F04 reviewed scope",
+      "kind": "component",
+      "revision": "2105da680f3f9dcd61941a3610ac466b70b932ab72937d6f16b5a74760d9a30d",
+      "categories": {
+        "usefulness": {
+          "checks": [
+            {
+              "id": "F04-usefulness",
+              "state": "passed",
+              "revision": "2105da680f3f9dcd61941a3610ac466b70b932ab72937d6f16b5a74760d9a30d",
+              "evidence": [
+                "../28_gradient_update_screening_v1/report_ko.md",
+                "report_ko.md",
+                "results/20261015T104602Z_review_0d1cb1b0/summary.json"
+              ]
+            }
+          ],
+          "findings": []
+        },
+        "clarity": {
+          "checks": [
+            {
+              "id": "F04-clarity",
+              "state": "passed",
+              "revision": "2105da680f3f9dcd61941a3610ac466b70b932ab72937d6f16b5a74760d9a30d",
+              "evidence": [
+                "../28_gradient_update_screening_v1/report_ko.md",
+                "report_ko.md",
+                "results/20261015T104602Z_review_0d1cb1b0/summary.json"
+              ]
+            }
+          ],
+          "findings": []
+        },
+        "authority": {
+          "checks": [
+            {
+              "id": "F04-authority",
+              "state": "passed",
+              "revision": "2105da680f3f9dcd61941a3610ac466b70b932ab72937d6f16b5a74760d9a30d",
+              "evidence": [
+                "../28_gradient_update_screening_v1/report_ko.md",
+                "report_ko.md",
+                "results/20261015T104602Z_review_0d1cb1b0/summary.json"
+              ]
+            }
+          ],
+          "findings": []
+        },
+        "conclusion": {
+          "checks": [
+            {
+              "id": "F04-conclusion",
+              "state": "passed",
+              "revision": "2105da680f3f9dcd61941a3610ac466b70b932ab72937d6f16b5a74760d9a30d",
+              "evidence": [
+                "../28_gradient_update_screening_v1/report_ko.md",
+                "report_ko.md",
+                "results/20261015T104602Z_review_0d1cb1b0/summary.json"
+              ]
+            }
+          ],
+          "findings": []
+        },
+        "accuracy": {
+          "checks": [
+            {
+              "id": "F04-accuracy",
+              "state": "passed",
+              "revision": "2105da680f3f9dcd61941a3610ac466b70b932ab72937d6f16b5a74760d9a30d",
+              "evidence": [
+                "../28_gradient_update_screening_v1/report_ko.md",
+                "report_ko.md",
+                "results/20261015T104602Z_review_0d1cb1b0/summary.json"
+              ]
+            }
+          ],
+          "findings": []
+        },
+        "quality": {
+          "checks": [
+            {
+              "id": "F04-quality",
+              "state": "passed",
+              "revision": "2105da680f3f9dcd61941a3610ac466b70b932ab72937d6f16b5a74760d9a30d",
+              "evidence": [
+                "../28_gradient_update_screening_v1/report_ko.md",
+                "report_ko.md",
+                "results/20261015T104602Z_review_0d1cb1b0/summary.json"
+              ]
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "F05",
+      "label": "F05 reviewed scope",
+      "kind": "component",
+      "revision": "2105da680f3f9dcd61941a3610ac466b70b932ab72937d6f16b5a74760d9a30d",
+      "categories": {
+        "usefulness": {
+          "checks": [
+            {
+              "id": "F05-usefulness",
+              "state": "passed",
+              "revision": "2105da680f3f9dcd61941a3610ac466b70b932ab72937d6f16b5a74760d9a30d",
+              "evidence": [
+                "../31_fixed_horizon_alignment_v1/results/20261015T100729Z_analysis_5fa7ae88/report_ko.md",
+                "report_ko.md",
+                "results/20261015T104602Z_review_0d1cb1b0/summary.json"
+              ]
+            }
+          ],
+          "findings": []
+        },
+        "clarity": {
+          "checks": [
+            {
+              "id": "F05-clarity",
+              "state": "passed",
+              "revision": "2105da680f3f9dcd61941a3610ac466b70b932ab72937d6f16b5a74760d9a30d",
+              "evidence": [
+                "../31_fixed_horizon_alignment_v1/results/20261015T100729Z_analysis_5fa7ae88/report_ko.md",
+                "report_ko.md",
+                "results/20261015T104602Z_review_0d1cb1b0/summary.json"
+              ]
+            }
+          ],
+          "findings": []
+        },
+        "authority": {
+          "checks": [
+            {
+              "id": "F05-authority",
+              "state": "passed",
+              "revision": "2105da680f3f9dcd61941a3610ac466b70b932ab72937d6f16b5a74760d9a30d",
+              "evidence": [
+                "../31_fixed_horizon_alignment_v1/results/20261015T100729Z_analysis_5fa7ae88/report_ko.md",
+                "report_ko.md",
+                "results/20261015T104602Z_review_0d1cb1b0/summary.json"
+              ]
+            }
+          ],
+          "findings": []
+        },
+        "conclusion": {
+          "checks": [
+            {
+              "id": "F05-conclusion",
+              "state": "passed",
+              "revision": "2105da680f3f9dcd61941a3610ac466b70b932ab72937d6f16b5a74760d9a30d",
+              "evidence": [
+                "../31_fixed_horizon_alignment_v1/results/20261015T100729Z_analysis_5fa7ae88/report_ko.md",
+                "report_ko.md",
+                "results/20261015T104602Z_review_0d1cb1b0/summary.json"
+              ]
+            }
+          ],
+          "findings": []
+        },
+        "accuracy": {
+          "checks": [
+            {
+              "id": "F05-accuracy",
+              "state": "passed",
+              "revision": "2105da680f3f9dcd61941a3610ac466b70b932ab72937d6f16b5a74760d9a30d",
+              "evidence": [
+                "../31_fixed_horizon_alignment_v1/results/20261015T100729Z_analysis_5fa7ae88/report_ko.md",
+                "report_ko.md",
+                "results/20261015T104602Z_review_0d1cb1b0/summary.json"
+              ]
+            }
+          ],
+          "findings": []
+        },
+        "quality": {
+          "checks": [
+            {
+              "id": "F05-quality",
+              "state": "passed",
+              "revision": "2105da680f3f9dcd61941a3610ac466b70b932ab72937d6f16b5a74760d9a30d",
+              "evidence": [
+                "../31_fixed_horizon_alignment_v1/results/20261015T100729Z_analysis_5fa7ae88/report_ko.md",
+                "report_ko.md",
+                "results/20261015T104602Z_review_0d1cb1b0/summary.json"
+              ]
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "F06",
+      "label": "F06 reviewed scope",
+      "kind": "component",
+      "revision": "2105da680f3f9dcd61941a3610ac466b70b932ab72937d6f16b5a74760d9a30d",
+      "categories": {
+        "usefulness": {
+          "checks": [
+            {
+              "id": "F06-usefulness",
+              "state": "passed",
+              "revision": "2105da680f3f9dcd61941a3610ac466b70b932ab72937d6f16b5a74760d9a30d",
+              "evidence": [
+                "../29_neural_plasticity_screening_v1/report_ko.md",
+                "report_ko.md",
+                "results/20261015T104602Z_review_0d1cb1b0/summary.json"
+              ]
+            }
+          ],
+          "findings": []
+        },
+        "clarity": {
+          "checks": [
+            {
+              "id": "F06-clarity",
+              "state": "passed",
+              "revision": "2105da680f3f9dcd61941a3610ac466b70b932ab72937d6f16b5a74760d9a30d",
+              "evidence": [
+                "../29_neural_plasticity_screening_v1/report_ko.md",
+                "report_ko.md",
+                "results/20261015T104602Z_review_0d1cb1b0/summary.json"
+              ]
+            }
+          ],
+          "findings": []
+        },
+        "authority": {
+          "checks": [
+            {
+              "id": "F06-authority",
+              "state": "passed",
+              "revision": "2105da680f3f9dcd61941a3610ac466b70b932ab72937d6f16b5a74760d9a30d",
+              "evidence": [
+                "../29_neural_plasticity_screening_v1/report_ko.md",
+                "report_ko.md",
+                "results/20261015T104602Z_review_0d1cb1b0/summary.json"
+              ]
+            }
+          ],
+          "findings": []
+        },
+        "conclusion": {
+          "checks": [
+            {
+              "id": "F06-conclusion",
+              "state": "passed",
+              "revision": "2105da680f3f9dcd61941a3610ac466b70b932ab72937d6f16b5a74760d9a30d",
+              "evidence": [
+                "../29_neural_plasticity_screening_v1/report_ko.md",
+                "report_ko.md",
+                "results/20261015T104602Z_review_0d1cb1b0/summary.json"
+              ]
+            }
+          ],
+          "findings": []
+        },
+        "accuracy": {
+          "checks": [
+            {
+              "id": "F06-accuracy",
+              "state": "passed",
+              "revision": "2105da680f3f9dcd61941a3610ac466b70b932ab72937d6f16b5a74760d9a30d",
+              "evidence": [
+                "../29_neural_plasticity_screening_v1/report_ko.md",
+                "report_ko.md",
+                "results/20261015T104602Z_review_0d1cb1b0/summary.json"
+              ]
+            }
+          ],
+          "findings": []
+        },
+        "quality": {
+          "checks": [
+            {
+              "id": "F06-quality",
+              "state": "passed",
+              "revision": "2105da680f3f9dcd61941a3610ac466b70b932ab72937d6f16b5a74760d9a30d",
+              "evidence": [
+                "../29_neural_plasticity_screening_v1/report_ko.md",
+                "report_ko.md",
+                "results/20261015T104602Z_review_0d1cb1b0/summary.json"
+              ]
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "F07",
+      "label": "F07 reviewed scope",
+      "kind": "component",
+      "revision": "2105da680f3f9dcd61941a3610ac466b70b932ab72937d6f16b5a74760d9a30d",
+      "categories": {
+        "usefulness": {
+          "checks": [
+            {
+              "id": "F07-usefulness",
+              "state": "passed",
+              "revision": "2105da680f3f9dcd61941a3610ac466b70b932ab72937d6f16b5a74760d9a30d",
+              "evidence": [
+                "../24_signal_reliability_screening_v1/report_ko.md",
+                "report_ko.md",
+                "results/20261015T104602Z_review_0d1cb1b0/summary.json"
+              ]
+            }
+          ],
+          "findings": []
+        },
+        "clarity": {
+          "checks": [
+            {
+              "id": "F07-clarity",
+              "state": "passed",
+              "revision": "2105da680f3f9dcd61941a3610ac466b70b932ab72937d6f16b5a74760d9a30d",
+              "evidence": [
+                "../24_signal_reliability_screening_v1/report_ko.md",
+                "report_ko.md",
+                "results/20261015T104602Z_review_0d1cb1b0/summary.json"
+              ]
+            }
+          ],
+          "findings": []
+        },
+        "authority": {
+          "checks": [
+            {
+              "id": "F07-authority",
+              "state": "passed",
+              "revision": "2105da680f3f9dcd61941a3610ac466b70b932ab72937d6f16b5a74760d9a30d",
+              "evidence": [
+                "../24_signal_reliability_screening_v1/report_ko.md",
+                "report_ko.md",
+                "results/20261015T104602Z_review_0d1cb1b0/summary.json"
+              ]
+            }
+          ],
+          "findings": []
+        },
+        "conclusion": {
+          "checks": [
+            {
+              "id": "F07-conclusion",
+              "state": "passed",
+              "revision": "2105da680f3f9dcd61941a3610ac466b70b932ab72937d6f16b5a74760d9a30d",
+              "evidence": [
+                "../24_signal_reliability_screening_v1/report_ko.md",
+                "report_ko.md",
+                "results/20261015T104602Z_review_0d1cb1b0/summary.json"
+              ]
+            }
+          ],
+          "findings": []
+        },
+        "accuracy": {
+          "checks": [
+            {
+              "id": "F07-accuracy",
+              "state": "passed",
+              "revision": "2105da680f3f9dcd61941a3610ac466b70b932ab72937d6f16b5a74760d9a30d",
+              "evidence": [
+                "../24_signal_reliability_screening_v1/report_ko.md",
+                "report_ko.md",
+                "results/20261015T104602Z_review_0d1cb1b0/summary.json"
+              ]
+            }
+          ],
+          "findings": []
+        },
+        "quality": {
+          "checks": [
+            {
+              "id": "F07-quality",
+              "state": "passed",
+              "revision": "2105da680f3f9dcd61941a3610ac466b70b932ab72937d6f16b5a74760d9a30d",
+              "evidence": [
+                "../24_signal_reliability_screening_v1/report_ko.md",
+                "report_ko.md",
+                "results/20261015T104602Z_review_0d1cb1b0/summary.json"
+              ]
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "F08",
+      "label": "F08 reviewed scope",
+      "kind": "component",
+      "revision": "2105da680f3f9dcd61941a3610ac466b70b932ab72937d6f16b5a74760d9a30d",
+      "categories": {
+        "usefulness": {
+          "checks": [
+            {
+              "id": "F08-usefulness",
+              "state": "passed",
+              "revision": "2105da680f3f9dcd61941a3610ac466b70b932ab72937d6f16b5a74760d9a30d",
+              "evidence": [
+                "results/20261015T104602Z_review_0d1cb1b0/observed_status.json",
+                "report_ko.md",
+                "results/20261015T104602Z_review_0d1cb1b0/summary.json"
+              ]
+            }
+          ],
+          "findings": []
+        },
+        "clarity": {
+          "checks": [
+            {
+              "id": "F08-clarity",
+              "state": "passed",
+              "revision": "2105da680f3f9dcd61941a3610ac466b70b932ab72937d6f16b5a74760d9a30d",
+              "evidence": [
+                "results/20261015T104602Z_review_0d1cb1b0/observed_status.json",
+                "report_ko.md",
+                "results/20261015T104602Z_review_0d1cb1b0/summary.json"
+              ]
+            }
+          ],
+          "findings": []
+        },
+        "authority": {
+          "checks": [
+            {
+              "id": "F08-authority",
+              "state": "passed",
+              "revision": "2105da680f3f9dcd61941a3610ac466b70b932ab72937d6f16b5a74760d9a30d",
+              "evidence": [
+                "results/20261015T104602Z_review_0d1cb1b0/observed_status.json",
+                "report_ko.md",
+                "results/20261015T104602Z_review_0d1cb1b0/summary.json"
+              ]
+            }
+          ],
+          "findings": []
+        },
+        "conclusion": {
+          "checks": [
+            {
+              "id": "F08-conclusion",
+              "state": "passed",
+              "revision": "2105da680f3f9dcd61941a3610ac466b70b932ab72937d6f16b5a74760d9a30d",
+              "evidence": [
+                "results/20261015T104602Z_review_0d1cb1b0/observed_status.json",
+                "report_ko.md",
+                "results/20261015T104602Z_review_0d1cb1b0/summary.json"
+              ]
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "current-index",
+      "label": "Current root README F05 status",
+      "kind": "component",
+      "revision": "202e7f7135c1e2c28b24287fc68212d70518c18a888b3ac6ae79bd1047762673",
+      "categories": {
+        "cross": {
+          "checks": [
+            {
+              "id": "index-current",
+              "state": "passed",
+              "revision": "202e7f7135c1e2c28b24287fc68212d70518c18a888b3ac6ae79bd1047762673",
+              "evidence": [
+                "../README.md",
+                "review_notes/index_before.md",
+                "../31_fixed_horizon_alignment_v1/results/20261015T100734Z_verify_analysis_16d76b8c/summary.json"
+              ]
+            }
+          ],
+          "findings": [
+            {
+              "id": "stale-f05-status",
+              "status": "fixed",
+              "checkIds": [
+                "index-current"
+              ],
+              "evidence": [
+                "review_notes/index_before.md",
+                "../README.md"
+              ],
+              "revision": "202e7f7135c1e2c28b24287fc68212d70518c18a888b3ac6ae79bd1047762673"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
