@@ -1,0 +1,102 @@
+[
+  {
+    "check": "syntax:campaign.py",
+    "passed": true
+  },
+  {
+    "check": "syntax:preflight.py",
+    "passed": true
+  },
+  {
+    "check": "syntax:worker.py",
+    "passed": true
+  },
+  {
+    "check": "syntax:practice_allocation\\__init__.py",
+    "passed": true
+  },
+  {
+    "check": "syntax:practice_allocation\\core.py",
+    "passed": true
+  },
+  {
+    "check": "syntax:practice_allocation\\engine.py",
+    "passed": true
+  },
+  {
+    "check": "syntax:practice_allocation\\environment.py",
+    "passed": true
+  },
+  {
+    "check": "syntax:practice_allocation\\evaluation.py",
+    "passed": true
+  },
+  {
+    "check": "syntax:practice_allocation\\learning.py",
+    "passed": true
+  },
+  {
+    "check": "syntax:practice_allocation\\schedules.py",
+    "passed": true
+  },
+  {
+    "check": "syntax:practice_allocation\\study_io.py",
+    "passed": true
+  },
+  {
+    "check": "unchanged:learning.py",
+    "passed": true
+  },
+  {
+    "check": "unchanged:engine.py",
+    "passed": true
+  },
+  {
+    "check": "unchanged:environment.py",
+    "passed": true
+  },
+  {
+    "check": "unchanged:evaluation.py",
+    "passed": true
+  },
+  {
+    "check": "unchanged:study_io.py",
+    "passed": true
+  },
+  {
+    "check": "unchanged:core.py",
+    "passed": true
+  },
+  {
+    "check": "unchanged:schedules.py",
+    "passed": true
+  },
+  {
+    "check": "ten_existing_states",
+    "passed": true
+  },
+  {
+    "check": "two_million_research_upper",
+    "passed": true
+  },
+  {
+    "check": "separate_technical_upper",
+    "passed": true
+  },
+  {
+    "check": "no_training_budget",
+    "passed": true
+  },
+  {
+    "check": "no_learner_dispatch",
+    "passed": true
+  },
+  {
+    "check": "all_eight_patterns",
+    "passed": true
+  },
+  {
+    "check": "three_time_net_identity",
+    "passed": true
+  }
+]

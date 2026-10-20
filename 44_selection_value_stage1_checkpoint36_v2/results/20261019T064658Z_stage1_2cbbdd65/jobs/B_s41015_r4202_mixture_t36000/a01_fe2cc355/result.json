@@ -1,0 +1,20 @@
+{
+  "id": "B_s41015_r4202_mixture_t36000",
+  "kind": "train",
+  "original_seed": 41015,
+  "condition": "mixture",
+  "continuation": 4202,
+  "horizon": 36000,
+  "checkpoint": {
+    "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\44_selection_value_stage1_checkpoint36_v2\\results\\20261019T064658Z_stage1_2cbbdd65\\jobs\\B_s41015_r4202_mixture_t36000\\a01_fe2cc355\\checkpoint",
+    "manifest_sha256": "df3a0e1a1d8269406be351a081b1e76ef5ed8539d51dd074dceb8c3b6e805c4f"
+  },
+  "step": 236000,
+  "collected": {
+    "DO": 6000,
+    "DC": 2000,
+    "PU": 2000,
+    "BP": 6000
+  },
+  "episode_order_verified": true
+}

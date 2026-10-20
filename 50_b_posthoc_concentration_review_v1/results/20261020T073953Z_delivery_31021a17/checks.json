@@ -1,0 +1,282 @@
+[
+  {
+    "check": "analysis_summary_hash",
+    "passed": true
+  },
+  {
+    "check": "verification_summary_hash",
+    "passed": true
+  },
+  {
+    "check": "independent_arithmetic_verification",
+    "passed": true
+  },
+  {
+    "check": "means",
+    "passed": true
+  },
+  {
+    "check": "hindsight_gap",
+    "passed": true
+  },
+  {
+    "check": "parent_concentration",
+    "passed": true
+  },
+  {
+    "check": "refit_sensitivity",
+    "passed": true
+  },
+  {
+    "check": "no_new_environment_or_training",
+    "passed": true
+  },
+  {
+    "check": "proposal_only",
+    "passed": true
+  },
+  {
+    "check": "proposal_main_budget",
+    "passed": true
+  },
+  {
+    "check": "original_gate_and_stages_held",
+    "passed": true
+  },
+  {
+    "check": "reported_value:36.450%",
+    "passed": true
+  },
+  {
+    "check": "reported_value:+1.725%p",
+    "passed": true
+  },
+  {
+    "check": "reported_value:+2.375%p",
+    "passed": true
+  },
+  {
+    "check": "reported_value:89.855%",
+    "passed": true
+  },
+  {
+    "check": "reported_value:+0.21875",
+    "passed": true
+  },
+  {
+    "check": "reported_value:98.625",
+    "passed": true
+  },
+  {
+    "check": "local_link:evidence_record_ko.md:../25_candidate_factor_evidence_register_v1/record_template_ko.md",
+    "passed": true
+  },
+  {
+    "check": "local_link:evidence_record_ko.md:../45_stage1_selection_value_analysis_v1/evidence_record_ko.md",
+    "passed": true
+  },
+  {
+    "check": "local_link:evidence_record_ko.md:../47_existing_data_path_loss_analysis_v1/evidence_record_ko.md",
+    "passed": true
+  },
+  {
+    "check": "local_link:evidence_record_ko.md:../49_bp8k_late_value_analysis_v1/evidence_record_ko.md",
+    "passed": true
+  },
+  {
+    "check": "local_link:evidence_record_ko.md:analysis_config.json",
+    "passed": true
+  },
+  {
+    "check": "local_link:evidence_record_ko.md:results/20261020T073023Z_analysis_61391a4f/summary.json",
+    "passed": true
+  },
+  {
+    "check": "local_link:evidence_record_ko.md:results/20261020T073023Z_analysis_61391a4f/input_hashes.json",
+    "passed": true
+  },
+  {
+    "check": "local_link:evidence_record_ko.md:results/20261020T073023Z_analysis_61391a4f/source_hashes.json",
+    "passed": true
+  },
+  {
+    "check": "local_link:evidence_record_ko.md:results/20261020T073023Z_analysis_61391a4f/checkpoint_provenance.json",
+    "passed": true
+  },
+  {
+    "check": "local_link:evidence_record_ko.md:results/20261020T073031Z_verification_defca0a6/summary.json",
+    "passed": true
+  },
+  {
+    "check": "local_link:evidence_record_ko.md:report_ko.md",
+    "passed": true
+  },
+  {
+    "check": "local_link:evidence_record_ko.md:decision_record.json",
+    "passed": true
+  },
+  {
+    "check": "local_link:evidence_record_ko.md:future_replication_proposal_ko.md",
+    "passed": true
+  },
+  {
+    "check": "local_link:future_replication_proposal_ko.md:../48_bp8k_checkpoint_evaluation_v1/practice_allocation/engine.py#L60",
+    "passed": true
+  },
+  {
+    "check": "local_link:README.md:../49_bp8k_late_value_analysis_v1/report_ko.md",
+    "passed": true
+  },
+  {
+    "check": "local_link:README.md:report_ko.md",
+    "passed": true
+  },
+  {
+    "check": "local_link:README.md:evidence_record_ko.md",
+    "passed": true
+  },
+  {
+    "check": "local_link:README.md:future_replication_proposal_ko.md",
+    "passed": true
+  },
+  {
+    "check": "local_link:README.md:decision_record.json",
+    "passed": true
+  },
+  {
+    "check": "local_link:README.md:results/20261020T073023Z_analysis_61391a4f/summary.json",
+    "passed": true
+  },
+  {
+    "check": "local_link:README.md:results/20261020T073031Z_verification_defca0a6/summary.json",
+    "passed": true
+  },
+  {
+    "check": "local_link:report_ko.md:../49_bp8k_late_value_analysis_v1/report_ko.md",
+    "passed": true
+  },
+  {
+    "check": "local_link:report_ko.md:results/20261020T073023Z_analysis_61391a4f/path_hindsight.csv",
+    "passed": true
+  },
+  {
+    "check": "local_link:report_ko.md:results/20261020T073023Z_analysis_61391a4f/parent_contributions.csv",
+    "passed": true
+  },
+  {
+    "check": "local_link:report_ko.md:results/20261020T073023Z_analysis_61391a4f/leave_one_parent_out.csv",
+    "passed": true
+  },
+  {
+    "check": "local_link:report_ko.md:results/20261020T073023Z_analysis_61391a4f/late_net_components.csv",
+    "passed": true
+  },
+  {
+    "check": "local_link:report_ko.md:results/20261020T073023Z_analysis_61391a4f/task_groups.csv",
+    "passed": true
+  },
+  {
+    "check": "local_link:report_ko.md:future_replication_proposal_ko.md",
+    "passed": true
+  },
+  {
+    "check": "local_link:report_ko.md:results/20261020T073023Z_analysis_61391a4f/checkpoint_provenance.json",
+    "passed": true
+  },
+  {
+    "check": "local_link:report_ko.md:analysis_config.json",
+    "passed": true
+  },
+  {
+    "check": "local_link:report_ko.md:results/20261020T073023Z_analysis_61391a4f/summary.json",
+    "passed": true
+  },
+  {
+    "check": "local_link:report_ko.md:results/20261020T073023Z_analysis_61391a4f/input_hashes.json",
+    "passed": true
+  },
+  {
+    "check": "local_link:report_ko.md:results/20261020T073023Z_analysis_61391a4f/source_hashes.json",
+    "passed": true
+  },
+  {
+    "check": "local_link:report_ko.md:results/20261020T073031Z_verification_defca0a6/summary.json",
+    "passed": true
+  },
+  {
+    "check": "local_link:report_ko.md:evidence_record_ko.md",
+    "passed": true
+  },
+  {
+    "check": "local_link:report_ko.md:decision_record.json",
+    "passed": true
+  },
+  {
+    "check": "local_link:README.md:50_b_posthoc_concentration_review_v1/evidence_record_ko.md",
+    "passed": true
+  },
+  {
+    "check": "local_link:README.md:50_b_posthoc_concentration_review_v1/report_ko.md",
+    "passed": true
+  },
+  {
+    "check": "local_link:README.md:50_b_posthoc_concentration_review_v1/future_replication_proposal_ko.md",
+    "passed": true
+  },
+  {
+    "check": "local_link:README.md:50_b_posthoc_concentration_review_v1/README.md",
+    "passed": true
+  },
+  {
+    "check": "source_unchanged:50_b_posthoc_concentration_review_v1/analysis_config.json",
+    "passed": true
+  },
+  {
+    "check": "source_unchanged:50_b_posthoc_concentration_review_v1/analyze.py",
+    "passed": true
+  },
+  {
+    "check": "source_unchanged:50_b_posthoc_concentration_review_v1/audit_delivery.py",
+    "passed": true
+  },
+  {
+    "check": "source_unchanged:50_b_posthoc_concentration_review_v1/decision_record.json",
+    "passed": true
+  },
+  {
+    "check": "source_unchanged:50_b_posthoc_concentration_review_v1/evidence_record_ko.md",
+    "passed": true
+  },
+  {
+    "check": "source_unchanged:50_b_posthoc_concentration_review_v1/future_replication_proposal_ko.md",
+    "passed": true
+  },
+  {
+    "check": "source_unchanged:50_b_posthoc_concentration_review_v1/LATEST_ANALYSIS.json",
+    "passed": true
+  },
+  {
+    "check": "source_unchanged:50_b_posthoc_concentration_review_v1/LATEST_VERIFICATION.json",
+    "passed": true
+  },
+  {
+    "check": "source_unchanged:50_b_posthoc_concentration_review_v1/README.md",
+    "passed": true
+  },
+  {
+    "check": "source_unchanged:50_b_posthoc_concentration_review_v1/report_ko.md",
+    "passed": true
+  },
+  {
+    "check": "source_unchanged:50_b_posthoc_concentration_review_v1/verify.py",
+    "passed": true
+  },
+  {
+    "check": "source_unchanged:README.md",
+    "passed": true
+  },
+  {
+    "check": "source_unchanged:AGENTS.md",
+    "passed": true
+  }
+]

@@ -1,0 +1,60 @@
+{
+  "date_kst": "2026-10-20",
+  "version": "47_existing_data_path_loss_analysis_v1",
+  "execution_status": "A1_A2_A3_completed_and_verified",
+  "authorization": "A_existing_data_only",
+  "prior_stage1_investment_gate": "not_passed_unchanged",
+  "original_stage2": "on_hold",
+  "original_stage3": "on_hold",
+  "B": "not_executed_not_scheduled",
+  "C": "not_executed_not_scheduled",
+  "hypotheses": {
+    "H_path": "Exploratory support for realized path differences that survive case changes but not transfer of parent preferences across continuations",
+    "H_loss": "Observed acquisitions and losses coexist and offset; not a causal representation-forgetting measurement",
+    "H_early": "Future stop/keep value not measured; frozen TD-ratio numeric rules produce only keep decisions on all 10 BP prefixes",
+    "H_action": "Not tested from the same 8k state across fresh futures"
+  },
+  "A1": {
+    "within_minus_BP_pp": 2.775,
+    "within_minus_parent_excluded_fixed_pp": 4.125,
+    "across_minus_BP_pp": -2.85,
+    "across_minus_parent_excluded_fixed_pp": -1.5,
+    "within_minus_across_pp": 5.625,
+    "scope": "Retrospective selection using final 40k outcomes; no online diagnostic or deployable gain"
+  },
+  "A2": {
+    "contrasts": 45,
+    "bootstrap_replicates": 20000,
+    "analysis_seed": 460202,
+    "strong_reversals": [
+      {"parent": 41014, "pair": ["dose625", "alternate4k"]},
+      {"parent": 41014, "pair": ["dose625", "mixture"]}
+    ],
+    "distinct_parents_with_strong_reversal": 1,
+    "scope": "Empirical paired-case uncertainty conditional on fitted policies; not new-parent or training-run uncertainty"
+  },
+  "A3_BP_macro_pp": {"gains": 5.75, "losses": 5.375, "net": 0.375},
+  "prefix_input_audit": {
+    "z_min": -0.1605589263739037,
+    "z_max": 0.11276947915684732,
+    "minimum_numeric_threshold": 0.4054651081081644,
+    "numeric_rule_stop_decisions": 0,
+    "total_numeric_rule_decisions": 40,
+    "fitting_performed": false,
+    "B_outcome_labels_available": false
+  },
+  "A_optional_switch_necessary_screen": "passed_but_not_sufficient_for_execution_or_C",
+  "A_to_B_investment_judgment": {
+    "multiple_parent_path_and_loss_evidence": true,
+    "frozen_prefix_rule_separates_states": false,
+    "recommendation": "Potential B measurement to locate losses must be distinguished from validating the current degenerate rule family; revise any rule-development proposal before new outcome labels, without changing delivered v46",
+    "execution_authorized_by_this_record": false
+  },
+  "new_environment_steps": 0,
+  "new_SAC_updates": 0,
+  "prior_records": [
+    "../25_candidate_factor_evidence_register_v1",
+    "../45_stage1_selection_value_analysis_v1",
+    "../46_post_stage1_path_loss_design_v1"
+  ]
+}

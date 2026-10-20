@@ -1,0 +1,181 @@
+{
+  "replicates": 20000,
+  "seed": 480202,
+  "SD_ddof": 1,
+  "quantile_method": "linear",
+  "policy_order": [
+    "J0",
+    "J8_4201",
+    "J40_4201",
+    "J8_4202",
+    "J40_4202"
+  ],
+  "parent_order": [
+    41011,
+    41012,
+    41013,
+    41014,
+    41015
+  ],
+  "task_order": [
+    "DO",
+    "DC",
+    "PU",
+    "BP"
+  ],
+  "contrast_order": [
+    {
+      "original_seed": 41011,
+      "continuation": 4201,
+      "contrast": "early"
+    },
+    {
+      "original_seed": 41011,
+      "continuation": 4201,
+      "contrast": "late"
+    },
+    {
+      "original_seed": 41011,
+      "continuation": 4201,
+      "contrast": "total"
+    },
+    {
+      "original_seed": 41011,
+      "continuation": 4202,
+      "contrast": "early"
+    },
+    {
+      "original_seed": 41011,
+      "continuation": 4202,
+      "contrast": "late"
+    },
+    {
+      "original_seed": 41011,
+      "continuation": 4202,
+      "contrast": "total"
+    },
+    {
+      "original_seed": 41012,
+      "continuation": 4201,
+      "contrast": "early"
+    },
+    {
+      "original_seed": 41012,
+      "continuation": 4201,
+      "contrast": "late"
+    },
+    {
+      "original_seed": 41012,
+      "continuation": 4201,
+      "contrast": "total"
+    },
+    {
+      "original_seed": 41012,
+      "continuation": 4202,
+      "contrast": "early"
+    },
+    {
+      "original_seed": 41012,
+      "continuation": 4202,
+      "contrast": "late"
+    },
+    {
+      "original_seed": 41012,
+      "continuation": 4202,
+      "contrast": "total"
+    },
+    {
+      "original_seed": 41013,
+      "continuation": 4201,
+      "contrast": "early"
+    },
+    {
+      "original_seed": 41013,
+      "continuation": 4201,
+      "contrast": "late"
+    },
+    {
+      "original_seed": 41013,
+      "continuation": 4201,
+      "contrast": "total"
+    },
+    {
+      "original_seed": 41013,
+      "continuation": 4202,
+      "contrast": "early"
+    },
+    {
+      "original_seed": 41013,
+      "continuation": 4202,
+      "contrast": "late"
+    },
+    {
+      "original_seed": 41013,
+      "continuation": 4202,
+      "contrast": "total"
+    },
+    {
+      "original_seed": 41014,
+      "continuation": 4201,
+      "contrast": "early"
+    },
+    {
+      "original_seed": 41014,
+      "continuation": 4201,
+      "contrast": "late"
+    },
+    {
+      "original_seed": 41014,
+      "continuation": 4201,
+      "contrast": "total"
+    },
+    {
+      "original_seed": 41014,
+      "continuation": 4202,
+      "contrast": "early"
+    },
+    {
+      "original_seed": 41014,
+      "continuation": 4202,
+      "contrast": "late"
+    },
+    {
+      "original_seed": 41014,
+      "continuation": 4202,
+      "contrast": "total"
+    },
+    {
+      "original_seed": 41015,
+      "continuation": 4201,
+      "contrast": "early"
+    },
+    {
+      "original_seed": 41015,
+      "continuation": 4201,
+      "contrast": "late"
+    },
+    {
+      "original_seed": 41015,
+      "continuation": 4201,
+      "contrast": "total"
+    },
+    {
+      "original_seed": 41015,
+      "continuation": 4202,
+      "contrast": "early"
+    },
+    {
+      "original_seed": 41015,
+      "continuation": 4202,
+      "contrast": "late"
+    },
+    {
+      "original_seed": 41015,
+      "continuation": 4202,
+      "contrast": "total"
+    }
+  ],
+  "simultaneous_critical_value": 3.100997414601256,
+  "zero_SE_contrasts": 0,
+  "scope": "30 path macro contrasts simultaneous; task/parent/global case intervals marginal"
+}

@@ -1,0 +1,276 @@
+{
+  "technical_smoke": false,
+  "synthetic_fixture_only": true,
+  "jobs": [
+    {
+      "id": "41011_None_parent",
+      "kind": "evaluate",
+      "original_seed": 41011,
+      "role": "parent"
+    },
+    {
+      "id": "41011_4201_dose625",
+      "kind": "evaluate",
+      "original_seed": 41011,
+      "role": "branch",
+      "continuation": 4201,
+      "condition": "dose625"
+    },
+    {
+      "id": "41011_4201_alternate4k",
+      "kind": "evaluate",
+      "original_seed": 41011,
+      "role": "branch",
+      "continuation": 4201,
+      "condition": "alternate4k"
+    },
+    {
+      "id": "41011_4201_mixture",
+      "kind": "evaluate",
+      "original_seed": 41011,
+      "role": "branch",
+      "continuation": 4201,
+      "condition": "mixture"
+    },
+    {
+      "id": "41011_4202_dose625",
+      "kind": "evaluate",
+      "original_seed": 41011,
+      "role": "branch",
+      "continuation": 4202,
+      "condition": "dose625"
+    },
+    {
+      "id": "41011_4202_alternate4k",
+      "kind": "evaluate",
+      "original_seed": 41011,
+      "role": "branch",
+      "continuation": 4202,
+      "condition": "alternate4k"
+    },
+    {
+      "id": "41011_4202_mixture",
+      "kind": "evaluate",
+      "original_seed": 41011,
+      "role": "branch",
+      "continuation": 4202,
+      "condition": "mixture"
+    },
+    {
+      "id": "41012_None_parent",
+      "kind": "evaluate",
+      "original_seed": 41012,
+      "role": "parent"
+    },
+    {
+      "id": "41012_4201_dose625",
+      "kind": "evaluate",
+      "original_seed": 41012,
+      "role": "branch",
+      "continuation": 4201,
+      "condition": "dose625"
+    },
+    {
+      "id": "41012_4201_alternate4k",
+      "kind": "evaluate",
+      "original_seed": 41012,
+      "role": "branch",
+      "continuation": 4201,
+      "condition": "alternate4k"
+    },
+    {
+      "id": "41012_4201_mixture",
+      "kind": "evaluate",
+      "original_seed": 41012,
+      "role": "branch",
+      "continuation": 4201,
+      "condition": "mixture"
+    },
+    {
+      "id": "41012_4202_dose625",
+      "kind": "evaluate",
+      "original_seed": 41012,
+      "role": "branch",
+      "continuation": 4202,
+      "condition": "dose625"
+    },
+    {
+      "id": "41012_4202_alternate4k",
+      "kind": "evaluate",
+      "original_seed": 41012,
+      "role": "branch",
+      "continuation": 4202,
+      "condition": "alternate4k"
+    },
+    {
+      "id": "41012_4202_mixture",
+      "kind": "evaluate",
+      "original_seed": 41012,
+      "role": "branch",
+      "continuation": 4202,
+      "condition": "mixture"
+    },
+    {
+      "id": "41013_None_parent",
+      "kind": "evaluate",
+      "original_seed": 41013,
+      "role": "parent"
+    },
+    {
+      "id": "41013_4201_dose625",
+      "kind": "evaluate",
+      "original_seed": 41013,
+      "role": "branch",
+      "continuation": 4201,
+      "condition": "dose625"
+    },
+    {
+      "id": "41013_4201_alternate4k",
+      "kind": "evaluate",
+      "original_seed": 41013,
+      "role": "branch",
+      "continuation": 4201,
+      "condition": "alternate4k"
+    },
+    {
+      "id": "41013_4201_mixture",
+      "kind": "evaluate",
+      "original_seed": 41013,
+      "role": "branch",
+      "continuation": 4201,
+      "condition": "mixture"
+    },
+    {
+      "id": "41013_4202_dose625",
+      "kind": "evaluate",
+      "original_seed": 41013,
+      "role": "branch",
+      "continuation": 4202,
+      "condition": "dose625"
+    },
+    {
+      "id": "41013_4202_alternate4k",
+      "kind": "evaluate",
+      "original_seed": 41013,
+      "role": "branch",
+      "continuation": 4202,
+      "condition": "alternate4k"
+    },
+    {
+      "id": "41013_4202_mixture",
+      "kind": "evaluate",
+      "original_seed": 41013,
+      "role": "branch",
+      "continuation": 4202,
+      "condition": "mixture"
+    },
+    {
+      "id": "41014_None_parent",
+      "kind": "evaluate",
+      "original_seed": 41014,
+      "role": "parent"
+    },
+    {
+      "id": "41014_4201_dose625",
+      "kind": "evaluate",
+      "original_seed": 41014,
+      "role": "branch",
+      "continuation": 4201,
+      "condition": "dose625"
+    },
+    {
+      "id": "41014_4201_alternate4k",
+      "kind": "evaluate",
+      "original_seed": 41014,
+      "role": "branch",
+      "continuation": 4201,
+      "condition": "alternate4k"
+    },
+    {
+      "id": "41014_4201_mixture",
+      "kind": "evaluate",
+      "original_seed": 41014,
+      "role": "branch",
+      "continuation": 4201,
+      "condition": "mixture"
+    },
+    {
+      "id": "41014_4202_dose625",
+      "kind": "evaluate",
+      "original_seed": 41014,
+      "role": "branch",
+      "continuation": 4202,
+      "condition": "dose625"
+    },
+    {
+      "id": "41014_4202_alternate4k",
+      "kind": "evaluate",
+      "original_seed": 41014,
+      "role": "branch",
+      "continuation": 4202,
+      "condition": "alternate4k"
+    },
+    {
+      "id": "41014_4202_mixture",
+      "kind": "evaluate",
+      "original_seed": 41014,
+      "role": "branch",
+      "continuation": 4202,
+      "condition": "mixture"
+    },
+    {
+      "id": "41015_None_parent",
+      "kind": "evaluate",
+      "original_seed": 41015,
+      "role": "parent"
+    },
+    {
+      "id": "41015_4201_dose625",
+      "kind": "evaluate",
+      "original_seed": 41015,
+      "role": "branch",
+      "continuation": 4201,
+      "condition": "dose625"
+    },
+    {
+      "id": "41015_4201_alternate4k",
+      "kind": "evaluate",
+      "original_seed": 41015,
+      "role": "branch",
+      "continuation": 4201,
+      "condition": "alternate4k"
+    },
+    {
+      "id": "41015_4201_mixture",
+      "kind": "evaluate",
+      "original_seed": 41015,
+      "role": "branch",
+      "continuation": 4201,
+      "condition": "mixture"
+    },
+    {
+      "id": "41015_4202_dose625",
+      "kind": "evaluate",
+      "original_seed": 41015,
+      "role": "branch",
+      "continuation": 4202,
+      "condition": "dose625"
+    },
+    {
+      "id": "41015_4202_alternate4k",
+      "kind": "evaluate",
+      "original_seed": 41015,
+      "role": "branch",
+      "continuation": 4202,
+      "condition": "alternate4k"
+    },
+    {
+      "id": "41015_4202_mixture",
+      "kind": "evaluate",
+      "original_seed": 41015,
+      "role": "branch",
+      "continuation": 4202,
+      "condition": "mixture"
+    }
+  ]
+}

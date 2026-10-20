@@ -1,0 +1,39 @@
+{
+  "id": "B_s42999_r42901_dose625_O",
+  "kind": "evaluate",
+  "original_seed": 42999,
+  "condition": "dose625",
+  "continuation": 42901,
+  "horizon": 1000,
+  "role": "branch",
+  "evaluation": {
+    "episodes": 8,
+    "environment_steps": 3736,
+    "seconds": 6.83111899998039,
+    "steps_per_second": 546.9089324912543,
+    "success_by_task": {
+      "DO": 0.0,
+      "DC": 0.5,
+      "PU": 0.0,
+      "BP": 0.0
+    },
+    "macro_success": 0.125,
+    "success_counts": {
+      "DO": 0,
+      "DC": 1,
+      "PU": 0,
+      "BP": 0
+    },
+    "episodes_by_task": {
+      "DO": 2,
+      "DC": 2,
+      "PU": 2,
+      "BP": 2
+    },
+    "results_hash": "9df72647c6391c6342d6a82bd8082f505c9c3a76a7c3fca40be6e4b5a1c40589",
+    "purpose": "technical smoke only"
+  },
+  "evaluation_state_unchanged": true,
+  "episodes_path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T054526Z_technical_2e59086f\\jobs\\B_s42999_r42901_dose625_O\\a01_3fd98f87\\evaluation_episodes.csv",
+  "episodes_sha256": "e250cfa6d971abdf08f28b0ec4086fe8a85e270f9d62c5ece4f65b12ceff8e77"
+}

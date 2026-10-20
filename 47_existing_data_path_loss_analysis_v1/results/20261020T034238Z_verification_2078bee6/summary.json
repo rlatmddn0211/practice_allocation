@@ -1,0 +1,23 @@
+{
+  "status": "verified",
+  "analysis_run": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\47_existing_data_path_loss_analysis_v1\\results\\20261020T033948Z_analysis_ff2c8362",
+  "analysis_summary_sha256": "f2738251f4c48a1d20779339cd7a1f6589433442dc8c1ae0676003c796861cf9",
+  "checks_passed": 18091,
+  "failed_checks": 0,
+  "prefix_action_audit": {
+    "z_min": -0.1605589263739037,
+    "z_max": 0.11276947915684732,
+    "minimum_numeric_threshold": 0.4054651081081644,
+    "numeric_rules_stop_count": 0,
+    "numeric_rule_decisions": 40,
+    "conclusion": "All four numeric thresholds and always-continue yield the same keep vector. Only the always-stop vector differs. No B rule fit performed."
+  },
+  "new_environment_steps": 0,
+  "new_SAC_updates": 0,
+  "wall_seconds": 13.092557700001635,
+  "CPU_seconds": 6.6875,
+  "python": "3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)]",
+  "numpy": "2.2.4",
+  "platform": "Windows-11-10.0.22621-SP0",
+  "source_sha256": "1067c5f93a0621805bf27cd0bf09e4aeccdc91612aefbf3230146f1e1fbd52a7"
+}

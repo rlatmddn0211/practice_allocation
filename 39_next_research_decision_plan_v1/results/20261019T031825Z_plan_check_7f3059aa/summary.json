@@ -1,0 +1,48 @@
+{
+  "status": "completed",
+  "checks": {
+    "proposal_only": true,
+    "32_branches": true,
+    "training_2080000": true,
+    "14400_evaluation_episodes": true,
+    "environment_upper_bound_9280000": true,
+    "B_mean_5_8333": true,
+    "B_three_positive_continuations": true,
+    "strong_fixed_baseline_preserved": true,
+    "link README.md ../38_candidate_factor_publication_v1/candidate_guide_ko.md": true,
+    "link README.md ../37_f08_integrated_candidate_review_v1/report_ko.md": true,
+    "link README.md research_plan_ko.md": true,
+    "link README.md proposal.json": true,
+    "link README.md check_plan.py": true,
+    "link research_plan_ko.md ../38_candidate_factor_publication_v1/candidate_guide_ko.md": true,
+    "link research_plan_ko.md ../37_f08_integrated_candidate_review_v1/results/20261019T024708Z_review_cef06973/contrast_review.csv": true,
+    "link research_plan_ko.md ../37_f08_integrated_candidate_review_v1/results/20261019T024708Z_review_cef06973/condition_means.csv": true,
+    "link research_plan_ko.md proposal.json": true
+  },
+  "source_hashes": {
+    "check_plan.py": "e3e82288684b4a5b896f5916988a0a9e9aad6b81c267a31ac985ee5f9740fb38",
+    "proposal.json": "d30c1621ff197768154a7d1a887ab7d3e85e81a4f87f391a4f313d6354ab1651",
+    "README.md": "0ddb9a3d6a9f02cdd3765502ea9eb3057ae2e00df77b54e62f60feb6f0ff62f8",
+    "research_plan_ko.md": "1a5b64f63af442a2f0fabf0ac4fd61b4a2026cae143f78352a6f84853492f7c9"
+  },
+  "input_hashes": {
+    "37_f08_integrated_candidate_review_v1/results/20261019T024708Z_review_cef06973/contrast_review.csv": "025fbd33d92622a6114248908e610fb67e3dd93a9bf58cf8778f1b41eed55b2f",
+    "37_f08_integrated_candidate_review_v1/results/20261019T024708Z_review_cef06973/condition_means.csv": "3d5b35dff5699f7ac4cfdb4c201e326af1c80f2160d7faac7f5011f220b75c2f",
+    "37_f08_integrated_candidate_review_v1/factor_status_ko.md": "4d88b8f95d6b96b0d6dbb36884e06e79ec83af10df6ca45453244a9047647475",
+    "23_candidate_factor_screening_design_v1/research_design_ko.md": "f824cca5e95af826c6334982251dec8ed5d84d4b701ebc63872912fe6b6c0455"
+  },
+  "python": "3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)]",
+  "dependencies": "Python standard library only",
+  "proposed_branches": 32,
+  "proposed_pretraining_steps": 800000,
+  "proposed_branch_training_steps": 1280000,
+  "proposed_training_steps": 2080000,
+  "proposed_evaluation_episodes": 14400,
+  "proposed_evaluation_step_upper_bound": 7200000,
+  "proposed_environment_step_upper_bound": 9280000,
+  "new_environment_steps": 0,
+  "new_learner_updates": 0,
+  "experiment_launched": false,
+  "wall_seconds": 0.004632199998013675,
+  "cpu_seconds": 0.0
+}

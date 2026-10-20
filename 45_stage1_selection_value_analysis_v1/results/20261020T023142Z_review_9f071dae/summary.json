@@ -1,0 +1,214 @@
+{
+  "execution_status": "completed",
+  "scientific_status": "stage1_investment_gate_not_passed; adaptive allocation remains unvalidated",
+  "campaign": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\44_selection_value_stage1_checkpoint36_v2\\results\\20261019T064658Z_stage1_2cbbdd65",
+  "campaign_completed_at": "2026-10-19T19:44:56.032890+00:00",
+  "original_seeds": [
+    41011,
+    41012,
+    41013,
+    41014,
+    41015
+  ],
+  "continuation_labels": [
+    4201,
+    4202
+  ],
+  "independent_unit": "parent; two repeats and four crossfit scores are dependent",
+  "evaluation": {
+    "policies": 35,
+    "episodes": 14000,
+    "same_cases_within_parent": true,
+    "outcome_cases_per_task": 100
+  },
+  "aggregates": [
+    {
+      "condition": "parent",
+      "policies": 5,
+      "macro_pp": 33.7,
+      "DO": 0,
+      "DC": 82.2,
+      "PU": 1.6,
+      "BP": 51,
+      "gain_vs_parent_pp": 0.0
+    },
+    {
+      "condition": "dose625",
+      "policies": 10,
+      "macro_pp": 34.075,
+      "DO": 0,
+      "DC": 80.5,
+      "PU": 4.4,
+      "BP": 51.4,
+      "gain_vs_parent_pp": 0.375
+    },
+    {
+      "condition": "alternate4k",
+      "policies": 10,
+      "macro_pp": 33.975,
+      "DO": 1.1,
+      "DC": 78.7,
+      "PU": 2.1,
+      "BP": 54,
+      "gain_vs_parent_pp": 0.2749999999999986
+    },
+    {
+      "condition": "mixture",
+      "policies": 10,
+      "macro_pp": 33.0,
+      "DO": 1.6,
+      "DC": 80,
+      "PU": 2.7,
+      "BP": 47.7,
+      "gain_vs_parent_pp": -0.7000000000000028
+    }
+  ],
+  "parent_scores": [
+    {
+      "original_seed": 41011,
+      "parent_macro_pp": 40.25,
+      "dose625": 39.375,
+      "alternate4k": 41.125,
+      "mixture": 34.125,
+      "dose625_minus_parent_pp": -0.875,
+      "alternate4k_minus_parent_pp": 0.875,
+      "mixture_minus_parent_pp": -6.125,
+      "both_repeat_mean_best": "alternate4k",
+      "crossfit_minus_BP_pp": -1.375,
+      "crossfit_minus_fixed_pp": 1.25
+    },
+    {
+      "original_seed": 41012,
+      "parent_macro_pp": 36.25,
+      "dose625": 50.0,
+      "alternate4k": 50.0,
+      "mixture": 48.5,
+      "dose625_minus_parent_pp": 13.75,
+      "alternate4k_minus_parent_pp": 13.75,
+      "mixture_minus_parent_pp": 12.25,
+      "both_repeat_mean_best": "dose625",
+      "crossfit_minus_BP_pp": 0.0,
+      "crossfit_minus_fixed_pp": 0.0
+    },
+    {
+      "original_seed": 41013,
+      "parent_macro_pp": 4.25,
+      "dose625": 1.5,
+      "alternate4k": 0.75,
+      "mixture": 3.25,
+      "dose625_minus_parent_pp": -2.75,
+      "alternate4k_minus_parent_pp": -3.5,
+      "mixture_minus_parent_pp": -1.0,
+      "both_repeat_mean_best": "mixture",
+      "crossfit_minus_BP_pp": -0.625,
+      "crossfit_minus_fixed_pp": 0.125
+    },
+    {
+      "original_seed": 41014,
+      "parent_macro_pp": 42.75,
+      "dose625": 35.375,
+      "alternate4k": 37.25,
+      "mixture": 36.5,
+      "dose625_minus_parent_pp": -7.375,
+      "alternate4k_minus_parent_pp": -5.5,
+      "mixture_minus_parent_pp": -6.25,
+      "both_repeat_mean_best": "alternate4k",
+      "crossfit_minus_BP_pp": -6.875,
+      "crossfit_minus_fixed_pp": -6.875
+    },
+    {
+      "original_seed": 41015,
+      "parent_macro_pp": 45.0,
+      "dose625": 44.125,
+      "alternate4k": 40.75,
+      "mixture": 42.625,
+      "dose625_minus_parent_pp": -0.875,
+      "alternate4k_minus_parent_pp": -4.25,
+      "mixture_minus_parent_pp": -2.375,
+      "both_repeat_mean_best": "dose625",
+      "crossfit_minus_BP_pp": -5.375,
+      "crossfit_minus_fixed_pp": -2.0
+    }
+  ],
+  "crossfit": {
+    "selected_pp": 31.225,
+    "vs_BP_pp": -2.85,
+    "vs_fixed_pp": -1.5,
+    "heldout_fixed_mean_pp": 32.725,
+    "information_scope": "retrospective final outcomes in another continuation and disjoint episode half; not an 8k diagnostic"
+  },
+  "gate_parts": {
+    "opposite_repeatable_parent_preferences": false,
+    "positive_crossfit_vs_both_controls": false,
+    "positive_after_every_parent_removal": false
+  },
+  "stage2_investment_gate_pass": false,
+  "full_parent_removal_refits": [
+    {
+      "excluded_original_seed": 41011,
+      "vs_BP_pp": -3.21875,
+      "vs_fixed_pp": -3.3125
+    },
+    {
+      "excluded_original_seed": 41012,
+      "vs_BP_pp": -3.5625,
+      "vs_fixed_pp": -1.21875
+    },
+    {
+      "excluded_original_seed": 41013,
+      "vs_BP_pp": -3.40625,
+      "vs_fixed_pp": -2.5625
+    },
+    {
+      "excluded_original_seed": 41014,
+      "vs_BP_pp": -1.84375,
+      "vs_fixed_pp": -0.34375
+    },
+    {
+      "excluded_original_seed": 41015,
+      "vs_BP_pp": -2.21875,
+      "vs_fixed_pp": -1.84375
+    }
+  ],
+  "parents_all_three_method_means_below_parent": [
+    41013,
+    41014,
+    41015
+  ],
+  "posthoc_optimistic_reuse": {
+    "parent_mean_best_score_pp": 35.15,
+    "parent_mean_best_minus_BP_pp": 1.0749999999999957,
+    "each_branch_best_score_pp": 37.025,
+    "each_branch_best_minus_BP_pp": 2.9499999999999957,
+    "scope": "Select and score on the same final observations. Not a validated selector, population upper bound, or net-cost result."
+  },
+  "costs": {
+    "research_training_steps": 2200000,
+    "research_evaluation_steps": 4797719,
+    "research_total_environment_steps": 6997719,
+    "research_SAC_updates": 2195000,
+    "research_attempt_wall_seconds_sum": 47605.649848200264,
+    "research_attempt_CPU_seconds_sum": 24992.71875,
+    "research_GPU_busy_seconds": null,
+    "v44_technical_environment_steps_separate": 33396,
+    "analysis_new_environment_steps": 0,
+    "analysis_new_SAC_updates": 0,
+    "analysis_wall_seconds": 0.22232149995397776
+  },
+  "dependencies_of_training": [
+    {
+      "numpy": "2.2.4",
+      "torch": "2.5.1+cu121",
+      "gymnasium": "1.2.3",
+      "mujoco": "3.5.0",
+      "metaworld": "3.0.0",
+      "stable-baselines3": "2.7.1"
+    }
+  ],
+  "analysis_runtime": {
+    "python": "3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.22621-SP0"
+  },
+  "uncertainty": "Original descriptive bootstrap resamples five parents after averaging repeats. Small exploratory sample, no independent significance or absence claim. Learning variation and finite evaluation noise are not separately identified.",
+  "preparation_note": "An initial console-only read failed under cp949; repeated with UTF-8. No experiment or analysis-run data were changed."
+}

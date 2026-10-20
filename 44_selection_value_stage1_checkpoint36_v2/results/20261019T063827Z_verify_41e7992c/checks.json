@@ -1,0 +1,278 @@
+[
+  {
+    "name": "syntax analyze.py",
+    "passed": true
+  },
+  {
+    "name": "syntax campaign.py",
+    "passed": true
+  },
+  {
+    "name": "syntax selection_rule.py",
+    "passed": true
+  },
+  {
+    "name": "syntax verify_implementation.py",
+    "passed": true
+  },
+  {
+    "name": "syntax worker.py",
+    "passed": true
+  },
+  {
+    "name": "syntax core.py",
+    "passed": true
+  },
+  {
+    "name": "syntax engine.py",
+    "passed": true
+  },
+  {
+    "name": "syntax environment.py",
+    "passed": true
+  },
+  {
+    "name": "syntax evaluation.py",
+    "passed": true
+  },
+  {
+    "name": "syntax learning.py",
+    "passed": true
+  },
+  {
+    "name": "syntax schedules.py",
+    "passed": true
+  },
+  {
+    "name": "syntax study_io.py",
+    "passed": true
+  },
+  {
+    "name": "syntax __init__.py",
+    "passed": true
+  },
+  {
+    "name": "unchanged validated learner engine.py",
+    "passed": true
+  },
+  {
+    "name": "unchanged validated learner learning.py",
+    "passed": true
+  },
+  {
+    "name": "unchanged validated learner environment.py",
+    "passed": true
+  },
+  {
+    "name": "unchanged validated learner evaluation.py",
+    "passed": true
+  },
+  {
+    "name": "30 branches",
+    "passed": true
+  },
+  {
+    "name": "2.2M train budget",
+    "passed": true
+  },
+  {
+    "name": "9.2M total upper bound",
+    "passed": true
+  },
+  {
+    "name": "protocol copy exact",
+    "passed": true
+  },
+  {
+    "name": "36k checkpoint present",
+    "passed": true
+  },
+  {
+    "name": "80 episodes dose625",
+    "passed": true
+  },
+  {
+    "name": "exact total quota dose625",
+    "passed": true
+  },
+  {
+    "name": "actual schedule dose625",
+    "passed": true
+  },
+  {
+    "name": "schedule resume dose625 at 4000",
+    "passed": true
+  },
+  {
+    "name": "schedule resume dose625 at 8000",
+    "passed": true
+  },
+  {
+    "name": "schedule resume dose625 at 20000",
+    "passed": true
+  },
+  {
+    "name": "schedule resume dose625 at 36000",
+    "passed": true
+  },
+  {
+    "name": "80 episodes alternate4k",
+    "passed": true
+  },
+  {
+    "name": "exact total quota alternate4k",
+    "passed": true
+  },
+  {
+    "name": "actual schedule alternate4k",
+    "passed": true
+  },
+  {
+    "name": "schedule resume alternate4k at 4000",
+    "passed": true
+  },
+  {
+    "name": "schedule resume alternate4k at 8000",
+    "passed": true
+  },
+  {
+    "name": "schedule resume alternate4k at 20000",
+    "passed": true
+  },
+  {
+    "name": "schedule resume alternate4k at 36000",
+    "passed": true
+  },
+  {
+    "name": "80 episodes mixture",
+    "passed": true
+  },
+  {
+    "name": "exact total quota mixture",
+    "passed": true
+  },
+  {
+    "name": "actual schedule mixture",
+    "passed": true
+  },
+  {
+    "name": "schedule resume mixture at 4000",
+    "passed": true
+  },
+  {
+    "name": "schedule resume mixture at 8000",
+    "passed": true
+  },
+  {
+    "name": "schedule resume mixture at 20000",
+    "passed": true
+  },
+  {
+    "name": "schedule resume mixture at 36000",
+    "passed": true
+  },
+  {
+    "name": "scientific gate synthetic constant_fixed",
+    "passed": true
+  },
+  {
+    "name": "all crossed folds constant_fixed",
+    "passed": true
+  },
+  {
+    "name": "scientific gate synthetic repeatable_heterogeneity",
+    "passed": true
+  },
+  {
+    "name": "all crossed folds repeatable_heterogeneity",
+    "passed": true
+  },
+  {
+    "name": "scientific gate synthetic continuation_noise",
+    "passed": true
+  },
+  {
+    "name": "all crossed folds continuation_noise",
+    "passed": true
+  },
+  {
+    "name": "scientific gate synthetic half_noise",
+    "passed": true
+  },
+  {
+    "name": "all crossed folds half_noise",
+    "passed": true
+  },
+  {
+    "name": "scientific gate synthetic influential_fixed_donor",
+    "passed": true
+  },
+  {
+    "name": "all crossed folds influential_fixed_donor",
+    "passed": true
+  },
+  {
+    "name": "old deletion sensitivity would pass",
+    "passed": true
+  },
+  {
+    "name": "full donor removal corrects baseline",
+    "passed": true
+  },
+  {
+    "name": "exactly thirteen diagnostic scores",
+    "passed": true
+  },
+  {
+    "name": "26 frozen distinct decision rules",
+    "passed": true
+  },
+  {
+    "name": "one-score rule learns state-dependent actions",
+    "passed": true
+  },
+  {
+    "name": "always-switch counterexample selects constant",
+    "passed": true
+  },
+  {
+    "name": "always-switch has zero information gain",
+    "passed": true
+  },
+  {
+    "name": "tie defaults to keep",
+    "passed": true
+  },
+  {
+    "name": "five equal operational budgets",
+    "passed": true
+  },
+  {
+    "name": "stage2 28k budget",
+    "passed": true
+  },
+  {
+    "name": "shared stage3 research cost",
+    "passed": true
+  },
+  {
+    "name": "warmup exact uniform",
+    "passed": true
+  },
+  {
+    "name": "warmup update count",
+    "passed": true
+  },
+  {
+    "name": "exact transition and replay sample trace",
+    "passed": true
+  },
+  {
+    "name": "exact full state after recovery",
+    "passed": true
+  },
+  {
+    "name": "evaluation preserves learner replay collector and RNG",
+    "passed": true
+  }
+]

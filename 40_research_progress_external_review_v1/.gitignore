@@ -1,0 +1,4 @@
+# Preserve verification logs/screenshots, omit isolated browser cache files.
+results/*_browser_*/profile/
+__pycache__/
+*.pyc

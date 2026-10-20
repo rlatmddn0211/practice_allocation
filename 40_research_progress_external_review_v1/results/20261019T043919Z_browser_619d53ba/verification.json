@@ -1,0 +1,192 @@
+{
+  "started_at": "2026-10-19T04:39:19.584Z",
+  "url": "http://127.0.0.1:8740/",
+  "node": "v24.18.0",
+  "status": "failed",
+  "checks": [
+    {
+      "name": "browser_started",
+      "passed": true
+    },
+    {
+      "name": "report_mounted",
+      "passed": true
+    },
+    {
+      "name": "all_17_sections_rendered",
+      "passed": true,
+      "details": [
+        {
+          "id": "read-section-01",
+          "characters": 931
+        },
+        {
+          "id": "read-section-02",
+          "characters": 1203
+        },
+        {
+          "id": "read-section-03",
+          "characters": 2255
+        },
+        {
+          "id": "read-section-04",
+          "characters": 1288
+        },
+        {
+          "id": "read-section-05",
+          "characters": 825
+        },
+        {
+          "id": "read-section-06",
+          "characters": 908
+        },
+        {
+          "id": "read-section-07",
+          "characters": 1610
+        },
+        {
+          "id": "read-section-08",
+          "characters": 1222
+        },
+        {
+          "id": "read-section-09",
+          "characters": 648
+        },
+        {
+          "id": "read-section-10",
+          "characters": 4482
+        },
+        {
+          "id": "read-section-11",
+          "characters": 2347
+        },
+        {
+          "id": "read-section-12",
+          "characters": 2206
+        },
+        {
+          "id": "read-section-13",
+          "characters": 1324
+        },
+        {
+          "id": "read-section-14",
+          "characters": 1833
+        },
+        {
+          "id": "read-section-15",
+          "characters": 1775
+        },
+        {
+          "id": "read-section-16",
+          "characters": 956
+        },
+        {
+          "id": "read-section-17",
+          "characters": 1610
+        }
+      ]
+    },
+    {
+      "name": "section_1",
+      "passed": true
+    },
+    {
+      "name": "section_2",
+      "passed": true
+    },
+    {
+      "name": "section_3",
+      "passed": true
+    },
+    {
+      "name": "section_4",
+      "passed": true
+    },
+    {
+      "name": "section_5",
+      "passed": true
+    },
+    {
+      "name": "section_6",
+      "passed": true
+    },
+    {
+      "name": "section_7",
+      "passed": true
+    },
+    {
+      "name": "section_8",
+      "passed": true
+    },
+    {
+      "name": "section_9",
+      "passed": true
+    },
+    {
+      "name": "section_10",
+      "passed": true
+    },
+    {
+      "name": "section_11",
+      "passed": true
+    },
+    {
+      "name": "section_12",
+      "passed": true
+    },
+    {
+      "name": "section_13",
+      "passed": true
+    },
+    {
+      "name": "section_14",
+      "passed": true
+    },
+    {
+      "name": "section_15",
+      "passed": true
+    },
+    {
+      "name": "section_16",
+      "passed": true
+    },
+    {
+      "name": "section_17",
+      "passed": true
+    },
+    {
+      "name": "no_fixture_or_encoding_markers",
+      "passed": true
+    },
+    {
+      "name": "all_markdown_tables_rendered",
+      "passed": false,
+      "details": 15
+    }
+  ],
+  "exceptions": [],
+  "screenshots": [],
+  "source_sha256": "5c395b92abf973e569833bd218b9099cdc164302b81ac382ab07864fbd32aee0",
+  "report_sha256": "4682a902b611bef1740fe2220bf4320e11713dd9b11677604657ee2ed1a2654f",
+  "build": {
+    "version": 1,
+    "kind": "separate-data-v1",
+    "html": {
+      "path": "index.html",
+      "sha256": "ab18af183422a353a735df64c990b76fa89b2a5a09a0c6a80c4d068ac0cfc7b5",
+      "bytes": 2853248
+    },
+    "snapshot": {
+      "path": "snapshot.358a2c6b9e6ceb47bd006116c389c210fd96356d5282b472e06366d4d71fd31d.json",
+      "sha256": "358a2c6b9e6ceb47bd006116c389c210fd96356d5282b472e06366d4d71fd31d",
+      "bytes": 189288
+    },
+    "runtimeSha256": "9e3ede84b28aded3c7379b6e6a5611f0d95b9977eb0f781e279ceefabfcbd27e",
+    "sourceSnapshotSha256": "358a2c6b9e6ceb47bd006116c389c210fd96356d5282b472e06366d4d71fd31d"
+  },
+  "environment_steps": 0,
+  "persistent_updates": 0,
+  "clone_updates": 0,
+  "error": "Error: all_markdown_tables_rendered\n    at check (file:///C:/Users/SS/Projects/robot_practice_allocation/40_research_progress_external_review_v1/verify_report.mjs:18:109)\n    at file:///C:/Users/SS/Projects/robot_practice_allocation/40_research_progress_external_review_v1/verify_report.mjs:51:3",
+  "finished_at": "2026-10-19T04:39:20.165Z"
+}

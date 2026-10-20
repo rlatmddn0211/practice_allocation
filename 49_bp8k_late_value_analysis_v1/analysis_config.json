@@ -1,0 +1,17 @@
+{
+  "version": "49_bp8k_late_value_analysis_v1",
+  "scope": "Analysis of completed version48 B measurement only",
+  "protocol_source": "Frozen version48 campaign plan.protocol",
+  "new_environment_steps": 0,
+  "new_SAC_updates": 0,
+  "selector_fitting": false,
+  "parents": [41011, 41012, 41013, 41014, 41015],
+  "continuations": [4201, 4202],
+  "tasks": ["DO", "DC", "PU", "BP"],
+  "bootstrap_policy_order": ["J0", "J8_4201", "J40_4201", "J8_4202", "J40_4202"],
+  "contrast_order": "parent ascending, continuation ascending, early/late/total",
+  "score_units": "percent success; contrasts in percentage points",
+  "bootstrap": {"replicates": 20000, "seed": 480202, "SD_ddof": 1, "quantile_method": "linear"},
+  "parent_bootstrap": "All 3125 ordered draws of 5 parents with replacement; repeats already averaged",
+  "interpretation": "One realized future per 8k state, descriptive development analysis; no online algorithm performance claim"
+}

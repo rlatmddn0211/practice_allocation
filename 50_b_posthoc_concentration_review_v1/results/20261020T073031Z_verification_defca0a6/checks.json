@@ -1,0 +1,1582 @@
+[
+  {
+    "check": "summary_hash",
+    "passed": true
+  },
+  {
+    "check": "unchanged:C:\\Users\\SS\\Projects\\robot_practice_allocation\\50_b_posthoc_concentration_review_v1\\analysis_config.json",
+    "passed": true
+  },
+  {
+    "check": "unchanged:C:\\Users\\SS\\Projects\\robot_practice_allocation\\49_bp8k_late_value_analysis_v1\\results\\20261020T053017Z_B_analysis_b2d46333\\summary.json",
+    "passed": true
+  },
+  {
+    "check": "unchanged:C:\\Users\\SS\\Projects\\robot_practice_allocation\\49_bp8k_late_value_analysis_v1\\results\\20261020T053017Z_B_analysis_b2d46333\\outcomes_25_policies.csv",
+    "passed": true
+  },
+  {
+    "check": "unchanged:C:\\Users\\SS\\Projects\\robot_practice_allocation\\49_bp8k_late_value_analysis_v1\\results\\20261020T053017Z_B_analysis_b2d46333\\input_assets.csv",
+    "passed": true
+  },
+  {
+    "check": "unchanged:C:\\Users\\SS\\Projects\\robot_practice_allocation\\49_bp8k_late_value_analysis_v1\\results\\20261020T053017Z_B_analysis_b2d46333\\checkpoint_provenance.json",
+    "passed": true
+  },
+  {
+    "check": "unchanged:C:\\Users\\SS\\Projects\\robot_practice_allocation\\44_selection_value_stage1_checkpoint36_v2\\results\\20261019T064658Z_stage1_2cbbdd65\\jobs\\B_s41011_parent_O\\a01_e362c512\\evaluation_episodes.csv",
+    "passed": true
+  },
+  {
+    "check": "unchanged:C:\\Users\\SS\\Projects\\robot_practice_allocation\\44_selection_value_stage1_checkpoint36_v2\\results\\20261019T064658Z_stage1_2cbbdd65\\jobs\\B_s41011_r4201_dose625_O\\a01_2fa14bff\\evaluation_episodes.csv",
+    "passed": true
+  },
+  {
+    "check": "unchanged:C:\\Users\\SS\\Projects\\robot_practice_allocation\\44_selection_value_stage1_checkpoint36_v2\\results\\20261019T064658Z_stage1_2cbbdd65\\jobs\\B_s41011_r4202_dose625_O\\a01_5189a346\\evaluation_episodes.csv",
+    "passed": true
+  },
+  {
+    "check": "unchanged:C:\\Users\\SS\\Projects\\robot_practice_allocation\\44_selection_value_stage1_checkpoint36_v2\\results\\20261019T064658Z_stage1_2cbbdd65\\jobs\\B_s41012_parent_O\\a01_377934c5\\evaluation_episodes.csv",
+    "passed": true
+  },
+  {
+    "check": "unchanged:C:\\Users\\SS\\Projects\\robot_practice_allocation\\44_selection_value_stage1_checkpoint36_v2\\results\\20261019T064658Z_stage1_2cbbdd65\\jobs\\B_s41012_r4201_dose625_O\\a01_c28f4467\\evaluation_episodes.csv",
+    "passed": true
+  },
+  {
+    "check": "unchanged:C:\\Users\\SS\\Projects\\robot_practice_allocation\\44_selection_value_stage1_checkpoint36_v2\\results\\20261019T064658Z_stage1_2cbbdd65\\jobs\\B_s41012_r4202_dose625_O\\a01_b2ece1c8\\evaluation_episodes.csv",
+    "passed": true
+  },
+  {
+    "check": "unchanged:C:\\Users\\SS\\Projects\\robot_practice_allocation\\44_selection_value_stage1_checkpoint36_v2\\results\\20261019T064658Z_stage1_2cbbdd65\\jobs\\B_s41013_parent_O\\a01_a9c7fc33\\evaluation_episodes.csv",
+    "passed": true
+  },
+  {
+    "check": "unchanged:C:\\Users\\SS\\Projects\\robot_practice_allocation\\44_selection_value_stage1_checkpoint36_v2\\results\\20261019T064658Z_stage1_2cbbdd65\\jobs\\B_s41013_r4201_dose625_O\\a01_7585c1dd\\evaluation_episodes.csv",
+    "passed": true
+  },
+  {
+    "check": "unchanged:C:\\Users\\SS\\Projects\\robot_practice_allocation\\44_selection_value_stage1_checkpoint36_v2\\results\\20261019T064658Z_stage1_2cbbdd65\\jobs\\B_s41013_r4202_dose625_O\\a01_fc14bfac\\evaluation_episodes.csv",
+    "passed": true
+  },
+  {
+    "check": "unchanged:C:\\Users\\SS\\Projects\\robot_practice_allocation\\44_selection_value_stage1_checkpoint36_v2\\results\\20261019T064658Z_stage1_2cbbdd65\\jobs\\B_s41014_parent_O\\a01_dabd9b2b\\evaluation_episodes.csv",
+    "passed": true
+  },
+  {
+    "check": "unchanged:C:\\Users\\SS\\Projects\\robot_practice_allocation\\44_selection_value_stage1_checkpoint36_v2\\results\\20261019T064658Z_stage1_2cbbdd65\\jobs\\B_s41014_r4201_dose625_O\\a01_b892e3b5\\evaluation_episodes.csv",
+    "passed": true
+  },
+  {
+    "check": "unchanged:C:\\Users\\SS\\Projects\\robot_practice_allocation\\44_selection_value_stage1_checkpoint36_v2\\results\\20261019T064658Z_stage1_2cbbdd65\\jobs\\B_s41014_r4202_dose625_O\\a01_bd55929c\\evaluation_episodes.csv",
+    "passed": true
+  },
+  {
+    "check": "unchanged:C:\\Users\\SS\\Projects\\robot_practice_allocation\\44_selection_value_stage1_checkpoint36_v2\\results\\20261019T064658Z_stage1_2cbbdd65\\jobs\\B_s41015_parent_O\\a01_ea8b7d7f\\evaluation_episodes.csv",
+    "passed": true
+  },
+  {
+    "check": "unchanged:C:\\Users\\SS\\Projects\\robot_practice_allocation\\44_selection_value_stage1_checkpoint36_v2\\results\\20261019T064658Z_stage1_2cbbdd65\\jobs\\B_s41015_r4201_dose625_O\\a01_a4a4e1a3\\evaluation_episodes.csv",
+    "passed": true
+  },
+  {
+    "check": "unchanged:C:\\Users\\SS\\Projects\\robot_practice_allocation\\44_selection_value_stage1_checkpoint36_v2\\results\\20261019T064658Z_stage1_2cbbdd65\\jobs\\B_s41015_r4202_dose625_O\\a01_1862a0b6\\evaluation_episodes.csv",
+    "passed": true
+  },
+  {
+    "check": "unchanged:C:\\Users\\SS\\Projects\\robot_practice_allocation\\48_bp8k_checkpoint_evaluation_v1\\results\\20261020T050842Z_B_evaluation_5a8b5434\\jobs\\B_s41011_r4201_dose625_8k_O100\\20261020T050904Z_attempt_bf5730b9\\evaluation_episodes.csv",
+    "passed": true
+  },
+  {
+    "check": "unchanged:C:\\Users\\SS\\Projects\\robot_practice_allocation\\48_bp8k_checkpoint_evaluation_v1\\results\\20261020T050842Z_B_evaluation_5a8b5434\\jobs\\B_s41011_r4202_dose625_8k_O100\\20261020T050904Z_attempt_12f7d7be\\evaluation_episodes.csv",
+    "passed": true
+  },
+  {
+    "check": "unchanged:C:\\Users\\SS\\Projects\\robot_practice_allocation\\48_bp8k_checkpoint_evaluation_v1\\results\\20261020T050842Z_B_evaluation_5a8b5434\\jobs\\B_s41012_r4201_dose625_8k_O100\\20261020T051255Z_attempt_9b4e5abd\\evaluation_episodes.csv",
+    "passed": true
+  },
+  {
+    "check": "unchanged:C:\\Users\\SS\\Projects\\robot_practice_allocation\\48_bp8k_checkpoint_evaluation_v1\\results\\20261020T050842Z_B_evaluation_5a8b5434\\jobs\\B_s41012_r4202_dose625_8k_O100\\20261020T051255Z_attempt_cdfb87a7\\evaluation_episodes.csv",
+    "passed": true
+  },
+  {
+    "check": "unchanged:C:\\Users\\SS\\Projects\\robot_practice_allocation\\48_bp8k_checkpoint_evaluation_v1\\results\\20261020T050842Z_B_evaluation_5a8b5434\\jobs\\B_s41013_r4201_dose625_8k_O100\\20261020T051626Z_attempt_bdcaa174\\evaluation_episodes.csv",
+    "passed": true
+  },
+  {
+    "check": "unchanged:C:\\Users\\SS\\Projects\\robot_practice_allocation\\48_bp8k_checkpoint_evaluation_v1\\results\\20261020T050842Z_B_evaluation_5a8b5434\\jobs\\B_s41013_r4202_dose625_8k_O100\\20261020T051629Z_attempt_9f637d1d\\evaluation_episodes.csv",
+    "passed": true
+  },
+  {
+    "check": "unchanged:C:\\Users\\SS\\Projects\\robot_practice_allocation\\48_bp8k_checkpoint_evaluation_v1\\results\\20261020T050842Z_B_evaluation_5a8b5434\\jobs\\B_s41014_r4201_dose625_8k_O100\\20261020T052145Z_attempt_9d6b8b76\\evaluation_episodes.csv",
+    "passed": true
+  },
+  {
+    "check": "unchanged:C:\\Users\\SS\\Projects\\robot_practice_allocation\\48_bp8k_checkpoint_evaluation_v1\\results\\20261020T050842Z_B_evaluation_5a8b5434\\jobs\\B_s41014_r4202_dose625_8k_O100\\20261020T052203Z_attempt_dcd46fe9\\evaluation_episodes.csv",
+    "passed": true
+  },
+  {
+    "check": "unchanged:C:\\Users\\SS\\Projects\\robot_practice_allocation\\48_bp8k_checkpoint_evaluation_v1\\results\\20261020T050842Z_B_evaluation_5a8b5434\\jobs\\B_s41015_r4201_dose625_8k_O100\\20261020T052536Z_attempt_0666255f\\evaluation_episodes.csv",
+    "passed": true
+  },
+  {
+    "check": "unchanged:C:\\Users\\SS\\Projects\\robot_practice_allocation\\48_bp8k_checkpoint_evaluation_v1\\results\\20261020T050842Z_B_evaluation_5a8b5434\\jobs\\B_s41015_r4202_dose625_8k_O100\\20261020T052600Z_attempt_2e65a454\\evaluation_episodes.csv",
+    "passed": true
+  },
+  {
+    "check": "unchanged:C:\\Users\\SS\\Projects\\robot_practice_allocation\\50_b_posthoc_concentration_review_v1\\results\\20261020T073023Z_analysis_61391a4f\\checkpoint_provenance.json",
+    "passed": true
+  },
+  {
+    "check": "unchanged:C:\\Users\\SS\\Projects\\robot_practice_allocation\\50_b_posthoc_concentration_review_v1\\results\\20261020T073023Z_analysis_61391a4f\\checks.json",
+    "passed": true
+  },
+  {
+    "check": "unchanged:C:\\Users\\SS\\Projects\\robot_practice_allocation\\50_b_posthoc_concentration_review_v1\\results\\20261020T073023Z_analysis_61391a4f\\input_hashes.json",
+    "passed": true
+  },
+  {
+    "check": "unchanged:C:\\Users\\SS\\Projects\\robot_practice_allocation\\50_b_posthoc_concentration_review_v1\\results\\20261020T073023Z_analysis_61391a4f\\late_net_components.csv",
+    "passed": true
+  },
+  {
+    "check": "unchanged:C:\\Users\\SS\\Projects\\robot_practice_allocation\\50_b_posthoc_concentration_review_v1\\results\\20261020T073023Z_analysis_61391a4f\\leave_one_parent_out.csv",
+    "passed": true
+  },
+  {
+    "check": "unchanged:C:\\Users\\SS\\Projects\\robot_practice_allocation\\50_b_posthoc_concentration_review_v1\\results\\20261020T073023Z_analysis_61391a4f\\parent_contributions.csv",
+    "passed": true
+  },
+  {
+    "check": "unchanged:C:\\Users\\SS\\Projects\\robot_practice_allocation\\50_b_posthoc_concentration_review_v1\\results\\20261020T073023Z_analysis_61391a4f\\path_hindsight.csv",
+    "passed": true
+  },
+  {
+    "check": "unchanged:C:\\Users\\SS\\Projects\\robot_practice_allocation\\50_b_posthoc_concentration_review_v1\\results\\20261020T073023Z_analysis_61391a4f\\source_hashes.json",
+    "passed": true
+  },
+  {
+    "check": "unchanged:C:\\Users\\SS\\Projects\\robot_practice_allocation\\50_b_posthoc_concentration_review_v1\\results\\20261020T073023Z_analysis_61391a4f\\summary.json",
+    "passed": true
+  },
+  {
+    "check": "unchanged:C:\\Users\\SS\\Projects\\robot_practice_allocation\\50_b_posthoc_concentration_review_v1\\results\\20261020T073023Z_analysis_61391a4f\\task_groups.csv",
+    "passed": true
+  },
+  {
+    "check": "unchanged:C:\\Users\\SS\\Projects\\robot_practice_allocation\\50_b_posthoc_concentration_review_v1\\results\\20261020T073023Z_analysis_61391a4f\\three_time_pattern_counts.csv",
+    "passed": true
+  },
+  {
+    "check": "unchanged:C:\\Users\\SS\\Projects\\robot_practice_allocation\\50_b_posthoc_concentration_review_v1\\results\\20261020T073023Z_analysis_61391a4f\\source_snapshot\\analysis_config.json",
+    "passed": true
+  },
+  {
+    "check": "unchanged:C:\\Users\\SS\\Projects\\robot_practice_allocation\\50_b_posthoc_concentration_review_v1\\results\\20261020T073023Z_analysis_61391a4f\\source_snapshot\\analyze.py",
+    "passed": true
+  },
+  {
+    "check": "unchanged:C:\\Users\\SS\\Projects\\robot_practice_allocation\\50_b_posthoc_concentration_review_v1\\results\\20261020T073023Z_analysis_61391a4f\\source_snapshot\\verify.py",
+    "passed": true
+  },
+  {
+    "check": "full_means",
+    "passed": true
+  },
+  {
+    "check": "observed_fixed_reference",
+    "passed": true
+  },
+  {
+    "check": "contribution:41011",
+    "passed": true
+  },
+  {
+    "check": "refit_fixed_after_removal:41011",
+    "passed": true
+  },
+  {
+    "check": "contribution:41012",
+    "passed": true
+  },
+  {
+    "check": "refit_fixed_after_removal:41012",
+    "passed": true
+  },
+  {
+    "check": "contribution:41013",
+    "passed": true
+  },
+  {
+    "check": "refit_fixed_after_removal:41013",
+    "passed": true
+  },
+  {
+    "check": "contribution:41014",
+    "passed": true
+  },
+  {
+    "check": "refit_fixed_after_removal:41014",
+    "passed": true
+  },
+  {
+    "check": "contribution:41015",
+    "passed": true
+  },
+  {
+    "check": "refit_fixed_after_removal:41015",
+    "passed": true
+  },
+  {
+    "check": "share_41015",
+    "passed": true
+  },
+  {
+    "check": "task_group:allDO",
+    "passed": true
+  },
+  {
+    "check": "task_group:allDC",
+    "passed": true
+  },
+  {
+    "check": "task_group:allPU",
+    "passed": true
+  },
+  {
+    "check": "task_group:allBP",
+    "passed": true
+  },
+  {
+    "check": "task_group:only41013DO",
+    "passed": true
+  },
+  {
+    "check": "task_group:only41013DC",
+    "passed": true
+  },
+  {
+    "check": "task_group:only41013PU",
+    "passed": true
+  },
+  {
+    "check": "task_group:only41013BP",
+    "passed": true
+  },
+  {
+    "check": "task_group:without41013DO",
+    "passed": true
+  },
+  {
+    "check": "task_group:without41013DC",
+    "passed": true
+  },
+  {
+    "check": "task_group:without41013PU",
+    "passed": true
+  },
+  {
+    "check": "task_group:without41013BP",
+    "passed": true
+  },
+  {
+    "check": "net_components:all",
+    "passed": true
+  },
+  {
+    "check": "net_components:only41015",
+    "passed": true
+  },
+  {
+    "check": "pattern:(0, 0, 0, '000')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(0, 0, 0, '001')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(0, 0, 0, '010')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(0, 0, 0, '011')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(0, 0, 0, '100')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(0, 0, 0, '101')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(0, 0, 0, '110')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(0, 0, 0, '111')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(0, 0, 1, '000')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(0, 0, 1, '001')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(0, 0, 1, '010')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(0, 0, 1, '011')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(0, 0, 1, '100')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(0, 0, 1, '101')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(0, 0, 1, '110')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(0, 0, 1, '111')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(0, 0, 2, '000')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(0, 0, 2, '001')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(0, 0, 2, '010')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(0, 0, 2, '011')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(0, 0, 2, '100')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(0, 0, 2, '101')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(0, 0, 2, '110')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(0, 0, 2, '111')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(0, 0, 3, '000')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(0, 0, 3, '001')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(0, 0, 3, '010')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(0, 0, 3, '011')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(0, 0, 3, '100')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(0, 0, 3, '101')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(0, 0, 3, '110')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(0, 0, 3, '111')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(0, 1, 0, '000')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(0, 1, 0, '001')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(0, 1, 0, '010')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(0, 1, 0, '011')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(0, 1, 0, '100')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(0, 1, 0, '101')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(0, 1, 0, '110')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(0, 1, 0, '111')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(0, 1, 1, '000')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(0, 1, 1, '001')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(0, 1, 1, '010')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(0, 1, 1, '011')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(0, 1, 1, '100')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(0, 1, 1, '101')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(0, 1, 1, '110')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(0, 1, 1, '111')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(0, 1, 2, '000')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(0, 1, 2, '001')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(0, 1, 2, '010')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(0, 1, 2, '011')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(0, 1, 2, '100')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(0, 1, 2, '101')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(0, 1, 2, '110')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(0, 1, 2, '111')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(0, 1, 3, '000')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(0, 1, 3, '001')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(0, 1, 3, '010')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(0, 1, 3, '011')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(0, 1, 3, '100')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(0, 1, 3, '101')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(0, 1, 3, '110')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(0, 1, 3, '111')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(1, 0, 0, '000')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(1, 0, 0, '001')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(1, 0, 0, '010')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(1, 0, 0, '011')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(1, 0, 0, '100')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(1, 0, 0, '101')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(1, 0, 0, '110')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(1, 0, 0, '111')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(1, 0, 1, '000')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(1, 0, 1, '001')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(1, 0, 1, '010')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(1, 0, 1, '011')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(1, 0, 1, '100')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(1, 0, 1, '101')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(1, 0, 1, '110')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(1, 0, 1, '111')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(1, 0, 2, '000')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(1, 0, 2, '001')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(1, 0, 2, '010')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(1, 0, 2, '011')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(1, 0, 2, '100')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(1, 0, 2, '101')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(1, 0, 2, '110')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(1, 0, 2, '111')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(1, 0, 3, '000')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(1, 0, 3, '001')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(1, 0, 3, '010')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(1, 0, 3, '011')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(1, 0, 3, '100')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(1, 0, 3, '101')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(1, 0, 3, '110')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(1, 0, 3, '111')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(1, 1, 0, '000')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(1, 1, 0, '001')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(1, 1, 0, '010')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(1, 1, 0, '011')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(1, 1, 0, '100')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(1, 1, 0, '101')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(1, 1, 0, '110')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(1, 1, 0, '111')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(1, 1, 1, '000')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(1, 1, 1, '001')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(1, 1, 1, '010')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(1, 1, 1, '011')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(1, 1, 1, '100')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(1, 1, 1, '101')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(1, 1, 1, '110')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(1, 1, 1, '111')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(1, 1, 2, '000')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(1, 1, 2, '001')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(1, 1, 2, '010')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(1, 1, 2, '011')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(1, 1, 2, '100')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(1, 1, 2, '101')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(1, 1, 2, '110')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(1, 1, 2, '111')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(1, 1, 3, '000')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(1, 1, 3, '001')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(1, 1, 3, '010')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(1, 1, 3, '011')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(1, 1, 3, '100')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(1, 1, 3, '101')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(1, 1, 3, '110')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(1, 1, 3, '111')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(2, 0, 0, '000')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(2, 0, 0, '001')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(2, 0, 0, '010')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(2, 0, 0, '011')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(2, 0, 0, '100')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(2, 0, 0, '101')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(2, 0, 0, '110')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(2, 0, 0, '111')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(2, 0, 1, '000')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(2, 0, 1, '001')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(2, 0, 1, '010')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(2, 0, 1, '011')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(2, 0, 1, '100')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(2, 0, 1, '101')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(2, 0, 1, '110')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(2, 0, 1, '111')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(2, 0, 2, '000')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(2, 0, 2, '001')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(2, 0, 2, '010')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(2, 0, 2, '011')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(2, 0, 2, '100')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(2, 0, 2, '101')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(2, 0, 2, '110')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(2, 0, 2, '111')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(2, 0, 3, '000')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(2, 0, 3, '001')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(2, 0, 3, '010')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(2, 0, 3, '011')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(2, 0, 3, '100')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(2, 0, 3, '101')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(2, 0, 3, '110')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(2, 0, 3, '111')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(2, 1, 0, '000')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(2, 1, 0, '001')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(2, 1, 0, '010')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(2, 1, 0, '011')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(2, 1, 0, '100')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(2, 1, 0, '101')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(2, 1, 0, '110')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(2, 1, 0, '111')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(2, 1, 1, '000')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(2, 1, 1, '001')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(2, 1, 1, '010')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(2, 1, 1, '011')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(2, 1, 1, '100')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(2, 1, 1, '101')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(2, 1, 1, '110')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(2, 1, 1, '111')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(2, 1, 2, '000')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(2, 1, 2, '001')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(2, 1, 2, '010')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(2, 1, 2, '011')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(2, 1, 2, '100')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(2, 1, 2, '101')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(2, 1, 2, '110')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(2, 1, 2, '111')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(2, 1, 3, '000')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(2, 1, 3, '001')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(2, 1, 3, '010')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(2, 1, 3, '011')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(2, 1, 3, '100')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(2, 1, 3, '101')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(2, 1, 3, '110')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(2, 1, 3, '111')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(3, 0, 0, '000')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(3, 0, 0, '001')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(3, 0, 0, '010')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(3, 0, 0, '011')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(3, 0, 0, '100')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(3, 0, 0, '101')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(3, 0, 0, '110')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(3, 0, 0, '111')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(3, 0, 1, '000')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(3, 0, 1, '001')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(3, 0, 1, '010')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(3, 0, 1, '011')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(3, 0, 1, '100')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(3, 0, 1, '101')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(3, 0, 1, '110')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(3, 0, 1, '111')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(3, 0, 2, '000')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(3, 0, 2, '001')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(3, 0, 2, '010')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(3, 0, 2, '011')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(3, 0, 2, '100')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(3, 0, 2, '101')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(3, 0, 2, '110')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(3, 0, 2, '111')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(3, 0, 3, '000')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(3, 0, 3, '001')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(3, 0, 3, '010')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(3, 0, 3, '011')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(3, 0, 3, '100')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(3, 0, 3, '101')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(3, 0, 3, '110')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(3, 0, 3, '111')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(3, 1, 0, '000')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(3, 1, 0, '001')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(3, 1, 0, '010')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(3, 1, 0, '011')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(3, 1, 0, '100')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(3, 1, 0, '101')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(3, 1, 0, '110')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(3, 1, 0, '111')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(3, 1, 1, '000')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(3, 1, 1, '001')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(3, 1, 1, '010')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(3, 1, 1, '011')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(3, 1, 1, '100')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(3, 1, 1, '101')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(3, 1, 1, '110')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(3, 1, 1, '111')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(3, 1, 2, '000')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(3, 1, 2, '001')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(3, 1, 2, '010')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(3, 1, 2, '011')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(3, 1, 2, '100')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(3, 1, 2, '101')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(3, 1, 2, '110')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(3, 1, 2, '111')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(3, 1, 3, '000')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(3, 1, 3, '001')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(3, 1, 3, '010')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(3, 1, 3, '011')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(3, 1, 3, '100')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(3, 1, 3, '101')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(3, 1, 3, '110')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(3, 1, 3, '111')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(4, 0, 0, '000')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(4, 0, 0, '001')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(4, 0, 0, '010')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(4, 0, 0, '011')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(4, 0, 0, '100')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(4, 0, 0, '101')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(4, 0, 0, '110')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(4, 0, 0, '111')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(4, 0, 1, '000')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(4, 0, 1, '001')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(4, 0, 1, '010')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(4, 0, 1, '011')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(4, 0, 1, '100')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(4, 0, 1, '101')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(4, 0, 1, '110')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(4, 0, 1, '111')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(4, 0, 2, '000')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(4, 0, 2, '001')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(4, 0, 2, '010')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(4, 0, 2, '011')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(4, 0, 2, '100')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(4, 0, 2, '101')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(4, 0, 2, '110')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(4, 0, 2, '111')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(4, 0, 3, '000')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(4, 0, 3, '001')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(4, 0, 3, '010')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(4, 0, 3, '011')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(4, 0, 3, '100')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(4, 0, 3, '101')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(4, 0, 3, '110')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(4, 0, 3, '111')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(4, 1, 0, '000')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(4, 1, 0, '001')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(4, 1, 0, '010')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(4, 1, 0, '011')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(4, 1, 0, '100')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(4, 1, 0, '101')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(4, 1, 0, '110')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(4, 1, 0, '111')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(4, 1, 1, '000')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(4, 1, 1, '001')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(4, 1, 1, '010')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(4, 1, 1, '011')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(4, 1, 1, '100')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(4, 1, 1, '101')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(4, 1, 1, '110')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(4, 1, 1, '111')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(4, 1, 2, '000')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(4, 1, 2, '001')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(4, 1, 2, '010')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(4, 1, 2, '011')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(4, 1, 2, '100')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(4, 1, 2, '101')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(4, 1, 2, '110')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(4, 1, 2, '111')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(4, 1, 3, '000')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(4, 1, 3, '001')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(4, 1, 3, '010')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(4, 1, 3, '011')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(4, 1, 3, '100')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(4, 1, 3, '101')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(4, 1, 3, '110')",
+    "passed": true
+  },
+  {
+    "check": "pattern:(4, 1, 3, '111')",
+    "passed": true
+  },
+  {
+    "check": "no_execution_expansion",
+    "passed": true
+  },
+  {
+    "check": "proposal_cost",
+    "passed": true
+  },
+  {
+    "check": "savings",
+    "passed": true
+  }
+]

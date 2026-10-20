@@ -1,0 +1,24 @@
+{
+  "version": "50_b_posthoc_concentration_review_v1",
+  "scope": "Post hoc descriptive reanalysis of existing B outcomes; no simulation or training",
+  "input_run": "49_bp8k_late_value_analysis_v1/results/20261020T053017Z_B_analysis_b2d46333",
+  "pinned_inputs": {
+    "summary.json": "aae20b52e0dafc95374c8587f3a477add9d7fa5dbf12b6a6d580fb4a43f18f49",
+    "outcomes_25_policies.csv": "a69f194338a918db258a1697bcfa44e7ca84641f60a24856a77df5cb1a6e57df",
+    "input_assets.csv": "54de3ccfa90db49b1639e2985e927608b91270d8db1cba96073f23a163957031",
+    "checkpoint_provenance.json": "b008bd68268bb28e3caee819426452f9fd9b53e14d1fd8b87e31ea189ad116a4"
+  },
+  "parents": [41011, 41012, 41013, 41014, 41015],
+  "continuations": [4201, 4202],
+  "tasks": ["DO", "DC", "PU", "BP"],
+  "per_task_cases": 100,
+  "posthoc_selection_unit": "One whole policy per parent x continuation, never separate actions per evaluation case",
+  "observed_fixed_reference": "max of aggregate mean J8 and aggregate mean J40; descriptive only",
+  "fixed_tie_label": "stop8",
+  "leave_one_parent_out": "Remove both paths and recompute both fixed means and the observed better fixed action",
+  "uncertainty": "No new oracle confidence interval; retain version49 intervals for fixed comparisons",
+  "prospective_rule_fit": false,
+  "future_replication": "optional proposal only, not authorized or scheduled",
+  "new_environment_steps": 0,
+  "new_training_steps": 0
+}

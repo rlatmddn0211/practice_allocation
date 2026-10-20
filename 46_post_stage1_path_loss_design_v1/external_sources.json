@@ -1,0 +1,18 @@
+{
+  "checked_date_kst": "2026-10-20",
+  "scope": "Two primary sources for terminology and evaluation principles, not a new comprehensive literature review.",
+  "sources": [
+    {
+      "title": "SAC - Stable Baselines3 2.7.1 documentation",
+      "url": "https://stable-baselines3.readthedocs.io/en/v2.7.1/modules/sac.html",
+      "supports": "ent_coef is an entropy regularization coefficient; its value is not a direct measurement of policy entropy."
+    },
+    {
+      "title": "Deep Reinforcement Learning at the Edge of the Statistical Precipice",
+      "authors": "Agarwal, Schwarzer, Castro, Courville, Bellemare",
+      "venue": "NeurIPS 2021",
+      "url": "https://proceedings.neurips.cc/paper/2021/hash/f514cec81cb148559cf475e7426eed5e-Abstract.html",
+      "supports": "Few-run RL point estimates require uncertainty reporting; does not prescribe this protocol's thresholds, causal conclusions or sample size."
+    }
+  ]
+}

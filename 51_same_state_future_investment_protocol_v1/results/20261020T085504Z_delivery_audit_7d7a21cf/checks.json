@@ -1,0 +1,290 @@
+[
+  {
+    "check": "frozen:summary_sha256",
+    "passed": true
+  },
+  {
+    "check": "frozen:choices_sha256",
+    "passed": true
+  },
+  {
+    "check": "frozen:state_manifest_sha256",
+    "passed": true
+  },
+  {
+    "check": "frozen:protocol_sha256",
+    "passed": true
+  },
+  {
+    "check": "input_unchanged:C:\\Users\\SS\\Projects\\robot_practice_allocation\\51_same_state_future_investment_protocol_v1\\protocol.json",
+    "passed": true
+  },
+  {
+    "check": "input_unchanged:C:\\Users\\SS\\Projects\\robot_practice_allocation\\49_bp8k_late_value_analysis_v1\\results\\20261020T053017Z_B_analysis_b2d46333\\outcomes_25_policies.csv",
+    "passed": true
+  },
+  {
+    "check": "input_unchanged:C:\\Users\\SS\\Projects\\robot_practice_allocation\\49_bp8k_late_value_analysis_v1\\results\\20261020T053017Z_B_analysis_b2d46333\\checkpoint_provenance.json",
+    "passed": true
+  },
+  {
+    "check": "input_unchanged:C:\\Users\\SS\\Projects\\robot_practice_allocation\\44_selection_value_stage1_checkpoint36_v2\\results\\20261019T064658Z_stage1_2cbbdd65\\jobs\\B_s41011_r4201_dose625_t8000\\a01_3a4a4a84\\checkpoint\\checkpoint_manifest.json",
+    "passed": true
+  },
+  {
+    "check": "input_unchanged:C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T055015Z_stage1_c82b28ef\\jobs\\B_s41011_bank\\a01_d84a7648\\evaluation_banks.json",
+    "passed": true
+  },
+  {
+    "check": "input_unchanged:C:\\Users\\SS\\Projects\\robot_practice_allocation\\44_selection_value_stage1_checkpoint36_v2\\results\\20261019T064658Z_stage1_2cbbdd65\\jobs\\B_s41011_r4202_dose625_t8000\\a01_2a8ce1f2\\checkpoint\\checkpoint_manifest.json",
+    "passed": true
+  },
+  {
+    "check": "input_unchanged:C:\\Users\\SS\\Projects\\robot_practice_allocation\\44_selection_value_stage1_checkpoint36_v2\\results\\20261019T064658Z_stage1_2cbbdd65\\jobs\\B_s41012_r4201_dose625_t8000\\a01_abe2bca3\\checkpoint\\checkpoint_manifest.json",
+    "passed": true
+  },
+  {
+    "check": "input_unchanged:C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T055015Z_stage1_c82b28ef\\jobs\\B_s41012_bank\\a01_840e88e3\\evaluation_banks.json",
+    "passed": true
+  },
+  {
+    "check": "input_unchanged:C:\\Users\\SS\\Projects\\robot_practice_allocation\\44_selection_value_stage1_checkpoint36_v2\\results\\20261019T064658Z_stage1_2cbbdd65\\jobs\\B_s41012_r4202_dose625_t8000\\a01_29db39e5\\checkpoint\\checkpoint_manifest.json",
+    "passed": true
+  },
+  {
+    "check": "input_unchanged:C:\\Users\\SS\\Projects\\robot_practice_allocation\\44_selection_value_stage1_checkpoint36_v2\\results\\20261019T064658Z_stage1_2cbbdd65\\jobs\\B_s41013_r4201_dose625_t8000\\a01_680e5954\\checkpoint\\checkpoint_manifest.json",
+    "passed": true
+  },
+  {
+    "check": "input_unchanged:C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T055015Z_stage1_c82b28ef\\jobs\\B_s41013_bank\\a01_5e8eb9ed\\evaluation_banks.json",
+    "passed": true
+  },
+  {
+    "check": "input_unchanged:C:\\Users\\SS\\Projects\\robot_practice_allocation\\44_selection_value_stage1_checkpoint36_v2\\results\\20261019T064658Z_stage1_2cbbdd65\\jobs\\B_s41013_r4202_dose625_t8000\\a01_c14882c1\\checkpoint\\checkpoint_manifest.json",
+    "passed": true
+  },
+  {
+    "check": "input_unchanged:C:\\Users\\SS\\Projects\\robot_practice_allocation\\44_selection_value_stage1_checkpoint36_v2\\results\\20261019T064658Z_stage1_2cbbdd65\\jobs\\B_s41014_r4201_dose625_t8000\\a01_06459dda\\checkpoint\\checkpoint_manifest.json",
+    "passed": true
+  },
+  {
+    "check": "input_unchanged:C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T055015Z_stage1_c82b28ef\\jobs\\B_s41014_bank\\a01_5d8f2a3a\\evaluation_banks.json",
+    "passed": true
+  },
+  {
+    "check": "input_unchanged:C:\\Users\\SS\\Projects\\robot_practice_allocation\\44_selection_value_stage1_checkpoint36_v2\\results\\20261019T064658Z_stage1_2cbbdd65\\jobs\\B_s41014_r4202_dose625_t8000\\a01_5ca438a1\\checkpoint\\checkpoint_manifest.json",
+    "passed": true
+  },
+  {
+    "check": "input_unchanged:C:\\Users\\SS\\Projects\\robot_practice_allocation\\44_selection_value_stage1_checkpoint36_v2\\results\\20261019T064658Z_stage1_2cbbdd65\\jobs\\B_s41015_r4201_dose625_t8000\\a01_e5391d30\\checkpoint\\checkpoint_manifest.json",
+    "passed": true
+  },
+  {
+    "check": "input_unchanged:C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T055015Z_stage1_c82b28ef\\jobs\\B_s41015_bank\\a01_f04c2cf6\\evaluation_banks.json",
+    "passed": true
+  },
+  {
+    "check": "input_unchanged:C:\\Users\\SS\\Projects\\robot_practice_allocation\\44_selection_value_stage1_checkpoint36_v2\\results\\20261019T064658Z_stage1_2cbbdd65\\jobs\\B_s41015_r4202_dose625_t8000\\a01_8ae214c4\\checkpoint\\checkpoint_manifest.json",
+    "passed": true
+  },
+  {
+    "check": "output_unchanged:checks.json",
+    "passed": true
+  },
+  {
+    "check": "output_unchanged:fixed_choices.csv",
+    "passed": true
+  },
+  {
+    "check": "output_unchanged:fixed_choices_ko.md",
+    "passed": true
+  },
+  {
+    "check": "output_unchanged:input_hashes.json",
+    "passed": true
+  },
+  {
+    "check": "output_unchanged:source_hashes.json",
+    "passed": true
+  },
+  {
+    "check": "output_unchanged:state_manifest.json",
+    "passed": true
+  },
+  {
+    "check": "output_unchanged:summary.json",
+    "passed": true
+  },
+  {
+    "check": "30_fixed_choices",
+    "passed": true
+  },
+  {
+    "check": "full_5_each",
+    "passed": true
+  },
+  {
+    "check": "primary_counts",
+    "passed": true
+  },
+  {
+    "check": "primary_disjoint_halves",
+    "passed": true
+  },
+  {
+    "check": "fixed_zero_threshold",
+    "passed": true
+  },
+  {
+    "check": "not_launched",
+    "passed": true
+  },
+  {
+    "check": "no_actual_steps",
+    "passed": true
+  },
+  {
+    "check": "proposed_gate_only",
+    "passed": true
+  },
+  {
+    "check": "explicit_technical_addition",
+    "passed": true
+  },
+  {
+    "check": "no_retry_reserve",
+    "passed": true
+  },
+  {
+    "check": "link:evidence_record_ko.md:../25_candidate_factor_evidence_register_v1/record_template_ko.md",
+    "passed": true
+  },
+  {
+    "check": "link:evidence_record_ko.md:../50_b_posthoc_concentration_review_v1/evidence_record_ko.md",
+    "passed": true
+  },
+  {
+    "check": "link:evidence_record_ko.md:research_protocol_ko.md",
+    "passed": true
+  },
+  {
+    "check": "link:evidence_record_ko.md:results/20261020T085032Z_choice_preparation_16eed0c0/summary.json",
+    "passed": true
+  },
+  {
+    "check": "link:evidence_record_ko.md:results/20261020T085032Z_choice_preparation_16eed0c0/input_hashes.json",
+    "passed": true
+  },
+  {
+    "check": "link:evidence_record_ko.md:results/20261020T085032Z_choice_preparation_16eed0c0/source_hashes.json",
+    "passed": true
+  },
+  {
+    "check": "link:evidence_record_ko.md:results/20261020T085032Z_choice_preparation_16eed0c0/fixed_choices.csv",
+    "passed": true
+  },
+  {
+    "check": "link:evidence_record_ko.md:results/20261020T085032Z_choice_preparation_16eed0c0/state_manifest.json",
+    "passed": true
+  },
+  {
+    "check": "link:README.md:research_protocol_ko.md",
+    "passed": true
+  },
+  {
+    "check": "link:README.md:protocol.json",
+    "passed": true
+  },
+  {
+    "check": "link:README.md:results/20261020T085032Z_choice_preparation_16eed0c0/fixed_choices_ko.md",
+    "passed": true
+  },
+  {
+    "check": "link:README.md:results/20261020T085032Z_choice_preparation_16eed0c0/state_manifest.json",
+    "passed": true
+  },
+  {
+    "check": "link:README.md:results/20261020T085032Z_choice_preparation_16eed0c0/summary.json",
+    "passed": true
+  },
+  {
+    "check": "link:README.md:evidence_record_ko.md",
+    "passed": true
+  },
+  {
+    "check": "link:README.md:../50_b_posthoc_concentration_review_v1/report_ko.md",
+    "passed": true
+  },
+  {
+    "check": "link:research_protocol_ko.md:../50_b_posthoc_concentration_review_v1/future_replication_proposal_ko.md",
+    "passed": true
+  },
+  {
+    "check": "link:research_protocol_ko.md:results/20261020T085032Z_choice_preparation_16eed0c0/fixed_choices_ko.md",
+    "passed": true
+  },
+  {
+    "check": "link:research_protocol_ko.md:results/20261020T085032Z_choice_preparation_16eed0c0/fixed_choices.csv",
+    "passed": true
+  },
+  {
+    "check": "link:research_protocol_ko.md:results/20261020T085032Z_choice_preparation_16eed0c0/state_manifest.json",
+    "passed": true
+  },
+  {
+    "check": "link:research_protocol_ko.md:results/20261020T085032Z_choice_preparation_16eed0c0/summary.json",
+    "passed": true
+  },
+  {
+    "check": "link:research_protocol_ko.md:../49_bp8k_late_value_analysis_v1/report_ko.md",
+    "passed": true
+  },
+  {
+    "check": "link:research_protocol_ko.md:../50_b_posthoc_concentration_review_v1/report_ko.md",
+    "passed": true
+  },
+  {
+    "check": "link:README.md:51_same_state_future_investment_protocol_v1/research_protocol_ko.md",
+    "passed": true
+  },
+  {
+    "check": "link:README.md:51_same_state_future_investment_protocol_v1/README.md",
+    "passed": true
+  },
+  {
+    "check": "snapshot_current:51_same_state_future_investment_protocol_v1\\audit_delivery.py",
+    "passed": true
+  },
+  {
+    "check": "snapshot_current:51_same_state_future_investment_protocol_v1\\evidence_record_ko.md",
+    "passed": true
+  },
+  {
+    "check": "snapshot_current:51_same_state_future_investment_protocol_v1\\prepare_choices.py",
+    "passed": true
+  },
+  {
+    "check": "snapshot_current:51_same_state_future_investment_protocol_v1\\PREPARED_CHOICES.json",
+    "passed": true
+  },
+  {
+    "check": "snapshot_current:51_same_state_future_investment_protocol_v1\\protocol.json",
+    "passed": true
+  },
+  {
+    "check": "snapshot_current:51_same_state_future_investment_protocol_v1\\README.md",
+    "passed": true
+  },
+  {
+    "check": "snapshot_current:51_same_state_future_investment_protocol_v1\\research_protocol_ko.md",
+    "passed": true
+  },
+  {
+    "check": "snapshot_current:README.md",
+    "passed": true
+  },
+  {
+    "check": "snapshot_current:AGENTS.md",
+    "passed": true
+  }
+]

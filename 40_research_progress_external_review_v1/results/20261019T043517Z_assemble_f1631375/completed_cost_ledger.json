@@ -1,0 +1,64 @@
+{
+  "rows": [
+    {
+      "stage": "P0",
+      "training_steps": 400000,
+      "evaluation_diagnostic_steps": 108436,
+      "environment_steps": 508436
+    },
+    {
+      "stage": "Discovery",
+      "training_steps": 400000,
+      "evaluation_diagnostic_steps": 1174989,
+      "environment_steps": 1574989
+    },
+    {
+      "stage": "Replication",
+      "training_steps": 600000,
+      "evaluation_diagnostic_steps": 1730026,
+      "environment_steps": 2330026
+    },
+    {
+      "stage": "E0",
+      "training_steps": 0,
+      "evaluation_diagnostic_steps": 2785706,
+      "environment_steps": 2785706
+    },
+    {
+      "stage": "E1",
+      "training_steps": 4800000,
+      "evaluation_diagnostic_steps": 17297180,
+      "environment_steps": 22097180
+    },
+    {
+      "stage": "E2",
+      "training_steps": 1080000,
+      "evaluation_diagnostic_steps": 5331731,
+      "environment_steps": 6411731
+    },
+    {
+      "stage": "E3",
+      "training_steps": 4800000,
+      "evaluation_diagnostic_steps": 29601294,
+      "environment_steps": 34401294
+    },
+    {
+      "stage": "F05_alignment",
+      "training_steps": 0,
+      "evaluation_diagnostic_steps": 10752000,
+      "environment_steps": 10752000
+    },
+    {
+      "stage": "F08",
+      "training_steps": 2880000,
+      "evaluation_diagnostic_steps": 9495447,
+      "environment_steps": 12375447
+    }
+  ],
+  "totals": {
+    "training_steps": 14960000,
+    "evaluation_diagnostic_steps": 78276809,
+    "environment_steps": 93236809
+  },
+  "excludes": "technical checks, smoke, interrupted attempts, analysis CPU, clone updates, reporting"
+}

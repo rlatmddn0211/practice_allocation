@@ -1,0 +1,4 @@
+﻿method,baseline,mean_pp,parent_values_pp,descriptive_parent_bootstrap_2_5,descriptive_parent_bootstrap_97_5,positive_parents,minimum_leave_one_parent_out_mean_pp
+alternate4k,dose625,-5.0,"[25.0, 25.0, -25.0, -25.0, -25.0]",-25.0,15.0,2,-12.5
+mixture,dose625,-25.0,"[-10.0, -10.0, -35.0, -35.0, -35.0]",-35.0,-15.0,0,-28.75
+alternate4k,mixture,20.0,"[35.0, 35.0, 10.0, 10.0, 10.0]",10.0,30.0,5,16.25

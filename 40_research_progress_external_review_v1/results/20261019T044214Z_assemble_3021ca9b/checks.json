@@ -1,0 +1,864 @@
+[
+  {
+    "name": "17_complete_sections",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "no_replacement_characters",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "no_unresolved_placeholders",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "seven_distinct_tasks_across_compositions",
+    "passed": true,
+    "detail": [
+      "BP",
+      "DC",
+      "DO",
+      "PP",
+      "PU",
+      "WC",
+      "WO"
+    ]
+  },
+  {
+    "name": "v3_environment_v2_reward_distinction",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "early_report_value_discoveryU",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "early_report_value_discoveryF_DO",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "early_report_value_discoveryF_DC",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "early_report_value_discoveryF_WO",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "early_report_value_discoveryF_WC",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "early_report_value_replicationU",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "early_report_value_replicationF_DO",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "early_report_value_replicationF_DC",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "early_report_value_replicationF_WO",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "early_report_value_replicationF_WC",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "primary_E0",
+    "passed": true,
+    "detail": {
+      "actual": 7.916666666666671,
+      "expected": 7.916666666666667
+    }
+  },
+  {
+    "name": "primary_rendered_E0",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "primary_E1",
+    "passed": true,
+    "detail": {
+      "actual": 0.38888888888888573,
+      "expected": 0.388888888888889
+    }
+  },
+  {
+    "name": "primary_rendered_E1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "primary_E2",
+    "passed": true,
+    "detail": {
+      "actual": -0.7777777777777779,
+      "expected": -0.777777777777778
+    }
+  },
+  {
+    "name": "primary_rendered_E2",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "e1_rendered_200000F_DC",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "e1_rendered_200000F_DO",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "e1_rendered_200000F_WC",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "e1_rendered_200000F_WO",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "e1_rendered_200000U",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "e1_rendered_400000F_DC",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "e1_rendered_400000F_DO",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "e1_rendered_400000F_WC",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "e1_rendered_400000F_WO",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "e1_rendered_400000U",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "e3_rendered_BUmacro_pct",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "e3_rendered_BUmacro_gain_pp",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "e3_rendered_BUmacro_vs_U_pp",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "e3_rendered_BF_DOmacro_pct",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "e3_rendered_BF_DOmacro_gain_pp",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "e3_rendered_BF_DOmacro_vs_U_pp",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "e3_rendered_BF_DCmacro_pct",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "e3_rendered_BF_DCmacro_gain_pp",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "e3_rendered_BF_DCmacro_vs_U_pp",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "e3_rendered_BF_PUmacro_pct",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "e3_rendered_BF_PUmacro_gain_pp",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "e3_rendered_BF_PUmacro_vs_U_pp",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "e3_rendered_BF_BPmacro_pct",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "e3_rendered_BF_BPmacro_gain_pp",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "e3_rendered_BF_BPmacro_vs_U_pp",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "e3_rendered_CUmacro_pct",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "e3_rendered_CUmacro_gain_pp",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "e3_rendered_CUmacro_vs_U_pp",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "e3_rendered_CF_DOmacro_pct",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "e3_rendered_CF_DOmacro_gain_pp",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "e3_rendered_CF_DOmacro_vs_U_pp",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "e3_rendered_CF_PPmacro_pct",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "e3_rendered_CF_PPmacro_gain_pp",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "e3_rendered_CF_PPmacro_vs_U_pp",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "e3_rendered_CF_PUmacro_pct",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "e3_rendered_CF_PUmacro_gain_pp",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "e3_rendered_CF_PUmacro_vs_U_pp",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "e3_rendered_CF_BPmacro_pct",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "e3_rendered_CF_BPmacro_gain_pp",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "e3_rendered_CF_BPmacro_vs_U_pp",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "e3_B_BP_gain",
+    "passed": true,
+    "detail": {
+      "actual": 5.861111111111111,
+      "expected": 5.861111111111111
+    }
+  },
+  {
+    "name": "factor_F01same_repeat",
+    "passed": true,
+    "detail": {
+      "actual": -0.07407407407407407,
+      "expected": -0.074074074074
+    }
+  },
+  {
+    "name": "factor_rendered_F01same_repeat",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "factor_F01cross_repeat",
+    "passed": true,
+    "detail": {
+      "actual": -0.14814814814814803,
+      "expected": -0.148148148148
+    }
+  },
+  {
+    "name": "factor_rendered_F01cross_repeat",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "factor_F02same_repeat",
+    "passed": true,
+    "detail": {
+      "actual": 0.0,
+      "expected": 0
+    }
+  },
+  {
+    "name": "factor_rendered_F02same_repeat",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "factor_F02cross_repeat",
+    "passed": true,
+    "detail": {
+      "actual": -0.4259259259259258,
+      "expected": -0.425925925926
+    }
+  },
+  {
+    "name": "factor_rendered_F02cross_repeat",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "factor_F03same_repeat",
+    "passed": true,
+    "detail": {
+      "actual": -0.36111111111111094,
+      "expected": -0.361111111111
+    }
+  },
+  {
+    "name": "factor_rendered_F03same_repeat",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "factor_F03cross_repeat",
+    "passed": true,
+    "detail": {
+      "actual": 0.48148148148148134,
+      "expected": 0.481481481481
+    }
+  },
+  {
+    "name": "factor_rendered_F03cross_repeat",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "factor_F04same_repeat",
+    "passed": true,
+    "detail": {
+      "actual": 0.06481481481481495,
+      "expected": 0.064814814815
+    }
+  },
+  {
+    "name": "factor_rendered_F04same_repeat",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "factor_F04cross_repeat",
+    "passed": true,
+    "detail": {
+      "actual": 0.1111111111111111,
+      "expected": 0.111111111111
+    }
+  },
+  {
+    "name": "factor_rendered_F04cross_repeat",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "factor_F05_criticsame_repeat",
+    "passed": true,
+    "detail": {
+      "actual": 0.0,
+      "expected": 0
+    }
+  },
+  {
+    "name": "factor_rendered_F05_criticsame_repeat",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "factor_F05_criticcross_repeat",
+    "passed": true,
+    "detail": {
+      "actual": 0.0,
+      "expected": 0
+    }
+  },
+  {
+    "name": "factor_rendered_F05_criticcross_repeat",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "factor_F05_alignmentsame_repeat",
+    "passed": true,
+    "detail": {
+      "actual": -0.29629629629629617,
+      "expected": -0.296296296296
+    }
+  },
+  {
+    "name": "factor_rendered_F05_alignmentsame_repeat",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "factor_F05_alignmentcross_repeat",
+    "passed": true,
+    "detail": {
+      "actual": -0.3518518518518515,
+      "expected": -0.351851851852
+    }
+  },
+  {
+    "name": "factor_rendered_F05_alignmentcross_repeat",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "factor_F06same_repeat",
+    "passed": true,
+    "detail": {
+      "actual": 0.07407407407407407,
+      "expected": 0.074074074074
+    }
+  },
+  {
+    "name": "factor_rendered_F06same_repeat",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "factor_F06cross_repeat",
+    "passed": true,
+    "detail": {
+      "actual": 0.7037037037037035,
+      "expected": 0.703703703704
+    }
+  },
+  {
+    "name": "factor_rendered_F06cross_repeat",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "f08_rendered_Adose25",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "f08_rendered_Adose4375",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "f08_rendered_Adose625",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "f08_rendered_Adose8125",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "f08_rendered_Ai_then_j",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "f08_rendered_Aj_then_i",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "f08_rendered_Aalternate4k",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "f08_rendered_Amixture",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "f08_rendered_Bdose25",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "f08_rendered_Bdose4375",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "f08_rendered_Bdose625",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "f08_rendered_Bdose8125",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "f08_rendered_Bi_then_j",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "f08_rendered_Bj_then_i",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "f08_rendered_Balternate4k",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "f08_rendered_Bmixture",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "f08_rendered_Cdose25",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "f08_rendered_Cdose4375",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "f08_rendered_Cdose625",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "f08_rendered_Cdose8125",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "f08_rendered_Ci_then_j",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "f08_rendered_Cj_then_i",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "f08_rendered_Calternate4k",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "f08_rendered_Cmixture",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "B_alternate_minus_mixture",
+    "passed": true,
+    "detail": {
+      "actual": 5.833333333333336,
+      "expected": 5.833333333333333
+    }
+  },
+  {
+    "name": "B_fixed_focus_minus_alternate",
+    "passed": true,
+    "detail": {
+      "actual": 3.4166666666666643,
+      "expected": 3.416666666666667
+    }
+  },
+  {
+    "name": "cost_total_training_steps",
+    "passed": true,
+    "detail": {
+      "actual": 14960000,
+      "expected": 14960000
+    }
+  },
+  {
+    "name": "cost_total_rendered_training_steps",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "cost_total_evaluation_diagnostic_steps",
+    "passed": true,
+    "detail": {
+      "actual": 78276809,
+      "expected": 78276809
+    }
+  },
+  {
+    "name": "cost_total_rendered_evaluation_diagnostic_steps",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "cost_total_environment_steps",
+    "passed": true,
+    "detail": {
+      "actual": 93236809,
+      "expected": 93236809
+    }
+  },
+  {
+    "name": "cost_total_rendered_environment_steps",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "cost_rendered_P0training_steps",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "cost_rendered_P0evaluation_diagnostic_steps",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "cost_rendered_P0environment_steps",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "cost_rendered_Discoverytraining_steps",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "cost_rendered_Discoveryevaluation_diagnostic_steps",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "cost_rendered_Discoveryenvironment_steps",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "cost_rendered_Replicationtraining_steps",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "cost_rendered_Replicationevaluation_diagnostic_steps",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "cost_rendered_Replicationenvironment_steps",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "cost_rendered_E0training_steps",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "cost_rendered_E0evaluation_diagnostic_steps",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "cost_rendered_E0environment_steps",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "cost_rendered_E1training_steps",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "cost_rendered_E1evaluation_diagnostic_steps",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "cost_rendered_E1environment_steps",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "cost_rendered_E2training_steps",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "cost_rendered_E2evaluation_diagnostic_steps",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "cost_rendered_E2environment_steps",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "cost_rendered_E3training_steps",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "cost_rendered_E3evaluation_diagnostic_steps",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "cost_rendered_E3environment_steps",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "cost_rendered_F05_alignmenttraining_steps",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "cost_rendered_F05_alignmentevaluation_diagnostic_steps",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "cost_rendered_F05_alignmentenvironment_steps",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "cost_rendered_F08training_steps",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "cost_rendered_F08evaluation_diagnostic_steps",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "cost_rendered_F08environment_steps",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "all_queries_declared",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "all_source_paths_exist",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "proposal_explicitly_unexecuted",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "external_review_not_replication",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "not_all_factors_ineffective",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "C_absolute_losses_retained",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "strong_fixed_baseline_retained",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "source_scopes_exact",
+    "passed": true,
+    "detail": null
+  }
+]

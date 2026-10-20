@@ -1,0 +1,167 @@
+{
+  "observed_at": "2026-10-12T05:52:35.626438+00:00",
+  "passed": true,
+  "job": "E3_C_s11_pre160",
+  "attempt": 2,
+  "output": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\15_verified_power_loss_recovery_v1\\results\\20261012T055235Z_verify_ced11a81",
+  "retry_output": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_C_s11_pre160\\a02_b9b17e",
+  "compared_rows": {
+    "train_metrics.csv": {
+      "old_rows": 36,
+      "retry_rows": 80
+    },
+    "train_episodes.csv": {
+      "old_rows": 18,
+      "retry_rows": 40
+    },
+    "training_reset_audit.csv": {
+      "old_rows": 19,
+      "retry_rows": 40
+    }
+  },
+  "checks": [
+    {
+      "name": "retry_is_distinct_and_first_attempt_retained",
+      "passed": true
+    },
+    {
+      "name": "completed_marker_identifies_retry",
+      "passed": true
+    },
+    {
+      "name": "request_identical_except_new_output_directory",
+      "passed": true
+    },
+    {
+      "name": "same_runtime_configuration",
+      "passed": true
+    },
+    {
+      "name": "identical_interrupted_prefix_train_metrics.csv",
+      "passed": true,
+      "compared_rows": 36,
+      "excluded_columns": [
+        "segment_seconds"
+      ],
+      "differences": []
+    },
+    {
+      "name": "identical_interrupted_prefix_train_episodes.csv",
+      "passed": true,
+      "compared_rows": 18,
+      "excluded_columns": [],
+      "differences": []
+    },
+    {
+      "name": "identical_interrupted_prefix_training_reset_audit.csv",
+      "passed": true,
+      "compared_rows": 19,
+      "excluded_columns": [],
+      "differences": []
+    },
+    {
+      "name": "successful_exact_20k_training_budget",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_at_160k_with_no_repeated_warmup",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_manifest_hash",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_payload_model.zip",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_payload_replay.pkl.xz",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_payload_collector_and_rng.pkl",
+      "passed": true
+    },
+    {
+      "name": "dependency_versions_unchanged",
+      "passed": true
+    },
+    {
+      "name": "source_hashes_unchanged",
+      "passed": true
+    },
+    {
+      "name": "uniform_collection_5k_per_task",
+      "passed": true
+    },
+    {
+      "name": "finite_recorded_training_values",
+      "passed": true
+    },
+    {
+      "name": "original_attempt_has_no_fabricated_success",
+      "passed": true
+    },
+    {
+      "name": "power_loss_cost_bounds_preserved",
+      "passed": true
+    }
+  ],
+  "checkpoint": {
+    "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_C_s11_pre160\\a02_b9b17e\\checkpoint",
+    "manifest_sha256": "e1e1aa2615db1ca7b95b307c6197481923bd4497f37745d686dab9476014e8b7"
+  },
+  "resumed_job_wall_seconds": 386.381842,
+  "resumed_job_costs": {
+    "environment_creations": 40,
+    "resets": 40,
+    "environment_steps": 20000,
+    "train_iterations": 20000,
+    "evaluation_episodes": 0
+  },
+  "queue_status_observed": {
+    "state": "running",
+    "time": "2026-10-12T05:52:31.805274+00:00",
+    "controller_pid": 25472,
+    "completed_jobs": 647,
+    "total_jobs": 1051,
+    "planned_costs": {
+      "E0": {
+        "training_steps": 0,
+        "evaluation_episodes": 10800,
+        "branches": 0,
+        "jobs": 30
+      },
+      "E1": {
+        "training_steps": 4800000,
+        "evaluation_episodes": 79200,
+        "branches": 90,
+        "jobs": 449
+      },
+      "E2": {
+        "training_steps": 1080000,
+        "evaluation_episodes": 22800,
+        "branches": 27,
+        "jobs": 113
+      },
+      "E3": {
+        "training_steps": 4800000,
+        "evaluation_episodes": 81600,
+        "branches": 90,
+        "jobs": 459
+      }
+    },
+    "stage": "E3",
+    "job": "E3_C_s11_pre180",
+    "worker_pid": 24772,
+    "attempt": 1,
+    "output": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_C_s11_pre180\\a01_c30f28"
+  },
+  "verification_wall_seconds": 0.044436399999995047,
+  "verification_training_steps": 0,
+  "verification_evaluation_episodes": 0,
+  "python": "3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)]",
+  "dependencies": "Python standard library only",
+  "scope": "Technical resumption and deterministic logged-prefix comparison, not evidence of a scientific effect."
+}

@@ -1,0 +1,7053 @@
+{
+  "created_at": "2026-10-19T05:50:15.826550+00:00",
+  "technical_smoke": false,
+  "jobs": [
+    {
+      "id": "B_s41011_bank",
+      "kind": "bank",
+      "original_seed": 41011,
+      "bank_seed": 465211,
+      "other_banks": []
+    },
+    {
+      "id": "B_s41012_bank",
+      "kind": "bank",
+      "original_seed": 41012,
+      "bank_seed": 465212,
+      "other_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41013_bank",
+      "kind": "bank",
+      "original_seed": 41013,
+      "bank_seed": 465213,
+      "other_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41014_bank",
+      "kind": "bank",
+      "original_seed": 41014,
+      "bank_seed": 465214,
+      "other_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41015_bank",
+      "kind": "bank",
+      "original_seed": 41015,
+      "bank_seed": 465215,
+      "other_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41011_init",
+      "kind": "init",
+      "original_seed": 41011
+    },
+    {
+      "id": "B_s41011_pretrain_20000",
+      "kind": "train",
+      "original_seed": 41011,
+      "parent": {
+        "from_job": "B_s41011_init",
+        "key": "checkpoint"
+      },
+      "start_step": 0,
+      "steps": 20000,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41011_pretrain_40000",
+      "kind": "train",
+      "original_seed": 41011,
+      "parent": {
+        "from_job": "B_s41011_pretrain_20000",
+        "key": "checkpoint"
+      },
+      "start_step": 20000,
+      "steps": 20000,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41011_pretrain_60000",
+      "kind": "train",
+      "original_seed": 41011,
+      "parent": {
+        "from_job": "B_s41011_pretrain_40000",
+        "key": "checkpoint"
+      },
+      "start_step": 40000,
+      "steps": 20000,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41011_pretrain_80000",
+      "kind": "train",
+      "original_seed": 41011,
+      "parent": {
+        "from_job": "B_s41011_pretrain_60000",
+        "key": "checkpoint"
+      },
+      "start_step": 60000,
+      "steps": 20000,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41011_pretrain_100000",
+      "kind": "train",
+      "original_seed": 41011,
+      "parent": {
+        "from_job": "B_s41011_pretrain_80000",
+        "key": "checkpoint"
+      },
+      "start_step": 80000,
+      "steps": 20000,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41011_pretrain_120000",
+      "kind": "train",
+      "original_seed": 41011,
+      "parent": {
+        "from_job": "B_s41011_pretrain_100000",
+        "key": "checkpoint"
+      },
+      "start_step": 100000,
+      "steps": 20000,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41011_pretrain_140000",
+      "kind": "train",
+      "original_seed": 41011,
+      "parent": {
+        "from_job": "B_s41011_pretrain_120000",
+        "key": "checkpoint"
+      },
+      "start_step": 120000,
+      "steps": 20000,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41011_pretrain_160000",
+      "kind": "train",
+      "original_seed": 41011,
+      "parent": {
+        "from_job": "B_s41011_pretrain_140000",
+        "key": "checkpoint"
+      },
+      "start_step": 140000,
+      "steps": 20000,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41011_pretrain_180000",
+      "kind": "train",
+      "original_seed": 41011,
+      "parent": {
+        "from_job": "B_s41011_pretrain_160000",
+        "key": "checkpoint"
+      },
+      "start_step": 160000,
+      "steps": 20000,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41011_pretrain_200000",
+      "kind": "train",
+      "original_seed": 41011,
+      "parent": {
+        "from_job": "B_s41011_pretrain_180000",
+        "key": "checkpoint"
+      },
+      "start_step": 180000,
+      "steps": 20000,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41011_parent_O",
+      "kind": "evaluate",
+      "original_seed": 41011,
+      "parent": {
+        "from_job": "B_s41011_pretrain_200000",
+        "key": "checkpoint"
+      },
+      "bank": {
+        "from_job": "B_s41011_bank",
+        "key": "bank"
+      },
+      "role": "parent"
+    },
+    {
+      "id": "B_s41011_r4201_dose625_t4000",
+      "kind": "train",
+      "original_seed": 41011,
+      "parent": {
+        "from_job": "B_s41011_pretrain_200000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 200000,
+      "steps": 4000,
+      "horizon": 4000,
+      "condition": "dose625",
+      "continuation": 4201,
+      "continuation_rng_seed": 184512748,
+      "start_branch": true,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41011_r4201_dose625_t8000",
+      "kind": "train",
+      "original_seed": 41011,
+      "parent": {
+        "from_job": "B_s41011_r4201_dose625_t4000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 204000,
+      "steps": 4000,
+      "horizon": 8000,
+      "condition": "dose625",
+      "continuation": 4201,
+      "continuation_rng_seed": 184512748,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41011_r4201_dose625_t20000",
+      "kind": "train",
+      "original_seed": 41011,
+      "parent": {
+        "from_job": "B_s41011_r4201_dose625_t8000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 208000,
+      "steps": 12000,
+      "horizon": 20000,
+      "condition": "dose625",
+      "continuation": 4201,
+      "continuation_rng_seed": 184512748,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41011_r4201_dose625_t40000",
+      "kind": "train",
+      "original_seed": 41011,
+      "parent": {
+        "from_job": "B_s41011_r4201_dose625_t20000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 220000,
+      "steps": 20000,
+      "horizon": 40000,
+      "condition": "dose625",
+      "continuation": 4201,
+      "continuation_rng_seed": 184512748,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41011_r4201_dose625_O",
+      "kind": "evaluate",
+      "original_seed": 41011,
+      "parent": {
+        "from_job": "B_s41011_r4201_dose625_t40000",
+        "key": "checkpoint"
+      },
+      "bank": {
+        "from_job": "B_s41011_bank",
+        "key": "bank"
+      },
+      "role": "branch",
+      "condition": "dose625",
+      "continuation": 4201,
+      "horizon": 40000
+    },
+    {
+      "id": "B_s41011_r4201_alternate4k_t4000",
+      "kind": "train",
+      "original_seed": 41011,
+      "parent": {
+        "from_job": "B_s41011_pretrain_200000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 200000,
+      "steps": 4000,
+      "horizon": 4000,
+      "condition": "alternate4k",
+      "continuation": 4201,
+      "continuation_rng_seed": 184512748,
+      "start_branch": true,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41011_r4201_alternate4k_t8000",
+      "kind": "train",
+      "original_seed": 41011,
+      "parent": {
+        "from_job": "B_s41011_r4201_alternate4k_t4000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 204000,
+      "steps": 4000,
+      "horizon": 8000,
+      "condition": "alternate4k",
+      "continuation": 4201,
+      "continuation_rng_seed": 184512748,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41011_r4201_alternate4k_t20000",
+      "kind": "train",
+      "original_seed": 41011,
+      "parent": {
+        "from_job": "B_s41011_r4201_alternate4k_t8000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 208000,
+      "steps": 12000,
+      "horizon": 20000,
+      "condition": "alternate4k",
+      "continuation": 4201,
+      "continuation_rng_seed": 184512748,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41011_r4201_alternate4k_t40000",
+      "kind": "train",
+      "original_seed": 41011,
+      "parent": {
+        "from_job": "B_s41011_r4201_alternate4k_t20000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 220000,
+      "steps": 20000,
+      "horizon": 40000,
+      "condition": "alternate4k",
+      "continuation": 4201,
+      "continuation_rng_seed": 184512748,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41011_r4201_alternate4k_O",
+      "kind": "evaluate",
+      "original_seed": 41011,
+      "parent": {
+        "from_job": "B_s41011_r4201_alternate4k_t40000",
+        "key": "checkpoint"
+      },
+      "bank": {
+        "from_job": "B_s41011_bank",
+        "key": "bank"
+      },
+      "role": "branch",
+      "condition": "alternate4k",
+      "continuation": 4201,
+      "horizon": 40000
+    },
+    {
+      "id": "B_s41011_r4201_mixture_t4000",
+      "kind": "train",
+      "original_seed": 41011,
+      "parent": {
+        "from_job": "B_s41011_pretrain_200000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 200000,
+      "steps": 4000,
+      "horizon": 4000,
+      "condition": "mixture",
+      "continuation": 4201,
+      "continuation_rng_seed": 184512748,
+      "start_branch": true,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41011_r4201_mixture_t8000",
+      "kind": "train",
+      "original_seed": 41011,
+      "parent": {
+        "from_job": "B_s41011_r4201_mixture_t4000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 204000,
+      "steps": 4000,
+      "horizon": 8000,
+      "condition": "mixture",
+      "continuation": 4201,
+      "continuation_rng_seed": 184512748,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41011_r4201_mixture_t20000",
+      "kind": "train",
+      "original_seed": 41011,
+      "parent": {
+        "from_job": "B_s41011_r4201_mixture_t8000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 208000,
+      "steps": 12000,
+      "horizon": 20000,
+      "condition": "mixture",
+      "continuation": 4201,
+      "continuation_rng_seed": 184512748,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41011_r4201_mixture_t40000",
+      "kind": "train",
+      "original_seed": 41011,
+      "parent": {
+        "from_job": "B_s41011_r4201_mixture_t20000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 220000,
+      "steps": 20000,
+      "horizon": 40000,
+      "condition": "mixture",
+      "continuation": 4201,
+      "continuation_rng_seed": 184512748,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41011_r4201_mixture_O",
+      "kind": "evaluate",
+      "original_seed": 41011,
+      "parent": {
+        "from_job": "B_s41011_r4201_mixture_t40000",
+        "key": "checkpoint"
+      },
+      "bank": {
+        "from_job": "B_s41011_bank",
+        "key": "bank"
+      },
+      "role": "branch",
+      "condition": "mixture",
+      "continuation": 4201,
+      "horizon": 40000
+    },
+    {
+      "id": "B_s41011_r4202_dose625_t4000",
+      "kind": "train",
+      "original_seed": 41011,
+      "parent": {
+        "from_job": "B_s41011_pretrain_200000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 200000,
+      "steps": 4000,
+      "horizon": 4000,
+      "condition": "dose625",
+      "continuation": 4202,
+      "continuation_rng_seed": 4181237436,
+      "start_branch": true,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41011_r4202_dose625_t8000",
+      "kind": "train",
+      "original_seed": 41011,
+      "parent": {
+        "from_job": "B_s41011_r4202_dose625_t4000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 204000,
+      "steps": 4000,
+      "horizon": 8000,
+      "condition": "dose625",
+      "continuation": 4202,
+      "continuation_rng_seed": 4181237436,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41011_r4202_dose625_t20000",
+      "kind": "train",
+      "original_seed": 41011,
+      "parent": {
+        "from_job": "B_s41011_r4202_dose625_t8000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 208000,
+      "steps": 12000,
+      "horizon": 20000,
+      "condition": "dose625",
+      "continuation": 4202,
+      "continuation_rng_seed": 4181237436,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41011_r4202_dose625_t40000",
+      "kind": "train",
+      "original_seed": 41011,
+      "parent": {
+        "from_job": "B_s41011_r4202_dose625_t20000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 220000,
+      "steps": 20000,
+      "horizon": 40000,
+      "condition": "dose625",
+      "continuation": 4202,
+      "continuation_rng_seed": 4181237436,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41011_r4202_dose625_O",
+      "kind": "evaluate",
+      "original_seed": 41011,
+      "parent": {
+        "from_job": "B_s41011_r4202_dose625_t40000",
+        "key": "checkpoint"
+      },
+      "bank": {
+        "from_job": "B_s41011_bank",
+        "key": "bank"
+      },
+      "role": "branch",
+      "condition": "dose625",
+      "continuation": 4202,
+      "horizon": 40000
+    },
+    {
+      "id": "B_s41011_r4202_alternate4k_t4000",
+      "kind": "train",
+      "original_seed": 41011,
+      "parent": {
+        "from_job": "B_s41011_pretrain_200000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 200000,
+      "steps": 4000,
+      "horizon": 4000,
+      "condition": "alternate4k",
+      "continuation": 4202,
+      "continuation_rng_seed": 4181237436,
+      "start_branch": true,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41011_r4202_alternate4k_t8000",
+      "kind": "train",
+      "original_seed": 41011,
+      "parent": {
+        "from_job": "B_s41011_r4202_alternate4k_t4000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 204000,
+      "steps": 4000,
+      "horizon": 8000,
+      "condition": "alternate4k",
+      "continuation": 4202,
+      "continuation_rng_seed": 4181237436,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41011_r4202_alternate4k_t20000",
+      "kind": "train",
+      "original_seed": 41011,
+      "parent": {
+        "from_job": "B_s41011_r4202_alternate4k_t8000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 208000,
+      "steps": 12000,
+      "horizon": 20000,
+      "condition": "alternate4k",
+      "continuation": 4202,
+      "continuation_rng_seed": 4181237436,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41011_r4202_alternate4k_t40000",
+      "kind": "train",
+      "original_seed": 41011,
+      "parent": {
+        "from_job": "B_s41011_r4202_alternate4k_t20000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 220000,
+      "steps": 20000,
+      "horizon": 40000,
+      "condition": "alternate4k",
+      "continuation": 4202,
+      "continuation_rng_seed": 4181237436,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41011_r4202_alternate4k_O",
+      "kind": "evaluate",
+      "original_seed": 41011,
+      "parent": {
+        "from_job": "B_s41011_r4202_alternate4k_t40000",
+        "key": "checkpoint"
+      },
+      "bank": {
+        "from_job": "B_s41011_bank",
+        "key": "bank"
+      },
+      "role": "branch",
+      "condition": "alternate4k",
+      "continuation": 4202,
+      "horizon": 40000
+    },
+    {
+      "id": "B_s41011_r4202_mixture_t4000",
+      "kind": "train",
+      "original_seed": 41011,
+      "parent": {
+        "from_job": "B_s41011_pretrain_200000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 200000,
+      "steps": 4000,
+      "horizon": 4000,
+      "condition": "mixture",
+      "continuation": 4202,
+      "continuation_rng_seed": 4181237436,
+      "start_branch": true,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41011_r4202_mixture_t8000",
+      "kind": "train",
+      "original_seed": 41011,
+      "parent": {
+        "from_job": "B_s41011_r4202_mixture_t4000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 204000,
+      "steps": 4000,
+      "horizon": 8000,
+      "condition": "mixture",
+      "continuation": 4202,
+      "continuation_rng_seed": 4181237436,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41011_r4202_mixture_t20000",
+      "kind": "train",
+      "original_seed": 41011,
+      "parent": {
+        "from_job": "B_s41011_r4202_mixture_t8000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 208000,
+      "steps": 12000,
+      "horizon": 20000,
+      "condition": "mixture",
+      "continuation": 4202,
+      "continuation_rng_seed": 4181237436,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41011_r4202_mixture_t40000",
+      "kind": "train",
+      "original_seed": 41011,
+      "parent": {
+        "from_job": "B_s41011_r4202_mixture_t20000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 220000,
+      "steps": 20000,
+      "horizon": 40000,
+      "condition": "mixture",
+      "continuation": 4202,
+      "continuation_rng_seed": 4181237436,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41011_r4202_mixture_O",
+      "kind": "evaluate",
+      "original_seed": 41011,
+      "parent": {
+        "from_job": "B_s41011_r4202_mixture_t40000",
+        "key": "checkpoint"
+      },
+      "bank": {
+        "from_job": "B_s41011_bank",
+        "key": "bank"
+      },
+      "role": "branch",
+      "condition": "mixture",
+      "continuation": 4202,
+      "horizon": 40000
+    },
+    {
+      "id": "B_s41012_init",
+      "kind": "init",
+      "original_seed": 41012
+    },
+    {
+      "id": "B_s41012_pretrain_20000",
+      "kind": "train",
+      "original_seed": 41012,
+      "parent": {
+        "from_job": "B_s41012_init",
+        "key": "checkpoint"
+      },
+      "start_step": 0,
+      "steps": 20000,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41012_pretrain_40000",
+      "kind": "train",
+      "original_seed": 41012,
+      "parent": {
+        "from_job": "B_s41012_pretrain_20000",
+        "key": "checkpoint"
+      },
+      "start_step": 20000,
+      "steps": 20000,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41012_pretrain_60000",
+      "kind": "train",
+      "original_seed": 41012,
+      "parent": {
+        "from_job": "B_s41012_pretrain_40000",
+        "key": "checkpoint"
+      },
+      "start_step": 40000,
+      "steps": 20000,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41012_pretrain_80000",
+      "kind": "train",
+      "original_seed": 41012,
+      "parent": {
+        "from_job": "B_s41012_pretrain_60000",
+        "key": "checkpoint"
+      },
+      "start_step": 60000,
+      "steps": 20000,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41012_pretrain_100000",
+      "kind": "train",
+      "original_seed": 41012,
+      "parent": {
+        "from_job": "B_s41012_pretrain_80000",
+        "key": "checkpoint"
+      },
+      "start_step": 80000,
+      "steps": 20000,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41012_pretrain_120000",
+      "kind": "train",
+      "original_seed": 41012,
+      "parent": {
+        "from_job": "B_s41012_pretrain_100000",
+        "key": "checkpoint"
+      },
+      "start_step": 100000,
+      "steps": 20000,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41012_pretrain_140000",
+      "kind": "train",
+      "original_seed": 41012,
+      "parent": {
+        "from_job": "B_s41012_pretrain_120000",
+        "key": "checkpoint"
+      },
+      "start_step": 120000,
+      "steps": 20000,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41012_pretrain_160000",
+      "kind": "train",
+      "original_seed": 41012,
+      "parent": {
+        "from_job": "B_s41012_pretrain_140000",
+        "key": "checkpoint"
+      },
+      "start_step": 140000,
+      "steps": 20000,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41012_pretrain_180000",
+      "kind": "train",
+      "original_seed": 41012,
+      "parent": {
+        "from_job": "B_s41012_pretrain_160000",
+        "key": "checkpoint"
+      },
+      "start_step": 160000,
+      "steps": 20000,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41012_pretrain_200000",
+      "kind": "train",
+      "original_seed": 41012,
+      "parent": {
+        "from_job": "B_s41012_pretrain_180000",
+        "key": "checkpoint"
+      },
+      "start_step": 180000,
+      "steps": 20000,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41012_parent_O",
+      "kind": "evaluate",
+      "original_seed": 41012,
+      "parent": {
+        "from_job": "B_s41012_pretrain_200000",
+        "key": "checkpoint"
+      },
+      "bank": {
+        "from_job": "B_s41012_bank",
+        "key": "bank"
+      },
+      "role": "parent"
+    },
+    {
+      "id": "B_s41012_r4201_dose625_t4000",
+      "kind": "train",
+      "original_seed": 41012,
+      "parent": {
+        "from_job": "B_s41012_pretrain_200000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 200000,
+      "steps": 4000,
+      "horizon": 4000,
+      "condition": "dose625",
+      "continuation": 4201,
+      "continuation_rng_seed": 2721127391,
+      "start_branch": true,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41012_r4201_dose625_t8000",
+      "kind": "train",
+      "original_seed": 41012,
+      "parent": {
+        "from_job": "B_s41012_r4201_dose625_t4000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 204000,
+      "steps": 4000,
+      "horizon": 8000,
+      "condition": "dose625",
+      "continuation": 4201,
+      "continuation_rng_seed": 2721127391,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41012_r4201_dose625_t20000",
+      "kind": "train",
+      "original_seed": 41012,
+      "parent": {
+        "from_job": "B_s41012_r4201_dose625_t8000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 208000,
+      "steps": 12000,
+      "horizon": 20000,
+      "condition": "dose625",
+      "continuation": 4201,
+      "continuation_rng_seed": 2721127391,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41012_r4201_dose625_t40000",
+      "kind": "train",
+      "original_seed": 41012,
+      "parent": {
+        "from_job": "B_s41012_r4201_dose625_t20000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 220000,
+      "steps": 20000,
+      "horizon": 40000,
+      "condition": "dose625",
+      "continuation": 4201,
+      "continuation_rng_seed": 2721127391,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41012_r4201_dose625_O",
+      "kind": "evaluate",
+      "original_seed": 41012,
+      "parent": {
+        "from_job": "B_s41012_r4201_dose625_t40000",
+        "key": "checkpoint"
+      },
+      "bank": {
+        "from_job": "B_s41012_bank",
+        "key": "bank"
+      },
+      "role": "branch",
+      "condition": "dose625",
+      "continuation": 4201,
+      "horizon": 40000
+    },
+    {
+      "id": "B_s41012_r4201_alternate4k_t4000",
+      "kind": "train",
+      "original_seed": 41012,
+      "parent": {
+        "from_job": "B_s41012_pretrain_200000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 200000,
+      "steps": 4000,
+      "horizon": 4000,
+      "condition": "alternate4k",
+      "continuation": 4201,
+      "continuation_rng_seed": 2721127391,
+      "start_branch": true,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41012_r4201_alternate4k_t8000",
+      "kind": "train",
+      "original_seed": 41012,
+      "parent": {
+        "from_job": "B_s41012_r4201_alternate4k_t4000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 204000,
+      "steps": 4000,
+      "horizon": 8000,
+      "condition": "alternate4k",
+      "continuation": 4201,
+      "continuation_rng_seed": 2721127391,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41012_r4201_alternate4k_t20000",
+      "kind": "train",
+      "original_seed": 41012,
+      "parent": {
+        "from_job": "B_s41012_r4201_alternate4k_t8000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 208000,
+      "steps": 12000,
+      "horizon": 20000,
+      "condition": "alternate4k",
+      "continuation": 4201,
+      "continuation_rng_seed": 2721127391,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41012_r4201_alternate4k_t40000",
+      "kind": "train",
+      "original_seed": 41012,
+      "parent": {
+        "from_job": "B_s41012_r4201_alternate4k_t20000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 220000,
+      "steps": 20000,
+      "horizon": 40000,
+      "condition": "alternate4k",
+      "continuation": 4201,
+      "continuation_rng_seed": 2721127391,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41012_r4201_alternate4k_O",
+      "kind": "evaluate",
+      "original_seed": 41012,
+      "parent": {
+        "from_job": "B_s41012_r4201_alternate4k_t40000",
+        "key": "checkpoint"
+      },
+      "bank": {
+        "from_job": "B_s41012_bank",
+        "key": "bank"
+      },
+      "role": "branch",
+      "condition": "alternate4k",
+      "continuation": 4201,
+      "horizon": 40000
+    },
+    {
+      "id": "B_s41012_r4201_mixture_t4000",
+      "kind": "train",
+      "original_seed": 41012,
+      "parent": {
+        "from_job": "B_s41012_pretrain_200000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 200000,
+      "steps": 4000,
+      "horizon": 4000,
+      "condition": "mixture",
+      "continuation": 4201,
+      "continuation_rng_seed": 2721127391,
+      "start_branch": true,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41012_r4201_mixture_t8000",
+      "kind": "train",
+      "original_seed": 41012,
+      "parent": {
+        "from_job": "B_s41012_r4201_mixture_t4000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 204000,
+      "steps": 4000,
+      "horizon": 8000,
+      "condition": "mixture",
+      "continuation": 4201,
+      "continuation_rng_seed": 2721127391,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41012_r4201_mixture_t20000",
+      "kind": "train",
+      "original_seed": 41012,
+      "parent": {
+        "from_job": "B_s41012_r4201_mixture_t8000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 208000,
+      "steps": 12000,
+      "horizon": 20000,
+      "condition": "mixture",
+      "continuation": 4201,
+      "continuation_rng_seed": 2721127391,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41012_r4201_mixture_t40000",
+      "kind": "train",
+      "original_seed": 41012,
+      "parent": {
+        "from_job": "B_s41012_r4201_mixture_t20000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 220000,
+      "steps": 20000,
+      "horizon": 40000,
+      "condition": "mixture",
+      "continuation": 4201,
+      "continuation_rng_seed": 2721127391,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41012_r4201_mixture_O",
+      "kind": "evaluate",
+      "original_seed": 41012,
+      "parent": {
+        "from_job": "B_s41012_r4201_mixture_t40000",
+        "key": "checkpoint"
+      },
+      "bank": {
+        "from_job": "B_s41012_bank",
+        "key": "bank"
+      },
+      "role": "branch",
+      "condition": "mixture",
+      "continuation": 4201,
+      "horizon": 40000
+    },
+    {
+      "id": "B_s41012_r4202_dose625_t4000",
+      "kind": "train",
+      "original_seed": 41012,
+      "parent": {
+        "from_job": "B_s41012_pretrain_200000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 200000,
+      "steps": 4000,
+      "horizon": 4000,
+      "condition": "dose625",
+      "continuation": 4202,
+      "continuation_rng_seed": 1544802358,
+      "start_branch": true,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41012_r4202_dose625_t8000",
+      "kind": "train",
+      "original_seed": 41012,
+      "parent": {
+        "from_job": "B_s41012_r4202_dose625_t4000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 204000,
+      "steps": 4000,
+      "horizon": 8000,
+      "condition": "dose625",
+      "continuation": 4202,
+      "continuation_rng_seed": 1544802358,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41012_r4202_dose625_t20000",
+      "kind": "train",
+      "original_seed": 41012,
+      "parent": {
+        "from_job": "B_s41012_r4202_dose625_t8000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 208000,
+      "steps": 12000,
+      "horizon": 20000,
+      "condition": "dose625",
+      "continuation": 4202,
+      "continuation_rng_seed": 1544802358,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41012_r4202_dose625_t40000",
+      "kind": "train",
+      "original_seed": 41012,
+      "parent": {
+        "from_job": "B_s41012_r4202_dose625_t20000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 220000,
+      "steps": 20000,
+      "horizon": 40000,
+      "condition": "dose625",
+      "continuation": 4202,
+      "continuation_rng_seed": 1544802358,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41012_r4202_dose625_O",
+      "kind": "evaluate",
+      "original_seed": 41012,
+      "parent": {
+        "from_job": "B_s41012_r4202_dose625_t40000",
+        "key": "checkpoint"
+      },
+      "bank": {
+        "from_job": "B_s41012_bank",
+        "key": "bank"
+      },
+      "role": "branch",
+      "condition": "dose625",
+      "continuation": 4202,
+      "horizon": 40000
+    },
+    {
+      "id": "B_s41012_r4202_alternate4k_t4000",
+      "kind": "train",
+      "original_seed": 41012,
+      "parent": {
+        "from_job": "B_s41012_pretrain_200000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 200000,
+      "steps": 4000,
+      "horizon": 4000,
+      "condition": "alternate4k",
+      "continuation": 4202,
+      "continuation_rng_seed": 1544802358,
+      "start_branch": true,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41012_r4202_alternate4k_t8000",
+      "kind": "train",
+      "original_seed": 41012,
+      "parent": {
+        "from_job": "B_s41012_r4202_alternate4k_t4000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 204000,
+      "steps": 4000,
+      "horizon": 8000,
+      "condition": "alternate4k",
+      "continuation": 4202,
+      "continuation_rng_seed": 1544802358,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41012_r4202_alternate4k_t20000",
+      "kind": "train",
+      "original_seed": 41012,
+      "parent": {
+        "from_job": "B_s41012_r4202_alternate4k_t8000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 208000,
+      "steps": 12000,
+      "horizon": 20000,
+      "condition": "alternate4k",
+      "continuation": 4202,
+      "continuation_rng_seed": 1544802358,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41012_r4202_alternate4k_t40000",
+      "kind": "train",
+      "original_seed": 41012,
+      "parent": {
+        "from_job": "B_s41012_r4202_alternate4k_t20000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 220000,
+      "steps": 20000,
+      "horizon": 40000,
+      "condition": "alternate4k",
+      "continuation": 4202,
+      "continuation_rng_seed": 1544802358,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41012_r4202_alternate4k_O",
+      "kind": "evaluate",
+      "original_seed": 41012,
+      "parent": {
+        "from_job": "B_s41012_r4202_alternate4k_t40000",
+        "key": "checkpoint"
+      },
+      "bank": {
+        "from_job": "B_s41012_bank",
+        "key": "bank"
+      },
+      "role": "branch",
+      "condition": "alternate4k",
+      "continuation": 4202,
+      "horizon": 40000
+    },
+    {
+      "id": "B_s41012_r4202_mixture_t4000",
+      "kind": "train",
+      "original_seed": 41012,
+      "parent": {
+        "from_job": "B_s41012_pretrain_200000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 200000,
+      "steps": 4000,
+      "horizon": 4000,
+      "condition": "mixture",
+      "continuation": 4202,
+      "continuation_rng_seed": 1544802358,
+      "start_branch": true,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41012_r4202_mixture_t8000",
+      "kind": "train",
+      "original_seed": 41012,
+      "parent": {
+        "from_job": "B_s41012_r4202_mixture_t4000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 204000,
+      "steps": 4000,
+      "horizon": 8000,
+      "condition": "mixture",
+      "continuation": 4202,
+      "continuation_rng_seed": 1544802358,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41012_r4202_mixture_t20000",
+      "kind": "train",
+      "original_seed": 41012,
+      "parent": {
+        "from_job": "B_s41012_r4202_mixture_t8000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 208000,
+      "steps": 12000,
+      "horizon": 20000,
+      "condition": "mixture",
+      "continuation": 4202,
+      "continuation_rng_seed": 1544802358,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41012_r4202_mixture_t40000",
+      "kind": "train",
+      "original_seed": 41012,
+      "parent": {
+        "from_job": "B_s41012_r4202_mixture_t20000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 220000,
+      "steps": 20000,
+      "horizon": 40000,
+      "condition": "mixture",
+      "continuation": 4202,
+      "continuation_rng_seed": 1544802358,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41012_r4202_mixture_O",
+      "kind": "evaluate",
+      "original_seed": 41012,
+      "parent": {
+        "from_job": "B_s41012_r4202_mixture_t40000",
+        "key": "checkpoint"
+      },
+      "bank": {
+        "from_job": "B_s41012_bank",
+        "key": "bank"
+      },
+      "role": "branch",
+      "condition": "mixture",
+      "continuation": 4202,
+      "horizon": 40000
+    },
+    {
+      "id": "B_s41013_init",
+      "kind": "init",
+      "original_seed": 41013
+    },
+    {
+      "id": "B_s41013_pretrain_20000",
+      "kind": "train",
+      "original_seed": 41013,
+      "parent": {
+        "from_job": "B_s41013_init",
+        "key": "checkpoint"
+      },
+      "start_step": 0,
+      "steps": 20000,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41013_pretrain_40000",
+      "kind": "train",
+      "original_seed": 41013,
+      "parent": {
+        "from_job": "B_s41013_pretrain_20000",
+        "key": "checkpoint"
+      },
+      "start_step": 20000,
+      "steps": 20000,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41013_pretrain_60000",
+      "kind": "train",
+      "original_seed": 41013,
+      "parent": {
+        "from_job": "B_s41013_pretrain_40000",
+        "key": "checkpoint"
+      },
+      "start_step": 40000,
+      "steps": 20000,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41013_pretrain_80000",
+      "kind": "train",
+      "original_seed": 41013,
+      "parent": {
+        "from_job": "B_s41013_pretrain_60000",
+        "key": "checkpoint"
+      },
+      "start_step": 60000,
+      "steps": 20000,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41013_pretrain_100000",
+      "kind": "train",
+      "original_seed": 41013,
+      "parent": {
+        "from_job": "B_s41013_pretrain_80000",
+        "key": "checkpoint"
+      },
+      "start_step": 80000,
+      "steps": 20000,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41013_pretrain_120000",
+      "kind": "train",
+      "original_seed": 41013,
+      "parent": {
+        "from_job": "B_s41013_pretrain_100000",
+        "key": "checkpoint"
+      },
+      "start_step": 100000,
+      "steps": 20000,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41013_pretrain_140000",
+      "kind": "train",
+      "original_seed": 41013,
+      "parent": {
+        "from_job": "B_s41013_pretrain_120000",
+        "key": "checkpoint"
+      },
+      "start_step": 120000,
+      "steps": 20000,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41013_pretrain_160000",
+      "kind": "train",
+      "original_seed": 41013,
+      "parent": {
+        "from_job": "B_s41013_pretrain_140000",
+        "key": "checkpoint"
+      },
+      "start_step": 140000,
+      "steps": 20000,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41013_pretrain_180000",
+      "kind": "train",
+      "original_seed": 41013,
+      "parent": {
+        "from_job": "B_s41013_pretrain_160000",
+        "key": "checkpoint"
+      },
+      "start_step": 160000,
+      "steps": 20000,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41013_pretrain_200000",
+      "kind": "train",
+      "original_seed": 41013,
+      "parent": {
+        "from_job": "B_s41013_pretrain_180000",
+        "key": "checkpoint"
+      },
+      "start_step": 180000,
+      "steps": 20000,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41013_parent_O",
+      "kind": "evaluate",
+      "original_seed": 41013,
+      "parent": {
+        "from_job": "B_s41013_pretrain_200000",
+        "key": "checkpoint"
+      },
+      "bank": {
+        "from_job": "B_s41013_bank",
+        "key": "bank"
+      },
+      "role": "parent"
+    },
+    {
+      "id": "B_s41013_r4201_dose625_t4000",
+      "kind": "train",
+      "original_seed": 41013,
+      "parent": {
+        "from_job": "B_s41013_pretrain_200000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 200000,
+      "steps": 4000,
+      "horizon": 4000,
+      "condition": "dose625",
+      "continuation": 4201,
+      "continuation_rng_seed": 2611205667,
+      "start_branch": true,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41013_r4201_dose625_t8000",
+      "kind": "train",
+      "original_seed": 41013,
+      "parent": {
+        "from_job": "B_s41013_r4201_dose625_t4000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 204000,
+      "steps": 4000,
+      "horizon": 8000,
+      "condition": "dose625",
+      "continuation": 4201,
+      "continuation_rng_seed": 2611205667,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41013_r4201_dose625_t20000",
+      "kind": "train",
+      "original_seed": 41013,
+      "parent": {
+        "from_job": "B_s41013_r4201_dose625_t8000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 208000,
+      "steps": 12000,
+      "horizon": 20000,
+      "condition": "dose625",
+      "continuation": 4201,
+      "continuation_rng_seed": 2611205667,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41013_r4201_dose625_t40000",
+      "kind": "train",
+      "original_seed": 41013,
+      "parent": {
+        "from_job": "B_s41013_r4201_dose625_t20000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 220000,
+      "steps": 20000,
+      "horizon": 40000,
+      "condition": "dose625",
+      "continuation": 4201,
+      "continuation_rng_seed": 2611205667,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41013_r4201_dose625_O",
+      "kind": "evaluate",
+      "original_seed": 41013,
+      "parent": {
+        "from_job": "B_s41013_r4201_dose625_t40000",
+        "key": "checkpoint"
+      },
+      "bank": {
+        "from_job": "B_s41013_bank",
+        "key": "bank"
+      },
+      "role": "branch",
+      "condition": "dose625",
+      "continuation": 4201,
+      "horizon": 40000
+    },
+    {
+      "id": "B_s41013_r4201_alternate4k_t4000",
+      "kind": "train",
+      "original_seed": 41013,
+      "parent": {
+        "from_job": "B_s41013_pretrain_200000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 200000,
+      "steps": 4000,
+      "horizon": 4000,
+      "condition": "alternate4k",
+      "continuation": 4201,
+      "continuation_rng_seed": 2611205667,
+      "start_branch": true,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41013_r4201_alternate4k_t8000",
+      "kind": "train",
+      "original_seed": 41013,
+      "parent": {
+        "from_job": "B_s41013_r4201_alternate4k_t4000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 204000,
+      "steps": 4000,
+      "horizon": 8000,
+      "condition": "alternate4k",
+      "continuation": 4201,
+      "continuation_rng_seed": 2611205667,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41013_r4201_alternate4k_t20000",
+      "kind": "train",
+      "original_seed": 41013,
+      "parent": {
+        "from_job": "B_s41013_r4201_alternate4k_t8000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 208000,
+      "steps": 12000,
+      "horizon": 20000,
+      "condition": "alternate4k",
+      "continuation": 4201,
+      "continuation_rng_seed": 2611205667,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41013_r4201_alternate4k_t40000",
+      "kind": "train",
+      "original_seed": 41013,
+      "parent": {
+        "from_job": "B_s41013_r4201_alternate4k_t20000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 220000,
+      "steps": 20000,
+      "horizon": 40000,
+      "condition": "alternate4k",
+      "continuation": 4201,
+      "continuation_rng_seed": 2611205667,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41013_r4201_alternate4k_O",
+      "kind": "evaluate",
+      "original_seed": 41013,
+      "parent": {
+        "from_job": "B_s41013_r4201_alternate4k_t40000",
+        "key": "checkpoint"
+      },
+      "bank": {
+        "from_job": "B_s41013_bank",
+        "key": "bank"
+      },
+      "role": "branch",
+      "condition": "alternate4k",
+      "continuation": 4201,
+      "horizon": 40000
+    },
+    {
+      "id": "B_s41013_r4201_mixture_t4000",
+      "kind": "train",
+      "original_seed": 41013,
+      "parent": {
+        "from_job": "B_s41013_pretrain_200000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 200000,
+      "steps": 4000,
+      "horizon": 4000,
+      "condition": "mixture",
+      "continuation": 4201,
+      "continuation_rng_seed": 2611205667,
+      "start_branch": true,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41013_r4201_mixture_t8000",
+      "kind": "train",
+      "original_seed": 41013,
+      "parent": {
+        "from_job": "B_s41013_r4201_mixture_t4000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 204000,
+      "steps": 4000,
+      "horizon": 8000,
+      "condition": "mixture",
+      "continuation": 4201,
+      "continuation_rng_seed": 2611205667,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41013_r4201_mixture_t20000",
+      "kind": "train",
+      "original_seed": 41013,
+      "parent": {
+        "from_job": "B_s41013_r4201_mixture_t8000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 208000,
+      "steps": 12000,
+      "horizon": 20000,
+      "condition": "mixture",
+      "continuation": 4201,
+      "continuation_rng_seed": 2611205667,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41013_r4201_mixture_t40000",
+      "kind": "train",
+      "original_seed": 41013,
+      "parent": {
+        "from_job": "B_s41013_r4201_mixture_t20000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 220000,
+      "steps": 20000,
+      "horizon": 40000,
+      "condition": "mixture",
+      "continuation": 4201,
+      "continuation_rng_seed": 2611205667,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41013_r4201_mixture_O",
+      "kind": "evaluate",
+      "original_seed": 41013,
+      "parent": {
+        "from_job": "B_s41013_r4201_mixture_t40000",
+        "key": "checkpoint"
+      },
+      "bank": {
+        "from_job": "B_s41013_bank",
+        "key": "bank"
+      },
+      "role": "branch",
+      "condition": "mixture",
+      "continuation": 4201,
+      "horizon": 40000
+    },
+    {
+      "id": "B_s41013_r4202_dose625_t4000",
+      "kind": "train",
+      "original_seed": 41013,
+      "parent": {
+        "from_job": "B_s41013_pretrain_200000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 200000,
+      "steps": 4000,
+      "horizon": 4000,
+      "condition": "dose625",
+      "continuation": 4202,
+      "continuation_rng_seed": 3461146862,
+      "start_branch": true,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41013_r4202_dose625_t8000",
+      "kind": "train",
+      "original_seed": 41013,
+      "parent": {
+        "from_job": "B_s41013_r4202_dose625_t4000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 204000,
+      "steps": 4000,
+      "horizon": 8000,
+      "condition": "dose625",
+      "continuation": 4202,
+      "continuation_rng_seed": 3461146862,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41013_r4202_dose625_t20000",
+      "kind": "train",
+      "original_seed": 41013,
+      "parent": {
+        "from_job": "B_s41013_r4202_dose625_t8000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 208000,
+      "steps": 12000,
+      "horizon": 20000,
+      "condition": "dose625",
+      "continuation": 4202,
+      "continuation_rng_seed": 3461146862,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41013_r4202_dose625_t40000",
+      "kind": "train",
+      "original_seed": 41013,
+      "parent": {
+        "from_job": "B_s41013_r4202_dose625_t20000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 220000,
+      "steps": 20000,
+      "horizon": 40000,
+      "condition": "dose625",
+      "continuation": 4202,
+      "continuation_rng_seed": 3461146862,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41013_r4202_dose625_O",
+      "kind": "evaluate",
+      "original_seed": 41013,
+      "parent": {
+        "from_job": "B_s41013_r4202_dose625_t40000",
+        "key": "checkpoint"
+      },
+      "bank": {
+        "from_job": "B_s41013_bank",
+        "key": "bank"
+      },
+      "role": "branch",
+      "condition": "dose625",
+      "continuation": 4202,
+      "horizon": 40000
+    },
+    {
+      "id": "B_s41013_r4202_alternate4k_t4000",
+      "kind": "train",
+      "original_seed": 41013,
+      "parent": {
+        "from_job": "B_s41013_pretrain_200000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 200000,
+      "steps": 4000,
+      "horizon": 4000,
+      "condition": "alternate4k",
+      "continuation": 4202,
+      "continuation_rng_seed": 3461146862,
+      "start_branch": true,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41013_r4202_alternate4k_t8000",
+      "kind": "train",
+      "original_seed": 41013,
+      "parent": {
+        "from_job": "B_s41013_r4202_alternate4k_t4000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 204000,
+      "steps": 4000,
+      "horizon": 8000,
+      "condition": "alternate4k",
+      "continuation": 4202,
+      "continuation_rng_seed": 3461146862,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41013_r4202_alternate4k_t20000",
+      "kind": "train",
+      "original_seed": 41013,
+      "parent": {
+        "from_job": "B_s41013_r4202_alternate4k_t8000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 208000,
+      "steps": 12000,
+      "horizon": 20000,
+      "condition": "alternate4k",
+      "continuation": 4202,
+      "continuation_rng_seed": 3461146862,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41013_r4202_alternate4k_t40000",
+      "kind": "train",
+      "original_seed": 41013,
+      "parent": {
+        "from_job": "B_s41013_r4202_alternate4k_t20000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 220000,
+      "steps": 20000,
+      "horizon": 40000,
+      "condition": "alternate4k",
+      "continuation": 4202,
+      "continuation_rng_seed": 3461146862,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41013_r4202_alternate4k_O",
+      "kind": "evaluate",
+      "original_seed": 41013,
+      "parent": {
+        "from_job": "B_s41013_r4202_alternate4k_t40000",
+        "key": "checkpoint"
+      },
+      "bank": {
+        "from_job": "B_s41013_bank",
+        "key": "bank"
+      },
+      "role": "branch",
+      "condition": "alternate4k",
+      "continuation": 4202,
+      "horizon": 40000
+    },
+    {
+      "id": "B_s41013_r4202_mixture_t4000",
+      "kind": "train",
+      "original_seed": 41013,
+      "parent": {
+        "from_job": "B_s41013_pretrain_200000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 200000,
+      "steps": 4000,
+      "horizon": 4000,
+      "condition": "mixture",
+      "continuation": 4202,
+      "continuation_rng_seed": 3461146862,
+      "start_branch": true,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41013_r4202_mixture_t8000",
+      "kind": "train",
+      "original_seed": 41013,
+      "parent": {
+        "from_job": "B_s41013_r4202_mixture_t4000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 204000,
+      "steps": 4000,
+      "horizon": 8000,
+      "condition": "mixture",
+      "continuation": 4202,
+      "continuation_rng_seed": 3461146862,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41013_r4202_mixture_t20000",
+      "kind": "train",
+      "original_seed": 41013,
+      "parent": {
+        "from_job": "B_s41013_r4202_mixture_t8000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 208000,
+      "steps": 12000,
+      "horizon": 20000,
+      "condition": "mixture",
+      "continuation": 4202,
+      "continuation_rng_seed": 3461146862,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41013_r4202_mixture_t40000",
+      "kind": "train",
+      "original_seed": 41013,
+      "parent": {
+        "from_job": "B_s41013_r4202_mixture_t20000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 220000,
+      "steps": 20000,
+      "horizon": 40000,
+      "condition": "mixture",
+      "continuation": 4202,
+      "continuation_rng_seed": 3461146862,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41013_r4202_mixture_O",
+      "kind": "evaluate",
+      "original_seed": 41013,
+      "parent": {
+        "from_job": "B_s41013_r4202_mixture_t40000",
+        "key": "checkpoint"
+      },
+      "bank": {
+        "from_job": "B_s41013_bank",
+        "key": "bank"
+      },
+      "role": "branch",
+      "condition": "mixture",
+      "continuation": 4202,
+      "horizon": 40000
+    },
+    {
+      "id": "B_s41014_init",
+      "kind": "init",
+      "original_seed": 41014
+    },
+    {
+      "id": "B_s41014_pretrain_20000",
+      "kind": "train",
+      "original_seed": 41014,
+      "parent": {
+        "from_job": "B_s41014_init",
+        "key": "checkpoint"
+      },
+      "start_step": 0,
+      "steps": 20000,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41014_pretrain_40000",
+      "kind": "train",
+      "original_seed": 41014,
+      "parent": {
+        "from_job": "B_s41014_pretrain_20000",
+        "key": "checkpoint"
+      },
+      "start_step": 20000,
+      "steps": 20000,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41014_pretrain_60000",
+      "kind": "train",
+      "original_seed": 41014,
+      "parent": {
+        "from_job": "B_s41014_pretrain_40000",
+        "key": "checkpoint"
+      },
+      "start_step": 40000,
+      "steps": 20000,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41014_pretrain_80000",
+      "kind": "train",
+      "original_seed": 41014,
+      "parent": {
+        "from_job": "B_s41014_pretrain_60000",
+        "key": "checkpoint"
+      },
+      "start_step": 60000,
+      "steps": 20000,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41014_pretrain_100000",
+      "kind": "train",
+      "original_seed": 41014,
+      "parent": {
+        "from_job": "B_s41014_pretrain_80000",
+        "key": "checkpoint"
+      },
+      "start_step": 80000,
+      "steps": 20000,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41014_pretrain_120000",
+      "kind": "train",
+      "original_seed": 41014,
+      "parent": {
+        "from_job": "B_s41014_pretrain_100000",
+        "key": "checkpoint"
+      },
+      "start_step": 100000,
+      "steps": 20000,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41014_pretrain_140000",
+      "kind": "train",
+      "original_seed": 41014,
+      "parent": {
+        "from_job": "B_s41014_pretrain_120000",
+        "key": "checkpoint"
+      },
+      "start_step": 120000,
+      "steps": 20000,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41014_pretrain_160000",
+      "kind": "train",
+      "original_seed": 41014,
+      "parent": {
+        "from_job": "B_s41014_pretrain_140000",
+        "key": "checkpoint"
+      },
+      "start_step": 140000,
+      "steps": 20000,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41014_pretrain_180000",
+      "kind": "train",
+      "original_seed": 41014,
+      "parent": {
+        "from_job": "B_s41014_pretrain_160000",
+        "key": "checkpoint"
+      },
+      "start_step": 160000,
+      "steps": 20000,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41014_pretrain_200000",
+      "kind": "train",
+      "original_seed": 41014,
+      "parent": {
+        "from_job": "B_s41014_pretrain_180000",
+        "key": "checkpoint"
+      },
+      "start_step": 180000,
+      "steps": 20000,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41014_parent_O",
+      "kind": "evaluate",
+      "original_seed": 41014,
+      "parent": {
+        "from_job": "B_s41014_pretrain_200000",
+        "key": "checkpoint"
+      },
+      "bank": {
+        "from_job": "B_s41014_bank",
+        "key": "bank"
+      },
+      "role": "parent"
+    },
+    {
+      "id": "B_s41014_r4201_dose625_t4000",
+      "kind": "train",
+      "original_seed": 41014,
+      "parent": {
+        "from_job": "B_s41014_pretrain_200000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 200000,
+      "steps": 4000,
+      "horizon": 4000,
+      "condition": "dose625",
+      "continuation": 4201,
+      "continuation_rng_seed": 2418928234,
+      "start_branch": true,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41014_r4201_dose625_t8000",
+      "kind": "train",
+      "original_seed": 41014,
+      "parent": {
+        "from_job": "B_s41014_r4201_dose625_t4000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 204000,
+      "steps": 4000,
+      "horizon": 8000,
+      "condition": "dose625",
+      "continuation": 4201,
+      "continuation_rng_seed": 2418928234,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41014_r4201_dose625_t20000",
+      "kind": "train",
+      "original_seed": 41014,
+      "parent": {
+        "from_job": "B_s41014_r4201_dose625_t8000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 208000,
+      "steps": 12000,
+      "horizon": 20000,
+      "condition": "dose625",
+      "continuation": 4201,
+      "continuation_rng_seed": 2418928234,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41014_r4201_dose625_t40000",
+      "kind": "train",
+      "original_seed": 41014,
+      "parent": {
+        "from_job": "B_s41014_r4201_dose625_t20000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 220000,
+      "steps": 20000,
+      "horizon": 40000,
+      "condition": "dose625",
+      "continuation": 4201,
+      "continuation_rng_seed": 2418928234,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41014_r4201_dose625_O",
+      "kind": "evaluate",
+      "original_seed": 41014,
+      "parent": {
+        "from_job": "B_s41014_r4201_dose625_t40000",
+        "key": "checkpoint"
+      },
+      "bank": {
+        "from_job": "B_s41014_bank",
+        "key": "bank"
+      },
+      "role": "branch",
+      "condition": "dose625",
+      "continuation": 4201,
+      "horizon": 40000
+    },
+    {
+      "id": "B_s41014_r4201_alternate4k_t4000",
+      "kind": "train",
+      "original_seed": 41014,
+      "parent": {
+        "from_job": "B_s41014_pretrain_200000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 200000,
+      "steps": 4000,
+      "horizon": 4000,
+      "condition": "alternate4k",
+      "continuation": 4201,
+      "continuation_rng_seed": 2418928234,
+      "start_branch": true,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41014_r4201_alternate4k_t8000",
+      "kind": "train",
+      "original_seed": 41014,
+      "parent": {
+        "from_job": "B_s41014_r4201_alternate4k_t4000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 204000,
+      "steps": 4000,
+      "horizon": 8000,
+      "condition": "alternate4k",
+      "continuation": 4201,
+      "continuation_rng_seed": 2418928234,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41014_r4201_alternate4k_t20000",
+      "kind": "train",
+      "original_seed": 41014,
+      "parent": {
+        "from_job": "B_s41014_r4201_alternate4k_t8000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 208000,
+      "steps": 12000,
+      "horizon": 20000,
+      "condition": "alternate4k",
+      "continuation": 4201,
+      "continuation_rng_seed": 2418928234,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41014_r4201_alternate4k_t40000",
+      "kind": "train",
+      "original_seed": 41014,
+      "parent": {
+        "from_job": "B_s41014_r4201_alternate4k_t20000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 220000,
+      "steps": 20000,
+      "horizon": 40000,
+      "condition": "alternate4k",
+      "continuation": 4201,
+      "continuation_rng_seed": 2418928234,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41014_r4201_alternate4k_O",
+      "kind": "evaluate",
+      "original_seed": 41014,
+      "parent": {
+        "from_job": "B_s41014_r4201_alternate4k_t40000",
+        "key": "checkpoint"
+      },
+      "bank": {
+        "from_job": "B_s41014_bank",
+        "key": "bank"
+      },
+      "role": "branch",
+      "condition": "alternate4k",
+      "continuation": 4201,
+      "horizon": 40000
+    },
+    {
+      "id": "B_s41014_r4201_mixture_t4000",
+      "kind": "train",
+      "original_seed": 41014,
+      "parent": {
+        "from_job": "B_s41014_pretrain_200000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 200000,
+      "steps": 4000,
+      "horizon": 4000,
+      "condition": "mixture",
+      "continuation": 4201,
+      "continuation_rng_seed": 2418928234,
+      "start_branch": true,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41014_r4201_mixture_t8000",
+      "kind": "train",
+      "original_seed": 41014,
+      "parent": {
+        "from_job": "B_s41014_r4201_mixture_t4000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 204000,
+      "steps": 4000,
+      "horizon": 8000,
+      "condition": "mixture",
+      "continuation": 4201,
+      "continuation_rng_seed": 2418928234,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41014_r4201_mixture_t20000",
+      "kind": "train",
+      "original_seed": 41014,
+      "parent": {
+        "from_job": "B_s41014_r4201_mixture_t8000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 208000,
+      "steps": 12000,
+      "horizon": 20000,
+      "condition": "mixture",
+      "continuation": 4201,
+      "continuation_rng_seed": 2418928234,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41014_r4201_mixture_t40000",
+      "kind": "train",
+      "original_seed": 41014,
+      "parent": {
+        "from_job": "B_s41014_r4201_mixture_t20000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 220000,
+      "steps": 20000,
+      "horizon": 40000,
+      "condition": "mixture",
+      "continuation": 4201,
+      "continuation_rng_seed": 2418928234,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41014_r4201_mixture_O",
+      "kind": "evaluate",
+      "original_seed": 41014,
+      "parent": {
+        "from_job": "B_s41014_r4201_mixture_t40000",
+        "key": "checkpoint"
+      },
+      "bank": {
+        "from_job": "B_s41014_bank",
+        "key": "bank"
+      },
+      "role": "branch",
+      "condition": "mixture",
+      "continuation": 4201,
+      "horizon": 40000
+    },
+    {
+      "id": "B_s41014_r4202_dose625_t4000",
+      "kind": "train",
+      "original_seed": 41014,
+      "parent": {
+        "from_job": "B_s41014_pretrain_200000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 200000,
+      "steps": 4000,
+      "horizon": 4000,
+      "condition": "dose625",
+      "continuation": 4202,
+      "continuation_rng_seed": 1134167883,
+      "start_branch": true,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41014_r4202_dose625_t8000",
+      "kind": "train",
+      "original_seed": 41014,
+      "parent": {
+        "from_job": "B_s41014_r4202_dose625_t4000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 204000,
+      "steps": 4000,
+      "horizon": 8000,
+      "condition": "dose625",
+      "continuation": 4202,
+      "continuation_rng_seed": 1134167883,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41014_r4202_dose625_t20000",
+      "kind": "train",
+      "original_seed": 41014,
+      "parent": {
+        "from_job": "B_s41014_r4202_dose625_t8000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 208000,
+      "steps": 12000,
+      "horizon": 20000,
+      "condition": "dose625",
+      "continuation": 4202,
+      "continuation_rng_seed": 1134167883,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41014_r4202_dose625_t40000",
+      "kind": "train",
+      "original_seed": 41014,
+      "parent": {
+        "from_job": "B_s41014_r4202_dose625_t20000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 220000,
+      "steps": 20000,
+      "horizon": 40000,
+      "condition": "dose625",
+      "continuation": 4202,
+      "continuation_rng_seed": 1134167883,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41014_r4202_dose625_O",
+      "kind": "evaluate",
+      "original_seed": 41014,
+      "parent": {
+        "from_job": "B_s41014_r4202_dose625_t40000",
+        "key": "checkpoint"
+      },
+      "bank": {
+        "from_job": "B_s41014_bank",
+        "key": "bank"
+      },
+      "role": "branch",
+      "condition": "dose625",
+      "continuation": 4202,
+      "horizon": 40000
+    },
+    {
+      "id": "B_s41014_r4202_alternate4k_t4000",
+      "kind": "train",
+      "original_seed": 41014,
+      "parent": {
+        "from_job": "B_s41014_pretrain_200000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 200000,
+      "steps": 4000,
+      "horizon": 4000,
+      "condition": "alternate4k",
+      "continuation": 4202,
+      "continuation_rng_seed": 1134167883,
+      "start_branch": true,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41014_r4202_alternate4k_t8000",
+      "kind": "train",
+      "original_seed": 41014,
+      "parent": {
+        "from_job": "B_s41014_r4202_alternate4k_t4000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 204000,
+      "steps": 4000,
+      "horizon": 8000,
+      "condition": "alternate4k",
+      "continuation": 4202,
+      "continuation_rng_seed": 1134167883,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41014_r4202_alternate4k_t20000",
+      "kind": "train",
+      "original_seed": 41014,
+      "parent": {
+        "from_job": "B_s41014_r4202_alternate4k_t8000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 208000,
+      "steps": 12000,
+      "horizon": 20000,
+      "condition": "alternate4k",
+      "continuation": 4202,
+      "continuation_rng_seed": 1134167883,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41014_r4202_alternate4k_t40000",
+      "kind": "train",
+      "original_seed": 41014,
+      "parent": {
+        "from_job": "B_s41014_r4202_alternate4k_t20000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 220000,
+      "steps": 20000,
+      "horizon": 40000,
+      "condition": "alternate4k",
+      "continuation": 4202,
+      "continuation_rng_seed": 1134167883,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41014_r4202_alternate4k_O",
+      "kind": "evaluate",
+      "original_seed": 41014,
+      "parent": {
+        "from_job": "B_s41014_r4202_alternate4k_t40000",
+        "key": "checkpoint"
+      },
+      "bank": {
+        "from_job": "B_s41014_bank",
+        "key": "bank"
+      },
+      "role": "branch",
+      "condition": "alternate4k",
+      "continuation": 4202,
+      "horizon": 40000
+    },
+    {
+      "id": "B_s41014_r4202_mixture_t4000",
+      "kind": "train",
+      "original_seed": 41014,
+      "parent": {
+        "from_job": "B_s41014_pretrain_200000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 200000,
+      "steps": 4000,
+      "horizon": 4000,
+      "condition": "mixture",
+      "continuation": 4202,
+      "continuation_rng_seed": 1134167883,
+      "start_branch": true,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41014_r4202_mixture_t8000",
+      "kind": "train",
+      "original_seed": 41014,
+      "parent": {
+        "from_job": "B_s41014_r4202_mixture_t4000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 204000,
+      "steps": 4000,
+      "horizon": 8000,
+      "condition": "mixture",
+      "continuation": 4202,
+      "continuation_rng_seed": 1134167883,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41014_r4202_mixture_t20000",
+      "kind": "train",
+      "original_seed": 41014,
+      "parent": {
+        "from_job": "B_s41014_r4202_mixture_t8000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 208000,
+      "steps": 12000,
+      "horizon": 20000,
+      "condition": "mixture",
+      "continuation": 4202,
+      "continuation_rng_seed": 1134167883,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41014_r4202_mixture_t40000",
+      "kind": "train",
+      "original_seed": 41014,
+      "parent": {
+        "from_job": "B_s41014_r4202_mixture_t20000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 220000,
+      "steps": 20000,
+      "horizon": 40000,
+      "condition": "mixture",
+      "continuation": 4202,
+      "continuation_rng_seed": 1134167883,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41014_r4202_mixture_O",
+      "kind": "evaluate",
+      "original_seed": 41014,
+      "parent": {
+        "from_job": "B_s41014_r4202_mixture_t40000",
+        "key": "checkpoint"
+      },
+      "bank": {
+        "from_job": "B_s41014_bank",
+        "key": "bank"
+      },
+      "role": "branch",
+      "condition": "mixture",
+      "continuation": 4202,
+      "horizon": 40000
+    },
+    {
+      "id": "B_s41015_init",
+      "kind": "init",
+      "original_seed": 41015
+    },
+    {
+      "id": "B_s41015_pretrain_20000",
+      "kind": "train",
+      "original_seed": 41015,
+      "parent": {
+        "from_job": "B_s41015_init",
+        "key": "checkpoint"
+      },
+      "start_step": 0,
+      "steps": 20000,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41015_pretrain_40000",
+      "kind": "train",
+      "original_seed": 41015,
+      "parent": {
+        "from_job": "B_s41015_pretrain_20000",
+        "key": "checkpoint"
+      },
+      "start_step": 20000,
+      "steps": 20000,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41015_pretrain_60000",
+      "kind": "train",
+      "original_seed": 41015,
+      "parent": {
+        "from_job": "B_s41015_pretrain_40000",
+        "key": "checkpoint"
+      },
+      "start_step": 40000,
+      "steps": 20000,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41015_pretrain_80000",
+      "kind": "train",
+      "original_seed": 41015,
+      "parent": {
+        "from_job": "B_s41015_pretrain_60000",
+        "key": "checkpoint"
+      },
+      "start_step": 60000,
+      "steps": 20000,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41015_pretrain_100000",
+      "kind": "train",
+      "original_seed": 41015,
+      "parent": {
+        "from_job": "B_s41015_pretrain_80000",
+        "key": "checkpoint"
+      },
+      "start_step": 80000,
+      "steps": 20000,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41015_pretrain_120000",
+      "kind": "train",
+      "original_seed": 41015,
+      "parent": {
+        "from_job": "B_s41015_pretrain_100000",
+        "key": "checkpoint"
+      },
+      "start_step": 100000,
+      "steps": 20000,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41015_pretrain_140000",
+      "kind": "train",
+      "original_seed": 41015,
+      "parent": {
+        "from_job": "B_s41015_pretrain_120000",
+        "key": "checkpoint"
+      },
+      "start_step": 120000,
+      "steps": 20000,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41015_pretrain_160000",
+      "kind": "train",
+      "original_seed": 41015,
+      "parent": {
+        "from_job": "B_s41015_pretrain_140000",
+        "key": "checkpoint"
+      },
+      "start_step": 140000,
+      "steps": 20000,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41015_pretrain_180000",
+      "kind": "train",
+      "original_seed": 41015,
+      "parent": {
+        "from_job": "B_s41015_pretrain_160000",
+        "key": "checkpoint"
+      },
+      "start_step": 160000,
+      "steps": 20000,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41015_pretrain_200000",
+      "kind": "train",
+      "original_seed": 41015,
+      "parent": {
+        "from_job": "B_s41015_pretrain_180000",
+        "key": "checkpoint"
+      },
+      "start_step": 180000,
+      "steps": 20000,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41015_parent_O",
+      "kind": "evaluate",
+      "original_seed": 41015,
+      "parent": {
+        "from_job": "B_s41015_pretrain_200000",
+        "key": "checkpoint"
+      },
+      "bank": {
+        "from_job": "B_s41015_bank",
+        "key": "bank"
+      },
+      "role": "parent"
+    },
+    {
+      "id": "B_s41015_r4201_dose625_t4000",
+      "kind": "train",
+      "original_seed": 41015,
+      "parent": {
+        "from_job": "B_s41015_pretrain_200000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 200000,
+      "steps": 4000,
+      "horizon": 4000,
+      "condition": "dose625",
+      "continuation": 4201,
+      "continuation_rng_seed": 679393678,
+      "start_branch": true,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41015_r4201_dose625_t8000",
+      "kind": "train",
+      "original_seed": 41015,
+      "parent": {
+        "from_job": "B_s41015_r4201_dose625_t4000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 204000,
+      "steps": 4000,
+      "horizon": 8000,
+      "condition": "dose625",
+      "continuation": 4201,
+      "continuation_rng_seed": 679393678,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41015_r4201_dose625_t20000",
+      "kind": "train",
+      "original_seed": 41015,
+      "parent": {
+        "from_job": "B_s41015_r4201_dose625_t8000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 208000,
+      "steps": 12000,
+      "horizon": 20000,
+      "condition": "dose625",
+      "continuation": 4201,
+      "continuation_rng_seed": 679393678,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41015_r4201_dose625_t40000",
+      "kind": "train",
+      "original_seed": 41015,
+      "parent": {
+        "from_job": "B_s41015_r4201_dose625_t20000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 220000,
+      "steps": 20000,
+      "horizon": 40000,
+      "condition": "dose625",
+      "continuation": 4201,
+      "continuation_rng_seed": 679393678,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41015_r4201_dose625_O",
+      "kind": "evaluate",
+      "original_seed": 41015,
+      "parent": {
+        "from_job": "B_s41015_r4201_dose625_t40000",
+        "key": "checkpoint"
+      },
+      "bank": {
+        "from_job": "B_s41015_bank",
+        "key": "bank"
+      },
+      "role": "branch",
+      "condition": "dose625",
+      "continuation": 4201,
+      "horizon": 40000
+    },
+    {
+      "id": "B_s41015_r4201_alternate4k_t4000",
+      "kind": "train",
+      "original_seed": 41015,
+      "parent": {
+        "from_job": "B_s41015_pretrain_200000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 200000,
+      "steps": 4000,
+      "horizon": 4000,
+      "condition": "alternate4k",
+      "continuation": 4201,
+      "continuation_rng_seed": 679393678,
+      "start_branch": true,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41015_r4201_alternate4k_t8000",
+      "kind": "train",
+      "original_seed": 41015,
+      "parent": {
+        "from_job": "B_s41015_r4201_alternate4k_t4000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 204000,
+      "steps": 4000,
+      "horizon": 8000,
+      "condition": "alternate4k",
+      "continuation": 4201,
+      "continuation_rng_seed": 679393678,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41015_r4201_alternate4k_t20000",
+      "kind": "train",
+      "original_seed": 41015,
+      "parent": {
+        "from_job": "B_s41015_r4201_alternate4k_t8000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 208000,
+      "steps": 12000,
+      "horizon": 20000,
+      "condition": "alternate4k",
+      "continuation": 4201,
+      "continuation_rng_seed": 679393678,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41015_r4201_alternate4k_t40000",
+      "kind": "train",
+      "original_seed": 41015,
+      "parent": {
+        "from_job": "B_s41015_r4201_alternate4k_t20000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 220000,
+      "steps": 20000,
+      "horizon": 40000,
+      "condition": "alternate4k",
+      "continuation": 4201,
+      "continuation_rng_seed": 679393678,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41015_r4201_alternate4k_O",
+      "kind": "evaluate",
+      "original_seed": 41015,
+      "parent": {
+        "from_job": "B_s41015_r4201_alternate4k_t40000",
+        "key": "checkpoint"
+      },
+      "bank": {
+        "from_job": "B_s41015_bank",
+        "key": "bank"
+      },
+      "role": "branch",
+      "condition": "alternate4k",
+      "continuation": 4201,
+      "horizon": 40000
+    },
+    {
+      "id": "B_s41015_r4201_mixture_t4000",
+      "kind": "train",
+      "original_seed": 41015,
+      "parent": {
+        "from_job": "B_s41015_pretrain_200000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 200000,
+      "steps": 4000,
+      "horizon": 4000,
+      "condition": "mixture",
+      "continuation": 4201,
+      "continuation_rng_seed": 679393678,
+      "start_branch": true,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41015_r4201_mixture_t8000",
+      "kind": "train",
+      "original_seed": 41015,
+      "parent": {
+        "from_job": "B_s41015_r4201_mixture_t4000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 204000,
+      "steps": 4000,
+      "horizon": 8000,
+      "condition": "mixture",
+      "continuation": 4201,
+      "continuation_rng_seed": 679393678,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41015_r4201_mixture_t20000",
+      "kind": "train",
+      "original_seed": 41015,
+      "parent": {
+        "from_job": "B_s41015_r4201_mixture_t8000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 208000,
+      "steps": 12000,
+      "horizon": 20000,
+      "condition": "mixture",
+      "continuation": 4201,
+      "continuation_rng_seed": 679393678,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41015_r4201_mixture_t40000",
+      "kind": "train",
+      "original_seed": 41015,
+      "parent": {
+        "from_job": "B_s41015_r4201_mixture_t20000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 220000,
+      "steps": 20000,
+      "horizon": 40000,
+      "condition": "mixture",
+      "continuation": 4201,
+      "continuation_rng_seed": 679393678,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41015_r4201_mixture_O",
+      "kind": "evaluate",
+      "original_seed": 41015,
+      "parent": {
+        "from_job": "B_s41015_r4201_mixture_t40000",
+        "key": "checkpoint"
+      },
+      "bank": {
+        "from_job": "B_s41015_bank",
+        "key": "bank"
+      },
+      "role": "branch",
+      "condition": "mixture",
+      "continuation": 4201,
+      "horizon": 40000
+    },
+    {
+      "id": "B_s41015_r4202_dose625_t4000",
+      "kind": "train",
+      "original_seed": 41015,
+      "parent": {
+        "from_job": "B_s41015_pretrain_200000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 200000,
+      "steps": 4000,
+      "horizon": 4000,
+      "condition": "dose625",
+      "continuation": 4202,
+      "continuation_rng_seed": 1363291514,
+      "start_branch": true,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41015_r4202_dose625_t8000",
+      "kind": "train",
+      "original_seed": 41015,
+      "parent": {
+        "from_job": "B_s41015_r4202_dose625_t4000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 204000,
+      "steps": 4000,
+      "horizon": 8000,
+      "condition": "dose625",
+      "continuation": 4202,
+      "continuation_rng_seed": 1363291514,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41015_r4202_dose625_t20000",
+      "kind": "train",
+      "original_seed": 41015,
+      "parent": {
+        "from_job": "B_s41015_r4202_dose625_t8000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 208000,
+      "steps": 12000,
+      "horizon": 20000,
+      "condition": "dose625",
+      "continuation": 4202,
+      "continuation_rng_seed": 1363291514,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41015_r4202_dose625_t40000",
+      "kind": "train",
+      "original_seed": 41015,
+      "parent": {
+        "from_job": "B_s41015_r4202_dose625_t20000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 220000,
+      "steps": 20000,
+      "horizon": 40000,
+      "condition": "dose625",
+      "continuation": 4202,
+      "continuation_rng_seed": 1363291514,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41015_r4202_dose625_O",
+      "kind": "evaluate",
+      "original_seed": 41015,
+      "parent": {
+        "from_job": "B_s41015_r4202_dose625_t40000",
+        "key": "checkpoint"
+      },
+      "bank": {
+        "from_job": "B_s41015_bank",
+        "key": "bank"
+      },
+      "role": "branch",
+      "condition": "dose625",
+      "continuation": 4202,
+      "horizon": 40000
+    },
+    {
+      "id": "B_s41015_r4202_alternate4k_t4000",
+      "kind": "train",
+      "original_seed": 41015,
+      "parent": {
+        "from_job": "B_s41015_pretrain_200000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 200000,
+      "steps": 4000,
+      "horizon": 4000,
+      "condition": "alternate4k",
+      "continuation": 4202,
+      "continuation_rng_seed": 1363291514,
+      "start_branch": true,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41015_r4202_alternate4k_t8000",
+      "kind": "train",
+      "original_seed": 41015,
+      "parent": {
+        "from_job": "B_s41015_r4202_alternate4k_t4000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 204000,
+      "steps": 4000,
+      "horizon": 8000,
+      "condition": "alternate4k",
+      "continuation": 4202,
+      "continuation_rng_seed": 1363291514,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41015_r4202_alternate4k_t20000",
+      "kind": "train",
+      "original_seed": 41015,
+      "parent": {
+        "from_job": "B_s41015_r4202_alternate4k_t8000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 208000,
+      "steps": 12000,
+      "horizon": 20000,
+      "condition": "alternate4k",
+      "continuation": 4202,
+      "continuation_rng_seed": 1363291514,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41015_r4202_alternate4k_t40000",
+      "kind": "train",
+      "original_seed": 41015,
+      "parent": {
+        "from_job": "B_s41015_r4202_alternate4k_t20000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 220000,
+      "steps": 20000,
+      "horizon": 40000,
+      "condition": "alternate4k",
+      "continuation": 4202,
+      "continuation_rng_seed": 1363291514,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41015_r4202_alternate4k_O",
+      "kind": "evaluate",
+      "original_seed": 41015,
+      "parent": {
+        "from_job": "B_s41015_r4202_alternate4k_t40000",
+        "key": "checkpoint"
+      },
+      "bank": {
+        "from_job": "B_s41015_bank",
+        "key": "bank"
+      },
+      "role": "branch",
+      "condition": "alternate4k",
+      "continuation": 4202,
+      "horizon": 40000
+    },
+    {
+      "id": "B_s41015_r4202_mixture_t4000",
+      "kind": "train",
+      "original_seed": 41015,
+      "parent": {
+        "from_job": "B_s41015_pretrain_200000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 200000,
+      "steps": 4000,
+      "horizon": 4000,
+      "condition": "mixture",
+      "continuation": 4202,
+      "continuation_rng_seed": 1363291514,
+      "start_branch": true,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41015_r4202_mixture_t8000",
+      "kind": "train",
+      "original_seed": 41015,
+      "parent": {
+        "from_job": "B_s41015_r4202_mixture_t4000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 204000,
+      "steps": 4000,
+      "horizon": 8000,
+      "condition": "mixture",
+      "continuation": 4202,
+      "continuation_rng_seed": 1363291514,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41015_r4202_mixture_t20000",
+      "kind": "train",
+      "original_seed": 41015,
+      "parent": {
+        "from_job": "B_s41015_r4202_mixture_t8000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 208000,
+      "steps": 12000,
+      "horizon": 20000,
+      "condition": "mixture",
+      "continuation": 4202,
+      "continuation_rng_seed": 1363291514,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41015_r4202_mixture_t40000",
+      "kind": "train",
+      "original_seed": 41015,
+      "parent": {
+        "from_job": "B_s41015_r4202_mixture_t20000",
+        "key": "checkpoint"
+      },
+      "parent_step": 200000,
+      "start_step": 220000,
+      "steps": 20000,
+      "horizon": 40000,
+      "condition": "mixture",
+      "continuation": 4202,
+      "continuation_rng_seed": 1363291514,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s41011_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41012_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41013_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41014_bank",
+          "key": "bank"
+        },
+        {
+          "from_job": "B_s41015_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s41015_r4202_mixture_O",
+      "kind": "evaluate",
+      "original_seed": 41015,
+      "parent": {
+        "from_job": "B_s41015_r4202_mixture_t40000",
+        "key": "checkpoint"
+      },
+      "bank": {
+        "from_job": "B_s41015_bank",
+        "key": "bank"
+      },
+      "role": "branch",
+      "condition": "mixture",
+      "continuation": 4202,
+      "horizon": 40000
+    }
+  ],
+  "source_hashes": {
+    "analyze.py": "0587324f5bb095eb9b2d68a9391d263c5429db6fb94b9da7e258d5234e1ebdac",
+    "campaign.py": "49df6a2b51c1de04aae9f74270709df30d6ef9cdb5621de0a7aedfd367ce061a",
+    "verify_implementation.py": "de4c92d4506ffbd9965c45f0ebc81b56716aa2188a037688926453d2d53eeee0",
+    "worker.py": "865a9f5ad28e6698768e526eba2a580d1ee78291dd9b48ff2fd85d15b3ccb01a",
+    "launch_queue.ps1": "ba7978ae6e4017cea0ac395945aa727015d5d32a1a2f87048724de8049286c9f",
+    "requirements.txt": "cb62ec70a441ab12b0a7caab26904375ffd55ce0ef5497b20e07a48205b43b1b",
+    "VERSION.json": "68f9afed4545274bb0fe3ba7f63c20fab4f3edc13a0cf7e5017de057557b5497",
+    "practice_allocation/__init__.py": "4215c51deb3d834c283aeed7c87b8747916234e964f1a8cd9eedadaf1e465a2f",
+    "practice_allocation/core.py": "507791b5674293ecd8ba616bfc46494c5cdf2544f9f8eeb9bddc83d1759286db",
+    "practice_allocation/engine.py": "ae090b11d36b715eb7c66ce89c39c1021d1de140abe7fbb5e820eff1ed4a3f26",
+    "practice_allocation/environment.py": "85afb8560da5160832e619f90608eae0b4b83aa75264376800111b295ef4e4e8",
+    "practice_allocation/evaluation.py": "196b18ad4b60bca516511e71a449b12b78784a20a1699caa207975203d5cc525",
+    "practice_allocation/learning.py": "e32e1f2e23490c651167af24386a3af5df005af766a33128c9bb75f719e30009",
+    "practice_allocation/schedules.py": "d114ce28a4b56e52ec53f1481f6393bdae1895cdb8d4393a10b175e1e36da4ec",
+    "practice_allocation/study_io.py": "20b46c67027a413857c80bbbd5e9dad469fae9ccafd468ef3b942dfc76389c53",
+    "configs/learner.json": "ef01032792813f0cd67b959f4b5c823090194b72efc126531ac955e68d8b23f5",
+    "configs/research_protocol.json": "0b21698f0268579a7f2ad68ef7628036389ace38be3579058432b662a860eaf4",
+    "configs/suites.json": "d94a146844590a1fd66e06625222db17340f442f992df674f069514330771c77"
+  },
+  "historical_forbidden": {
+    "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T055015Z_stage1_c82b28ef\\historical_forbidden.json",
+    "sha256": "5c8e18fbe536f0b0947331a3e84e9becbff0733d8e06723413ee3d19812aa333"
+  },
+  "verification": {
+    "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T054326Z_verify_ae5e8575\\summary.json",
+    "sha256": "b9a6fbe5555a5afceb6da8b8adb74693b04539bd12595c0755404e4740221290"
+  },
+  "maximum_attempts": 3,
+  "planned_training_steps": 2200000,
+  "scientific_effect_never_stops_within_stage": true,
+  "stage2_auto_training": false,
+  "stage2_requires": "scientific gate, frozen intervention specification and technical validation"
+}

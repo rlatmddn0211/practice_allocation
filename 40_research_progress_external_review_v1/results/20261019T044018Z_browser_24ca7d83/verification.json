@@ -1,0 +1,531 @@
+{
+  "started_at": "2026-10-19T04:40:18.457Z",
+  "url": "http://127.0.0.1:8740/",
+  "node": "v24.18.0",
+  "status": "passed",
+  "checks": [
+    {
+      "name": "browser_started",
+      "passed": true
+    },
+    {
+      "name": "report_mounted",
+      "passed": true
+    },
+    {
+      "name": "all_17_sections_rendered",
+      "passed": true,
+      "details": [
+        {
+          "id": "read-section-01",
+          "characters": 931
+        },
+        {
+          "id": "read-section-02",
+          "characters": 1133
+        },
+        {
+          "id": "read-section-03",
+          "characters": 2236
+        },
+        {
+          "id": "read-section-04",
+          "characters": 1211
+        },
+        {
+          "id": "read-section-05",
+          "characters": 768
+        },
+        {
+          "id": "read-section-06",
+          "characters": 840
+        },
+        {
+          "id": "read-section-07",
+          "characters": 1538
+        },
+        {
+          "id": "read-section-08",
+          "characters": 1211
+        },
+        {
+          "id": "read-section-09",
+          "characters": 648
+        },
+        {
+          "id": "read-section-10",
+          "characters": 4421
+        },
+        {
+          "id": "read-section-11",
+          "characters": 2306
+        },
+        {
+          "id": "read-section-12",
+          "characters": 2174
+        },
+        {
+          "id": "read-section-13",
+          "characters": 1306
+        },
+        {
+          "id": "read-section-14",
+          "characters": 1833
+        },
+        {
+          "id": "read-section-15",
+          "characters": 1783
+        },
+        {
+          "id": "read-section-16",
+          "characters": 956
+        },
+        {
+          "id": "read-section-17",
+          "characters": 1563
+        }
+      ]
+    },
+    {
+      "name": "section_1",
+      "passed": true
+    },
+    {
+      "name": "section_2",
+      "passed": true
+    },
+    {
+      "name": "section_3",
+      "passed": true
+    },
+    {
+      "name": "section_4",
+      "passed": true
+    },
+    {
+      "name": "section_5",
+      "passed": true
+    },
+    {
+      "name": "section_6",
+      "passed": true
+    },
+    {
+      "name": "section_7",
+      "passed": true
+    },
+    {
+      "name": "section_8",
+      "passed": true
+    },
+    {
+      "name": "section_9",
+      "passed": true
+    },
+    {
+      "name": "section_10",
+      "passed": true
+    },
+    {
+      "name": "section_11",
+      "passed": true
+    },
+    {
+      "name": "section_12",
+      "passed": true
+    },
+    {
+      "name": "section_13",
+      "passed": true
+    },
+    {
+      "name": "section_14",
+      "passed": true
+    },
+    {
+      "name": "section_15",
+      "passed": true
+    },
+    {
+      "name": "section_16",
+      "passed": true
+    },
+    {
+      "name": "section_17",
+      "passed": true
+    },
+    {
+      "name": "no_fixture_or_encoding_markers",
+      "passed": true
+    },
+    {
+      "name": "all_markdown_tables_rendered",
+      "passed": true,
+      "details": {
+        "expected": 15,
+        "actual": 15
+      }
+    },
+    {
+      "name": "all_table_rows_visible",
+      "passed": true,
+      "details": 104
+    },
+    {
+      "name": "key_values_7",
+      "passed": true
+    },
+    {
+      "name": "key_values_10",
+      "passed": true
+    },
+    {
+      "name": "key_values_11",
+      "passed": true
+    },
+    {
+      "name": "key_values_12",
+      "passed": true
+    },
+    {
+      "name": "key_values_15",
+      "passed": true
+    },
+    {
+      "name": "desktop_no_page_overflow",
+      "passed": true,
+      "details": {
+        "width": 1345,
+        "scroll": 1345,
+        "tables": [
+          {
+            "width": 1040,
+            "scroll": 1040,
+            "client": 1040,
+            "rows": 8
+          },
+          {
+            "width": 1040,
+            "scroll": 1040,
+            "client": 1040,
+            "rows": 4
+          },
+          {
+            "width": 1040,
+            "scroll": 1040,
+            "client": 1040,
+            "rows": 9
+          },
+          {
+            "width": 1040,
+            "scroll": 1040,
+            "client": 1040,
+            "rows": 3
+          },
+          {
+            "width": 1040,
+            "scroll": 1040,
+            "client": 1040,
+            "rows": 6
+          },
+          {
+            "width": 1040,
+            "scroll": 1040,
+            "client": 1040,
+            "rows": 6
+          },
+          {
+            "width": 1040,
+            "scroll": 1040,
+            "client": 1040,
+            "rows": 7
+          },
+          {
+            "width": 1040,
+            "scroll": 1040,
+            "client": 1040,
+            "rows": 9
+          },
+          {
+            "width": 1040,
+            "scroll": 1040,
+            "client": 1040,
+            "rows": 3
+          },
+          {
+            "width": 1040,
+            "scroll": 1040,
+            "client": 1040,
+            "rows": 4
+          },
+          {
+            "width": 1040,
+            "scroll": 1040,
+            "client": 1040,
+            "rows": 8
+          },
+          {
+            "width": 1040,
+            "scroll": 1040,
+            "client": 1040,
+            "rows": 9
+          },
+          {
+            "width": 1040,
+            "scroll": 1040,
+            "client": 1040,
+            "rows": 2
+          },
+          {
+            "width": 1040,
+            "scroll": 1040,
+            "client": 1040,
+            "rows": 9
+          },
+          {
+            "width": 1040,
+            "scroll": 1040,
+            "client": 1040,
+            "rows": 3
+          },
+          {
+            "width": 1040,
+            "scroll": 1040,
+            "client": 1040,
+            "rows": 5
+          },
+          {
+            "width": 1040,
+            "scroll": 1040,
+            "client": 1040,
+            "rows": 9
+          },
+          {
+            "width": 1040,
+            "scroll": 1040,
+            "client": 1040,
+            "rows": 2
+          },
+          {
+            "width": 1040,
+            "scroll": 1040,
+            "client": 1040,
+            "rows": 6
+          },
+          {
+            "width": 1040,
+            "scroll": 1040,
+            "client": 1040,
+            "rows": 9
+          },
+          {
+            "width": 1040,
+            "scroll": 1040,
+            "client": 1040,
+            "rows": 4
+          }
+        ]
+      }
+    },
+    {
+      "name": "desktop_tables_present",
+      "passed": true
+    },
+    {
+      "name": "narrow_no_page_overflow",
+      "passed": true,
+      "details": {
+        "width": 405,
+        "scroll": 405,
+        "tables": [
+          {
+            "width": 365,
+            "scroll": 365,
+            "client": 365,
+            "rows": 8
+          },
+          {
+            "width": 365,
+            "scroll": 365,
+            "client": 365,
+            "rows": 4
+          },
+          {
+            "width": 450,
+            "scroll": 450,
+            "client": 450,
+            "rows": 9
+          },
+          {
+            "width": 450,
+            "scroll": 450,
+            "client": 450,
+            "rows": 3
+          },
+          {
+            "width": 450,
+            "scroll": 450,
+            "client": 450,
+            "rows": 6
+          },
+          {
+            "width": 450,
+            "scroll": 450,
+            "client": 450,
+            "rows": 6
+          },
+          {
+            "width": 450,
+            "scroll": 450,
+            "client": 450,
+            "rows": 7
+          },
+          {
+            "width": 365,
+            "scroll": 365,
+            "client": 365,
+            "rows": 9
+          },
+          {
+            "width": 365,
+            "scroll": 365,
+            "client": 365,
+            "rows": 3
+          },
+          {
+            "width": 365,
+            "scroll": 365,
+            "client": 365,
+            "rows": 4
+          },
+          {
+            "width": 450,
+            "scroll": 450,
+            "client": 450,
+            "rows": 8
+          },
+          {
+            "width": 365,
+            "scroll": 365,
+            "client": 365,
+            "rows": 9
+          },
+          {
+            "width": 365,
+            "scroll": 365,
+            "client": 365,
+            "rows": 2
+          },
+          {
+            "width": 365,
+            "scroll": 365,
+            "client": 365,
+            "rows": 9
+          },
+          {
+            "width": 365.4375,
+            "scroll": 365,
+            "client": 365,
+            "rows": 3
+          },
+          {
+            "width": 365,
+            "scroll": 365,
+            "client": 365,
+            "rows": 5
+          },
+          {
+            "width": 365,
+            "scroll": 365,
+            "client": 365,
+            "rows": 9
+          },
+          {
+            "width": 365,
+            "scroll": 365,
+            "client": 365,
+            "rows": 2
+          },
+          {
+            "width": 365,
+            "scroll": 365,
+            "client": 365,
+            "rows": 6
+          },
+          {
+            "width": 365,
+            "scroll": 365,
+            "client": 365,
+            "rows": 9
+          },
+          {
+            "width": 443.96875,
+            "scroll": 444,
+            "client": 444,
+            "rows": 4
+          }
+        ]
+      }
+    },
+    {
+      "name": "narrow_tables_present",
+      "passed": true
+    },
+    {
+      "name": "toc_targets_exist",
+      "passed": true
+    },
+    {
+      "name": "one_current_snapshot",
+      "passed": true,
+      "details": [
+        "snapshot.358a2c6b9e6ceb47bd006116c389c210fd96356d5282b472e06366d4d71fd31d.json"
+      ]
+    },
+    {
+      "name": "served_snapshot_complete",
+      "passed": true
+    },
+    {
+      "name": "source_scopes",
+      "passed": true
+    },
+    {
+      "name": "no_uncaught_browser_errors",
+      "passed": true,
+      "details": []
+    }
+  ],
+  "exceptions": [],
+  "screenshots": [
+    "desktop_section_1.png",
+    "desktop_section_10.png",
+    "desktop_section_11.png",
+    "desktop_section_12.png",
+    "desktop_section_15.png",
+    "narrow_section_1.png",
+    "narrow_section_11.png"
+  ],
+  "source_sha256": "578c4dcde3ee0b5554758b95934f7ebd15a84482870b5d815503882342a31456",
+  "report_sha256": "4682a902b611bef1740fe2220bf4320e11713dd9b11677604657ee2ed1a2654f",
+  "build": {
+    "version": 1,
+    "kind": "separate-data-v1",
+    "html": {
+      "path": "index.html",
+      "sha256": "f3739b0292b2d41d6553f0bc73eccd82d05b10b4ec7ffdbc81518e0c732507eb",
+      "bytes": 2855125
+    },
+    "snapshot": {
+      "path": "snapshot.358a2c6b9e6ceb47bd006116c389c210fd96356d5282b472e06366d4d71fd31d.json",
+      "sha256": "358a2c6b9e6ceb47bd006116c389c210fd96356d5282b472e06366d4d71fd31d",
+      "bytes": 189288
+    },
+    "runtimeSha256": "9e3ede84b28aded3c7379b6e6a5611f0d95b9977eb0f781e279ceefabfcbd27e",
+    "sourceSnapshotSha256": "358a2c6b9e6ceb47bd006116c389c210fd96356d5282b472e06366d4d71fd31d"
+  },
+  "environment_steps": 0,
+  "persistent_updates": 0,
+  "clone_updates": 0,
+  "finished_at": "2026-10-19T04:40:20.053Z"
+}

@@ -1,0 +1,35 @@
+{
+  "version": "47_existing_data_path_loss_analysis_v1",
+  "authorization": "2026-10-20 user: scope A only",
+  "protocol": "../46_post_stage1_path_loss_design_v1/protocol.json",
+  "scope": ["A1", "A2", "A3"],
+  "new_environment_steps": 0,
+  "new_SAC_updates": 0,
+  "not_authorized": ["B checkpoint evaluation", "C future training", "original stages 2/3"],
+  "implementation_details_fixed_before_analysis": {
+    "A1": {
+      "pairwise_controls": "BP remains an external comparator for every pair; the leave-parent-out fixed method is selected only from that pair.",
+      "uncertainty": "Report all five parent scores and full parent-removal refits. No extra split search or unplanned significance test."
+    },
+    "A2": {
+      "replicates": 20000,
+      "rng": "numpy Generator PCG64 seed 460202",
+      "sampling_order": "parent order 41011..41015 then task DO/DC/PU/BP; generate a 20000 x 100 integer index array per stratum",
+      "sampled_policy_order": "parent, dose625_4201, dose625_4202, alternate4k_4201, alternate4k_4202, mixture_4201, mixture_4202",
+      "contrast_order": "parent, combinations of (dose625,alternate4k,mixture), then 4201,4202,4202-minus-4201; first method minus second",
+      "SE_ddof": 1,
+      "percentile_method": "numpy linear",
+      "simultaneous_intervals": "observed +/- quantile_0.95(max(abs((bootstrap-observed)/bootstrap_SD))) * bootstrap_SD",
+      "zero_SE": "Exclude from max statistic, record degenerate interval, cannot pass affirmative screen",
+      "preservation": "Save all resampled indices, all seven-policy bootstrap means, all 45 bootstrap contrasts"
+    },
+    "A3": {
+      "windows": "step > lower and step <= upper; pretraining 20k, continuation 4k",
+      "episode_returns": "Full 500-step training episodes only; success means any success within the episode",
+      "counters": "Subtract cumulative counters at window start, including parent200k counters at branch start",
+      "raw_metrics": "Retain every recorded 250-step snapshot, no interpolation or fabricated entropy/action history",
+      "prefix": "z from first two 4k windows, valid when >=12 TD snapshots in each; descriptive only, no stopping-rule fit without B labels",
+      "association": "No post-hoc threshold is used as an inferential test or to change the frozen score"
+    }
+  }
+}

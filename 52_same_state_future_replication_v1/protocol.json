@@ -1,0 +1,32 @@
+{
+  "version": "52_same_state_future_replication_v1",
+  "status": "authorized_execution_of_protocol51",
+  "authorization_date": "2026-10-20",
+  "authorization": "User: 바로 진행해줘, 실험 규모가 2백만정도아니야?",
+  "scientific_protocol": "inputs/protocol51.json",
+  "scientific_protocol_sha256": "d1133da832a8840dfa1114d5b3a4d2386185f1519ea713be78d8a86e4fbd760d",
+  "state_manifest_sha256": "63728184cc1cdf4dcccacfd7140fc3c1e66908c4bef5c7f8182b4f0a7f953607",
+  "fixed_choices_sha256": "cb0d8bad79f4adb67aab47244634e312c862b1a6b31841733e66640aa065cddb",
+  "states": 10,
+  "new_futures_per_state": 1,
+  "training_steps_per_state": 32000,
+  "training_steps_total": 320000,
+  "evaluation_cases_per_task": 100,
+  "evaluation_max_steps_per_case": 500,
+  "evaluation_cap_total": 2000000,
+  "technical_environment_cap_all_attempts": 10000,
+  "total_environment_cap": 2330000,
+  "automatic_retry_reserve": 0,
+  "max_parallel_workers": 1,
+  "full_checkpoint_absolute_steps": [216000, 224000, 232000, 240000],
+  "technical_plan": {
+    "full_restore_and_rng_only_checks": "all ten states, zero environment steps",
+    "same_old_rng_traces": "two independent restores, 500 training steps each",
+    "new_rng_horizon_and_checkpoint_equivalence": "1000 uninterrupted versus 500 + lossless save/load + 500 steps",
+    "known_8k_evaluation": "one existing O100 case per task, at most 2000 steps",
+    "maximum_first_technical_run_steps": 5000
+  },
+  "analysis": "Preserve protocol51 primary crossed-half estimands, both new-future fixed comparators and all investment gates unchanged. Full O100 selection remains secondary. No fitting or extra futures.",
+  "failure_policy": "Stop on technical integrity failure; preserve all attempts and checkpoints. No unattended retries or new branches.",
+  "C_and_original_stages_2_3": "held_not_scheduled"
+}

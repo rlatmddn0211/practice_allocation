@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-19",
+  "status": "proposal_only_not_executed",
+  "research_target": "Identify when early learning and transfer signals fail to predict remaining-budget gains, then test whether a cheap correction improves actual allocation",
+  "first_packet": {
+    "purpose": "Small prospective replication and decision-scope audit, not final independent confirmation of an allocation algorithm",
+    "suite": "B",
+    "tasks": ["DO", "DC", "PU", "BP"],
+    "new_original_seeds": 4,
+    "continuations_per_parent": 2,
+    "seed_labels": "Assign unused original and continuation streams before implementation; do not reuse original 11/12/13 or 901 as new originals",
+    "pretraining_steps_per_original": 200000,
+    "branch_steps": 40000,
+    "conditions": ["dose25", "dose625", "alternate4k", "mixture"],
+    "primary_contrast": "alternate4k minus mixture",
+    "secondary_comparisons": ["alternate4k minus dose625", "all conditions minus dose25", "all conditions minus parent policy", "per-task losses and gains"],
+    "checkpoints_to_preserve_after_parent": [4000, 8000, 20000, 40000],
+    "intermediate_environment_evaluations_in_this_packet": 0,
+    "outcome_evaluation": {
+      "tasks_per_policy": 4,
+      "cases_per_task": 100,
+      "max_steps_per_episode": 500,
+      "evaluate_parent_once_per_original": true,
+      "evaluate_final_branch_once": true,
+      "case_pairing": "Fresh cases shared across conditions within each parent, disjoint from training and historical evaluation banks",
+      "use": "Research outcome only; not used for policy selection, parent filtering, checkpoint choice, or early stopping"
+    },
+    "screening_gate_proposal": {
+      "mean_primary_difference_pp_at_least": 2.0,
+      "positive_original_seed_means_at_least": 3,
+      "all_leave_one_original_out_means_positive": true,
+      "meaning": "Operational prioritization rule only; not statistical significance, power guarantee, or a final scientific confirmation criterion"
+    },
+    "execution_rule": "Run every predeclared cell and retain adverse outcomes; scientific effect direction does not change the sample count",
+    "outside_cost_bound": ["Technical validation runs", "Optional intermediate diagnostics", "A/C expansion", "Full four-dose curvature replication", "Mechanism intervention", "Later prediction or online-allocation experiments"]
+  },
+  "later_stages": [
+    "Directly measure early-to-final prediction failures on the same actual continuations, with D/O separation and whole-original-seed holdout",
+    "For switching claims, branch alternatives from the same full diagnostic checkpoint; do not splice separately trained trajectories",
+    "Freeze a small selection/correction rule and compare on fresh original seeds with all diagnostic environment costs included",
+    "Check A/C, then unseen task families or another benchmark before broad generalization claims"
+  ],
+  "evidence": {
+    "contrast_review": "37_f08_integrated_candidate_review_v1/results/20261019T024708Z_review_cef06973/contrast_review.csv",
+    "condition_means": "37_f08_integrated_candidate_review_v1/results/20261019T024708Z_review_cef06973/condition_means.csv",
+    "factor_register": "37_f08_integrated_candidate_review_v1/factor_status_ko.md",
+    "original_screening_design": "23_candidate_factor_screening_design_v1/research_design_ko.md"
+  }
+}

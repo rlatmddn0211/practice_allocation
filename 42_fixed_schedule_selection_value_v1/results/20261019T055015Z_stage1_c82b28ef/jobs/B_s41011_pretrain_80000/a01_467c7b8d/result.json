@@ -1,0 +1,17 @@
+{
+  "id": "B_s41011_pretrain_80000",
+  "kind": "train",
+  "original_seed": 41011,
+  "checkpoint": {
+    "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T055015Z_stage1_c82b28ef\\jobs\\B_s41011_pretrain_80000\\a01_467c7b8d\\checkpoint",
+    "manifest_sha256": "012ea7c02e87d808d5d37d8d697cf461d9da630263449a2b95b3756feb1b454d"
+  },
+  "step": 80000,
+  "collected": {
+    "DO": 5000,
+    "DC": 5000,
+    "PU": 5000,
+    "BP": 5000
+  },
+  "episode_order_verified": true
+}

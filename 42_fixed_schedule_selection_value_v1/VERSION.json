@@ -1,0 +1,58 @@
+{
+  "version": "42_fixed_schedule_selection_value_v1",
+  "date": "2026-10-19",
+  "copied_from": "32_dose_order_intervention_v1",
+  "runtime_imports_from_prior_versions": false,
+  "copied_files": [
+    {
+      "source": "32_dose_order_intervention_v1\\practice_allocation\\core.py",
+      "destination": "42_fixed_schedule_selection_value_v1\\practice_allocation\\core.py",
+      "sha256": "507791b5674293ecd8ba616bfc46494c5cdf2544f9f8eeb9bddc83d1759286db"
+    },
+    {
+      "source": "32_dose_order_intervention_v1\\practice_allocation\\engine.py",
+      "destination": "42_fixed_schedule_selection_value_v1\\practice_allocation\\engine.py",
+      "sha256": "ae090b11d36b715eb7c66ce89c39c1021d1de140abe7fbb5e820eff1ed4a3f26"
+    },
+    {
+      "source": "32_dose_order_intervention_v1\\practice_allocation\\environment.py",
+      "destination": "42_fixed_schedule_selection_value_v1\\practice_allocation\\environment.py",
+      "sha256": "85afb8560da5160832e619f90608eae0b4b83aa75264376800111b295ef4e4e8"
+    },
+    {
+      "source": "32_dose_order_intervention_v1\\practice_allocation\\evaluation.py",
+      "destination": "42_fixed_schedule_selection_value_v1\\practice_allocation\\evaluation.py",
+      "sha256": "196b18ad4b60bca516511e71a449b12b78784a20a1699caa207975203d5cc525"
+    },
+    {
+      "source": "32_dose_order_intervention_v1\\practice_allocation\\learning.py",
+      "destination": "42_fixed_schedule_selection_value_v1\\practice_allocation\\learning.py",
+      "sha256": "e32e1f2e23490c651167af24386a3af5df005af766a33128c9bb75f719e30009"
+    },
+    {
+      "source": "32_dose_order_intervention_v1\\practice_allocation\\schedules.py",
+      "destination": "42_fixed_schedule_selection_value_v1\\practice_allocation\\schedules.py",
+      "sha256": "d114ce28a4b56e52ec53f1481f6393bdae1895cdb8d4393a10b175e1e36da4ec"
+    },
+    {
+      "source": "32_dose_order_intervention_v1\\practice_allocation\\study_io.py",
+      "destination": "42_fixed_schedule_selection_value_v1\\practice_allocation\\study_io.py",
+      "sha256": "20b46c67027a413857c80bbbd5e9dad469fae9ccafd468ef3b942dfc76389c53"
+    },
+    {
+      "source": "32_dose_order_intervention_v1\\practice_allocation\\__init__.py",
+      "destination": "42_fixed_schedule_selection_value_v1\\practice_allocation\\__init__.py",
+      "sha256": "4215c51deb3d834c283aeed7c87b8747916234e964f1a8cd9eedadaf1e465a2f"
+    },
+    {
+      "source": "32_dose_order_intervention_v1\\configs\\learner.json",
+      "destination": "42_fixed_schedule_selection_value_v1\\configs\\learner.json",
+      "sha256": "afca608726f30155b9dbda16b67a4d4885ab10d4baafaba9e44d270b8cf17169"
+    },
+    {
+      "source": "32_dose_order_intervention_v1\\configs\\suites.json",
+      "destination": "42_fixed_schedule_selection_value_v1\\configs\\suites.json",
+      "sha256": "d94a146844590a1fd66e06625222db17340f442f992df674f069514330771c77"
+    }
+  ]
+}

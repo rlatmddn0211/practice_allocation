@@ -1,0 +1,327 @@
+{
+  "execution_status": "completed_existing_data_supplement",
+  "scientific_scope": "posthoc_descriptive_not_online_policy_or_population_bound",
+  "full": {
+    "J8": 34.725,
+    "J40": 34.075,
+    "hindsight": 36.45,
+    "observed_better_fixed": 34.725,
+    "observed_better_fixed_label": "stop8",
+    "hindsight_minus_stop": 1.725,
+    "hindsight_minus_continue": 2.375,
+    "hindsight_minus_observed_better_fixed": 1.725
+  },
+  "contributions": [
+    {
+      "parent": 41011,
+      "contribution_vs_stop_pp": 0.0,
+      "contribution_vs_continue_pp": 0.45,
+      "contribution_vs_observed_better_fixed_pp": 0.0,
+      "fraction_of_full_gain": 0.0
+    },
+    {
+      "parent": 41012,
+      "contribution_vs_stop_pp": 0.1,
+      "contribution_vs_continue_pp": 0.0,
+      "contribution_vs_observed_better_fixed_pp": 0.1,
+      "fraction_of_full_gain": 0.057971014492753624
+    },
+    {
+      "parent": 41013,
+      "contribution_vs_stop_pp": 0.075,
+      "contribution_vs_continue_pp": 0.725,
+      "contribution_vs_observed_better_fixed_pp": 0.075,
+      "fraction_of_full_gain": 0.043478260869565216
+    },
+    {
+      "parent": 41014,
+      "contribution_vs_stop_pp": 0.0,
+      "contribution_vs_continue_pp": 1.2,
+      "contribution_vs_observed_better_fixed_pp": 0.0,
+      "fraction_of_full_gain": 0.0
+    },
+    {
+      "parent": 41015,
+      "contribution_vs_stop_pp": 1.55,
+      "contribution_vs_continue_pp": 0.0,
+      "contribution_vs_observed_better_fixed_pp": 1.55,
+      "fraction_of_full_gain": 0.8985507246376812
+    }
+  ],
+  "leave_one_parent_out": [
+    {
+      "excluded_parent": 41011,
+      "remaining_parents": 4,
+      "J8": 33.0,
+      "J40": 32.75,
+      "hindsight": 35.15625,
+      "observed_better_fixed": 33.0,
+      "observed_better_fixed_label": "stop8",
+      "hindsight_minus_stop": 2.15625,
+      "hindsight_minus_continue": 2.40625,
+      "hindsight_minus_observed_better_fixed": 2.15625
+    },
+    {
+      "excluded_parent": 41012,
+      "remaining_parents": 4,
+      "J8": 31.03125,
+      "J40": 30.09375,
+      "hindsight": 33.0625,
+      "observed_better_fixed": 31.03125,
+      "observed_better_fixed_label": "stop8",
+      "hindsight_minus_stop": 2.03125,
+      "hindsight_minus_continue": 2.96875,
+      "hindsight_minus_observed_better_fixed": 2.03125
+    },
+    {
+      "excluded_parent": 41013,
+      "remaining_parents": 4,
+      "J8": 42.21875,
+      "J40": 42.21875,
+      "hindsight": 44.28125,
+      "observed_better_fixed": 42.21875,
+      "observed_better_fixed_label": "stop8",
+      "hindsight_minus_stop": 2.0625,
+      "hindsight_minus_continue": 2.0625,
+      "hindsight_minus_observed_better_fixed": 2.0625
+    },
+    {
+      "excluded_parent": 41014,
+      "remaining_parents": 4,
+      "J8": 33.0625,
+      "J40": 33.75,
+      "hindsight": 35.21875,
+      "observed_better_fixed": 33.75,
+      "observed_better_fixed_label": "continue40",
+      "hindsight_minus_stop": 2.15625,
+      "hindsight_minus_continue": 1.46875,
+      "hindsight_minus_observed_better_fixed": 1.46875
+    },
+    {
+      "excluded_parent": 41015,
+      "remaining_parents": 4,
+      "J8": 34.3125,
+      "J40": 31.5625,
+      "hindsight": 34.53125,
+      "observed_better_fixed": 34.3125,
+      "observed_better_fixed_label": "stop8",
+      "hindsight_minus_stop": 0.21875,
+      "hindsight_minus_continue": 2.96875,
+      "hindsight_minus_observed_better_fixed": 0.21875
+    }
+  ],
+  "task_groups": [
+    {
+      "group": "all",
+      "task": "DO",
+      "parents": 5,
+      "J0": 0.0,
+      "J8": 0.0,
+      "J40": 0.0,
+      "early": 0.0,
+      "late": 0.0
+    },
+    {
+      "group": "all",
+      "task": "DC",
+      "parents": 5,
+      "J0": 82.2,
+      "J8": 81.6,
+      "J40": 80.5,
+      "early": -0.6,
+      "late": -1.1
+    },
+    {
+      "group": "all",
+      "task": "PU",
+      "parents": 5,
+      "J0": 1.6,
+      "J8": 2.7,
+      "J40": 4.4,
+      "early": 1.1,
+      "late": 1.7
+    },
+    {
+      "group": "all",
+      "task": "BP",
+      "parents": 5,
+      "J0": 51.0,
+      "J8": 54.6,
+      "J40": 51.4,
+      "early": 3.6,
+      "late": -3.2
+    },
+    {
+      "group": "only41013",
+      "task": "DO",
+      "parents": 1,
+      "J0": 0.0,
+      "J8": 0.0,
+      "J40": 0.0,
+      "early": 0.0,
+      "late": 0.0
+    },
+    {
+      "group": "only41013",
+      "task": "DC",
+      "parents": 1,
+      "J0": 17.0,
+      "J8": 13.5,
+      "J40": 2.5,
+      "early": -3.5,
+      "late": -11.0
+    },
+    {
+      "group": "only41013",
+      "task": "PU",
+      "parents": 1,
+      "J0": 0.0,
+      "J8": 5.5,
+      "J40": 3.5,
+      "early": 5.5,
+      "late": -2.0
+    },
+    {
+      "group": "only41013",
+      "task": "BP",
+      "parents": 1,
+      "J0": 0.0,
+      "J8": 0.0,
+      "J40": 0.0,
+      "early": 0.0,
+      "late": 0.0
+    },
+    {
+      "group": "without41013",
+      "task": "DO",
+      "parents": 4,
+      "J0": 0.0,
+      "J8": 0.0,
+      "J40": 0.0,
+      "early": 0.0,
+      "late": 0.0
+    },
+    {
+      "group": "without41013",
+      "task": "DC",
+      "parents": 4,
+      "J0": 98.5,
+      "J8": 98.625,
+      "J40": 100.0,
+      "early": 0.125,
+      "late": 1.375
+    },
+    {
+      "group": "without41013",
+      "task": "PU",
+      "parents": 4,
+      "J0": 2.0,
+      "J8": 2.0,
+      "J40": 4.625,
+      "early": 0.0,
+      "late": 2.625
+    },
+    {
+      "group": "without41013",
+      "task": "BP",
+      "parents": 4,
+      "J0": 63.75,
+      "J8": 68.25,
+      "J40": 64.25,
+      "early": 4.5,
+      "late": -4.0
+    }
+  ],
+  "late_components": [
+    {
+      "group": "all",
+      "new_success": 2.45,
+      "recovery": 1.6,
+      "old_success_lost_late": 3.425,
+      "early_gain_lost_late": 1.275,
+      "net": -0.65,
+      "full_mean_weight": 1.0
+    },
+    {
+      "group": "only41015",
+      "new_success": 2.375,
+      "recovery": 6.625,
+      "old_success_lost_late": 1.125,
+      "early_gain_lost_late": 0.125,
+      "net": 7.75,
+      "full_mean_weight": 0.2
+    }
+  ],
+  "independent_parents": 5,
+  "future_draws_per_state": 1,
+  "future_repetition_proposal": {
+    "states": 10,
+    "new_futures_per_state": 1,
+    "training_per_state": 32000,
+    "training_total": 320000,
+    "evaluation_cap": 2000000,
+    "main_environment_cap": 2320000,
+    "technical_cap": null,
+    "status": "proposal_only_not_scheduled"
+  },
+  "resource_saving": {
+    "additional_training_fraction": 0.8,
+    "total_training_including_parent_fraction": 0.13333333333333333,
+    "noninferiority_established": false
+  },
+  "prior_fixed_comparison_intervals": [
+    {
+      "contrast": "early",
+      "difference_pp": 1.025,
+      "case_marginal_low_pp": 0.075,
+      "case_marginal_high_pp": 2.0,
+      "parent_percentile_low_pp": -4.8,
+      "parent_percentile_high_pp": 7.95,
+      "parent_resamples": 3125,
+      "independent_parents": 5
+    },
+    {
+      "contrast": "late",
+      "difference_pp": -0.65,
+      "case_marginal_low_pp": -1.55,
+      "case_marginal_high_pp": 0.275,
+      "parent_percentile_low_pp": -4.15,
+      "parent_percentile_high_pp": 3.75,
+      "parent_resamples": 3125,
+      "independent_parents": 5
+    },
+    {
+      "contrast": "total",
+      "difference_pp": 0.375,
+      "case_marginal_low_pp": -0.75,
+      "case_marginal_high_pp": 1.5,
+      "parent_percentile_low_pp": -4.775,
+      "parent_percentile_high_pp": 7.525,
+      "parent_resamples": 3125,
+      "independent_parents": 5
+    },
+    {
+      "contrast": "stop8_advantage",
+      "difference_pp": 0.65,
+      "case_marginal_low_pp": -0.275,
+      "case_marginal_high_pp": 1.55,
+      "parent_percentile_low_pp": -3.75,
+      "parent_percentile_high_pp": 4.15,
+      "parent_resamples": 3125,
+      "independent_parents": 5
+    }
+  ],
+  "current_candidate_expansion": "closed_at_current_evidence",
+  "C": "held_not_scheduled",
+  "original_stages_2_3": "held_not_scheduled",
+  "new_environment_steps": 0,
+  "new_training_steps": 0,
+  "new_SAC_updates": 0,
+  "wall_seconds": 0.08223589998669922,
+  "CPU_seconds": 0.015625,
+  "runtime": {
+    "python": "3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.22621-SP0",
+    "numerical_method": "exact fractions"
+  }
+}

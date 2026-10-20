@@ -1,0 +1,36 @@
+{
+  "id": "B_s41011_parent_O",
+  "kind": "evaluate",
+  "original_seed": 41011,
+  "role": "parent",
+  "evaluation": {
+    "episodes": 400,
+    "environment_steps": 124300,
+    "seconds": 217.88976570009254,
+    "steps_per_second": 570.4719521847061,
+    "success_by_task": {
+      "DO": 0.0,
+      "DC": 1.0,
+      "PU": 0.01,
+      "BP": 0.6
+    },
+    "macro_success": 0.40249999999999997,
+    "success_counts": {
+      "DO": 0,
+      "DC": 100,
+      "PU": 1,
+      "BP": 60
+    },
+    "episodes_by_task": {
+      "DO": 100,
+      "DC": 100,
+      "PU": 100,
+      "BP": 100
+    },
+    "results_hash": "a6b0d68e5befa5f7a3a60e3091da8515e19076780f486c7f05b378916990bf7b",
+    "purpose": "Final research scoring; no online feedback"
+  },
+  "evaluation_state_unchanged": true,
+  "episodes_path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\44_selection_value_stage1_checkpoint36_v2\\results\\20261019T064658Z_stage1_2cbbdd65\\jobs\\B_s41011_parent_O\\a01_e362c512\\evaluation_episodes.csv",
+  "episodes_sha256": "5556fa946533ecf2364111e79cf3b43ccbd96675b6b51be3a87c4b5791493ac9"
+}

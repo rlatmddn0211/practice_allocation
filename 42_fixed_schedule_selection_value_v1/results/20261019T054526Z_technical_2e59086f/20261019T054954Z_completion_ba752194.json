@@ -1,0 +1,220 @@
+{
+  "execution_status": "completed",
+  "technical_smoke": true,
+  "jobs_completed": 13,
+  "actual_environment_steps_recorded": 22736,
+  "actual_update_iterations_recorded": 6000,
+  "costs_exact": true,
+  "costs": [
+    {
+      "attempt": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T054526Z_technical_2e59086f\\jobs\\B_s42999_bank\\a01_d73b3048",
+      "status": "completed",
+      "costs": {
+        "environment_creations": 16,
+        "resets": 16,
+        "environment_steps": 0,
+        "train_iterations": 0,
+        "evaluation_episodes": 0
+      },
+      "wall_seconds": 1.29238090000581,
+      "cpu_seconds": 0.453125,
+      "technical_smoke": true,
+      "gpu_busy_seconds": null,
+      "exact": true
+    },
+    {
+      "attempt": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T054526Z_technical_2e59086f\\jobs\\B_s42999_init\\a01_070cd5d4",
+      "status": "completed",
+      "costs": {
+        "environment_creations": 0,
+        "resets": 0,
+        "environment_steps": 0,
+        "train_iterations": 0,
+        "evaluation_episodes": 0
+      },
+      "wall_seconds": 2.943481900030747,
+      "cpu_seconds": 1.84375,
+      "technical_smoke": true,
+      "gpu_busy_seconds": null,
+      "exact": true
+    },
+    {
+      "attempt": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T054526Z_technical_2e59086f\\jobs\\B_s42999_parent_O\\a01_faa4f87b",
+      "status": "completed",
+      "costs": {
+        "environment_creations": 8,
+        "resets": 8,
+        "environment_steps": 4000,
+        "train_iterations": 0,
+        "evaluation_episodes": 8
+      },
+      "wall_seconds": 9.98226059996523,
+      "cpu_seconds": 4.5,
+      "technical_smoke": true,
+      "gpu_busy_seconds": null,
+      "exact": true
+    },
+    {
+      "attempt": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T054526Z_technical_2e59086f\\jobs\\B_s42999_pretrain_4000\\a01_ac7f9e1a",
+      "status": "completed",
+      "costs": {
+        "environment_creations": 8,
+        "resets": 8,
+        "environment_steps": 4000,
+        "train_iterations": 3000,
+        "evaluation_episodes": 0
+      },
+      "wall_seconds": 58.216984499944374,
+      "cpu_seconds": 27.734375,
+      "technical_smoke": true,
+      "gpu_busy_seconds": null,
+      "exact": true
+    },
+    {
+      "attempt": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T054526Z_technical_2e59086f\\jobs\\B_s42999_r42901_alternate4k_O\\a01_b20a901f",
+      "status": "completed",
+      "costs": {
+        "environment_creations": 8,
+        "resets": 8,
+        "environment_steps": 4000,
+        "train_iterations": 0,
+        "evaluation_episodes": 8
+      },
+      "wall_seconds": 9.638903599930927,
+      "cpu_seconds": 4.796875,
+      "technical_smoke": true,
+      "gpu_busy_seconds": null,
+      "exact": true
+    },
+    {
+      "attempt": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T054526Z_technical_2e59086f\\jobs\\B_s42999_r42901_alternate4k_t1000\\a01_5b5a1781",
+      "status": "completed",
+      "costs": {
+        "environment_creations": 1,
+        "resets": 1,
+        "environment_steps": 500,
+        "train_iterations": 500,
+        "evaluation_episodes": 0
+      },
+      "wall_seconds": 13.074847000068985,
+      "cpu_seconds": 6.4375,
+      "technical_smoke": true,
+      "gpu_busy_seconds": null,
+      "exact": true
+    },
+    {
+      "attempt": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T054526Z_technical_2e59086f\\jobs\\B_s42999_r42901_alternate4k_t500\\a01_6d588113",
+      "status": "completed",
+      "costs": {
+        "environment_creations": 1,
+        "resets": 1,
+        "environment_steps": 500,
+        "train_iterations": 500,
+        "evaluation_episodes": 0
+      },
+      "wall_seconds": 13.155671300017275,
+      "cpu_seconds": 6.390625,
+      "technical_smoke": true,
+      "gpu_busy_seconds": null,
+      "exact": true
+    },
+    {
+      "attempt": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T054526Z_technical_2e59086f\\jobs\\B_s42999_r42901_dose625_O\\a01_3fd98f87",
+      "status": "completed",
+      "costs": {
+        "environment_creations": 8,
+        "resets": 8,
+        "environment_steps": 3736,
+        "train_iterations": 0,
+        "evaluation_episodes": 8
+      },
+      "wall_seconds": 9.217005000100471,
+      "cpu_seconds": 4.3125,
+      "technical_smoke": true,
+      "gpu_busy_seconds": null,
+      "exact": true
+    },
+    {
+      "attempt": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T054526Z_technical_2e59086f\\jobs\\B_s42999_r42901_dose625_t1000\\a01_3dd826b9",
+      "status": "completed",
+      "costs": {
+        "environment_creations": 1,
+        "resets": 1,
+        "environment_steps": 500,
+        "train_iterations": 500,
+        "evaluation_episodes": 0
+      },
+      "wall_seconds": 13.078914100071415,
+      "cpu_seconds": 6.578125,
+      "technical_smoke": true,
+      "gpu_busy_seconds": null,
+      "exact": true
+    },
+    {
+      "attempt": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T054526Z_technical_2e59086f\\jobs\\B_s42999_r42901_dose625_t500\\a01_2999b3fa",
+      "status": "completed",
+      "costs": {
+        "environment_creations": 1,
+        "resets": 1,
+        "environment_steps": 500,
+        "train_iterations": 500,
+        "evaluation_episodes": 0
+      },
+      "wall_seconds": 12.919702899991535,
+      "cpu_seconds": 6.203125,
+      "technical_smoke": true,
+      "gpu_busy_seconds": null,
+      "exact": true
+    },
+    {
+      "attempt": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T054526Z_technical_2e59086f\\jobs\\B_s42999_r42901_mixture_O\\a01_29996327",
+      "status": "completed",
+      "costs": {
+        "environment_creations": 8,
+        "resets": 8,
+        "environment_steps": 4000,
+        "train_iterations": 0,
+        "evaluation_episodes": 8
+      },
+      "wall_seconds": 9.69597340002656,
+      "cpu_seconds": 4.703125,
+      "technical_smoke": true,
+      "gpu_busy_seconds": null,
+      "exact": true
+    },
+    {
+      "attempt": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T054526Z_technical_2e59086f\\jobs\\B_s42999_r42901_mixture_t1000\\a01_1cf75106",
+      "status": "completed",
+      "costs": {
+        "environment_creations": 1,
+        "resets": 1,
+        "environment_steps": 500,
+        "train_iterations": 500,
+        "evaluation_episodes": 0
+      },
+      "wall_seconds": 13.020693599944934,
+      "cpu_seconds": 6.515625,
+      "technical_smoke": true,
+      "gpu_busy_seconds": null,
+      "exact": true
+    },
+    {
+      "attempt": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T054526Z_technical_2e59086f\\jobs\\B_s42999_r42901_mixture_t500\\a01_f66867ea",
+      "status": "completed",
+      "costs": {
+        "environment_creations": 1,
+        "resets": 1,
+        "environment_steps": 500,
+        "train_iterations": 500,
+        "evaluation_episodes": 0
+      },
+      "wall_seconds": 12.79093809996266,
+      "cpu_seconds": 6.234375,
+      "technical_smoke": true,
+      "gpu_busy_seconds": null,
+      "exact": true
+    }
+  ],
+  "analysis": null,
+  "next_stage": "Read scientific gate, freeze stage2 intervention and validate before new training"
+}

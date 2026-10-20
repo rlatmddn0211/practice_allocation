@@ -1,0 +1,31 @@
+{
+  "exit_code": 0,
+  "command": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "C:\\Users\\SS\\.codex\\plugins\\cache\\openai-curated-remote\\data-analytics\\1.0.11\\scripts\\data-app.mjs",
+    "build",
+    "--project-dir",
+    "C:\\Users\\SS\\Projects\\robot_practice_allocation\\40_research_progress_external_review_v1\\report_app",
+    "--separate-data"
+  ],
+  "source_hashes": {
+    "build_report.py": "58df9d1df9f136e31eb90eb6ac6723ee64c706a749749099cbfffb96649408b0",
+    "research_progress_report_ko.md": "383585d9ce126fb1ebf3402e12e0e0eeb7b3fc79dfc6c3bb8b41f69193ca139e",
+    "report_app/src/data.json": "dab15c17ff5c343e490408d43246d5c5f63c3ad0757a7e4bd61db5252679d54d",
+    "report_app/src/theme.css": "d6885cb4e6cd5201935773f47148888bcd634e9cc13df9951803a7beacac25f2",
+    "report_app/src/content/report/adoption-brief.js": "1e4477af18d424e1588042406b59ec699baf972dbd88664c84c4ca77ddb4af2a",
+    "report_app/src/content/report/report.css": "d7773688719ef4636efb337c0ccd2bf7e236158a474612ad5473530c63f82d30",
+    "report_app/src/content/report/ReportContent.jsx": "67123f995f37babb1740c85edb7cec764720325c04fce30df9f82ead239f7dd0",
+    "report_app/src/content/report/ResearchReport.jsx": "40e2c11be90c94cc1864b8767dea56cebf317d1ff37561a1d7a1021f340a3e56"
+  },
+  "wall_seconds": 0.3403308999259025,
+  "python": "3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)]",
+  "environment_steps": 0,
+  "persistent_updates": 0,
+  "clone_updates": 0,
+  "dist_hashes": {
+    "data-app-build.json": "b4f2c18f4d3f607876eefca158a6ba57ca23d0718eb3cdd0910f9eb668691ad4",
+    "index.html": "1e9ff4d086e442743a8fc7b1c1a16e37525b24e2b7bd4793f73fae0739d0be77",
+    "snapshot.dab15c17ff5c343e490408d43246d5c5f63c3ad0757a7e4bd61db5252679d54d.json": "dab15c17ff5c343e490408d43246d5c5f63c3ad0757a7e4bd61db5252679d54d"
+  }
+}

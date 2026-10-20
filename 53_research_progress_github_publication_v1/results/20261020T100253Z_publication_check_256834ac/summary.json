@@ -1,0 +1,90 @@
+{
+  "status": "passed",
+  "error": null,
+  "checked_files": 5262,
+  "bytes": 74955713,
+  "groups": {
+    "39_next_research_decision_plan_v1": {
+      "files": 13,
+      "bytes": 94520
+    },
+    "40_research_progress_external_review_v1": {
+      "files": 419,
+      "bytes": 11295976
+    },
+    "41_selection_value_three_stage_protocol_v1": {
+      "files": 3,
+      "bytes": 19189
+    },
+    "42_fixed_schedule_selection_value_v1": {
+      "files": 605,
+      "bytes": 12214059
+    },
+    "43_feedback_revised_selection_protocol_v1": {
+      "files": 5,
+      "bytes": 44203
+    },
+    "44_selection_value_stage1_checkpoint36_v2": {
+      "files": 3770,
+      "bytes": 19549854
+    },
+    "45_stage1_selection_value_analysis_v1": {
+      "files": 31,
+      "bytes": 1042224
+    },
+    "46_post_stage1_path_loss_design_v1": {
+      "files": 17,
+      "bytes": 1046976
+    },
+    "47_existing_data_path_loss_analysis_v1": {
+      "files": 66,
+      "bytes": 16120836
+    },
+    "48_bp8k_checkpoint_evaluation_v1": {
+      "files": 160,
+      "bytes": 1094270
+    },
+    "49_bp8k_late_value_analysis_v1": {
+      "files": 59,
+      "bytes": 6343912
+    },
+    "50_b_posthoc_concentration_review_v1": {
+      "files": 31,
+      "bytes": 2958020
+    },
+    "51_same_state_future_investment_protocol_v1": {
+      "files": 19,
+      "bytes": 2687269
+    },
+    "52_same_state_future_replication_v1": {
+      "files": 61,
+      "bytes": 432286
+    },
+    "53_research_progress_github_publication_v1": {
+      "files": 3,
+      "bytes": 12119
+    }
+  },
+  "checks": 48067,
+  "failed_checks": [],
+  "local_only_links": [
+    {
+      "document": "49_bp8k_late_value_analysis_v1/report_ko.md",
+      "target": "49_bp8k_late_value_analysis_v1/results/20261020T053017Z_B_analysis_b2d46333/case_resample_indices.npz",
+      "available_in_git": false,
+      "local_only": true
+    },
+    {
+      "document": "49_bp8k_late_value_analysis_v1/report_ko.md",
+      "target": "49_bp8k_late_value_analysis_v1/results/20261020T053017Z_B_analysis_b2d46333/bootstrap_draws.npz",
+      "available_in_git": false,
+      "local_only": true
+    }
+  ],
+  "costs": {
+    "wall_seconds": 29.561412899987772,
+    "cpu_seconds": 0.890625,
+    "new_environment_steps": 0,
+    "new_SAC_updates": 0
+  }
+}

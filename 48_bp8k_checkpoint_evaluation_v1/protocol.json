@@ -1,0 +1,103 @@
+{
+  "version": "48_bp8k_checkpoint_evaluation_v1",
+  "date_kst": "2026-10-20",
+  "purpose": "Measure 0-to-8k and 8k-to-40k net success changes and three-timepoint case trajectories; not selector validation",
+  "authorization": "User endorsed B intermediate-policy evaluation following A review; C and original stages 2/3 held",
+  "predecessors": ["46_post_stage1_path_loss_design_v1", "47_existing_data_path_loss_analysis_v1"],
+  "suite": "B",
+  "tasks": ["DO", "DC", "PU", "BP"],
+  "original_seeds": [41011, 41012, 41013, 41014, 41015],
+  "continuations": [4201, 4202],
+  "condition": "dose625",
+  "parent_steps": 200000,
+  "checkpoint_absolute_steps": 208000,
+  "evaluation": {
+    "policies": 10,
+    "cases_per_task": 100,
+    "max_steps_per_case": 500,
+    "same_original_outcome_bank": true,
+    "deterministic_actions": true,
+    "early_stop_on_success": true,
+    "case_identity": ["original_seed", "task", "episode_index", "seed", "initial_state_hash"],
+    "preserve_full_learner_replay_collector_RNG": true,
+    "chunk_cases_per_task": 10,
+    "parallel_workers": 2,
+    "recovery": "Immutable attempts. Fail closed on integrity or numerical failure; no scientific-effect stopping."
+  },
+  "budget": {
+    "research_evaluation_steps_upper": 2000000,
+    "research_episodes": 4000,
+    "new_training_steps": 0,
+    "new_SAC_updates": 0,
+    "technical_evaluation": "Known final BP policy 41011/4201, first two cases per task, compared exactly to recorded results; full-state restoration and evaluation invariance",
+    "technical_evaluation_steps_upper": 4000,
+    "retry_steps": "No automatic retries or budget expansion; partial outputs and actual consumed steps retained",
+    "online_diagnostic_steps": 0,
+    "accounting": "B O100 is research measurement, not a paid 4k online diagnosis. Compare learned 8k and 40k; no 36k evaluation in this scope."
+  },
+  "analysis": {
+    "independent_unit": "five original parents; average the two paths within each parent",
+    "scores": ["J0", "J8", "J40"],
+    "contrasts": {
+      "early": "J8-J0",
+      "late": "J40-J8",
+      "total": "J40-J0",
+      "stop8_advantage": "J8-J40; negative of late, not a separate tested contrast"
+    },
+    "three_timepoint_patterns": ["000", "001", "010", "011", "100", "101", "110", "111"],
+    "pattern_order": "parent,8k,40k",
+    "identities": [
+      "early_gain=010+011; early_loss=100+101",
+      "late_gain=001+101; late_loss=010+110",
+      "total_gain=001+011; total_loss=100+110",
+      "early_net+late_net=total_net",
+      "early_gain+late_gain-total_gain=010+101",
+      "early_loss+late_loss-total_loss=010+101"
+    ],
+    "denominators": "100 cases for each task, 400 for macro; conditional rates are NA for empty denominators",
+    "primary_reporting": "All ten paths, five parent means, task scores, fixed J0/J8/J40 means and full parent-removal means; all patterns",
+    "case_uncertainty": {
+      "replicates": 20000,
+      "rng_seed": 480202,
+      "rng": "numpy PCG64",
+      "pairing": "One case resample per parent and task applied to original parent and both paths' 8k and 40k outcomes; independent across parent/task strata",
+      "order": "parents ascending, tasks DO/DC/PU/BP; per-stratum 20000x100 integer indices",
+      "simultaneous_family": "30 path macro contrasts: 5 parents x 2 paths x early/late/total",
+      "intervals": "marginal percentile95 and max-absolute-standardized-deviation simultaneous95; SD uses ddof=1; linear quantiles",
+      "zero_SE": "Mark empirical degeneracy, exclude from max statistic; do not interpret as population certainty",
+      "task_and_parent_intervals": "Marginal intervals only, descriptive; not added to the prespecified simultaneous family",
+      "scope": "Fitted-policy, empirical evaluation-case uncertainty, not new learning futures"
+    },
+    "parent_uncertainty": {
+      "method": "Exact enumeration of 5^5=3125 equal-probability parent resamples of paired parent-mean contrasts",
+      "intervals": "Descriptive percentile95, five-parent sample; distinct from case-bootstrap intervals",
+      "sensitivity": "Drop each parent and recompute constant-policy means; no rule fitting"
+    },
+    "development_flags": {
+      "practical_margin_pp": 2.0,
+      "early_loss_then_recovery": "early<=-2 and late>=2; report total separately",
+      "early_loss_still_below_parent": "early<=-2 and total<=-2; may coexist with partial recovery",
+      "broad_stop8_pattern": "at least 8/10 paths have stop8_advantage>=2 and at least 4/5 parents have both paths >=2",
+      "opposite_repeatable_parent_preferences": "one parent has both paths late>=2 and another has both late<=-2",
+      "case_supported_opposite_preferences": "above point pattern and respective simultaneous late intervals exclude zero for both paths in each parent",
+      "mostly_small_realized_difference": "at least 8/10 paths have abs(late)<2",
+      "interpretation": "Descriptive investment flags may overlap; never significance claims, expected-state-value estimates, automatic gates, or authorization"
+    },
+    "prohibited_in_this_stage": [
+      "fit or tune TD or other selector",
+      "use outcome O100 as free decision input",
+      "claim predictive value from correlation of J8-J0 and J40-J8 sharing J8 noise",
+      "infer that avoiding loss preserves all gains",
+      "infer exact timing inside 0-8k or 8-40k intervals",
+      "run C or original stages 2/3"
+    ]
+  },
+  "future_decisions": {
+    "early_loss_then_recovery": "Weakens stopping at 8k; do not miss later recovery",
+    "early_loss_persists": "8k stop does not restore original parent; earlier decision or rollback is a separate proposal",
+    "broad_stop8": "Evaluate a better constant horizon before claiming state-dependent choice",
+    "heterogeneous_late_value": "Motivates prefix-only signal development with separate diagnostic/outcome cases and later fresh-future validation; no immediate C",
+    "small_or_uncertain": "Report limited practical room or unresolved evidence; no automatic seed expansion",
+    "default": "Finish B, report all results, retain C and original 2/3 holds"
+  }
+}

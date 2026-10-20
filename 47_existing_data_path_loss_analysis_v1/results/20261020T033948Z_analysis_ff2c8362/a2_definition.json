@@ -1,0 +1,324 @@
+{
+  "replicates": 20000,
+  "seed": 460202,
+  "policy_order": [
+    [
+      "parent",
+      0
+    ],
+    [
+      "dose625",
+      4201
+    ],
+    [
+      "dose625",
+      4202
+    ],
+    [
+      "alternate4k",
+      4201
+    ],
+    [
+      "alternate4k",
+      4202
+    ],
+    [
+      "mixture",
+      4201
+    ],
+    [
+      "mixture",
+      4202
+    ]
+  ],
+  "parent_order": [
+    41011,
+    41012,
+    41013,
+    41014,
+    41015
+  ],
+  "task_order": [
+    "DO",
+    "DC",
+    "PU",
+    "BP"
+  ],
+  "contrast_order": [
+    {
+      "original_seed": 41011,
+      "a": "dose625",
+      "b": "alternate4k",
+      "contrast": "4201"
+    },
+    {
+      "original_seed": 41011,
+      "a": "dose625",
+      "b": "alternate4k",
+      "contrast": "4202"
+    },
+    {
+      "original_seed": 41011,
+      "a": "dose625",
+      "b": "alternate4k",
+      "contrast": "4202-minus-4201"
+    },
+    {
+      "original_seed": 41011,
+      "a": "dose625",
+      "b": "mixture",
+      "contrast": "4201"
+    },
+    {
+      "original_seed": 41011,
+      "a": "dose625",
+      "b": "mixture",
+      "contrast": "4202"
+    },
+    {
+      "original_seed": 41011,
+      "a": "dose625",
+      "b": "mixture",
+      "contrast": "4202-minus-4201"
+    },
+    {
+      "original_seed": 41011,
+      "a": "alternate4k",
+      "b": "mixture",
+      "contrast": "4201"
+    },
+    {
+      "original_seed": 41011,
+      "a": "alternate4k",
+      "b": "mixture",
+      "contrast": "4202"
+    },
+    {
+      "original_seed": 41011,
+      "a": "alternate4k",
+      "b": "mixture",
+      "contrast": "4202-minus-4201"
+    },
+    {
+      "original_seed": 41012,
+      "a": "dose625",
+      "b": "alternate4k",
+      "contrast": "4201"
+    },
+    {
+      "original_seed": 41012,
+      "a": "dose625",
+      "b": "alternate4k",
+      "contrast": "4202"
+    },
+    {
+      "original_seed": 41012,
+      "a": "dose625",
+      "b": "alternate4k",
+      "contrast": "4202-minus-4201"
+    },
+    {
+      "original_seed": 41012,
+      "a": "dose625",
+      "b": "mixture",
+      "contrast": "4201"
+    },
+    {
+      "original_seed": 41012,
+      "a": "dose625",
+      "b": "mixture",
+      "contrast": "4202"
+    },
+    {
+      "original_seed": 41012,
+      "a": "dose625",
+      "b": "mixture",
+      "contrast": "4202-minus-4201"
+    },
+    {
+      "original_seed": 41012,
+      "a": "alternate4k",
+      "b": "mixture",
+      "contrast": "4201"
+    },
+    {
+      "original_seed": 41012,
+      "a": "alternate4k",
+      "b": "mixture",
+      "contrast": "4202"
+    },
+    {
+      "original_seed": 41012,
+      "a": "alternate4k",
+      "b": "mixture",
+      "contrast": "4202-minus-4201"
+    },
+    {
+      "original_seed": 41013,
+      "a": "dose625",
+      "b": "alternate4k",
+      "contrast": "4201"
+    },
+    {
+      "original_seed": 41013,
+      "a": "dose625",
+      "b": "alternate4k",
+      "contrast": "4202"
+    },
+    {
+      "original_seed": 41013,
+      "a": "dose625",
+      "b": "alternate4k",
+      "contrast": "4202-minus-4201"
+    },
+    {
+      "original_seed": 41013,
+      "a": "dose625",
+      "b": "mixture",
+      "contrast": "4201"
+    },
+    {
+      "original_seed": 41013,
+      "a": "dose625",
+      "b": "mixture",
+      "contrast": "4202"
+    },
+    {
+      "original_seed": 41013,
+      "a": "dose625",
+      "b": "mixture",
+      "contrast": "4202-minus-4201"
+    },
+    {
+      "original_seed": 41013,
+      "a": "alternate4k",
+      "b": "mixture",
+      "contrast": "4201"
+    },
+    {
+      "original_seed": 41013,
+      "a": "alternate4k",
+      "b": "mixture",
+      "contrast": "4202"
+    },
+    {
+      "original_seed": 41013,
+      "a": "alternate4k",
+      "b": "mixture",
+      "contrast": "4202-minus-4201"
+    },
+    {
+      "original_seed": 41014,
+      "a": "dose625",
+      "b": "alternate4k",
+      "contrast": "4201"
+    },
+    {
+      "original_seed": 41014,
+      "a": "dose625",
+      "b": "alternate4k",
+      "contrast": "4202"
+    },
+    {
+      "original_seed": 41014,
+      "a": "dose625",
+      "b": "alternate4k",
+      "contrast": "4202-minus-4201"
+    },
+    {
+      "original_seed": 41014,
+      "a": "dose625",
+      "b": "mixture",
+      "contrast": "4201"
+    },
+    {
+      "original_seed": 41014,
+      "a": "dose625",
+      "b": "mixture",
+      "contrast": "4202"
+    },
+    {
+      "original_seed": 41014,
+      "a": "dose625",
+      "b": "mixture",
+      "contrast": "4202-minus-4201"
+    },
+    {
+      "original_seed": 41014,
+      "a": "alternate4k",
+      "b": "mixture",
+      "contrast": "4201"
+    },
+    {
+      "original_seed": 41014,
+      "a": "alternate4k",
+      "b": "mixture",
+      "contrast": "4202"
+    },
+    {
+      "original_seed": 41014,
+      "a": "alternate4k",
+      "b": "mixture",
+      "contrast": "4202-minus-4201"
+    },
+    {
+      "original_seed": 41015,
+      "a": "dose625",
+      "b": "alternate4k",
+      "contrast": "4201"
+    },
+    {
+      "original_seed": 41015,
+      "a": "dose625",
+      "b": "alternate4k",
+      "contrast": "4202"
+    },
+    {
+      "original_seed": 41015,
+      "a": "dose625",
+      "b": "alternate4k",
+      "contrast": "4202-minus-4201"
+    },
+    {
+      "original_seed": 41015,
+      "a": "dose625",
+      "b": "mixture",
+      "contrast": "4201"
+    },
+    {
+      "original_seed": 41015,
+      "a": "dose625",
+      "b": "mixture",
+      "contrast": "4202"
+    },
+    {
+      "original_seed": 41015,
+      "a": "dose625",
+      "b": "mixture",
+      "contrast": "4202-minus-4201"
+    },
+    {
+      "original_seed": 41015,
+      "a": "alternate4k",
+      "b": "mixture",
+      "contrast": "4201"
+    },
+    {
+      "original_seed": 41015,
+      "a": "alternate4k",
+      "b": "mixture",
+      "contrast": "4202"
+    },
+    {
+      "original_seed": 41015,
+      "a": "alternate4k",
+      "b": "mixture",
+      "contrast": "4202-minus-4201"
+    }
+  ],
+  "simultaneous_critical_value": 3.1311333393842538,
+  "bootstrap_SD_ddof": 1,
+  "zero_SE_count": 6,
+  "confidence": 0.95,
+  "interpretation": "Conditional evaluation-case uncertainty only; not training or new-parent uncertainty."
+}

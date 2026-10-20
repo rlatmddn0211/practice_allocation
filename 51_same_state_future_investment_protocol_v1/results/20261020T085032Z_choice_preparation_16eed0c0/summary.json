@@ -1,0 +1,25 @@
+{
+  "status": "prepared_and_arithmetic_checked_not_executed",
+  "states": 10,
+  "parents": 5,
+  "fixed_choice_rows": 30,
+  "full_choices": {
+    "stop": 5,
+    "continue": 5
+  },
+  "primary_half_choices": {
+    "stop": 11,
+    "continue": 9
+  },
+  "checks_passed": 30069,
+  "failed_checks": 0,
+  "new_environment_steps": 0,
+  "new_training_steps": 0,
+  "new_SAC_updates": 0,
+  "future_outcomes_observed": false,
+  "policy_files_loaded": false,
+  "wall_seconds": 0.28861950000282377,
+  "CPU_seconds": 0.0,
+  "python": "3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)]",
+  "numpy": "2.2.4"
+}

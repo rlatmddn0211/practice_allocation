@@ -1,0 +1,60 @@
+{
+  "date_kst": "2026-10-20",
+  "execution_status": "completed_B_posthoc_supplement",
+  "scientific_status": "posthoc_development_evidence_not_selector_validation",
+  "analysis_summary": "results/20261020T073023Z_analysis_61391a4f/summary.json",
+  "analysis_summary_sha256": "952dbd018fcdb563fdc3b628dbe4ca028afc0bb5575ff1e532ed956b469ef9fe",
+  "verification_summary": "results/20261020T073031Z_verification_defca0a6/summary.json",
+  "verification_summary_sha256": "43fac0c8fad249b7e6f7564f136625fe6fa4804940a023c5c2edaa2b93efcbb5",
+  "observed_success_percent": {
+    "always_stop8": 34.725,
+    "always_continue40": 34.075,
+    "hindsight_path_selection": 36.45
+  },
+  "hindsight_minus_observed_better_fixed_pp": 1.725,
+  "parent_41015_contribution_pp": 1.55,
+  "parent_41015_fraction": 0.8985507246376812,
+  "excluding_41015_refit_fixed_gap_pp": 0.21875,
+  "interpretation": {
+    "realized_stop_continue_comparison_measured": true,
+    "same_state_expected_continuation_value_confirmed": false,
+    "hindsight_is_population_upper_bound": false,
+    "hindsight_is_online_policy_performance": false,
+    "observed_better_fixed_is_population_best": false,
+    "parent_41015_contribution_is_late_net_gain_not_pure_recovery": true,
+    "stop8_superiority_established": false,
+    "equivalence_established": false,
+    "noninferiority_established": false,
+    "prediction_rule_fitted": false
+  },
+  "research_decisions": {
+    "A": "completed_development_analysis",
+    "B": "completed_development_measurement_and_analysis",
+    "original_stage1_gate": "not_passed_unchanged",
+    "current_candidate_expansion": "closed_at_current_evidence",
+    "current_TD_threshold_tuning": "closed",
+    "C": "held_not_scheduled",
+    "original_stages_2_3": "held_not_scheduled",
+    "same_state_future_repetition": "optional_proposal_not_authorized_not_scheduled",
+    "fixed_stop_resource_saving": "separate_proposal_not_noninferiority_evidence"
+  },
+  "future_repetition_proposal": {
+    "states": 10,
+    "new_futures_per_state": 1,
+    "action": "continue_original_BP_only",
+    "training_per_state": 32000,
+    "training_total": 320000,
+    "evaluation_cap": 2000000,
+    "main_environment_cap": 2320000,
+    "technical_budget": null,
+    "numeric_progression_gate_frozen": false,
+    "execution_authorized": false,
+    "scheduled": false,
+    "requires_existing_predictor_to_measure_repeatability": false
+  },
+  "actual_new_cost": {
+    "environment_steps": 0,
+    "training_steps": 0,
+    "SAC_updates": 0
+  }
+}

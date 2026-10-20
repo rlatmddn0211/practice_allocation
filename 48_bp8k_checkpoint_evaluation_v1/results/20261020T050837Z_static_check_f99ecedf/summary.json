@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "checks_passed": 25,
+  "new_environment_steps": 0,
+  "new_SAC_updates": 0,
+  "packages": {
+    "numpy": "2.2.4",
+    "torch": "2.5.1+cu121",
+    "gymnasium": "1.2.3",
+    "mujoco": "3.5.0",
+    "metaworld": "3.0.0",
+    "stable-baselines3": "2.7.1"
+  },
+  "wall_seconds": 0.06814309989567846
+}

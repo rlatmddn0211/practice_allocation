@@ -1,0 +1,175 @@
+{
+  "stage": "p0_pretraining",
+  "status": "completed",
+  "completed_at": "2026-10-07T06:59:45.699204+00:00",
+  "training_steps": 400000,
+  "sac_iterations": 399000,
+  "collected_by_task": {
+    "DO": 100000,
+    "DC": 100000,
+    "WO": 100000,
+    "WC": 100000
+  },
+  "sampled_by_task": {
+    "DO": 25485799,
+    "DC": 25595918,
+    "WO": 25632145,
+    "WC": 25430138
+  },
+  "training_seconds": 3269.777964600362,
+  "elapsed_seconds": 3393.059854399413,
+  "costs": {
+    "environment_creations": 1400,
+    "resets": 1400,
+    "environment_steps": 508436,
+    "train_iterations": 399000,
+    "evaluation_episodes": 320
+  },
+  "diagnostics": {
+    "0": {
+      "episodes": 80,
+      "environment_steps": 40000,
+      "seconds": 39.60554030071944,
+      "steps_per_second": 1009.9597100881715,
+      "success_by_task": {
+        "DO": 0.0,
+        "DC": 0.0,
+        "WO": 0.0,
+        "WC": 0.0
+      },
+      "macro_success": 0.0,
+      "success_counts": {
+        "DO": 0,
+        "DC": 0,
+        "WO": 0,
+        "WC": 0
+      },
+      "episodes_by_task": {
+        "DO": 20,
+        "DC": 20,
+        "WO": 20,
+        "WC": 20
+      },
+      "results_hash": "b4a5c836bcb08dbd84c12bc2f3971220c6b78e2d4213601e9d2074b77e2debe7",
+      "purpose": "P0 public diagnostic; not an outcome-bank score",
+      "step": 0,
+      "state_unchanged": true
+    },
+    "100000": {
+      "episodes": 80,
+      "environment_steps": 28353,
+      "seconds": 32.98004709929228,
+      "steps_per_second": 859.7016224579143,
+      "success_by_task": {
+        "DO": 0.0,
+        "DC": 1.0,
+        "WO": 0.0,
+        "WC": 0.25
+      },
+      "macro_success": 0.3125,
+      "success_counts": {
+        "DO": 0,
+        "DC": 20,
+        "WO": 0,
+        "WC": 5
+      },
+      "episodes_by_task": {
+        "DO": 20,
+        "DC": 20,
+        "WO": 20,
+        "WC": 20
+      },
+      "results_hash": "66af66369bdf5411d408dab94dfb47cf55e320b6ff13fb81d3b71687d5730475",
+      "purpose": "P0 public diagnostic; not an outcome-bank score",
+      "step": 100000,
+      "state_unchanged": true
+    },
+    "200000": {
+      "episodes": 80,
+      "environment_steps": 22157,
+      "seconds": 21.190759100019932,
+      "steps_per_second": 1045.5972764080527,
+      "success_by_task": {
+        "DO": 0.0,
+        "DC": 1.0,
+        "WO": 0.05,
+        "WC": 0.9
+      },
+      "macro_success": 0.48750000000000004,
+      "success_counts": {
+        "DO": 0,
+        "DC": 20,
+        "WO": 1,
+        "WC": 18
+      },
+      "episodes_by_task": {
+        "DO": 20,
+        "DC": 20,
+        "WO": 20,
+        "WC": 20
+      },
+      "results_hash": "14f981d7e93ae7304fc7cb8e0f45603a82f87529362fe771ed81932312fb7d39",
+      "purpose": "P0 public diagnostic; not an outcome-bank score",
+      "step": 200000,
+      "state_unchanged": true
+    },
+    "400000": {
+      "episodes": 80,
+      "environment_steps": 17926,
+      "seconds": 18.859658499248326,
+      "steps_per_second": 950.4944111641503,
+      "success_by_task": {
+        "DO": 0.05,
+        "DC": 1.0,
+        "WO": 0.4,
+        "WC": 1.0
+      },
+      "macro_success": 0.6125,
+      "success_counts": {
+        "DO": 1,
+        "DC": 20,
+        "WO": 8,
+        "WC": 20
+      },
+      "episodes_by_task": {
+        "DO": 20,
+        "DC": 20,
+        "WO": 20,
+        "WC": 20
+      },
+      "results_hash": "42320bd5cefebfd2ad5ea3648376414cb46e5f6fd5f2b4e3971c9247868ae78a",
+      "purpose": "P0 public diagnostic; not an outcome-bank score",
+      "step": 400000,
+      "state_unchanged": true
+    }
+  },
+  "checkpoints": [
+    {
+      "step": 200000,
+      "path": "checkpoints/step_000200000",
+      "save_seconds": 0.11647569946944714,
+      "restore_seconds": 0.1147010000422597,
+      "restored_state_matches": true,
+      "manifest_hash": "ee44ba7fb9a97df0cf5a1de6847d439d58277159386318f62cb06c9b80cd2f63"
+    },
+    {
+      "step": 400000,
+      "path": "checkpoints/step_000400000",
+      "save_seconds": 0.1260696006938815,
+      "restore_seconds": 0.11914150044322014,
+      "restored_state_matches": true,
+      "manifest_hash": "53cbf02e44d1f9510f6144dc7d9fb0f890541f80938d9ca3be3bd2812fee78d1"
+    }
+  ],
+  "restored_checkpoints_verified": 2,
+  "selected_checkpoint_step": 200000,
+  "parameter_max_abs_change": {
+    "actor.": 5.146557807922363,
+    "critic.": 8.339756965637207,
+    "critic_target.": 8.335071563720703
+  },
+  "outcome_bank_episodes_evaluated": 0,
+  "research_branches_executed": 0,
+  "error": null,
+  "cuda_peak_allocated_bytes": 76675072
+}

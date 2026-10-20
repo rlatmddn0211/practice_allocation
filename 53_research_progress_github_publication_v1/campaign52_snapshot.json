@@ -1,0 +1,38 @@
+{
+  "status": "running",
+  "updated_at": "2026-10-20T09:57:21.984252+00:00",
+  "completed": 0,
+  "total": 10,
+  "running": {
+    "job": "B_s41011_r4201_new_future",
+    "pid": 14604,
+    "attempt": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\52_same_state_future_replication_v1\\results\\20261020T094942Z_future_replication_bbc18607\\jobs\\B_s41011_r4201_new_future\\20261020T095015Z_attempt_0503292d",
+    "latest": {
+      "time": "2026-10-20T09:57:11.940140+00:00",
+      "event": "training",
+      "costs": {
+        "environment_creations": 44,
+        "resets": 44,
+        "environment_steps": 22000,
+        "train_iterations": 22000,
+        "evaluation_episodes": 0
+      },
+      "absolute_step": 230000
+    }
+  },
+  "research_training_steps_completed": 0,
+  "research_evaluation_steps_completed": 0,
+  "technical_steps": 4515,
+  "elapsed_seconds": 426.4382425000658,
+  "pending": [
+    "B_s41011_r4202_new_future",
+    "B_s41012_r4201_new_future",
+    "B_s41012_r4202_new_future",
+    "B_s41013_r4201_new_future",
+    "B_s41013_r4202_new_future",
+    "B_s41014_r4201_new_future",
+    "B_s41014_r4202_new_future",
+    "B_s41015_r4201_new_future",
+    "B_s41015_r4202_new_future"
+  ]
+}

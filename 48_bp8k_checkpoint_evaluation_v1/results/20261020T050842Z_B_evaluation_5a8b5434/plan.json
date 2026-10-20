@@ -1,0 +1,1003 @@
+{
+  "version": "48_bp8k_checkpoint_evaluation_v1",
+  "created_at": "2026-10-20T05:08:43.312841+00:00",
+  "source_hashes": {
+    "campaign.py": "c2c86bc036659ac979cc6bff09235ab0c8b3f22a1dd267431493fa1a8cb03830",
+    "preflight.py": "1ae5a3e96bc07ec237c10e1d4701081695dff059fa8463f369484e0bac0875d0",
+    "worker.py": "25db51c315ab5b02a28babe462d82b45a01a800bf39b99d22a4a5e4880f2e21f",
+    "requirements.txt": "cb62ec70a441ab12b0a7caab26904375ffd55ce0ef5497b20e07a48205b43b1b",
+    "VERSION.json": "ba57d6f99218aacbe159bcb6fdf319f8e19111a8db5fef1feb8217e146e4601a",
+    "protocol.json": "76e46a39cc032b406c425683e843abb1e4ad7f5a393ddbdfe84dd0527af698d6",
+    "practice_allocation/__init__.py": "4215c51deb3d834c283aeed7c87b8747916234e964f1a8cd9eedadaf1e465a2f",
+    "practice_allocation/core.py": "507791b5674293ecd8ba616bfc46494c5cdf2544f9f8eeb9bddc83d1759286db",
+    "practice_allocation/engine.py": "ae090b11d36b715eb7c66ce89c39c1021d1de140abe7fbb5e820eff1ed4a3f26",
+    "practice_allocation/environment.py": "85afb8560da5160832e619f90608eae0b4b83aa75264376800111b295ef4e4e8",
+    "practice_allocation/evaluation.py": "196b18ad4b60bca516511e71a449b12b78784a20a1699caa207975203d5cc525",
+    "practice_allocation/learning.py": "e32e1f2e23490c651167af24386a3af5df005af766a33128c9bb75f719e30009",
+    "practice_allocation/schedules.py": "d114ce28a4b56e52ec53f1481f6393bdae1895cdb8d4393a10b175e1e36da4ec",
+    "practice_allocation/study_io.py": "20b46c67027a413857c80bbbd5e9dad469fae9ccafd468ef3b942dfc76389c53",
+    "configs/learner.json": "1f30cc7791f3aef189d4e90bdda9946ebcb3b61835b928096ec7c0108fa87ca8",
+    "configs/suites.json": "d94a146844590a1fd66e06625222db17340f442f992df674f069514330771c77"
+  },
+  "jobs": [
+    {
+      "id": "B_s41011_r4201_dose625_8k_O100",
+      "kind": "research_8k_evaluation",
+      "original_seed": 41011,
+      "continuation": 4201,
+      "continuation_rng_seed": 184512748,
+      "horizon": 8000,
+      "expected_absolute_step": 208000,
+      "config": {
+        "version": "48_bp8k_checkpoint_evaluation_v1",
+        "seed": 41011,
+        "device": "cuda",
+        "torch_threads": 1,
+        "deterministic_torch": true,
+        "episode_steps": 500,
+        "reward_function_version": "v2",
+        "buffer_size": 100000,
+        "batch_size": 256,
+        "learning_starts": 1000,
+        "learning_rate": 0.0003,
+        "gamma": 0.99,
+        "tau": 0.005,
+        "net_arch": [
+          256,
+          256
+        ],
+        "n_critics": 2,
+        "ent_coef": "auto",
+        "target_entropy": "auto",
+        "target_update_interval": 1,
+        "train_freq": 1,
+        "gradient_steps": 1,
+        "normalize_observations": false,
+        "normalize_rewards": false,
+        "use_sde": false,
+        "action_noise": null,
+        "optimize_memory_usage": false,
+        "handle_timeout_termination": true,
+        "n_steps": 1,
+        "smoke_train_steps": 4000,
+        "resume_steps": 1000,
+        "validation_eval_episodes_per_task": 2,
+        "diagnostic_bank_episodes_per_task": 2,
+        "outcome_bank_episodes_per_task": 100,
+        "bank_seed": 424200,
+        "log_every_steps": 250,
+        "resume_atol": 0.0,
+        "resume_rtol": 0.0
+      },
+      "checkpoint": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\44_selection_value_stage1_checkpoint36_v2\\results\\20261019T064658Z_stage1_2cbbdd65\\jobs\\B_s41011_r4201_dose625_t8000\\a01_3a4a4a84\\checkpoint",
+        "manifest_sha256": "d88a014536eb18f408112cea34e35bdb16918f0e2d28b247e90ee5f56a04fb61"
+      },
+      "bank": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T055015Z_stage1_c82b28ef\\jobs\\B_s41011_bank\\a01_d84a7648\\evaluation_banks.json",
+        "sha256": "217244ce0a82a759152cd2eefd14c04c3a84bfb1ee95dcc8b47c4a06603cbb50"
+      },
+      "cases_per_task": 100,
+      "chunk_cases_per_task": 10
+    },
+    {
+      "id": "B_s41011_r4202_dose625_8k_O100",
+      "kind": "research_8k_evaluation",
+      "original_seed": 41011,
+      "continuation": 4202,
+      "continuation_rng_seed": 4181237436,
+      "horizon": 8000,
+      "expected_absolute_step": 208000,
+      "config": {
+        "version": "48_bp8k_checkpoint_evaluation_v1",
+        "seed": 41011,
+        "device": "cuda",
+        "torch_threads": 1,
+        "deterministic_torch": true,
+        "episode_steps": 500,
+        "reward_function_version": "v2",
+        "buffer_size": 100000,
+        "batch_size": 256,
+        "learning_starts": 1000,
+        "learning_rate": 0.0003,
+        "gamma": 0.99,
+        "tau": 0.005,
+        "net_arch": [
+          256,
+          256
+        ],
+        "n_critics": 2,
+        "ent_coef": "auto",
+        "target_entropy": "auto",
+        "target_update_interval": 1,
+        "train_freq": 1,
+        "gradient_steps": 1,
+        "normalize_observations": false,
+        "normalize_rewards": false,
+        "use_sde": false,
+        "action_noise": null,
+        "optimize_memory_usage": false,
+        "handle_timeout_termination": true,
+        "n_steps": 1,
+        "smoke_train_steps": 4000,
+        "resume_steps": 1000,
+        "validation_eval_episodes_per_task": 2,
+        "diagnostic_bank_episodes_per_task": 2,
+        "outcome_bank_episodes_per_task": 100,
+        "bank_seed": 424200,
+        "log_every_steps": 250,
+        "resume_atol": 0.0,
+        "resume_rtol": 0.0
+      },
+      "checkpoint": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\44_selection_value_stage1_checkpoint36_v2\\results\\20261019T064658Z_stage1_2cbbdd65\\jobs\\B_s41011_r4202_dose625_t8000\\a01_2a8ce1f2\\checkpoint",
+        "manifest_sha256": "921d2da9914e5fc83fc87a0bba1e085721fc3b003523e594fa75eb60549e4e42"
+      },
+      "bank": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T055015Z_stage1_c82b28ef\\jobs\\B_s41011_bank\\a01_d84a7648\\evaluation_banks.json",
+        "sha256": "217244ce0a82a759152cd2eefd14c04c3a84bfb1ee95dcc8b47c4a06603cbb50"
+      },
+      "cases_per_task": 100,
+      "chunk_cases_per_task": 10
+    },
+    {
+      "id": "B_s41012_r4201_dose625_8k_O100",
+      "kind": "research_8k_evaluation",
+      "original_seed": 41012,
+      "continuation": 4201,
+      "continuation_rng_seed": 2721127391,
+      "horizon": 8000,
+      "expected_absolute_step": 208000,
+      "config": {
+        "version": "48_bp8k_checkpoint_evaluation_v1",
+        "seed": 41012,
+        "device": "cuda",
+        "torch_threads": 1,
+        "deterministic_torch": true,
+        "episode_steps": 500,
+        "reward_function_version": "v2",
+        "buffer_size": 100000,
+        "batch_size": 256,
+        "learning_starts": 1000,
+        "learning_rate": 0.0003,
+        "gamma": 0.99,
+        "tau": 0.005,
+        "net_arch": [
+          256,
+          256
+        ],
+        "n_critics": 2,
+        "ent_coef": "auto",
+        "target_entropy": "auto",
+        "target_update_interval": 1,
+        "train_freq": 1,
+        "gradient_steps": 1,
+        "normalize_observations": false,
+        "normalize_rewards": false,
+        "use_sde": false,
+        "action_noise": null,
+        "optimize_memory_usage": false,
+        "handle_timeout_termination": true,
+        "n_steps": 1,
+        "smoke_train_steps": 4000,
+        "resume_steps": 1000,
+        "validation_eval_episodes_per_task": 2,
+        "diagnostic_bank_episodes_per_task": 2,
+        "outcome_bank_episodes_per_task": 100,
+        "bank_seed": 424200,
+        "log_every_steps": 250,
+        "resume_atol": 0.0,
+        "resume_rtol": 0.0
+      },
+      "checkpoint": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\44_selection_value_stage1_checkpoint36_v2\\results\\20261019T064658Z_stage1_2cbbdd65\\jobs\\B_s41012_r4201_dose625_t8000\\a01_abe2bca3\\checkpoint",
+        "manifest_sha256": "fe485373ccb0bfd73cd95358f5cb4ff3744b6706c9d54ca044d229ee4a63b0fa"
+      },
+      "bank": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T055015Z_stage1_c82b28ef\\jobs\\B_s41012_bank\\a01_840e88e3\\evaluation_banks.json",
+        "sha256": "bbd310ea0e968d3b4ce6ae88c5244cebe086e843e3a14ef41a9e25954d336b9f"
+      },
+      "cases_per_task": 100,
+      "chunk_cases_per_task": 10
+    },
+    {
+      "id": "B_s41012_r4202_dose625_8k_O100",
+      "kind": "research_8k_evaluation",
+      "original_seed": 41012,
+      "continuation": 4202,
+      "continuation_rng_seed": 1544802358,
+      "horizon": 8000,
+      "expected_absolute_step": 208000,
+      "config": {
+        "version": "48_bp8k_checkpoint_evaluation_v1",
+        "seed": 41012,
+        "device": "cuda",
+        "torch_threads": 1,
+        "deterministic_torch": true,
+        "episode_steps": 500,
+        "reward_function_version": "v2",
+        "buffer_size": 100000,
+        "batch_size": 256,
+        "learning_starts": 1000,
+        "learning_rate": 0.0003,
+        "gamma": 0.99,
+        "tau": 0.005,
+        "net_arch": [
+          256,
+          256
+        ],
+        "n_critics": 2,
+        "ent_coef": "auto",
+        "target_entropy": "auto",
+        "target_update_interval": 1,
+        "train_freq": 1,
+        "gradient_steps": 1,
+        "normalize_observations": false,
+        "normalize_rewards": false,
+        "use_sde": false,
+        "action_noise": null,
+        "optimize_memory_usage": false,
+        "handle_timeout_termination": true,
+        "n_steps": 1,
+        "smoke_train_steps": 4000,
+        "resume_steps": 1000,
+        "validation_eval_episodes_per_task": 2,
+        "diagnostic_bank_episodes_per_task": 2,
+        "outcome_bank_episodes_per_task": 100,
+        "bank_seed": 424200,
+        "log_every_steps": 250,
+        "resume_atol": 0.0,
+        "resume_rtol": 0.0
+      },
+      "checkpoint": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\44_selection_value_stage1_checkpoint36_v2\\results\\20261019T064658Z_stage1_2cbbdd65\\jobs\\B_s41012_r4202_dose625_t8000\\a01_29db39e5\\checkpoint",
+        "manifest_sha256": "61a94e6942ae117a3b201572fe1dc0e096165738fb7e20a83b155ce085b1fe7b"
+      },
+      "bank": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T055015Z_stage1_c82b28ef\\jobs\\B_s41012_bank\\a01_840e88e3\\evaluation_banks.json",
+        "sha256": "bbd310ea0e968d3b4ce6ae88c5244cebe086e843e3a14ef41a9e25954d336b9f"
+      },
+      "cases_per_task": 100,
+      "chunk_cases_per_task": 10
+    },
+    {
+      "id": "B_s41013_r4201_dose625_8k_O100",
+      "kind": "research_8k_evaluation",
+      "original_seed": 41013,
+      "continuation": 4201,
+      "continuation_rng_seed": 2611205667,
+      "horizon": 8000,
+      "expected_absolute_step": 208000,
+      "config": {
+        "version": "48_bp8k_checkpoint_evaluation_v1",
+        "seed": 41013,
+        "device": "cuda",
+        "torch_threads": 1,
+        "deterministic_torch": true,
+        "episode_steps": 500,
+        "reward_function_version": "v2",
+        "buffer_size": 100000,
+        "batch_size": 256,
+        "learning_starts": 1000,
+        "learning_rate": 0.0003,
+        "gamma": 0.99,
+        "tau": 0.005,
+        "net_arch": [
+          256,
+          256
+        ],
+        "n_critics": 2,
+        "ent_coef": "auto",
+        "target_entropy": "auto",
+        "target_update_interval": 1,
+        "train_freq": 1,
+        "gradient_steps": 1,
+        "normalize_observations": false,
+        "normalize_rewards": false,
+        "use_sde": false,
+        "action_noise": null,
+        "optimize_memory_usage": false,
+        "handle_timeout_termination": true,
+        "n_steps": 1,
+        "smoke_train_steps": 4000,
+        "resume_steps": 1000,
+        "validation_eval_episodes_per_task": 2,
+        "diagnostic_bank_episodes_per_task": 2,
+        "outcome_bank_episodes_per_task": 100,
+        "bank_seed": 424200,
+        "log_every_steps": 250,
+        "resume_atol": 0.0,
+        "resume_rtol": 0.0
+      },
+      "checkpoint": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\44_selection_value_stage1_checkpoint36_v2\\results\\20261019T064658Z_stage1_2cbbdd65\\jobs\\B_s41013_r4201_dose625_t8000\\a01_680e5954\\checkpoint",
+        "manifest_sha256": "106650eef14cf5f67a05743075afcda3e72edc31869a70390379c8d46bd765aa"
+      },
+      "bank": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T055015Z_stage1_c82b28ef\\jobs\\B_s41013_bank\\a01_5e8eb9ed\\evaluation_banks.json",
+        "sha256": "66ed4536e7539702e0e0045ecbcb4950e2123410bbda99a8549722d50a56861e"
+      },
+      "cases_per_task": 100,
+      "chunk_cases_per_task": 10
+    },
+    {
+      "id": "B_s41013_r4202_dose625_8k_O100",
+      "kind": "research_8k_evaluation",
+      "original_seed": 41013,
+      "continuation": 4202,
+      "continuation_rng_seed": 3461146862,
+      "horizon": 8000,
+      "expected_absolute_step": 208000,
+      "config": {
+        "version": "48_bp8k_checkpoint_evaluation_v1",
+        "seed": 41013,
+        "device": "cuda",
+        "torch_threads": 1,
+        "deterministic_torch": true,
+        "episode_steps": 500,
+        "reward_function_version": "v2",
+        "buffer_size": 100000,
+        "batch_size": 256,
+        "learning_starts": 1000,
+        "learning_rate": 0.0003,
+        "gamma": 0.99,
+        "tau": 0.005,
+        "net_arch": [
+          256,
+          256
+        ],
+        "n_critics": 2,
+        "ent_coef": "auto",
+        "target_entropy": "auto",
+        "target_update_interval": 1,
+        "train_freq": 1,
+        "gradient_steps": 1,
+        "normalize_observations": false,
+        "normalize_rewards": false,
+        "use_sde": false,
+        "action_noise": null,
+        "optimize_memory_usage": false,
+        "handle_timeout_termination": true,
+        "n_steps": 1,
+        "smoke_train_steps": 4000,
+        "resume_steps": 1000,
+        "validation_eval_episodes_per_task": 2,
+        "diagnostic_bank_episodes_per_task": 2,
+        "outcome_bank_episodes_per_task": 100,
+        "bank_seed": 424200,
+        "log_every_steps": 250,
+        "resume_atol": 0.0,
+        "resume_rtol": 0.0
+      },
+      "checkpoint": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\44_selection_value_stage1_checkpoint36_v2\\results\\20261019T064658Z_stage1_2cbbdd65\\jobs\\B_s41013_r4202_dose625_t8000\\a01_c14882c1\\checkpoint",
+        "manifest_sha256": "feef69fe507f4ed721c0c94555921134f0f5a04ff51f6474dc11be631d22e6ce"
+      },
+      "bank": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T055015Z_stage1_c82b28ef\\jobs\\B_s41013_bank\\a01_5e8eb9ed\\evaluation_banks.json",
+        "sha256": "66ed4536e7539702e0e0045ecbcb4950e2123410bbda99a8549722d50a56861e"
+      },
+      "cases_per_task": 100,
+      "chunk_cases_per_task": 10
+    },
+    {
+      "id": "B_s41014_r4201_dose625_8k_O100",
+      "kind": "research_8k_evaluation",
+      "original_seed": 41014,
+      "continuation": 4201,
+      "continuation_rng_seed": 2418928234,
+      "horizon": 8000,
+      "expected_absolute_step": 208000,
+      "config": {
+        "version": "48_bp8k_checkpoint_evaluation_v1",
+        "seed": 41014,
+        "device": "cuda",
+        "torch_threads": 1,
+        "deterministic_torch": true,
+        "episode_steps": 500,
+        "reward_function_version": "v2",
+        "buffer_size": 100000,
+        "batch_size": 256,
+        "learning_starts": 1000,
+        "learning_rate": 0.0003,
+        "gamma": 0.99,
+        "tau": 0.005,
+        "net_arch": [
+          256,
+          256
+        ],
+        "n_critics": 2,
+        "ent_coef": "auto",
+        "target_entropy": "auto",
+        "target_update_interval": 1,
+        "train_freq": 1,
+        "gradient_steps": 1,
+        "normalize_observations": false,
+        "normalize_rewards": false,
+        "use_sde": false,
+        "action_noise": null,
+        "optimize_memory_usage": false,
+        "handle_timeout_termination": true,
+        "n_steps": 1,
+        "smoke_train_steps": 4000,
+        "resume_steps": 1000,
+        "validation_eval_episodes_per_task": 2,
+        "diagnostic_bank_episodes_per_task": 2,
+        "outcome_bank_episodes_per_task": 100,
+        "bank_seed": 424200,
+        "log_every_steps": 250,
+        "resume_atol": 0.0,
+        "resume_rtol": 0.0
+      },
+      "checkpoint": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\44_selection_value_stage1_checkpoint36_v2\\results\\20261019T064658Z_stage1_2cbbdd65\\jobs\\B_s41014_r4201_dose625_t8000\\a01_06459dda\\checkpoint",
+        "manifest_sha256": "02371ff02e53d0003c77cb1c4712b132229c982bb39c8338e1a9a8ff53ab04ec"
+      },
+      "bank": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T055015Z_stage1_c82b28ef\\jobs\\B_s41014_bank\\a01_5d8f2a3a\\evaluation_banks.json",
+        "sha256": "b95d2f61fb44f3f9386c1220b1844b279525d617d6b1635b9f3dc6c5074e9495"
+      },
+      "cases_per_task": 100,
+      "chunk_cases_per_task": 10
+    },
+    {
+      "id": "B_s41014_r4202_dose625_8k_O100",
+      "kind": "research_8k_evaluation",
+      "original_seed": 41014,
+      "continuation": 4202,
+      "continuation_rng_seed": 1134167883,
+      "horizon": 8000,
+      "expected_absolute_step": 208000,
+      "config": {
+        "version": "48_bp8k_checkpoint_evaluation_v1",
+        "seed": 41014,
+        "device": "cuda",
+        "torch_threads": 1,
+        "deterministic_torch": true,
+        "episode_steps": 500,
+        "reward_function_version": "v2",
+        "buffer_size": 100000,
+        "batch_size": 256,
+        "learning_starts": 1000,
+        "learning_rate": 0.0003,
+        "gamma": 0.99,
+        "tau": 0.005,
+        "net_arch": [
+          256,
+          256
+        ],
+        "n_critics": 2,
+        "ent_coef": "auto",
+        "target_entropy": "auto",
+        "target_update_interval": 1,
+        "train_freq": 1,
+        "gradient_steps": 1,
+        "normalize_observations": false,
+        "normalize_rewards": false,
+        "use_sde": false,
+        "action_noise": null,
+        "optimize_memory_usage": false,
+        "handle_timeout_termination": true,
+        "n_steps": 1,
+        "smoke_train_steps": 4000,
+        "resume_steps": 1000,
+        "validation_eval_episodes_per_task": 2,
+        "diagnostic_bank_episodes_per_task": 2,
+        "outcome_bank_episodes_per_task": 100,
+        "bank_seed": 424200,
+        "log_every_steps": 250,
+        "resume_atol": 0.0,
+        "resume_rtol": 0.0
+      },
+      "checkpoint": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\44_selection_value_stage1_checkpoint36_v2\\results\\20261019T064658Z_stage1_2cbbdd65\\jobs\\B_s41014_r4202_dose625_t8000\\a01_5ca438a1\\checkpoint",
+        "manifest_sha256": "e5407a3306f4604aff04fa6644aa7d642f0a8233a34d5046e41be4e5ebfa545b"
+      },
+      "bank": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T055015Z_stage1_c82b28ef\\jobs\\B_s41014_bank\\a01_5d8f2a3a\\evaluation_banks.json",
+        "sha256": "b95d2f61fb44f3f9386c1220b1844b279525d617d6b1635b9f3dc6c5074e9495"
+      },
+      "cases_per_task": 100,
+      "chunk_cases_per_task": 10
+    },
+    {
+      "id": "B_s41015_r4201_dose625_8k_O100",
+      "kind": "research_8k_evaluation",
+      "original_seed": 41015,
+      "continuation": 4201,
+      "continuation_rng_seed": 679393678,
+      "horizon": 8000,
+      "expected_absolute_step": 208000,
+      "config": {
+        "version": "48_bp8k_checkpoint_evaluation_v1",
+        "seed": 41015,
+        "device": "cuda",
+        "torch_threads": 1,
+        "deterministic_torch": true,
+        "episode_steps": 500,
+        "reward_function_version": "v2",
+        "buffer_size": 100000,
+        "batch_size": 256,
+        "learning_starts": 1000,
+        "learning_rate": 0.0003,
+        "gamma": 0.99,
+        "tau": 0.005,
+        "net_arch": [
+          256,
+          256
+        ],
+        "n_critics": 2,
+        "ent_coef": "auto",
+        "target_entropy": "auto",
+        "target_update_interval": 1,
+        "train_freq": 1,
+        "gradient_steps": 1,
+        "normalize_observations": false,
+        "normalize_rewards": false,
+        "use_sde": false,
+        "action_noise": null,
+        "optimize_memory_usage": false,
+        "handle_timeout_termination": true,
+        "n_steps": 1,
+        "smoke_train_steps": 4000,
+        "resume_steps": 1000,
+        "validation_eval_episodes_per_task": 2,
+        "diagnostic_bank_episodes_per_task": 2,
+        "outcome_bank_episodes_per_task": 100,
+        "bank_seed": 424200,
+        "log_every_steps": 250,
+        "resume_atol": 0.0,
+        "resume_rtol": 0.0
+      },
+      "checkpoint": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\44_selection_value_stage1_checkpoint36_v2\\results\\20261019T064658Z_stage1_2cbbdd65\\jobs\\B_s41015_r4201_dose625_t8000\\a01_e5391d30\\checkpoint",
+        "manifest_sha256": "084d96e80f02a7ca338dd0073aa3f3a51686635e02f636758093cebe4d53e1de"
+      },
+      "bank": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T055015Z_stage1_c82b28ef\\jobs\\B_s41015_bank\\a01_f04c2cf6\\evaluation_banks.json",
+        "sha256": "90590f29d71b68bb7114d1dddd1c279a361e207d51f478a046de9402cb5202b7"
+      },
+      "cases_per_task": 100,
+      "chunk_cases_per_task": 10
+    },
+    {
+      "id": "B_s41015_r4202_dose625_8k_O100",
+      "kind": "research_8k_evaluation",
+      "original_seed": 41015,
+      "continuation": 4202,
+      "continuation_rng_seed": 1363291514,
+      "horizon": 8000,
+      "expected_absolute_step": 208000,
+      "config": {
+        "version": "48_bp8k_checkpoint_evaluation_v1",
+        "seed": 41015,
+        "device": "cuda",
+        "torch_threads": 1,
+        "deterministic_torch": true,
+        "episode_steps": 500,
+        "reward_function_version": "v2",
+        "buffer_size": 100000,
+        "batch_size": 256,
+        "learning_starts": 1000,
+        "learning_rate": 0.0003,
+        "gamma": 0.99,
+        "tau": 0.005,
+        "net_arch": [
+          256,
+          256
+        ],
+        "n_critics": 2,
+        "ent_coef": "auto",
+        "target_entropy": "auto",
+        "target_update_interval": 1,
+        "train_freq": 1,
+        "gradient_steps": 1,
+        "normalize_observations": false,
+        "normalize_rewards": false,
+        "use_sde": false,
+        "action_noise": null,
+        "optimize_memory_usage": false,
+        "handle_timeout_termination": true,
+        "n_steps": 1,
+        "smoke_train_steps": 4000,
+        "resume_steps": 1000,
+        "validation_eval_episodes_per_task": 2,
+        "diagnostic_bank_episodes_per_task": 2,
+        "outcome_bank_episodes_per_task": 100,
+        "bank_seed": 424200,
+        "log_every_steps": 250,
+        "resume_atol": 0.0,
+        "resume_rtol": 0.0
+      },
+      "checkpoint": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\44_selection_value_stage1_checkpoint36_v2\\results\\20261019T064658Z_stage1_2cbbdd65\\jobs\\B_s41015_r4202_dose625_t8000\\a01_8ae214c4\\checkpoint",
+        "manifest_sha256": "3be9a5e4ce2da118538d6831d6df599e05578815148773b0b9ae5f6d55b081c9"
+      },
+      "bank": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T055015Z_stage1_c82b28ef\\jobs\\B_s41015_bank\\a01_f04c2cf6\\evaluation_banks.json",
+        "sha256": "90590f29d71b68bb7114d1dddd1c279a361e207d51f478a046de9402cb5202b7"
+      },
+      "cases_per_task": 100,
+      "chunk_cases_per_task": 10
+    }
+  ],
+  "technical": {
+    "id": "known_BP40k_41011_4201_first2",
+    "kind": "technical_known_policy",
+    "original_seed": 41011,
+    "continuation": 4201,
+    "continuation_rng_seed": 184512748,
+    "horizon": 40000,
+    "expected_absolute_step": 240000,
+    "config": {
+      "version": "48_bp8k_checkpoint_evaluation_v1",
+      "seed": 41011,
+      "device": "cuda",
+      "torch_threads": 1,
+      "deterministic_torch": true,
+      "episode_steps": 500,
+      "reward_function_version": "v2",
+      "buffer_size": 100000,
+      "batch_size": 256,
+      "learning_starts": 1000,
+      "learning_rate": 0.0003,
+      "gamma": 0.99,
+      "tau": 0.005,
+      "net_arch": [
+        256,
+        256
+      ],
+      "n_critics": 2,
+      "ent_coef": "auto",
+      "target_entropy": "auto",
+      "target_update_interval": 1,
+      "train_freq": 1,
+      "gradient_steps": 1,
+      "normalize_observations": false,
+      "normalize_rewards": false,
+      "use_sde": false,
+      "action_noise": null,
+      "optimize_memory_usage": false,
+      "handle_timeout_termination": true,
+      "n_steps": 1,
+      "smoke_train_steps": 4000,
+      "resume_steps": 1000,
+      "validation_eval_episodes_per_task": 2,
+      "diagnostic_bank_episodes_per_task": 2,
+      "outcome_bank_episodes_per_task": 100,
+      "bank_seed": 424200,
+      "log_every_steps": 250,
+      "resume_atol": 0.0,
+      "resume_rtol": 0.0
+    },
+    "checkpoint": {
+      "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\44_selection_value_stage1_checkpoint36_v2\\results\\20261019T064658Z_stage1_2cbbdd65\\jobs\\B_s41011_r4201_dose625_t40000\\a01_b72d31e6\\checkpoint",
+      "manifest_sha256": "73397a0c9785d8ebde3536feb5fbbce37f9e56684776331d8a6156391dc225f5"
+    },
+    "bank": {
+      "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T055015Z_stage1_c82b28ef\\jobs\\B_s41011_bank\\a01_d84a7648\\evaluation_banks.json",
+      "sha256": "217244ce0a82a759152cd2eefd14c04c3a84bfb1ee95dcc8b47c4a06603cbb50"
+    },
+    "cases_per_task": 2,
+    "chunk_cases_per_task": 1,
+    "known_outcome": {
+      "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\44_selection_value_stage1_checkpoint36_v2\\results\\20261019T064658Z_stage1_2cbbdd65\\jobs\\B_s41011_r4201_dose625_O\\a01_2fa14bff\\evaluation_episodes.csv",
+      "sha256": "ec4e6074ada522147987bed6f5eb2bed5a1fdaad84389cc57f8970e4076b4aac"
+    }
+  },
+  "baselines": [
+    {
+      "original_seed": 41011,
+      "continuation": 0,
+      "horizon": 0,
+      "outcome": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\44_selection_value_stage1_checkpoint36_v2\\results\\20261019T064658Z_stage1_2cbbdd65\\jobs\\B_s41011_parent_O\\a01_e362c512\\evaluation_episodes.csv",
+        "sha256": "5556fa946533ecf2364111e79cf3b43ccbd96675b6b51be3a87c4b5791493ac9"
+      }
+    },
+    {
+      "original_seed": 41011,
+      "continuation": 4201,
+      "horizon": 40000,
+      "outcome": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\44_selection_value_stage1_checkpoint36_v2\\results\\20261019T064658Z_stage1_2cbbdd65\\jobs\\B_s41011_r4201_dose625_O\\a01_2fa14bff\\evaluation_episodes.csv",
+        "sha256": "ec4e6074ada522147987bed6f5eb2bed5a1fdaad84389cc57f8970e4076b4aac"
+      }
+    },
+    {
+      "original_seed": 41011,
+      "continuation": 4202,
+      "horizon": 40000,
+      "outcome": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\44_selection_value_stage1_checkpoint36_v2\\results\\20261019T064658Z_stage1_2cbbdd65\\jobs\\B_s41011_r4202_dose625_O\\a01_5189a346\\evaluation_episodes.csv",
+        "sha256": "0a7bc6e97694484c579da283daa767a96ffd3496095302c36465df05605b229b"
+      }
+    },
+    {
+      "original_seed": 41012,
+      "continuation": 0,
+      "horizon": 0,
+      "outcome": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\44_selection_value_stage1_checkpoint36_v2\\results\\20261019T064658Z_stage1_2cbbdd65\\jobs\\B_s41012_parent_O\\a01_377934c5\\evaluation_episodes.csv",
+        "sha256": "be9ea69c5e5f39d20c051765fefe8d9fce6148af8e3b8968337af714106a46a7"
+      }
+    },
+    {
+      "original_seed": 41012,
+      "continuation": 4201,
+      "horizon": 40000,
+      "outcome": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\44_selection_value_stage1_checkpoint36_v2\\results\\20261019T064658Z_stage1_2cbbdd65\\jobs\\B_s41012_r4201_dose625_O\\a01_c28f4467\\evaluation_episodes.csv",
+        "sha256": "2b20a8483a62ba48797db87ee5565ba872f48a21ca567ee316976b80c8e57bc5"
+      }
+    },
+    {
+      "original_seed": 41012,
+      "continuation": 4202,
+      "horizon": 40000,
+      "outcome": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\44_selection_value_stage1_checkpoint36_v2\\results\\20261019T064658Z_stage1_2cbbdd65\\jobs\\B_s41012_r4202_dose625_O\\a01_b2ece1c8\\evaluation_episodes.csv",
+        "sha256": "a2ad596e2c9b2488c73fe754d3e014d50ad97310908a087d9d81b7bed01a0f7d"
+      }
+    },
+    {
+      "original_seed": 41013,
+      "continuation": 0,
+      "horizon": 0,
+      "outcome": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\44_selection_value_stage1_checkpoint36_v2\\results\\20261019T064658Z_stage1_2cbbdd65\\jobs\\B_s41013_parent_O\\a01_a9c7fc33\\evaluation_episodes.csv",
+        "sha256": "a5e4630812bd5009668aa5cae9308da8f60237b5862d98ae94c9bc611d633daa"
+      }
+    },
+    {
+      "original_seed": 41013,
+      "continuation": 4201,
+      "horizon": 40000,
+      "outcome": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\44_selection_value_stage1_checkpoint36_v2\\results\\20261019T064658Z_stage1_2cbbdd65\\jobs\\B_s41013_r4201_dose625_O\\a01_7585c1dd\\evaluation_episodes.csv",
+        "sha256": "4c996feba02c2ef25cc9e0ce854f18688b8a58425ad65f261e7ec88045b41bd7"
+      }
+    },
+    {
+      "original_seed": 41013,
+      "continuation": 4202,
+      "horizon": 40000,
+      "outcome": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\44_selection_value_stage1_checkpoint36_v2\\results\\20261019T064658Z_stage1_2cbbdd65\\jobs\\B_s41013_r4202_dose625_O\\a01_fc14bfac\\evaluation_episodes.csv",
+        "sha256": "f44e48a33ed860e396d23d3a0baa7ac594d074b3fbae882cd56d299535cb9ad3"
+      }
+    },
+    {
+      "original_seed": 41014,
+      "continuation": 0,
+      "horizon": 0,
+      "outcome": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\44_selection_value_stage1_checkpoint36_v2\\results\\20261019T064658Z_stage1_2cbbdd65\\jobs\\B_s41014_parent_O\\a01_dabd9b2b\\evaluation_episodes.csv",
+        "sha256": "95096f6a8979d276bf5aff7c7aaff3a0e897212c70c65d14161fd07ba20dd1c6"
+      }
+    },
+    {
+      "original_seed": 41014,
+      "continuation": 4201,
+      "horizon": 40000,
+      "outcome": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\44_selection_value_stage1_checkpoint36_v2\\results\\20261019T064658Z_stage1_2cbbdd65\\jobs\\B_s41014_r4201_dose625_O\\a01_b892e3b5\\evaluation_episodes.csv",
+        "sha256": "f38b88a109354a92694ae8b7c958839b48c94f21c39fb11c6430c173cc43dc3e"
+      }
+    },
+    {
+      "original_seed": 41014,
+      "continuation": 4202,
+      "horizon": 40000,
+      "outcome": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\44_selection_value_stage1_checkpoint36_v2\\results\\20261019T064658Z_stage1_2cbbdd65\\jobs\\B_s41014_r4202_dose625_O\\a01_bd55929c\\evaluation_episodes.csv",
+        "sha256": "07ba1e2669e0b24e165ebe3ef7834697a0bfba50c2099afc9758b5e2ebfa7829"
+      }
+    },
+    {
+      "original_seed": 41015,
+      "continuation": 0,
+      "horizon": 0,
+      "outcome": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\44_selection_value_stage1_checkpoint36_v2\\results\\20261019T064658Z_stage1_2cbbdd65\\jobs\\B_s41015_parent_O\\a01_ea8b7d7f\\evaluation_episodes.csv",
+        "sha256": "9d921b525586bf2103119f6665e1e8528d5f1154972c69b391777a17534a0731"
+      }
+    },
+    {
+      "original_seed": 41015,
+      "continuation": 4201,
+      "horizon": 40000,
+      "outcome": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\44_selection_value_stage1_checkpoint36_v2\\results\\20261019T064658Z_stage1_2cbbdd65\\jobs\\B_s41015_r4201_dose625_O\\a01_a4a4e1a3\\evaluation_episodes.csv",
+        "sha256": "62ced212fc176765e3ffc5e4172285f0c341c5582479f6f83d71d80f189225a1"
+      }
+    },
+    {
+      "original_seed": 41015,
+      "continuation": 4202,
+      "horizon": 40000,
+      "outcome": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\44_selection_value_stage1_checkpoint36_v2\\results\\20261019T064658Z_stage1_2cbbdd65\\jobs\\B_s41015_r4202_dose625_O\\a01_1862a0b6\\evaluation_episodes.csv",
+        "sha256": "9d539e83221a4ffc8853bd4c195c0a6e59664f215978e4d01cb4a1a606ed8983"
+      }
+    }
+  ],
+  "banks": [
+    {
+      "original_seed": 41011,
+      "bank": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T055015Z_stage1_c82b28ef\\jobs\\B_s41011_bank\\a01_d84a7648\\evaluation_banks.json",
+        "sha256": "217244ce0a82a759152cd2eefd14c04c3a84bfb1ee95dcc8b47c4a06603cbb50"
+      }
+    },
+    {
+      "original_seed": 41012,
+      "bank": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T055015Z_stage1_c82b28ef\\jobs\\B_s41012_bank\\a01_840e88e3\\evaluation_banks.json",
+        "sha256": "bbd310ea0e968d3b4ce6ae88c5244cebe086e843e3a14ef41a9e25954d336b9f"
+      }
+    },
+    {
+      "original_seed": 41013,
+      "bank": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T055015Z_stage1_c82b28ef\\jobs\\B_s41013_bank\\a01_5e8eb9ed\\evaluation_banks.json",
+        "sha256": "66ed4536e7539702e0e0045ecbcb4950e2123410bbda99a8549722d50a56861e"
+      }
+    },
+    {
+      "original_seed": 41014,
+      "bank": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T055015Z_stage1_c82b28ef\\jobs\\B_s41014_bank\\a01_5d8f2a3a\\evaluation_banks.json",
+        "sha256": "b95d2f61fb44f3f9386c1220b1844b279525d617d6b1635b9f3dc6c5074e9495"
+      }
+    },
+    {
+      "original_seed": 41015,
+      "bank": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T055015Z_stage1_c82b28ef\\jobs\\B_s41015_bank\\a01_f04c2cf6\\evaluation_banks.json",
+        "sha256": "90590f29d71b68bb7114d1dddd1c279a361e207d51f478a046de9402cb5202b7"
+      }
+    }
+  ],
+  "prior_campaign": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\44_selection_value_stage1_checkpoint36_v2\\results\\20261019T064658Z_stage1_2cbbdd65",
+  "protocol": {
+    "version": "48_bp8k_checkpoint_evaluation_v1",
+    "date_kst": "2026-10-20",
+    "purpose": "Measure 0-to-8k and 8k-to-40k net success changes and three-timepoint case trajectories; not selector validation",
+    "authorization": "User endorsed B intermediate-policy evaluation following A review; C and original stages 2/3 held",
+    "predecessors": [
+      "46_post_stage1_path_loss_design_v1",
+      "47_existing_data_path_loss_analysis_v1"
+    ],
+    "suite": "B",
+    "tasks": [
+      "DO",
+      "DC",
+      "PU",
+      "BP"
+    ],
+    "original_seeds": [
+      41011,
+      41012,
+      41013,
+      41014,
+      41015
+    ],
+    "continuations": [
+      4201,
+      4202
+    ],
+    "condition": "dose625",
+    "parent_steps": 200000,
+    "checkpoint_absolute_steps": 208000,
+    "evaluation": {
+      "policies": 10,
+      "cases_per_task": 100,
+      "max_steps_per_case": 500,
+      "same_original_outcome_bank": true,
+      "deterministic_actions": true,
+      "early_stop_on_success": true,
+      "case_identity": [
+        "original_seed",
+        "task",
+        "episode_index",
+        "seed",
+        "initial_state_hash"
+      ],
+      "preserve_full_learner_replay_collector_RNG": true,
+      "chunk_cases_per_task": 10,
+      "parallel_workers": 2,
+      "recovery": "Immutable attempts. Fail closed on integrity or numerical failure; no scientific-effect stopping."
+    },
+    "budget": {
+      "research_evaluation_steps_upper": 2000000,
+      "research_episodes": 4000,
+      "new_training_steps": 0,
+      "new_SAC_updates": 0,
+      "technical_evaluation": "Known final BP policy 41011/4201, first two cases per task, compared exactly to recorded results; full-state restoration and evaluation invariance",
+      "technical_evaluation_steps_upper": 4000,
+      "retry_steps": "No automatic retries or budget expansion; partial outputs and actual consumed steps retained",
+      "online_diagnostic_steps": 0,
+      "accounting": "B O100 is research measurement, not a paid 4k online diagnosis. Compare learned 8k and 40k; no 36k evaluation in this scope."
+    },
+    "analysis": {
+      "independent_unit": "five original parents; average the two paths within each parent",
+      "scores": [
+        "J0",
+        "J8",
+        "J40"
+      ],
+      "contrasts": {
+        "early": "J8-J0",
+        "late": "J40-J8",
+        "total": "J40-J0",
+        "stop8_advantage": "J8-J40; negative of late, not a separate tested contrast"
+      },
+      "three_timepoint_patterns": [
+        "000",
+        "001",
+        "010",
+        "011",
+        "100",
+        "101",
+        "110",
+        "111"
+      ],
+      "pattern_order": "parent,8k,40k",
+      "identities": [
+        "early_gain=010+011; early_loss=100+101",
+        "late_gain=001+101; late_loss=010+110",
+        "total_gain=001+011; total_loss=100+110",
+        "early_net+late_net=total_net",
+        "early_gain+late_gain-total_gain=010+101",
+        "early_loss+late_loss-total_loss=010+101"
+      ],
+      "denominators": "100 cases for each task, 400 for macro; conditional rates are NA for empty denominators",
+      "primary_reporting": "All ten paths, five parent means, task scores, fixed J0/J8/J40 means and full parent-removal means; all patterns",
+      "case_uncertainty": {
+        "replicates": 20000,
+        "rng_seed": 480202,
+        "rng": "numpy PCG64",
+        "pairing": "One case resample per parent and task applied to original parent and both paths' 8k and 40k outcomes; independent across parent/task strata",
+        "order": "parents ascending, tasks DO/DC/PU/BP; per-stratum 20000x100 integer indices",
+        "simultaneous_family": "30 path macro contrasts: 5 parents x 2 paths x early/late/total",
+        "intervals": "marginal percentile95 and max-absolute-standardized-deviation simultaneous95; SD uses ddof=1; linear quantiles",
+        "zero_SE": "Mark empirical degeneracy, exclude from max statistic; do not interpret as population certainty",
+        "task_and_parent_intervals": "Marginal intervals only, descriptive; not added to the prespecified simultaneous family",
+        "scope": "Fitted-policy, empirical evaluation-case uncertainty, not new learning futures"
+      },
+      "parent_uncertainty": {
+        "method": "Exact enumeration of 5^5=3125 equal-probability parent resamples of paired parent-mean contrasts",
+        "intervals": "Descriptive percentile95, five-parent sample; distinct from case-bootstrap intervals",
+        "sensitivity": "Drop each parent and recompute constant-policy means; no rule fitting"
+      },
+      "development_flags": {
+        "practical_margin_pp": 2.0,
+        "early_loss_then_recovery": "early<=-2 and late>=2; report total separately",
+        "early_loss_still_below_parent": "early<=-2 and total<=-2; may coexist with partial recovery",
+        "broad_stop8_pattern": "at least 8/10 paths have stop8_advantage>=2 and at least 4/5 parents have both paths >=2",
+        "opposite_repeatable_parent_preferences": "one parent has both paths late>=2 and another has both late<=-2",
+        "case_supported_opposite_preferences": "above point pattern and respective simultaneous late intervals exclude zero for both paths in each parent",
+        "mostly_small_realized_difference": "at least 8/10 paths have abs(late)<2",
+        "interpretation": "Descriptive investment flags may overlap; never significance claims, expected-state-value estimates, automatic gates, or authorization"
+      },
+      "prohibited_in_this_stage": [
+        "fit or tune TD or other selector",
+        "use outcome O100 as free decision input",
+        "claim predictive value from correlation of J8-J0 and J40-J8 sharing J8 noise",
+        "infer that avoiding loss preserves all gains",
+        "infer exact timing inside 0-8k or 8-40k intervals",
+        "run C or original stages 2/3"
+      ]
+    },
+    "future_decisions": {
+      "early_loss_then_recovery": "Weakens stopping at 8k; do not miss later recovery",
+      "early_loss_persists": "8k stop does not restore original parent; earlier decision or rollback is a separate proposal",
+      "broad_stop8": "Evaluate a better constant horizon before claiming state-dependent choice",
+      "heterogeneous_late_value": "Motivates prefix-only signal development with separate diagnostic/outcome cases and later fresh-future validation; no immediate C",
+      "small_or_uncertain": "Report limited practical room or unresolved evidence; no automatic seed expansion",
+      "default": "Finish B, report all results, retain C and original 2/3 holds"
+    }
+  },
+  "execution_scope": "B evaluation only"
+}

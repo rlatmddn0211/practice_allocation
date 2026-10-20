@@ -1,0 +1,79 @@
+{
+  "execution_status": "completed",
+  "scientific_status": "inconclusive_or_fixed_sufficient_in_tested_scope",
+  "new_environment_steps": 0,
+  "original_seeds": [
+    41011,
+    41012,
+    41013,
+    41014,
+    41015
+  ],
+  "continuations": [
+    4201,
+    4202
+  ],
+  "fixed_method_for_later_development": "dose625",
+  "stage2_investment_gate_pass": false,
+  "parent_choice_gains": {
+    "vs_BP_pp": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "vs_fixed_pp": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "pairwise_preferences": [
+    {
+      "a": "dose625",
+      "b": "alternate4k",
+      "a_preferred_parents": [
+        41011,
+        41012,
+        41013,
+        41014,
+        41015
+      ],
+      "b_preferred_parents": [],
+      "opposite_repeatable_preferences": false
+    },
+    {
+      "a": "dose625",
+      "b": "mixture",
+      "a_preferred_parents": [
+        41011,
+        41012,
+        41013,
+        41014,
+        41015
+      ],
+      "b_preferred_parents": [],
+      "opposite_repeatable_preferences": false
+    },
+    {
+      "a": "alternate4k",
+      "b": "mixture",
+      "a_preferred_parents": [
+        41011,
+        41012,
+        41013,
+        41014,
+        41015
+      ],
+      "b_preferred_parents": [],
+      "opposite_repeatable_preferences": false
+    }
+  ],
+  "meaning": "Exploratory investment criterion; neither statistical confirmation nor proof of absence",
+  "next_state": "inconclusive_or_fixed_sufficient_in_tested_scope",
+  "uncertainty_scope": "Five parents; bootstrap is descriptive, not a powered confirmatory test. Crossfit uses expensive final information and ignores diagnostic cost.",
+  "wall_seconds": 0.1538472999818623
+}

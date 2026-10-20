@@ -1,0 +1,271 @@
+{
+  "created_at": "2026-10-19T05:45:27.479856+00:00",
+  "technical_smoke": true,
+  "jobs": [
+    {
+      "id": "B_s42999_bank",
+      "kind": "bank",
+      "original_seed": 42999,
+      "bank_seed": 467199,
+      "other_banks": []
+    },
+    {
+      "id": "B_s42999_init",
+      "kind": "init",
+      "original_seed": 42999
+    },
+    {
+      "id": "B_s42999_pretrain_4000",
+      "kind": "train",
+      "original_seed": 42999,
+      "parent": {
+        "from_job": "B_s42999_init",
+        "key": "checkpoint"
+      },
+      "start_step": 0,
+      "steps": 4000,
+      "all_banks": [
+        {
+          "from_job": "B_s42999_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s42999_parent_O",
+      "kind": "evaluate",
+      "original_seed": 42999,
+      "parent": {
+        "from_job": "B_s42999_pretrain_4000",
+        "key": "checkpoint"
+      },
+      "bank": {
+        "from_job": "B_s42999_bank",
+        "key": "bank"
+      },
+      "role": "parent"
+    },
+    {
+      "id": "B_s42999_r42901_dose625_t500",
+      "kind": "train",
+      "original_seed": 42999,
+      "parent": {
+        "from_job": "B_s42999_pretrain_4000",
+        "key": "checkpoint"
+      },
+      "parent_step": 4000,
+      "start_step": 4000,
+      "steps": 500,
+      "horizon": 500,
+      "condition": "dose625",
+      "continuation": 42901,
+      "continuation_rng_seed": 938352391,
+      "start_branch": true,
+      "all_banks": [
+        {
+          "from_job": "B_s42999_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s42999_r42901_dose625_t1000",
+      "kind": "train",
+      "original_seed": 42999,
+      "parent": {
+        "from_job": "B_s42999_r42901_dose625_t500",
+        "key": "checkpoint"
+      },
+      "parent_step": 4000,
+      "start_step": 4500,
+      "steps": 500,
+      "horizon": 1000,
+      "condition": "dose625",
+      "continuation": 42901,
+      "continuation_rng_seed": 938352391,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s42999_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s42999_r42901_dose625_O",
+      "kind": "evaluate",
+      "original_seed": 42999,
+      "parent": {
+        "from_job": "B_s42999_r42901_dose625_t1000",
+        "key": "checkpoint"
+      },
+      "bank": {
+        "from_job": "B_s42999_bank",
+        "key": "bank"
+      },
+      "role": "branch",
+      "condition": "dose625",
+      "continuation": 42901,
+      "horizon": 1000
+    },
+    {
+      "id": "B_s42999_r42901_alternate4k_t500",
+      "kind": "train",
+      "original_seed": 42999,
+      "parent": {
+        "from_job": "B_s42999_pretrain_4000",
+        "key": "checkpoint"
+      },
+      "parent_step": 4000,
+      "start_step": 4000,
+      "steps": 500,
+      "horizon": 500,
+      "condition": "alternate4k",
+      "continuation": 42901,
+      "continuation_rng_seed": 938352391,
+      "start_branch": true,
+      "all_banks": [
+        {
+          "from_job": "B_s42999_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s42999_r42901_alternate4k_t1000",
+      "kind": "train",
+      "original_seed": 42999,
+      "parent": {
+        "from_job": "B_s42999_r42901_alternate4k_t500",
+        "key": "checkpoint"
+      },
+      "parent_step": 4000,
+      "start_step": 4500,
+      "steps": 500,
+      "horizon": 1000,
+      "condition": "alternate4k",
+      "continuation": 42901,
+      "continuation_rng_seed": 938352391,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s42999_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s42999_r42901_alternate4k_O",
+      "kind": "evaluate",
+      "original_seed": 42999,
+      "parent": {
+        "from_job": "B_s42999_r42901_alternate4k_t1000",
+        "key": "checkpoint"
+      },
+      "bank": {
+        "from_job": "B_s42999_bank",
+        "key": "bank"
+      },
+      "role": "branch",
+      "condition": "alternate4k",
+      "continuation": 42901,
+      "horizon": 1000
+    },
+    {
+      "id": "B_s42999_r42901_mixture_t500",
+      "kind": "train",
+      "original_seed": 42999,
+      "parent": {
+        "from_job": "B_s42999_pretrain_4000",
+        "key": "checkpoint"
+      },
+      "parent_step": 4000,
+      "start_step": 4000,
+      "steps": 500,
+      "horizon": 500,
+      "condition": "mixture",
+      "continuation": 42901,
+      "continuation_rng_seed": 938352391,
+      "start_branch": true,
+      "all_banks": [
+        {
+          "from_job": "B_s42999_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s42999_r42901_mixture_t1000",
+      "kind": "train",
+      "original_seed": 42999,
+      "parent": {
+        "from_job": "B_s42999_r42901_mixture_t500",
+        "key": "checkpoint"
+      },
+      "parent_step": 4000,
+      "start_step": 4500,
+      "steps": 500,
+      "horizon": 1000,
+      "condition": "mixture",
+      "continuation": 42901,
+      "continuation_rng_seed": 938352391,
+      "start_branch": false,
+      "all_banks": [
+        {
+          "from_job": "B_s42999_bank",
+          "key": "bank"
+        }
+      ]
+    },
+    {
+      "id": "B_s42999_r42901_mixture_O",
+      "kind": "evaluate",
+      "original_seed": 42999,
+      "parent": {
+        "from_job": "B_s42999_r42901_mixture_t1000",
+        "key": "checkpoint"
+      },
+      "bank": {
+        "from_job": "B_s42999_bank",
+        "key": "bank"
+      },
+      "role": "branch",
+      "condition": "mixture",
+      "continuation": 42901,
+      "horizon": 1000
+    }
+  ],
+  "source_hashes": {
+    "analyze.py": "0587324f5bb095eb9b2d68a9391d263c5429db6fb94b9da7e258d5234e1ebdac",
+    "campaign.py": "49df6a2b51c1de04aae9f74270709df30d6ef9cdb5621de0a7aedfd367ce061a",
+    "verify_implementation.py": "de4c92d4506ffbd9965c45f0ebc81b56716aa2188a037688926453d2d53eeee0",
+    "worker.py": "865a9f5ad28e6698768e526eba2a580d1ee78291dd9b48ff2fd85d15b3ccb01a",
+    "launch_queue.ps1": "ba7978ae6e4017cea0ac395945aa727015d5d32a1a2f87048724de8049286c9f",
+    "requirements.txt": "cb62ec70a441ab12b0a7caab26904375ffd55ce0ef5497b20e07a48205b43b1b",
+    "VERSION.json": "68f9afed4545274bb0fe3ba7f63c20fab4f3edc13a0cf7e5017de057557b5497",
+    "practice_allocation/__init__.py": "4215c51deb3d834c283aeed7c87b8747916234e964f1a8cd9eedadaf1e465a2f",
+    "practice_allocation/core.py": "507791b5674293ecd8ba616bfc46494c5cdf2544f9f8eeb9bddc83d1759286db",
+    "practice_allocation/engine.py": "ae090b11d36b715eb7c66ce89c39c1021d1de140abe7fbb5e820eff1ed4a3f26",
+    "practice_allocation/environment.py": "85afb8560da5160832e619f90608eae0b4b83aa75264376800111b295ef4e4e8",
+    "practice_allocation/evaluation.py": "196b18ad4b60bca516511e71a449b12b78784a20a1699caa207975203d5cc525",
+    "practice_allocation/learning.py": "e32e1f2e23490c651167af24386a3af5df005af766a33128c9bb75f719e30009",
+    "practice_allocation/schedules.py": "d114ce28a4b56e52ec53f1481f6393bdae1895cdb8d4393a10b175e1e36da4ec",
+    "practice_allocation/study_io.py": "20b46c67027a413857c80bbbd5e9dad469fae9ccafd468ef3b942dfc76389c53",
+    "configs/learner.json": "ef01032792813f0cd67b959f4b5c823090194b72efc126531ac955e68d8b23f5",
+    "configs/research_protocol.json": "0b21698f0268579a7f2ad68ef7628036389ace38be3579058432b662a860eaf4",
+    "configs/suites.json": "d94a146844590a1fd66e06625222db17340f442f992df674f069514330771c77"
+  },
+  "historical_forbidden": {
+    "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T054526Z_technical_2e59086f\\historical_forbidden.json",
+    "sha256": "5c8e18fbe536f0b0947331a3e84e9becbff0733d8e06723413ee3d19812aa333"
+  },
+  "verification": {
+    "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T054326Z_verify_ae5e8575\\summary.json",
+    "sha256": "b9a6fbe5555a5afceb6da8b8adb74693b04539bd12595c0755404e4740221290"
+  },
+  "maximum_attempts": 3,
+  "planned_training_steps": 7000,
+  "scientific_effect_never_stops_within_stage": true,
+  "stage2_auto_training": false,
+  "stage2_requires": "scientific gate, frozen intervention specification and technical validation"
+}

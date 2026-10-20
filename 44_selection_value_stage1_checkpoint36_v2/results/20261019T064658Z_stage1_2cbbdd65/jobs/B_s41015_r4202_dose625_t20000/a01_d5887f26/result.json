@@ -1,0 +1,20 @@
+{
+  "id": "B_s41015_r4202_dose625_t20000",
+  "kind": "train",
+  "original_seed": 41015,
+  "condition": "dose625",
+  "continuation": 4202,
+  "horizon": 20000,
+  "checkpoint": {
+    "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\44_selection_value_stage1_checkpoint36_v2\\results\\20261019T064658Z_stage1_2cbbdd65\\jobs\\B_s41015_r4202_dose625_t20000\\a01_d5887f26\\checkpoint",
+    "manifest_sha256": "ce818e5088de20985e888670a3ce5d822479385971b6df96001eddb16296c26d"
+  },
+  "step": 220000,
+  "collected": {
+    "DO": 1000,
+    "DC": 1000,
+    "PU": 1500,
+    "BP": 8500
+  },
+  "episode_order_verified": true
+}

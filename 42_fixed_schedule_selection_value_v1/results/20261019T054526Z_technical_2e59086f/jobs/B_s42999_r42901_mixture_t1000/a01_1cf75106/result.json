@@ -1,0 +1,20 @@
+{
+  "id": "B_s42999_r42901_mixture_t1000",
+  "kind": "train",
+  "original_seed": 42999,
+  "condition": "mixture",
+  "continuation": 42901,
+  "horizon": 1000,
+  "checkpoint": {
+    "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T054526Z_technical_2e59086f\\jobs\\B_s42999_r42901_mixture_t1000\\a01_1cf75106\\checkpoint",
+    "manifest_sha256": "08ee98659c18ce0f5270faf43202f13c5a3b11c49b1c271f4eb14061bb745f89"
+  },
+  "step": 5000,
+  "collected": {
+    "DO": 500,
+    "DC": 0,
+    "PU": 0,
+    "BP": 0
+  },
+  "episode_order_verified": true
+}

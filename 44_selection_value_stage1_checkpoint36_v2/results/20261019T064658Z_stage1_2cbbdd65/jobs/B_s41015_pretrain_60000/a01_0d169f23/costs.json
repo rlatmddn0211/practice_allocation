@@ -1,0 +1,14 @@
+{
+  "status": "completed",
+  "costs": {
+    "environment_creations": 40,
+    "resets": 40,
+    "environment_steps": 20000,
+    "train_iterations": 20000,
+    "evaluation_episodes": 0
+  },
+  "wall_seconds": 353.2499865000136,
+  "cpu_seconds": 178.546875,
+  "technical_smoke": false,
+  "gpu_busy_seconds": null
+}

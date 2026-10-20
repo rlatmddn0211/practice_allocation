@@ -1,0 +1,36 @@
+{
+  "id": "B_s42999_parent_O",
+  "kind": "evaluate",
+  "original_seed": 42999,
+  "role": "parent",
+  "evaluation": {
+    "episodes": 8,
+    "environment_steps": 4000,
+    "seconds": 7.468271299963817,
+    "steps_per_second": 535.599182105152,
+    "success_by_task": {
+      "DO": 0.0,
+      "DC": 0.0,
+      "PU": 0.0,
+      "BP": 0.0
+    },
+    "macro_success": 0.0,
+    "success_counts": {
+      "DO": 0,
+      "DC": 0,
+      "PU": 0,
+      "BP": 0
+    },
+    "episodes_by_task": {
+      "DO": 2,
+      "DC": 2,
+      "PU": 2,
+      "BP": 2
+    },
+    "results_hash": "c69213813f90819d8bf683cbb0fc95895265ce56afade93af699dd4b50ada68e",
+    "purpose": "technical smoke only"
+  },
+  "evaluation_state_unchanged": true,
+  "episodes_path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T054526Z_technical_2e59086f\\jobs\\B_s42999_parent_O\\a01_faa4f87b\\evaluation_episodes.csv",
+  "episodes_sha256": "643c285e304c3c8f321ea7d5e5087447489d579c7cf64fe46a91a7d37028abbe"
+}

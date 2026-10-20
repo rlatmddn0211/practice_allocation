@@ -1,0 +1,1150 @@
+[
+  {
+    "name": "no parent or branch outcomes exist",
+    "passed": true
+  },
+  {
+    "name": "predecessor lock is free controller.lock",
+    "passed": true
+  },
+  {
+    "name": "predecessor lock is free worker.lock",
+    "passed": true
+  },
+  {
+    "name": "all 12 completed tasks retained",
+    "passed": true
+  },
+  {
+    "name": "120k training reused",
+    "passed": true
+  },
+  {
+    "name": "5 evaluation banks reused",
+    "passed": true
+  },
+  {
+    "name": "orphan completion recovered",
+    "passed": true
+  },
+  {
+    "name": "all resolved request inputs match B_s41011_bank",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_bank analyze.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_bank campaign.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_bank verify_implementation.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_bank worker.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_bank launch_queue.ps1",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_bank requirements.txt",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_bank VERSION.json",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_bank practice_allocation/__init__.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_bank practice_allocation/core.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_bank practice_allocation/engine.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_bank practice_allocation/environment.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_bank practice_allocation/evaluation.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_bank practice_allocation/learning.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_bank practice_allocation/schedules.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_bank practice_allocation/study_io.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_bank configs/learner.json",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_bank configs/research_protocol.json",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_bank configs/suites.json",
+    "passed": true
+  },
+  {
+    "name": "all resolved request inputs match B_s41012_bank",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41012_bank analyze.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41012_bank campaign.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41012_bank verify_implementation.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41012_bank worker.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41012_bank launch_queue.ps1",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41012_bank requirements.txt",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41012_bank VERSION.json",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41012_bank practice_allocation/__init__.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41012_bank practice_allocation/core.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41012_bank practice_allocation/engine.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41012_bank practice_allocation/environment.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41012_bank practice_allocation/evaluation.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41012_bank practice_allocation/learning.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41012_bank practice_allocation/schedules.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41012_bank practice_allocation/study_io.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41012_bank configs/learner.json",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41012_bank configs/research_protocol.json",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41012_bank configs/suites.json",
+    "passed": true
+  },
+  {
+    "name": "all resolved request inputs match B_s41013_bank",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41013_bank analyze.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41013_bank campaign.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41013_bank verify_implementation.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41013_bank worker.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41013_bank launch_queue.ps1",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41013_bank requirements.txt",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41013_bank VERSION.json",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41013_bank practice_allocation/__init__.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41013_bank practice_allocation/core.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41013_bank practice_allocation/engine.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41013_bank practice_allocation/environment.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41013_bank practice_allocation/evaluation.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41013_bank practice_allocation/learning.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41013_bank practice_allocation/schedules.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41013_bank practice_allocation/study_io.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41013_bank configs/learner.json",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41013_bank configs/research_protocol.json",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41013_bank configs/suites.json",
+    "passed": true
+  },
+  {
+    "name": "all resolved request inputs match B_s41014_bank",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41014_bank analyze.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41014_bank campaign.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41014_bank verify_implementation.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41014_bank worker.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41014_bank launch_queue.ps1",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41014_bank requirements.txt",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41014_bank VERSION.json",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41014_bank practice_allocation/__init__.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41014_bank practice_allocation/core.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41014_bank practice_allocation/engine.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41014_bank practice_allocation/environment.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41014_bank practice_allocation/evaluation.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41014_bank practice_allocation/learning.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41014_bank practice_allocation/schedules.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41014_bank practice_allocation/study_io.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41014_bank configs/learner.json",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41014_bank configs/research_protocol.json",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41014_bank configs/suites.json",
+    "passed": true
+  },
+  {
+    "name": "all resolved request inputs match B_s41015_bank",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41015_bank analyze.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41015_bank campaign.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41015_bank verify_implementation.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41015_bank worker.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41015_bank launch_queue.ps1",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41015_bank requirements.txt",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41015_bank VERSION.json",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41015_bank practice_allocation/__init__.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41015_bank practice_allocation/core.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41015_bank practice_allocation/engine.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41015_bank practice_allocation/environment.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41015_bank practice_allocation/evaluation.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41015_bank practice_allocation/learning.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41015_bank practice_allocation/schedules.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41015_bank practice_allocation/study_io.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41015_bank configs/learner.json",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41015_bank configs/research_protocol.json",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41015_bank configs/suites.json",
+    "passed": true
+  },
+  {
+    "name": "all resolved request inputs match B_s41011_init",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_init analyze.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_init campaign.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_init verify_implementation.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_init worker.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_init launch_queue.ps1",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_init requirements.txt",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_init VERSION.json",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_init practice_allocation/__init__.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_init practice_allocation/core.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_init practice_allocation/engine.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_init practice_allocation/environment.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_init practice_allocation/evaluation.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_init practice_allocation/learning.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_init practice_allocation/schedules.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_init practice_allocation/study_io.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_init configs/learner.json",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_init configs/research_protocol.json",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_init configs/suites.json",
+    "passed": true
+  },
+  {
+    "name": "all resolved request inputs match B_s41011_pretrain_20000",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_20000 analyze.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_20000 campaign.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_20000 verify_implementation.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_20000 worker.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_20000 launch_queue.ps1",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_20000 requirements.txt",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_20000 VERSION.json",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_20000 practice_allocation/__init__.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_20000 practice_allocation/core.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_20000 practice_allocation/engine.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_20000 practice_allocation/environment.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_20000 practice_allocation/evaluation.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_20000 practice_allocation/learning.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_20000 practice_allocation/schedules.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_20000 practice_allocation/study_io.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_20000 configs/learner.json",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_20000 configs/research_protocol.json",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_20000 configs/suites.json",
+    "passed": true
+  },
+  {
+    "name": "all resolved request inputs match B_s41011_pretrain_40000",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_40000 analyze.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_40000 campaign.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_40000 verify_implementation.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_40000 worker.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_40000 launch_queue.ps1",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_40000 requirements.txt",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_40000 VERSION.json",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_40000 practice_allocation/__init__.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_40000 practice_allocation/core.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_40000 practice_allocation/engine.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_40000 practice_allocation/environment.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_40000 practice_allocation/evaluation.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_40000 practice_allocation/learning.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_40000 practice_allocation/schedules.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_40000 practice_allocation/study_io.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_40000 configs/learner.json",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_40000 configs/research_protocol.json",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_40000 configs/suites.json",
+    "passed": true
+  },
+  {
+    "name": "all resolved request inputs match B_s41011_pretrain_60000",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_60000 analyze.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_60000 campaign.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_60000 verify_implementation.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_60000 worker.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_60000 launch_queue.ps1",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_60000 requirements.txt",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_60000 VERSION.json",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_60000 practice_allocation/__init__.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_60000 practice_allocation/core.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_60000 practice_allocation/engine.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_60000 practice_allocation/environment.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_60000 practice_allocation/evaluation.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_60000 practice_allocation/learning.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_60000 practice_allocation/schedules.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_60000 practice_allocation/study_io.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_60000 configs/learner.json",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_60000 configs/research_protocol.json",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_60000 configs/suites.json",
+    "passed": true
+  },
+  {
+    "name": "all resolved request inputs match B_s41011_pretrain_80000",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_80000 analyze.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_80000 campaign.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_80000 verify_implementation.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_80000 worker.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_80000 launch_queue.ps1",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_80000 requirements.txt",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_80000 VERSION.json",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_80000 practice_allocation/__init__.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_80000 practice_allocation/core.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_80000 practice_allocation/engine.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_80000 practice_allocation/environment.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_80000 practice_allocation/evaluation.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_80000 practice_allocation/learning.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_80000 practice_allocation/schedules.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_80000 practice_allocation/study_io.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_80000 configs/learner.json",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_80000 configs/research_protocol.json",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_80000 configs/suites.json",
+    "passed": true
+  },
+  {
+    "name": "all resolved request inputs match B_s41011_pretrain_100000",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_100000 analyze.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_100000 campaign.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_100000 verify_implementation.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_100000 worker.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_100000 launch_queue.ps1",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_100000 requirements.txt",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_100000 VERSION.json",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_100000 practice_allocation/__init__.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_100000 practice_allocation/core.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_100000 practice_allocation/engine.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_100000 practice_allocation/environment.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_100000 practice_allocation/evaluation.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_100000 practice_allocation/learning.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_100000 practice_allocation/schedules.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_100000 practice_allocation/study_io.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_100000 configs/learner.json",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_100000 configs/research_protocol.json",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_100000 configs/suites.json",
+    "passed": true
+  },
+  {
+    "name": "all resolved request inputs match B_s41011_pretrain_120000",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_120000 analyze.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_120000 campaign.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_120000 verify_implementation.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_120000 worker.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_120000 launch_queue.ps1",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_120000 requirements.txt",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_120000 VERSION.json",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_120000 practice_allocation/__init__.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_120000 practice_allocation/core.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_120000 practice_allocation/engine.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_120000 practice_allocation/environment.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_120000 practice_allocation/evaluation.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_120000 practice_allocation/learning.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_120000 practice_allocation/schedules.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_120000 practice_allocation/study_io.py",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_120000 configs/learner.json",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_120000 configs/research_protocol.json",
+    "passed": true
+  },
+  {
+    "name": "source snapshot B_s41011_pretrain_120000 configs/suites.json",
+    "passed": true
+  },
+  {
+    "name": "changed job is rejected",
+    "passed": true
+  },
+  {
+    "name": "old completed markers untouched",
+    "passed": true
+  },
+  {
+    "name": "input unchanged C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T055015Z_stage1_c82b28ef\\plan.json",
+    "passed": true
+  },
+  {
+    "name": "input unchanged C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T055015Z_stage1_c82b28ef\\plan_integrity.json",
+    "passed": true
+  },
+  {
+    "name": "input unchanged C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T055015Z_stage1_c82b28ef\\jobs\\B_s41011_bank\\a01_d84a7648\\request.json",
+    "passed": true
+  },
+  {
+    "name": "input unchanged C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T055015Z_stage1_c82b28ef\\jobs\\B_s41011_bank\\a01_d84a7648\\result.json",
+    "passed": true
+  },
+  {
+    "name": "input unchanged C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T055015Z_stage1_c82b28ef\\jobs\\B_s41011_bank\\a01_d84a7648\\costs.json",
+    "passed": true
+  },
+  {
+    "name": "input unchanged C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T055015Z_stage1_c82b28ef\\jobs\\B_s41011_bank\\a01_d84a7648\\source_hashes.json",
+    "passed": true
+  },
+  {
+    "name": "input unchanged C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T055015Z_stage1_c82b28ef\\jobs\\B_s41012_bank\\a01_840e88e3\\request.json",
+    "passed": true
+  },
+  {
+    "name": "input unchanged C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T055015Z_stage1_c82b28ef\\jobs\\B_s41012_bank\\a01_840e88e3\\result.json",
+    "passed": true
+  },
+  {
+    "name": "input unchanged C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T055015Z_stage1_c82b28ef\\jobs\\B_s41012_bank\\a01_840e88e3\\costs.json",
+    "passed": true
+  },
+  {
+    "name": "input unchanged C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T055015Z_stage1_c82b28ef\\jobs\\B_s41012_bank\\a01_840e88e3\\source_hashes.json",
+    "passed": true
+  },
+  {
+    "name": "input unchanged C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T055015Z_stage1_c82b28ef\\jobs\\B_s41013_bank\\a01_5e8eb9ed\\request.json",
+    "passed": true
+  },
+  {
+    "name": "input unchanged C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T055015Z_stage1_c82b28ef\\jobs\\B_s41013_bank\\a01_5e8eb9ed\\result.json",
+    "passed": true
+  },
+  {
+    "name": "input unchanged C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T055015Z_stage1_c82b28ef\\jobs\\B_s41013_bank\\a01_5e8eb9ed\\costs.json",
+    "passed": true
+  },
+  {
+    "name": "input unchanged C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T055015Z_stage1_c82b28ef\\jobs\\B_s41013_bank\\a01_5e8eb9ed\\source_hashes.json",
+    "passed": true
+  },
+  {
+    "name": "input unchanged C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T055015Z_stage1_c82b28ef\\jobs\\B_s41014_bank\\a01_5d8f2a3a\\request.json",
+    "passed": true
+  },
+  {
+    "name": "input unchanged C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T055015Z_stage1_c82b28ef\\jobs\\B_s41014_bank\\a01_5d8f2a3a\\result.json",
+    "passed": true
+  },
+  {
+    "name": "input unchanged C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T055015Z_stage1_c82b28ef\\jobs\\B_s41014_bank\\a01_5d8f2a3a\\costs.json",
+    "passed": true
+  },
+  {
+    "name": "input unchanged C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T055015Z_stage1_c82b28ef\\jobs\\B_s41014_bank\\a01_5d8f2a3a\\source_hashes.json",
+    "passed": true
+  },
+  {
+    "name": "input unchanged C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T055015Z_stage1_c82b28ef\\jobs\\B_s41015_bank\\a01_f04c2cf6\\request.json",
+    "passed": true
+  },
+  {
+    "name": "input unchanged C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T055015Z_stage1_c82b28ef\\jobs\\B_s41015_bank\\a01_f04c2cf6\\result.json",
+    "passed": true
+  },
+  {
+    "name": "input unchanged C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T055015Z_stage1_c82b28ef\\jobs\\B_s41015_bank\\a01_f04c2cf6\\costs.json",
+    "passed": true
+  },
+  {
+    "name": "input unchanged C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T055015Z_stage1_c82b28ef\\jobs\\B_s41015_bank\\a01_f04c2cf6\\source_hashes.json",
+    "passed": true
+  },
+  {
+    "name": "input unchanged C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T055015Z_stage1_c82b28ef\\jobs\\B_s41011_init\\a01_daad1425\\request.json",
+    "passed": true
+  },
+  {
+    "name": "input unchanged C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T055015Z_stage1_c82b28ef\\jobs\\B_s41011_init\\a01_daad1425\\result.json",
+    "passed": true
+  },
+  {
+    "name": "input unchanged C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T055015Z_stage1_c82b28ef\\jobs\\B_s41011_init\\a01_daad1425\\costs.json",
+    "passed": true
+  },
+  {
+    "name": "input unchanged C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T055015Z_stage1_c82b28ef\\jobs\\B_s41011_init\\a01_daad1425\\source_hashes.json",
+    "passed": true
+  },
+  {
+    "name": "input unchanged C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T055015Z_stage1_c82b28ef\\jobs\\B_s41011_pretrain_20000\\a01_02d0e1d5\\request.json",
+    "passed": true
+  },
+  {
+    "name": "input unchanged C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T055015Z_stage1_c82b28ef\\jobs\\B_s41011_pretrain_20000\\a01_02d0e1d5\\result.json",
+    "passed": true
+  },
+  {
+    "name": "input unchanged C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T055015Z_stage1_c82b28ef\\jobs\\B_s41011_pretrain_20000\\a01_02d0e1d5\\costs.json",
+    "passed": true
+  },
+  {
+    "name": "input unchanged C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T055015Z_stage1_c82b28ef\\jobs\\B_s41011_pretrain_20000\\a01_02d0e1d5\\source_hashes.json",
+    "passed": true
+  },
+  {
+    "name": "input unchanged C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T055015Z_stage1_c82b28ef\\jobs\\B_s41011_pretrain_40000\\a01_3548e447\\request.json",
+    "passed": true
+  },
+  {
+    "name": "input unchanged C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T055015Z_stage1_c82b28ef\\jobs\\B_s41011_pretrain_40000\\a01_3548e447\\result.json",
+    "passed": true
+  },
+  {
+    "name": "input unchanged C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T055015Z_stage1_c82b28ef\\jobs\\B_s41011_pretrain_40000\\a01_3548e447\\costs.json",
+    "passed": true
+  },
+  {
+    "name": "input unchanged C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T055015Z_stage1_c82b28ef\\jobs\\B_s41011_pretrain_40000\\a01_3548e447\\source_hashes.json",
+    "passed": true
+  },
+  {
+    "name": "input unchanged C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T055015Z_stage1_c82b28ef\\jobs\\B_s41011_pretrain_60000\\a01_c7ed339e\\request.json",
+    "passed": true
+  },
+  {
+    "name": "input unchanged C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T055015Z_stage1_c82b28ef\\jobs\\B_s41011_pretrain_60000\\a01_c7ed339e\\result.json",
+    "passed": true
+  },
+  {
+    "name": "input unchanged C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T055015Z_stage1_c82b28ef\\jobs\\B_s41011_pretrain_60000\\a01_c7ed339e\\costs.json",
+    "passed": true
+  },
+  {
+    "name": "input unchanged C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T055015Z_stage1_c82b28ef\\jobs\\B_s41011_pretrain_60000\\a01_c7ed339e\\source_hashes.json",
+    "passed": true
+  },
+  {
+    "name": "input unchanged C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T055015Z_stage1_c82b28ef\\jobs\\B_s41011_pretrain_80000\\a01_467c7b8d\\request.json",
+    "passed": true
+  },
+  {
+    "name": "input unchanged C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T055015Z_stage1_c82b28ef\\jobs\\B_s41011_pretrain_80000\\a01_467c7b8d\\result.json",
+    "passed": true
+  },
+  {
+    "name": "input unchanged C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T055015Z_stage1_c82b28ef\\jobs\\B_s41011_pretrain_80000\\a01_467c7b8d\\costs.json",
+    "passed": true
+  },
+  {
+    "name": "input unchanged C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T055015Z_stage1_c82b28ef\\jobs\\B_s41011_pretrain_80000\\a01_467c7b8d\\source_hashes.json",
+    "passed": true
+  },
+  {
+    "name": "input unchanged C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T055015Z_stage1_c82b28ef\\jobs\\B_s41011_pretrain_100000\\a01_304a6823\\request.json",
+    "passed": true
+  },
+  {
+    "name": "input unchanged C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T055015Z_stage1_c82b28ef\\jobs\\B_s41011_pretrain_100000\\a01_304a6823\\result.json",
+    "passed": true
+  },
+  {
+    "name": "input unchanged C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T055015Z_stage1_c82b28ef\\jobs\\B_s41011_pretrain_100000\\a01_304a6823\\costs.json",
+    "passed": true
+  },
+  {
+    "name": "input unchanged C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T055015Z_stage1_c82b28ef\\jobs\\B_s41011_pretrain_100000\\a01_304a6823\\source_hashes.json",
+    "passed": true
+  },
+  {
+    "name": "input unchanged C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T055015Z_stage1_c82b28ef\\jobs\\B_s41011_pretrain_120000\\a01_941c9934\\request.json",
+    "passed": true
+  },
+  {
+    "name": "input unchanged C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T055015Z_stage1_c82b28ef\\jobs\\B_s41011_pretrain_120000\\a01_941c9934\\result.json",
+    "passed": true
+  },
+  {
+    "name": "input unchanged C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T055015Z_stage1_c82b28ef\\jobs\\B_s41011_pretrain_120000\\a01_941c9934\\costs.json",
+    "passed": true
+  },
+  {
+    "name": "input unchanged C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T055015Z_stage1_c82b28ef\\jobs\\B_s41011_pretrain_120000\\a01_941c9934\\source_hashes.json",
+    "passed": true
+  }
+]

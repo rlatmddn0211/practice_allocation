@@ -1,0 +1,134 @@
+{
+  "record_date": "2026-10-20 KST",
+  "version": "49_bp8k_late_value_analysis_v1",
+  "execution_status": "B_completed",
+  "scientific_status": "development_measurement_no_predictive_or_allocation_validation",
+  "means": {
+    "J0": 33.7,
+    "J8": 34.725,
+    "J40": 34.075,
+    "early_pp": 1.025,
+    "late_pp": -0.65,
+    "total_pp": 0.375,
+    "stop8_advantage_pp": 0.65
+  },
+  "costs": {
+    "research_evaluation_steps": 1352726,
+    "technical_evaluation_steps": 2183,
+    "total_new_environment_steps": 1354909,
+    "new_training_steps": 0,
+    "new_SAC_updates": 0,
+    "analysis_new_environment_steps": 0,
+    "analysis_wall_seconds": 4.391523200087249,
+    "analysis_CPU_seconds": 1.234375
+  },
+  "uncertainty": [
+    {
+      "contrast": "early",
+      "difference_pp": 1.025,
+      "case_marginal_low_pp": 0.075,
+      "case_marginal_high_pp": 2.0,
+      "parent_percentile_low_pp": -4.8,
+      "parent_percentile_high_pp": 7.95,
+      "parent_resamples": 3125,
+      "independent_parents": 5
+    },
+    {
+      "contrast": "late",
+      "difference_pp": -0.65,
+      "case_marginal_low_pp": -1.55,
+      "case_marginal_high_pp": 0.275,
+      "parent_percentile_low_pp": -4.15,
+      "parent_percentile_high_pp": 3.75,
+      "parent_resamples": 3125,
+      "independent_parents": 5
+    },
+    {
+      "contrast": "total",
+      "difference_pp": 0.375,
+      "case_marginal_low_pp": -0.75,
+      "case_marginal_high_pp": 1.5,
+      "parent_percentile_low_pp": -4.775,
+      "parent_percentile_high_pp": 7.525,
+      "parent_resamples": 3125,
+      "independent_parents": 5
+    },
+    {
+      "contrast": "stop8_advantage",
+      "difference_pp": 0.65,
+      "case_marginal_low_pp": -0.275,
+      "case_marginal_high_pp": 1.55,
+      "parent_percentile_low_pp": -3.75,
+      "parent_percentile_high_pp": 4.15,
+      "parent_resamples": 3125,
+      "independent_parents": 5
+    }
+  ],
+  "development_flags": {
+    "continue_both_ge2_parents": [
+      41015
+    ],
+    "stop8_both_ge2_parents": [],
+    "case_supported_continue_parents": [
+      41015
+    ],
+    "case_supported_stop8_parents": [],
+    "opposite_repeatable_point_preferences": false,
+    "case_supported_opposite_preferences": false,
+    "broad_stop8_pattern": false,
+    "mostly_small_realized_difference": false,
+    "early_loss_then_recovery_paths": 2,
+    "early_loss_still_below_parent_paths": 3,
+    "continue_ge2_paths": 2,
+    "stop8_ge2_paths": 3,
+    "abs_late_lt2_paths": 5,
+    "interpretation": "Descriptive development flags only; no automatic C gate"
+  },
+  "original_stage1_gate": "not_passed_unchanged",
+  "fixed_stop8_superiority_established": false,
+  "selector_fitted": false,
+  "TD_thresholds_changed": false,
+  "TD_rule_action": "all_ten_states_continue_for_all_four_numeric_rules",
+  "independent_predictive_validation": false,
+  "one_realized_future_per_state": true,
+  "C": "held_not_scheduled",
+  "original_stages_2_3": "held_not_scheduled",
+  "final_predictive_factor_selected": false,
+  "next_work_not_authorized_by_this_record": [
+    "freeze a decision-time signal and finite rule family before independent validation",
+    "separate diagnostic cases from outcome cases and account for actual diagnostic cost",
+    "compare always-stop8 and always-continue and study future variation from fixed 8k states",
+    "test actual switching efficacy separately if a new C design is justified and approved"
+  ],
+  "prior_records": [
+    "../25_candidate_factor_evidence_register_v1/record_template_ko.md",
+    "../45_stage1_selection_value_analysis_v1/evidence_record_ko.md",
+    "../47_existing_data_path_loss_analysis_v1/evidence_record_ko.md"
+  ],
+  "analysis": {
+    "run": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\49_bp8k_late_value_analysis_v1\\results\\20261020T053017Z_B_analysis_b2d46333",
+    "summary_sha256": "aae20b52e0dafc95374c8587f3a477add9d7fa5dbf12b6a6d580fb4a43f18f49"
+  },
+  "independent_verification": {
+    "run": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\49_bp8k_late_value_analysis_v1\\results\\20261020T053035Z_independent_verification_1a1605b9",
+    "summary_sha256": "16cdcd197f128e469657985b30bea995f5bd073265d4794f0c5a23b603ecf264"
+  },
+  "unfavorable_or_inconclusive": [
+    "mean stop8 advantage intervals include zero and parent-removal changes its sign",
+    "no parent has two stop8 advantages of at least 2pp",
+    "large early loss can be followed by substantial recovery",
+    "same-state expected future and transition efficacy remain unmeasured"
+  ],
+  "wording_correction": {
+    "prior_version": 47,
+    "correct_statement": "SD calculation uses ddof=1",
+    "numerical_change": false
+  },
+  "visual_review": {
+    "four_PNGs_inspected": true,
+    "labels_axes_and_legends_readable": true,
+    "data_and_intervals_within_axes": true,
+    "PNG_and_SVG_preserved": true
+  },
+  "failed_evaluation_or_analysis_attempts": 0
+}

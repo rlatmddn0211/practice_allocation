@@ -1,0 +1,176 @@
+{
+  "observed_at_utc": "2026-10-12T05:28:21.067506+00:00",
+  "campaign": "D:\\robot_practice_allocation_runs\\13_e0_e3_autonomous_queue_v1\\results\\20261008T081301Z_e03_b26922",
+  "read_only": true,
+  "status": {
+    "state": "integrity_failed",
+    "time": "2026-10-12T05:21:31.712192+00:00",
+    "error": "JSONDecodeError",
+    "message": "Expecting value: line 1 column 1 (char 0)"
+  },
+  "completed_jobs": 646,
+  "total_jobs": 1051,
+  "remaining_jobs": 405,
+  "completed_jobs_form_prefix": true,
+  "stage_progress": {
+    "E0": {
+      "completed_jobs": 30,
+      "training_steps": 0,
+      "evaluation_episodes": 10800,
+      "completed_40k_branch_training": 0,
+      "worker_wall_seconds": 5590.175890197977,
+      "planned": {
+        "training_steps": 0,
+        "evaluation_episodes": 10800,
+        "branches": 0,
+        "jobs": 30
+      }
+    },
+    "E1": {
+      "completed_jobs": 449,
+      "training_steps": 4800000,
+      "evaluation_episodes": 79200,
+      "completed_40k_branch_training": 90,
+      "worker_wall_seconds": 117567.22028319631,
+      "planned": {
+        "training_steps": 4800000,
+        "evaluation_episodes": 79200,
+        "branches": 90,
+        "jobs": 449
+      }
+    },
+    "E2": {
+      "completed_jobs": 113,
+      "training_steps": 1080000,
+      "evaluation_episodes": 22800,
+      "completed_40k_branch_training": 27,
+      "worker_wall_seconds": 29021.396607001312,
+      "planned": {
+        "training_steps": 1080000,
+        "evaluation_episodes": 22800,
+        "branches": 27,
+        "jobs": 113
+      }
+    },
+    "E3": {
+      "completed_jobs": 54,
+      "training_steps": 740000,
+      "evaluation_episodes": 4400,
+      "completed_40k_branch_training": 0,
+      "worker_wall_seconds": 16383.47826479841,
+      "planned": {
+        "training_steps": 4800000,
+        "evaluation_episodes": 81600,
+        "branches": 90,
+        "jobs": 459
+      }
+    }
+  },
+  "pretraining_checkpoint_steps": {
+    "E1_A_seed11": 400000,
+    "E1_A_seed12": 400000,
+    "E1_A_seed13": 400000,
+    "E3_B_seed11": 200000,
+    "E3_B_seed12": 200000,
+    "E3_B_seed13": 200000,
+    "E3_C_seed11": 140000
+  },
+  "last_completed": {
+    "id": "E3_C_s11_pre140",
+    "completed_at": "2026-10-10T08:03:31.947040+00:00",
+    "result_ref": {
+      "path": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_C_s11_pre140\\a01_ac2866\\result.json",
+      "sha256": "30efb750c0af45c36f28266e6895fee6b194ea629dcb2e2a00e322e630d432f6"
+    }
+  },
+  "first_pending": {
+    "id": "E3_C_s11_pre160",
+    "stage": "E3",
+    "suite": "C",
+    "original_seed": 11,
+    "kind": "train",
+    "parent": {
+      "from_job": "E3_C_s11_pre140",
+      "key": "checkpoint"
+    },
+    "start_step": 140000,
+    "steps": 20000,
+    "allocation": "U"
+  },
+  "interrupted_attempts": [
+    {
+      "time": "2026-10-10T08:03:31.954565+00:00",
+      "event": "job_started",
+      "id": "E3_C_s11_pre160",
+      "attempt": 1,
+      "output": "D:\\robot_practice_allocation_runs\\12_task_composition_study_v1\\results\\20261008T081301Z_e03_b26922\\E3_C_s11_pre160\\a01_c64a29",
+      "has_result": false,
+      "has_checkpoint": false,
+      "last_metric_step": 149000,
+      "progress": [
+        {
+          "time": "2026-10-10T08:03:52.668194+00:00",
+          "event": "start",
+          "costs": {
+            "environment_creations": 0,
+            "resets": 0,
+            "environment_steps": 0,
+            "train_iterations": 0,
+            "evaluation_episodes": 0
+          },
+          "kind": "train"
+        },
+        {
+          "time": "2026-10-10T08:05:13.757953+00:00",
+          "event": "training",
+          "costs": {
+            "environment_creations": 8,
+            "resets": 8,
+            "environment_steps": 4000,
+            "train_iterations": 4000,
+            "evaluation_episodes": 0
+          },
+          "step": 144000
+        },
+        {
+          "time": "2026-10-10T08:06:25.158775+00:00",
+          "event": "training",
+          "costs": {
+            "environment_creations": 16,
+            "resets": 16,
+            "environment_steps": 8000,
+            "train_iterations": 8000,
+            "evaluation_episodes": 0
+          },
+          "step": 148000
+        }
+      ]
+    }
+  ],
+  "events_by_type": {
+    "controller_started": 1,
+    "job_started": 647,
+    "job_completed": 646
+  },
+  "attempt_records": 647,
+  "checkpoint_manifests_checked": 338,
+  "checkpoint_payload_files_checked": 1014,
+  "json_documents_checked": 5523,
+  "files_hashed": 6906,
+  "failures": [],
+  "audit_wall_seconds": 32.13880369999998,
+  "runtime": {
+    "python": "3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)]",
+    "executable": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\13_e0_e3_autonomous_queue_v1\\.venv\\Scripts\\python.exe",
+    "platform": "Windows-11-10.0.22621-SP0",
+    "dependencies": "Python standard library only",
+    "training_steps": 0,
+    "evaluation_episodes": 0
+  },
+  "limitations": [
+    "Hashes establish persisted byte integrity, not scientific validity or a live restore test.",
+    "The original STATUS.json overwritten by the controller is not available in this audit.",
+    "Metrics from the interrupted job are a lower bound; volatile buffers may have been lost."
+  ],
+  "audit_source_sha256": "b93f62e815b03a60f0ab1eb58fa9147c7bbdc1b5eeaacfe4a76e5b0be92d80e3"
+}

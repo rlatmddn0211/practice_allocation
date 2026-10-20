@@ -1,0 +1,39 @@
+[
+  {
+    "source": "사용자 제공 Deep Research 평가",
+    "url": "https://chatgpt.com/share/6ad594f9-38dc-83ee-ac43-7022fcf2dde3",
+    "title": "연구 주제 구체화",
+    "reviewed_scope": "공개 최종 답변 23,934자 전체, 11개 절과 결론. 내부 tool 결과 일부는 redacted이며 재검증하지 않음.",
+    "retrieved_date_kst": "2026-10-19",
+    "html_sha256": "7a2cde6199d28740c337498c085a811fa9fa2f4b3bf07c7ea89379fbf2c9202f",
+    "method": "이전 대화에서 공개 HTML을 정상 응답으로 취득하고 정적 stream을 JSON으로 해석. 스크립트 실행 없이 최종 메시지 끝까지 읽음.",
+    "limitations": "39번 설계 중심의 외부 방법론 비평; 원시 CSV 독립 재현이나 동료심사 승인 아님. 개인 메타데이터를 포함한 전체 HTML은 배포하지 않음."
+  },
+  {
+    "source": "PMLR official abstract",
+    "url": "https://proceedings.mlr.press/v235/cho24d.html",
+    "title": "Hard Tasks First: Multi-Task Reinforcement Learning Through Task Scheduling",
+    "reviewed_scope": "공식 초록과 서지정보. 난이도 우선순위·reset·MetaWorld 실험을 소개함.",
+    "retrieved_date_kst": "2026-10-19",
+    "method": "web.run open, success",
+    "limitations": "이 보고서에서 논문 방법을 구현·재현한 것은 아님."
+  },
+  {
+    "source": "arXiv official abstract",
+    "url": "https://arxiv.org/abs/2503.01941",
+    "title": "Task Scheduling & Forgetting in Multi-Task Reinforcement Learning",
+    "reviewed_scope": "공식 초록·서지정보. task별 비대칭 학습·유지 패턴과 성능·유지 중심 스케줄의 한계.",
+    "retrieved_date_kst": "2026-10-19",
+    "method": "이전 검토에서 초록 확인. 본 보고서 작성 시 direct open 실패 후 web.run search의 arXiv 원문 초록 결과 확인.",
+    "limitations": "전체 논문 재검토·방법 재현 아님."
+  },
+  {
+    "source": "arXiv official abstract",
+    "url": "https://arxiv.org/abs/2608.13415",
+    "title": "Deliberate Practice: Learning Robot Skills under a Budget",
+    "reviewed_scope": "공식 초록·서지정보. 제한된 연습 예산의 skill 학습 배분과 계획을 다룸.",
+    "retrieved_date_kst": "2026-10-19",
+    "method": "web.run open, success",
+    "limitations": "전체 논문 상세 비교나 동일 조건 재현 아님."
+  }
+]

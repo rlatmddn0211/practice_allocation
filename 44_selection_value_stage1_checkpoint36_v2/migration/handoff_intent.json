@@ -1,0 +1,13 @@
+{
+  "time": "2026-10-19T06:27:56.873588+00:00",
+  "predecessor_campaign": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T055015Z_stage1_c82b28ef",
+  "controller_pids": [
+    34328,
+    10144
+  ],
+  "preserve_worker_pids": [
+    29312,
+    10924
+  ],
+  "scope": "Stop predecessor controller only, allow active pretraining worker to finish; reuse full states and banks without additional scientific training. No scientific outcomes inspected."
+}

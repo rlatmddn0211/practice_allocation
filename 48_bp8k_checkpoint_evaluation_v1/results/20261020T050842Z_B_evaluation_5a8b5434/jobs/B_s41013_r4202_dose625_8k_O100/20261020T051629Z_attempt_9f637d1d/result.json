@@ -1,0 +1,36 @@
+{
+  "id": "B_s41013_r4202_dose625_8k_O100",
+  "kind": "research_8k_evaluation",
+  "original_seed": 41013,
+  "continuation": 4202,
+  "continuation_rng_seed": 3461146862,
+  "condition": "dose625",
+  "horizon": 8000,
+  "absolute_step": 208000,
+  "checkpoint": {
+    "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\44_selection_value_stage1_checkpoint36_v2\\results\\20261019T064658Z_stage1_2cbbdd65\\jobs\\B_s41013_r4202_dose625_t8000\\a01_c14882c1\\checkpoint",
+    "manifest_sha256": "feef69fe507f4ed721c0c94555921134f0f5a04ff51f6474dc11be631d22e6ce"
+  },
+  "bank": {
+    "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T055015Z_stage1_c82b28ef\\jobs\\B_s41013_bank\\a01_5e8eb9ed\\evaluation_banks.json",
+    "sha256": "66ed4536e7539702e0e0045ecbcb4950e2123410bbda99a8549722d50a56861e"
+  },
+  "evaluation_state_unchanged": true,
+  "original_checkpoint_files_unchanged": true,
+  "full_restore_verified": true,
+  "known_policy_comparison": null,
+  "episodes_path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\48_bp8k_checkpoint_evaluation_v1\\results\\20261020T050842Z_B_evaluation_5a8b5434\\jobs\\B_s41013_r4202_dose625_8k_O100\\20261020T051629Z_attempt_9f637d1d\\evaluation_episodes.csv",
+  "episodes_sha256": "e155835fe24bbd67f89c2046fc4031cd65338b6d8f3cca907f7a2cee2f6f1caf",
+  "evaluation": {
+    "episodes": 400,
+    "environment_steps": 199003,
+    "success_by_task": {
+      "DO": 0.0,
+      "DC": 0.0,
+      "PU": 0.04,
+      "BP": 0.0
+    },
+    "macro_success": 0.01,
+    "purpose": "Research measurement only; no free online diagnostic input"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "execution_status": "started",
+  "started_at_utc": "2026-10-20T09:50:13.6970958Z",
+  "started_at_kst": "2026-10-20 18:50:13",
+  "version": "52_same_state_future_replication_v1",
+  "scientific_conclusion": "not_yet_available",
+  "technical_validation": {
+    "run": "../20261020T094748Z_technical_fa444d0f",
+    "checks_passed": 44,
+    "checks_failed": 0,
+    "training_environment_steps": 3000,
+    "known_policy_evaluation_environment_steps": 1515,
+    "total_environment_steps": 4515
+  },
+  "launch_attempts": [
+    {
+      "command": "& .\\52_same_state_future_replication_v1\\launch_queue.ps1",
+      "status": "blocked_before_process_creation",
+      "reason": "PowerShell PSSecurityException / UnauthorizedAccess: script execution policy",
+      "new_environment_steps": 0,
+      "source_snapshot": "source_snapshot/launch_queue.ps1"
+    },
+    {
+      "command": "powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\\52_same_state_future_replication_v1\\launch_queue.ps1",
+      "status": "launched",
+      "scope": "Process-only execution policy; no persistent system policy change",
+      "record": "launches/20261020T095013Z_01d4fc08/launch.json",
+      "controller_pid_at_launch": 12900
+    }
+  ],
+  "research_scope": {
+    "parents": 5,
+    "states": 10,
+    "new_futures_per_state": 1,
+    "new_training_steps": 320000,
+    "evaluation_step_cap": 2000000,
+    "main_environment_step_cap": 2320000,
+    "technical_step_cap": 10000,
+    "total_environment_step_cap": 2330000,
+    "automatic_retry_reserve": 0
+  },
+  "status_file": "STATUS.json",
+  "actual_costs": "Per-attempt costs.json and progress.jsonl; completion_summary.json after all ten finish",
+  "C_and_original_stages_2_3": "held_not_scheduled"
+}

@@ -53,5 +53,26 @@
 37_f08_integrated_candidate_review_v1/** -text whitespace=cr-at-eol
 37_f08_integrated_candidate_review_v1/results/**/*.svg -diff
 38_candidate_factor_publication_v1/** -text whitespace=cr-at-eol
+39_next_research_decision_plan_v1/** -text whitespace=cr-at-eol
+40_research_progress_external_review_v1/** -text whitespace=cr-at-eol
+40_research_progress_external_review_v1/**/dist/index.html -diff
+40_research_progress_external_review_v1/research_progress_report_ko.html -diff
+41_selection_value_three_stage_protocol_v1/** -text whitespace=cr-at-eol
+42_fixed_schedule_selection_value_v1/** -text whitespace=cr-at-eol
+43_feedback_revised_selection_protocol_v1/** -text whitespace=cr-at-eol
+44_selection_value_stage1_checkpoint36_v2/** -text whitespace=cr-at-eol
+45_stage1_selection_value_analysis_v1/** -text whitespace=cr-at-eol
+46_post_stage1_path_loss_design_v1/** -text whitespace=cr-at-eol
+47_existing_data_path_loss_analysis_v1/** -text whitespace=cr-at-eol
+48_bp8k_checkpoint_evaluation_v1/** -text whitespace=cr-at-eol
+49_bp8k_late_value_analysis_v1/** -text whitespace=cr-at-eol
+50_b_posthoc_concentration_review_v1/** -text whitespace=cr-at-eol
+51_same_state_future_investment_protocol_v1/** -text whitespace=cr-at-eol
+52_same_state_future_replication_v1/** -text whitespace=cr-at-eol
+53_research_progress_github_publication_v1/** -text whitespace=cr-at-eol
+# Generated Matplotlib paths and frozen Markdown hard line breaks retain their bytes.
+47_existing_data_path_loss_analysis_v1/results/**/*.svg -diff
+49_bp8k_late_value_analysis_v1/results/**/*.svg -diff
+40_research_progress_external_review_v1/results/**/input_snapshot/LOCAL_PRACTICE_ALLOCATION_PILOT_DESIGN_20261007.md whitespace=cr-at-eol,-blank-at-eol
 # Keep the validated report bundle intact, including generated whitespace.
 17_e0_e2_detailed_research_report_v1/**/dist/index.html -diff

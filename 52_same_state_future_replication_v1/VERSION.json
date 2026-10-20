@@ -1,0 +1,6 @@
+{
+  "version": "52_same_state_future_replication_v1",
+  "parent_implementation": "44_selection_value_stage1_checkpoint36_v2",
+  "learner_environment_evaluation": "byte-identical copied source",
+  "change": "Separate RNG-only future fork, integrity verification and ten-state execution controller"
+}

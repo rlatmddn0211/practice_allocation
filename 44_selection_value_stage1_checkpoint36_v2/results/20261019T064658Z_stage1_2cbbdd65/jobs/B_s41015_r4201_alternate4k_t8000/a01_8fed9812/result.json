@@ -1,0 +1,20 @@
+{
+  "id": "B_s41015_r4201_alternate4k_t8000",
+  "kind": "train",
+  "original_seed": 41015,
+  "condition": "alternate4k",
+  "continuation": 4201,
+  "horizon": 8000,
+  "checkpoint": {
+    "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\44_selection_value_stage1_checkpoint36_v2\\results\\20261019T064658Z_stage1_2cbbdd65\\jobs\\B_s41015_r4201_alternate4k_t8000\\a01_8fed9812\\checkpoint",
+    "manifest_sha256": "06af5fb007b19e10db506b84c533a3177f1f41432893e27998338a8f4d96b1c6"
+  },
+  "step": 208000,
+  "collected": {
+    "DO": 2500,
+    "DC": 500,
+    "PU": 500,
+    "BP": 500
+  },
+  "episode_order_verified": true
+}
