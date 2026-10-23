@@ -1,0 +1,762 @@
+[
+  {
+    "name": "no_failed_completed_run:20261022T053744Z_amend_fe554a64",
+    "passed": true
+  },
+  {
+    "name": "preserved_source_snapshot:20261022T053744Z_amend_fe554a64/amend_protocol.py",
+    "passed": true
+  },
+  {
+    "name": "preserved_source_snapshot:20261022T053744Z_amend_fe554a64/audit.py",
+    "passed": true
+  },
+  {
+    "name": "preserved_source_snapshot:20261022T053744Z_amend_fe554a64/audit_config.json",
+    "passed": true
+  },
+  {
+    "name": "preserved_source_snapshot:20261022T053744Z_amend_fe554a64/record.py",
+    "passed": true
+  },
+  {
+    "name": "zero_environment_cost:20261022T053744Z_amend_fe554a64",
+    "passed": true
+  },
+  {
+    "name": "no_failed_completed_run:20261022T053745Z_audit_b4458b32",
+    "passed": true
+  },
+  {
+    "name": "preserved_source_snapshot:20261022T053745Z_audit_b4458b32/amend_protocol.py",
+    "passed": true
+  },
+  {
+    "name": "preserved_source_snapshot:20261022T053745Z_audit_b4458b32/audit.py",
+    "passed": true
+  },
+  {
+    "name": "preserved_source_snapshot:20261022T053745Z_audit_b4458b32/audit_config.json",
+    "passed": true
+  },
+  {
+    "name": "preserved_source_snapshot:20261022T053745Z_audit_b4458b32/protocol.json",
+    "passed": true
+  },
+  {
+    "name": "preserved_source_snapshot:20261022T053745Z_audit_b4458b32/record.py",
+    "passed": true
+  },
+  {
+    "name": "zero_environment_cost:20261022T053745Z_audit_b4458b32",
+    "passed": true
+  },
+  {
+    "name": "no_failed_completed_run:20261022T053915Z_verify_a759a328",
+    "passed": true
+  },
+  {
+    "name": "preserved_source_snapshot:20261022T053915Z_verify_a759a328/amend_protocol.py",
+    "passed": true
+  },
+  {
+    "name": "preserved_source_snapshot:20261022T053915Z_verify_a759a328/audit.py",
+    "passed": true
+  },
+  {
+    "name": "preserved_source_snapshot:20261022T053915Z_verify_a759a328/audit_config.json",
+    "passed": true
+  },
+  {
+    "name": "preserved_source_snapshot:20261022T053915Z_verify_a759a328/protocol.json",
+    "passed": true
+  },
+  {
+    "name": "preserved_source_snapshot:20261022T053915Z_verify_a759a328/record.py",
+    "passed": true
+  },
+  {
+    "name": "preserved_source_snapshot:20261022T053915Z_verify_a759a328/verify.py",
+    "passed": true
+  },
+  {
+    "name": "zero_environment_cost:20261022T053915Z_verify_a759a328",
+    "passed": true
+  },
+  {
+    "name": "ran_delivered_calculation:audit.py",
+    "passed": true
+  },
+  {
+    "name": "ran_delivered_calculation:verify.py",
+    "passed": true
+  },
+  {
+    "name": "ran_delivered_calculation:record.py",
+    "passed": true
+  },
+  {
+    "name": "ran_delivered_calculation:amend_protocol.py",
+    "passed": true
+  },
+  {
+    "name": "input_hash:C:\\Users\\SS\\Projects\\robot_practice_allocation\\58_confirmation_prediction_preflight_v1\\protocol.json",
+    "passed": true
+  },
+  {
+    "name": "input_hash:C:\\Users\\SS\\Projects\\robot_practice_allocation\\58_confirmation_prediction_preflight_v1\\inputs\\frozen_reference_predictions.csv",
+    "passed": true
+  },
+  {
+    "name": "57_prediction_preserved",
+    "passed": true
+  },
+  {
+    "name": "57_protocol_preserved",
+    "passed": true
+  },
+  {
+    "name": "syntax:amend_protocol.py",
+    "passed": true
+  },
+  {
+    "name": "syntax:audit.py",
+    "passed": true
+  },
+  {
+    "name": "syntax:delivery_check.py",
+    "passed": true
+  },
+  {
+    "name": "syntax:record.py",
+    "passed": true
+  },
+  {
+    "name": "syntax:verify.py",
+    "passed": true
+  },
+  {
+    "name": "report_metric:overall_G_upper",
+    "passed": true
+  },
+  {
+    "name": "report_metric:minimum_LOPO_G_upper",
+    "passed": true
+  },
+  {
+    "name": "report_bound:overall/G_lower",
+    "passed": true
+  },
+  {
+    "name": "report_bound:overall/G_upper",
+    "passed": true
+  },
+  {
+    "name": "report_bound:without_41011/G_lower",
+    "passed": true
+  },
+  {
+    "name": "report_bound:without_41011/G_upper",
+    "passed": true
+  },
+  {
+    "name": "report_bound:without_41012/G_lower",
+    "passed": true
+  },
+  {
+    "name": "report_bound:without_41012/G_upper",
+    "passed": true
+  },
+  {
+    "name": "report_bound:without_41013/G_lower",
+    "passed": true
+  },
+  {
+    "name": "report_bound:without_41013/G_upper",
+    "passed": true
+  },
+  {
+    "name": "report_bound:without_41014/G_lower",
+    "passed": true
+  },
+  {
+    "name": "report_bound:without_41014/G_upper",
+    "passed": true
+  },
+  {
+    "name": "report_bound:without_41015/G_lower",
+    "passed": true
+  },
+  {
+    "name": "report_bound:without_41015/G_upper",
+    "passed": true
+  },
+  {
+    "name": "report_correction:min_abs_delta_changed",
+    "passed": true
+  },
+  {
+    "name": "report_correction:max_abs_delta_changed",
+    "passed": true
+  },
+  {
+    "name": "report_correction:mean_abs_delta_changed_state_rows",
+    "passed": true
+  },
+  {
+    "name": "report_correction:mean_abs_delta_all_state_rows",
+    "passed": true
+  },
+  {
+    "name": "report_correction:rms_delta_all_state_rows",
+    "passed": true
+  },
+  {
+    "name": "report_correction:parent_equal_mean_abs_delta_all",
+    "passed": true
+  },
+  {
+    "name": "report_upper_bound_concentration",
+    "passed": true
+  },
+  {
+    "name": "reported_check_counts",
+    "passed": true
+  },
+  {
+    "name": "valid_text:evidence_record_ko.md",
+    "passed": true
+  },
+  {
+    "name": "document_link:evidence_record_ko.md/../57_acquisition_state_dependence_confirmation_plan_v1/evidence_record_ko.md",
+    "passed": true
+  },
+  {
+    "name": "document_link:evidence_record_ko.md/../25_candidate_factor_evidence_register_v1/README.md",
+    "passed": true
+  },
+  {
+    "name": "document_link:evidence_record_ko.md/inputs/state_manifest.json",
+    "passed": true
+  },
+  {
+    "name": "document_link:evidence_record_ko.md/inputs/proposed_jobs.csv",
+    "passed": true
+  },
+  {
+    "name": "document_link:evidence_record_ko.md/inputs/provenance.json",
+    "passed": true
+  },
+  {
+    "name": "document_link:evidence_record_ko.md/report_ko.md",
+    "passed": true
+  },
+  {
+    "name": "valid_text:one_page_spec_ko.md",
+    "passed": true
+  },
+  {
+    "name": "document_link:one_page_spec_ko.md/statistical_spec_ko.md",
+    "passed": true
+  },
+  {
+    "name": "document_link:one_page_spec_ko.md/report_ko.md",
+    "passed": true
+  },
+  {
+    "name": "document_link:one_page_spec_ko.md/paper_scope_ko.md",
+    "passed": true
+  },
+  {
+    "name": "document_link:one_page_spec_ko.md/protocol.json",
+    "passed": true
+  },
+  {
+    "name": "document_link:one_page_spec_ko.md/inputs/frozen_reference_predictions.csv",
+    "passed": true
+  },
+  {
+    "name": "document_link:one_page_spec_ko.md/inputs/proposed_jobs.csv",
+    "passed": true
+  },
+  {
+    "name": "valid_text:paper_scope_ko.md",
+    "passed": true
+  },
+  {
+    "name": "document_link:paper_scope_ko.md/../57_acquisition_state_dependence_confirmation_plan_v1/paper_scope_ko.md",
+    "passed": true
+  },
+  {
+    "name": "valid_text:README.md",
+    "passed": true
+  },
+  {
+    "name": "document_link:README.md/one_page_spec_ko.md",
+    "passed": true
+  },
+  {
+    "name": "document_link:README.md/report_ko.md",
+    "passed": true
+  },
+  {
+    "name": "document_link:README.md/statistical_spec_ko.md",
+    "passed": true
+  },
+  {
+    "name": "document_link:README.md/paper_scope_ko.md",
+    "passed": true
+  },
+  {
+    "name": "document_link:README.md/protocol.json",
+    "passed": true
+  },
+  {
+    "name": "document_link:README.md/inputs/frozen_reference_predictions.csv",
+    "passed": true
+  },
+  {
+    "name": "document_link:README.md/inputs/proposed_jobs.csv",
+    "passed": true
+  },
+  {
+    "name": "document_link:README.md/evidence_record_ko.md",
+    "passed": true
+  },
+  {
+    "name": "document_link:README.md/results/20261022T053744Z_amend_fe554a64/COMPLETE.json",
+    "passed": true
+  },
+  {
+    "name": "document_link:README.md/results/20261022T053745Z_audit_b4458b32/COMPLETE.json",
+    "passed": true
+  },
+  {
+    "name": "document_link:README.md/results/20261022T053915Z_verify_a759a328/COMPLETE.json",
+    "passed": true
+  },
+  {
+    "name": "document_link:README.md/../56_same_vs_cross_state_overlap_v1/report_ko.md",
+    "passed": true
+  },
+  {
+    "name": "document_link:README.md/../57_acquisition_state_dependence_confirmation_plan_v1/one_page_spec_ko.md",
+    "passed": true
+  },
+  {
+    "name": "valid_text:report_ko.md",
+    "passed": true
+  },
+  {
+    "name": "document_link:report_ko.md/results/20261022T053745Z_audit_b4458b32/parent_task_support.csv",
+    "passed": true
+  },
+  {
+    "name": "document_link:report_ko.md/results/20261022T053745Z_audit_b4458b32/case_corrections.csv",
+    "passed": true
+  },
+  {
+    "name": "document_link:report_ko.md/results/20261022T053745Z_audit_b4458b32/grade_constraints.csv",
+    "passed": true
+  },
+  {
+    "name": "document_link:report_ko.md/results/20261022T053745Z_audit_b4458b32/g_bounds.csv",
+    "passed": true
+  },
+  {
+    "name": "document_link:report_ko.md/results/20261022T053745Z_audit_b4458b32/parent_g_bounds.csv",
+    "passed": true
+  },
+  {
+    "name": "document_link:report_ko.md/results/20261022T053745Z_audit_b4458b32/observation_g_bounds.csv",
+    "passed": true
+  },
+  {
+    "name": "document_link:report_ko.md/statistical_spec_ko.md",
+    "passed": true
+  },
+  {
+    "name": "document_link:report_ko.md/protocol.json",
+    "passed": true
+  },
+  {
+    "name": "document_link:report_ko.md/inputs/frozen_reference_predictions.csv",
+    "passed": true
+  },
+  {
+    "name": "document_link:report_ko.md/inputs/paired_outcomes.csv",
+    "passed": true
+  },
+  {
+    "name": "document_link:report_ko.md/inputs/proposed_jobs.csv",
+    "passed": true
+  },
+  {
+    "name": "document_link:report_ko.md/results/20261022T053745Z_audit_b4458b32/COMPLETE.json",
+    "passed": true
+  },
+  {
+    "name": "document_link:report_ko.md/results/20261022T053915Z_verify_a759a328/COMPLETE.json",
+    "passed": true
+  },
+  {
+    "name": "document_link:report_ko.md/evidence_record_ko.md",
+    "passed": true
+  },
+  {
+    "name": "document_link:report_ko.md/one_page_spec_ko.md",
+    "passed": true
+  },
+  {
+    "name": "valid_text:statistical_spec_ko.md",
+    "passed": true
+  },
+  {
+    "name": "document_link:statistical_spec_ko.md/protocol.json",
+    "passed": true
+  },
+  {
+    "name": "document_link:statistical_spec_ko.md/inputs/frozen_reference_predictions.csv",
+    "passed": true
+  },
+  {
+    "name": "document_link:statistical_spec_ko.md/report_ko.md",
+    "passed": true
+  },
+  {
+    "name": "document_link:statistical_spec_ko.md/inputs/proposed_jobs.csv",
+    "passed": true
+  },
+  {
+    "name": "positive_evidence_distinguished_from_investment",
+    "passed": true
+  },
+  {
+    "name": "no_execution_or_schedule",
+    "passed": true
+  },
+  {
+    "name": "new_package_only",
+    "passed": true
+  },
+  {
+    "name": "zip_crc",
+    "passed": true
+  },
+  {
+    "name": "zip_exact_members",
+    "passed": true
+  },
+  {
+    "name": "zip_content_hash:amend_protocol.py",
+    "passed": true
+  },
+  {
+    "name": "zip_content_hash:audit.py",
+    "passed": true
+  },
+  {
+    "name": "zip_content_hash:audit_config.json",
+    "passed": true
+  },
+  {
+    "name": "zip_content_hash:delivery_check.py",
+    "passed": true
+  },
+  {
+    "name": "zip_content_hash:evidence_record_ko.md",
+    "passed": true
+  },
+  {
+    "name": "zip_content_hash:one_page_spec_ko.md",
+    "passed": true
+  },
+  {
+    "name": "zip_content_hash:paper_scope_ko.md",
+    "passed": true
+  },
+  {
+    "name": "zip_content_hash:protocol.json",
+    "passed": true
+  },
+  {
+    "name": "zip_content_hash:README.md",
+    "passed": true
+  },
+  {
+    "name": "zip_content_hash:record.py",
+    "passed": true
+  },
+  {
+    "name": "zip_content_hash:report_ko.md",
+    "passed": true
+  },
+  {
+    "name": "zip_content_hash:statistical_spec_ko.md",
+    "passed": true
+  },
+  {
+    "name": "zip_content_hash:verify.py",
+    "passed": true
+  },
+  {
+    "name": "zip_content_hash:inputs/frozen_reference_predictions.csv",
+    "passed": true
+  },
+  {
+    "name": "zip_content_hash:inputs/paired_outcomes.csv",
+    "passed": true
+  },
+  {
+    "name": "zip_content_hash:inputs/proposed_jobs.csv",
+    "passed": true
+  },
+  {
+    "name": "zip_content_hash:inputs/provenance.json",
+    "passed": true
+  },
+  {
+    "name": "zip_content_hash:inputs/state_manifest.json",
+    "passed": true
+  },
+  {
+    "name": "zip_content_hash:results/20261022T053744Z_amend_fe554a64/checks.json",
+    "passed": true
+  },
+  {
+    "name": "zip_content_hash:results/20261022T053744Z_amend_fe554a64/COMPLETE.json",
+    "passed": true
+  },
+  {
+    "name": "zip_content_hash:results/20261022T053744Z_amend_fe554a64/input_snapshot/00_protocol.json",
+    "passed": true
+  },
+  {
+    "name": "zip_content_hash:results/20261022T053744Z_amend_fe554a64/input_snapshot/01_frozen_reference_predictions.csv",
+    "passed": true
+  },
+  {
+    "name": "zip_content_hash:results/20261022T053744Z_amend_fe554a64/input_snapshot/02_proposed_jobs.csv",
+    "passed": true
+  },
+  {
+    "name": "zip_content_hash:results/20261022T053744Z_amend_fe554a64/input_snapshot/03_paired_outcomes.csv",
+    "passed": true
+  },
+  {
+    "name": "zip_content_hash:results/20261022T053744Z_amend_fe554a64/input_snapshot/04_state_manifest.json",
+    "passed": true
+  },
+  {
+    "name": "zip_content_hash:results/20261022T053744Z_amend_fe554a64/input_snapshot/05_protocol.json",
+    "passed": true
+  },
+  {
+    "name": "zip_content_hash:results/20261022T053744Z_amend_fe554a64/inputs.json",
+    "passed": true
+  },
+  {
+    "name": "zip_content_hash:results/20261022T053744Z_amend_fe554a64/protocol_changes.json",
+    "passed": true
+  },
+  {
+    "name": "zip_content_hash:results/20261022T053744Z_amend_fe554a64/runtime.json",
+    "passed": true
+  },
+  {
+    "name": "zip_content_hash:results/20261022T053744Z_amend_fe554a64/source_hashes.json",
+    "passed": true
+  },
+  {
+    "name": "zip_content_hash:results/20261022T053744Z_amend_fe554a64/source_snapshot/amend_protocol.py",
+    "passed": true
+  },
+  {
+    "name": "zip_content_hash:results/20261022T053744Z_amend_fe554a64/source_snapshot/audit.py",
+    "passed": true
+  },
+  {
+    "name": "zip_content_hash:results/20261022T053744Z_amend_fe554a64/source_snapshot/audit_config.json",
+    "passed": true
+  },
+  {
+    "name": "zip_content_hash:results/20261022T053744Z_amend_fe554a64/source_snapshot/record.py",
+    "passed": true
+  },
+  {
+    "name": "zip_content_hash:results/20261022T053745Z_audit_b4458b32/case_corrections.csv",
+    "passed": true
+  },
+  {
+    "name": "zip_content_hash:results/20261022T053745Z_audit_b4458b32/checks.json",
+    "passed": true
+  },
+  {
+    "name": "zip_content_hash:results/20261022T053745Z_audit_b4458b32/COMPLETE.json",
+    "passed": true
+  },
+  {
+    "name": "zip_content_hash:results/20261022T053745Z_audit_b4458b32/g_bounds.csv",
+    "passed": true
+  },
+  {
+    "name": "zip_content_hash:results/20261022T053745Z_audit_b4458b32/grade_constraints.csv",
+    "passed": true
+  },
+  {
+    "name": "zip_content_hash:results/20261022T053745Z_audit_b4458b32/input_snapshot/00_protocol.json",
+    "passed": true
+  },
+  {
+    "name": "zip_content_hash:results/20261022T053745Z_audit_b4458b32/input_snapshot/01_frozen_reference_predictions.csv",
+    "passed": true
+  },
+  {
+    "name": "zip_content_hash:results/20261022T053745Z_audit_b4458b32/input_snapshot/02_proposed_jobs.csv",
+    "passed": true
+  },
+  {
+    "name": "zip_content_hash:results/20261022T053745Z_audit_b4458b32/input_snapshot/03_paired_outcomes.csv",
+    "passed": true
+  },
+  {
+    "name": "zip_content_hash:results/20261022T053745Z_audit_b4458b32/input_snapshot/04_state_manifest.json",
+    "passed": true
+  },
+  {
+    "name": "zip_content_hash:results/20261022T053745Z_audit_b4458b32/inputs.json",
+    "passed": true
+  },
+  {
+    "name": "zip_content_hash:results/20261022T053745Z_audit_b4458b32/observation_g_bounds.csv",
+    "passed": true
+  },
+  {
+    "name": "zip_content_hash:results/20261022T053745Z_audit_b4458b32/parent_g_bounds.csv",
+    "passed": true
+  },
+  {
+    "name": "zip_content_hash:results/20261022T053745Z_audit_b4458b32/parent_task_support.csv",
+    "passed": true
+  },
+  {
+    "name": "zip_content_hash:results/20261022T053745Z_audit_b4458b32/runtime.json",
+    "passed": true
+  },
+  {
+    "name": "zip_content_hash:results/20261022T053745Z_audit_b4458b32/source_hashes.json",
+    "passed": true
+  },
+  {
+    "name": "zip_content_hash:results/20261022T053745Z_audit_b4458b32/source_snapshot/amend_protocol.py",
+    "passed": true
+  },
+  {
+    "name": "zip_content_hash:results/20261022T053745Z_audit_b4458b32/source_snapshot/audit.py",
+    "passed": true
+  },
+  {
+    "name": "zip_content_hash:results/20261022T053745Z_audit_b4458b32/source_snapshot/audit_config.json",
+    "passed": true
+  },
+  {
+    "name": "zip_content_hash:results/20261022T053745Z_audit_b4458b32/source_snapshot/protocol.json",
+    "passed": true
+  },
+  {
+    "name": "zip_content_hash:results/20261022T053745Z_audit_b4458b32/source_snapshot/record.py",
+    "passed": true
+  },
+  {
+    "name": "zip_content_hash:results/20261022T053745Z_audit_b4458b32/summary.json",
+    "passed": true
+  },
+  {
+    "name": "zip_content_hash:results/20261022T053915Z_verify_a759a328/checks.json",
+    "passed": true
+  },
+  {
+    "name": "zip_content_hash:results/20261022T053915Z_verify_a759a328/COMPLETE.json",
+    "passed": true
+  },
+  {
+    "name": "zip_content_hash:results/20261022T053915Z_verify_a759a328/exact_bounds.json",
+    "passed": true
+  },
+  {
+    "name": "zip_content_hash:results/20261022T053915Z_verify_a759a328/input_snapshot/00_protocol.json",
+    "passed": true
+  },
+  {
+    "name": "zip_content_hash:results/20261022T053915Z_verify_a759a328/input_snapshot/01_frozen_reference_predictions.csv",
+    "passed": true
+  },
+  {
+    "name": "zip_content_hash:results/20261022T053915Z_verify_a759a328/input_snapshot/02_paired_outcomes.csv",
+    "passed": true
+  },
+  {
+    "name": "zip_content_hash:results/20261022T053915Z_verify_a759a328/input_snapshot/03_proposed_jobs.csv",
+    "passed": true
+  },
+  {
+    "name": "zip_content_hash:results/20261022T053915Z_verify_a759a328/input_snapshot/04_summary.json",
+    "passed": true
+  },
+  {
+    "name": "zip_content_hash:results/20261022T053915Z_verify_a759a328/input_snapshot/05_parent_g_bounds.csv",
+    "passed": true
+  },
+  {
+    "name": "zip_content_hash:results/20261022T053915Z_verify_a759a328/input_snapshot/06_g_bounds.csv",
+    "passed": true
+  },
+  {
+    "name": "zip_content_hash:results/20261022T053915Z_verify_a759a328/input_snapshot/07_parent_task_support.csv",
+    "passed": true
+  },
+  {
+    "name": "zip_content_hash:results/20261022T053915Z_verify_a759a328/input_snapshot/08_observation_g_bounds.csv",
+    "passed": true
+  },
+  {
+    "name": "zip_content_hash:results/20261022T053915Z_verify_a759a328/inputs.json",
+    "passed": true
+  },
+  {
+    "name": "zip_content_hash:results/20261022T053915Z_verify_a759a328/runtime.json",
+    "passed": true
+  },
+  {
+    "name": "zip_content_hash:results/20261022T053915Z_verify_a759a328/source_hashes.json",
+    "passed": true
+  },
+  {
+    "name": "zip_content_hash:results/20261022T053915Z_verify_a759a328/source_snapshot/amend_protocol.py",
+    "passed": true
+  },
+  {
+    "name": "zip_content_hash:results/20261022T053915Z_verify_a759a328/source_snapshot/audit.py",
+    "passed": true
+  },
+  {
+    "name": "zip_content_hash:results/20261022T053915Z_verify_a759a328/source_snapshot/audit_config.json",
+    "passed": true
+  },
+  {
+    "name": "zip_content_hash:results/20261022T053915Z_verify_a759a328/source_snapshot/protocol.json",
+    "passed": true
+  },
+  {
+    "name": "zip_content_hash:results/20261022T053915Z_verify_a759a328/source_snapshot/record.py",
+    "passed": true
+  },
+  {
+    "name": "zip_content_hash:results/20261022T053915Z_verify_a759a328/source_snapshot/verify.py",
+    "passed": true
+  },
+  {
+    "name": "zip_locked_predictions_exact",
+    "passed": true
+  }
+]

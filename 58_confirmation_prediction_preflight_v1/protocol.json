@@ -1,0 +1,245 @@
+{
+  "version": "58_confirmation_prediction_preflight_v1",
+  "status": "pre_execution_clarification_and_locked_prediction_feasibility_audit",
+  "execution_authorized": false,
+  "scheduled": false,
+  "question": "On cases failed by both 8k states, does reference state-case information within the four-observation common grade improve fresh-future predictions beyond the specified M0 grade and state-specific monotone curves, alongside fresh-future same-minus-cross overlap replication?",
+  "reference_csv": "54_same_state_future_replication_analysis_v1/results/20261022T021845Z_analysis_98fe07c3/paired_outcomes.csv",
+  "reference_csv_sha256": "7c75c6186ae833ecfb3f9a71180c87bcd7aec37137ee6cd85c6490eec3750efb",
+  "state_manifest": "52_same_state_future_replication_v1/inputs/state_manifest.json",
+  "state_manifest_sha256": "63728184cc1cdf4dcccacfd7140fc3c1e66908c4bef5c7f8182b4f0a7f953607",
+  "parents": [
+    41011,
+    41012,
+    41013,
+    41014,
+    41015
+  ],
+  "prefixes": [
+    4201,
+    4202
+  ],
+  "tasks": [
+    "DO",
+    "DC",
+    "PU",
+    "BP"
+  ],
+  "focus_tasks": [
+    "DC",
+    "PU"
+  ],
+  "eligibility": "parent/task case with J8=0 for BOTH prefixes; frozen by pre-confirmation outcomes",
+  "reference_future_columns": [
+    "old_J40",
+    "new_J40"
+  ],
+  "confirmation_future_ids": [
+    3,
+    4
+  ],
+  "reference_case_information_allowed": true,
+  "is_online_selector": false,
+  "learning_proposal": {
+    "states": 10,
+    "futures_per_state": 2,
+    "jobs": 20,
+    "absolute_start": 208000,
+    "absolute_end": 240000,
+    "training_steps_per_job": 32000,
+    "schedule": "unchanged BP dose625",
+    "root_seed": "uint32 SeedSequence([570202,57,parent,prefix,future_id]).generate_state(1)[0]",
+    "schedule_seed": "uint32 SeedSequence([root_seed,10]).generate_state(1)[0]",
+    "reset_seed": "uint32 SeedSequence([root_seed,20,task_index,preserved_task_visits]).generate_state(1)[0]",
+    "job_order_seed": 570101,
+    "fork_each_future_from_original_8k_state": true,
+    "rng_only_change_contract": "preserve learner/targets/optimizers/entropy/replay/collector counters/generated schedule blocks/cursor/absolute steps; replace active Python/NumPy/Torch/reset/future-schedule RNG only",
+    "full_save_absolute_steps": [
+      216000,
+      224000,
+      232000,
+      240000
+    ],
+    "intermediate_policy_evaluation": false,
+    "evaluate": "same per-parent O100, all 4 tasks, deterministic policy, up to 500 steps per episode, original termination rules",
+    "no_scientific_early_stopping": true,
+    "technical_integrity_failure_stops_queue": true,
+    "automatic_retry_reserve": 0
+  },
+  "budget_proposal": {
+    "training_steps": 640000,
+    "evaluation_step_cap": 4000000,
+    "main_environment_cap": 4640000,
+    "technical_environment_cap": 10000,
+    "including_technical_cap": 4650000,
+    "status": "proposal_not_execution_approval"
+  },
+  "primary_D": {
+    "pair_T": "m-n_a*n_b/N within parent/task common-failure set; N=0 contributes zero",
+    "state_pairs": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "future_pair": "confirmation 3 versus confirmation 4 ONLY",
+    "parent_value": "sum over DC,PU of ((T11+T22)-(T12+T21))/2 /4",
+    "overall": "equal mean of 5 parent values = 100*sum_focus_D/2000",
+    "unit": "pp of original all-four-task parent/case slots; NOT success-rate gain",
+    "do_not_double_by_changing_to_two_task_denominator": true,
+    "secondary": [
+      "all-four-task D",
+      "each task D",
+      "loss overlap on common successes",
+      "support and T_min/T_max",
+      "reference-data model-implied D, descriptive only"
+    ]
+  },
+  "models": {
+    "reference_repeats": 2,
+    "fit_separately_within": "parent x task x common-failure population; no sharing case indices across parents",
+    "common_difficulty": "c_i = number of successes across both states and both reference futures, in {0,1,2,3,4}; not true latent difficulty",
+    "M0": "state-specific nondecreasing probability over occupied c bins, fit using PAVA with one pseudo-success and one pseudo-failure per occupied bin per state",
+    "M0_objective": "min -sum_c[(K_sc+1)log(v_sc)+(2*n_c-K_sc+1)log(1-v_sc)] subject to v_s,c <= v_s,c_next",
+    "M1_direction": "h_i = k_1i/2 - mean_{j:c_j=c_i}(k_1j/2); state1 shifts +h, state2 shifts -h",
+    "M1_shrinkage": 0.25,
+    "M1_bound": "lambda_c=min(0.25, all positive probability-bound ratios for both state shifts); zero direction gives zero shift; no endpoint tuning",
+    "M1_probability": "p1_1i=p0_1,c_i+lambda_c*h_i; p1_2i=p0_2,c_i-lambda_c*h_i",
+    "invariants": [
+      "each state/difficulty-bin mean equals M0",
+      "each case's two-state mean equals M0",
+      "probabilities in [0,1]"
+    ],
+    "fit_before_new_future_training": true,
+    "freeze_predictions_and_source_sha256": true,
+    "retuning_or_new_feature_search": false,
+    "interpretation": "incremental reference state-case information beyond THIS specified common-score monotone comparator; not elimination of every latent-difficulty explanation"
+  },
+  "primary_prediction_score": {
+    "metric": "binary Brier squared error (p-y)^2; smaller is better",
+    "parent_score": "mean over eligible DC+PU cases pooled within parent, 2 states and 2 confirmation futures",
+    "overall": "equal mean over 5 parents; no independent-case SE",
+    "gain": "G=BS(M0)-BS(M1); positive favors extra state-case information",
+    "empty_parent_rule": "if parent has no eligible DC/PU cases, primary investment gate is not evaluable; do not silently drop or substitute",
+    "secondary": [
+      "G separately on future3 and future4",
+      "per-parent and per-task G",
+      "BS for both models",
+      "final success/gain/loss amounts as context"
+    ],
+    "exact_parent_formula": "BS_p(M)=sum_{t in DC,PU;i in I_pt;s=1,2;f=3,4}(pM_psi-Y_psfi)^2/(4*N_p); N_p=N_pDC+N_pPU",
+    "exact_overall_formula": "G=sum_p[BS_p(M0)-BS_p(M1)]/5; leave-one-parent-out uses /4 without refitting",
+    "task_weights_within_parent": "N_pt/N_p, not equal task weights; empty task contributes no observations and its conditional score is NA",
+    "case_scope": "all 548 eligible DC/PU cases, including zero-correction cases; do not restrict denominator to 49 changed cases"
+  },
+  "uncertainty": {
+    "case_replicates": 20000,
+    "case_seed": 570303,
+    "case_resampling": "within parent/task/joint (J0,J8_1,J8_2); same index multiplicities for all states, reference-derived predictions and new futures; no model refitting",
+    "case_interval": "pointwise 2.5/97.5 percentile linear; conditional on fixed reference fits, histories and new trained policies",
+    "parent_bootstrap": "all 3125 ordered parent draws with both states and all futures kept together; descriptive",
+    "leave_one_parent_out": "remove entire parent, recompute equal remaining-parent mean with predictions unchanged",
+    "future_variance_limitation": "two fresh futures do not precisely estimate within-state future variance; case intervals do not include it",
+    "case_bank_generalization": "known O100 cases, not unseen-case validation"
+  },
+  "proposed_investment_gate": {
+    "status": "new_cost_decision_thresholds_proposed_before_confirmation_not_established_power_or_user_approval",
+    "all_20_jobs_technically_valid": true,
+    "D_focus_minimum_pp": 0.1,
+    "G_Brier_minimum": 0.001,
+    "each_conditional_case_lower_bound_strictly_positive": true,
+    "all_parent_removal_means_strictly_positive_for_both": true,
+    "G_future3_and_G_future4_each_strictly_positive": true,
+    "parent_bootstrap_interval_not_a_gate": true,
+    "requires_all_conditions_for_new_parent_design_investment": true,
+    "not_a_selector_or_population_confirmatory_significance_claim": true,
+    "if_uncertain": "record inconclusive; no automatic new futures, parents, thresholds or models",
+    "if_D_replicates_but_G_does_not": "do not claim all simple explanations sufficient; only specified extra information not supported",
+    "small_increment_conclusion": "upper uncertainty bound for G below 0.001 supports small increment only for this comparator/predictor; not global absence",
+    "separate_scientific_evidence_and_investment_status": true,
+    "positive_but_below_size_threshold": "If a conditional interval lower bound is positive but D<0.10pp or G<0.001, report positive conditional evidence and observed size below investment threshold; hold further investment",
+    "positive_but_robustness_gate_failed": "Report positive conditional evidence with parent concentration or future-direction limitation; hold investment, do not relabel as no effect",
+    "leave_parent_out_interpretation": "excludes sole dependence on any one parent for that aggregate; does not demonstrate broad replication across parents",
+    "missing_confirmation": "not executed/not measured, not failed or null scientific result"
+  },
+  "second_bundle": {
+    "status": "conditional_plan_not_sized_not_authorized",
+    "new_parent_count": null,
+    "per_parent_pretrain": 200000,
+    "prefix_states_per_parent": 2,
+    "prefix_steps": 8000,
+    "reference_futures_per_state": 2,
+    "confirmation_futures_per_state": 2,
+    "future_steps": 32000,
+    "per_parent_training_steps": 472000,
+    "per_parent_evaluated_policies": 10,
+    "per_parent_evaluation_cap": 2000000,
+    "per_parent_main_environment_cap": 2472000,
+    "parent_zero_policy_evaluation_optional_extra_cap": 200000,
+    "before_execution": [
+      "fix finite parent count and total budget from parent/future uncertainty and funding, not case-bootstrap width alone",
+      "fix unseen parent/prefix seeds",
+      "freeze one pre-continuation state-condition definition or explicitly decline subgroup claim",
+      "validate state restoration and gate analysis",
+      "obtain separate execution authorization"
+    ],
+    "no_automatic_sequential_significance_sampling": true
+  },
+  "paper_scope": {
+    "primary": "starting-state-associated acquisition patterns; any incremental predictive claim is relative to the explicitly specified common-grade M0 only",
+    "loss": "secondary comparison and measurement limitations",
+    "requires_new_selector": false,
+    "requires_new_RL_algorithm": false,
+    "causal_intervention": "optional later, only one justified factor with separately fixed design",
+    "completion_evidence": [
+      "fresh-future phenomenon replication",
+      "fresh-future predictive comparison against the specified grade/monotone M0, not elimination of all common latent-difficulty models",
+      "scope or reproducible boundary on new parents/states"
+    ],
+    "publication_success_not_guaranteed": true
+  },
+  "amendment": {
+    "previous_protocol": "57_acquisition_state_dependence_confirmation_plan_v1\\protocol.json",
+    "previous_sha256": "c6508598d1145905d09ac3fc696d674be62085724b6853d25f61f5d456722739",
+    "prediction_sha256_unchanged": "e0c34c7c0b010b767e51de6e6ea6d546e7f41d738511117238deabb803f35cc8",
+    "jobs_sha256_unchanged": "db70f8888ad578267c2de1197abc2a248dead4b50f7b310fabf8ae87d40311bf",
+    "models_seeds_eligibility_weights_and_numeric_thresholds_unchanged": true,
+    "execution_authorized_by_this_amendment": false
+  },
+  "claim_scope": {
+    "positive_G": "M1 improves new-future Brier prediction relative to THIS M0: total reference successes graded 0..4 plus separately fitted parent/task/state monotone curves",
+    "does_not_establish": [
+      "exclusion of all common latent-difficulty explanations",
+      "state-dependent reversal of latent case difficulty ranks",
+      "a state-specific causal learning mechanism",
+      "an online 8k selector or allocation improvement"
+    ],
+    "remaining_explanation": "within-grade reference state allocation may carry additional information about unobserved common case difficulty under different state response curves, despite both mean-preservation constraints",
+    "current_support": "primary M0/M1 differences occur only in PU for parents 41011,41013,41015; G cannot test incremental information in DC or other parents where forecasts are identical"
+  },
+  "prediction_feasibility_audit": {
+    "inputs": "locked prediction CSV only; no F3/F4 labels",
+    "observation_gain": "2*d*(y-p)-d*d, d=M1-M0",
+    "observation_upper": "max(gain(y=0),gain(y=1)); attained algebraically by y=1 if d>0 and y=0 if d<0",
+    "aggregation": "mean over two state rows within each parent's pooled eligible DC/PU cases, then equal parent mean; same forecasts on both future labels",
+    "required_outputs": [
+      "changed cases and parent/task/grade distribution",
+      "correction magnitude",
+      "probability bounds and both mean constraints",
+      "overall and all five leave-one-parent-out lower/upper bounds"
+    ],
+    "interpretation": "label-space bound only, neither forecast nor power analysis nor guarantee of joint D/interval/investment gate feasibility under real learned policies"
+  }
+}

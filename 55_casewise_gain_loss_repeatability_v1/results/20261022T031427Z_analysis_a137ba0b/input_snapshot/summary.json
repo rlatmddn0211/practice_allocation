@@ -1,0 +1,387 @@
+{
+  "execution_status": "completed",
+  "scientific_status": "investment_gate_not_passed",
+  "analysis_environment_steps": 0,
+  "parents": [
+    41011,
+    41012,
+    41013,
+    41014,
+    41015
+  ],
+  "prefixes": [
+    4201,
+    4202
+  ],
+  "independent_parent_count": 5,
+  "state_count": 10,
+  "futures_per_state_including_old": 2,
+  "means_percent": {
+    "parent": 33.7,
+    "stop8": 34.725,
+    "old_continue40": 34.075,
+    "new_continue40": 32.875,
+    "primary_fixed_choice": 35.5
+  },
+  "primary_gains_pp": {
+    "versus_stop": 0.775,
+    "versus_new_continue": 2.625
+  },
+  "conditional_case_joint_lower_bounds_pp": [
+    0.07500000000000007,
+    1.925
+  ],
+  "joint_q_pp": 0.7,
+  "case_marginal_percentile_95_pp_secondary": [
+    [
+      0.275,
+      1.2750000000000001
+    ],
+    [
+      1.8,
+      3.4499999999999997
+    ]
+  ],
+  "parent_percentile_95_pp_descriptive": [
+    [
+      -0.05,
+      2.125
+    ],
+    [
+      -0.6,
+      6.175
+    ]
+  ],
+  "maximum_positive_parent_contribution_shares": [
+    0.84375,
+    0.5641025641025641
+  ],
+  "gate_conditions": {
+    "both_gains_at_least_1pp": false,
+    "both_conditional_joint_lower_bounds_positive": true,
+    "both_gains_positive_in_every_parent_removal": true,
+    "both_positive_concentration_shares_at_most_two_thirds": false,
+    "technical_integrity": true
+  },
+  "secondary_full_O100": {
+    "selected_percent": 35.55,
+    "gains_pp": [
+      0.8250000000000001,
+      2.675
+    ],
+    "warning": "same J8 cases used in old selection and new scoring; not primary"
+  },
+  "primary_actions": {
+    "stop": 11,
+    "continue": 9
+  },
+  "state_results": [
+    {
+      "parent": 41011,
+      "prefix": 4201,
+      "old_root": 184512748,
+      "new_root": 2884815284,
+      "schedule_seed": 1871222383,
+      "J0_percent": 40.25,
+      "J8_percent": 41.0,
+      "old_J40_percent": 37.5,
+      "new_J40_percent": 37.5,
+      "old_late_pp": -3.5000000000000004,
+      "new_late_pp": -3.5000000000000004,
+      "new_minus_old_pp": 0.0
+    },
+    {
+      "parent": 41011,
+      "prefix": 4202,
+      "old_root": 4181237436,
+      "new_root": 3319937309,
+      "schedule_seed": 1098891833,
+      "J0_percent": 40.25,
+      "J8_percent": 42.25,
+      "old_J40_percent": 41.25,
+      "new_J40_percent": 33.0,
+      "old_late_pp": -1.0,
+      "new_late_pp": -9.25,
+      "new_minus_old_pp": -8.25
+    },
+    {
+      "parent": 41012,
+      "prefix": 4201,
+      "old_root": 2721127391,
+      "new_root": 3800085872,
+      "schedule_seed": 1284138601,
+      "J0_percent": 36.25,
+      "J8_percent": 49.25,
+      "old_J40_percent": 50.0,
+      "new_J40_percent": 49.25,
+      "old_late_pp": 0.75,
+      "new_late_pp": 0.0,
+      "new_minus_old_pp": -0.75
+    },
+    {
+      "parent": 41012,
+      "prefix": 4202,
+      "old_root": 1544802358,
+      "new_root": 4209204009,
+      "schedule_seed": 458343135,
+      "J0_percent": 36.25,
+      "J8_percent": 49.75,
+      "old_J40_percent": 50.0,
+      "new_J40_percent": 50.0,
+      "old_late_pp": 0.25,
+      "new_late_pp": 0.25,
+      "new_minus_old_pp": 0.0
+    },
+    {
+      "parent": 41013,
+      "prefix": 4201,
+      "old_root": 2611205667,
+      "new_root": 1011595842,
+      "schedule_seed": 258063841,
+      "J0_percent": 4.25,
+      "J8_percent": 8.5,
+      "old_J40_percent": 1.25,
+      "new_J40_percent": 11.0,
+      "old_late_pp": -7.249999999999999,
+      "new_late_pp": 2.5,
+      "new_minus_old_pp": 9.75
+    },
+    {
+      "parent": 41013,
+      "prefix": 4202,
+      "old_root": 3461146862,
+      "new_root": 55417420,
+      "schedule_seed": 891555496,
+      "J0_percent": 4.25,
+      "J8_percent": 1.0,
+      "old_J40_percent": 1.7500000000000002,
+      "new_J40_percent": 2.25,
+      "old_late_pp": 0.75,
+      "new_late_pp": 1.25,
+      "new_minus_old_pp": 0.5
+    },
+    {
+      "parent": 41014,
+      "prefix": 4201,
+      "old_root": 2418928234,
+      "new_root": 3766687520,
+      "schedule_seed": 638988565,
+      "J0_percent": 42.75,
+      "J8_percent": 42.75,
+      "old_J40_percent": 41.0,
+      "new_J40_percent": 40.25,
+      "old_late_pp": -1.7500000000000002,
+      "new_late_pp": -2.5,
+      "new_minus_old_pp": -0.75
+    },
+    {
+      "parent": 41014,
+      "prefix": 4202,
+      "old_root": 1134167883,
+      "new_root": 710696550,
+      "schedule_seed": 3594011280,
+      "J0_percent": 42.75,
+      "J8_percent": 40.0,
+      "old_J40_percent": 29.75,
+      "new_J40_percent": 26.0,
+      "old_late_pp": -10.25,
+      "new_late_pp": -14.000000000000002,
+      "new_minus_old_pp": -3.75
+    },
+    {
+      "parent": 41015,
+      "prefix": 4201,
+      "old_root": 679393678,
+      "new_root": 3647926018,
+      "schedule_seed": 356666565,
+      "J0_percent": 45.0,
+      "J8_percent": 36.0,
+      "old_J40_percent": 41.75,
+      "new_J40_percent": 43.75,
+      "old_late_pp": 5.75,
+      "new_late_pp": 7.75,
+      "new_minus_old_pp": 2.0
+    },
+    {
+      "parent": 41015,
+      "prefix": 4202,
+      "old_root": 1363291514,
+      "new_root": 1181237540,
+      "schedule_seed": 2741985050,
+      "J0_percent": 45.0,
+      "J8_percent": 36.75,
+      "old_J40_percent": 46.5,
+      "new_J40_percent": 35.75,
+      "old_late_pp": 9.75,
+      "new_late_pp": -1.0,
+      "new_minus_old_pp": -10.75
+    }
+  ],
+  "parent_results": [
+    {
+      "parent": 41011,
+      "stop_percent": 41.625,
+      "continue_percent": 35.25,
+      "selected_percent": 41.625,
+      "G_stop_pp": 0.0,
+      "G_continue_pp": 6.375
+    },
+    {
+      "parent": 41012,
+      "stop_percent": 49.5,
+      "continue_percent": 49.625,
+      "selected_percent": 49.375,
+      "G_stop_pp": -0.125,
+      "G_continue_pp": -0.25
+    },
+    {
+      "parent": 41013,
+      "stop_percent": 4.75,
+      "continue_percent": 6.625,
+      "selected_percent": 5.375,
+      "G_stop_pp": 0.625,
+      "G_continue_pp": -1.25
+    },
+    {
+      "parent": 41014,
+      "stop_percent": 41.375,
+      "continue_percent": 33.125,
+      "selected_percent": 41.375,
+      "G_stop_pp": 0.0,
+      "G_continue_pp": 8.25
+    },
+    {
+      "parent": 41015,
+      "stop_percent": 36.375,
+      "continue_percent": 39.75,
+      "selected_percent": 39.75,
+      "G_stop_pp": 3.375,
+      "G_continue_pp": 0.0
+    }
+  ],
+  "leave_one_parent_out": [
+    {
+      "excluded_parent": 41011,
+      "stop_percent": 33.0,
+      "continue_percent": 32.28125,
+      "selected_percent": 33.96875,
+      "G_stop_pp": 0.96875,
+      "G_continue_pp": 1.6875,
+      "observed_better_fixed": "stop",
+      "gain_over_better_fixed_pp": 0.96875
+    },
+    {
+      "excluded_parent": 41012,
+      "stop_percent": 31.03125,
+      "continue_percent": 28.6875,
+      "selected_percent": 32.03125,
+      "G_stop_pp": 1.0,
+      "G_continue_pp": 3.34375,
+      "observed_better_fixed": "stop",
+      "gain_over_better_fixed_pp": 1.0
+    },
+    {
+      "excluded_parent": 41013,
+      "stop_percent": 42.21875,
+      "continue_percent": 39.4375,
+      "selected_percent": 43.03125,
+      "G_stop_pp": 0.8125,
+      "G_continue_pp": 3.59375,
+      "observed_better_fixed": "stop",
+      "gain_over_better_fixed_pp": 0.8125
+    },
+    {
+      "excluded_parent": 41014,
+      "stop_percent": 33.0625,
+      "continue_percent": 32.8125,
+      "selected_percent": 34.03125,
+      "G_stop_pp": 0.96875,
+      "G_continue_pp": 1.21875,
+      "observed_better_fixed": "stop",
+      "gain_over_better_fixed_pp": 0.96875
+    },
+    {
+      "excluded_parent": 41015,
+      "stop_percent": 34.3125,
+      "continue_percent": 31.156250000000004,
+      "selected_percent": 34.4375,
+      "G_stop_pp": 0.125,
+      "G_continue_pp": 3.2812499999999964,
+      "observed_better_fixed": "stop",
+      "gain_over_better_fixed_pp": 0.125
+    }
+  ],
+  "task_results": [
+    {
+      "task": "DO",
+      "J0_percent": 0.0,
+      "J8_percent": 0.0,
+      "old_J40_percent": 0.0,
+      "new_J40_percent": 0.6
+    },
+    {
+      "task": "DC",
+      "J0_percent": 82.19999999999999,
+      "J8_percent": 81.6,
+      "old_J40_percent": 80.5,
+      "new_J40_percent": 83.0
+    },
+    {
+      "task": "PU",
+      "J0_percent": 1.6,
+      "J8_percent": 2.7,
+      "old_J40_percent": 4.3999999999999995,
+      "new_J40_percent": 2.9000000000000004
+    },
+    {
+      "task": "BP",
+      "J0_percent": 51.0,
+      "J8_percent": 54.6,
+      "old_J40_percent": 51.4,
+      "new_J40_percent": 45.0
+    }
+  ],
+  "success_pattern_totals": {
+    "old": {
+      "000": 59.275,
+      "001": 2.45,
+      "010": 1.275,
+      "011": 3.3000000000000003,
+      "100": 1.95,
+      "101": 1.6,
+      "110": 3.4250000000000003,
+      "111": 26.724999999999998
+    },
+    "new": {
+      "000": 58.775,
+      "001": 2.9499999999999997,
+      "010": 1.375,
+      "011": 3.2,
+      "100": 2.7,
+      "101": 0.8500000000000001,
+      "110": 4.275,
+      "111": 25.874999999999996
+    }
+  },
+  "costs": {
+    "training_steps": 320000,
+    "SAC_updates": 320000,
+    "evaluation_steps": 1385201,
+    "main_environment_steps": 1705201,
+    "technical_steps": 4515,
+    "all_environment_steps": 1709716,
+    "worker_wall_seconds_sum": 8041.940084300004,
+    "worker_cpu_seconds_sum": 4389.515625,
+    "training_wall_seconds_sum": 5734.315498400014,
+    "GPU_busy_seconds": null
+  },
+  "completed_at": "2026-10-20T12:04:58.526085+00:00",
+  "next_decision": "No automatic expansion. C and original stages 2/3 remain held; no threshold or predictor fitting.",
+  "limitations": [
+    "Only two realized futures per fixed state, five independent parents.",
+    "Choices use an old completed 40k future, not deployable decision-time information.",
+    "Conditional case intervals omit future learning and population uncertainty.",
+    "Known development evaluation bank and selected existing states; not a fresh-parent validation.",
+    "No allocation switch action, replay intervention, online diagnosis, or noninferiority test."
+  ]
+}

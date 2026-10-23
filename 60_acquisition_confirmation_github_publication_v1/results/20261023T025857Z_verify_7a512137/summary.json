@@ -1,0 +1,60 @@
+{
+  "status": "passed",
+  "error": null,
+  "checks": 32872,
+  "failed_checks": [],
+  "files": 959,
+  "groups": {
+    ".gitattributes": {
+      "files": 1,
+      "bytes": 5665
+    },
+    "52_same_state_future_replication_v1": {
+      "files": 222,
+      "bytes": 1687836
+    },
+    "54_same_state_future_replication_analysis_v1": {
+      "files": 48,
+      "bytes": 6239617
+    },
+    "55_casewise_gain_loss_repeatability_v1": {
+      "files": 34,
+      "bytes": 2015997
+    },
+    "56_same_vs_cross_state_overlap_v1": {
+      "files": 45,
+      "bytes": 1147352
+    },
+    "57_acquisition_state_dependence_confirmation_plan_v1": {
+      "files": 30,
+      "bytes": 2103823
+    },
+    "58_confirmation_prediction_preflight_v1": {
+      "files": 77,
+      "bytes": 8255308
+    },
+    "59_fresh_future_confirmation_v1": {
+      "files": 489,
+      "bytes": 6351585
+    },
+    "60_acquisition_confirmation_github_publication_v1": {
+      "files": 11,
+      "bytes": 710450
+    },
+    "AGENTS.md": {
+      "files": 1,
+      "bytes": 15028
+    },
+    "README.md": {
+      "files": 1,
+      "bytes": 44639
+    }
+  },
+  "local_only_links": [],
+  "costs": {
+    "wall_seconds": 3.965005600010045,
+    "cpu_seconds": 0.203125,
+    "new_environment_steps": 0,
+    "new_SAC_updates": 0
+  }
+}

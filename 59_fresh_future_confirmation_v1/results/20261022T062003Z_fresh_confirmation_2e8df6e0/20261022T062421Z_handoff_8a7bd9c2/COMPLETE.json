@@ -1,0 +1,23 @@
+{
+  "status": "running_launch_validated",
+  "campaign": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\59_fresh_future_confirmation_v1\\results\\20261022T062003Z_fresh_confirmation_2e8df6e0",
+  "scientific_conclusion": "not_yet_measured",
+  "technical_checks": 68,
+  "technical_environment_steps": 6516,
+  "completed_jobs_at_read": 0,
+  "running_job": "B_s41015_r4202_F4",
+  "latest_worker_progress": {
+    "time": "2026-10-22T06:24:04.540008+00:00",
+    "event": "training",
+    "costs": {
+      "environment_creations": 14,
+      "resets": 14,
+      "environment_steps": 7000,
+      "train_iterations": 7000,
+      "evaluation_episodes": 0
+    },
+    "absolute_step": 215000
+  },
+  "operational_policy_block": "First PS launch blocked before script execution; approved process-scoped launch succeeded; zero research retries",
+  "new_environment_steps_for_this_check": 0
+}

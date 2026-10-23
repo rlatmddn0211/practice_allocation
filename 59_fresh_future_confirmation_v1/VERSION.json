@@ -1,0 +1,6 @@
+{
+  "version": "59_fresh_future_confirmation_v1",
+  "parent_implementation": "52_same_state_future_replication_v1",
+  "learner_environment_evaluation": "byte-identical independent copies",
+  "change": "20 F3/F4 futures under frozen protocol58, RNG-only fork and technical gate"
+}

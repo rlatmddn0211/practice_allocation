@@ -1,0 +1,108 @@
+{
+  "status": "copied_for_development_not_verified",
+  "copied_code": {
+    "practice_allocation\\core.py": {
+      "source": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\52_same_state_future_replication_v1\\practice_allocation\\core.py",
+      "sha256": "6b5e51cacd6ac44ef117ed750ac4bcd46bb0beffac4dd5d0bd7edc7de93cb62d"
+    },
+    "practice_allocation\\engine.py": {
+      "source": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\52_same_state_future_replication_v1\\practice_allocation\\engine.py",
+      "sha256": "ae090b11d36b715eb7c66ce89c39c1021d1de140abe7fbb5e820eff1ed4a3f26"
+    },
+    "practice_allocation\\environment.py": {
+      "source": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\52_same_state_future_replication_v1\\practice_allocation\\environment.py",
+      "sha256": "85afb8560da5160832e619f90608eae0b4b83aa75264376800111b295ef4e4e8"
+    },
+    "practice_allocation\\evaluation.py": {
+      "source": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\52_same_state_future_replication_v1\\practice_allocation\\evaluation.py",
+      "sha256": "196b18ad4b60bca516511e71a449b12b78784a20a1699caa207975203d5cc525"
+    },
+    "practice_allocation\\learning.py": {
+      "source": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\52_same_state_future_replication_v1\\practice_allocation\\learning.py",
+      "sha256": "e32e1f2e23490c651167af24386a3af5df005af766a33128c9bb75f719e30009"
+    },
+    "practice_allocation\\schedules.py": {
+      "source": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\52_same_state_future_replication_v1\\practice_allocation\\schedules.py",
+      "sha256": "d114ce28a4b56e52ec53f1481f6393bdae1895cdb8d4393a10b175e1e36da4ec"
+    },
+    "practice_allocation\\study_io.py": {
+      "source": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\52_same_state_future_replication_v1\\practice_allocation\\study_io.py",
+      "sha256": "20b46c67027a413857c80bbbd5e9dad469fae9ccafd468ef3b942dfc76389c53"
+    },
+    "practice_allocation\\__init__.py": {
+      "source": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\52_same_state_future_replication_v1\\practice_allocation\\__init__.py",
+      "sha256": "4215c51deb3d834c283aeed7c87b8747916234e964f1a8cd9eedadaf1e465a2f"
+    },
+    "configs\\learner.json": {
+      "source": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\52_same_state_future_replication_v1\\configs\\learner.json",
+      "sha256": "ba2a7dd45b3190cca9ade74bcf5b4c0a8bb1cad5bea1f0894db2d92a7f8efe53"
+    },
+    "configs\\research_protocol.json": {
+      "source": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\52_same_state_future_replication_v1\\configs\\research_protocol.json",
+      "sha256": "34e289844b4854aa1d3be7b493def76eb3fa1f306587c5b7de8ec5feb32a3df2"
+    },
+    "configs\\suites.json": {
+      "source": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\52_same_state_future_replication_v1\\configs\\suites.json",
+      "sha256": "d94a146844590a1fd66e06625222db17340f442f992df674f069514330771c77"
+    },
+    "common.py": {
+      "source": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\52_same_state_future_replication_v1\\common.py",
+      "sha256": "4f705a861c92d28e3d8c211dca76f9bf993fd6f52ec505c631fce52c51d7f9c8"
+    },
+    "worker.py": {
+      "source": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\52_same_state_future_replication_v1\\worker.py",
+      "sha256": "0f28a0440c02162a6fdb1282205b13866d1b6bc7358e7b76df98c05b0a53f659"
+    },
+    "campaign.py": {
+      "source": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\52_same_state_future_replication_v1\\campaign.py",
+      "sha256": "d70fdda2b18da8f73de6b1bacaa307275427bc6e55a002dbbf93502b8207ccbe"
+    },
+    "verify_implementation.py": {
+      "source": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\52_same_state_future_replication_v1\\verify_implementation.py",
+      "sha256": "7ba37b825ad1ad6e3738edab0d30826b28b12340ded615d0db71e3b58712234c"
+    },
+    "launch_queue.ps1": {
+      "source": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\52_same_state_future_replication_v1\\launch_queue.ps1",
+      "sha256": "b6fd35e48a832f89965a84e2c83dd1a9003b47244ab2313d6d2a4bccfd033f57"
+    },
+    "requirements.txt": {
+      "source": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\52_same_state_future_replication_v1\\requirements.txt",
+      "sha256": "cb62ec70a441ab12b0a7caab26904375ffd55ce0ef5497b20e07a48205b43b1b"
+    }
+  },
+  "inputs": [
+    {
+      "source": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\58_confirmation_prediction_preflight_v1\\protocol.json",
+      "copy": "inputs/protocol58.json",
+      "sha256": "438d2b23889c1242319f1592b86e0ff3ca2fa462992db6a3c9d41e669e8ffc7c"
+    },
+    {
+      "source": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\58_confirmation_prediction_preflight_v1\\inputs\\frozen_reference_predictions.csv",
+      "copy": "inputs/frozen_reference_predictions.csv",
+      "sha256": "e0c34c7c0b010b767e51de6e6ea6d546e7f41d738511117238deabb803f35cc8"
+    },
+    {
+      "source": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\58_confirmation_prediction_preflight_v1\\inputs\\proposed_jobs.csv",
+      "copy": "inputs/proposed_jobs.csv",
+      "sha256": "db70f8888ad578267c2de1197abc2a248dead4b50f7b310fabf8ae87d40311bf"
+    },
+    {
+      "source": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\58_confirmation_prediction_preflight_v1\\inputs\\state_manifest.json",
+      "copy": "inputs/state_manifest.json",
+      "sha256": "63728184cc1cdf4dcccacfd7140fc3c1e66908c4bef5c7f8182b4f0a7f953607"
+    },
+    {
+      "source": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\58_confirmation_prediction_preflight_v1\\inputs\\paired_outcomes.csv",
+      "copy": "inputs/reference_paired_outcomes.csv",
+      "sha256": "7c75c6186ae833ecfb3f9a71180c87bcd7aec37137ee6cd85c6490eec3750efb"
+    },
+    {
+      "source": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\49_bp8k_late_value_analysis_v1\\results\\20261020T053017Z_B_analysis_b2d46333\\outcomes_25_policies.csv",
+      "copy": "inputs/known_8k_outcomes.csv",
+      "sha256": "a69f194338a918db258a1697bcfa44e7ca84641f60a24856a77df5cb1a6e57df"
+    }
+  ],
+  "new_environment_steps": 0,
+  "python": "3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)]",
+  "wall_seconds": 0.018615299952216446
+}

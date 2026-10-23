@@ -1,0 +1,94 @@
+{
+  "version": "51_same_state_future_investment_protocol_v1",
+  "status": "pre_outcome_protocol_proposal_and_choice_preparation_only",
+  "execution_authorized": false,
+  "scheduled": false,
+  "question": "Does the realized net effect of 32k additional BP learning from each fixed 8k learned state carry to one new stochastic future?",
+  "source_outcomes": "49_bp8k_late_value_analysis_v1/results/20261020T053017Z_B_analysis_b2d46333/outcomes_25_policies.csv",
+  "source_outcomes_sha256": "a69f194338a918db258a1697bcfa44e7ca84641f60a24856a77df5cb1a6e57df",
+  "source_checkpoint_provenance": "49_bp8k_late_value_analysis_v1/results/20261020T053017Z_B_analysis_b2d46333/checkpoint_provenance.json",
+  "source_checkpoint_provenance_sha256": "b008bd68268bb28e3caee819426452f9fd9b53e14d1fd8b87e31ea189ad116a4",
+  "parents": [41011, 41012, 41013, 41014, 41015],
+  "prefix_continuations": [4201, 4202],
+  "tasks": ["DO", "DC", "PU", "BP"],
+  "same_state_contract": {
+    "absolute_start_step": 208000,
+    "absolute_end_step": 240000,
+    "candidate": "dose625",
+    "future_repeats_added_per_state": 1,
+    "preserve": ["actor", "critics", "targets", "optimizers", "entropy_state", "replay_content_and_counters", "schedule_candidate_block_cursor_and_blocks_generated", "collector_task_visits_and_counts", "absolute_steps_and_updates", "hyperparameters", "inactive_warmup_rng"],
+    "change": ["global_python_numpy_torch_cpu_cuda_rng", "future_environment_reset_root", "schedule_rng_for_blocks_not_yet_generated"],
+    "future_root_seed_recipe": "uint32 NumPy SeedSequence([510202, 51, parent, prefix_continuation]).generate_state(1)[0]",
+    "schedule_seed_recipe": "uint32 NumPy SeedSequence([future_root_seed, 10]).generate_state(1)[0]",
+    "environment_reset_recipe": "uint32 NumPy SeedSequence([future_root_seed, 20, task_index, preserved_task_visit_count]).generate_state(1)[0]",
+    "checkpoint_boundary_required": true,
+    "start_branch_must_not_be_called": true,
+    "intermediate_policy_evaluation": false,
+    "full_save_absolute_steps": [216000, 224000, 232000, 240000]
+  },
+  "choice": {
+    "rule": "continue if old_future_macro_success minus same_8k_macro_success is strictly positive; otherwise stop",
+    "tie": "stop",
+    "A": [0, 49],
+    "B": [50, 99],
+    "primary": ["old_future_A_select_new_future_B_score", "old_future_B_select_new_future_A_score"],
+    "secondary": "old_future_full_O100_select_new_future_full_O100_score",
+    "new_future_must_not_select_actions": true,
+    "is_deployable_8k_selector": false,
+    "threshold_fitting": false
+  },
+  "primary_estimands": {
+    "G_stop": "mean_parent mean_prefix mean_direction [selected_new_future_score - same_case_J8]",
+    "G_continue": "mean_parent mean_prefix mean_direction [selected_new_future_score - same_case_new_J40]",
+    "unit": "percentage_points_of_equal_task_macro_success",
+    "independent_units": 5,
+    "comparators": ["always_stop8", "always_continue40_new_future"],
+    "always_evaluate_every_new_continue_policy": true,
+    "old_futures_do_not_replace_new_comparators": true
+  },
+  "proposed_investment_gate": {
+    "status": "proposed_before_new_outcomes_not_user_approved",
+    "minimum_each_primary_gain_pp": 1.0,
+    "all_parent_removal_means_each_positive": true,
+    "maximum_positive_parent_contribution_share_each": 0.6666666666666666,
+    "conditional_case_joint_lower_bounds_each_strictly_positive": true,
+    "requires_all_conditions": true,
+    "no_automatic_expansion_if_not_passed": true,
+    "does_not_establish_population_absence_or_algorithm_success": true
+  },
+  "uncertainty": {
+    "case_bootstrap_replicates": 20000,
+    "case_bootstrap_seed": 510303,
+    "case_resampling": "within parent/task/half, draw 50 indices with replacement; share indices across times, futures and both prefix continuations; never refit fixed action tables",
+    "case_joint_lower_bound": "For vector theta=(G_stop,G_continue), q=.95 quantile of max_b(theta_hat[b]-theta_star[b]); simultaneous conditional lower bound theta_hat[b]-q; quantile method linear",
+    "case_scope": "conditional on trained policies and fixed choice tables; not future-training variability or independent validation of the whole development procedure",
+    "parent_bootstrap": "all 3125 ordered draws of five parents; aggregate prefixes and directions within each parent first; percentile 2.5/97.5 descriptive intervals, not a gate",
+    "parent_removal": "remove both states and both directions for that parent; recompute both fixed means and selected mean; reselect observed-better fixed if displayed; report all five",
+    "shared_J8_warning": true,
+    "known_development_case_bank": true
+  },
+  "budget_proposal": {
+    "new_main_training_steps": 320000,
+    "new_main_evaluation_step_cap": 2000000,
+    "main_environment_cap": 2320000,
+    "technical_environment_cap": 10000,
+    "including_technical_cap": 2330000,
+    "technical_cap_status": "new_recommended_cap_not_authorized",
+    "automatic_retry_reserve": 0,
+    "failure_policy": "stop on integrity failure; retain attempts; no extra future or restart expenditure outside approved caps",
+    "online_diagnostic_cost_claimed": false
+  },
+  "actual_preparation_cost": {
+    "new_environment_steps": 0,
+    "new_training_steps": 0,
+    "new_SAC_updates": 0
+  },
+  "existing_decisions": {
+    "A_B": "completed",
+    "original_stage1_gate": "not_passed",
+    "current_TD_candidate_expansion": "closed",
+    "C_original_stages2_3": "held",
+    "replay_intervention": "not_in_this_scope",
+    "paper_contribution": "not_yet_selected"
+  }
+}

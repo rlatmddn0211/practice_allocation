@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "checks": 934,
+  "failed_checks": [],
+  "exact_point_fractions": {
+    "loss_excess_all_cases_pp": "20657/2737600",
+    "gain_excess_all_cases_pp": "501873253191/1317130707200",
+    "history_old_rd_pp": "743/216",
+    "history_new_rd_pp": "4445917/499824",
+    "loss_excess_given_J0_pp": "-43401/1038400",
+    "gain_excess_given_J0_pp": "85098183751/226273731840"
+  },
+  "analysis_summary_sha256": "c8bcbcb189933d5ea0658c92eaa8ae93afaf27705398e33797e9fcb3f20b4903",
+  "analysis": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\55_casewise_gain_loss_repeatability_v1\\results\\20261022T031427Z_analysis_a137ba0b",
+  "source_sha256": "5d8fbd32f2f7fd535a6f26e17ba14bef9a5514508351364a68c7af971d783317",
+  "bootstrap_sha256": "cc2732fe0113d9607a492eec4cc029c852850686ba453acdb9ae62da54438678",
+  "python": "3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)]",
+  "numpy": "2.2.4",
+  "platform": "Windows-11-10.0.22621-SP0",
+  "wall_seconds": 1.0883139999350533,
+  "cpu_seconds": 0.4375,
+  "environment_steps": 0,
+  "SAC_updates": 0
+}

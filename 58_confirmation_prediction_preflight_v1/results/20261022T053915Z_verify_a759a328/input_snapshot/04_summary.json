@@ -1,0 +1,33 @@
+{
+  "status": "locked_prediction_audit_complete_no_confirmation_outcomes",
+  "prediction_sha256": "e0c34c7c0b010b767e51de6e6ea6d546e7f41d738511117238deabb803f35cc8",
+  "correction": {
+    "focus_cases": 548,
+    "changed_cases": 49,
+    "changed_case_fraction": 0.08941605839416059,
+    "changed_parent_ids": [
+      41011,
+      41013,
+      41015
+    ],
+    "changed_tasks": [
+      "PU"
+    ],
+    "mean_abs_delta_all_state_rows": 0.004396381700213818,
+    "mean_abs_delta_changed_state_rows": 0.0491676973819831,
+    "rms_delta_all_state_rows": 0.016576304059209446,
+    "min_abs_delta_changed": 0.011363636363636354,
+    "max_abs_delta_changed": 0.11363636363636365,
+    "parent_equal_mean_abs_delta_all": 0.005035228522852287
+  },
+  "overall_G_lower": -0.005349930305530553,
+  "overall_G_upper": 0.004720526740174018,
+  "minimum_LOPO_G_upper": 0.0012312429159582624,
+  "overall_G_upper_share_parent41011": 0.7913380461583194,
+  "max_case_mean_error": 5.551115123125783e-17,
+  "max_state_grade_mean_error": 1.1102230246251565e-16,
+  "probability_min": 0.0049504950495049506,
+  "probability_max": 0.9285714285714286,
+  "bounds_are_not_power_or_real_policy_reachability": true,
+  "D_or_G_measured_on_F3_F4": false
+}

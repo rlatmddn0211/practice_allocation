@@ -1,0 +1,45 @@
+{
+  "version": "55_casewise_gain_loss_repeatability_v1",
+  "status": "exploratory_existing_data_analysis_after_research_question_shift",
+  "input": "54_same_state_future_replication_analysis_v1/results/20261022T021845Z_analysis_98fe07c3/paired_outcomes.csv",
+  "input_sha256": "7c75c6186ae833ecfb3f9a71180c87bcd7aec37137ee6cd85c6490eec3750efb",
+  "prior_analysis": "54_same_state_future_replication_analysis_v1/results/20261022T021845Z_analysis_98fe07c3",
+  "prior_summary_sha256": "f544e7d205fede7ee2542920aaed4935ac5c55e7e4084a54a554152385797914",
+  "parents": [41011, 41012, 41013, 41014, 41015],
+  "prefixes": [4201, 4202],
+  "tasks": ["DO", "DC", "PU", "BP"],
+  "events": {"loss": "J8=1 and future_J40=0", "gain": "J8=0 and future_J40=1"},
+  "overlap": {
+    "stratum": "parent x prefix x task x J8 eligibility",
+    "chance_overlap": "n_old * n_new / N within each stratum; zero contribution if N=0",
+    "primary": "sum of observed minus expected overlap counts / 40; percentage points of all 4000 state-case observations, equal parent/prefix/task weighting",
+    "secondary": ["eligible-case conditional rates", "per-parent and per-task effects", "chance expectation additionally stratified on J0", "Jaccard and directional event repeat rates, prevalence-dependent"],
+    "no_global_independent_cell_permutation_pvalue": true
+  },
+  "history": {
+    "groups": {"persistent_observed": "J0=1,J8=1", "newly_observed": "J0=0,J8=1"},
+    "contrast": "newly_observed loss risk minus persistent_observed loss risk; old and new futures separately",
+    "matching": "only parent x prefix x task strata with both groups represented",
+    "within_parent_weight": "N01*N11/(N01+N11), identical for both futures and fixed by baseline histories",
+    "across_parent_weight": "equal among parents with common support; report exact number and coverage",
+    "sensitivity": ["equal supported-stratum weights within each parent", "all five leave-one-parent-out estimates", "task-specific matched contrasts"],
+    "no_imputation_for_absent_group": true
+  },
+  "uncertainty": {
+    "case_replicates": 20000,
+    "case_seed": 550303,
+    "case_resampling": "within parent x task x joint history (J0,J8_prefix4201,J8_prefix4202), resample the same number of case indices with replacement; share indices across both prefixes and futures, preserving observed history denominators",
+    "case_scope": "conditional on trained policies and observed baseline-history composition; not new training futures or population confirmation",
+    "interval": "pointwise percentile 2.5/97.5, linear; exploratory, no multiple-testing or progression claim",
+    "parent_resampling": "all 3125 ordered five-parent draws after within-parent aggregation; descriptive only"
+  },
+  "interpretation": {
+    "hypotheses_developed_after_prior_results": true,
+    "same_case_overlap_not_causal_mechanism": true,
+    "history_not_randomized_or_mastery_duration": true,
+    "do_not_rank_gain_vs_loss_repeatability_by_raw_overlap": true,
+    "new_environment_steps": 0,
+    "no_new_training_or_evaluation_or_intervention": true,
+    "previous_selection_gate": "not_passed_unchanged"
+  }
+}

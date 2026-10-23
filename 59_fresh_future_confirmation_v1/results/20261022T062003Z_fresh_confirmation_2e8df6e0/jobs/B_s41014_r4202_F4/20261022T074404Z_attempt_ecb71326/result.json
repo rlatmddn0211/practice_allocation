@@ -1,0 +1,77 @@
+{
+  "id": "B_s41014_r4202_F4",
+  "state": {
+    "parent": 41014,
+    "prefix_continuation": 4202,
+    "old_continuation_rng_seed": 1134167883,
+    "proposed_new_future_root_seed": 1579213260,
+    "proposed_schedule_seed": 1717963394,
+    "checkpoint": {
+      "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\44_selection_value_stage1_checkpoint36_v2\\results\\20261019T064658Z_stage1_2cbbdd65\\jobs\\B_s41014_r4202_dose625_t8000\\a01_5ca438a1\\checkpoint",
+      "manifest_sha256": "e5407a3306f4604aff04fa6644aa7d642f0a8233a34d5046e41be4e5ebfa545b"
+    },
+    "bank": {
+      "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T055015Z_stage1_c82b28ef\\jobs\\B_s41014_bank\\a01_5d8f2a3a\\evaluation_banks.json",
+      "sha256": "b95d2f61fb44f3f9386c1220b1844b279525d617d6b1635b9f3dc6c5074e9495"
+    },
+    "packages": {
+      "numpy": "2.2.4",
+      "torch": "2.5.1+cu121",
+      "gymnasium": "1.2.3",
+      "mujoco": "3.5.0",
+      "metaworld": "3.0.0",
+      "stable-baselines3": "2.7.1"
+    },
+    "reference_future2_root_seed": 710696550,
+    "reference_future2_schedule_seed": 3594011280,
+    "future_id": 4,
+    "proposed_order": 7
+  },
+  "status": "completed",
+  "fork_verified": true,
+  "evaluation_state_unchanged": true,
+  "training_steps": 32000,
+  "evaluation_steps": 132654,
+  "training_counts": {
+    "DO": 4000,
+    "DC": 4000,
+    "PU": 4000,
+    "BP": 20000
+  },
+  "checkpoints": [
+    {
+      "absolute_step": 216000,
+      "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\59_fresh_future_confirmation_v1\\results\\20261022T062003Z_fresh_confirmation_2e8df6e0\\jobs\\B_s41014_r4202_F4\\20261022T074404Z_attempt_ecb71326\\checkpoints\\absolute_216000",
+      "manifest_sha256": "947a7e7b305eb5cc90edf5375af6582e8b9b997a9e9dd8b998a58a0ad7dfd04b"
+    },
+    {
+      "absolute_step": 224000,
+      "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\59_fresh_future_confirmation_v1\\results\\20261022T062003Z_fresh_confirmation_2e8df6e0\\jobs\\B_s41014_r4202_F4\\20261022T074404Z_attempt_ecb71326\\checkpoints\\absolute_224000",
+      "manifest_sha256": "e0e5b049457ef45160c7c77331b79be87a1b40c29ab3fc25239724dab9c31436"
+    },
+    {
+      "absolute_step": 232000,
+      "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\59_fresh_future_confirmation_v1\\results\\20261022T062003Z_fresh_confirmation_2e8df6e0\\jobs\\B_s41014_r4202_F4\\20261022T074404Z_attempt_ecb71326\\checkpoints\\absolute_232000",
+      "manifest_sha256": "b8960a5afae13dc5262e5f268a098749f94a568d8b02cf67fdb8ba78c4b5071c"
+    },
+    {
+      "absolute_step": 240000,
+      "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\59_fresh_future_confirmation_v1\\results\\20261022T062003Z_fresh_confirmation_2e8df6e0\\jobs\\B_s41014_r4202_F4\\20261022T074404Z_attempt_ecb71326\\checkpoints\\absolute_240000",
+      "manifest_sha256": "4ee00c99635efa2e9949a24c598f096df2fefa4def4082d7f9b76a63f7b42646"
+    }
+  ],
+  "episodes": {
+    "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\59_fresh_future_confirmation_v1\\results\\20261022T062003Z_fresh_confirmation_2e8df6e0\\jobs\\B_s41014_r4202_F4\\20261022T074404Z_attempt_ecb71326\\evaluation_episodes.csv",
+    "sha256": "f5be9db828a26cb23bfd2fb777957f8ae99702626138509436dc6eec1cddb902"
+  },
+  "success_by_task": {
+    "DO": 0.0,
+    "DC": 1.0,
+    "PU": 0.0,
+    "BP": 0.44
+  },
+  "macro_success": 0.36,
+  "fixed_prediction_sha256": "e0c34c7c0b010b767e51de6e6ea6d546e7f41d738511117238deabb803f35cc8",
+  "rule_fitted": false,
+  "scientific_interpretation": "pending all twenty F3/F4 futures and frozen protocol58 analysis"
+}

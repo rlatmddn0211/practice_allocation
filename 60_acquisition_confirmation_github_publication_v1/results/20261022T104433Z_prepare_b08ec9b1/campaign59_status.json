@@ -1,0 +1,32 @@
+{
+  "status": "running",
+  "updated_at": "2026-10-22T10:44:32.861007+00:00",
+  "completed": 17,
+  "total": 20,
+  "running": {
+    "job": "B_s41012_r4202_F3",
+    "pid": 29016,
+    "attempt": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\59_fresh_future_confirmation_v1\\results\\20261022T062003Z_fresh_confirmation_2e8df6e0\\jobs\\B_s41012_r4202_F3\\20261022T103104Z_attempt_4328d24f",
+    "latest": {
+      "time": "2026-10-22T10:44:26.917092+00:00",
+      "event": "evaluation",
+      "costs": {
+        "environment_creations": 424,
+        "resets": 424,
+        "environment_steps": 127328,
+        "train_iterations": 32000,
+        "evaluation_episodes": 360
+      },
+      "absolute_step": 240000,
+      "cases_completed": 360
+    }
+  },
+  "research_training_steps_completed": 544000,
+  "research_evaluation_steps_completed": 2353432,
+  "technical_steps": 6516,
+  "elapsed_seconds": 15768.531390100019,
+  "pending": [
+    "B_s41012_r4201_F4",
+    "B_s41014_r4201_F4"
+  ]
+}

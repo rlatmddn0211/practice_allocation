@@ -1,0 +1,146 @@
+[
+  {
+    "name": "syntax:bootstrap.py",
+    "passed": true
+  },
+  {
+    "name": "syntax:campaign.py",
+    "passed": true
+  },
+  {
+    "name": "syntax:common.py",
+    "passed": true
+  },
+  {
+    "name": "syntax:static_check.py",
+    "passed": true
+  },
+  {
+    "name": "syntax:verify_implementation.py",
+    "passed": true
+  },
+  {
+    "name": "syntax:worker.py",
+    "passed": true
+  },
+  {
+    "name": "syntax:practice_allocation\\core.py",
+    "passed": true
+  },
+  {
+    "name": "syntax:practice_allocation\\engine.py",
+    "passed": true
+  },
+  {
+    "name": "syntax:practice_allocation\\environment.py",
+    "passed": true
+  },
+  {
+    "name": "syntax:practice_allocation\\evaluation.py",
+    "passed": true
+  },
+  {
+    "name": "syntax:practice_allocation\\learning.py",
+    "passed": true
+  },
+  {
+    "name": "syntax:practice_allocation\\schedules.py",
+    "passed": true
+  },
+  {
+    "name": "syntax:practice_allocation\\study_io.py",
+    "passed": true
+  },
+  {
+    "name": "syntax:practice_allocation\\__init__.py",
+    "passed": true
+  },
+  {
+    "name": "20_jobs_and_10_original_states",
+    "passed": true
+  },
+  {
+    "name": "2_futures_per_state",
+    "passed": true
+  },
+  {
+    "name": "frozen_budget:training_steps_total",
+    "passed": true
+  },
+  {
+    "name": "frozen_budget:evaluation_cap_total",
+    "passed": true
+  },
+  {
+    "name": "frozen_budget:total_environment_cap",
+    "passed": true
+  },
+  {
+    "name": "checkpoints_unchanged",
+    "passed": true
+  },
+  {
+    "name": "technical_reserve_within_cap",
+    "passed": true
+  },
+  {
+    "name": "single_worker_and_no_retry",
+    "passed": true
+  },
+  {
+    "name": "learner_code_byte_identical:core.py",
+    "passed": true
+  },
+  {
+    "name": "learner_code_byte_identical:engine.py",
+    "passed": true
+  },
+  {
+    "name": "learner_code_byte_identical:environment.py",
+    "passed": true
+  },
+  {
+    "name": "learner_code_byte_identical:evaluation.py",
+    "passed": true
+  },
+  {
+    "name": "learner_code_byte_identical:learning.py",
+    "passed": true
+  },
+  {
+    "name": "learner_code_byte_identical:schedules.py",
+    "passed": true
+  },
+  {
+    "name": "learner_code_byte_identical:study_io.py",
+    "passed": true
+  },
+  {
+    "name": "learner_code_byte_identical:__init__.py",
+    "passed": true
+  },
+  {
+    "name": "copied_config_unchanged:learner.json",
+    "passed": true
+  },
+  {
+    "name": "copied_config_unchanged:research_protocol.json",
+    "passed": true
+  },
+  {
+    "name": "copied_config_unchanged:suites.json",
+    "passed": true
+  },
+  {
+    "name": "models_and_thresholds_not_refitted",
+    "passed": true
+  },
+  {
+    "name": "independent_frozen_job_order",
+    "passed": true
+  },
+  {
+    "name": "storage_for_80_checkpoints_plus_margin",
+    "passed": true
+  }
+]

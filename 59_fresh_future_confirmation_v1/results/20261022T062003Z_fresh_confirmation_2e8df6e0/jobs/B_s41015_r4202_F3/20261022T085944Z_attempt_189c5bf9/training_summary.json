@@ -1,0 +1,34 @@
+{
+  "training_steps": 32000,
+  "SAC_updates": 32000,
+  "collected_by_task": {
+    "DO": 4000,
+    "DC": 4000,
+    "PU": 4000,
+    "BP": 20000
+  },
+  "episode_order_exact": true,
+  "checkpoints": [
+    {
+      "absolute_step": 216000,
+      "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\59_fresh_future_confirmation_v1\\results\\20261022T062003Z_fresh_confirmation_2e8df6e0\\jobs\\B_s41015_r4202_F3\\20261022T085944Z_attempt_189c5bf9\\checkpoints\\absolute_216000",
+      "manifest_sha256": "e5a515a6564ca6e8357e6c4833ff98e09d0f8eb93f9beb6b0071c219cfcb236a"
+    },
+    {
+      "absolute_step": 224000,
+      "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\59_fresh_future_confirmation_v1\\results\\20261022T062003Z_fresh_confirmation_2e8df6e0\\jobs\\B_s41015_r4202_F3\\20261022T085944Z_attempt_189c5bf9\\checkpoints\\absolute_224000",
+      "manifest_sha256": "af43dfc068dcab2921f0a21fb6fc489108344a84a711d5cf07907f3dedea084f"
+    },
+    {
+      "absolute_step": 232000,
+      "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\59_fresh_future_confirmation_v1\\results\\20261022T062003Z_fresh_confirmation_2e8df6e0\\jobs\\B_s41015_r4202_F3\\20261022T085944Z_attempt_189c5bf9\\checkpoints\\absolute_232000",
+      "manifest_sha256": "d5a2a42db318d4be44e15e36aa6882495ca58cee8aa05976315a2561d52eef77"
+    },
+    {
+      "absolute_step": 240000,
+      "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\59_fresh_future_confirmation_v1\\results\\20261022T062003Z_fresh_confirmation_2e8df6e0\\jobs\\B_s41015_r4202_F3\\20261022T085944Z_attempt_189c5bf9\\checkpoints\\absolute_240000",
+      "manifest_sha256": "88ef8c3f287e78e98e66437d7b6a6c857b9e1666d71d507ca55adbd6a50a0766"
+    }
+  ],
+  "wall_seconds": 656.6449550999096
+}

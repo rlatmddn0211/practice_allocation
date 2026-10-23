@@ -1,0 +1,29 @@
+{
+  "preserved_before": {
+    "learning": "7498ef97441bce26c2e85cf9cb366be8f775e332285d731f360bea20191ea136",
+    "replay": "eafe7c21b6ff2cab422152494df2137ca8baf51e185eb5e288037968e7458abc",
+    "collector_excluding_active_rng": "dbe308fd200f70834be06b76e075ded915a8f29f8ff97db399cab38f0e72f18a",
+    "config": "0d9cdd0c339aa86656ab19e98180bc135ffffdb55bb1f2a6e517332b35b05cee"
+  },
+  "preserved_after": {
+    "learning": "7498ef97441bce26c2e85cf9cb366be8f775e332285d731f360bea20191ea136",
+    "replay": "eafe7c21b6ff2cab422152494df2137ca8baf51e185eb5e288037968e7458abc",
+    "collector_excluding_active_rng": "dbe308fd200f70834be06b76e075ded915a8f29f8ff97db399cab38f0e72f18a",
+    "config": "0d9cdd0c339aa86656ab19e98180bc135ffffdb55bb1f2a6e517332b35b05cee"
+  },
+  "root_before": 2611205667,
+  "root_after": 2124970928,
+  "global_streams_changed": {
+    "python": true,
+    "numpy": true,
+    "torch_cpu": true,
+    "torch_cuda": true
+  },
+  "schedule_rng_changed": true,
+  "full_fingerprints_after": {
+    "learning": "7498ef97441bce26c2e85cf9cb366be8f775e332285d731f360bea20191ea136",
+    "replay": "eafe7c21b6ff2cab422152494df2137ca8baf51e185eb5e288037968e7458abc",
+    "collector": "78fd0f6f3bc232666f37776bb855d0765d529b1046204421ba7662a5079f50b9",
+    "rng": "4d7cf0eb77cbde1f7bb74692a36da583170eb32c765bf868a5180ba39289e245"
+  }
+}

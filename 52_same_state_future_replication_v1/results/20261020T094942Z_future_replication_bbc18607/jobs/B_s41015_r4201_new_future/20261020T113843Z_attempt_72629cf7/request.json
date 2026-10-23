@@ -1,0 +1,54 @@
+{
+  "id": "B_s41015_r4201_new_future",
+  "state": {
+    "parent": 41015,
+    "prefix_continuation": 4201,
+    "old_continuation_rng_seed": 679393678,
+    "proposed_new_future_root_seed": 3647926018,
+    "proposed_schedule_seed": 356666565,
+    "checkpoint": {
+      "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\44_selection_value_stage1_checkpoint36_v2\\results\\20261019T064658Z_stage1_2cbbdd65\\jobs\\B_s41015_r4201_dose625_t8000\\a01_e5391d30\\checkpoint",
+      "manifest_sha256": "084d96e80f02a7ca338dd0073aa3f3a51686635e02f636758093cebe4d53e1de"
+    },
+    "bank": {
+      "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T055015Z_stage1_c82b28ef\\jobs\\B_s41015_bank\\a01_f04c2cf6\\evaluation_banks.json",
+      "sha256": "90590f29d71b68bb7114d1dddd1c279a361e207d51f478a046de9402cb5202b7"
+    },
+    "packages": {
+      "numpy": "2.2.4",
+      "torch": "2.5.1+cu121",
+      "gymnasium": "1.2.3",
+      "mujoco": "3.5.0",
+      "metaworld": "3.0.0",
+      "stable-baselines3": "2.7.1"
+    }
+  },
+  "output": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\52_same_state_future_replication_v1\\results\\20261020T094942Z_future_replication_bbc18607\\jobs\\B_s41015_r4201_new_future\\20261020T113843Z_attempt_72629cf7",
+  "source_hashes": {
+    "campaign.py": "d70fdda2b18da8f73de6b1bacaa307275427bc6e55a002dbbf93502b8207ccbe",
+    "common.py": "4f705a861c92d28e3d8c211dca76f9bf993fd6f52ec505c631fce52c51d7f9c8",
+    "verify_implementation.py": "7ba37b825ad1ad6e3738edab0d30826b28b12340ded615d0db71e3b58712234c",
+    "worker.py": "0f28a0440c02162a6fdb1282205b13866d1b6bc7358e7b76df98c05b0a53f659",
+    "launch_queue.ps1": "b6fd35e48a832f89965a84e2c83dd1a9003b47244ab2313d6d2a4bccfd033f57",
+    "requirements.txt": "cb62ec70a441ab12b0a7caab26904375ffd55ce0ef5497b20e07a48205b43b1b",
+    "VERSION.json": "f380159ae6742eb8edf02df22ca4e02eab2842fc322f3d186d3fe9380219160b",
+    "protocol.json": "b8f0d7607a746a58e33db530a7ff9e37987e78ca94555fe9a1d488f18ee949cf",
+    "practice_allocation/__init__.py": "4215c51deb3d834c283aeed7c87b8747916234e964f1a8cd9eedadaf1e465a2f",
+    "practice_allocation/core.py": "6b5e51cacd6ac44ef117ed750ac4bcd46bb0beffac4dd5d0bd7edc7de93cb62d",
+    "practice_allocation/engine.py": "ae090b11d36b715eb7c66ce89c39c1021d1de140abe7fbb5e820eff1ed4a3f26",
+    "practice_allocation/environment.py": "85afb8560da5160832e619f90608eae0b4b83aa75264376800111b295ef4e4e8",
+    "practice_allocation/evaluation.py": "196b18ad4b60bca516511e71a449b12b78784a20a1699caa207975203d5cc525",
+    "practice_allocation/learning.py": "e32e1f2e23490c651167af24386a3af5df005af766a33128c9bb75f719e30009",
+    "practice_allocation/schedules.py": "d114ce28a4b56e52ec53f1481f6393bdae1895cdb8d4393a10b175e1e36da4ec",
+    "practice_allocation/study_io.py": "20b46c67027a413857c80bbbd5e9dad469fae9ccafd468ef3b942dfc76389c53",
+    "configs/learner.json": "ba2a7dd45b3190cca9ade74bcf5b4c0a8bb1cad5bea1f0894db2d92a7f8efe53",
+    "configs/research_protocol.json": "34e289844b4854aa1d3be7b493def76eb3fa1f306587c5b7de8ec5feb32a3df2",
+    "configs/suites.json": "d94a146844590a1fd66e06625222db17340f442f992df674f069514330771c77",
+    "inputs/PREPARED_CHOICES.json": "06d7d06493b0d1f012f778855a2b00939f7aa080459ffbaa4cd5396ff8055d8e",
+    "inputs/protocol51.json": "d1133da832a8840dfa1114d5b3a4d2386185f1519ea713be78d8a86e4fbd760d",
+    "inputs/state_manifest.json": "63728184cc1cdf4dcccacfd7140fc3c1e66908c4bef5c7f8182b4f0a7f953607",
+    "inputs/fixed_choices.csv": "cb0d8bad79f4adb67aab47244634e312c862b1a6b31841733e66640aa065cddb",
+    "evidence_record_ko.md": "0a00723185f3bd590719ef2de83cc2176b5a035427ad764c1533c208aa3915cb",
+    "README.md": "ddfcf54bfee0c9bde52ffdf84cf2852739b28175d7a9ee580bce84c92e71fb42"
+  }
+}

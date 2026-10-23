@@ -1,0 +1,286 @@
+[
+  {
+    "name": "campaign_running",
+    "passed": true
+  },
+  {
+    "name": "frozen_live_source:bootstrap.py",
+    "passed": true
+  },
+  {
+    "name": "frozen_campaign_snapshot:bootstrap.py",
+    "passed": true
+  },
+  {
+    "name": "frozen_live_source:campaign.py",
+    "passed": true
+  },
+  {
+    "name": "frozen_campaign_snapshot:campaign.py",
+    "passed": true
+  },
+  {
+    "name": "frozen_live_source:common.py",
+    "passed": true
+  },
+  {
+    "name": "frozen_campaign_snapshot:common.py",
+    "passed": true
+  },
+  {
+    "name": "frozen_live_source:static_check.py",
+    "passed": true
+  },
+  {
+    "name": "frozen_campaign_snapshot:static_check.py",
+    "passed": true
+  },
+  {
+    "name": "frozen_live_source:verify_implementation.py",
+    "passed": true
+  },
+  {
+    "name": "frozen_campaign_snapshot:verify_implementation.py",
+    "passed": true
+  },
+  {
+    "name": "frozen_live_source:worker.py",
+    "passed": true
+  },
+  {
+    "name": "frozen_campaign_snapshot:worker.py",
+    "passed": true
+  },
+  {
+    "name": "frozen_live_source:launch_queue.ps1",
+    "passed": true
+  },
+  {
+    "name": "frozen_campaign_snapshot:launch_queue.ps1",
+    "passed": true
+  },
+  {
+    "name": "frozen_live_source:requirements.txt",
+    "passed": true
+  },
+  {
+    "name": "frozen_campaign_snapshot:requirements.txt",
+    "passed": true
+  },
+  {
+    "name": "frozen_live_source:VERSION.json",
+    "passed": true
+  },
+  {
+    "name": "frozen_campaign_snapshot:VERSION.json",
+    "passed": true
+  },
+  {
+    "name": "frozen_live_source:protocol.json",
+    "passed": true
+  },
+  {
+    "name": "frozen_campaign_snapshot:protocol.json",
+    "passed": true
+  },
+  {
+    "name": "frozen_live_source:practice_allocation/__init__.py",
+    "passed": true
+  },
+  {
+    "name": "frozen_campaign_snapshot:practice_allocation/__init__.py",
+    "passed": true
+  },
+  {
+    "name": "frozen_live_source:practice_allocation/core.py",
+    "passed": true
+  },
+  {
+    "name": "frozen_campaign_snapshot:practice_allocation/core.py",
+    "passed": true
+  },
+  {
+    "name": "frozen_live_source:practice_allocation/engine.py",
+    "passed": true
+  },
+  {
+    "name": "frozen_campaign_snapshot:practice_allocation/engine.py",
+    "passed": true
+  },
+  {
+    "name": "frozen_live_source:practice_allocation/environment.py",
+    "passed": true
+  },
+  {
+    "name": "frozen_campaign_snapshot:practice_allocation/environment.py",
+    "passed": true
+  },
+  {
+    "name": "frozen_live_source:practice_allocation/evaluation.py",
+    "passed": true
+  },
+  {
+    "name": "frozen_campaign_snapshot:practice_allocation/evaluation.py",
+    "passed": true
+  },
+  {
+    "name": "frozen_live_source:practice_allocation/learning.py",
+    "passed": true
+  },
+  {
+    "name": "frozen_campaign_snapshot:practice_allocation/learning.py",
+    "passed": true
+  },
+  {
+    "name": "frozen_live_source:practice_allocation/schedules.py",
+    "passed": true
+  },
+  {
+    "name": "frozen_campaign_snapshot:practice_allocation/schedules.py",
+    "passed": true
+  },
+  {
+    "name": "frozen_live_source:practice_allocation/study_io.py",
+    "passed": true
+  },
+  {
+    "name": "frozen_campaign_snapshot:practice_allocation/study_io.py",
+    "passed": true
+  },
+  {
+    "name": "frozen_live_source:configs/learner.json",
+    "passed": true
+  },
+  {
+    "name": "frozen_campaign_snapshot:configs/learner.json",
+    "passed": true
+  },
+  {
+    "name": "frozen_live_source:configs/research_protocol.json",
+    "passed": true
+  },
+  {
+    "name": "frozen_campaign_snapshot:configs/research_protocol.json",
+    "passed": true
+  },
+  {
+    "name": "frozen_live_source:configs/suites.json",
+    "passed": true
+  },
+  {
+    "name": "frozen_campaign_snapshot:configs/suites.json",
+    "passed": true
+  },
+  {
+    "name": "frozen_live_source:inputs/copied_implementation.json",
+    "passed": true
+  },
+  {
+    "name": "frozen_campaign_snapshot:inputs/copied_implementation.json",
+    "passed": true
+  },
+  {
+    "name": "frozen_live_source:inputs/protocol58.json",
+    "passed": true
+  },
+  {
+    "name": "frozen_campaign_snapshot:inputs/protocol58.json",
+    "passed": true
+  },
+  {
+    "name": "frozen_live_source:inputs/provenance.json",
+    "passed": true
+  },
+  {
+    "name": "frozen_campaign_snapshot:inputs/provenance.json",
+    "passed": true
+  },
+  {
+    "name": "frozen_live_source:inputs/state_manifest.json",
+    "passed": true
+  },
+  {
+    "name": "frozen_campaign_snapshot:inputs/state_manifest.json",
+    "passed": true
+  },
+  {
+    "name": "frozen_live_source:inputs/frozen_reference_predictions.csv",
+    "passed": true
+  },
+  {
+    "name": "frozen_campaign_snapshot:inputs/frozen_reference_predictions.csv",
+    "passed": true
+  },
+  {
+    "name": "frozen_live_source:inputs/known_8k_outcomes.csv",
+    "passed": true
+  },
+  {
+    "name": "frozen_campaign_snapshot:inputs/known_8k_outcomes.csv",
+    "passed": true
+  },
+  {
+    "name": "frozen_live_source:inputs/proposed_jobs.csv",
+    "passed": true
+  },
+  {
+    "name": "frozen_campaign_snapshot:inputs/proposed_jobs.csv",
+    "passed": true
+  },
+  {
+    "name": "frozen_live_source:inputs/reference_paired_outcomes.csv",
+    "passed": true
+  },
+  {
+    "name": "frozen_campaign_snapshot:inputs/reference_paired_outcomes.csv",
+    "passed": true
+  },
+  {
+    "name": "frozen_live_source:evidence_record_ko.md",
+    "passed": true
+  },
+  {
+    "name": "frozen_campaign_snapshot:evidence_record_ko.md",
+    "passed": true
+  },
+  {
+    "name": "frozen_live_source:README.md",
+    "passed": true
+  },
+  {
+    "name": "frozen_campaign_snapshot:README.md",
+    "passed": true
+  },
+  {
+    "name": "technical_receipt_hash",
+    "passed": true
+  },
+  {
+    "name": "technical68_passed",
+    "passed": true
+  },
+  {
+    "name": "actual_technical_cost",
+    "passed": true
+  },
+  {
+    "name": "total_upper_with_actual_technical",
+    "passed": true
+  },
+  {
+    "name": "fresh_original208k_zero_cost_start",
+    "passed": true
+  },
+  {
+    "name": "only_future_rng_changed",
+    "passed": true
+  },
+  {
+    "name": "actual_training_begun",
+    "passed": true
+  },
+  {
+    "name": "no_worker_error",
+    "passed": true
+  }
+]

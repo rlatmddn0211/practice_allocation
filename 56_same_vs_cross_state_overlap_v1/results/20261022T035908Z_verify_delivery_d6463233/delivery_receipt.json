@@ -1,0 +1,33 @@
+{
+  "summary_sha256": "185d68ac1908e7118cb3823fbeb5ca15c7f3b5f20cf7cabc910b8b77e8458143",
+  "report_sha256": "ddb1ec0e38a543fbd3e089ecf55409b1628a6c607d4ecdf0e7e9f549cfa5d0bc",
+  "evidence_sha256": "9d77ea8ddb51b8b97bdd82f4d1d8410d25d4f6f79a6631bd3e59dc576c939e95",
+  "PNG_sha256": "c40440cbbb246325545c9208c6adbcf9046063bd4b3df8bbcf4c4ae95d79e6c3",
+  "SVG_sha256": "d075a3eb89732484a015b7f101c1c9d20c4f09d91b85dcdbe1eb53b5b9c52c65",
+  "PNG_visual_review": "inspected in tool output: labels, zero lines, values, scales and caveats visible",
+  "SVG_validation": "XML structure and shared figure generation; PNG was visually inspected",
+  "previous_runs": [
+    {
+      "run": "20261022T035037Z_analyze_9e4e0e84",
+      "wall_seconds": 2.6527916999766603,
+      "cpu_seconds": 1.109375
+    },
+    {
+      "run": "20261022T035234Z_verify_fdfb3853",
+      "wall_seconds": 2.5059724000748247,
+      "cpu_seconds": 0.9375
+    },
+    {
+      "run": "20261022T035334Z_make_figure_e15b9cd8",
+      "wall_seconds": 0.6203728999244049,
+      "cpu_seconds": 0.078125
+    }
+  ],
+  "failure_count_before_delivery": 0,
+  "mathematical_example": {
+    "E_T": "9/50",
+    "E_D": "1/25",
+    "same_case_ranking_in_both_states": true
+  },
+  "new_environment_steps": 0
+}

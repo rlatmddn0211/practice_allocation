@@ -1,0 +1,3738 @@
+[
+  {
+    "name": "paired_source_sha",
+    "passed": true
+  },
+  {
+    "name": "source_snapshot:analysis_config.json",
+    "passed": true
+  },
+  {
+    "name": "source_snapshot:analyze.py",
+    "passed": true
+  },
+  {
+    "name": "source_snapshot:research_question_ko.md",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4201:DO:loss:eligible",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4201:DO:loss:old_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4201:DO:loss:new_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4201:DO:loss:both",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4201:DO:loss:old_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4201:DO:loss:new_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4201:DO:loss:neither",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4201:DO:loss:expected_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4201:DO:loss:excess_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4201:DO:loss:excess_given_J0",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4201:DO:gain:eligible",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4201:DO:gain:old_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4201:DO:gain:new_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4201:DO:gain:both",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4201:DO:gain:old_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4201:DO:gain:new_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4201:DO:gain:neither",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4201:DO:gain:expected_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4201:DO:gain:excess_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4201:DO:gain:excess_given_J0",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4201:DC:loss:eligible",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4201:DC:loss:old_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4201:DC:loss:new_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4201:DC:loss:both",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4201:DC:loss:old_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4201:DC:loss:new_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4201:DC:loss:neither",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4201:DC:loss:expected_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4201:DC:loss:excess_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4201:DC:loss:excess_given_J0",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4201:DC:gain:eligible",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4201:DC:gain:old_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4201:DC:gain:new_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4201:DC:gain:both",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4201:DC:gain:old_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4201:DC:gain:new_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4201:DC:gain:neither",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4201:DC:gain:expected_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4201:DC:gain:excess_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4201:DC:gain:excess_given_J0",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4201:PU:loss:eligible",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4201:PU:loss:old_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4201:PU:loss:new_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4201:PU:loss:both",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4201:PU:loss:old_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4201:PU:loss:new_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4201:PU:loss:neither",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4201:PU:loss:expected_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4201:PU:loss:excess_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4201:PU:loss:excess_given_J0",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4201:PU:gain:eligible",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4201:PU:gain:old_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4201:PU:gain:new_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4201:PU:gain:both",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4201:PU:gain:old_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4201:PU:gain:new_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4201:PU:gain:neither",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4201:PU:gain:expected_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4201:PU:gain:excess_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4201:PU:gain:excess_given_J0",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4201:BP:loss:eligible",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4201:BP:loss:old_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4201:BP:loss:new_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4201:BP:loss:both",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4201:BP:loss:old_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4201:BP:loss:new_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4201:BP:loss:neither",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4201:BP:loss:expected_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4201:BP:loss:excess_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4201:BP:loss:excess_given_J0",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4201:BP:gain:eligible",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4201:BP:gain:old_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4201:BP:gain:new_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4201:BP:gain:both",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4201:BP:gain:old_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4201:BP:gain:new_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4201:BP:gain:neither",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4201:BP:gain:expected_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4201:BP:gain:excess_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4201:BP:gain:excess_given_J0",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4202:DO:loss:eligible",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4202:DO:loss:old_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4202:DO:loss:new_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4202:DO:loss:both",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4202:DO:loss:old_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4202:DO:loss:new_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4202:DO:loss:neither",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4202:DO:loss:expected_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4202:DO:loss:excess_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4202:DO:loss:excess_given_J0",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4202:DO:gain:eligible",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4202:DO:gain:old_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4202:DO:gain:new_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4202:DO:gain:both",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4202:DO:gain:old_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4202:DO:gain:new_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4202:DO:gain:neither",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4202:DO:gain:expected_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4202:DO:gain:excess_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4202:DO:gain:excess_given_J0",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4202:DC:loss:eligible",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4202:DC:loss:old_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4202:DC:loss:new_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4202:DC:loss:both",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4202:DC:loss:old_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4202:DC:loss:new_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4202:DC:loss:neither",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4202:DC:loss:expected_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4202:DC:loss:excess_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4202:DC:loss:excess_given_J0",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4202:DC:gain:eligible",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4202:DC:gain:old_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4202:DC:gain:new_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4202:DC:gain:both",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4202:DC:gain:old_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4202:DC:gain:new_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4202:DC:gain:neither",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4202:DC:gain:expected_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4202:DC:gain:excess_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4202:DC:gain:excess_given_J0",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4202:PU:loss:eligible",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4202:PU:loss:old_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4202:PU:loss:new_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4202:PU:loss:both",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4202:PU:loss:old_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4202:PU:loss:new_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4202:PU:loss:neither",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4202:PU:loss:expected_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4202:PU:loss:excess_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4202:PU:loss:excess_given_J0",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4202:PU:gain:eligible",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4202:PU:gain:old_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4202:PU:gain:new_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4202:PU:gain:both",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4202:PU:gain:old_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4202:PU:gain:new_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4202:PU:gain:neither",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4202:PU:gain:expected_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4202:PU:gain:excess_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4202:PU:gain:excess_given_J0",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4202:BP:loss:eligible",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4202:BP:loss:old_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4202:BP:loss:new_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4202:BP:loss:both",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4202:BP:loss:old_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4202:BP:loss:new_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4202:BP:loss:neither",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4202:BP:loss:expected_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4202:BP:loss:excess_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4202:BP:loss:excess_given_J0",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4202:BP:gain:eligible",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4202:BP:gain:old_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4202:BP:gain:new_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4202:BP:gain:both",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4202:BP:gain:old_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4202:BP:gain:new_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4202:BP:gain:neither",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4202:BP:gain:expected_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4202:BP:gain:excess_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41011:4202:BP:gain:excess_given_J0",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4201:DO:loss:eligible",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4201:DO:loss:old_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4201:DO:loss:new_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4201:DO:loss:both",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4201:DO:loss:old_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4201:DO:loss:new_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4201:DO:loss:neither",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4201:DO:loss:expected_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4201:DO:loss:excess_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4201:DO:loss:excess_given_J0",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4201:DO:gain:eligible",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4201:DO:gain:old_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4201:DO:gain:new_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4201:DO:gain:both",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4201:DO:gain:old_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4201:DO:gain:new_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4201:DO:gain:neither",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4201:DO:gain:expected_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4201:DO:gain:excess_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4201:DO:gain:excess_given_J0",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4201:DC:loss:eligible",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4201:DC:loss:old_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4201:DC:loss:new_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4201:DC:loss:both",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4201:DC:loss:old_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4201:DC:loss:new_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4201:DC:loss:neither",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4201:DC:loss:expected_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4201:DC:loss:excess_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4201:DC:loss:excess_given_J0",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4201:DC:gain:eligible",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4201:DC:gain:old_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4201:DC:gain:new_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4201:DC:gain:both",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4201:DC:gain:old_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4201:DC:gain:new_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4201:DC:gain:neither",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4201:DC:gain:expected_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4201:DC:gain:excess_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4201:DC:gain:excess_given_J0",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4201:PU:loss:eligible",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4201:PU:loss:old_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4201:PU:loss:new_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4201:PU:loss:both",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4201:PU:loss:old_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4201:PU:loss:new_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4201:PU:loss:neither",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4201:PU:loss:expected_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4201:PU:loss:excess_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4201:PU:loss:excess_given_J0",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4201:PU:gain:eligible",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4201:PU:gain:old_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4201:PU:gain:new_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4201:PU:gain:both",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4201:PU:gain:old_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4201:PU:gain:new_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4201:PU:gain:neither",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4201:PU:gain:expected_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4201:PU:gain:excess_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4201:PU:gain:excess_given_J0",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4201:BP:loss:eligible",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4201:BP:loss:old_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4201:BP:loss:new_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4201:BP:loss:both",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4201:BP:loss:old_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4201:BP:loss:new_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4201:BP:loss:neither",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4201:BP:loss:expected_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4201:BP:loss:excess_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4201:BP:loss:excess_given_J0",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4201:BP:gain:eligible",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4201:BP:gain:old_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4201:BP:gain:new_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4201:BP:gain:both",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4201:BP:gain:old_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4201:BP:gain:new_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4201:BP:gain:neither",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4201:BP:gain:expected_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4201:BP:gain:excess_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4201:BP:gain:excess_given_J0",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4202:DO:loss:eligible",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4202:DO:loss:old_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4202:DO:loss:new_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4202:DO:loss:both",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4202:DO:loss:old_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4202:DO:loss:new_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4202:DO:loss:neither",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4202:DO:loss:expected_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4202:DO:loss:excess_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4202:DO:loss:excess_given_J0",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4202:DO:gain:eligible",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4202:DO:gain:old_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4202:DO:gain:new_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4202:DO:gain:both",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4202:DO:gain:old_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4202:DO:gain:new_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4202:DO:gain:neither",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4202:DO:gain:expected_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4202:DO:gain:excess_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4202:DO:gain:excess_given_J0",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4202:DC:loss:eligible",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4202:DC:loss:old_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4202:DC:loss:new_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4202:DC:loss:both",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4202:DC:loss:old_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4202:DC:loss:new_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4202:DC:loss:neither",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4202:DC:loss:expected_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4202:DC:loss:excess_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4202:DC:loss:excess_given_J0",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4202:DC:gain:eligible",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4202:DC:gain:old_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4202:DC:gain:new_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4202:DC:gain:both",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4202:DC:gain:old_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4202:DC:gain:new_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4202:DC:gain:neither",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4202:DC:gain:expected_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4202:DC:gain:excess_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4202:DC:gain:excess_given_J0",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4202:PU:loss:eligible",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4202:PU:loss:old_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4202:PU:loss:new_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4202:PU:loss:both",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4202:PU:loss:old_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4202:PU:loss:new_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4202:PU:loss:neither",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4202:PU:loss:expected_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4202:PU:loss:excess_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4202:PU:loss:excess_given_J0",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4202:PU:gain:eligible",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4202:PU:gain:old_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4202:PU:gain:new_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4202:PU:gain:both",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4202:PU:gain:old_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4202:PU:gain:new_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4202:PU:gain:neither",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4202:PU:gain:expected_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4202:PU:gain:excess_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4202:PU:gain:excess_given_J0",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4202:BP:loss:eligible",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4202:BP:loss:old_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4202:BP:loss:new_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4202:BP:loss:both",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4202:BP:loss:old_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4202:BP:loss:new_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4202:BP:loss:neither",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4202:BP:loss:expected_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4202:BP:loss:excess_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4202:BP:loss:excess_given_J0",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4202:BP:gain:eligible",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4202:BP:gain:old_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4202:BP:gain:new_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4202:BP:gain:both",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4202:BP:gain:old_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4202:BP:gain:new_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4202:BP:gain:neither",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4202:BP:gain:expected_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4202:BP:gain:excess_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41012:4202:BP:gain:excess_given_J0",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4201:DO:loss:eligible",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4201:DO:loss:old_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4201:DO:loss:new_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4201:DO:loss:both",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4201:DO:loss:old_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4201:DO:loss:new_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4201:DO:loss:neither",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4201:DO:loss:expected_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4201:DO:loss:excess_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4201:DO:loss:excess_given_J0",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4201:DO:gain:eligible",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4201:DO:gain:old_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4201:DO:gain:new_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4201:DO:gain:both",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4201:DO:gain:old_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4201:DO:gain:new_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4201:DO:gain:neither",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4201:DO:gain:expected_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4201:DO:gain:excess_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4201:DO:gain:excess_given_J0",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4201:DC:loss:eligible",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4201:DC:loss:old_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4201:DC:loss:new_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4201:DC:loss:both",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4201:DC:loss:old_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4201:DC:loss:new_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4201:DC:loss:neither",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4201:DC:loss:expected_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4201:DC:loss:excess_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4201:DC:loss:excess_given_J0",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4201:DC:gain:eligible",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4201:DC:gain:old_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4201:DC:gain:new_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4201:DC:gain:both",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4201:DC:gain:old_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4201:DC:gain:new_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4201:DC:gain:neither",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4201:DC:gain:expected_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4201:DC:gain:excess_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4201:DC:gain:excess_given_J0",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4201:PU:loss:eligible",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4201:PU:loss:old_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4201:PU:loss:new_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4201:PU:loss:both",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4201:PU:loss:old_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4201:PU:loss:new_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4201:PU:loss:neither",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4201:PU:loss:expected_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4201:PU:loss:excess_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4201:PU:loss:excess_given_J0",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4201:PU:gain:eligible",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4201:PU:gain:old_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4201:PU:gain:new_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4201:PU:gain:both",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4201:PU:gain:old_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4201:PU:gain:new_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4201:PU:gain:neither",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4201:PU:gain:expected_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4201:PU:gain:excess_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4201:PU:gain:excess_given_J0",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4201:BP:loss:eligible",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4201:BP:loss:old_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4201:BP:loss:new_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4201:BP:loss:both",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4201:BP:loss:old_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4201:BP:loss:new_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4201:BP:loss:neither",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4201:BP:loss:expected_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4201:BP:loss:excess_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4201:BP:loss:excess_given_J0",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4201:BP:gain:eligible",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4201:BP:gain:old_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4201:BP:gain:new_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4201:BP:gain:both",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4201:BP:gain:old_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4201:BP:gain:new_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4201:BP:gain:neither",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4201:BP:gain:expected_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4201:BP:gain:excess_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4201:BP:gain:excess_given_J0",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4202:DO:loss:eligible",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4202:DO:loss:old_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4202:DO:loss:new_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4202:DO:loss:both",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4202:DO:loss:old_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4202:DO:loss:new_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4202:DO:loss:neither",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4202:DO:loss:expected_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4202:DO:loss:excess_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4202:DO:loss:excess_given_J0",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4202:DO:gain:eligible",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4202:DO:gain:old_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4202:DO:gain:new_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4202:DO:gain:both",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4202:DO:gain:old_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4202:DO:gain:new_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4202:DO:gain:neither",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4202:DO:gain:expected_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4202:DO:gain:excess_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4202:DO:gain:excess_given_J0",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4202:DC:loss:eligible",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4202:DC:loss:old_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4202:DC:loss:new_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4202:DC:loss:both",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4202:DC:loss:old_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4202:DC:loss:new_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4202:DC:loss:neither",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4202:DC:loss:expected_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4202:DC:loss:excess_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4202:DC:loss:excess_given_J0",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4202:DC:gain:eligible",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4202:DC:gain:old_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4202:DC:gain:new_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4202:DC:gain:both",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4202:DC:gain:old_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4202:DC:gain:new_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4202:DC:gain:neither",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4202:DC:gain:expected_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4202:DC:gain:excess_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4202:DC:gain:excess_given_J0",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4202:PU:loss:eligible",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4202:PU:loss:old_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4202:PU:loss:new_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4202:PU:loss:both",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4202:PU:loss:old_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4202:PU:loss:new_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4202:PU:loss:neither",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4202:PU:loss:expected_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4202:PU:loss:excess_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4202:PU:loss:excess_given_J0",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4202:PU:gain:eligible",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4202:PU:gain:old_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4202:PU:gain:new_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4202:PU:gain:both",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4202:PU:gain:old_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4202:PU:gain:new_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4202:PU:gain:neither",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4202:PU:gain:expected_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4202:PU:gain:excess_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4202:PU:gain:excess_given_J0",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4202:BP:loss:eligible",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4202:BP:loss:old_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4202:BP:loss:new_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4202:BP:loss:both",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4202:BP:loss:old_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4202:BP:loss:new_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4202:BP:loss:neither",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4202:BP:loss:expected_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4202:BP:loss:excess_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4202:BP:loss:excess_given_J0",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4202:BP:gain:eligible",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4202:BP:gain:old_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4202:BP:gain:new_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4202:BP:gain:both",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4202:BP:gain:old_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4202:BP:gain:new_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4202:BP:gain:neither",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4202:BP:gain:expected_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4202:BP:gain:excess_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41013:4202:BP:gain:excess_given_J0",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4201:DO:loss:eligible",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4201:DO:loss:old_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4201:DO:loss:new_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4201:DO:loss:both",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4201:DO:loss:old_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4201:DO:loss:new_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4201:DO:loss:neither",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4201:DO:loss:expected_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4201:DO:loss:excess_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4201:DO:loss:excess_given_J0",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4201:DO:gain:eligible",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4201:DO:gain:old_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4201:DO:gain:new_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4201:DO:gain:both",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4201:DO:gain:old_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4201:DO:gain:new_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4201:DO:gain:neither",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4201:DO:gain:expected_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4201:DO:gain:excess_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4201:DO:gain:excess_given_J0",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4201:DC:loss:eligible",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4201:DC:loss:old_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4201:DC:loss:new_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4201:DC:loss:both",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4201:DC:loss:old_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4201:DC:loss:new_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4201:DC:loss:neither",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4201:DC:loss:expected_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4201:DC:loss:excess_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4201:DC:loss:excess_given_J0",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4201:DC:gain:eligible",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4201:DC:gain:old_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4201:DC:gain:new_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4201:DC:gain:both",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4201:DC:gain:old_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4201:DC:gain:new_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4201:DC:gain:neither",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4201:DC:gain:expected_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4201:DC:gain:excess_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4201:DC:gain:excess_given_J0",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4201:PU:loss:eligible",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4201:PU:loss:old_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4201:PU:loss:new_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4201:PU:loss:both",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4201:PU:loss:old_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4201:PU:loss:new_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4201:PU:loss:neither",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4201:PU:loss:expected_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4201:PU:loss:excess_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4201:PU:loss:excess_given_J0",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4201:PU:gain:eligible",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4201:PU:gain:old_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4201:PU:gain:new_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4201:PU:gain:both",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4201:PU:gain:old_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4201:PU:gain:new_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4201:PU:gain:neither",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4201:PU:gain:expected_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4201:PU:gain:excess_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4201:PU:gain:excess_given_J0",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4201:BP:loss:eligible",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4201:BP:loss:old_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4201:BP:loss:new_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4201:BP:loss:both",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4201:BP:loss:old_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4201:BP:loss:new_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4201:BP:loss:neither",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4201:BP:loss:expected_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4201:BP:loss:excess_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4201:BP:loss:excess_given_J0",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4201:BP:gain:eligible",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4201:BP:gain:old_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4201:BP:gain:new_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4201:BP:gain:both",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4201:BP:gain:old_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4201:BP:gain:new_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4201:BP:gain:neither",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4201:BP:gain:expected_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4201:BP:gain:excess_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4201:BP:gain:excess_given_J0",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4202:DO:loss:eligible",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4202:DO:loss:old_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4202:DO:loss:new_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4202:DO:loss:both",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4202:DO:loss:old_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4202:DO:loss:new_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4202:DO:loss:neither",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4202:DO:loss:expected_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4202:DO:loss:excess_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4202:DO:loss:excess_given_J0",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4202:DO:gain:eligible",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4202:DO:gain:old_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4202:DO:gain:new_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4202:DO:gain:both",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4202:DO:gain:old_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4202:DO:gain:new_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4202:DO:gain:neither",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4202:DO:gain:expected_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4202:DO:gain:excess_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4202:DO:gain:excess_given_J0",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4202:DC:loss:eligible",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4202:DC:loss:old_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4202:DC:loss:new_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4202:DC:loss:both",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4202:DC:loss:old_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4202:DC:loss:new_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4202:DC:loss:neither",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4202:DC:loss:expected_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4202:DC:loss:excess_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4202:DC:loss:excess_given_J0",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4202:DC:gain:eligible",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4202:DC:gain:old_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4202:DC:gain:new_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4202:DC:gain:both",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4202:DC:gain:old_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4202:DC:gain:new_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4202:DC:gain:neither",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4202:DC:gain:expected_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4202:DC:gain:excess_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4202:DC:gain:excess_given_J0",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4202:PU:loss:eligible",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4202:PU:loss:old_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4202:PU:loss:new_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4202:PU:loss:both",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4202:PU:loss:old_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4202:PU:loss:new_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4202:PU:loss:neither",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4202:PU:loss:expected_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4202:PU:loss:excess_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4202:PU:loss:excess_given_J0",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4202:PU:gain:eligible",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4202:PU:gain:old_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4202:PU:gain:new_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4202:PU:gain:both",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4202:PU:gain:old_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4202:PU:gain:new_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4202:PU:gain:neither",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4202:PU:gain:expected_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4202:PU:gain:excess_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4202:PU:gain:excess_given_J0",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4202:BP:loss:eligible",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4202:BP:loss:old_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4202:BP:loss:new_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4202:BP:loss:both",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4202:BP:loss:old_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4202:BP:loss:new_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4202:BP:loss:neither",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4202:BP:loss:expected_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4202:BP:loss:excess_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4202:BP:loss:excess_given_J0",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4202:BP:gain:eligible",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4202:BP:gain:old_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4202:BP:gain:new_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4202:BP:gain:both",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4202:BP:gain:old_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4202:BP:gain:new_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4202:BP:gain:neither",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4202:BP:gain:expected_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4202:BP:gain:excess_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41014:4202:BP:gain:excess_given_J0",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4201:DO:loss:eligible",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4201:DO:loss:old_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4201:DO:loss:new_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4201:DO:loss:both",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4201:DO:loss:old_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4201:DO:loss:new_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4201:DO:loss:neither",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4201:DO:loss:expected_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4201:DO:loss:excess_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4201:DO:loss:excess_given_J0",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4201:DO:gain:eligible",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4201:DO:gain:old_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4201:DO:gain:new_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4201:DO:gain:both",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4201:DO:gain:old_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4201:DO:gain:new_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4201:DO:gain:neither",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4201:DO:gain:expected_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4201:DO:gain:excess_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4201:DO:gain:excess_given_J0",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4201:DC:loss:eligible",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4201:DC:loss:old_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4201:DC:loss:new_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4201:DC:loss:both",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4201:DC:loss:old_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4201:DC:loss:new_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4201:DC:loss:neither",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4201:DC:loss:expected_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4201:DC:loss:excess_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4201:DC:loss:excess_given_J0",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4201:DC:gain:eligible",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4201:DC:gain:old_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4201:DC:gain:new_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4201:DC:gain:both",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4201:DC:gain:old_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4201:DC:gain:new_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4201:DC:gain:neither",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4201:DC:gain:expected_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4201:DC:gain:excess_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4201:DC:gain:excess_given_J0",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4201:PU:loss:eligible",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4201:PU:loss:old_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4201:PU:loss:new_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4201:PU:loss:both",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4201:PU:loss:old_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4201:PU:loss:new_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4201:PU:loss:neither",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4201:PU:loss:expected_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4201:PU:loss:excess_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4201:PU:loss:excess_given_J0",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4201:PU:gain:eligible",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4201:PU:gain:old_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4201:PU:gain:new_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4201:PU:gain:both",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4201:PU:gain:old_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4201:PU:gain:new_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4201:PU:gain:neither",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4201:PU:gain:expected_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4201:PU:gain:excess_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4201:PU:gain:excess_given_J0",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4201:BP:loss:eligible",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4201:BP:loss:old_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4201:BP:loss:new_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4201:BP:loss:both",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4201:BP:loss:old_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4201:BP:loss:new_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4201:BP:loss:neither",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4201:BP:loss:expected_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4201:BP:loss:excess_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4201:BP:loss:excess_given_J0",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4201:BP:gain:eligible",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4201:BP:gain:old_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4201:BP:gain:new_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4201:BP:gain:both",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4201:BP:gain:old_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4201:BP:gain:new_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4201:BP:gain:neither",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4201:BP:gain:expected_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4201:BP:gain:excess_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4201:BP:gain:excess_given_J0",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4202:DO:loss:eligible",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4202:DO:loss:old_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4202:DO:loss:new_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4202:DO:loss:both",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4202:DO:loss:old_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4202:DO:loss:new_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4202:DO:loss:neither",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4202:DO:loss:expected_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4202:DO:loss:excess_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4202:DO:loss:excess_given_J0",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4202:DO:gain:eligible",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4202:DO:gain:old_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4202:DO:gain:new_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4202:DO:gain:both",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4202:DO:gain:old_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4202:DO:gain:new_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4202:DO:gain:neither",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4202:DO:gain:expected_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4202:DO:gain:excess_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4202:DO:gain:excess_given_J0",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4202:DC:loss:eligible",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4202:DC:loss:old_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4202:DC:loss:new_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4202:DC:loss:both",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4202:DC:loss:old_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4202:DC:loss:new_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4202:DC:loss:neither",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4202:DC:loss:expected_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4202:DC:loss:excess_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4202:DC:loss:excess_given_J0",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4202:DC:gain:eligible",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4202:DC:gain:old_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4202:DC:gain:new_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4202:DC:gain:both",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4202:DC:gain:old_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4202:DC:gain:new_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4202:DC:gain:neither",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4202:DC:gain:expected_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4202:DC:gain:excess_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4202:DC:gain:excess_given_J0",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4202:PU:loss:eligible",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4202:PU:loss:old_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4202:PU:loss:new_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4202:PU:loss:both",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4202:PU:loss:old_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4202:PU:loss:new_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4202:PU:loss:neither",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4202:PU:loss:expected_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4202:PU:loss:excess_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4202:PU:loss:excess_given_J0",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4202:PU:gain:eligible",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4202:PU:gain:old_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4202:PU:gain:new_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4202:PU:gain:both",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4202:PU:gain:old_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4202:PU:gain:new_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4202:PU:gain:neither",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4202:PU:gain:expected_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4202:PU:gain:excess_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4202:PU:gain:excess_given_J0",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4202:BP:loss:eligible",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4202:BP:loss:old_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4202:BP:loss:new_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4202:BP:loss:both",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4202:BP:loss:old_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4202:BP:loss:new_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4202:BP:loss:neither",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4202:BP:loss:expected_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4202:BP:loss:excess_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4202:BP:loss:excess_given_J0",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4202:BP:gain:eligible",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4202:BP:gain:old_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4202:BP:gain:new_events",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4202:BP:gain:both",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4202:BP:gain:old_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4202:BP:gain:new_only",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4202:BP:gain:neither",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4202:BP:gain:expected_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4202:BP:gain:excess_overlap",
+    "passed": true
+  },
+  {
+    "name": "cell:41015:4202:BP:gain:excess_given_J0",
+    "passed": true
+  },
+  {
+    "name": "parent_history_support:41011",
+    "passed": true
+  },
+  {
+    "name": "parent_history_support:41012",
+    "passed": true
+  },
+  {
+    "name": "parent_history_support:41013",
+    "passed": true
+  },
+  {
+    "name": "parent_history_support:41014",
+    "passed": true
+  },
+  {
+    "name": "parent_history_support:41015",
+    "passed": true
+  },
+  {
+    "name": "primary_exact:loss_excess_all_cases_pp",
+    "passed": true
+  },
+  {
+    "name": "primary_exact:gain_excess_all_cases_pp",
+    "passed": true
+  },
+  {
+    "name": "primary_exact:history_old_rd_pp",
+    "passed": true
+  },
+  {
+    "name": "primary_exact:history_new_rd_pp",
+    "passed": true
+  },
+  {
+    "name": "primary_exact:loss_excess_given_J0_pp",
+    "passed": true
+  },
+  {
+    "name": "primary_exact:gain_excess_given_J0_pp",
+    "passed": true
+  },
+  {
+    "name": "history_N:01",
+    "passed": true
+  },
+  {
+    "name": "history_loss:01old",
+    "passed": true
+  },
+  {
+    "name": "history_risk:01old",
+    "passed": true
+  },
+  {
+    "name": "history_loss:01new",
+    "passed": true
+  },
+  {
+    "name": "history_risk:01new",
+    "passed": true
+  },
+  {
+    "name": "history_N:11",
+    "passed": true
+  },
+  {
+    "name": "history_loss:11old",
+    "passed": true
+  },
+  {
+    "name": "history_risk:11old",
+    "passed": true
+  },
+  {
+    "name": "history_loss:11new",
+    "passed": true
+  },
+  {
+    "name": "history_risk:11new",
+    "passed": true
+  },
+  {
+    "name": "seeded_draws:41011:DO:0",
+    "passed": true
+  },
+  {
+    "name": "history_denominators_preserved:41011:DO",
+    "passed": true
+  },
+  {
+    "name": "seeded_draws:41011:DC:7",
+    "passed": true
+  },
+  {
+    "name": "history_denominators_preserved:41011:DC",
+    "passed": true
+  },
+  {
+    "name": "seeded_draws:41011:PU:0",
+    "passed": true
+  },
+  {
+    "name": "seeded_draws:41011:PU:1",
+    "passed": true
+  },
+  {
+    "name": "seeded_draws:41011:PU:2",
+    "passed": true
+  },
+  {
+    "name": "seeded_draws:41011:PU:4",
+    "passed": true
+  },
+  {
+    "name": "history_denominators_preserved:41011:PU",
+    "passed": true
+  },
+  {
+    "name": "seeded_draws:41011:BP:0",
+    "passed": true
+  },
+  {
+    "name": "seeded_draws:41011:BP:1",
+    "passed": true
+  },
+  {
+    "name": "seeded_draws:41011:BP:5",
+    "passed": true
+  },
+  {
+    "name": "seeded_draws:41011:BP:7",
+    "passed": true
+  },
+  {
+    "name": "history_denominators_preserved:41011:BP",
+    "passed": true
+  },
+  {
+    "name": "seeded_draws:41012:DO:0",
+    "passed": true
+  },
+  {
+    "name": "history_denominators_preserved:41012:DO",
+    "passed": true
+  },
+  {
+    "name": "seeded_draws:41012:DC:7",
+    "passed": true
+  },
+  {
+    "name": "history_denominators_preserved:41012:DC",
+    "passed": true
+  },
+  {
+    "name": "seeded_draws:41012:PU:0",
+    "passed": true
+  },
+  {
+    "name": "seeded_draws:41012:PU:1",
+    "passed": true
+  },
+  {
+    "name": "seeded_draws:41012:PU:4",
+    "passed": true
+  },
+  {
+    "name": "history_denominators_preserved:41012:PU",
+    "passed": true
+  },
+  {
+    "name": "seeded_draws:41012:BP:2",
+    "passed": true
+  },
+  {
+    "name": "seeded_draws:41012:BP:3",
+    "passed": true
+  },
+  {
+    "name": "seeded_draws:41012:BP:5",
+    "passed": true
+  },
+  {
+    "name": "seeded_draws:41012:BP:7",
+    "passed": true
+  },
+  {
+    "name": "history_denominators_preserved:41012:BP",
+    "passed": true
+  },
+  {
+    "name": "seeded_draws:41013:DO:0",
+    "passed": true
+  },
+  {
+    "name": "history_denominators_preserved:41013:DO",
+    "passed": true
+  },
+  {
+    "name": "seeded_draws:41013:DC:0",
+    "passed": true
+  },
+  {
+    "name": "seeded_draws:41013:DC:2",
+    "passed": true
+  },
+  {
+    "name": "seeded_draws:41013:DC:4",
+    "passed": true
+  },
+  {
+    "name": "seeded_draws:41013:DC:6",
+    "passed": true
+  },
+  {
+    "name": "history_denominators_preserved:41013:DC",
+    "passed": true
+  },
+  {
+    "name": "seeded_draws:41013:PU:0",
+    "passed": true
+  },
+  {
+    "name": "seeded_draws:41013:PU:1",
+    "passed": true
+  },
+  {
+    "name": "seeded_draws:41013:PU:2",
+    "passed": true
+  },
+  {
+    "name": "history_denominators_preserved:41013:PU",
+    "passed": true
+  },
+  {
+    "name": "seeded_draws:41013:BP:0",
+    "passed": true
+  },
+  {
+    "name": "history_denominators_preserved:41013:BP",
+    "passed": true
+  },
+  {
+    "name": "seeded_draws:41014:DO:0",
+    "passed": true
+  },
+  {
+    "name": "history_denominators_preserved:41014:DO",
+    "passed": true
+  },
+  {
+    "name": "seeded_draws:41014:DC:7",
+    "passed": true
+  },
+  {
+    "name": "history_denominators_preserved:41014:DC",
+    "passed": true
+  },
+  {
+    "name": "seeded_draws:41014:PU:0",
+    "passed": true
+  },
+  {
+    "name": "seeded_draws:41014:PU:1",
+    "passed": true
+  },
+  {
+    "name": "seeded_draws:41014:PU:2",
+    "passed": true
+  },
+  {
+    "name": "seeded_draws:41014:PU:4",
+    "passed": true
+  },
+  {
+    "name": "history_denominators_preserved:41014:PU",
+    "passed": true
+  },
+  {
+    "name": "seeded_draws:41014:BP:0",
+    "passed": true
+  },
+  {
+    "name": "seeded_draws:41014:BP:2",
+    "passed": true
+  },
+  {
+    "name": "seeded_draws:41014:BP:3",
+    "passed": true
+  },
+  {
+    "name": "seeded_draws:41014:BP:4",
+    "passed": true
+  },
+  {
+    "name": "seeded_draws:41014:BP:5",
+    "passed": true
+  },
+  {
+    "name": "seeded_draws:41014:BP:6",
+    "passed": true
+  },
+  {
+    "name": "seeded_draws:41014:BP:7",
+    "passed": true
+  },
+  {
+    "name": "history_denominators_preserved:41014:BP",
+    "passed": true
+  },
+  {
+    "name": "seeded_draws:41015:DO:0",
+    "passed": true
+  },
+  {
+    "name": "history_denominators_preserved:41015:DO",
+    "passed": true
+  },
+  {
+    "name": "seeded_draws:41015:DC:0",
+    "passed": true
+  },
+  {
+    "name": "seeded_draws:41015:DC:1",
+    "passed": true
+  },
+  {
+    "name": "seeded_draws:41015:DC:3",
+    "passed": true
+  },
+  {
+    "name": "seeded_draws:41015:DC:5",
+    "passed": true
+  },
+  {
+    "name": "seeded_draws:41015:DC:7",
+    "passed": true
+  },
+  {
+    "name": "history_denominators_preserved:41015:DC",
+    "passed": true
+  },
+  {
+    "name": "seeded_draws:41015:PU:0",
+    "passed": true
+  },
+  {
+    "name": "seeded_draws:41015:PU:1",
+    "passed": true
+  },
+  {
+    "name": "seeded_draws:41015:PU:4",
+    "passed": true
+  },
+  {
+    "name": "history_denominators_preserved:41015:PU",
+    "passed": true
+  },
+  {
+    "name": "seeded_draws:41015:BP:0",
+    "passed": true
+  },
+  {
+    "name": "seeded_draws:41015:BP:4",
+    "passed": true
+  },
+  {
+    "name": "seeded_draws:41015:BP:5",
+    "passed": true
+  },
+  {
+    "name": "seeded_draws:41015:BP:6",
+    "passed": true
+  },
+  {
+    "name": "seeded_draws:41015:BP:7",
+    "passed": true
+  },
+  {
+    "name": "history_denominators_preserved:41015:BP",
+    "passed": true
+  },
+  {
+    "name": "all_20000_bootstrap_six_metric_vectors_via_case_frequencies",
+    "passed": true
+  },
+  {
+    "name": "case_CI:loss_excess_all_cases_pp",
+    "passed": true
+  },
+  {
+    "name": "case_CI:gain_excess_all_cases_pp",
+    "passed": true
+  },
+  {
+    "name": "case_CI:history_old_rd_pp",
+    "passed": true
+  },
+  {
+    "name": "case_CI:history_new_rd_pp",
+    "passed": true
+  },
+  {
+    "name": "case_CI:loss_excess_given_J0_pp",
+    "passed": true
+  },
+  {
+    "name": "case_CI:gain_excess_given_J0_pp",
+    "passed": true
+  },
+  {
+    "name": "all_3125_parent_vectors",
+    "passed": true
+  },
+  {
+    "name": "parent_CI:loss_excess_all_cases_pp",
+    "passed": true
+  },
+  {
+    "name": "parent_CI:gain_excess_all_cases_pp",
+    "passed": true
+  },
+  {
+    "name": "parent_CI:history_old_rd_pp",
+    "passed": true
+  },
+  {
+    "name": "parent_CI:history_new_rd_pp",
+    "passed": true
+  },
+  {
+    "name": "parent_CI:loss_excess_given_J0_pp",
+    "passed": true
+  },
+  {
+    "name": "parent_CI:gain_excess_given_J0_pp",
+    "passed": true
+  },
+  {
+    "name": "parent_removal:41011:loss_excess_all_cases_pp",
+    "passed": true
+  },
+  {
+    "name": "parent_removal:41011:gain_excess_all_cases_pp",
+    "passed": true
+  },
+  {
+    "name": "parent_removal:41011:history_old_rd_pp",
+    "passed": true
+  },
+  {
+    "name": "parent_removal:41011:history_new_rd_pp",
+    "passed": true
+  },
+  {
+    "name": "parent_removal:41012:loss_excess_all_cases_pp",
+    "passed": true
+  },
+  {
+    "name": "parent_removal:41012:gain_excess_all_cases_pp",
+    "passed": true
+  },
+  {
+    "name": "parent_removal:41012:history_old_rd_pp",
+    "passed": true
+  },
+  {
+    "name": "parent_removal:41012:history_new_rd_pp",
+    "passed": true
+  },
+  {
+    "name": "parent_removal:41013:loss_excess_all_cases_pp",
+    "passed": true
+  },
+  {
+    "name": "parent_removal:41013:gain_excess_all_cases_pp",
+    "passed": true
+  },
+  {
+    "name": "parent_removal:41013:history_old_rd_pp",
+    "passed": true
+  },
+  {
+    "name": "parent_removal:41013:history_new_rd_pp",
+    "passed": true
+  },
+  {
+    "name": "parent_removal:41014:loss_excess_all_cases_pp",
+    "passed": true
+  },
+  {
+    "name": "parent_removal:41014:gain_excess_all_cases_pp",
+    "passed": true
+  },
+  {
+    "name": "parent_removal:41014:history_old_rd_pp",
+    "passed": true
+  },
+  {
+    "name": "parent_removal:41014:history_new_rd_pp",
+    "passed": true
+  },
+  {
+    "name": "parent_removal:41015:loss_excess_all_cases_pp",
+    "passed": true
+  },
+  {
+    "name": "parent_removal:41015:gain_excess_all_cases_pp",
+    "passed": true
+  },
+  {
+    "name": "parent_removal:41015:history_old_rd_pp",
+    "passed": true
+  },
+  {
+    "name": "parent_removal:41015:history_new_rd_pp",
+    "passed": true
+  }
+]

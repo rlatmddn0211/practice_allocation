@@ -1,0 +1,25 @@
+{
+  "status": "reference_preparation_complete_confirmation_not_run",
+  "reference_predictions": 2494,
+  "focus_state_case_predictions": 1096,
+  "focus_case_counts": {
+    "41011": 90,
+    "41012": 98,
+    "41013": 162,
+    "41014": 97,
+    "41015": 101
+  },
+  "parents_with_nonidentical_predictions": 3,
+  "arbitrary_outcome_upper_bound_G": 0.004720526740174018,
+  "upper_bound_is_not_a_forecast": true,
+  "frozen_prediction_sha256": "e0c34c7c0b010b767e51de6e6ea6d546e7f41d738511117238deabb803f35cc8",
+  "proposed_jobs_sha256": "db70f8888ad578267c2de1197abc2a248dead4b50f7b310fabf8ae87d40311bf",
+  "protocol_sha256": "c6508598d1145905d09ac3fc696d674be62085724b6853d25f61f5d456722739",
+  "input_sha256": "7c75c6186ae833ecfb3f9a71180c87bcd7aec37137ee6cd85c6490eec3750efb",
+  "checks_passed": 1341,
+  "new_environment_steps": 0,
+  "new_training_steps": 0,
+  "new_SAC_updates": 0,
+  "confirmation_results": null,
+  "launch_or_queue_created": false
+}

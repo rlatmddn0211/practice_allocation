@@ -126,3 +126,70 @@
   execution. Run the ten futures regardless of scientific direction; stop for
   integrity failures, with no automatic retries outside the caps. Preserve all
   attempts and full checkpoints. C and original stages 2/3 remain held.
+- On 2026-10-22 the user endorsed shifting the central research question to
+  case-level gain/loss repeatability across futures from the same full learned
+  state, with observational conditions distinguished from causal interventions.
+  Version 55 analyzes existing paired 0k/8k/old-future/new-future outcomes only:
+  overlap against state/task/eligibility-specific event-count expectations and
+  success-history risk contrasts within parent/prefix/task common support.
+  Preserve version 54's failed selection-investment gate. Do not relabel its
+  outcome as a successful selector. Hypotheses developed from these results are
+  exploratory; raw overlap is not a causal mechanism or a gain/loss ranking.
+  New policy evaluation, training, replay/order interventions, and original C
+  or stages 2/3 require a separate specification and authorization. They are
+  not launched or scheduled by this existing-data analysis.
+- The subsequent 2026-10-22 feedback narrows the existing-data follow-up to a
+  same-state versus cross-state overlap contrast in independent version 56.
+  For each parent/task, restrict gains to cases failed by both 8k prefixes and
+  losses to cases successful in both. Recompute all four old/new pairs on the
+  identical common set; their mean same-minus-cross contrast is paired, not four
+  independent repeats. Report support, event-count overlap bounds, parent/task
+  contributions, uncertainty scope and actual future seed provenance.
+  Preserve version 55 and add interpretation corrections in 56: label-randomized
+  excess overlap can arise from heterogeneous case propensities; state association
+  is not a causal component effect, and no loss excess is not non-repeatability.
+  Keep the universal recent-success fragility explanation downgraded. This is
+  existing-file analysis only; no new learning, evaluation, intervention, selector
+  fitting or automatic progression is authorized. Preserve prior held stages.
+- The next 2026-10-22 discussion narrows the prospective paper to starting-state
+  dependence of success acquisition. Version 57 records the two-bundle proposal:
+  first, two fresh 32k futures for every existing state, with reference-only
+  frozen explanation predictions; second, conditionally, new parents with both
+  reference and confirmation futures. DC/PU are the declared focus and the
+  original four-task slot denominator is retained for the overlap contribution.
+  Treat 57 as design/reference-file preparation only, not permission to launch
+  or schedule the 20 proposed futures. Its numerical investment thresholds and
+  4.65M total cap are proposals, not approved execution or scientific findings.
+  New-parent count, budget and any pre-continuation boundary-condition definition
+  remain to be fixed before that bundle. Preserve 56 as latest completed
+  scientific analysis. No new selector, RL algorithm or causal intervention is
+  required for the proposed empirical paper; keep all earlier held stages held.
+- The subsequent pre-execution review is recorded independently in version 58.
+  Preserve 57 and its predictions, model, seeds, weights, budgets and numeric
+  investment thresholds. Limit any positive G claim to the specified reference
+  0--4 grade/state-monotone M0; do not exclude all latent difficulty explanations
+  or claim rank reversals/causal mechanisms. Audit fixed-prediction corrections,
+  both mean invariants, and overall/leave-parent-out binary-label G bounds.
+  Primary corrections occur only in 49 PU cases across three parents; DC and
+  parents 41012/41014 have identical M0/M1 forecasts, not empirical null effects.
+  Keep all 548 eligible cases in G and preserve its within-parent case-pooled
+  weights. Distinguish positive conditional evidence below investment thresholds
+  from inconclusive evidence, technical failure and unexecuted confirmation.
+  This is existing-file preparation/audit only, not launch or scheduling approval.
+  Version 56 remains the latest completed scientific analysis; retain all held
+  stages and require a separate implementation for any authorized F3/F4 run.
+- On 2026-10-22 the user explicitly authorized the first confirmation bundle
+  after reading version 58: perform full-state restoration/RNG-only technical
+  checks, then run all 20 frozen F3/F4 futures if they pass. Implement independently
+  in version 59. Use the original ten 208k states, 32k BP continuation per future
+  (640k total), original O100 final evaluation (at most 4M), cumulative technical
+  cap 10k and total cap 4.65M. The first technical plan reserves at most 7k for
+  both future IDs; all research workers must restore original states again.
+  Preserve prediction/model/shrinkage/weights/seeds/job order and numeric gates.
+  Keep zero automatic retry reserve, stop on integrity failure, retain all costs
+  and attempts, and run every approved job regardless of scientific direction.
+  This supersedes the earlier no-execution status for this first bundle only;
+  do not edit the historical protocol58 authorization field. New parents, C,
+  original stages 2/3, new selectors and causal interventions remain outside this
+  authorization. Distinguish technical completion, scientific evidence and
+  subsequent investment decisions in the eventual result record.

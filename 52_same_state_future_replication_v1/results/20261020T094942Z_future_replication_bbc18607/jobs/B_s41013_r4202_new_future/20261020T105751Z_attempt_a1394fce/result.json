@@ -1,0 +1,72 @@
+{
+  "id": "B_s41013_r4202_new_future",
+  "state": {
+    "parent": 41013,
+    "prefix_continuation": 4202,
+    "old_continuation_rng_seed": 3461146862,
+    "proposed_new_future_root_seed": 55417420,
+    "proposed_schedule_seed": 891555496,
+    "checkpoint": {
+      "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\44_selection_value_stage1_checkpoint36_v2\\results\\20261019T064658Z_stage1_2cbbdd65\\jobs\\B_s41013_r4202_dose625_t8000\\a01_c14882c1\\checkpoint",
+      "manifest_sha256": "feef69fe507f4ed721c0c94555921134f0f5a04ff51f6474dc11be631d22e6ce"
+    },
+    "bank": {
+      "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\42_fixed_schedule_selection_value_v1\\results\\20261019T055015Z_stage1_c82b28ef\\jobs\\B_s41013_bank\\a01_5e8eb9ed\\evaluation_banks.json",
+      "sha256": "66ed4536e7539702e0e0045ecbcb4950e2123410bbda99a8549722d50a56861e"
+    },
+    "packages": {
+      "numpy": "2.2.4",
+      "torch": "2.5.1+cu121",
+      "gymnasium": "1.2.3",
+      "mujoco": "3.5.0",
+      "metaworld": "3.0.0",
+      "stable-baselines3": "2.7.1"
+    }
+  },
+  "status": "completed",
+  "fork_verified": true,
+  "evaluation_state_unchanged": true,
+  "training_steps": 32000,
+  "evaluation_steps": 196917,
+  "training_counts": {
+    "DO": 4000,
+    "DC": 4000,
+    "PU": 4000,
+    "BP": 20000
+  },
+  "checkpoints": [
+    {
+      "absolute_step": 216000,
+      "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\52_same_state_future_replication_v1\\results\\20261020T094942Z_future_replication_bbc18607\\jobs\\B_s41013_r4202_new_future\\20261020T105751Z_attempt_a1394fce\\checkpoints\\absolute_216000",
+      "manifest_sha256": "811b83de6eb03b2ff2bfceb04d919a1286e48767ef5c5e4e234e519181e3382e"
+    },
+    {
+      "absolute_step": 224000,
+      "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\52_same_state_future_replication_v1\\results\\20261020T094942Z_future_replication_bbc18607\\jobs\\B_s41013_r4202_new_future\\20261020T105751Z_attempt_a1394fce\\checkpoints\\absolute_224000",
+      "manifest_sha256": "baeac0835c37c45f74a8c01bbb60874825a679bc4f99f1eee5f22b2f3dfa0b14"
+    },
+    {
+      "absolute_step": 232000,
+      "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\52_same_state_future_replication_v1\\results\\20261020T094942Z_future_replication_bbc18607\\jobs\\B_s41013_r4202_new_future\\20261020T105751Z_attempt_a1394fce\\checkpoints\\absolute_232000",
+      "manifest_sha256": "892ddbc23653e1764f1901e45e7a37a5672ba1e53000e0dfa7976589a1bc889d"
+    },
+    {
+      "absolute_step": 240000,
+      "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\52_same_state_future_replication_v1\\results\\20261020T094942Z_future_replication_bbc18607\\jobs\\B_s41013_r4202_new_future\\20261020T105751Z_attempt_a1394fce\\checkpoints\\absolute_240000",
+      "manifest_sha256": "60421ed52d0d0fc4c8cefff2967fb6740d67df1ddd29d1d0990b0e2516febd47"
+    }
+  ],
+  "episodes": {
+    "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\52_same_state_future_replication_v1\\results\\20261020T094942Z_future_replication_bbc18607\\jobs\\B_s41013_r4202_new_future\\20261020T105751Z_attempt_a1394fce\\evaluation_episodes.csv",
+    "sha256": "d7b1190cbfdb6be2b0d45a65ecd279c0a562d9633d9f1a68262923ea521b1817"
+  },
+  "success_by_task": {
+    "DO": 0.0,
+    "DC": 0.0,
+    "PU": 0.09,
+    "BP": 0.0
+  },
+  "macro_success": 0.0225,
+  "rule_fitted": false,
+  "scientific_interpretation": "pending complete ten-state analysis"
+}

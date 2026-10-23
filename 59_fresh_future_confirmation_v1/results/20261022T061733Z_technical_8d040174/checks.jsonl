@@ -1,0 +1,68 @@
+{"name": "all_frozen_python_sources_compile", "passed": true, "details": {"files": 14}}
+{"name": "technical_budget_available", "passed": true, "details": {"previous_actual": 0, "reserved": 7000}}
+{"name": "future_32k_quotas_41015_4202_F4", "passed": true, "details": null}
+{"name": "future_32k_quotas_41013_4201_F3", "passed": true, "details": null}
+{"name": "future_32k_quotas_41012_4201_F3", "passed": true, "details": null}
+{"name": "future_32k_quotas_41014_4201_F3", "passed": true, "details": null}
+{"name": "future_32k_quotas_41012_4202_F4", "passed": true, "details": null}
+{"name": "future_32k_quotas_41015_4201_F3", "passed": true, "details": null}
+{"name": "future_32k_quotas_41014_4202_F4", "passed": true, "details": null}
+{"name": "future_32k_quotas_41011_4202_F3", "passed": true, "details": null}
+{"name": "F3_F4_identical_learned_start_(41011, 4202)", "passed": true, "details": null}
+{"name": "future_32k_quotas_41011_4202_F4", "passed": true, "details": null}
+{"name": "future_32k_quotas_41011_4201_F3", "passed": true, "details": null}
+{"name": "F3_F4_identical_learned_start_(41011, 4201)", "passed": true, "details": null}
+{"name": "future_32k_quotas_41011_4201_F4", "passed": true, "details": null}
+{"name": "F3_F4_identical_learned_start_(41015, 4202)", "passed": true, "details": null}
+{"name": "future_32k_quotas_41015_4202_F3", "passed": true, "details": null}
+{"name": "future_32k_quotas_41013_4202_F3", "passed": true, "details": null}
+{"name": "F3_F4_identical_learned_start_(41014, 4202)", "passed": true, "details": null}
+{"name": "future_32k_quotas_41014_4202_F3", "passed": true, "details": null}
+{"name": "F3_F4_identical_learned_start_(41015, 4201)", "passed": true, "details": null}
+{"name": "future_32k_quotas_41015_4201_F4", "passed": true, "details": null}
+{"name": "F3_F4_identical_learned_start_(41013, 4201)", "passed": true, "details": null}
+{"name": "future_32k_quotas_41013_4201_F4", "passed": true, "details": null}
+{"name": "F3_F4_identical_learned_start_(41013, 4202)", "passed": true, "details": null}
+{"name": "future_32k_quotas_41013_4202_F4", "passed": true, "details": null}
+{"name": "F3_F4_identical_learned_start_(41012, 4202)", "passed": true, "details": null}
+{"name": "future_32k_quotas_41012_4202_F3", "passed": true, "details": null}
+{"name": "F3_F4_identical_learned_start_(41012, 4201)", "passed": true, "details": null}
+{"name": "future_32k_quotas_41012_4201_F4", "passed": true, "details": null}
+{"name": "F3_F4_identical_learned_start_(41014, 4201)", "passed": true, "details": null}
+{"name": "future_32k_quotas_41014_4201_F4", "passed": true, "details": null}
+{"name": "all_state_checks_zero_environment_steps", "passed": true, "details": null}
+{"name": "same_rng_transition_action_sample_loss_trace_exact", "passed": true, "details": null}
+{"name": "same_rng_full_end_state_exact", "passed": true, "details": null}
+{"name": "F3_chunk_horizon_and_checkpoint_trace_exact", "passed": true, "details": null}
+{"name": "F3_chunk_horizon_and_checkpoint_full_end_state_exact", "passed": true, "details": null}
+{"name": "F3_trace_differs_from_old", "passed": true, "details": null}
+{"name": "F4_chunk_horizon_and_checkpoint_trace_exact", "passed": true, "details": null}
+{"name": "F4_chunk_horizon_and_checkpoint_full_end_state_exact", "passed": true, "details": null}
+{"name": "F4_trace_differs_from_old", "passed": true, "details": null}
+{"name": "F3_F4_traces_differ", "passed": true, "details": null}
+{"name": "technical_updates_exact", "passed": true, "details": null}
+{"name": "known_outcomes_hash", "passed": true, "details": null}
+{"name": "known_reference_four_tasks", "passed": true, "details": null}
+{"name": "known_DO_seed", "passed": true, "details": null}
+{"name": "known_DO_initial_state_hash", "passed": true, "details": null}
+{"name": "known_DO_success", "passed": true, "details": null}
+{"name": "known_DO_length", "passed": true, "details": null}
+{"name": "known_DO_return", "passed": true, "details": null}
+{"name": "known_DC_seed", "passed": true, "details": null}
+{"name": "known_DC_initial_state_hash", "passed": true, "details": null}
+{"name": "known_DC_success", "passed": true, "details": null}
+{"name": "known_DC_length", "passed": true, "details": null}
+{"name": "known_DC_return", "passed": true, "details": null}
+{"name": "known_PU_seed", "passed": true, "details": null}
+{"name": "known_PU_initial_state_hash", "passed": true, "details": null}
+{"name": "known_PU_success", "passed": true, "details": null}
+{"name": "known_PU_length", "passed": true, "details": null}
+{"name": "known_PU_return", "passed": true, "details": null}
+{"name": "known_BP_seed", "passed": true, "details": null}
+{"name": "known_BP_initial_state_hash", "passed": true, "details": null}
+{"name": "known_BP_success", "passed": true, "details": null}
+{"name": "known_BP_length", "passed": true, "details": null}
+{"name": "known_BP_return", "passed": true, "details": null}
+{"name": "evaluation_full_state_unchanged", "passed": true, "details": null}
+{"name": "no_evaluation_updates", "passed": true, "details": null}
+{"name": "all_checks_within_reserved_7000", "passed": true, "details": null}

@@ -1,0 +1,13 @@
+{
+  "version": "58_confirmation_prediction_preflight_v1",
+  "previous_version": "57_acquisition_state_dependence_confirmation_plan_v1",
+  "previous_protocol_sha256": "c6508598d1145905d09ac3fc696d674be62085724b6853d25f61f5d456722739",
+  "prepared_relative": "57_acquisition_state_dependence_confirmation_plan_v1/results/20261022T044948Z_prepare_2b1bf98a",
+  "prediction_sha256": "e0c34c7c0b010b767e51de6e6ea6d546e7f41d738511117238deabb803f35cc8",
+  "jobs_sha256": "db70f8888ad578267c2de1197abc2a248dead4b50f7b310fabf8ae87d40311bf",
+  "tolerance": 1e-12,
+  "allowed_protocol_changes": ["version", "status", "question", "primary_prediction_score", "proposed_investment_gate", "paper_scope", "amendment", "claim_scope", "prediction_feasibility_audit"],
+  "new_environment_steps": 0,
+  "new_training_steps": 0,
+  "launch_or_schedule": false
+}

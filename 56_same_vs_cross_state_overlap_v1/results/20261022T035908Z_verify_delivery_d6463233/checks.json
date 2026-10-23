@@ -1,0 +1,286 @@
+[
+  {
+    "name": "report_primary_row:gain",
+    "passed": true
+  },
+  {
+    "name": "report_interval:gain/case_interval",
+    "passed": true
+  },
+  {
+    "name": "report_interval:gain/parent_descriptive_interval",
+    "passed": true
+  },
+  {
+    "name": "report_average_counts:gain/same",
+    "passed": true
+  },
+  {
+    "name": "report_average_counts:gain/cross",
+    "passed": true
+  },
+  {
+    "name": "report_primary_row:loss",
+    "passed": true
+  },
+  {
+    "name": "report_interval:loss/case_interval",
+    "passed": true
+  },
+  {
+    "name": "report_interval:loss/parent_descriptive_interval",
+    "passed": true
+  },
+  {
+    "name": "report_average_counts:loss/same",
+    "passed": true
+  },
+  {
+    "name": "report_average_counts:loss/cross",
+    "passed": true
+  },
+  {
+    "name": "parent_table:41011",
+    "passed": true
+  },
+  {
+    "name": "parent_table:41012",
+    "passed": true
+  },
+  {
+    "name": "parent_table:41013",
+    "passed": true
+  },
+  {
+    "name": "parent_table:41014",
+    "passed": true
+  },
+  {
+    "name": "parent_table:41015",
+    "passed": true
+  },
+  {
+    "name": "task_concentration_95_938",
+    "passed": true
+  },
+  {
+    "name": "parent_concentration_47_1",
+    "passed": true
+  },
+  {
+    "name": "coverage_percent:gain",
+    "passed": true
+  },
+  {
+    "name": "coverage_percent:loss",
+    "passed": true
+  },
+  {
+    "name": "independent_verification_count",
+    "passed": true
+  },
+  {
+    "name": "analysis_check_count",
+    "passed": true
+  },
+  {
+    "name": "frozen_calculation_definition:analysis_config.json",
+    "passed": true
+  },
+  {
+    "name": "frozen_calculation_definition:methods_addendum_ko.md",
+    "passed": true
+  },
+  {
+    "name": "frozen_calculation_definition:analyze.py",
+    "passed": true
+  },
+  {
+    "name": "frozen_calculation_definition:io_utils.py",
+    "passed": true
+  },
+  {
+    "name": "frozen_calculation_definition:run.py",
+    "passed": true
+  },
+  {
+    "name": "frozen_independent_verifier",
+    "passed": true
+  },
+  {
+    "name": "verification_binds_delivered_summary",
+    "passed": true
+  },
+  {
+    "name": "figure_binds_delivered_summary",
+    "passed": true
+  },
+  {
+    "name": "figure_task_value:DO",
+    "passed": true
+  },
+  {
+    "name": "figure_task_value:DC",
+    "passed": true
+  },
+  {
+    "name": "figure_task_value:PU",
+    "passed": true
+  },
+  {
+    "name": "figure_task_value:BP",
+    "passed": true
+  },
+  {
+    "name": "PNG_header",
+    "passed": true
+  },
+  {
+    "name": "local_link:evidence_record_ko.md:../25_candidate_factor_evidence_register_v1/README.md",
+    "passed": true
+  },
+  {
+    "name": "local_link:evidence_record_ko.md:../55_casewise_gain_loss_repeatability_v1/evidence_record_ko.md",
+    "passed": true
+  },
+  {
+    "name": "local_link:evidence_record_ko.md:report_ko.md",
+    "passed": true
+  },
+  {
+    "name": "local_link:evidence_record_ko.md:results/20261022T035037Z_analyze_9e4e0e84/seed_audit.csv",
+    "passed": true
+  },
+  {
+    "name": "local_link:README.md:report_ko.md",
+    "passed": true
+  },
+  {
+    "name": "local_link:README.md:methods_addendum_ko.md",
+    "passed": true
+  },
+  {
+    "name": "local_link:README.md:evidence_record_ko.md",
+    "passed": true
+  },
+  {
+    "name": "local_link:README.md:analysis_config.json",
+    "passed": true
+  },
+  {
+    "name": "local_link:README.md:results/20261022T035037Z_analyze_9e4e0e84/COMPLETE.json",
+    "passed": true
+  },
+  {
+    "name": "local_link:README.md:results/20261022T035234Z_verify_fdfb3853/COMPLETE.json",
+    "passed": true
+  },
+  {
+    "name": "local_link:README.md:results/20261022T035334Z_make_figure_e15b9cd8/COMPLETE.json",
+    "passed": true
+  },
+  {
+    "name": "local_link:report_ko.md:results/20261022T035037Z_analyze_9e4e0e84/coverage_by_parent_task.csv",
+    "passed": true
+  },
+  {
+    "name": "local_link:report_ko.md:results/20261022T035037Z_analyze_9e4e0e84/overlap_by_pair.csv",
+    "passed": true
+  },
+  {
+    "name": "local_link:report_ko.md:results/20261022T035334Z_make_figure_e15b9cd8/same_vs_cross_overlap.png",
+    "passed": true
+  },
+  {
+    "name": "local_link:report_ko.md:results/20261022T035037Z_analyze_9e4e0e84/summary.json",
+    "passed": true
+  },
+  {
+    "name": "local_link:report_ko.md:results/20261022T035334Z_make_figure_e15b9cd8/same_vs_cross_overlap.svg",
+    "passed": true
+  },
+  {
+    "name": "local_link:report_ko.md:results/20261022T035037Z_analyze_9e4e0e84/parents.csv",
+    "passed": true
+  },
+  {
+    "name": "local_link:report_ko.md:results/20261022T035037Z_analyze_9e4e0e84/tasks.csv",
+    "passed": true
+  },
+  {
+    "name": "local_link:report_ko.md:results/20261022T035037Z_analyze_9e4e0e84/leave_one_parent_out.csv",
+    "passed": true
+  },
+  {
+    "name": "local_link:report_ko.md:results/20261022T035234Z_verify_fdfb3853/scope_summary.json",
+    "passed": true
+  },
+  {
+    "name": "local_link:report_ko.md:results/20261022T035037Z_analyze_9e4e0e84/prior55_full_support_with_bounds.csv",
+    "passed": true
+  },
+  {
+    "name": "local_link:report_ko.md:methods_addendum_ko.md",
+    "passed": true
+  },
+  {
+    "name": "local_link:report_ko.md:../55_casewise_gain_loss_repeatability_v1/report_ko.md",
+    "passed": true
+  },
+  {
+    "name": "local_link:report_ko.md:results/20261022T035037Z_analyze_9e4e0e84/seed_audit.csv",
+    "passed": true
+  },
+  {
+    "name": "local_link:report_ko.md:../54_same_state_future_replication_analysis_v1/results/20261022T021845Z_analysis_98fe07c3/paired_outcomes.csv",
+    "passed": true
+  },
+  {
+    "name": "local_link:report_ko.md:results/20261022T035037Z_analyze_9e4e0e84/input_hashes.json",
+    "passed": true
+  },
+  {
+    "name": "local_link:report_ko.md:results/20261022T035037Z_analyze_9e4e0e84/source_hashes.json",
+    "passed": true
+  },
+  {
+    "name": "local_link:report_ko.md:results/20261022T035234Z_verify_fdfb3853/COMPLETE.json",
+    "passed": true
+  },
+  {
+    "name": "local_link:report_ko.md:evidence_record_ko.md",
+    "passed": true
+  },
+  {
+    "name": "local_link:report_ko.md:README.md",
+    "passed": true
+  },
+  {
+    "name": "root_latest_index",
+    "passed": true
+  },
+  {
+    "name": "finite_example_E_T_equals_N_Var",
+    "passed": true
+  },
+  {
+    "name": "finite_example_positive_D_without_rank_change",
+    "passed": true
+  },
+  {
+    "name": "no_failed_runs_before_delivery",
+    "passed": true
+  },
+  {
+    "name": "file_only_cost:20261022T035037Z_analyze_9e4e0e84",
+    "passed": true
+  },
+  {
+    "name": "file_only_cost:20261022T035234Z_verify_fdfb3853",
+    "passed": true
+  },
+  {
+    "name": "file_only_cost:20261022T035334Z_make_figure_e15b9cd8",
+    "passed": true
+  }
+]

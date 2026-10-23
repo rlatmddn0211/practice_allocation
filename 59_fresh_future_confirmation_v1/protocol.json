@@ -1,0 +1,43 @@
+{
+  "version": "59_fresh_future_confirmation_v1",
+  "status": "authorized_first_confirmation_bundle",
+  "authorization_date": "2026-10-22",
+  "authorization": "User approved technical full-state/RNG checks, then all twenty frozen F3/F4 futures without design changes or automatic retries.",
+  "scientific_protocol": "inputs/protocol58.json",
+  "scientific_protocol_sha256": "438d2b23889c1242319f1592b86e0ff3ca2fa462992db6a3c9d41e669e8ffc7c",
+  "state_manifest_sha256": "63728184cc1cdf4dcccacfd7140fc3c1e66908c4bef5c7f8182b4f0a7f953607",
+  "fixed_predictions_sha256": "e0c34c7c0b010b767e51de6e6ea6d546e7f41d738511117238deabb803f35cc8",
+  "proposed_jobs_sha256": "db70f8888ad578267c2de1197abc2a248dead4b50f7b310fabf8ae87d40311bf",
+  "reference_outcomes_sha256": "7c75c6186ae833ecfb3f9a71180c87bcd7aec37137ee6cd85c6490eec3750efb",
+  "known_8k_outcomes_sha256": "a69f194338a918db258a1697bcfa44e7ca84641f60a24856a77df5cb1a6e57df",
+  "states": 10,
+  "new_futures_per_state": 2,
+  "jobs": 20,
+  "training_steps_per_future": 32000,
+  "training_steps_total": 640000,
+  "evaluation_cases_per_task": 100,
+  "evaluation_max_steps_per_case": 500,
+  "evaluation_cap_total": 4000000,
+  "main_environment_cap": 4640000,
+  "technical_environment_cap_all_attempts": 10000,
+  "total_environment_cap": 4650000,
+  "automatic_retry_reserve": 0,
+  "max_parallel_workers": 1,
+  "full_checkpoint_absolute_steps": [
+    216000,
+    224000,
+    232000,
+    240000
+  ],
+  "technical_plan": {
+    "full_restore_and_rng_only_checks": "all twenty F3/F4 forks, ten original states; zero environment steps",
+    "same_original_rng_traces": "two separate original restores, 500 training steps each",
+    "each_fresh_future_resume_check": "for both F3 and F4 of one preselected state, 1000 uninterrupted vs 500+lossless save/load+500",
+    "known_8k_evaluation": "one previously evaluated case per task, at most 2000 steps",
+    "maximum_first_technical_run_steps": 7000,
+    "technical_state_not_reused_in_research": true
+  },
+  "analysis": "Frozen protocol58 D/G, models, weights, intervals and evidence-vs-investment criteria; no new fitting or result-driven selection.",
+  "failure_policy": "Stop on integrity failure; preserve all attempts/checkpoints. No automatic retry, extra futures or new parents.",
+  "C_and_original_stages_2_3": "held_not_scheduled"
+}

@@ -70,6 +70,16 @@
 51_same_state_future_investment_protocol_v1/** -text whitespace=cr-at-eol
 52_same_state_future_replication_v1/** -text whitespace=cr-at-eol
 53_research_progress_github_publication_v1/** -text whitespace=cr-at-eol
+54_same_state_future_replication_analysis_v1/** -text whitespace=cr-at-eol
+55_casewise_gain_loss_repeatability_v1/** -text whitespace=cr-at-eol
+56_same_vs_cross_state_overlap_v1/** -text whitespace=cr-at-eol
+57_acquisition_state_dependence_confirmation_plan_v1/** -text whitespace=cr-at-eol
+58_confirmation_prediction_preflight_v1/** -text whitespace=cr-at-eol
+59_fresh_future_confirmation_v1/** -text whitespace=cr-at-eol
+60_acquisition_confirmation_github_publication_v1/** -text whitespace=cr-at-eol
+54_same_state_future_replication_analysis_v1/results/**/*.svg -diff
+55_casewise_gain_loss_repeatability_v1/results/**/*.svg -diff
+56_same_vs_cross_state_overlap_v1/results/**/*.svg -diff
 # Generated Matplotlib paths and frozen Markdown hard line breaks retain their bytes.
 47_existing_data_path_loss_analysis_v1/results/**/*.svg -diff
 49_bp8k_late_value_analysis_v1/results/**/*.svg -diff

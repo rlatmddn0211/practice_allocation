@@ -1,0 +1,152 @@
+{
+  "amendment": {
+    "before": null,
+    "after": {
+      "previous_protocol": "57_acquisition_state_dependence_confirmation_plan_v1\\protocol.json",
+      "previous_sha256": "c6508598d1145905d09ac3fc696d674be62085724b6853d25f61f5d456722739",
+      "prediction_sha256_unchanged": "e0c34c7c0b010b767e51de6e6ea6d546e7f41d738511117238deabb803f35cc8",
+      "jobs_sha256_unchanged": "db70f8888ad578267c2de1197abc2a248dead4b50f7b310fabf8ae87d40311bf",
+      "models_seeds_eligibility_weights_and_numeric_thresholds_unchanged": true,
+      "execution_authorized_by_this_amendment": false
+    }
+  },
+  "claim_scope": {
+    "before": null,
+    "after": {
+      "positive_G": "M1 improves new-future Brier prediction relative to THIS M0: total reference successes graded 0..4 plus separately fitted parent/task/state monotone curves",
+      "does_not_establish": [
+        "exclusion of all common latent-difficulty explanations",
+        "state-dependent reversal of latent case difficulty ranks",
+        "a state-specific causal learning mechanism",
+        "an online 8k selector or allocation improvement"
+      ],
+      "remaining_explanation": "within-grade reference state allocation may carry additional information about unobserved common case difficulty under different state response curves, despite both mean-preservation constraints",
+      "current_support": "primary M0/M1 differences occur only in PU for parents 41011,41013,41015; G cannot test incremental information in DC or other parents where forecasts are identical"
+    }
+  },
+  "paper_scope": {
+    "before": {
+      "primary": "state dependence of success acquisition under this shared SAC and task/budget setting",
+      "loss": "secondary comparison and measurement limitations",
+      "requires_new_selector": false,
+      "requires_new_RL_algorithm": false,
+      "causal_intervention": "optional later, only one justified factor with separately fixed design",
+      "completion_evidence": [
+        "fresh-future phenomenon replication",
+        "specified common-difficulty/ability explanation versus additional reference state-case information",
+        "scope or reproducible boundary on new parents/states"
+      ],
+      "publication_success_not_guaranteed": true
+    },
+    "after": {
+      "primary": "starting-state-associated acquisition patterns; any incremental predictive claim is relative to the explicitly specified common-grade M0 only",
+      "loss": "secondary comparison and measurement limitations",
+      "requires_new_selector": false,
+      "requires_new_RL_algorithm": false,
+      "causal_intervention": "optional later, only one justified factor with separately fixed design",
+      "completion_evidence": [
+        "fresh-future phenomenon replication",
+        "fresh-future predictive comparison against the specified grade/monotone M0, not elimination of all common latent-difficulty models",
+        "scope or reproducible boundary on new parents/states"
+      ],
+      "publication_success_not_guaranteed": true
+    }
+  },
+  "prediction_feasibility_audit": {
+    "before": null,
+    "after": {
+      "inputs": "locked prediction CSV only; no F3/F4 labels",
+      "observation_gain": "2*d*(y-p)-d*d, d=M1-M0",
+      "observation_upper": "max(gain(y=0),gain(y=1)); attained algebraically by y=1 if d>0 and y=0 if d<0",
+      "aggregation": "mean over two state rows within each parent's pooled eligible DC/PU cases, then equal parent mean; same forecasts on both future labels",
+      "required_outputs": [
+        "changed cases and parent/task/grade distribution",
+        "correction magnitude",
+        "probability bounds and both mean constraints",
+        "overall and all five leave-one-parent-out lower/upper bounds"
+      ],
+      "interpretation": "label-space bound only, neither forecast nor power analysis nor guarantee of joint D/interval/investment gate feasibility under real learned policies"
+    }
+  },
+  "primary_prediction_score": {
+    "before": {
+      "metric": "binary Brier squared error (p-y)^2; smaller is better",
+      "parent_score": "mean over eligible DC+PU cases pooled within parent, 2 states and 2 confirmation futures",
+      "overall": "equal mean over 5 parents; no independent-case SE",
+      "gain": "G=BS(M0)-BS(M1); positive favors extra state-case information",
+      "empty_parent_rule": "if parent has no eligible DC/PU cases, primary investment gate is not evaluable; do not silently drop or substitute",
+      "secondary": [
+        "G separately on future3 and future4",
+        "per-parent and per-task G",
+        "BS for both models",
+        "final success/gain/loss amounts as context"
+      ]
+    },
+    "after": {
+      "metric": "binary Brier squared error (p-y)^2; smaller is better",
+      "parent_score": "mean over eligible DC+PU cases pooled within parent, 2 states and 2 confirmation futures",
+      "overall": "equal mean over 5 parents; no independent-case SE",
+      "gain": "G=BS(M0)-BS(M1); positive favors extra state-case information",
+      "empty_parent_rule": "if parent has no eligible DC/PU cases, primary investment gate is not evaluable; do not silently drop or substitute",
+      "secondary": [
+        "G separately on future3 and future4",
+        "per-parent and per-task G",
+        "BS for both models",
+        "final success/gain/loss amounts as context"
+      ],
+      "exact_parent_formula": "BS_p(M)=sum_{t in DC,PU;i in I_pt;s=1,2;f=3,4}(pM_psi-Y_psfi)^2/(4*N_p); N_p=N_pDC+N_pPU",
+      "exact_overall_formula": "G=sum_p[BS_p(M0)-BS_p(M1)]/5; leave-one-parent-out uses /4 without refitting",
+      "task_weights_within_parent": "N_pt/N_p, not equal task weights; empty task contributes no observations and its conditional score is NA",
+      "case_scope": "all 548 eligible DC/PU cases, including zero-correction cases; do not restrict denominator to 49 changed cases"
+    }
+  },
+  "proposed_investment_gate": {
+    "before": {
+      "status": "new_cost_decision_thresholds_proposed_before_confirmation_not_established_power_or_user_approval",
+      "all_20_jobs_technically_valid": true,
+      "D_focus_minimum_pp": 0.1,
+      "G_Brier_minimum": 0.001,
+      "each_conditional_case_lower_bound_strictly_positive": true,
+      "all_parent_removal_means_strictly_positive_for_both": true,
+      "G_future3_and_G_future4_each_strictly_positive": true,
+      "parent_bootstrap_interval_not_a_gate": true,
+      "requires_all_conditions_for_new_parent_design_investment": true,
+      "not_a_selector_or_population_confirmatory_significance_claim": true,
+      "if_uncertain": "record inconclusive; no automatic new futures, parents, thresholds or models",
+      "if_D_replicates_but_G_does_not": "do not claim all simple explanations sufficient; only specified extra information not supported",
+      "small_increment_conclusion": "upper uncertainty bound for G below 0.001 supports small increment only for this comparator/predictor; not global absence"
+    },
+    "after": {
+      "status": "new_cost_decision_thresholds_proposed_before_confirmation_not_established_power_or_user_approval",
+      "all_20_jobs_technically_valid": true,
+      "D_focus_minimum_pp": 0.1,
+      "G_Brier_minimum": 0.001,
+      "each_conditional_case_lower_bound_strictly_positive": true,
+      "all_parent_removal_means_strictly_positive_for_both": true,
+      "G_future3_and_G_future4_each_strictly_positive": true,
+      "parent_bootstrap_interval_not_a_gate": true,
+      "requires_all_conditions_for_new_parent_design_investment": true,
+      "not_a_selector_or_population_confirmatory_significance_claim": true,
+      "if_uncertain": "record inconclusive; no automatic new futures, parents, thresholds or models",
+      "if_D_replicates_but_G_does_not": "do not claim all simple explanations sufficient; only specified extra information not supported",
+      "small_increment_conclusion": "upper uncertainty bound for G below 0.001 supports small increment only for this comparator/predictor; not global absence",
+      "separate_scientific_evidence_and_investment_status": true,
+      "positive_but_below_size_threshold": "If a conditional interval lower bound is positive but D<0.10pp or G<0.001, report positive conditional evidence and observed size below investment threshold; hold further investment",
+      "positive_but_robustness_gate_failed": "Report positive conditional evidence with parent concentration or future-direction limitation; hold investment, do not relabel as no effect",
+      "leave_parent_out_interpretation": "excludes sole dependence on any one parent for that aggregate; does not demonstrate broad replication across parents",
+      "missing_confirmation": "not executed/not measured, not failed or null scientific result"
+    }
+  },
+  "question": {
+    "before": "Does the pattern of success acquisition depend on the starting full learned state beyond a shared case propensity and state-dependent monotone response, and does it replicate in new futures then new parents?",
+    "after": "On cases failed by both 8k states, does reference state-case information within the four-observation common grade improve fresh-future predictions beyond the specified M0 grade and state-specific monotone curves, alongside fresh-future same-minus-cross overlap replication?"
+  },
+  "status": {
+    "before": "proposal_with_reference_only_preparation",
+    "after": "pre_execution_clarification_and_locked_prediction_feasibility_audit"
+  },
+  "version": {
+    "before": "57_acquisition_state_dependence_confirmation_plan_v1",
+    "after": "58_confirmation_prediction_preflight_v1"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "schema_version": 2,
+  "codec": "lzma-preset-1-lossless",
+  "created_at": "2026-10-22T10:23:19.811371+00:00",
+  "suite": "B",
+  "tasks": {
+    "DO": "drawer-open-v3",
+    "DC": "drawer-close-v3",
+    "PU": "push-v3",
+    "BP": "button-press-v3"
+  },
+  "step": 232000,
+  "updates": 231000,
+  "state_fingerprints": {
+    "learning": "b1f22e25bb0f4ce2eef9bcf9bab3be5b7bb2a04630a345b283da29a5be720512",
+    "replay": "d5b203dcab9625c9d7b01628dc0ee26454e98d6cdb6c5c5c29866880d5c4cfb8",
+    "collector": "7bb533645880ac9cb6c314ffcc11aa6e2a4aef33797e2954bbeb5564cba16e25",
+    "rng": "057556146b5837248fa379d1ea66a21de27ab884bbcc47cab26c0bed903a26c5"
+  },
+  "config_hash": "0d9cdd0c339aa86656ab19e98180bc135ffffdb55bb1f2a6e517332b35b05cee",
+  "packages": {
+    "numpy": "2.2.4",
+    "torch": "2.5.1+cu121",
+    "gymnasium": "1.2.3",
+    "mujoco": "3.5.0",
+    "metaworld": "3.0.0",
+    "stable-baselines3": "2.7.1"
+  },
+  "source_hashes": {
+    "bootstrap.py": "7cea1d8283758048aa3053e727a56fe5a4601d2f86d7d06a02d34b75de041e86",
+    "campaign.py": "9f065cbf5c75518c7ea7c3b79aacf4ffb7f343b3f99f2a8920e30ad9eeac7a24",
+    "common.py": "e704069198c626844e8efc63ab1bcc09c317dd60c958bd80d189a44c2fcf3489",
+    "static_check.py": "1ba2e24d1bdd072177acb09d462c049cd96720a641461b8632ee9880f7d57882",
+    "verify_implementation.py": "8509e3c75ed62a059266c7eedf508dea1fd45f5948b4abb0de9217bc035efa7b",
+    "worker.py": "be8ae6bc80534401d6e3de822cf1c9dbf672abe7d3931fb78ac722391c655c2b",
+    "launch_queue.ps1": "b6fd35e48a832f89965a84e2c83dd1a9003b47244ab2313d6d2a4bccfd033f57",
+    "requirements.txt": "cb62ec70a441ab12b0a7caab26904375ffd55ce0ef5497b20e07a48205b43b1b",
+    "VERSION.json": "6c7c9e19871511a67baa2a75e47647d4442d29b2e044581e0b318ad48df879f8",
+    "protocol.json": "80ad23712138ea5104a499a35cee52091e4d637515a21c978fece769259f32bf",
+    "practice_allocation/__init__.py": "4215c51deb3d834c283aeed7c87b8747916234e964f1a8cd9eedadaf1e465a2f",
+    "practice_allocation/core.py": "6b5e51cacd6ac44ef117ed750ac4bcd46bb0beffac4dd5d0bd7edc7de93cb62d",
+    "practice_allocation/engine.py": "ae090b11d36b715eb7c66ce89c39c1021d1de140abe7fbb5e820eff1ed4a3f26",
+    "practice_allocation/environment.py": "85afb8560da5160832e619f90608eae0b4b83aa75264376800111b295ef4e4e8",
+    "practice_allocation/evaluation.py": "196b18ad4b60bca516511e71a449b12b78784a20a1699caa207975203d5cc525",
+    "practice_allocation/learning.py": "e32e1f2e23490c651167af24386a3af5df005af766a33128c9bb75f719e30009",
+    "practice_allocation/schedules.py": "d114ce28a4b56e52ec53f1481f6393bdae1895cdb8d4393a10b175e1e36da4ec",
+    "practice_allocation/study_io.py": "20b46c67027a413857c80bbbd5e9dad469fae9ccafd468ef3b942dfc76389c53",
+    "configs/learner.json": "ba2a7dd45b3190cca9ade74bcf5b4c0a8bb1cad5bea1f0894db2d92a7f8efe53",
+    "configs/research_protocol.json": "34e289844b4854aa1d3be7b493def76eb3fa1f306587c5b7de8ec5feb32a3df2",
+    "configs/suites.json": "d94a146844590a1fd66e06625222db17340f442f992df674f069514330771c77",
+    "inputs/copied_implementation.json": "9a2b1b2a0aa95115adb5b8d5121ab5e35c9851c390b94f2f94877a9e6ccde833",
+    "inputs/protocol58.json": "438d2b23889c1242319f1592b86e0ff3ca2fa462992db6a3c9d41e669e8ffc7c",
+    "inputs/provenance.json": "63e9ea000c163bcbb914b4232a40c1cea02c66762dc7be0217bf331d2788753b",
+    "inputs/state_manifest.json": "63728184cc1cdf4dcccacfd7140fc3c1e66908c4bef5c7f8182b4f0a7f953607",
+    "inputs/frozen_reference_predictions.csv": "e0c34c7c0b010b767e51de6e6ea6d546e7f41d738511117238deabb803f35cc8",
+    "inputs/known_8k_outcomes.csv": "a69f194338a918db258a1697bcfa44e7ca84641f60a24856a77df5cb1a6e57df",
+    "inputs/proposed_jobs.csv": "db70f8888ad578267c2de1197abc2a248dead4b50f7b310fabf8ae87d40311bf",
+    "inputs/reference_paired_outcomes.csv": "7c75c6186ae833ecfb3f9a71180c87bcd7aec37137ee6cd85c6490eec3750efb",
+    "evidence_record_ko.md": "f81f3c65b34ae560d74c52c06ce38107ae29c4e4614392a6d56d41b919ae74c6",
+    "README.md": "247670a1565440ca5d73326105a329e07c44a1b0e4b4c90f19c35906670df00d"
+  },
+  "files": {
+    "model.zip": "f4a5025c6a080e80d7f2b232ce063cc5ce460719e7eec30dfbfeeda659f40e4a",
+    "replay.pkl.xz": "b2433a7a6fb78b4922c8e53097ed76645d536bbf8387a62dc328ea0ac113ffaf",
+    "collector_and_rng.pkl": "852dab9d185b1806fa2bc4be7a7102a9d8af8ee6d5650f393194f1ec7a818a0b"
+  },
+  "seconds": 1.0476219999836758,
+  "bytes": 8764104
+}

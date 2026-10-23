@@ -1,0 +1,1096 @@
+{
+  "status": "completed_exploratory_analysis",
+  "new_environment_steps": 0,
+  "new_SAC_updates": 0,
+  "scientific_gate": "no_new_gate_not_a_selector_success",
+  "previous_selection_gate": "not_passed_unchanged",
+  "parents": [
+    41011,
+    41012,
+    41013,
+    41014,
+    41015
+  ],
+  "prefixes": [
+    4201,
+    4202
+  ],
+  "tasks": [
+    "DO",
+    "DC",
+    "PU",
+    "BP"
+  ],
+  "independent_parent_count": 5,
+  "state_count": 10,
+  "state_case_observations": 4000,
+  "unique_parent_task_cases": 2000,
+  "futures_per_state": 2,
+  "event_overlap": {
+    "loss": {
+      "eligible": 1389,
+      "old_events": 188,
+      "new_events": 226,
+      "both": 148,
+      "old_only": 40,
+      "new_only": 78,
+      "neither": 1123,
+      "expected_overlap": 147.69817358270018,
+      "excess_overlap": 0.30182641729982795,
+      "expected_given_J0": 149.67184129429893,
+      "excess_given_J0": -1.6718412942989214,
+      "strata": 40,
+      "nonempty_strata": 25,
+      "variable_margin_strata": 6,
+      "both_eligible_percent": 10.655147588192944,
+      "expected_eligible_percent": 10.63341782452845,
+      "excess_eligible_pp": 0.02172976366449445,
+      "excess_all_cases_pp": 0.007545660432495699,
+      "excess_given_J0_all_cases_pp": -0.041796032357473034,
+      "jaccard_percent": 55.6390977443609,
+      "old_to_new_repeat_percent": 78.72340425531915,
+      "new_to_old_repeat_percent": 65.48672566371681
+    },
+    "gain": {
+      "eligible": 2611,
+      "old_events": 162,
+      "new_events": 152,
+      "both": 62,
+      "old_only": 100,
+      "new_only": 90,
+      "neither": 2359,
+      "expected_overlap": 46.75858924410323,
+      "excess_overlap": 15.241410755896771,
+      "expected_given_J0": 46.95659517187375,
+      "excess_given_J0": 15.04340482812625,
+      "strata": 40,
+      "nonempty_strata": 34,
+      "variable_margin_strata": 11,
+      "both_eligible_percent": 2.3745691306013024,
+      "expected_eligible_percent": 1.790830687250219,
+      "excess_eligible_pp": 0.5837384433510827,
+      "excess_all_cases_pp": 0.3810352688974193,
+      "excess_given_J0_all_cases_pp": 0.37608512070315625,
+      "jaccard_percent": 24.603174603174605,
+      "old_to_new_repeat_percent": 38.27160493827161,
+      "new_to_old_repeat_percent": 40.78947368421053
+    }
+  },
+  "overlap_by_parent": [
+    {
+      "parent": 41011,
+      "event": "loss",
+      "eligible": 333,
+      "old_events": 69,
+      "new_events": 87,
+      "both": 43,
+      "old_only": 26,
+      "new_only": 44,
+      "neither": 220,
+      "expected_overlap": 45.25593220338983,
+      "excess_overlap": -2.2559322033898304,
+      "expected_given_J0": 45.75593220338983,
+      "excess_given_J0": -2.7559322033898304,
+      "strata": 8,
+      "nonempty_strata": 6,
+      "variable_margin_strata": 3,
+      "both_eligible_percent": 12.912912912912914,
+      "expected_eligible_percent": 13.590370031047996,
+      "excess_eligible_pp": -0.6774571181350841,
+      "excess_all_cases_pp": -0.2819915254237288,
+      "excess_given_J0_all_cases_pp": -0.3444915254237288,
+      "jaccard_percent": 38.05309734513274,
+      "old_to_new_repeat_percent": 62.31884057971015,
+      "new_to_old_repeat_percent": 49.42528735632184
+    },
+    {
+      "parent": 41011,
+      "event": "gain",
+      "eligible": 467,
+      "old_events": 51,
+      "new_events": 36,
+      "both": 9,
+      "old_only": 42,
+      "new_only": 27,
+      "neither": 389,
+      "expected_overlap": 7.797097418342604,
+      "excess_overlap": 1.2029025816573953,
+      "expected_given_J0": 7.4979905437352246,
+      "excess_given_J0": 1.5020094562647757,
+      "strata": 8,
+      "nonempty_strata": 6,
+      "variable_margin_strata": 4,
+      "both_eligible_percent": 1.9271948608137044,
+      "expected_eligible_percent": 1.6696140082104076,
+      "excess_eligible_pp": 0.25758085260329666,
+      "excess_all_cases_pp": 0.1503628227071744,
+      "excess_given_J0_all_cases_pp": 0.18775118203309696,
+      "jaccard_percent": 11.538461538461538,
+      "old_to_new_repeat_percent": 17.647058823529413,
+      "new_to_old_repeat_percent": 25.0
+    },
+    {
+      "parent": 41012,
+      "event": "loss",
+      "eligible": 396,
+      "old_events": 2,
+      "new_events": 7,
+      "both": 2,
+      "old_only": 0,
+      "new_only": 5,
+      "neither": 389,
+      "expected_overlap": 2.0,
+      "excess_overlap": 0.0,
+      "expected_given_J0": 2.0,
+      "excess_given_J0": 0.0,
+      "strata": 8,
+      "nonempty_strata": 5,
+      "variable_margin_strata": 0,
+      "both_eligible_percent": 0.5050505050505051,
+      "expected_eligible_percent": 0.5050505050505051,
+      "excess_eligible_pp": 0.0,
+      "excess_all_cases_pp": 0.0,
+      "excess_given_J0_all_cases_pp": 0.0,
+      "jaccard_percent": 28.571428571428573,
+      "old_to_new_repeat_percent": 100.0,
+      "new_to_old_repeat_percent": 28.571428571428573
+    },
+    {
+      "parent": 41012,
+      "event": "gain",
+      "eligible": 404,
+      "old_events": 6,
+      "new_events": 8,
+      "both": 6,
+      "old_only": 0,
+      "new_only": 2,
+      "neither": 396,
+      "expected_overlap": 6.0,
+      "excess_overlap": 0.0,
+      "expected_given_J0": 6.0,
+      "excess_given_J0": 0.0,
+      "strata": 8,
+      "nonempty_strata": 6,
+      "variable_margin_strata": 0,
+      "both_eligible_percent": 1.4851485148514851,
+      "expected_eligible_percent": 1.4851485148514851,
+      "excess_eligible_pp": 0.0,
+      "excess_all_cases_pp": 0.0,
+      "excess_given_J0_all_cases_pp": 0.0,
+      "jaccard_percent": 75.0,
+      "old_to_new_repeat_percent": 100.0,
+      "new_to_old_repeat_percent": 75.0
+    },
+    {
+      "parent": 41013,
+      "event": "loss",
+      "eligible": 38,
+      "old_events": 38,
+      "new_events": 36,
+      "both": 36,
+      "old_only": 2,
+      "new_only": 0,
+      "neither": 0,
+      "expected_overlap": 36.0,
+      "excess_overlap": 0.0,
+      "expected_given_J0": 36.0,
+      "excess_given_J0": 0.0,
+      "strata": 8,
+      "nonempty_strata": 3,
+      "variable_margin_strata": 0,
+      "both_eligible_percent": 94.73684210526316,
+      "expected_eligible_percent": 94.73684210526316,
+      "excess_eligible_pp": 0.0,
+      "excess_all_cases_pp": 0.0,
+      "excess_given_J0_all_cases_pp": 0.0,
+      "jaccard_percent": 94.73684210526316,
+      "old_to_new_repeat_percent": 94.73684210526316,
+      "new_to_old_repeat_percent": 100.0
+    },
+    {
+      "parent": 41013,
+      "event": "gain",
+      "eligible": 762,
+      "old_events": 12,
+      "new_events": 51,
+      "both": 7,
+      "old_only": 5,
+      "new_only": 44,
+      "neither": 706,
+      "expected_overlap": 2.574058219178082,
+      "excess_overlap": 4.425941780821918,
+      "expected_given_J0": 2.9513319672131146,
+      "excess_given_J0": 4.048668032786885,
+      "strata": 8,
+      "nonempty_strata": 8,
+      "variable_margin_strata": 2,
+      "both_eligible_percent": 0.9186351706036745,
+      "expected_eligible_percent": 0.3378029159026354,
+      "excess_eligible_pp": 0.5808322547010392,
+      "excess_all_cases_pp": 0.5532427226027398,
+      "excess_given_J0_all_cases_pp": 0.5060835040983607,
+      "jaccard_percent": 12.5,
+      "old_to_new_repeat_percent": 58.333333333333336,
+      "new_to_old_repeat_percent": 13.72549019607843
+    },
+    {
+      "parent": 41014,
+      "event": "loss",
+      "eligible": 331,
+      "old_events": 69,
+      "new_events": 74,
+      "both": 63,
+      "old_only": 6,
+      "new_only": 11,
+      "neither": 251,
+      "expected_overlap": 60.81724137931034,
+      "excess_overlap": 2.1827586206896585,
+      "expected_given_J0": 62.29090909090909,
+      "excess_given_J0": 0.709090909090909,
+      "strata": 8,
+      "nonempty_strata": 6,
+      "variable_margin_strata": 2,
+      "both_eligible_percent": 19.033232628398792,
+      "expected_eligible_percent": 18.373788936347534,
+      "excess_eligible_pp": 0.6594436920512564,
+      "excess_all_cases_pp": 0.2728448275862073,
+      "excess_given_J0_all_cases_pp": 0.08863636363636362,
+      "jaccard_percent": 78.75,
+      "old_to_new_repeat_percent": 91.30434782608695,
+      "new_to_old_repeat_percent": 85.13513513513513
+    },
+    {
+      "parent": 41014,
+      "event": "gain",
+      "eligible": 469,
+      "old_events": 21,
+      "new_events": 8,
+      "both": 5,
+      "old_only": 16,
+      "new_only": 3,
+      "neither": 445,
+      "expected_overlap": 1.5523809523809524,
+      "excess_overlap": 3.447619047619048,
+      "expected_given_J0": 1.8734491315136477,
+      "excess_given_J0": 3.126550868486352,
+      "strata": 8,
+      "nonempty_strata": 6,
+      "variable_margin_strata": 2,
+      "both_eligible_percent": 1.0660980810234542,
+      "expected_eligible_percent": 0.3309980708701391,
+      "excess_eligible_pp": 0.735100010153315,
+      "excess_all_cases_pp": 0.430952380952381,
+      "excess_given_J0_all_cases_pp": 0.390818858560794,
+      "jaccard_percent": 20.833333333333332,
+      "old_to_new_repeat_percent": 23.80952380952381,
+      "new_to_old_repeat_percent": 62.5
+    },
+    {
+      "parent": 41015,
+      "event": "loss",
+      "eligible": 291,
+      "old_events": 10,
+      "new_events": 22,
+      "both": 4,
+      "old_only": 6,
+      "new_only": 18,
+      "neither": 263,
+      "expected_overlap": 3.625,
+      "excess_overlap": 0.375,
+      "expected_given_J0": 3.625,
+      "excess_given_J0": 0.375,
+      "strata": 8,
+      "nonempty_strata": 5,
+      "variable_margin_strata": 1,
+      "both_eligible_percent": 1.3745704467353952,
+      "expected_eligible_percent": 1.245704467353952,
+      "excess_eligible_pp": 0.12886597938144329,
+      "excess_all_cases_pp": 0.046875,
+      "excess_given_J0_all_cases_pp": 0.046875,
+      "jaccard_percent": 14.285714285714286,
+      "old_to_new_repeat_percent": 40.0,
+      "new_to_old_repeat_percent": 18.181818181818183
+    },
+    {
+      "parent": 41015,
+      "event": "gain",
+      "eligible": 509,
+      "old_events": 72,
+      "new_events": 49,
+      "both": 35,
+      "old_only": 37,
+      "new_only": 14,
+      "neither": 423,
+      "expected_overlap": 28.83505265420159,
+      "excess_overlap": 6.164947345798409,
+      "expected_given_J0": 28.633823529411764,
+      "excess_given_J0": 6.366176470588236,
+      "strata": 8,
+      "nonempty_strata": 8,
+      "variable_margin_strata": 3,
+      "both_eligible_percent": 6.8762278978389,
+      "expected_eligible_percent": 5.665039814184988,
+      "excess_eligible_pp": 1.2111880836539115,
+      "excess_all_cases_pp": 0.7706184182248011,
+      "excess_given_J0_all_cases_pp": 0.7957720588235295,
+      "jaccard_percent": 40.69767441860465,
+      "old_to_new_repeat_percent": 48.611111111111114,
+      "new_to_old_repeat_percent": 71.42857142857143
+    }
+  ],
+  "overlap_by_task": [
+    {
+      "task": "DO",
+      "event": "loss",
+      "eligible": 0,
+      "old_events": 0,
+      "new_events": 0,
+      "both": 0,
+      "old_only": 0,
+      "new_only": 0,
+      "neither": 0,
+      "expected_overlap": 0.0,
+      "excess_overlap": 0.0,
+      "expected_given_J0": 0.0,
+      "excess_given_J0": 0.0,
+      "strata": 10,
+      "nonempty_strata": 0,
+      "variable_margin_strata": 0,
+      "both_eligible_percent": null,
+      "expected_eligible_percent": null,
+      "excess_eligible_pp": null,
+      "excess_all_cases_pp": 0.0,
+      "excess_given_J0_all_cases_pp": 0.0,
+      "jaccard_percent": null,
+      "old_to_new_repeat_percent": null,
+      "new_to_old_repeat_percent": null
+    },
+    {
+      "task": "DO",
+      "event": "gain",
+      "eligible": 1000,
+      "old_events": 0,
+      "new_events": 6,
+      "both": 0,
+      "old_only": 0,
+      "new_only": 6,
+      "neither": 994,
+      "expected_overlap": 0.0,
+      "excess_overlap": 0.0,
+      "expected_given_J0": 0.0,
+      "excess_given_J0": 0.0,
+      "strata": 10,
+      "nonempty_strata": 10,
+      "variable_margin_strata": 0,
+      "both_eligible_percent": 0.0,
+      "expected_eligible_percent": 0.0,
+      "excess_eligible_pp": 0.0,
+      "excess_all_cases_pp": 0.0,
+      "excess_given_J0_all_cases_pp": 0.0,
+      "jaccard_percent": 0.0,
+      "old_to_new_repeat_percent": null,
+      "new_to_old_repeat_percent": 0.0
+    },
+    {
+      "task": "DC",
+      "event": "loss",
+      "eligible": 816,
+      "old_events": 27,
+      "new_events": 25,
+      "both": 25,
+      "old_only": 2,
+      "new_only": 0,
+      "neither": 789,
+      "expected_overlap": 25.0,
+      "excess_overlap": 0.0,
+      "expected_given_J0": 25.0,
+      "excess_given_J0": 0.0,
+      "strata": 10,
+      "nonempty_strata": 9,
+      "variable_margin_strata": 0,
+      "both_eligible_percent": 3.0637254901960786,
+      "expected_eligible_percent": 3.0637254901960786,
+      "excess_eligible_pp": 0.0,
+      "excess_all_cases_pp": 0.0,
+      "excess_given_J0_all_cases_pp": 0.0,
+      "jaccard_percent": 92.5925925925926,
+      "old_to_new_repeat_percent": 92.5925925925926,
+      "new_to_old_repeat_percent": 100.0
+    },
+    {
+      "task": "DC",
+      "event": "gain",
+      "eligible": 184,
+      "old_events": 16,
+      "new_events": 39,
+      "both": 16,
+      "old_only": 0,
+      "new_only": 23,
+      "neither": 145,
+      "expected_overlap": 12.917808219178083,
+      "excess_overlap": 3.082191780821918,
+      "expected_given_J0": 13.295081967213115,
+      "excess_given_J0": 2.7049180327868854,
+      "strata": 10,
+      "nonempty_strata": 4,
+      "variable_margin_strata": 1,
+      "both_eligible_percent": 8.695652173913043,
+      "expected_eligible_percent": 7.02054794520548,
+      "excess_eligible_pp": 1.6751042287075644,
+      "excess_all_cases_pp": 0.3082191780821918,
+      "excess_given_J0_all_cases_pp": 0.27049180327868855,
+      "jaccard_percent": 41.02564102564103,
+      "old_to_new_repeat_percent": 100.0,
+      "new_to_old_repeat_percent": 41.02564102564103
+    },
+    {
+      "task": "PU",
+      "event": "loss",
+      "eligible": 27,
+      "old_events": 26,
+      "new_events": 25,
+      "both": 25,
+      "old_only": 1,
+      "new_only": 0,
+      "neither": 1,
+      "expected_overlap": 24.4,
+      "excess_overlap": 0.6000000000000001,
+      "expected_given_J0": 24.4,
+      "excess_given_J0": 0.6000000000000001,
+      "strata": 10,
+      "nonempty_strata": 8,
+      "variable_margin_strata": 1,
+      "both_eligible_percent": 92.5925925925926,
+      "expected_eligible_percent": 90.37037037037037,
+      "excess_eligible_pp": 2.2222222222222223,
+      "excess_all_cases_pp": 0.06000000000000001,
+      "excess_given_J0_all_cases_pp": 0.06000000000000001,
+      "jaccard_percent": 96.15384615384616,
+      "old_to_new_repeat_percent": 96.15384615384616,
+      "new_to_old_repeat_percent": 100.0
+    },
+    {
+      "task": "PU",
+      "event": "gain",
+      "eligible": 973,
+      "old_events": 43,
+      "new_events": 27,
+      "both": 7,
+      "old_only": 36,
+      "new_only": 20,
+      "neither": 910,
+      "expected_overlap": 2.904628522062733,
+      "excess_overlap": 4.095371477937267,
+      "expected_given_J0": 3.201462765957447,
+      "excess_given_J0": 3.798537234042553,
+      "strata": 10,
+      "nonempty_strata": 10,
+      "variable_margin_strata": 4,
+      "both_eligible_percent": 0.7194244604316546,
+      "expected_eligible_percent": 0.29852297246276804,
+      "excess_eligible_pp": 0.4209014879688866,
+      "excess_all_cases_pp": 0.4095371477937267,
+      "excess_given_J0_all_cases_pp": 0.3798537234042553,
+      "jaccard_percent": 11.11111111111111,
+      "old_to_new_repeat_percent": 16.27906976744186,
+      "new_to_old_repeat_percent": 25.925925925925927
+    },
+    {
+      "task": "BP",
+      "event": "loss",
+      "eligible": 546,
+      "old_events": 135,
+      "new_events": 176,
+      "both": 98,
+      "old_only": 37,
+      "new_only": 78,
+      "neither": 333,
+      "expected_overlap": 98.29817358270017,
+      "excess_overlap": -0.29817358270017214,
+      "expected_given_J0": 100.27184129429892,
+      "excess_given_J0": -2.2718412942989215,
+      "strata": 10,
+      "nonempty_strata": 8,
+      "variable_margin_strata": 5,
+      "both_eligible_percent": 17.94871794871795,
+      "expected_eligible_percent": 18.00332849500003,
+      "excess_eligible_pp": -0.054610546282082804,
+      "excess_all_cases_pp": -0.029817358270017212,
+      "excess_given_J0_all_cases_pp": -0.22718412942989213,
+      "jaccard_percent": 46.009389671361504,
+      "old_to_new_repeat_percent": 72.5925925925926,
+      "new_to_old_repeat_percent": 55.68181818181818
+    },
+    {
+      "task": "BP",
+      "event": "gain",
+      "eligible": 454,
+      "old_events": 103,
+      "new_events": 80,
+      "both": 39,
+      "old_only": 64,
+      "new_only": 41,
+      "neither": 310,
+      "expected_overlap": 30.936152502862416,
+      "excess_overlap": 8.063847497137585,
+      "expected_given_J0": 30.46005043870319,
+      "excess_given_J0": 8.539949561296812,
+      "strata": 10,
+      "nonempty_strata": 10,
+      "variable_margin_strata": 6,
+      "both_eligible_percent": 8.590308370044053,
+      "expected_eligible_percent": 6.814130507238417,
+      "excess_eligible_pp": 1.7761778628056355,
+      "excess_all_cases_pp": 0.8063847497137585,
+      "excess_given_J0_all_cases_pp": 0.8539949561296811,
+      "jaccard_percent": 27.083333333333332,
+      "old_to_new_repeat_percent": 37.86407766990291,
+      "new_to_old_repeat_percent": 48.75
+    }
+  ],
+  "history_pooled": {
+    "01": {
+      "N": 183,
+      "old_loss": 51,
+      "new_loss": 55,
+      "both_loss": 50,
+      "old_risk_percent": 27.868852459016395,
+      "new_risk_percent": 30.05464480874317,
+      "both_risk_percent": 27.3224043715847
+    },
+    "11": {
+      "N": 1206,
+      "old_loss": 137,
+      "new_loss": 171,
+      "both_loss": 98,
+      "old_risk_percent": 11.359867330016584,
+      "new_risk_percent": 14.17910447761194,
+      "both_risk_percent": 8.12603648424544
+    }
+  },
+  "history_matched": {
+    "supported_parents": 5,
+    "supported_parent_ids": [
+      41011,
+      41012,
+      41013,
+      41014,
+      41015
+    ],
+    "supported_strata": 8,
+    "overall": {
+      "old_risk_01_percent": 35.0,
+      "old_risk_11_percent": 31.560185185185183,
+      "old_rd_pp": 3.4398148148148144,
+      "new_risk_01_percent": 40.708729472774415,
+      "new_risk_11_percent": 31.813764445084672,
+      "new_rd_pp": 8.894965027689741
+    },
+    "parents": [
+      {
+        "parent": 41011,
+        "supported_strata": 1,
+        "weight_sum": 3.75,
+        "old_risk_01_percent": 75.0,
+        "old_risk_11_percent": 35.0,
+        "old_rd_pp": 40.0,
+        "new_risk_01_percent": 100.0,
+        "new_risk_11_percent": 66.66666666666667,
+        "new_rd_pp": 33.33333333333333
+      },
+      {
+        "parent": 41012,
+        "supported_strata": 2,
+        "weight_sum": 47.71134020618557,
+        "old_risk_01_percent": 0.0,
+        "old_risk_11_percent": 0.0,
+        "old_rd_pp": 0.0,
+        "new_risk_01_percent": 3.5436473638720827,
+        "new_risk_11_percent": 1.2100259291270528,
+        "new_rd_pp": 2.33362143474503
+      },
+      {
+        "parent": 41013,
+        "supported_strata": 1,
+        "weight_sum": 4.074074074074074,
+        "old_risk_01_percent": 100.0,
+        "old_risk_11_percent": 100.0,
+        "old_rd_pp": 0.0,
+        "new_risk_01_percent": 100.0,
+        "new_risk_11_percent": 60.00000000000001,
+        "new_rd_pp": 39.99999999999999
+      },
+      {
+        "parent": 41014,
+        "supported_strata": 2,
+        "weight_sum": 12.768472906403941,
+        "old_risk_01_percent": 0.0,
+        "old_risk_11_percent": 22.800925925925927,
+        "old_rd_pp": -22.800925925925927,
+        "new_risk_01_percent": 0.0,
+        "new_risk_11_percent": 31.19212962962963,
+        "new_rd_pp": -31.19212962962963
+      },
+      {
+        "parent": 41015,
+        "supported_strata": 2,
+        "weight_sum": 4.82574568288854,
+        "old_risk_01_percent": 0.0,
+        "old_risk_11_percent": 0.0,
+        "old_rd_pp": 0.0,
+        "new_risk_01_percent": 0.0,
+        "new_risk_11_percent": 0.0,
+        "new_rd_pp": 0.0
+      }
+    ]
+  },
+  "history_equal_strata_sensitivity": {
+    "supported_parents": 5,
+    "supported_parent_ids": [
+      41011,
+      41012,
+      41013,
+      41014,
+      41015
+    ],
+    "supported_strata": 8,
+    "overall": {
+      "old_risk_01_percent": 35.0,
+      "old_risk_11_percent": 38.63636363636364,
+      "old_rd_pp": -3.636363636363636,
+      "new_risk_01_percent": 40.71428571428571,
+      "new_risk_11_percent": 38.12269031781227,
+      "new_rd_pp": 2.591595396473444
+    },
+    "parents": [
+      {
+        "parent": 41011,
+        "supported_strata": 1,
+        "weight_sum": 1.0,
+        "old_risk_01_percent": 75.0,
+        "old_risk_11_percent": 35.0,
+        "old_rd_pp": 40.0,
+        "new_risk_01_percent": 100.0,
+        "new_risk_11_percent": 66.66666666666667,
+        "new_rd_pp": 33.33333333333333
+      },
+      {
+        "parent": 41012,
+        "supported_strata": 2,
+        "weight_sum": 2.0,
+        "old_risk_01_percent": 0.0,
+        "old_risk_11_percent": 0.0,
+        "old_rd_pp": 0.0,
+        "new_risk_01_percent": 3.5714285714285716,
+        "new_risk_11_percent": 1.2195121951219512,
+        "new_rd_pp": 2.3519163763066206
+      },
+      {
+        "parent": 41013,
+        "supported_strata": 1,
+        "weight_sum": 1.0,
+        "old_risk_01_percent": 100.0,
+        "old_risk_11_percent": 100.0,
+        "old_rd_pp": 0.0,
+        "new_risk_01_percent": 100.0,
+        "new_risk_11_percent": 60.0,
+        "new_rd_pp": 40.0
+      },
+      {
+        "parent": 41014,
+        "supported_strata": 2,
+        "weight_sum": 2.0,
+        "old_risk_01_percent": 0.0,
+        "old_risk_11_percent": 58.18181818181818,
+        "old_rd_pp": -58.18181818181818,
+        "new_risk_01_percent": 0.0,
+        "new_risk_11_percent": 62.72727272727273,
+        "new_rd_pp": -62.72727272727273
+      },
+      {
+        "parent": 41015,
+        "supported_strata": 2,
+        "weight_sum": 2.0,
+        "old_risk_01_percent": 0.0,
+        "old_risk_11_percent": 0.0,
+        "old_rd_pp": 0.0,
+        "new_risk_01_percent": 0.0,
+        "new_risk_11_percent": 0.0,
+        "new_rd_pp": 0.0
+      }
+    ]
+  },
+  "history_by_task": {
+    "DO": {
+      "supported_parents": 0,
+      "supported_parent_ids": [],
+      "supported_strata": 0,
+      "overall": {
+        "old_risk_01_percent": null,
+        "old_risk_11_percent": null,
+        "old_rd_pp": null,
+        "new_risk_01_percent": null,
+        "new_risk_11_percent": null,
+        "new_rd_pp": null
+      },
+      "parents": [
+        {
+          "parent": 41011,
+          "supported_strata": 0,
+          "weight_sum": 0,
+          "old_rd_pp": null,
+          "new_rd_pp": null
+        },
+        {
+          "parent": 41012,
+          "supported_strata": 0,
+          "weight_sum": 0,
+          "old_rd_pp": null,
+          "new_rd_pp": null
+        },
+        {
+          "parent": 41013,
+          "supported_strata": 0,
+          "weight_sum": 0,
+          "old_rd_pp": null,
+          "new_rd_pp": null
+        },
+        {
+          "parent": 41014,
+          "supported_strata": 0,
+          "weight_sum": 0,
+          "old_rd_pp": null,
+          "new_rd_pp": null
+        },
+        {
+          "parent": 41015,
+          "supported_strata": 0,
+          "weight_sum": 0,
+          "old_rd_pp": null,
+          "new_rd_pp": null
+        }
+      ]
+    },
+    "DC": {
+      "supported_parents": 2,
+      "supported_parent_ids": [
+        41013,
+        41015
+      ],
+      "supported_strata": 3,
+      "overall": {
+        "old_risk_01_percent": 50.0,
+        "old_risk_11_percent": 50.0,
+        "old_rd_pp": 0.0,
+        "new_risk_01_percent": 50.0,
+        "new_risk_11_percent": 30.000000000000004,
+        "new_rd_pp": 19.999999999999996
+      },
+      "parents": [
+        {
+          "parent": 41011,
+          "supported_strata": 0,
+          "weight_sum": 0,
+          "old_rd_pp": null,
+          "new_rd_pp": null
+        },
+        {
+          "parent": 41012,
+          "supported_strata": 0,
+          "weight_sum": 0,
+          "old_rd_pp": null,
+          "new_rd_pp": null
+        },
+        {
+          "parent": 41013,
+          "supported_strata": 1,
+          "weight_sum": 4.074074074074074,
+          "old_risk_01_percent": 100.0,
+          "old_risk_11_percent": 100.0,
+          "old_rd_pp": 0.0,
+          "new_risk_01_percent": 100.0,
+          "new_risk_11_percent": 60.00000000000001,
+          "new_rd_pp": 39.99999999999999
+        },
+        {
+          "parent": 41014,
+          "supported_strata": 0,
+          "weight_sum": 0,
+          "old_rd_pp": null,
+          "new_rd_pp": null
+        },
+        {
+          "parent": 41015,
+          "supported_strata": 2,
+          "weight_sum": 4.82574568288854,
+          "old_risk_01_percent": 0.0,
+          "old_risk_11_percent": 0.0,
+          "old_rd_pp": 0.0,
+          "new_risk_01_percent": 0.0,
+          "new_risk_11_percent": 0.0,
+          "new_rd_pp": 0.0
+        }
+      ]
+    },
+    "PU": {
+      "supported_parents": 0,
+      "supported_parent_ids": [],
+      "supported_strata": 0,
+      "overall": {
+        "old_risk_01_percent": null,
+        "old_risk_11_percent": null,
+        "old_rd_pp": null,
+        "new_risk_01_percent": null,
+        "new_risk_11_percent": null,
+        "new_rd_pp": null
+      },
+      "parents": [
+        {
+          "parent": 41011,
+          "supported_strata": 0,
+          "weight_sum": 0,
+          "old_rd_pp": null,
+          "new_rd_pp": null
+        },
+        {
+          "parent": 41012,
+          "supported_strata": 0,
+          "weight_sum": 0,
+          "old_rd_pp": null,
+          "new_rd_pp": null
+        },
+        {
+          "parent": 41013,
+          "supported_strata": 0,
+          "weight_sum": 0,
+          "old_rd_pp": null,
+          "new_rd_pp": null
+        },
+        {
+          "parent": 41014,
+          "supported_strata": 0,
+          "weight_sum": 0,
+          "old_rd_pp": null,
+          "new_rd_pp": null
+        },
+        {
+          "parent": 41015,
+          "supported_strata": 0,
+          "weight_sum": 0,
+          "old_rd_pp": null,
+          "new_rd_pp": null
+        }
+      ]
+    },
+    "BP": {
+      "supported_parents": 3,
+      "supported_parent_ids": [
+        41011,
+        41012,
+        41014
+      ],
+      "supported_strata": 5,
+      "overall": {
+        "old_risk_01_percent": 25.0,
+        "old_risk_11_percent": 19.266975308641975,
+        "old_rd_pp": 5.7330246913580245,
+        "new_risk_01_percent": 34.51454912129069,
+        "new_risk_11_percent": 33.02294074180779,
+        "new_rd_pp": 1.4916083794829085
+      },
+      "parents": [
+        {
+          "parent": 41011,
+          "supported_strata": 1,
+          "weight_sum": 3.75,
+          "old_risk_01_percent": 75.0,
+          "old_risk_11_percent": 35.0,
+          "old_rd_pp": 40.0,
+          "new_risk_01_percent": 100.0,
+          "new_risk_11_percent": 66.66666666666667,
+          "new_rd_pp": 33.33333333333333
+        },
+        {
+          "parent": 41012,
+          "supported_strata": 2,
+          "weight_sum": 47.71134020618557,
+          "old_risk_01_percent": 0.0,
+          "old_risk_11_percent": 0.0,
+          "old_rd_pp": 0.0,
+          "new_risk_01_percent": 3.5436473638720827,
+          "new_risk_11_percent": 1.2100259291270528,
+          "new_rd_pp": 2.33362143474503
+        },
+        {
+          "parent": 41013,
+          "supported_strata": 0,
+          "weight_sum": 0,
+          "old_rd_pp": null,
+          "new_rd_pp": null
+        },
+        {
+          "parent": 41014,
+          "supported_strata": 2,
+          "weight_sum": 12.768472906403941,
+          "old_risk_01_percent": 0.0,
+          "old_risk_11_percent": 22.800925925925927,
+          "old_rd_pp": -22.800925925925927,
+          "new_risk_01_percent": 0.0,
+          "new_risk_11_percent": 31.19212962962963,
+          "new_rd_pp": -31.19212962962963
+        },
+        {
+          "parent": 41015,
+          "supported_strata": 0,
+          "weight_sum": 0,
+          "old_rd_pp": null,
+          "new_rd_pp": null
+        }
+      ]
+    }
+  },
+  "history_common_support_coverage": {
+    "01": {
+      "supported_cases": 156,
+      "all_cases": 183
+    },
+    "11": {
+      "supported_cases": 446,
+      "all_cases": 1206
+    }
+  },
+  "leave_one_parent_out": [
+    {
+      "excluded_parent": 41011,
+      "history_old_rd_pp": -5.700231481481482,
+      "history_new_rd_pp": 2.785372951278849,
+      "history_supported_parents": 4,
+      "loss_excess_all_cases_pp": 0.07992995689655183,
+      "gain_excess_all_cases_pp": 0.4387033804449805
+    },
+    {
+      "excluded_parent": 41012,
+      "history_old_rd_pp": 4.299768518518518,
+      "history_new_rd_pp": 10.53530092592592,
+      "history_supported_parents": 4,
+      "loss_excess_all_cases_pp": 0.009432075540619624,
+      "gain_excess_all_cases_pp": 0.4762940861217741
+    },
+    {
+      "excluded_parent": 41013,
+      "history_old_rd_pp": 4.299768518518518,
+      "history_new_rd_pp": 1.1187062846121814,
+      "history_supported_parents": 4,
+      "loss_excess_all_cases_pp": 0.009432075540619624,
+      "gain_excess_all_cases_pp": 0.3379834054710891
+    },
+    {
+      "excluded_parent": 41014,
+      "history_old_rd_pp": 10.0,
+      "history_new_rd_pp": 18.916738692019585,
+      "history_supported_parents": 4,
+      "loss_excess_all_cases_pp": -0.0587791313559322,
+      "gain_excess_all_cases_pp": 0.36855599088367885
+    },
+    {
+      "excluded_parent": 41015,
+      "history_old_rd_pp": 4.299768518518518,
+      "history_new_rd_pp": 11.118706284612177,
+      "history_supported_parents": 4,
+      "loss_excess_all_cases_pp": -0.0022866744593803764,
+      "gain_excess_all_cases_pp": 0.2836394815655738
+    }
+  ],
+  "uncertainty": {
+    "loss_excess_all_cases_pp": {
+      "estimate": 0.007545660432495699,
+      "case_interval": [
+        -0.13521435898840828,
+        0.15028641028116402
+      ],
+      "parent_descriptive_interval": [
+        -0.15981991525423728,
+        0.16370689655172438
+      ],
+      "parent_draws_without_support": 0
+    },
+    "gain_excess_all_cases_pp": {
+      "estimate": 0.3810352688974193,
+      "case_interval": [
+        0.20608336241328495,
+        0.5472286401764556
+      ],
+      "parent_descriptive_interval": [
+        0.14072110906198282,
+        0.6157349325214926
+      ],
+      "parent_draws_without_support": 0
+    },
+    "history_old_rd_pp": {
+      "estimate": 3.4398148148148144,
+      "case_interval": [
+        -6.891203703703704,
+        10.449074074074073
+      ],
+      "parent_descriptive_interval": [
+        -13.680555555555557,
+        24.0
+      ],
+      "parent_draws_without_support": 0
+    },
+    "history_new_rd_pp": {
+      "estimate": 8.894965027689741,
+      "case_interval": [
+        0.06979581812798244,
+        18.407853414401867
+      ],
+      "parent_descriptive_interval": [
+        -12.04861111111111,
+        30.666666666666664
+      ],
+      "parent_draws_without_support": 0
+    },
+    "loss_excess_given_J0_pp": {
+      "estimate": -0.041796032357473034,
+      "case_interval": [
+        -0.18352032774781715,
+        0.099108741011813
+      ],
+      "parent_descriptive_interval": [
+        -0.19731991525423725,
+        0.05522727272727272
+      ],
+      "parent_draws_without_support": 0
+    },
+    "gain_excess_given_J0_pp": {
+      "estimate": 0.37608512070315625,
+      "case_interval": [
+        0.2115091616302438,
+        0.5288235342264638
+      ],
+      "parent_descriptive_interval": [
+        0.15020094562647757,
+        0.6162301725204092
+      ],
+      "parent_draws_without_support": 0
+    }
+  },
+  "bootstrap_config": {
+    "case_replicates": 20000,
+    "case_seed": 550303,
+    "case_resampling": "within parent x task x joint history (J0,J8_prefix4201,J8_prefix4202), resample the same number of case indices with replacement; share indices across both prefixes and futures, preserving observed history denominators",
+    "case_scope": "conditional on trained policies and observed baseline-history composition; not new training futures or population confirmation",
+    "interval": "pointwise percentile 2.5/97.5, linear; exploratory, no multiple-testing or progression claim",
+    "parent_resampling": "all 3125 ordered five-parent draws after within-parent aggregation; descriptive only"
+  },
+  "source_summary_sha256": "f544e7d205fede7ee2542920aaed4935ac5c55e7e4084a54a554152385797914",
+  "limitations": [
+    "Exploratory hypotheses developed after prior outcomes; no confirmatory independence.",
+    "Only two futures per state, five parents, known O100 case bank.",
+    "Chance excess may reflect shared case difficulty; no causal mechanism demonstrated.",
+    "History groups are observational, not randomized mastery age.",
+    "Case intervals condition on observed history composition and fixed trained policies.",
+    "Do not infer relative gain/loss repeatability from raw overlap with different prevalences.",
+    "Selection development and original C/stages2/3 remain held."
+  ]
+}

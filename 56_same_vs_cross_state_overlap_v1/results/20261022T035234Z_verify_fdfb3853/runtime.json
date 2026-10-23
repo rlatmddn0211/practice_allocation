@@ -1,0 +1,18 @@
+{
+  "started_utc": "2026-10-22T03:52:34.742727+00:00",
+  "finished_utc": "2026-10-22T03:52:37.248382+00:00",
+  "wall_seconds": 2.5059724000748247,
+  "cpu_seconds": 0.9375,
+  "python": "3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)]",
+  "numpy": "2.2.4",
+  "platform": "Windows-11-10.0.22621-SP0",
+  "command": [
+    "56_same_vs_cross_state_overlap_v1\\run.py",
+    "verify",
+    "56_same_vs_cross_state_overlap_v1\\results\\20261022T035037Z_analyze_9e4e0e84"
+  ],
+  "training_steps": 0,
+  "evaluation_steps": 0,
+  "gpu_used": false,
+  "successful": true
+}

@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "checks": 4117,
+  "failed_checks": [],
+  "exact_primary_scores": [
+    "1389/40",
+    "263/8",
+    "71/2",
+    "31/40",
+    "21/8"
+  ],
+  "joint_lower_bounds_pp": [
+    0.07500000000000007,
+    1.925
+  ],
+  "source_hashes": {
+    "verify.py": "a94bb5acbc306de8d5a841a82cbbfa118b46ce6dd7aca6956e85180b1138074b"
+  },
+  "analysis": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\54_same_state_future_replication_analysis_v1\\results\\20261022T021845Z_analysis_98fe07c3",
+  "analysis_summary_sha256": "f544e7d205fede7ee2542920aaed4935ac5c55e7e4084a54a554152385797914",
+  "bootstrap_file_sha256": "24fe0b1a41735032ac4a0ea0a692f2689d1e20d5b4e94d8ee90d759bf5098a03",
+  "python": "3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)]",
+  "numpy": "2.2.4",
+  "platform": "Windows-11-10.0.22621-SP0",
+  "wall_seconds": 0.7916814000345767,
+  "cpu_seconds": 0.234375,
+  "environment_steps": 0,
+  "SAC_updates": 0
+}

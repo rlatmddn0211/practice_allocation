@@ -1,0 +1,52 @@
+{
+  "version": "56_same_vs_cross_state_overlap_v1",
+  "status": "exploratory_existing_data_contrast_after_version55_feedback",
+  "input": "54_same_state_future_replication_analysis_v1/results/20261022T021845Z_analysis_98fe07c3/paired_outcomes.csv",
+  "input_sha256": "7c75c6186ae833ecfb3f9a71180c87bcd7aec37137ee6cd85c6490eec3750efb",
+  "prior54": "54_same_state_future_replication_analysis_v1/results/20261022T021845Z_analysis_98fe07c3",
+  "prior54_summary_sha256": "f544e7d205fede7ee2542920aaed4935ac5c55e7e4084a54a554152385797914",
+  "prior55": "55_casewise_gain_loss_repeatability_v1/results/20261022T031427Z_analysis_a137ba0b",
+  "prior55_summary_sha256": "c8bcbcb189933d5ea0658c92eaa8ae93afaf27705398e33797e9fcb3f20b4903",
+  "campaign52": "52_same_state_future_replication_v1/results/20261020T094942Z_future_replication_bbc18607",
+  "state_manifest": "52_same_state_future_replication_v1/inputs/state_manifest.json",
+  "state_manifest_sha256": "63728184cc1cdf4dcccacfd7140fc3c1e66908c4bef5c7f8182b4f0a7f953607",
+  "parents": [41011,41012,41013,41014,41015],
+  "prefixes": [4201,4202],
+  "tasks": ["DO","DC","PU","BP"],
+  "cases_per_parent_task": 100,
+  "events": ["loss","gain"],
+  "common_eligibility": {"gain":"both prefixes have J8=0", "loss":"both prefixes have J8=1"},
+  "pairs": [[0,0],[1,1],[0,1],[1,0]],
+  "metric": {
+    "stratum": "parent x task x common J8 eligibility",
+    "pair_excess": "T_ab=m_ab-n_old_a*n_new_b/N; empty strata contribute zero",
+    "same": "(T_11+T_22)/2",
+    "cross": "(T_12+T_21)/2",
+    "contrast": "D=same-cross on exactly the same cases",
+    "primary_scale": "100*sum(D)/2000 = sum(D)/20 percentage points of all parent-task-case slots; parents and tasks equal weight; not performance gain",
+    "secondary_scale": "100*sum(D)/sum(N), descriptive eligible-case normalization, not a different primary weighting",
+    "pair_counts": "sum of pair-averaged counts; not number of distinct cases across four pairs",
+    "support": "N, event counts, overlap bounds, T_min, T_max, variable margins for every pair",
+    "no_division_by_zero": "empty stratum contribution zero, eligible rates undefined",
+    "sensitivity": ["all five leave-one-parent-out summaries", "per-parent and per-task summaries", "common eligibility coverage relative to version55", "J0-stratified expectation on the same common set"]
+  },
+  "uncertainty": {
+    "case_replicates": 20000,
+    "case_seed": 560303,
+    "case_resampling": "within parent x task x joint baseline history (J0,J8_4201,J8_4202); same sampled indices for all four endpoint policies, all four pairs and both event analyses",
+    "case_scope": "fixed trained policies and observed joint baseline composition; excludes new training-future variance",
+    "interval": "pointwise percentile 2.5/97.5 linear, exploratory, no confirmatory gate",
+    "parent_resampling": "all 3125 ordered draws of five parents after within-parent aggregation; descriptive, not independent confirmation",
+    "paired_contrast": "compute D in each replicate, never subtract independently constructed CI limits"
+  },
+  "interpretation": {
+    "frozen_before_first_contrast_execution_but_after_prior_data_seen": true,
+    "four_pairs_are_not_independent_repeats": true,
+    "common_support_population_is_restricted": true,
+    "state_association_not_causal_component_effect": true,
+    "shared_case_propensity_not_assumed_absent": true,
+    "no_new_learning_evaluation_or_rule_fitting": true,
+    "new_environment_steps": 0,
+    "previous_selection_gate": "not_passed_unchanged"
+  }
+}

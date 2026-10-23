@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "checks": 171,
+  "failed_checks": [],
+  "source_and_document_hashes": {
+    "54_same_state_future_replication_analysis_v1\\evidence_record_ko.md": "5287e1aaf50903fca3dc516116c35e50dc27b20a49b425809fe71bc933e51487",
+    "54_same_state_future_replication_analysis_v1\\README.md": "fe58c8ccb7115960de165783211775de898035917003ed22d503bceb5e213831",
+    "54_same_state_future_replication_analysis_v1\\report_ko.md": "f84107175d51f949613ea8480ef1de7d7e1e09c05a3a549db539857aba2a8145",
+    "54_same_state_future_replication_analysis_v1\\analyze.py": "ed0a38297e684bd0e8a24f3710d33abe344cf53e575c7ac1cdd453712a013bd1",
+    "54_same_state_future_replication_analysis_v1\\make_figure.py": "6fcb0e49a581e4848dfec7c7a0bbf9daefa1a660d17f0caf4989b54b9c9ae348",
+    "54_same_state_future_replication_analysis_v1\\verify.py": "a94bb5acbc306de8d5a841a82cbbfa118b46ce6dd7aca6956e85180b1138074b",
+    "54_same_state_future_replication_analysis_v1\\verify_delivery.py": "c933b20005762dc3b483c3e07994d71bdeaaea61b4c7793782b383a27a643f39",
+    "54_same_state_future_replication_analysis_v1\\analysis_config.json": "68a4a04189a93de0de53d5914c8a96eba520b34fcedc31bce599ba7929853d6b",
+    "README.md": "4a9db4ce61a8f1ec00ae0f0f53c7eca4dce9d9d3cb698843e6424c57b220ea43"
+  },
+  "analysis_summary_sha256": "f544e7d205fede7ee2542920aaed4935ac5c55e7e4084a54a554152385797914",
+  "environment_steps": 0,
+  "wall_seconds": 0.015669999993406236,
+  "figure_visual_review": "PNG inspected; labels, axes, legends and footnotes readable; realized values not presented as expectation estimates"
+}

@@ -1,0 +1,16 @@
+{
+  "original_8k_checkpoint": {
+    "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\44_selection_value_stage1_checkpoint36_v2\\results\\20261019T064658Z_stage1_2cbbdd65\\jobs\\B_s41015_r4201_dose625_t8000\\a01_e5391d30\\checkpoint",
+    "manifest_sha256": "084d96e80f02a7ca338dd0073aa3f3a51686635e02f636758093cebe4d53e1de"
+  },
+  "future_id": 3,
+  "absolute_step": 208000,
+  "full_state_fingerprints": {
+    "learning": "5ff8e298dd46537f2fa9c353ee0d7029d098d86ce58969c45b4788d35270686d",
+    "replay": "f3dae72c4fd347014fbd5451a1d9cb80f57135c9c4801aabf77927dc16de00c0",
+    "collector": "3ac52a092be56e5ed45a103c0785c6d88a2650740ce63c7ca4910d6ff97964f9",
+    "rng": "01fb803244b59d05dcd0fa2d27e16f070522d4ba1df315d034cc5f2c747568ef"
+  },
+  "environment_steps_before_fork": 0,
+  "independent_of_technical_rollouts": true
+}
