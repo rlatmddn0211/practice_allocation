@@ -1,0 +1,53 @@
+{
+  "training_steps": 32000,
+  "SAC_updates": 32000,
+  "collected_by_task": {
+    "DO": 4000,
+    "DC": 4000,
+    "PU": 4000,
+    "BP": 20000
+  },
+  "exact_episode_order": true,
+  "checkpoints": [
+    {
+      "relative_step": 4000,
+      "absolute_step": 212000,
+      "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\64_gain_loss_recovery_baseline_v1\\results\\20261027T064706Z_baseline_1d8fb9bf\\jobs\\B_s41012_p4201_dose625_N2\\20261027T085326Z_a_abc05a1c\\checkpoints\\absolute_212000",
+      "manifest_sha256": "a5d0f8091bf16a7ed6584c717535dde6f98da679d17e53661283fdc0072e4021",
+      "telemetry_state": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\64_gain_loss_recovery_baseline_v1\\results\\20261027T064706Z_baseline_1d8fb9bf\\jobs\\B_s41012_p4201_dose625_N2\\20261027T085326Z_a_abc05a1c\\checkpoints\\absolute_212000\\telemetry_state.pkl",
+        "sha256": "5707f6d201955e835e9cf07ae907419246a8f8eb4b02a85f49b770ca92a72208"
+      }
+    },
+    {
+      "relative_step": 8000,
+      "absolute_step": 216000,
+      "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\64_gain_loss_recovery_baseline_v1\\results\\20261027T064706Z_baseline_1d8fb9bf\\jobs\\B_s41012_p4201_dose625_N2\\20261027T085326Z_a_abc05a1c\\checkpoints\\absolute_216000",
+      "manifest_sha256": "1f032bca3bc7148774c3d353283520cb46086cca8bee027c984030dc3aabe4d7",
+      "telemetry_state": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\64_gain_loss_recovery_baseline_v1\\results\\20261027T064706Z_baseline_1d8fb9bf\\jobs\\B_s41012_p4201_dose625_N2\\20261027T085326Z_a_abc05a1c\\checkpoints\\absolute_216000\\telemetry_state.pkl",
+        "sha256": "fe63e6f12dd934c0a7eef3ae08a8e64b82c5b17dce15d41892db602326fbe413"
+      }
+    },
+    {
+      "relative_step": 16000,
+      "absolute_step": 224000,
+      "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\64_gain_loss_recovery_baseline_v1\\results\\20261027T064706Z_baseline_1d8fb9bf\\jobs\\B_s41012_p4201_dose625_N2\\20261027T085326Z_a_abc05a1c\\checkpoints\\absolute_224000",
+      "manifest_sha256": "ee2d09bac070245aeda02be10ed48fa15730e920714edd7bb4ce08c8be379908",
+      "telemetry_state": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\64_gain_loss_recovery_baseline_v1\\results\\20261027T064706Z_baseline_1d8fb9bf\\jobs\\B_s41012_p4201_dose625_N2\\20261027T085326Z_a_abc05a1c\\checkpoints\\absolute_224000\\telemetry_state.pkl",
+        "sha256": "d0d8cfb80807a8b0fa915d8ca9581814f8c957e0886748a620e6b740996f4ade"
+      }
+    },
+    {
+      "relative_step": 32000,
+      "absolute_step": 240000,
+      "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\64_gain_loss_recovery_baseline_v1\\results\\20261027T064706Z_baseline_1d8fb9bf\\jobs\\B_s41012_p4201_dose625_N2\\20261027T085326Z_a_abc05a1c\\checkpoints\\absolute_240000",
+      "manifest_sha256": "32039b9465ba00c39f06aa15743fbb60645910d6f5169c3edefd81d40a3034c9",
+      "telemetry_state": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\64_gain_loss_recovery_baseline_v1\\results\\20261027T064706Z_baseline_1d8fb9bf\\jobs\\B_s41012_p4201_dose625_N2\\20261027T085326Z_a_abc05a1c\\checkpoints\\absolute_240000\\telemetry_state.pkl",
+        "sha256": "91f362575122ac84ae51e6b10b2171f7577895401e4a4a34ab00b209f53623a0"
+      }
+    }
+  ]
+}

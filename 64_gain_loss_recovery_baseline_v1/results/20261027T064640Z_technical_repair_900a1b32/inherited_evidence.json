@@ -1,0 +1,19 @@
+{
+  "prior_summary": {
+    "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\64_gain_loss_recovery_baseline_v1\\results\\20261027T064040Z_technical_a47c3a21\\summary.json",
+    "sha256": "5427fbda71db73a7ace16c5de8c2c3c28631e6d7ba60bc7bb99eb94acc1737e8"
+  },
+  "prior_checks": {
+    "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\64_gain_loss_recovery_baseline_v1\\results\\20261027T064040Z_technical_a47c3a21\\checks.jsonl",
+    "sha256": "0a8bd4be892dc712587ebba2830ed2dfca60e696c41d6bd49ec7abf44004e0c2"
+  },
+  "all_forks": {
+    "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\64_gain_loss_recovery_baseline_v1\\results\\20261027T064040Z_technical_a47c3a21\\all_forks.json",
+    "sha256": "1f2f549ee2693273c5fe63299c4a226029de3a30a97df40ae61dada6981fc9b4"
+  },
+  "prior_source_snapshot_map": {
+    "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\64_gain_loss_recovery_baseline_v1\\results\\20261027T064040Z_technical_a47c3a21\\source_snapshot_map.json",
+    "sha256": "b64a345e41928243e930a15183e1a8feebd41cc7fda6ae5dd058d7b992601b58"
+  },
+  "scope": "All unchanged train/restore/RNG/logging/resume code is certified by retained exact prior traces. Only a post-rollout task-summary expression changed; that expression is verified by a fresh isolated exact case."
+}

@@ -193,3 +193,51 @@
   original stages 2/3, new selectors and causal interventions remain outside this
   authorization. Distinguish technical completion, scientific evidence and
   subsequent investment decisions in the eventual result record.
+
+- On 2026-10-27 the user explicitly authorized the final twenty-branch baseline
+  study of success retention/acquisition/loss/recovery. Implement independently in
+  version 64 from parents41011--41015, only prefix4201's original208k full state:
+  UNIFORM and BP625 collection, two new paired futures each,32k per branch.
+  Preserve the original SAC/environment and exhausted8k shuffle-block semantics;
+  do not restart warm-up, replay or optimizer. Freeze outcome-blind nested E50/T20
+  banks and unused seed streams before technical execution. Certify full-state
+  restoration, passive250-step telemetry and isolated1k probes by logging-on/off
+  and lossless-resume checks within a cumulative10k technical environment cap.
+  Total all-attempt environment cap is6.05M, training640k; reuse P/S evaluations
+  only with full provenance/contract verification. Save80 full checkpoints at
+  S+4k/8k/16k/32k, retain every failed attempt and its costs, no automatic retries
+  or seed replacement. Complete all authorized paths regardless of scientific
+  direction, stopping for integrity failure or exhausted caps. Analyze paired
+  cases/parents/futures without treating twenty paths as twenty parents. This is
+  development evidence, not a new selector or preservation efficacy test. New
+  parents, MT10/CW expansion, preservation interventions and original stages2/3
+  remain separate unexecuted stages requiring their own frozen scope.
+
+- Later on2026-10-27 the user explicitly requested queuing the first retention
+  intervention after baseline64, and approved the concrete forty-path proposal:
+  five fixed prefix4201 S states, BP625 only, two new paired futures, four arms
+  A stock SAC/B actor LR half/C general-memory fixed-S teacher preservation/
+  D success-episode-memory identical preservation,32k each. Implement independently
+  in66. Fixed forward teacher-to-current Gaussian KL coefficient1 in the same
+  actor step; critic/alpha/RL replay unchanged. Match C/D task,25k birth-age bins,
+  distinct-episode quotas and observations; use identical general fallback when
+  no successful historical episode exists, and disclose support/teacher limits.
+  Training1.28M, evaluation at most8.8M, cumulative technical20k, total all-attempt
+  cap10.10M; no automatic retries or seed replacement. Wait for the exact pinned
+  baseline64 campaign's20-path completion plus analysis/independent verification,
+  then certify exact restore, RNG isolation, lambda-zero equivalence and lossless
+  intervention resume before research. All research restores original S again.
+  User approved the Windows detached-queue fallback because tmux/usable WSL is
+  absent; do not install/reboot/migrate the running experiment to satisfy tmux.
+  Preserve64 unchanged, every failed attempt, seeds, sources and physical costs.
+  Record technical completion separately from scientific efficacy. This request
+  does not authorize new parents, MT10/CW, primitive-skill interventions or the
+  originally held C/stages2/3.
+  During queue preparation, a string-valued CSV length summation defect was
+  found in frozen64's post-completion analysis. Preserve64 and its eventual
+  failed analysis. Independent67 contains only the integer-cast repair plus
+  identical copied inputs and unchanged independent verifier. The66 dependency
+  queue may recover this exact known file-only error once after all20 research
+  paths pass full hash/restore/cost audits, and requires the repaired full
+  analysis and independent verification before progression. No other failure,
+  partial result, learning retry or evaluation rerun is licensed by this repair.

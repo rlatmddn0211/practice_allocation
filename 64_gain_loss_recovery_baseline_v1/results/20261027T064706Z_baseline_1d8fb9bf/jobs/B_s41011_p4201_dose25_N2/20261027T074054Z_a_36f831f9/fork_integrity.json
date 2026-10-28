@@ -1,0 +1,89 @@
+{
+  "before": {
+    "learning": "aef07e3a1d92b2de0eac7784f6e1b289a5fc504aed30c97fa786357944e721b8",
+    "replay": "cdeee3e12d24ed0d47d041a5d767d1dbe9a966f1ea5b8a56b43f705d5d42080f",
+    "collector_except_future_rng_and_candidate": "915abb84c6ec5a075a52c8f0f142b94ff31e00565feb8636f50c3f1e08592f14",
+    "config": "750cd088b89394157bf2c65f088ce06feef13d71e42246c478435bb4a9d17814"
+  },
+  "after": {
+    "learning": "aef07e3a1d92b2de0eac7784f6e1b289a5fc504aed30c97fa786357944e721b8",
+    "replay": "cdeee3e12d24ed0d47d041a5d767d1dbe9a966f1ea5b8a56b43f705d5d42080f",
+    "collector_except_future_rng_and_candidate": "915abb84c6ec5a075a52c8f0f142b94ff31e00565feb8636f50c3f1e08592f14",
+    "config": "750cd088b89394157bf2c65f088ce06feef13d71e42246c478435bb4a9d17814"
+  },
+  "schedule_before": {
+    "candidate": "dose625",
+    "rng": {
+      "bit_generator": "PCG64",
+      "state": {
+        "state": 282581890516647390087077843850096519431,
+        "inc": 305425420268871967825913100473337215805
+      },
+      "has_uint32": 1,
+      "uinteger": 1202073481
+    },
+    "block": [
+      3,
+      3,
+      3,
+      1,
+      2,
+      0,
+      3,
+      3,
+      3,
+      0,
+      3,
+      1,
+      3,
+      3,
+      3,
+      2
+    ],
+    "position": 16,
+    "blocks_generated": 1
+  },
+  "schedule_after": {
+    "candidate": "dose25",
+    "rng": {
+      "bit_generator": "PCG64",
+      "state": {
+        "state": 265523783007715075062227041168596218153,
+        "inc": 274319693297579812436733421603820138849
+      },
+      "has_uint32": 0,
+      "uinteger": 0
+    },
+    "block": [
+      3,
+      3,
+      3,
+      1,
+      2,
+      0,
+      3,
+      3,
+      3,
+      0,
+      3,
+      1,
+      3,
+      3,
+      3,
+      2
+    ],
+    "position": 16,
+    "blocks_generated": 1
+  },
+  "global_rng_streams_changed": {
+    "python": true,
+    "numpy": true,
+    "torch_cpu": true,
+    "torch_cuda": true
+  },
+  "condition": "dose25",
+  "root_seed": 1016908449,
+  "preserved_visits_and_queue": true,
+  "replay_branch_boundary_preserved": 200000,
+  "telemetry_new_experience_boundary": 208000
+}

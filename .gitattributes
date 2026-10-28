@@ -86,3 +86,9 @@
 40_research_progress_external_review_v1/results/**/input_snapshot/LOCAL_PRACTICE_ALLOCATION_PILOT_DESIGN_20261007.md whitespace=cr-at-eol,-blank-at-eol
 # Keep the validated report bundle intact, including generated whitespace.
 17_e0_e2_detailed_research_report_v1/**/dist/index.html -diff
+# Preserve frozen retention experiment and publication evidence byte-for-byte.
+64_gain_loss_recovery_baseline_v1/** -text whitespace=cr-at-eol
+66_retention_intervention_queue_v1/** -text whitespace=cr-at-eol
+67_baseline_analysis_repair_v1/** -text whitespace=cr-at-eol
+68_retention_intervention_result_review_v1/** -text whitespace=cr-at-eol
+70_retention_results_github_publication_v1/** -text whitespace=cr-at-eol

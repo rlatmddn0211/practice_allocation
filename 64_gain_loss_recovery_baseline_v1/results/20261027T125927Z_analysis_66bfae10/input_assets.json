@@ -1,0 +1,191 @@
+[
+  {
+    "role": "protocol",
+    "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\64_gain_loss_recovery_baseline_v1\\protocol.json",
+    "sha256": "04b4c6545e58051b8156abaf73b0484621d15a177b2ea64a8aad180244496a3e",
+    "snapshot": "input_snapshot\\04b4c6545e58051b8156abaf73b0484621d15a177b2ea64a8aad180244496a3e.json",
+    "bytes": 8697
+  },
+  {
+    "role": "P_S_outcomes",
+    "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\64_gain_loss_recovery_baseline_v1\\inputs\\baseline_rows.csv",
+    "sha256": "ab0cd26b2786c3c63ba7c2ce7c943de1c01dca49a0cd06231ac7d7d32650443d",
+    "snapshot": "input_snapshot\\ab0cd26b2786c3c63ba7c2ce7c943de1c01dca49a0cd06231ac7d7d32650443d.csv",
+    "bytes": 441036
+  },
+  {
+    "role": "evaluation_subsets",
+    "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\64_gain_loss_recovery_baseline_v1\\inputs\\evaluation_cases.json",
+    "sha256": "811e935e5ef993311189f5e45572aff6a6fe8633abd1f54031a3d25413b2a089",
+    "snapshot": "input_snapshot\\811e935e5ef993311189f5e45572aff6a6fe8633abd1f54031a3d25413b2a089.json",
+    "bytes": 461857
+  },
+  {
+    "role": "frozen_jobs",
+    "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\64_gain_loss_recovery_baseline_v1\\inputs\\jobs.json",
+    "sha256": "395235b5eb9384b80bccc2e9ea9258d4082faa8801559f22f6164928b96f5347",
+    "snapshot": "input_snapshot\\395235b5eb9384b80bccc2e9ea9258d4082faa8801559f22f6164928b96f5347.json",
+    "bytes": 8518
+  },
+  {
+    "role": "frozen_states",
+    "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\64_gain_loss_recovery_baseline_v1\\inputs\\state_manifest.json",
+    "sha256": "685bfcbae3e9739932e8c13931e36f2242dcf510c4d71bf3ea3b4ee4ab218499",
+    "snapshot": "input_snapshot\\685bfcbae3e9739932e8c13931e36f2242dcf510c4d71bf3ea3b4ee4ab218499.json",
+    "bytes": 31182
+  },
+  {
+    "role": "campaign_plan",
+    "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\64_gain_loss_recovery_baseline_v1\\results\\20261027T064706Z_baseline_1d8fb9bf\\plan.json",
+    "sha256": "4ee0e609edc209ab95b36dd9069af9cab1d2d86c53604755adbece71a4e577e0",
+    "snapshot": "input_snapshot\\4ee0e609edc209ab95b36dd9069af9cab1d2d86c53604755adbece71a4e577e0.json",
+    "bytes": 79102
+  },
+  {
+    "role": "pinned_protocol_input",
+    "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\64_gain_loss_recovery_baseline_v1\\inputs\\seed_collision_audit.json",
+    "sha256": "c2ee7a4604b9ff221ef729ce8ca66472db06cb6fc5cf86a71a6668dc8f61e96d",
+    "snapshot": "input_snapshot\\c2ee7a4604b9ff221ef729ce8ca66472db06cb6fc5cf86a71a6668dc8f61e96d.json",
+    "bytes": 32819
+  },
+  {
+    "role": "pinned_protocol_input",
+    "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\64_gain_loss_recovery_baseline_v1\\inputs\\cases_41011.json",
+    "sha256": "e7f19ef05f165a0ccb5da8a1cfdf8479b2421171d85e2d074aa084f247b36dad",
+    "snapshot": "input_snapshot\\e7f19ef05f165a0ccb5da8a1cfdf8479b2421171d85e2d074aa084f247b36dad.json",
+    "bytes": 615606
+  },
+  {
+    "role": "pinned_protocol_input",
+    "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\64_gain_loss_recovery_baseline_v1\\inputs\\episode_labels_41011.json",
+    "sha256": "05b83e42126d9a45fc9c77d0476d18f8157d430f9e86bd8058af83bfdf76567c",
+    "snapshot": "input_snapshot\\05b83e42126d9a45fc9c77d0476d18f8157d430f9e86bd8058af83bfdf76567c.json",
+    "bytes": 84933
+  },
+  {
+    "role": "pinned_protocol_input",
+    "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\64_gain_loss_recovery_baseline_v1\\inputs\\cases_41012.json",
+    "sha256": "0b34518b4f528af5dd981d71a86094d1b256da58d955d38844f691e0b1850c0e",
+    "snapshot": "input_snapshot\\0b34518b4f528af5dd981d71a86094d1b256da58d955d38844f691e0b1850c0e.json",
+    "bytes": 615618
+  },
+  {
+    "role": "pinned_protocol_input",
+    "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\64_gain_loss_recovery_baseline_v1\\inputs\\episode_labels_41012.json",
+    "sha256": "cea378b673d3edbf332c17cc11e17d80e17705f66280b60c5e2af955c4bcf23d",
+    "snapshot": "input_snapshot\\cea378b673d3edbf332c17cc11e17d80e17705f66280b60c5e2af955c4bcf23d.json",
+    "bytes": 84924
+  },
+  {
+    "role": "pinned_protocol_input",
+    "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\64_gain_loss_recovery_baseline_v1\\inputs\\cases_41013.json",
+    "sha256": "38187155bbed3e2198d4b50fabeae083d8fa628176e7e3c97439b325b022c840",
+    "snapshot": "input_snapshot\\38187155bbed3e2198d4b50fabeae083d8fa628176e7e3c97439b325b022c840.json",
+    "bytes": 615660
+  },
+  {
+    "role": "pinned_protocol_input",
+    "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\64_gain_loss_recovery_baseline_v1\\inputs\\episode_labels_41013.json",
+    "sha256": "fed6f06d86150912210ff8e38a92aa00a0025be3818404c9b1286a3af4317dab",
+    "snapshot": "input_snapshot\\fed6f06d86150912210ff8e38a92aa00a0025be3818404c9b1286a3af4317dab.json",
+    "bytes": 85046
+  },
+  {
+    "role": "pinned_protocol_input",
+    "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\64_gain_loss_recovery_baseline_v1\\inputs\\cases_41014.json",
+    "sha256": "05cb136886b628094c8f34b0713e456c0d0308b677a6a7ba1586bb5103d92d63",
+    "snapshot": "input_snapshot\\05cb136886b628094c8f34b0713e456c0d0308b677a6a7ba1586bb5103d92d63.json",
+    "bytes": 615668
+  },
+  {
+    "role": "pinned_protocol_input",
+    "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\64_gain_loss_recovery_baseline_v1\\inputs\\episode_labels_41014.json",
+    "sha256": "7765d5eba02aadf34ffb8466fe06210ad34c001de41dd1e66b9589aa671c10af",
+    "snapshot": "input_snapshot\\7765d5eba02aadf34ffb8466fe06210ad34c001de41dd1e66b9589aa671c10af.json",
+    "bytes": 84948
+  },
+  {
+    "role": "pinned_protocol_input",
+    "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\64_gain_loss_recovery_baseline_v1\\inputs\\cases_41015.json",
+    "sha256": "810de7876af0b2a0d6ce5e68ecb4d5d1d85afacac5eb3195ccd512c13313196b",
+    "snapshot": "input_snapshot\\810de7876af0b2a0d6ce5e68ecb4d5d1d85afacac5eb3195ccd512c13313196b.json",
+    "bytes": 615629
+  },
+  {
+    "role": "pinned_protocol_input",
+    "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\64_gain_loss_recovery_baseline_v1\\inputs\\episode_labels_41015.json",
+    "sha256": "99fab4e1d3f004a4c60ad2cf924592d80461870ecf4408f8497f344195b855da",
+    "snapshot": "input_snapshot\\99fab4e1d3f004a4c60ad2cf924592d80461870ecf4408f8497f344195b855da.json",
+    "bytes": 84952
+  },
+  {
+    "role": "pinned_protocol_input",
+    "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\64_gain_loss_recovery_baseline_v1\\inputs\\evaluation_cases.json",
+    "sha256": "811e935e5ef993311189f5e45572aff6a6fe8633abd1f54031a3d25413b2a089",
+    "snapshot": "input_snapshot\\811e935e5ef993311189f5e45572aff6a6fe8633abd1f54031a3d25413b2a089.json",
+    "bytes": 461857
+  },
+  {
+    "role": "pinned_protocol_input",
+    "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\64_gain_loss_recovery_baseline_v1\\inputs\\jobs.json",
+    "sha256": "395235b5eb9384b80bccc2e9ea9258d4082faa8801559f22f6164928b96f5347",
+    "snapshot": "input_snapshot\\395235b5eb9384b80bccc2e9ea9258d4082faa8801559f22f6164928b96f5347.json",
+    "bytes": 8518
+  },
+  {
+    "role": "pinned_protocol_input",
+    "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\64_gain_loss_recovery_baseline_v1\\inputs\\baseline_rows.csv",
+    "sha256": "ab0cd26b2786c3c63ba7c2ce7c943de1c01dca49a0cd06231ac7d7d32650443d",
+    "snapshot": "input_snapshot\\ab0cd26b2786c3c63ba7c2ce7c943de1c01dca49a0cd06231ac7d7d32650443d.csv",
+    "bytes": 441036
+  },
+  {
+    "role": "pinned_protocol_input",
+    "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\64_gain_loss_recovery_baseline_v1\\inputs\\baseline_reuse_certificates.json",
+    "sha256": "cb6c7466535709ec46247f910a6954bbb2abcbf8a92bfdf7a8c8ff1981448441",
+    "snapshot": "input_snapshot\\cb6c7466535709ec46247f910a6954bbb2abcbf8a92bfdf7a8c8ff1981448441.json",
+    "bytes": 11478
+  },
+  {
+    "role": "pinned_protocol_input",
+    "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\64_gain_loss_recovery_baseline_v1\\inputs\\state_manifest.json",
+    "sha256": "685bfcbae3e9739932e8c13931e36f2242dcf510c4d71bf3ea3b4ee4ab218499",
+    "snapshot": "input_snapshot\\685bfcbae3e9739932e8c13931e36f2242dcf510c4d71bf3ea3b4ee4ab218499.json",
+    "bytes": 31182
+  },
+  {
+    "role": "pinned_protocol_input",
+    "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\64_gain_loss_recovery_baseline_v1\\inputs\\provenance.json",
+    "sha256": "9b1529498bfa6fb18a0b17963d1075c88cecf31adfdc1a82c6a7cdf2dd2bb856",
+    "snapshot": "input_snapshot\\9b1529498bfa6fb18a0b17963d1075c88cecf31adfdc1a82c6a7cdf2dd2bb856.json",
+    "bytes": 80534
+  },
+  {
+    "role": "completed_marker",
+    "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\64_gain_loss_recovery_baseline_v1\\results\\20261027T064706Z_baseline_1d8fb9bf\\completed\\B_s41011_p4201_dose25_N1.json",
+    "sha256": "ce2f18ccfe21e0c0a0ee3e6f49173b5ab30b5a0cf0fd8d6973f461274c11efd6",
+    "snapshot": "input_snapshot\\ce2f18ccfe21e0c0a0ee3e6f49173b5ab30b5a0cf0fd8d6973f461274c11efd6.json",
+    "bytes": 301
+  },
+  {
+    "role": "worker_result",
+    "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\64_gain_loss_recovery_baseline_v1\\results\\20261027T064706Z_baseline_1d8fb9bf\\jobs\\B_s41011_p4201_dose25_N1\\20261027T064754Z_a_f18393f7\\result.json",
+    "sha256": "4404bb2dbc9e9f195e7d27752fbf6be2f2a0a217c0cd749ef3ff8774100b1479",
+    "snapshot": "input_snapshot\\4404bb2dbc9e9f195e7d27752fbf6be2f2a0a217c0cd749ef3ff8774100b1479.json",
+    "bytes": 11644
+  },
+  {
+    "role": "research_evaluation",
+    "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\64_gain_loss_recovery_baseline_v1\\results\\20261027T064706Z_baseline_1d8fb9bf\\jobs\\B_s41011_p4201_dose25_N1\\20261027T064754Z_a_f18393f7\\evaluation_episodes.csv",
+    "sha256": "f8464a3f5fb64215d90a22958d3f443fc0759b7df6d9cf3848c6d923f6d1343e",
+    "snapshot": "input_snapshot\\f8464a3f5fb64215d90a22958d3f443fc0759b7df6d9cf3848c6d923f6d1343e.csv",
+    "bytes": 129736
+  },
+  {
+    "role": "worker_cost",
+    "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\64_gain_loss_recovery_baseline_v1\\results\\20261027T064706Z_baseline_1d8fb9bf\\jobs\\B_s41011_p4201_dose25_N1\\20261027T064754Z_a_f18393f7\\costs.json",
+    "sha256": "dde3f07759b6246d12b1af412c952a6aee5055043e04ddf656ff4930e51f4a35",
+    "snapshot": "input_snapshot\\dde3f07759b6246d12b1af412c952a6aee5055043e04ddf656ff4930e51f4a35.json",
+    "bytes": 372
+  }
+]

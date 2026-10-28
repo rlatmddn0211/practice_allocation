@@ -1,0 +1,5 @@
+{
+  "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\SS\\Projects\\robot_practice_allocation\\64_gain_loss_recovery_baseline_v1\\analyze_baseline.py\", line 716, in analyze\n    study = load_study(campaign, receipt, audit, allow_incomplete)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\SS\\Projects\\robot_practice_allocation\\64_gain_loss_recovery_baseline_v1\\analyze_baseline.py\", line 281, in load_study\n    evaluated = sum(row[\"length\"] for row in worker_rows)\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: unsupported operand type(s) for +: 'int' and 'str'\n",
+  "new_environment_steps": 0,
+  "wall_seconds": 0.05512010003440082
+}

@@ -1,0 +1,70 @@
+{
+  "version": "64_gain_loss_recovery_baseline_v1",
+  "parent_implementation": "59_fresh_future_confirmation_v1",
+  "copied_files": [
+    {
+      "source": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\59_fresh_future_confirmation_v1\\practice_allocation\\__init__.py",
+      "target": "practice_allocation\\__init__.py",
+      "sha256": "4215c51deb3d834c283aeed7c87b8747916234e964f1a8cd9eedadaf1e465a2f"
+    },
+    {
+      "source": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\59_fresh_future_confirmation_v1\\practice_allocation\\core.py",
+      "target": "practice_allocation\\core.py",
+      "sha256": "6b5e51cacd6ac44ef117ed750ac4bcd46bb0beffac4dd5d0bd7edc7de93cb62d"
+    },
+    {
+      "source": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\59_fresh_future_confirmation_v1\\practice_allocation\\engine.py",
+      "target": "practice_allocation\\engine.py",
+      "sha256": "ae090b11d36b715eb7c66ce89c39c1021d1de140abe7fbb5e820eff1ed4a3f26"
+    },
+    {
+      "source": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\59_fresh_future_confirmation_v1\\practice_allocation\\environment.py",
+      "target": "practice_allocation\\environment.py",
+      "sha256": "85afb8560da5160832e619f90608eae0b4b83aa75264376800111b295ef4e4e8"
+    },
+    {
+      "source": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\59_fresh_future_confirmation_v1\\practice_allocation\\evaluation.py",
+      "target": "practice_allocation\\evaluation.py",
+      "sha256": "196b18ad4b60bca516511e71a449b12b78784a20a1699caa207975203d5cc525"
+    },
+    {
+      "source": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\59_fresh_future_confirmation_v1\\practice_allocation\\learning.py",
+      "target": "practice_allocation\\learning.py",
+      "sha256": "e32e1f2e23490c651167af24386a3af5df005af766a33128c9bb75f719e30009"
+    },
+    {
+      "source": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\59_fresh_future_confirmation_v1\\practice_allocation\\schedules.py",
+      "target": "practice_allocation\\schedules.py",
+      "sha256": "d114ce28a4b56e52ec53f1481f6393bdae1895cdb8d4393a10b175e1e36da4ec"
+    },
+    {
+      "source": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\59_fresh_future_confirmation_v1\\practice_allocation\\study_io.py",
+      "target": "practice_allocation\\study_io.py",
+      "sha256": "20b46c67027a413857c80bbbd5e9dad469fae9ccafd468ef3b942dfc76389c53"
+    },
+    {
+      "source": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\59_fresh_future_confirmation_v1\\configs\\learner.json",
+      "target": "configs\\learner.json",
+      "sha256": "ba2a7dd45b3190cca9ade74bcf5b4c0a8bb1cad5bea1f0894db2d92a7f8efe53"
+    },
+    {
+      "source": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\59_fresh_future_confirmation_v1\\configs\\research_protocol.json",
+      "target": "configs\\research_protocol.json",
+      "sha256": "34e289844b4854aa1d3be7b493def76eb3fa1f306587c5b7de8ec5feb32a3df2"
+    },
+    {
+      "source": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\59_fresh_future_confirmation_v1\\configs\\suites.json",
+      "target": "configs\\suites.json",
+      "sha256": "d94a146844590a1fd66e06625222db17340f442f992df674f069514330771c77"
+    },
+    {
+      "source": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\59_fresh_future_confirmation_v1\\requirements.txt",
+      "target": "requirements.txt",
+      "sha256": "cb62ec70a441ab12b0a7caab26904375ffd55ce0ef5497b20e07a48205b43b1b"
+    }
+  ],
+  "scope": "Independent same-S baseline; frozen learner/environment remain byte-identical; all new logic resides in this version.",
+  "new_environment_steps": 0,
+  "python": "3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)]",
+  "bootstrap_sha256": "a4025b045878d8150df69d291a32218f54cb33a71526bdf56da4dc1ef0f0ca4f"
+}

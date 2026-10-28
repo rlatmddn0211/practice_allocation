@@ -1,0 +1,172 @@
+{
+  "version": "64_gain_loss_recovery_baseline_v1",
+  "authorization_date": "2026-10-27",
+  "status": "authorized_baseline_pending_technical_certification",
+  "authorization": "User authorized immediate implementation and twenty same-S baseline continuations after technical integrity checks.",
+  "objective": "Describe success acquisition, loss and recovery under unchanged SAC and two collection allocations; no efficacy investment gate.",
+  "suite": "B",
+  "tasks": [
+    "DO",
+    "DC",
+    "PU",
+    "BP"
+  ],
+  "parents": [
+    41011,
+    41012,
+    41013,
+    41014,
+    41015
+  ],
+  "prefix_continuation": 4201,
+  "states": 5,
+  "parent_absolute_step": 200000,
+  "start_absolute_step": 208000,
+  "conditions": [
+    "dose25",
+    "dose625"
+  ],
+  "condition_labels": {
+    "dose25": "UNIFORM",
+    "dose625": "BP625"
+  },
+  "futures": [
+    1,
+    2
+  ],
+  "jobs": 20,
+  "training_steps_per_job": 32000,
+  "training_steps_total": 640000,
+  "full_checkpoint_absolute_steps": [
+    212000,
+    216000,
+    224000,
+    240000
+  ],
+  "training_episode_steps": 500,
+  "collection_block_episodes": 16,
+  "collection_block_steps": 8000,
+  "quotas": {
+    "dose25": [
+      4,
+      4,
+      4,
+      4
+    ],
+    "dose625": [
+      2,
+      2,
+      2,
+      10
+    ]
+  },
+  "fork_contract": "At exhausted original sixteen-episode queue only; preserve queue contents, position16, blocks_generated1, task visits, collected counters, replay branch_start200000, optimizer/learner/entropy. Change candidate and declared future RNG streams only; do not call start_branch.",
+  "seed_recipe": "numpy.SeedSequence([640202,64,parent,4201,future]).generate_state(1)[0]",
+  "condition_pairing": "For each parent/future, UNIFORM and BP625 share root_seed and schedule_seed intentionally; ten roots are otherwise unique and absent from inventoried prior metadata.",
+  "schedule_seed_recipe": "SeedSequence([root_seed,10]).generate_state(1)[0]",
+  "reset_seed_recipe": "Existing derived_seed(root_seed,20,task,retained_task_visit) unchanged",
+  "job_order": "Parents ascending; futures1,2; alternate first condition with (parent_index+future-1) parity; frozen inputs/jobs.json.",
+  "evaluation": {
+    "max_steps_per_case": 500,
+    "deterministic_actions": true,
+    "early_stop_on_success": true,
+    "P_S_final": "E50:50 cases/task (200 per policy)",
+    "intermediate": "T20:20 cases/task (80 per policy), subset of E50",
+    "E50_absolute_steps": [
+      200000,
+      208000,
+      240000
+    ],
+    "T20_absolute_steps": [
+      212000,
+      216000,
+      224000
+    ],
+    "case_ranking": "Per task SHA256 of UTF8 compact JSON [bankSHA,parent,task,episode_index,label]; E50 first50 with label E50, then independent T20 rank inside E50 first20 with label T20.",
+    "P_S_reuse": "Certified actual source outcomes only after checkpoint/bank/physical identity and source-code contract checks; otherwise require explicit re-evaluation within cap, never case-index-only matching.",
+    "first_success_step": "Infer from episode length only when success=1 and exact first-success early-stop contract is certified; failures are None/censored500."
+  },
+  "telemetry": {
+    "window_steps": 250,
+    "policy_probe_interval_steps": 1000,
+    "panel_size": 256,
+    "panel_cases_per_task": 64,
+    "panel_seed_recipe": "derived_seed(640202,6401,parent)",
+    "entropy_probe_seed_recipe": "derived_seed(640202,6402,parent); separate private torch.Generator, common across all futures/conditions/checkpoints",
+    "entropy_samples_per_panel_state": 32,
+    "panel_selection": "Without replacement per task from restored S replay using separate numpy default_rng; no labels/outcomes; same fixed panel for all conditions/futures of parent.",
+    "historical_success_label": "Entire historical training episode any_success; first-success transition unknown; actual replay-slot join requires technical verification."
+  },
+  "analysis": {
+    "bootstrap_seed": 640303,
+    "independent_unit": "five original parents; futures nested and paired across conditions",
+    "report": "All jobs, task and parent contributions, J and gain/loss/recovery, case uncertainty separately from future/parent variability; no effect-direction stopping or post-hoc thresholds.",
+    "effect_investment_gates": null
+  },
+  "budgets": {
+    "total_environment_cap_all_attempts": 6050000,
+    "technical_environment_cap_all_attempts": 10000,
+    "research_training_steps": 640000,
+    "research_new_evaluation_cap": 4400000,
+    "P_S_revaluation_cap_if_needed": 1000000,
+    "automatic_retry_reserve": 0,
+    "all_attempts_in_caps": true,
+    "wall_and_compute_costs_recorded_separately": true
+  },
+  "total_environment_cap": 6050000,
+  "technical_environment_cap_all_attempts": 10000,
+  "evaluation_cap_total": 4400000,
+  "automatic_retry_reserve": 0,
+  "max_parallel_workers": 1,
+  "technical_plan": {
+    "all_twenty_restore_and_collection_forks_environment_steps": 0,
+    "prespecified_parent": 41011,
+    "prespecified_future": 1,
+    "each_condition_logging_enabled1000_vs_disabled1000_total_steps": 4000,
+    "each_condition_split500_save_load500_vs_existing_enabled1000_extra_steps": 2000,
+    "S_known_one_case_per_task_evaluation_cap": 2000,
+    "N2_additional_BP_training_steps": 500,
+    "optional_known_exact_repeat_one_case_cap": 500,
+    "first_plan_environment_cap": 9000,
+    "cumulative_all_attempts_cap": 10000,
+    "isolated_entropy_probe_and_checkpoint_evaluation_fullstate_checks": true,
+    "separate_outputs_costs_and_source_fixtures_for_every_attempt": true,
+    "technical_states_reused_for_research": false
+  },
+  "failure_policy": "Stop for integrity failure or cap exhaustion. Preserve all attempts and full checkpoints. Zero automatic retries and no extra parents, conditions or horizons. Execute all twenty authorized jobs regardless of scientific direction.",
+  "numerical_failure_policy": "A path with stock SAC non-finite diagnostics is retained as numerically failed with missing future outcomes and no seed replacement. Other original-state jobs continue if restoration, source and cost integrity remain valid; any other integrity error stops the campaign.",
+  "held": "Prior intervention A/B/C/D, new parents, original C and original stages2/3 remain outside this authorization.",
+  "packages": {
+    "numpy": "2.2.4",
+    "torch": "2.5.1+cu121",
+    "gymnasium": "1.2.3",
+    "mujoco": "3.5.0",
+    "metaworld": "3.0.0",
+    "stable-baselines3": "2.7.1"
+  },
+  "critical_source_hashes": {
+    "practice_allocation/learning.py": "e32e1f2e23490c651167af24386a3af5df005af766a33128c9bb75f719e30009",
+    "practice_allocation/engine.py": "ae090b11d36b715eb7c66ce89c39c1021d1de140abe7fbb5e820eff1ed4a3f26",
+    "practice_allocation/environment.py": "85afb8560da5160832e619f90608eae0b4b83aa75264376800111b295ef4e4e8",
+    "practice_allocation/evaluation.py": "196b18ad4b60bca516511e71a449b12b78784a20a1699caa207975203d5cc525"
+  },
+  "input_hashes": {
+    "inputs/seed_collision_audit.json": "c2ee7a4604b9ff221ef729ce8ca66472db06cb6fc5cf86a71a6668dc8f61e96d",
+    "inputs/cases_41011.json": "e7f19ef05f165a0ccb5da8a1cfdf8479b2421171d85e2d074aa084f247b36dad",
+    "inputs/episode_labels_41011.json": "05b83e42126d9a45fc9c77d0476d18f8157d430f9e86bd8058af83bfdf76567c",
+    "inputs/cases_41012.json": "0b34518b4f528af5dd981d71a86094d1b256da58d955d38844f691e0b1850c0e",
+    "inputs/episode_labels_41012.json": "cea378b673d3edbf332c17cc11e17d80e17705f66280b60c5e2af955c4bcf23d",
+    "inputs/cases_41013.json": "38187155bbed3e2198d4b50fabeae083d8fa628176e7e3c97439b325b022c840",
+    "inputs/episode_labels_41013.json": "fed6f06d86150912210ff8e38a92aa00a0025be3818404c9b1286a3af4317dab",
+    "inputs/cases_41014.json": "05cb136886b628094c8f34b0713e456c0d0308b677a6a7ba1586bb5103d92d63",
+    "inputs/episode_labels_41014.json": "7765d5eba02aadf34ffb8466fe06210ad34c001de41dd1e66b9589aa671c10af",
+    "inputs/cases_41015.json": "810de7876af0b2a0d6ce5e68ecb4d5d1d85afacac5eb3195ccd512c13313196b",
+    "inputs/episode_labels_41015.json": "99fab4e1d3f004a4c60ad2cf924592d80461870ecf4408f8497f344195b855da",
+    "inputs/evaluation_cases.json": "811e935e5ef993311189f5e45572aff6a6fe8633abd1f54031a3d25413b2a089",
+    "inputs/jobs.json": "395235b5eb9384b80bccc2e9ea9258d4082faa8801559f22f6164928b96f5347",
+    "inputs/baseline_rows.csv": "ab0cd26b2786c3c63ba7c2ce7c943de1c01dca49a0cd06231ac7d7d32650443d",
+    "inputs/baseline_reuse_certificates.json": "cb6c7466535709ec46247f910a6954bbb2abcbf8a92bfdf7a8c8ff1981448441",
+    "inputs/state_manifest.json": "685bfcbae3e9739932e8c13931e36f2242dcf510c4d71bf3ea3b4ee4ab218499",
+    "inputs/provenance.json": "9b1529498bfa6fb18a0b17963d1075c88cecf31adfdc1a82c6a7cdf2dd2bb856"
+  }
+}

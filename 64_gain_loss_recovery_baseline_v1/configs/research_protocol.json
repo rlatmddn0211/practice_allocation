@@ -1,0 +1,280 @@
+{
+  "version": "43_feedback_revised_selection_protocol_v1",
+  "date": "2026-10-19",
+  "supersedes_proposal": "39_next_research_decision_plan_v1",
+  "authorization": "User requested sequential execution: five new parents, two continuations, three schedules; common-8k switch experiment; then fresh-parent cost-inclusive comparison. Later stages depend on preceding scientific gates and frozen execution specifications.",
+  "objective": "final equal-weight mean success over four tasks",
+  "stage1": {
+    "suite": "B",
+    "tasks": [
+      "DO",
+      "DC",
+      "PU",
+      "BP"
+    ],
+    "original_seeds": [
+      41011,
+      41012,
+      41013,
+      41014,
+      41015
+    ],
+    "continuation_labels": [
+      4201,
+      4202
+    ],
+    "continuation_seed_derivation": [
+      "continuation_label",
+      420,
+      "original_seed"
+    ],
+    "conditions": [
+      "dose625",
+      "alternate4k",
+      "mixture"
+    ],
+    "tie_priority": [
+      "dose625",
+      "alternate4k",
+      "mixture"
+    ],
+    "pretraining_steps": 200000,
+    "branch_steps": 40000,
+    "pretraining_checkpoint_interval": 20000,
+    "branch_checkpoint_horizons": [
+      4000,
+      8000,
+      20000,
+      36000,
+      40000
+    ],
+    "outcome_cases_per_task": 100,
+    "selection_score_split": {
+      "A": [
+        0,
+        49
+      ],
+      "B": [
+        50,
+        99
+      ]
+    },
+    "max_episode_steps": 500,
+    "prespecified_fixed_baseline": "dose625",
+    "intermediate_policy_evaluation": false,
+    "training_environment_steps": 2200000,
+    "outcome_evaluation_episodes": 14000,
+    "outcome_environment_steps_upper": 7000000,
+    "total_environment_steps_upper": 9200000,
+    "technical_validation_outside_bound": true,
+    "parent_retention": "reference action evaluated once; reported separately from the primary three-schedule choice",
+    "primary_estimands": [
+      "parent-paired alternate4k minus dose625",
+      "parent-paired mixture minus dose625",
+      "cross-continuation and cross-case-half parent-informed choice gain vs prespecified BP and leave-parent-out fixed choice"
+    ],
+    "secondary_estimands": [
+      "alternate4k minus mixture",
+      "per-task changes",
+      "all final methods minus parent",
+      "held-out choice regret within the three measured methods"
+    ],
+    "gate": {
+      "type": "exploratory resource decision, not a significance test or proof of absence",
+      "minimum_repeatable_pairwise_margin_pp": 2.0,
+      "opposite_parent_preferences_required": true,
+      "both_continuations_same_direction_required": true,
+      "crossfit_choice_gain_vs_BP_positive": true,
+      "crossfit_choice_gain_vs_leave_parent_out_fixed_positive": true,
+      "all_leave_one_parent_out_choice_gain_means_positive": true,
+      "no_gate_on_average_alternate_minus_mixture": true,
+      "repeatable_margin_score": "Entire O100 equal-weight macro success for each parent and continuation, not either half",
+      "leave_one_parent_out_definition": "Remove that parent entirely, rerun parent-informed choices and leave-target-parent-out fixed-method selection within the remaining four parents, then recompute gains. BP remains prespecified.",
+      "deleting_precomputed_parent_gains": "Secondary descriptive sensitivity only; not the progression gate"
+    },
+    "fixed_selection": "For each target parent and selection half, equally average both continuations of each other parent, then equally average those parent means; ties BP, alternate4k, mixture",
+    "aggregation": "Four crossed scores per parent (2 continuation directions x 2 half directions), then equal-weight parents; not 20 independent observations",
+    "checkpoint36_cost": "30 extra full snapshots; environment steps and intermediate evaluation episodes added: zero",
+    "partial_block_rule": "Use the exact existing generated schedule prefix. No quota rebalancing, reshuffling, phase restart or RNG reset at 36k or another budget endpoint.",
+    "pretraining_source_reuse": "Completed v42 banks and full pretraining states reused with hash-verified job lineage; an in-flight worker finishes its job before handoff"
+  },
+  "stage2": {
+    "status": "conditional_design_no_execution_yet",
+    "common_prefix_steps": 8000,
+    "remaining_training_steps": 28000,
+    "parents": "stage1 development parents, never called independent confirmation",
+    "fixed_method": "highest stage1 grand mean among three fixed schedules, deterministic tie priority",
+    "alternative": "highest stage1 grand mean among the remaining two schedules, same tie priority",
+    "actions": [
+      "keep fixed method",
+      "switch to the frozen alternative"
+    ],
+    "prefixes": 10,
+    "new_switch_branches": 10,
+    "new_training_steps_if_keep_suffix_reused_exactly": 280000,
+    "diagnostic": {
+      "time": 8000,
+      "cases_per_task": 2,
+      "fixed_episode_length": 500,
+      "steps_per_prefix": 4000,
+      "total_steps": 40000,
+      "state_unchanged": true,
+      "score": {
+        "counts": "s_t in {0,1,2}: number of any-success episodes among two fixed-500-step cases for task t",
+        "integer_q": "3*s_BP - s_DO - s_DC - s_PU",
+        "score": "q/6 = success_rate_BP - mean(success_rate_DO, success_rate_DC, success_rate_PU)",
+        "attainable_q": [
+          -6,
+          -5,
+          -4,
+          -3,
+          -2,
+          -1,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "number_of_attainable_scores": 13,
+        "interpretation": "One preselected B-specific candidate signal, not an established factor; definition stays fixed even if F* is not BP focus"
+      }
+    },
+    "new_outcome_evaluation_steps_upper": 4000000,
+    "total_environment_steps_upper_if_keep_reused": 4320000,
+    "rule_family": "26 explicitly frozen candidates: two constant actions plus twelve attainable-score boundaries in each direction",
+    "validation": "Leave whole original parent out for threshold fitting and scoring, conditional on F*/A* and the development-state set selected using all stage1 parents",
+    "gate": {
+      "type": "exploratory conditional-development investment gate; not independent full-pipeline confirmation",
+      "repeatable_preferences": "At least one parent with keep minus switch >=2pp at both distinct 8k states, and another with switch minus keep >=2pp, using entire O100 at 28k suffix.",
+      "heldout_information_gain": "LOPO rule mean must be positive against both always_keep and always_switch",
+      "robustness": "Both gains remain positive under full parent-removal refitting",
+      "constant_rule_result": "If always-switch is sufficient, report a fixed-switch schedule; do not claim state information value"
+    },
+    "stage3_full_sample_size": "freeze from stage2 variability and target precision before new-parent outcomes; no automatic expansion",
+    "primary_total_training_horizon": 36000,
+    "future_continuations_per_8k_state_per_action": 1,
+    "repeatability_unit": "Two different 8k states from each original parent, each with one paired keep/switch future; not repeated future draws from one identical state",
+    "limitation": "Stage1 support need not involve the globally top-two F*/A* pair. A negative stage2 result is limited to this pair and this diagnostic/rule family.",
+    "partial_block_rule": "Keep the generated task order and terminate after exactly 28k extra steps, even in the middle of an 8k dose block. Record actual quotas; do not rebalance or reshuffle.",
+    "alternation_phase": "A switch to alternate4k starts with BP phase. Its 28k suffix has 4 BP and 3 DO phases; it is not a same-total-quota contrast with mixture.",
+    "extra_32k_suffix": "Not scheduled in this revision. Any extra training or O100 scoring at 32k requires a new pre-outcome specification and separate costs.",
+    "rule_specification": {
+      "directions": [
+        "switch when score is above threshold",
+        "switch when score is below threshold"
+      ],
+      "threshold_numerators_over_12": [
+        -11,
+        -9,
+        -7,
+        -5,
+        -3,
+        -1,
+        1,
+        3,
+        5,
+        7,
+        9,
+        11
+      ],
+      "constants": [
+        "always_keep",
+        "always_switch"
+      ],
+      "candidate_count": 26,
+      "exact_decision": "q is integer; compare 2*q to odd threshold numerator. Equality is impossible.",
+      "objective": "Maximize equal-parent mean final macro success of selected 28k action; both states per parent have equal weight. Implement as integer total selected O100 successes because all cells have 400 episodes.",
+      "tie_breaks": [
+        "fewer switches on fitting states",
+        "constant action before threshold rule",
+        "fixed candidate order: keep, switch, high thresholds descending, low thresholds ascending"
+      ],
+      "fallback": "No successful selection gate: retain F* and do not claim an adaptive improvement. Missing or invalid diagnostic is a technical failure, not silently imputed.",
+      "outer_validation": "For each of five parents, fit among the 26 candidates on the other four parents (8 states), then choose and score both held-out states. Aggregate two states within parent, then parents equally.",
+      "sensitivity": "Remove one parent, rerun threshold fitting and leave-parent-out scoring among the remaining four parents. F*/A* are held fixed; this remains conditional development evaluation.",
+      "final_freeze": "Only after the stage2 gate passes, fit once on all ten states and freeze rule ID, threshold, direction, source/input hashes before any fresh-parent result."
+    }
+  },
+  "stage3": {
+    "status": "conditional_design_no_execution_yet",
+    "parents": "fresh originals never used for stage1/2 method or rule selection",
+    "total_operational_environment_budget_per_method": 40000,
+    "arms": {
+      "fixed_keep_40k": {
+        "common_training": 8000,
+        "fixed_training": 32000,
+        "diagnostic": 0
+      },
+      "fixed_switch_40k": {
+        "common_training": 8000,
+        "switched_training": 32000,
+        "diagnostic": 0
+      },
+      "diagnostic_rule": {
+        "common_training": 8000,
+        "diagnostic": 4000,
+        "selected_training": 28000
+      },
+      "diagnostic_always_keep": {
+        "common_training": 8000,
+        "diagnostic": 4000,
+        "fixed_training": 28000
+      },
+      "diagnostic_always_switch": {
+        "common_training": 8000,
+        "diagnostic": 4000,
+        "switched_training": 28000
+      }
+    },
+    "diagnostic_cases_per_task": 2,
+    "fixed_diagnostic_episode_length": 500,
+    "final_research_scoring": "same disjoint outcome bank across arms, never returned to the allocator; accounted separately",
+    "scientific_success": "Predeclared practical effect and uncertainty criteria on both information comparisons and both full-budget fixed comparisons, on fresh parents. Do not select the weaker control after seeing fresh results.",
+    "no_spliced_or_interpolated_outcomes": true,
+    "primary_effects": [
+      "diagnostic_rule minus fixed_keep_40k",
+      "diagnostic_rule minus fixed_switch_40k"
+    ],
+    "information_effects": [
+      "diagnostic_rule minus diagnostic_always_keep",
+      "diagnostic_rule minus diagnostic_always_switch"
+    ],
+    "diagnostic_opportunity_costs": [
+      "diagnostic_always_keep minus fixed_keep_40k",
+      "diagnostic_always_switch minus fixed_switch_40k"
+    ],
+    "sharing": {
+      "physical_training_per_parent_continuation": 72000,
+      "physical_diagnostic_per_parent_continuation": 4000,
+      "physical_operational_total_per_parent_continuation": 76000,
+      "logical_budget_per_method": 40000,
+      "logical_methods": 5,
+      "distinct_terminal_policies_per_parent_continuation": 4,
+      "outcome_evaluation_steps_upper_per_parent_continuation": 800000,
+      "parent_pretraining_steps": 200000,
+      "parent_outcome_steps_upper": 200000,
+      "conditions": [
+        "diagnostic leaves all learner/optimizer/replay/collector/RNG state unchanged",
+        "learner update rule does not depend on the chosen terminal horizon",
+        "both action futures begin from the exact same full 8k state",
+        "adaptive action and rule/source/diagnostic hashes are committed before either future is trained or any terminal score is inspected",
+        "selected 36k policy and common outcome bank are identical to the corresponding constant-action arm"
+      ],
+      "execution": "Run common F*8k, pay D4k once, record adaptive choice, restore same 8k state for F*32k and A*32k; save suffix28k and suffix32k on both futures. Reuse corresponding 36k score for adaptive arm.",
+      "budget_formula": "For N fresh parents and R continuation states per parent: 200000*N + 76000*N*R operational/research training+diagnosis, plus at most 200000*N + 800000*N*R research outcome steps.",
+      "interpretation": "Counterfactual outcome sharing is valid only after the decision is committed; five logical arms are not five independent policy samples."
+    },
+    "pending_before_execution": [
+      "freeze fresh parent labels and sample size from stage2 variability and target precision",
+      "freeze practical-effect and family-of-four uncertainty procedure before new-parent outcomes",
+      "validate horizon independence, checkpoint reuse, diagnosis isolation and decision-before-futures integrity"
+    ]
+  },
+  "supersedes_protocol": "41_selection_value_three_stage_protocol_v1",
+  "predecessor_sha256": "0b21698f0268579a7f2ad68ef7628036389ace38be3579058432b662a860eaf4",
+  "amendment_timing": "During first-parent pretraining, before any parent/branch O100 outcome was produced or inspected",
+  "feedback_disposition": "All proposed corrections adopted; unchanged sample size, learner, F08 block rules and primary objective"
+}

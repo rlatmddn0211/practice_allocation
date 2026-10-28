@@ -1,0 +1,287 @@
+{
+  "execution_status": "completed_file_only_analysis",
+  "campaign": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\64_gain_loss_recovery_baseline_v1\\results\\20261027T064706Z_baseline_1d8fb9bf",
+  "completed_jobs": 20,
+  "planned_jobs": 20,
+  "primary": {
+    "conditions": {
+      "dose25": {
+        "J": 31.65,
+        "G": 2.3,
+        "L": 6.45,
+        "delta": -4.15,
+        "recovery": 1.0
+      },
+      "dose625": {
+        "J": 32.6,
+        "G": 4.3,
+        "L": 7.5,
+        "delta": -3.2,
+        "recovery": 1.2
+      },
+      "STOP": {
+        "J": 35.8,
+        "G": 0,
+        "L": 0,
+        "delta": 0,
+        "recovery": 0
+      }
+    },
+    "paired_BP_minus_uniform": {
+      "J": 0.95,
+      "G": 2.0,
+      "L": 1.05,
+      "delta": 0.95,
+      "recovery": 0.2
+    },
+    "J_P": 33.900000000000006,
+    "J_S": 35.8
+  },
+  "case_intervals": [
+    {
+      "scope": "E50",
+      "condition": "dose25",
+      "metric": "J",
+      "lower": 30.650000000000006,
+      "upper": 32.650000000000006
+    },
+    {
+      "scope": "E50",
+      "condition": "dose25",
+      "metric": "G",
+      "lower": 1.6,
+      "upper": 3.0999999999999996
+    },
+    {
+      "scope": "E50",
+      "condition": "dose25",
+      "metric": "L",
+      "lower": 5.2,
+      "upper": 7.7
+    },
+    {
+      "scope": "E50",
+      "condition": "dose25",
+      "metric": "delta",
+      "lower": -5.65,
+      "upper": -2.65
+    },
+    {
+      "scope": "E50",
+      "condition": "dose25",
+      "metric": "recovery",
+      "lower": 0.5,
+      "upper": 1.6
+    },
+    {
+      "scope": "E50",
+      "condition": "dose625",
+      "metric": "J",
+      "lower": 31.65,
+      "upper": 33.550000000000004
+    },
+    {
+      "scope": "E50",
+      "condition": "dose625",
+      "metric": "G",
+      "lower": 3.4499999999999997,
+      "upper": 5.2
+    },
+    {
+      "scope": "E50",
+      "condition": "dose625",
+      "metric": "L",
+      "lower": 6.3,
+      "upper": 8.7
+    },
+    {
+      "scope": "E50",
+      "condition": "dose625",
+      "metric": "delta",
+      "lower": -4.8999999999999995,
+      "upper": -1.5499999999999994
+    },
+    {
+      "scope": "E50",
+      "condition": "dose625",
+      "metric": "recovery",
+      "lower": 0.6500000000000001,
+      "upper": 1.8
+    },
+    {
+      "scope": "E50",
+      "condition": "dose625_minus_dose25",
+      "metric": "J",
+      "lower": -0.24999999999999645,
+      "upper": 2.1000000000000014
+    },
+    {
+      "scope": "E50",
+      "condition": "dose625_minus_dose25",
+      "metric": "G",
+      "lower": 1.2000000000000002,
+      "upper": 2.8
+    },
+    {
+      "scope": "E50",
+      "condition": "dose625_minus_dose25",
+      "metric": "L",
+      "lower": 0.20000000000000018,
+      "upper": 1.9499999999999975
+    },
+    {
+      "scope": "E50",
+      "condition": "dose625_minus_dose25",
+      "metric": "delta",
+      "lower": -0.24999999999999956,
+      "upper": 2.1000000000000005
+    },
+    {
+      "scope": "E50",
+      "condition": "dose625_minus_dose25",
+      "metric": "recovery",
+      "lower": -0.1499999999999997,
+      "upper": 0.5499999999999999
+    },
+    {
+      "scope": "E50",
+      "condition": "STOP",
+      "metric": "J",
+      "lower": 34.3,
+      "upper": 37.3
+    },
+    {
+      "scope": "T20",
+      "condition": "dose25",
+      "metric": "late_loss_transitions",
+      "lower": 12.5,
+      "upper": 17.5
+    },
+    {
+      "scope": "T20",
+      "condition": "dose25",
+      "metric": "late_recovery_transitions",
+      "lower": 3.125,
+      "upper": 6.375
+    },
+    {
+      "scope": "T20",
+      "condition": "dose25",
+      "metric": "ever_loss",
+      "lower": 12.75,
+      "upper": 17.75
+    },
+    {
+      "scope": "T20",
+      "condition": "dose25",
+      "metric": "repeated_loss",
+      "lower": 1.125,
+      "upper": 3.0
+    },
+    {
+      "scope": "T20",
+      "condition": "dose25",
+      "metric": "loss_then_recovery",
+      "lower": 3.125,
+      "upper": 6.25
+    },
+    {
+      "scope": "T20",
+      "condition": "dose625",
+      "metric": "late_loss_transitions",
+      "lower": 13.875,
+      "upper": 19.25
+    },
+    {
+      "scope": "T20",
+      "condition": "dose625",
+      "metric": "late_recovery_transitions",
+      "lower": 4.5,
+      "upper": 7.875
+    },
+    {
+      "scope": "T20",
+      "condition": "dose625",
+      "metric": "ever_loss",
+      "lower": 13.125,
+      "upper": 17.75
+    },
+    {
+      "scope": "T20",
+      "condition": "dose625",
+      "metric": "repeated_loss",
+      "lower": 2.0,
+      "upper": 4.5
+    },
+    {
+      "scope": "T20",
+      "condition": "dose625",
+      "metric": "loss_then_recovery",
+      "lower": 4.375,
+      "upper": 7.625
+    },
+    {
+      "scope": "T20",
+      "condition": "dose625_minus_dose25",
+      "metric": "late_loss_transitions",
+      "lower": -0.625,
+      "upper": 3.5
+    },
+    {
+      "scope": "T20",
+      "condition": "dose625_minus_dose25",
+      "metric": "late_recovery_transitions",
+      "lower": 0.0,
+      "upper": 2.75
+    },
+    {
+      "scope": "T20",
+      "condition": "dose625_minus_dose25",
+      "metric": "ever_loss",
+      "lower": -1.625,
+      "upper": 1.875
+    },
+    {
+      "scope": "T20",
+      "condition": "dose625_minus_dose25",
+      "metric": "repeated_loss",
+      "lower": 0.375,
+      "upper": 2.125
+    },
+    {
+      "scope": "T20",
+      "condition": "dose625_minus_dose25",
+      "metric": "loss_then_recovery",
+      "lower": 0.125,
+      "upper": 2.625
+    }
+  ],
+  "scientific_status": "descriptive baseline; effect direction is not an execution/progression gate",
+  "uncertainty_scope": "individual conditional-policy case-percentile intervals; not simultaneous, parent-population, or future-training uncertainty",
+  "weighting": "within task E50/T20 equal cases; tasks equal; futures two averaged within each parent; five parents equal; no incomplete-parent exclusion",
+  "bootstrap": {
+    "draws": 20000,
+    "seed": 640303,
+    "pairing": "same case multiplicities across P/S, conditions and futures within parent/task; E50 and T20 sampled separately",
+    "method": "percentile_2.5_97.5_linear",
+    "parent_resampling": "not an independent confirmation; five LOPO point summaries retained"
+  },
+  "costs_all_research_attempts": {
+    "training_steps": 640000,
+    "evaluation_steps": 3012057,
+    "environment_steps": 3652057
+  },
+  "technical_steps": 8555,
+  "total_environment_steps_all_attempts": 3660612,
+  "analysis_new_environment_steps": 0,
+  "analysis_SAC_updates": 0,
+  "future_execution_authorized_by_analysis": false,
+  "limitations": [
+    "Five existing parents; fixed prefix4201 and a single pretraining stage.",
+    "Existing known O100 cases; no new-case or new-parent confirmation.",
+    "T20 labels record coarse observed transitions; unseen intermediate E50 labels are not imputed.",
+    "Measured success loss is not a diagnosis of representational forgetting.",
+    "Internal/exposure/drift telemetry is exploratory and not a predictor or causal mechanism test.",
+    "STOP preserves the fixed S policy; training and evaluation costs must be distinguished."
+  ]
+}

@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "C:\Users\SS\Projects\robot_practice_allocation\64_gain_loss_recovery_baseline_v1\analyze_baseline.py", line 847, in <module>
+    main()
+  File "C:\Users\SS\Projects\robot_practice_allocation\64_gain_loss_recovery_baseline_v1\analyze_baseline.py", line 840, in main
+    run = analyze(args.campaign, args.allow_incomplete)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\SS\Projects\robot_practice_allocation\64_gain_loss_recovery_baseline_v1\analyze_baseline.py", line 716, in analyze
+    study = load_study(campaign, receipt, audit, allow_incomplete)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\SS\Projects\robot_practice_allocation\64_gain_loss_recovery_baseline_v1\analyze_baseline.py", line 281, in load_study
+    evaluated = sum(row["length"] for row in worker_rows)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported operand type(s) for +: 'int' and 'str'

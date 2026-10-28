@@ -1,0 +1,21 @@
+{
+  "status": "armed_waiting_upstream",
+  "verified_at": "2026-10-27T11:28:26.913649+00:00",
+  "source_pin_matches": true,
+  "actual_interpreter_pid": 23312,
+  "venv_bootstrapper_pid": 10252,
+  "launcher_advertisement_check": "timeout_preserved_existing_watcher_not_restarted",
+  "new_environment_steps": 0,
+  "research_SAC_updates": 0,
+  "actual_status": {
+    "status": "waiting_upstream",
+    "updated_at": "2026-10-27T11:28:25.325492+00:00",
+    "queue": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\66_retention_intervention_queue_v1\\results\\20261027T112625Z_deferred_1357e818",
+    "reason": "64 remains running",
+    "seconds_remaining": 86279
+  },
+  "launch_adoption_record": {
+    "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\66_retention_intervention_queue_v1\\results\\20261027T112624Z_launch_016af200\\launch_adoption_ko.md",
+    "sha256": "5940fdeca91914f5a9580621de97404aa63ddf75b33c308c6ad5406cb43d3d2e"
+  }
+}

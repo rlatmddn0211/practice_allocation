@@ -1,0 +1,528 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-10-27T20:27:00.281829+00:00",
+  "arm": "C",
+  "source_step": 208000,
+  "source_updates": 207000,
+  "config": {
+    "zero_success_fallback": "shared_general",
+    "memory_sampling": "with_replacement",
+    "telemetry_window_steps": 250,
+    "kl_direction": "teacher_to_student",
+    "same_actor_step": true,
+    "age_bins": 4,
+    "episodes_per_stratum": 4,
+    "observations_per_episode": 32,
+    "batch_size": 256,
+    "kl_coefficient": 1.0,
+    "actor_lr_multiplier": 0.5,
+    "teacher": "fixed S actor; historical success is not proof of current-teacher competence",
+    "direction": "KL(teacher Gaussian || current Gaussian), action dimensions summed, observations averaged; tanh is shared bijection",
+    "optimizer": "Same single actor optimizer step; add KL gradient before that step. Critic, alpha and RL replay unchanged.",
+    "memory": "Within task and fixed 25k birth-age stratum choose min(4,successful episodes) distinct episodes; C same count from all episodes;32 unique observations/episode. If no successful episode, C and D share same general fallback min(4,all episodes). No replacement.",
+    "memory_seed_recipe": "derived_seed(660202,6601,parent)",
+    "regularizer_rng_recipe": "derived_seed(root_seed,6602); private RNG shared C/D; no global draws",
+    "memory_seed": 828264983
+  },
+  "regularizer_seed": 2085343417,
+  "teacher_state_sha256": "040de9ca5e2cbd11768267de10a6e06d1e051d49dafee428bb850eda8be66bda",
+  "memory_sha256": "3d77e310e3eeae393415abb2f62954afeeac02b069a2babd84be32c0c602a0af",
+  "memory_provenance": {
+    "arm_memory": "general",
+    "schema_version": 1,
+    "parent": 41013,
+    "source_step": 208000,
+    "source_updates": 207000,
+    "memory_seed": 828264983,
+    "age_bins": 4,
+    "age_bin_width": 25000,
+    "age_rule": "source_step - birth_step; complete episodes wholly within one equal-width age bin",
+    "episode_cap_per_stratum": 4,
+    "observations_per_episode": 32,
+    "construction_sampling": "episodes and transitions without replacement",
+    "general_pool_includes_successes": true,
+    "zero_success_fallback": "shared_general",
+    "episode_metadata_sha256": "e784999c207cefad183394ab923ccc443840520e95c626c258bd278ffdbfaecb",
+    "valid_replay_birth_min": 108001,
+    "valid_replay_birth_max": 208000,
+    "eligible_episode_exclusions": [],
+    "support": [
+      {
+        "task": "DO",
+        "age_bin": 0,
+        "age_min": 0,
+        "age_max": 24999,
+        "eligible_general_episodes": 10,
+        "eligible_known_success_episodes": 0,
+        "eligible_known_unsuccessful_episodes": 10,
+        "eligible_unknown_episodes": 0,
+        "selected_episodes_per_arm": 4,
+        "observations_per_episode": 32,
+        "general_episode_ends": [
+          187500,
+          202000,
+          197000,
+          198000
+        ],
+        "success_episode_ends": [
+          187500,
+          202000,
+          197000,
+          198000
+        ],
+        "general_transition_count": 128,
+        "success_transition_count": 128,
+        "shared_general_fallback": true,
+        "no_eligible_general_support": false,
+        "same_observation_fallback": true
+      },
+      {
+        "task": "DO",
+        "age_bin": 1,
+        "age_min": 25000,
+        "age_max": 49999,
+        "eligible_general_episodes": 14,
+        "eligible_known_success_episodes": 0,
+        "eligible_known_unsuccessful_episodes": 14,
+        "eligible_unknown_episodes": 0,
+        "selected_episodes_per_arm": 4,
+        "observations_per_episode": 32,
+        "general_episode_ends": [
+          166000,
+          173000,
+          176000,
+          161000
+        ],
+        "success_episode_ends": [
+          166000,
+          173000,
+          176000,
+          161000
+        ],
+        "general_transition_count": 128,
+        "success_transition_count": 128,
+        "shared_general_fallback": true,
+        "no_eligible_general_support": false,
+        "same_observation_fallback": true
+      },
+      {
+        "task": "DO",
+        "age_bin": 2,
+        "age_min": 50000,
+        "age_max": 74999,
+        "eligible_general_episodes": 11,
+        "eligible_known_success_episodes": 0,
+        "eligible_known_unsuccessful_episodes": 11,
+        "eligible_unknown_episodes": 0,
+        "selected_episodes_per_arm": 4,
+        "observations_per_episode": 32,
+        "general_episode_ends": [
+          145500,
+          139000,
+          148500,
+          140500
+        ],
+        "success_episode_ends": [
+          145500,
+          139000,
+          148500,
+          140500
+        ],
+        "general_transition_count": 128,
+        "success_transition_count": 128,
+        "shared_general_fallback": true,
+        "no_eligible_general_support": false,
+        "same_observation_fallback": true
+      },
+      {
+        "task": "DO",
+        "age_bin": 3,
+        "age_min": 75000,
+        "age_max": 99999,
+        "eligible_general_episodes": 13,
+        "eligible_known_success_episodes": 0,
+        "eligible_known_unsuccessful_episodes": 13,
+        "eligible_unknown_episodes": 0,
+        "selected_episodes_per_arm": 4,
+        "observations_per_episode": 32,
+        "general_episode_ends": [
+          123500,
+          116500,
+          126500,
+          117000
+        ],
+        "success_episode_ends": [
+          123500,
+          116500,
+          126500,
+          117000
+        ],
+        "general_transition_count": 128,
+        "success_transition_count": 128,
+        "shared_general_fallback": true,
+        "no_eligible_general_support": false,
+        "same_observation_fallback": true
+      },
+      {
+        "task": "DC",
+        "age_bin": 0,
+        "age_min": 0,
+        "age_max": 24999,
+        "eligible_general_episodes": 11,
+        "eligible_known_success_episodes": 7,
+        "eligible_known_unsuccessful_episodes": 4,
+        "eligible_unknown_episodes": 0,
+        "selected_episodes_per_arm": 4,
+        "observations_per_episode": 32,
+        "general_episode_ends": [
+          183500,
+          195000,
+          199500,
+          186500
+        ],
+        "success_episode_ends": [
+          184500,
+          183500,
+          188500,
+          186500
+        ],
+        "general_transition_count": 128,
+        "success_transition_count": 128,
+        "shared_general_fallback": false,
+        "no_eligible_general_support": false,
+        "same_observation_fallback": false
+      },
+      {
+        "task": "DC",
+        "age_bin": 1,
+        "age_min": 25000,
+        "age_max": 49999,
+        "eligible_general_episodes": 13,
+        "eligible_known_success_episodes": 9,
+        "eligible_known_unsuccessful_episodes": 4,
+        "eligible_unknown_episodes": 0,
+        "selected_episodes_per_arm": 4,
+        "observations_per_episode": 32,
+        "general_episode_ends": [
+          171500,
+          181500,
+          165500,
+          178000
+        ],
+        "success_episode_ends": [
+          163000,
+          175500,
+          168500,
+          181500
+        ],
+        "general_transition_count": 128,
+        "success_transition_count": 128,
+        "shared_general_fallback": false,
+        "no_eligible_general_support": false,
+        "same_observation_fallback": false
+      },
+      {
+        "task": "DC",
+        "age_bin": 2,
+        "age_min": 50000,
+        "age_max": 74999,
+        "eligible_general_episodes": 12,
+        "eligible_known_success_episodes": 9,
+        "eligible_known_unsuccessful_episodes": 3,
+        "eligible_unknown_episodes": 0,
+        "selected_episodes_per_arm": 4,
+        "observations_per_episode": 32,
+        "general_episode_ends": [
+          133500,
+          143500,
+          136500,
+          134000
+        ],
+        "success_episode_ends": [
+          143500,
+          133500,
+          147000,
+          136500
+        ],
+        "general_transition_count": 128,
+        "success_transition_count": 128,
+        "shared_general_fallback": false,
+        "no_eligible_general_support": false,
+        "same_observation_fallback": false
+      },
+      {
+        "task": "DC",
+        "age_bin": 3,
+        "age_min": 75000,
+        "age_max": 99999,
+        "eligible_general_episodes": 12,
+        "eligible_known_success_episodes": 10,
+        "eligible_known_unsuccessful_episodes": 2,
+        "eligible_unknown_episodes": 0,
+        "selected_episodes_per_arm": 4,
+        "observations_per_episode": 32,
+        "general_episode_ends": [
+          115500,
+          111500,
+          130000,
+          129500
+        ],
+        "success_episode_ends": [
+          129500,
+          119500,
+          115500,
+          113500
+        ],
+        "general_transition_count": 128,
+        "success_transition_count": 128,
+        "shared_general_fallback": false,
+        "no_eligible_general_support": false,
+        "same_observation_fallback": false
+      },
+      {
+        "task": "PU",
+        "age_bin": 0,
+        "age_min": 0,
+        "age_max": 24999,
+        "eligible_general_episodes": 11,
+        "eligible_known_success_episodes": 0,
+        "eligible_known_unsuccessful_episodes": 11,
+        "eligible_unknown_episodes": 0,
+        "selected_episodes_per_arm": 4,
+        "observations_per_episode": 32,
+        "general_episode_ends": [
+          196500,
+          187000,
+          201000,
+          207500
+        ],
+        "success_episode_ends": [
+          196500,
+          187000,
+          201000,
+          207500
+        ],
+        "general_transition_count": 128,
+        "success_transition_count": 128,
+        "shared_general_fallback": true,
+        "no_eligible_general_support": false,
+        "same_observation_fallback": true
+      },
+      {
+        "task": "PU",
+        "age_bin": 1,
+        "age_min": 25000,
+        "age_max": 49999,
+        "eligible_general_episodes": 11,
+        "eligible_known_success_episodes": 0,
+        "eligible_known_unsuccessful_episodes": 11,
+        "eligible_unknown_episodes": 0,
+        "selected_episodes_per_arm": 4,
+        "observations_per_episode": 32,
+        "general_episode_ends": [
+          172500,
+          167000,
+          169000,
+          179500
+        ],
+        "success_episode_ends": [
+          172500,
+          167000,
+          169000,
+          179500
+        ],
+        "general_transition_count": 128,
+        "success_transition_count": 128,
+        "shared_general_fallback": true,
+        "no_eligible_general_support": false,
+        "same_observation_fallback": true
+      },
+      {
+        "task": "PU",
+        "age_bin": 2,
+        "age_min": 50000,
+        "age_max": 74999,
+        "eligible_general_episodes": 14,
+        "eligible_known_success_episodes": 0,
+        "eligible_known_unsuccessful_episodes": 14,
+        "eligible_unknown_episodes": 0,
+        "selected_episodes_per_arm": 4,
+        "observations_per_episode": 32,
+        "general_episode_ends": [
+          135500,
+          156000,
+          157500,
+          141000
+        ],
+        "success_episode_ends": [
+          135500,
+          156000,
+          157500,
+          141000
+        ],
+        "general_transition_count": 128,
+        "success_transition_count": 128,
+        "shared_general_fallback": true,
+        "no_eligible_general_support": false,
+        "same_observation_fallback": true
+      },
+      {
+        "task": "PU",
+        "age_bin": 3,
+        "age_min": 75000,
+        "age_max": 99999,
+        "eligible_general_episodes": 12,
+        "eligible_known_success_episodes": 0,
+        "eligible_known_unsuccessful_episodes": 12,
+        "eligible_unknown_episodes": 0,
+        "selected_episodes_per_arm": 4,
+        "observations_per_episode": 32,
+        "general_episode_ends": [
+          130500,
+          114000,
+          120500,
+          119000
+        ],
+        "success_episode_ends": [
+          130500,
+          114000,
+          120500,
+          119000
+        ],
+        "general_transition_count": 128,
+        "success_transition_count": 128,
+        "shared_general_fallback": true,
+        "no_eligible_general_support": false,
+        "same_observation_fallback": true
+      },
+      {
+        "task": "BP",
+        "age_bin": 0,
+        "age_min": 0,
+        "age_max": 24999,
+        "eligible_general_episodes": 18,
+        "eligible_known_success_episodes": 0,
+        "eligible_known_unsuccessful_episodes": 18,
+        "eligible_unknown_episodes": 0,
+        "selected_episodes_per_arm": 4,
+        "observations_per_episode": 32,
+        "general_episode_ends": [
+          204000,
+          204500,
+          197500,
+          207000
+        ],
+        "success_episode_ends": [
+          204000,
+          204500,
+          197500,
+          207000
+        ],
+        "general_transition_count": 128,
+        "success_transition_count": 128,
+        "shared_general_fallback": true,
+        "no_eligible_general_support": false,
+        "same_observation_fallback": true
+      },
+      {
+        "task": "BP",
+        "age_bin": 1,
+        "age_min": 25000,
+        "age_max": 49999,
+        "eligible_general_episodes": 12,
+        "eligible_known_success_episodes": 0,
+        "eligible_known_unsuccessful_episodes": 12,
+        "eligible_unknown_episodes": 0,
+        "selected_episodes_per_arm": 4,
+        "observations_per_episode": 32,
+        "general_episode_ends": [
+          177500,
+          174500,
+          180000,
+          172000
+        ],
+        "success_episode_ends": [
+          177500,
+          174500,
+          180000,
+          172000
+        ],
+        "general_transition_count": 128,
+        "success_transition_count": 128,
+        "shared_general_fallback": true,
+        "no_eligible_general_support": false,
+        "same_observation_fallback": true
+      },
+      {
+        "task": "BP",
+        "age_bin": 2,
+        "age_min": 50000,
+        "age_max": 74999,
+        "eligible_general_episodes": 13,
+        "eligible_known_success_episodes": 1,
+        "eligible_known_unsuccessful_episodes": 12,
+        "eligible_unknown_episodes": 0,
+        "selected_episodes_per_arm": 1,
+        "observations_per_episode": 32,
+        "general_episode_ends": [
+          157000
+        ],
+        "success_episode_ends": [
+          148000
+        ],
+        "general_transition_count": 32,
+        "success_transition_count": 32,
+        "shared_general_fallback": false,
+        "no_eligible_general_support": false,
+        "same_observation_fallback": false
+      },
+      {
+        "task": "BP",
+        "age_bin": 3,
+        "age_min": 75000,
+        "age_max": 99999,
+        "eligible_general_episodes": 13,
+        "eligible_known_success_episodes": 0,
+        "eligible_known_unsuccessful_episodes": 13,
+        "eligible_unknown_episodes": 0,
+        "selected_episodes_per_arm": 4,
+        "observations_per_episode": 32,
+        "general_episode_ends": [
+          125500,
+          113000,
+          120000,
+          129000
+        ],
+        "success_episode_ends": [
+          125500,
+          113000,
+          120000,
+          129000
+        ],
+        "general_transition_count": 128,
+        "success_transition_count": 128,
+        "shared_general_fallback": true,
+        "no_eligible_general_support": false,
+        "same_observation_fallback": true
+      }
+    ],
+    "shared_fallback_transitions_per_arm": 1408,
+    "observations_sha256": "b5a0bae4a2015d94dac540767926ec4daa66637dfc3a46882e11db4a206d2d05",
+    "memory_sha256": "3d77e310e3eeae393415abb2f62954afeeac02b069a2babd84be32c0c602a0af",
+    "transitions": 1952,
+    "unique_episodes": 61,
+    "known_success_transitions": 416,
+    "known_unsuccessful_transitions": 1536,
+    "unknown_label_transitions": 0
+  },
+  "objective": "stock SAC actor objective + lambda * mean KL(frozen S teacher || student) on historical training observations",
+  "update_rule": "one existing actor optimizer step; KL gradient accumulated after stock actor backward, before that step",
+  "historical_value_learning": false,
+  "stock_replay_sampler_changed": false,
+  "teacher_evaluation": "deterministic Gaussian parameters; frozen; cached once; no sampled teacher actions",
+  "memory_batch_sampling": "private numpy Generator, with replacement; does not touch global or learner RNGs",
+  "kl_space": "analytic pre-tanh diagonal Gaussian; exact KL invariant under shared bijective tanh; not epsilon-adjusted sampled log-density",
+  "loss_logging": "stock actor_loss remains the SAC component; total objective reported separately",
+  "gradient_norms": "actor L2: SAC before retention, combined after, retention from their actual floating-point difference (includes lambda); no extra backward",
+  "resume_restored": false
+}

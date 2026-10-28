@@ -1,0 +1,69 @@
+{
+  "training_steps": 32000,
+  "SAC_updates": 32000,
+  "collected_by_task": {
+    "DO": 4000,
+    "DC": 4000,
+    "PU": 4000,
+    "BP": 20000
+  },
+  "exact_episode_order": true,
+  "checkpoints": [
+    {
+      "relative_step": 4000,
+      "absolute_step": 212000,
+      "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\66_retention_intervention_queue_v1\\results\\20261027T130711Z_retention_1312ce94\\jobs\\B_s41014_p4201_A_N1\\20261027T210559Z_a_b00233a5\\checkpoints\\absolute_212000",
+      "manifest_sha256": "44c110e9e652dd8b6b2aad348b7c657268eace6fa4e7ea80445b3b9aa5118064",
+      "telemetry_state": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\66_retention_intervention_queue_v1\\results\\20261027T130711Z_retention_1312ce94\\jobs\\B_s41014_p4201_A_N1\\20261027T210559Z_a_b00233a5\\checkpoints\\absolute_212000\\telemetry_state.pkl",
+        "sha256": "76d97bb0768dfbcb112d33175517b24820f5f45c29e9e7124f7b1e292db39420"
+      },
+      "retention_state": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\66_retention_intervention_queue_v1\\results\\20261027T130711Z_retention_1312ce94\\jobs\\B_s41014_p4201_A_N1\\20261027T210559Z_a_b00233a5\\checkpoints\\absolute_212000\\retention_state.pkl",
+        "sha256": "4bff4979bf45ef36bdade5d2cddccb3db3743eb24396ee5e61462b58c2c62ca4"
+      }
+    },
+    {
+      "relative_step": 8000,
+      "absolute_step": 216000,
+      "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\66_retention_intervention_queue_v1\\results\\20261027T130711Z_retention_1312ce94\\jobs\\B_s41014_p4201_A_N1\\20261027T210559Z_a_b00233a5\\checkpoints\\absolute_216000",
+      "manifest_sha256": "8a89d038ff3faf4e70a479cbb12f17362d39251ad832dbdd178c66c6f62f5408",
+      "telemetry_state": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\66_retention_intervention_queue_v1\\results\\20261027T130711Z_retention_1312ce94\\jobs\\B_s41014_p4201_A_N1\\20261027T210559Z_a_b00233a5\\checkpoints\\absolute_216000\\telemetry_state.pkl",
+        "sha256": "20d7a24949833cdaad52fc6b0d3177664a80c605b5e8c7c63bc2c46b74c36693"
+      },
+      "retention_state": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\66_retention_intervention_queue_v1\\results\\20261027T130711Z_retention_1312ce94\\jobs\\B_s41014_p4201_A_N1\\20261027T210559Z_a_b00233a5\\checkpoints\\absolute_216000\\retention_state.pkl",
+        "sha256": "e380507c7727e33f89a7bdff425d09ff29c8b718c2339da8e8f354cd4e378975"
+      }
+    },
+    {
+      "relative_step": 16000,
+      "absolute_step": 224000,
+      "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\66_retention_intervention_queue_v1\\results\\20261027T130711Z_retention_1312ce94\\jobs\\B_s41014_p4201_A_N1\\20261027T210559Z_a_b00233a5\\checkpoints\\absolute_224000",
+      "manifest_sha256": "0032dd8a78740450d6fdc7cd88ecc6586a3bad4bd73c5da1ffabe6482a1eb7ee",
+      "telemetry_state": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\66_retention_intervention_queue_v1\\results\\20261027T130711Z_retention_1312ce94\\jobs\\B_s41014_p4201_A_N1\\20261027T210559Z_a_b00233a5\\checkpoints\\absolute_224000\\telemetry_state.pkl",
+        "sha256": "dc8a232e3ac6e47961902f9b635858b671f96c10ce2668d8994da3dd1a263c1b"
+      },
+      "retention_state": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\66_retention_intervention_queue_v1\\results\\20261027T130711Z_retention_1312ce94\\jobs\\B_s41014_p4201_A_N1\\20261027T210559Z_a_b00233a5\\checkpoints\\absolute_224000\\retention_state.pkl",
+        "sha256": "2c8ad7921ef9ab521f7deaa767b70e7d7ca2c0040f5c656ce524a3b41aa83adb"
+      }
+    },
+    {
+      "relative_step": 32000,
+      "absolute_step": 240000,
+      "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\66_retention_intervention_queue_v1\\results\\20261027T130711Z_retention_1312ce94\\jobs\\B_s41014_p4201_A_N1\\20261027T210559Z_a_b00233a5\\checkpoints\\absolute_240000",
+      "manifest_sha256": "4ef197734c7a7d7ccf055b3980f983fb0b01ebe03c26be8e67eec63d02d1efe3",
+      "telemetry_state": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\66_retention_intervention_queue_v1\\results\\20261027T130711Z_retention_1312ce94\\jobs\\B_s41014_p4201_A_N1\\20261027T210559Z_a_b00233a5\\checkpoints\\absolute_240000\\telemetry_state.pkl",
+        "sha256": "239627173f4928525ec6e2bf7a2b6372d6790fbd3a774785da3d9a28d752a1a7"
+      },
+      "retention_state": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\66_retention_intervention_queue_v1\\results\\20261027T130711Z_retention_1312ce94\\jobs\\B_s41014_p4201_A_N1\\20261027T210559Z_a_b00233a5\\checkpoints\\absolute_240000\\retention_state.pkl",
+        "sha256": "2fcf53bc5d44121cc486915ab7b2c4fd0eeb9dcd697816f648595b2bd03744ca"
+      }
+    }
+  ]
+}

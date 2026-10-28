@@ -1,0 +1,5 @@
+{
+  "type": "ZeroDivisionError",
+  "message": "division by zero",
+  "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\SS\\Projects\\robot_practice_allocation\\64_gain_loss_recovery_baseline_v1\\verify_implementation.py\", line 140, in main\n    evaluate(engine,[selected[0]],costs,out/'known_S_repeat.csv',{'id':'technical_known_S_repeat','parent':state['parent'],\n  File \"C:\\Users\\SS\\Projects\\robot_practice_allocation\\64_gain_loss_recovery_baseline_v1\\baseline_evaluation.py\", line 56, in evaluate\n    'success_by_task':{t:sum(r['success'] for r in rows if r['task']==t)/sum(r['task']==t for r in rows) for t in TASKS}}\n                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nZeroDivisionError: division by zero\n"
+}

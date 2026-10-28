@@ -1,0 +1,8 @@
+{
+  "status": "not_started",
+  "attempt": "launch_queue.ps1",
+  "reason": "Windows PowerShell script execution policy refused the .ps1 before any script command executed",
+  "environment_steps": 0,
+  "machine_policy_changed": false,
+  "next_action": "Launch the already certified Python controller with the native Start-Process cmdlet; preserve the same campaign, jobs, sources and budgets."
+}

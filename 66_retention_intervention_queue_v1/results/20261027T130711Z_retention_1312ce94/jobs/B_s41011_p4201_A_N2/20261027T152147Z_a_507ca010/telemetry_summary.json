@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-10-27T15:40:00.886002+00:00",
+  "start_step": 208000,
+  "end_step": 240000,
+  "counts": {
+    "observed_steps": 32000,
+    "observed_updates": 32000,
+    "windows": 128,
+    "episodes": 64,
+    "policy_probes": 33,
+    "sampled_transitions": 8192000,
+    "extra_environment_steps": 0,
+    "extra_learner_updates": 0
+  },
+  "known_complete_episode_labels": 264,
+  "collected_cumulative_since_S": {
+    "n": 32000,
+    "by_task": {
+      "DO": {
+        "n": 4000,
+        "fraction": 0.125
+      },
+      "DC": {
+        "n": 4000,
+        "fraction": 0.125
+      },
+      "PU": {
+        "n": 4000,
+        "fraction": 0.125
+      },
+      "BP": {
+        "n": 20000,
+        "fraction": 0.625
+      }
+    }
+  },
+  "partial_episode_preserved": null,
+  "step_observation_wall_seconds": 802.6462226763833,
+  "step_observation_process_cpu_seconds": 158.671875,
+  "timing_scope": "includes ordinary Engine.step learner/collector time; not telemetry-only overhead; attachment probe excluded",
+  "gpu_busy_time": null
+}

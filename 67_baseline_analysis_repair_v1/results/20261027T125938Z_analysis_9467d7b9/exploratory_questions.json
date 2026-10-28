@@ -1,0 +1,8 @@
+{
+  "exposure_vs_loss": "Task sampling, replay age/newness and observed T20 loss in the same frozen checkpoint interval.",
+  "policy_churn_vs_loss": "Training-only fixed-panel Gaussian KL/mean change and observed success transitions; KL is not task forgetting.",
+  "reward_value_vs_success": "Actual sampled-batch rewards/Q/TD and changing training-policy episode outcomes alongside fixed-policy T20 success.",
+  "status": "Exploratory descriptive co-occurrence; no signal selection, model fitting, causal attribution or scientific progression gate.",
+  "alignment": "Intervals (0,4k],(4k,8k],(8k,16k],(16k,32k]; longer windows contain more updates and are not equal-duration hazards.",
+  "pairing": "Condition differences computed within parent/task/interval after averaging the two futures; no missing-future deletion."
+}

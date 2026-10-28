@@ -1,0 +1,207 @@
+[
+  {
+    "parent": 41011,
+    "certified": true,
+    "require_reval": false,
+    "stages": {
+      "P": {
+        "certified": true,
+        "require_reval": false,
+        "checkpoint": {
+          "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\44_selection_value_stage1_checkpoint36_v2\\results\\20261019T064658Z_stage1_2cbbdd65\\jobs\\B_s41011_pretrain_200000\\a01_20439a57\\checkpoint",
+          "manifest_sha256": "0e1e4f2a4469f27c4c552f096b4e0b930c91805383c84e83bb31b4aa6fff4278"
+        },
+        "evaluation": {
+          "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\44_selection_value_stage1_checkpoint36_v2\\results\\20261019T064658Z_stage1_2cbbdd65\\jobs\\B_s41011_parent_O\\a01_e362c512\\evaluation_episodes.csv",
+          "sha256": "5556fa946533ecf2364111e79cf3b43ccbd96675b6b51be3a87c4b5791493ac9"
+        },
+        "source_environment_and_evaluation_byte_identity": true,
+        "same_bank_and_physical_case_identity": true,
+        "canonical49_verified_against_original": true,
+        "first_success_step_inferred_from_early_stop_length": true,
+        "new_full_model_or_replay_verification_performed": false
+      },
+      "S": {
+        "certified": true,
+        "require_reval": false,
+        "checkpoint": {
+          "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\44_selection_value_stage1_checkpoint36_v2\\results\\20261019T064658Z_stage1_2cbbdd65\\jobs\\B_s41011_r4201_dose625_t8000\\a01_3a4a4a84\\checkpoint",
+          "manifest_sha256": "d88a014536eb18f408112cea34e35bdb16918f0e2d28b247e90ee5f56a04fb61"
+        },
+        "evaluation": {
+          "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\48_bp8k_checkpoint_evaluation_v1\\results\\20261020T050842Z_B_evaluation_5a8b5434\\jobs\\B_s41011_r4201_dose625_8k_O100\\20261020T050904Z_attempt_bf5730b9\\evaluation_episodes.csv",
+          "sha256": "8306f90d6be36efdea4e78e73dfb17597a64cc1c401f1c3ec23f9df2ff7186a2"
+        },
+        "source_environment_and_evaluation_byte_identity": true,
+        "same_bank_and_physical_case_identity": true,
+        "canonical49_verified_against_original": true,
+        "first_success_step_inferred_from_early_stop_length": true,
+        "new_full_model_or_replay_verification_performed": false
+      }
+    }
+  },
+  {
+    "parent": 41012,
+    "certified": true,
+    "require_reval": false,
+    "stages": {
+      "P": {
+        "certified": true,
+        "require_reval": false,
+        "checkpoint": {
+          "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\44_selection_value_stage1_checkpoint36_v2\\results\\20261019T064658Z_stage1_2cbbdd65\\jobs\\B_s41012_pretrain_200000\\a01_f63ab884\\checkpoint",
+          "manifest_sha256": "90111c0e8de386cce7af2ef9f5019df4e3e3f95795f3d0c59ea16dc62d420548"
+        },
+        "evaluation": {
+          "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\44_selection_value_stage1_checkpoint36_v2\\results\\20261019T064658Z_stage1_2cbbdd65\\jobs\\B_s41012_parent_O\\a01_377934c5\\evaluation_episodes.csv",
+          "sha256": "be9ea69c5e5f39d20c051765fefe8d9fce6148af8e3b8968337af714106a46a7"
+        },
+        "source_environment_and_evaluation_byte_identity": true,
+        "same_bank_and_physical_case_identity": true,
+        "canonical49_verified_against_original": true,
+        "first_success_step_inferred_from_early_stop_length": true,
+        "new_full_model_or_replay_verification_performed": false
+      },
+      "S": {
+        "certified": true,
+        "require_reval": false,
+        "checkpoint": {
+          "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\44_selection_value_stage1_checkpoint36_v2\\results\\20261019T064658Z_stage1_2cbbdd65\\jobs\\B_s41012_r4201_dose625_t8000\\a01_abe2bca3\\checkpoint",
+          "manifest_sha256": "fe485373ccb0bfd73cd95358f5cb4ff3744b6706c9d54ca044d229ee4a63b0fa"
+        },
+        "evaluation": {
+          "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\48_bp8k_checkpoint_evaluation_v1\\results\\20261020T050842Z_B_evaluation_5a8b5434\\jobs\\B_s41012_r4201_dose625_8k_O100\\20261020T051255Z_attempt_9b4e5abd\\evaluation_episodes.csv",
+          "sha256": "bba1f28180ea344d4699d19f1c3919bcdbf7bc0eef410ee57e0747eb12489244"
+        },
+        "source_environment_and_evaluation_byte_identity": true,
+        "same_bank_and_physical_case_identity": true,
+        "canonical49_verified_against_original": true,
+        "first_success_step_inferred_from_early_stop_length": true,
+        "new_full_model_or_replay_verification_performed": false
+      }
+    }
+  },
+  {
+    "parent": 41013,
+    "certified": true,
+    "require_reval": false,
+    "stages": {
+      "P": {
+        "certified": true,
+        "require_reval": false,
+        "checkpoint": {
+          "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\44_selection_value_stage1_checkpoint36_v2\\results\\20261019T064658Z_stage1_2cbbdd65\\jobs\\B_s41013_pretrain_200000\\a01_919dc8e3\\checkpoint",
+          "manifest_sha256": "2680965085a67b8decc0fa08a606d30e0bdb50b090d33372571531076ee3f6e1"
+        },
+        "evaluation": {
+          "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\44_selection_value_stage1_checkpoint36_v2\\results\\20261019T064658Z_stage1_2cbbdd65\\jobs\\B_s41013_parent_O\\a01_a9c7fc33\\evaluation_episodes.csv",
+          "sha256": "a5e4630812bd5009668aa5cae9308da8f60237b5862d98ae94c9bc611d633daa"
+        },
+        "source_environment_and_evaluation_byte_identity": true,
+        "same_bank_and_physical_case_identity": true,
+        "canonical49_verified_against_original": true,
+        "first_success_step_inferred_from_early_stop_length": true,
+        "new_full_model_or_replay_verification_performed": false
+      },
+      "S": {
+        "certified": true,
+        "require_reval": false,
+        "checkpoint": {
+          "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\44_selection_value_stage1_checkpoint36_v2\\results\\20261019T064658Z_stage1_2cbbdd65\\jobs\\B_s41013_r4201_dose625_t8000\\a01_680e5954\\checkpoint",
+          "manifest_sha256": "106650eef14cf5f67a05743075afcda3e72edc31869a70390379c8d46bd765aa"
+        },
+        "evaluation": {
+          "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\48_bp8k_checkpoint_evaluation_v1\\results\\20261020T050842Z_B_evaluation_5a8b5434\\jobs\\B_s41013_r4201_dose625_8k_O100\\20261020T051626Z_attempt_bdcaa174\\evaluation_episodes.csv",
+          "sha256": "4ead1f489aef4b2d7a16cf2c39975b8c305a722321b9c2077fa83a2c73b87af3"
+        },
+        "source_environment_and_evaluation_byte_identity": true,
+        "same_bank_and_physical_case_identity": true,
+        "canonical49_verified_against_original": true,
+        "first_success_step_inferred_from_early_stop_length": true,
+        "new_full_model_or_replay_verification_performed": false
+      }
+    }
+  },
+  {
+    "parent": 41014,
+    "certified": true,
+    "require_reval": false,
+    "stages": {
+      "P": {
+        "certified": true,
+        "require_reval": false,
+        "checkpoint": {
+          "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\44_selection_value_stage1_checkpoint36_v2\\results\\20261019T064658Z_stage1_2cbbdd65\\jobs\\B_s41014_pretrain_200000\\a01_16dda0eb\\checkpoint",
+          "manifest_sha256": "880928621d68416447446227e22d2a5bd28aad96d9b5b2ac3d8b735ef289c8a9"
+        },
+        "evaluation": {
+          "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\44_selection_value_stage1_checkpoint36_v2\\results\\20261019T064658Z_stage1_2cbbdd65\\jobs\\B_s41014_parent_O\\a01_dabd9b2b\\evaluation_episodes.csv",
+          "sha256": "95096f6a8979d276bf5aff7c7aaff3a0e897212c70c65d14161fd07ba20dd1c6"
+        },
+        "source_environment_and_evaluation_byte_identity": true,
+        "same_bank_and_physical_case_identity": true,
+        "canonical49_verified_against_original": true,
+        "first_success_step_inferred_from_early_stop_length": true,
+        "new_full_model_or_replay_verification_performed": false
+      },
+      "S": {
+        "certified": true,
+        "require_reval": false,
+        "checkpoint": {
+          "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\44_selection_value_stage1_checkpoint36_v2\\results\\20261019T064658Z_stage1_2cbbdd65\\jobs\\B_s41014_r4201_dose625_t8000\\a01_06459dda\\checkpoint",
+          "manifest_sha256": "02371ff02e53d0003c77cb1c4712b132229c982bb39c8338e1a9a8ff53ab04ec"
+        },
+        "evaluation": {
+          "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\48_bp8k_checkpoint_evaluation_v1\\results\\20261020T050842Z_B_evaluation_5a8b5434\\jobs\\B_s41014_r4201_dose625_8k_O100\\20261020T052145Z_attempt_9d6b8b76\\evaluation_episodes.csv",
+          "sha256": "8ffb5d608429fcae263ca787785cf06d2003a6d6a80b30cf34e5298ee11caafe"
+        },
+        "source_environment_and_evaluation_byte_identity": true,
+        "same_bank_and_physical_case_identity": true,
+        "canonical49_verified_against_original": true,
+        "first_success_step_inferred_from_early_stop_length": true,
+        "new_full_model_or_replay_verification_performed": false
+      }
+    }
+  },
+  {
+    "parent": 41015,
+    "certified": true,
+    "require_reval": false,
+    "stages": {
+      "P": {
+        "certified": true,
+        "require_reval": false,
+        "checkpoint": {
+          "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\44_selection_value_stage1_checkpoint36_v2\\results\\20261019T064658Z_stage1_2cbbdd65\\jobs\\B_s41015_pretrain_200000\\a01_90008ee6\\checkpoint",
+          "manifest_sha256": "4fe55737b6aac171a0163857b93254d151f3c7f77153c3661c17a6821c1a89ae"
+        },
+        "evaluation": {
+          "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\44_selection_value_stage1_checkpoint36_v2\\results\\20261019T064658Z_stage1_2cbbdd65\\jobs\\B_s41015_parent_O\\a01_ea8b7d7f\\evaluation_episodes.csv",
+          "sha256": "9d921b525586bf2103119f6665e1e8528d5f1154972c69b391777a17534a0731"
+        },
+        "source_environment_and_evaluation_byte_identity": true,
+        "same_bank_and_physical_case_identity": true,
+        "canonical49_verified_against_original": true,
+        "first_success_step_inferred_from_early_stop_length": true,
+        "new_full_model_or_replay_verification_performed": false
+      },
+      "S": {
+        "certified": true,
+        "require_reval": false,
+        "checkpoint": {
+          "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\44_selection_value_stage1_checkpoint36_v2\\results\\20261019T064658Z_stage1_2cbbdd65\\jobs\\B_s41015_r4201_dose625_t8000\\a01_e5391d30\\checkpoint",
+          "manifest_sha256": "084d96e80f02a7ca338dd0073aa3f3a51686635e02f636758093cebe4d53e1de"
+        },
+        "evaluation": {
+          "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\48_bp8k_checkpoint_evaluation_v1\\results\\20261020T050842Z_B_evaluation_5a8b5434\\jobs\\B_s41015_r4201_dose625_8k_O100\\20261020T052536Z_attempt_0666255f\\evaluation_episodes.csv",
+          "sha256": "835031f98cda2cd84dcde6b440250a1f2a8cf71bc909ce5d95669a062476d6e9"
+        },
+        "source_environment_and_evaluation_byte_identity": true,
+        "same_bank_and_physical_case_identity": true,
+        "canonical49_verified_against_original": true,
+        "first_success_step_inferred_from_early_stop_length": true,
+        "new_full_model_or_replay_verification_performed": false
+      }
+    }
+  }
+]

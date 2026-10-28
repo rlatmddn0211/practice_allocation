@@ -1,5 +1,13 @@
 # Robot practice allocation
 
+2026-10-28 공개: [68번 보존 개입 결과와 해석](68_retention_intervention_result_review_v1/results/20261028T072607Z_review_323af171/report_ko.md).
+기준선20분기와보존비교40분기를모두완료했고,원자료CSV·동결명세·실제seed·비용·독립검산·재표집결과를함께게시했습니다.
+성공경험우선보존D−일반경험보존C는+2.55%p(조건부사례95%구간[+1.499,+3.650])이고,
+기본SAC대비D는+1.10%p([−0.25,+2.45])로총성능우위는미확정입니다.
+BP와일부부모에집중된효과,신규획득·상실·회복의손익과한계를[근거원장](68_retention_intervention_result_review_v1/results/20261028T072607Z_review_323af171/evidence_record.json)에기록했습니다.
+정확한게시범위와로컬보관항목은[70번게시기록](70_retention_results_github_publication_v1/README.md)을따릅니다.
+아래기존59번등의진행상태서술은앞선공개시점의역사적기록입니다.
+
 추가 강화학습에서 성공을 얻는 사례의 패턴이 출발 학습 상태에 얼마나 의존하며,
 그 의존성이 새로운 학습 미래와 새로운 부모·상태에서도 유지되는지
 

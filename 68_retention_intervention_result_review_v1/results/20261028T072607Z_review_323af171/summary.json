@@ -1,0 +1,157 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "name": "analysis_summary_hash_40",
+      "passed": true
+    },
+    {
+      "name": "verify_summary_hash_40",
+      "passed": true
+    },
+    {
+      "name": "full_verified_40",
+      "passed": true
+    },
+    {
+      "name": "verification_exact_analysis_40",
+      "passed": true
+    },
+    {
+      "name": "all_jobs_completed_40",
+      "passed": true
+    },
+    {
+      "name": "file_only_40",
+      "passed": true
+    },
+    {
+      "name": "analysis_summary_hash_20",
+      "passed": true
+    },
+    {
+      "name": "verify_summary_hash_20",
+      "passed": true
+    },
+    {
+      "name": "full_verified_20",
+      "passed": true
+    },
+    {
+      "name": "verification_exact_analysis_20",
+      "passed": true
+    },
+    {
+      "name": "all_jobs_completed_20",
+      "passed": true
+    },
+    {
+      "name": "file_only_20",
+      "passed": true
+    },
+    {
+      "name": "net_identity_A",
+      "passed": true
+    },
+    {
+      "name": "recovery_is_gain_subset_A",
+      "passed": true
+    },
+    {
+      "name": "net_identity_B",
+      "passed": true
+    },
+    {
+      "name": "recovery_is_gain_subset_B",
+      "passed": true
+    },
+    {
+      "name": "net_identity_C",
+      "passed": true
+    },
+    {
+      "name": "recovery_is_gain_subset_C",
+      "passed": true
+    },
+    {
+      "name": "net_identity_D",
+      "passed": true
+    },
+    {
+      "name": "recovery_is_gain_subset_D",
+      "passed": true
+    },
+    {
+      "name": "net_identity_STOP",
+      "passed": true
+    },
+    {
+      "name": "recovery_is_gain_subset_STOP",
+      "passed": true
+    },
+    {
+      "name": "parent_average_D-C",
+      "passed": true
+    },
+    {
+      "name": "task_sum_D-C",
+      "passed": true
+    },
+    {
+      "name": "parent_average_D-A",
+      "passed": true
+    },
+    {
+      "name": "task_sum_D-A",
+      "passed": true
+    },
+    {
+      "name": "LOPO_41011_D-C",
+      "passed": true
+    },
+    {
+      "name": "LOPO_41011_D-A",
+      "passed": true
+    },
+    {
+      "name": "LOPO_41012_D-C",
+      "passed": true
+    },
+    {
+      "name": "LOPO_41012_D-A",
+      "passed": true
+    },
+    {
+      "name": "LOPO_41013_D-C",
+      "passed": true
+    },
+    {
+      "name": "LOPO_41013_D-A",
+      "passed": true
+    },
+    {
+      "name": "LOPO_41014_D-C",
+      "passed": true
+    },
+    {
+      "name": "LOPO_41014_D-A",
+      "passed": true
+    },
+    {
+      "name": "LOPO_41015_D-C",
+      "passed": true
+    },
+    {
+      "name": "LOPO_41015_D-A",
+      "passed": true
+    },
+    {
+      "name": "separate_future_sets",
+      "passed": true
+    }
+  ],
+  "input_files": 17,
+  "new_environment_steps": 0,
+  "SAC_updates": 0,
+  "report_sha256": "b8f30ab16f80d44e132d5deba3bf589c1a464c04df2ea10c3b00f8c25772067b"
+}

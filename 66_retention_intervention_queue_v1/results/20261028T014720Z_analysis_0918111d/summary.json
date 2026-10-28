@@ -1,0 +1,681 @@
+{
+  "execution_status": "completed_file_only_analysis",
+  "synthetic_contract_fixture": false,
+  "campaign": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\66_retention_intervention_queue_v1\\results\\20261027T130711Z_retention_1312ce94",
+  "completed_jobs": 40,
+  "planned_jobs": 40,
+  "primary": {
+    "conditions": {
+      "A": {
+        "J": 34.7,
+        "G": 3.9,
+        "L": 5.0,
+        "delta": -1.1,
+        "recovery": 1.65
+      },
+      "B": {
+        "J": 35.25,
+        "G": 3.95,
+        "L": 4.5,
+        "delta": -0.55,
+        "recovery": 1.9
+      },
+      "C": {
+        "J": 33.25,
+        "G": 2.25,
+        "L": 4.8,
+        "delta": -2.55,
+        "recovery": 1.15
+      },
+      "D": {
+        "J": 35.8,
+        "G": 3.65,
+        "L": 3.65,
+        "delta": 0.0,
+        "recovery": 2.05
+      },
+      "STOP": {
+        "J": 35.8,
+        "G": 0,
+        "L": 0,
+        "delta": 0,
+        "recovery": 0
+      }
+    },
+    "contrasts": {
+      "D_minus_C": {
+        "J": 2.55,
+        "G": 1.4,
+        "L": -1.15,
+        "delta": 2.55,
+        "recovery": 0.9
+      },
+      "B_minus_A": {
+        "J": 0.55,
+        "G": 0.05,
+        "L": -0.5,
+        "delta": 0.55,
+        "recovery": 0.25
+      },
+      "C_minus_A": {
+        "J": -1.45,
+        "G": -1.65,
+        "L": -0.2,
+        "delta": -1.45,
+        "recovery": -0.5
+      },
+      "D_minus_A": {
+        "J": 1.1,
+        "G": -0.25,
+        "L": -1.35,
+        "delta": 1.1,
+        "recovery": 0.4000000000000001
+      }
+    },
+    "J_P": 33.900000000000006,
+    "J_S": 35.8
+  },
+  "case_intervals": [
+    {
+      "scope": "E50",
+      "condition": "A",
+      "metric": "J",
+      "lower": 33.699999999999996,
+      "upper": 35.75
+    },
+    {
+      "scope": "E50",
+      "condition": "A",
+      "metric": "G",
+      "lower": 2.95,
+      "upper": 4.8999999999999995
+    },
+    {
+      "scope": "E50",
+      "condition": "A",
+      "metric": "L",
+      "lower": 3.9000000000000004,
+      "upper": 6.1000000000000005
+    },
+    {
+      "scope": "E50",
+      "condition": "A",
+      "metric": "delta",
+      "lower": -2.6999999999999997,
+      "upper": 0.5
+    },
+    {
+      "scope": "E50",
+      "condition": "A",
+      "metric": "recovery",
+      "lower": 1.0,
+      "upper": 2.4
+    },
+    {
+      "scope": "E50",
+      "condition": "B",
+      "metric": "J",
+      "lower": 34.35,
+      "upper": 36.15
+    },
+    {
+      "scope": "E50",
+      "condition": "B",
+      "metric": "G",
+      "lower": 3.05,
+      "upper": 4.9
+    },
+    {
+      "scope": "E50",
+      "condition": "B",
+      "metric": "L",
+      "lower": 3.45,
+      "upper": 5.550000000000001
+    },
+    {
+      "scope": "E50",
+      "condition": "B",
+      "metric": "delta",
+      "lower": -2.0500000000000003,
+      "upper": 0.9999999999999998
+    },
+    {
+      "scope": "E50",
+      "condition": "B",
+      "metric": "recovery",
+      "lower": 1.2000000000000002,
+      "upper": 2.6500000000000004
+    },
+    {
+      "scope": "E50",
+      "condition": "C",
+      "metric": "J",
+      "lower": 32.25,
+      "upper": 34.3
+    },
+    {
+      "scope": "E50",
+      "condition": "C",
+      "metric": "G",
+      "lower": 1.55,
+      "upper": 3.0000000000000004
+    },
+    {
+      "scope": "E50",
+      "condition": "C",
+      "metric": "L",
+      "lower": 3.85,
+      "upper": 5.8
+    },
+    {
+      "scope": "E50",
+      "condition": "C",
+      "metric": "delta",
+      "lower": -3.849999999999999,
+      "upper": -1.2500000000000007
+    },
+    {
+      "scope": "E50",
+      "condition": "C",
+      "metric": "recovery",
+      "lower": 0.6499999999999999,
+      "upper": 1.75
+    },
+    {
+      "scope": "E50",
+      "condition": "D",
+      "metric": "J",
+      "lower": 34.800000000000004,
+      "upper": 36.75000000000001
+    },
+    {
+      "scope": "E50",
+      "condition": "D",
+      "metric": "G",
+      "lower": 2.7,
+      "upper": 4.65
+    },
+    {
+      "scope": "E50",
+      "condition": "D",
+      "metric": "L",
+      "lower": 2.7,
+      "upper": 4.6000000000000005
+    },
+    {
+      "scope": "E50",
+      "condition": "D",
+      "metric": "delta",
+      "lower": -1.4000000000000004,
+      "upper": 1.45
+    },
+    {
+      "scope": "E50",
+      "condition": "D",
+      "metric": "recovery",
+      "lower": 1.2999999999999998,
+      "upper": 2.9
+    },
+    {
+      "scope": "E50",
+      "condition": "D_minus_C",
+      "metric": "J",
+      "lower": 1.4987499999999878,
+      "upper": 3.6499999999999915
+    },
+    {
+      "scope": "E50",
+      "condition": "D_minus_C",
+      "metric": "G",
+      "lower": 0.5499999999999998,
+      "upper": 2.3
+    },
+    {
+      "scope": "E50",
+      "condition": "D_minus_C",
+      "metric": "L",
+      "lower": -1.9000000000000004,
+      "upper": -0.40000000000000036
+    },
+    {
+      "scope": "E50",
+      "condition": "D_minus_C",
+      "metric": "delta",
+      "lower": 1.49875,
+      "upper": 3.6499999999999995
+    },
+    {
+      "scope": "E50",
+      "condition": "D_minus_C",
+      "metric": "recovery",
+      "lower": 0.30000000000000027,
+      "upper": 1.5499999999999994
+    },
+    {
+      "scope": "E50",
+      "condition": "B_minus_A",
+      "metric": "J",
+      "lower": -0.6500000000000057,
+      "upper": 1.7000000000000028
+    },
+    {
+      "scope": "E50",
+      "condition": "B_minus_A",
+      "metric": "G",
+      "lower": -0.8999999999999995,
+      "upper": 0.9500000000000002
+    },
+    {
+      "scope": "E50",
+      "condition": "B_minus_A",
+      "metric": "L",
+      "lower": -1.2499999999999996,
+      "upper": 0.25
+    },
+    {
+      "scope": "E50",
+      "condition": "B_minus_A",
+      "metric": "delta",
+      "lower": -0.65,
+      "upper": 1.7000000000000006
+    },
+    {
+      "scope": "E50",
+      "condition": "B_minus_A",
+      "metric": "recovery",
+      "lower": -0.2999999999999998,
+      "upper": 0.8
+    },
+    {
+      "scope": "E50",
+      "condition": "C_minus_A",
+      "metric": "J",
+      "lower": -2.700000000000003,
+      "upper": -0.20000000000000284
+    },
+    {
+      "scope": "E50",
+      "condition": "C_minus_A",
+      "metric": "G",
+      "lower": -2.5000000000000004,
+      "upper": -0.8000000000000003
+    },
+    {
+      "scope": "E50",
+      "condition": "C_minus_A",
+      "metric": "L",
+      "lower": -1.1499999999999986,
+      "upper": 0.75
+    },
+    {
+      "scope": "E50",
+      "condition": "C_minus_A",
+      "metric": "delta",
+      "lower": -2.7,
+      "upper": -0.20000000000000018
+    },
+    {
+      "scope": "E50",
+      "condition": "C_minus_A",
+      "metric": "recovery",
+      "lower": -1.0000000000000002,
+      "upper": -0.04999999999999982
+    },
+    {
+      "scope": "E50",
+      "condition": "D_minus_A",
+      "metric": "J",
+      "lower": -0.25,
+      "upper": 2.4499999999999957
+    },
+    {
+      "scope": "E50",
+      "condition": "D_minus_A",
+      "metric": "G",
+      "lower": -1.15,
+      "upper": 0.6499999999999995
+    },
+    {
+      "scope": "E50",
+      "condition": "D_minus_A",
+      "metric": "L",
+      "lower": -2.3499999999999996,
+      "upper": -0.35000000000000053
+    },
+    {
+      "scope": "E50",
+      "condition": "D_minus_A",
+      "metric": "delta",
+      "lower": -0.24999999999999986,
+      "upper": 2.4499999999999993
+    },
+    {
+      "scope": "E50",
+      "condition": "D_minus_A",
+      "metric": "recovery",
+      "lower": 0.04999999999999982,
+      "upper": 0.8
+    },
+    {
+      "scope": "E50",
+      "condition": "STOP",
+      "metric": "J",
+      "lower": 34.3,
+      "upper": 37.300000000000004
+    },
+    {
+      "scope": "T20",
+      "condition": "A",
+      "metric": "late_loss_transitions",
+      "lower": 12.25,
+      "upper": 17.125
+    },
+    {
+      "scope": "T20",
+      "condition": "A",
+      "metric": "late_recovery_transitions",
+      "lower": 5.75,
+      "upper": 9.125
+    },
+    {
+      "scope": "T20",
+      "condition": "A",
+      "metric": "ever_loss",
+      "lower": 12.625,
+      "upper": 17.375
+    },
+    {
+      "scope": "T20",
+      "condition": "A",
+      "metric": "repeated_loss",
+      "lower": 0.875,
+      "upper": 2.75
+    },
+    {
+      "scope": "T20",
+      "condition": "A",
+      "metric": "loss_then_recovery",
+      "lower": 5.5,
+      "upper": 8.625
+    },
+    {
+      "scope": "T20",
+      "condition": "B",
+      "metric": "late_loss_transitions",
+      "lower": 10.875,
+      "upper": 15.875
+    },
+    {
+      "scope": "T20",
+      "condition": "B",
+      "metric": "late_recovery_transitions",
+      "lower": 4.125,
+      "upper": 7.503124999999727
+    },
+    {
+      "scope": "T20",
+      "condition": "B",
+      "metric": "ever_loss",
+      "lower": 11.375,
+      "upper": 16.125
+    },
+    {
+      "scope": "T20",
+      "condition": "B",
+      "metric": "repeated_loss",
+      "lower": 0.875,
+      "upper": 2.75
+    },
+    {
+      "scope": "T20",
+      "condition": "B",
+      "metric": "loss_then_recovery",
+      "lower": 3.875,
+      "upper": 6.75
+    },
+    {
+      "scope": "T20",
+      "condition": "C",
+      "metric": "late_loss_transitions",
+      "lower": 8.25,
+      "upper": 13.125
+    },
+    {
+      "scope": "T20",
+      "condition": "C",
+      "metric": "late_recovery_transitions",
+      "lower": 1.875,
+      "upper": 4.75
+    },
+    {
+      "scope": "T20",
+      "condition": "C",
+      "metric": "ever_loss",
+      "lower": 9.375,
+      "upper": 14.25
+    },
+    {
+      "scope": "T20",
+      "condition": "C",
+      "metric": "repeated_loss",
+      "lower": 0.25,
+      "upper": 1.875
+    },
+    {
+      "scope": "T20",
+      "condition": "C",
+      "metric": "loss_then_recovery",
+      "lower": 1.75,
+      "upper": 4.375
+    },
+    {
+      "scope": "T20",
+      "condition": "D",
+      "metric": "late_loss_transitions",
+      "lower": 7.5,
+      "upper": 12.125
+    },
+    {
+      "scope": "T20",
+      "condition": "D",
+      "metric": "late_recovery_transitions",
+      "lower": 2.75,
+      "upper": 6.125
+    },
+    {
+      "scope": "T20",
+      "condition": "D",
+      "metric": "ever_loss",
+      "lower": 8.75,
+      "upper": 13.75
+    },
+    {
+      "scope": "T20",
+      "condition": "D",
+      "metric": "repeated_loss",
+      "lower": 0.125,
+      "upper": 1.375
+    },
+    {
+      "scope": "T20",
+      "condition": "D",
+      "metric": "loss_then_recovery",
+      "lower": 2.375,
+      "upper": 5.25
+    },
+    {
+      "scope": "T20",
+      "condition": "D_minus_C",
+      "metric": "late_loss_transitions",
+      "lower": -2.75,
+      "upper": 1.0
+    },
+    {
+      "scope": "T20",
+      "condition": "D_minus_C",
+      "metric": "late_recovery_transitions",
+      "lower": -0.25,
+      "upper": 2.5
+    },
+    {
+      "scope": "T20",
+      "condition": "D_minus_C",
+      "metric": "ever_loss",
+      "lower": -2.125,
+      "upper": 1.125
+    },
+    {
+      "scope": "T20",
+      "condition": "D_minus_C",
+      "metric": "repeated_loss",
+      "lower": -1.25,
+      "upper": 0.375
+    },
+    {
+      "scope": "T20",
+      "condition": "D_minus_C",
+      "metric": "loss_then_recovery",
+      "lower": -0.375,
+      "upper": 2.0
+    },
+    {
+      "scope": "T20",
+      "condition": "B_minus_A",
+      "metric": "late_loss_transitions",
+      "lower": -3.375,
+      "upper": 0.875
+    },
+    {
+      "scope": "T20",
+      "condition": "B_minus_A",
+      "metric": "late_recovery_transitions",
+      "lower": -3.125,
+      "upper": -0.125
+    },
+    {
+      "scope": "T20",
+      "condition": "B_minus_A",
+      "metric": "ever_loss",
+      "lower": -3.0,
+      "upper": 0.5
+    },
+    {
+      "scope": "T20",
+      "condition": "B_minus_A",
+      "metric": "repeated_loss",
+      "lower": -1.0,
+      "upper": 0.875
+    },
+    {
+      "scope": "T20",
+      "condition": "B_minus_A",
+      "metric": "loss_then_recovery",
+      "lower": -3.25,
+      "upper": -0.25
+    },
+    {
+      "scope": "T20",
+      "condition": "C_minus_A",
+      "metric": "late_loss_transitions",
+      "lower": -6.125,
+      "upper": -1.875
+    },
+    {
+      "scope": "T20",
+      "condition": "C_minus_A",
+      "metric": "late_recovery_transitions",
+      "lower": -5.5,
+      "upper": -2.625
+    },
+    {
+      "scope": "T20",
+      "condition": "C_minus_A",
+      "metric": "ever_loss",
+      "lower": -5.25,
+      "upper": -1.25
+    },
+    {
+      "scope": "T20",
+      "condition": "C_minus_A",
+      "metric": "repeated_loss",
+      "lower": -1.75,
+      "upper": 0.25
+    },
+    {
+      "scope": "T20",
+      "condition": "C_minus_A",
+      "metric": "loss_then_recovery",
+      "lower": -5.375,
+      "upper": -2.5
+    },
+    {
+      "scope": "T20",
+      "condition": "D_minus_A",
+      "metric": "late_loss_transitions",
+      "lower": -7.125,
+      "upper": -2.5
+    },
+    {
+      "scope": "T20",
+      "condition": "D_minus_A",
+      "metric": "late_recovery_transitions",
+      "lower": -4.625,
+      "upper": -1.375
+    },
+    {
+      "scope": "T20",
+      "condition": "D_minus_A",
+      "metric": "ever_loss",
+      "lower": -5.75,
+      "upper": -1.625
+    },
+    {
+      "scope": "T20",
+      "condition": "D_minus_A",
+      "metric": "repeated_loss",
+      "lower": -2.25,
+      "upper": -0.125
+    },
+    {
+      "scope": "T20",
+      "condition": "D_minus_A",
+      "metric": "loss_then_recovery",
+      "lower": -4.75,
+      "upper": -1.75
+    }
+  ],
+  "primary_contrast": "D_minus_C",
+  "secondary_contrasts": [
+    "B_minus_A",
+    "C_minus_A",
+    "D_minus_A"
+  ],
+  "scientific_status": "controlled development comparison; no effect-direction execution/progression gate",
+  "uncertainty_scope": "individual conditional-policy case-percentile intervals; not simultaneous, parent-population, or future-training uncertainty",
+  "weighting": "within task E50/T20 equal cases; tasks equal; futures two averaged within each parent; five parents equal; no incomplete-parent exclusion",
+  "bootstrap": {
+    "draws": 20000,
+    "seed": 660303,
+    "pairing": "same case multiplicities across P/S, conditions and futures within parent/task; E50 and T20 sampled separately",
+    "method": "percentile_2.5_97.5_linear",
+    "parent_resampling": "not an independent confirmation; five LOPO point summaries retained"
+  },
+  "costs_all_research_attempts": {
+    "training_steps": 1280000,
+    "evaluation_steps": 5925085,
+    "environment_steps": 7205085
+  },
+  "technical_steps": 13055,
+  "total_environment_steps_all_attempts": 7218140,
+  "analysis_new_environment_steps": 0,
+  "analysis_SAC_updates": 0,
+  "future_execution_authorized_by_analysis": false,
+  "limitations": [
+    "Five existing parents; fixed prefix4201 and a single pretraining stage.",
+    "Existing known O100 cases; no new-case or new-parent confirmation.",
+    "T20 labels record coarse observed transitions; unseen intermediate E50 labels are not imputed.",
+    "Measured success loss is not a diagnosis of representational forgetting.",
+    "Internal/exposure/drift telemetry is exploratory and not a predictor or causal mechanism test.",
+    "STOP preserves the fixed S policy; training and evaluation costs must be distinguished."
+  ]
+}
