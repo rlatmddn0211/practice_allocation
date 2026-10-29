@@ -1,0 +1,95 @@
+* text=auto eol=lf
+*.zip binary
+*.pkl binary
+*.npz binary
+
+# Preserve recorded experiment bytes so SHA-256 evidence survives Git checkout.
+02_p0_uniform_pretraining_v1/results/20261007T060310Z_p0_cuda_50621c50/** -text whitespace=cr-at-eol
+03_p0_pretraining_analysis_v1/results/** -text whitespace=cr-at-eol
+# Matplotlib SVG exports are rendered artifacts, not hand-edited source diffs.
+03_p0_pretraining_analysis_v1/results/**/*.svg -diff
+04_p0_allocation_branches_v1/results/** -text whitespace=cr-at-eol
+# Preserve the executed audit script, including its hashed final blank line.
+04_p0_allocation_branches_v1/results/20261007T165000Z_completion_audit/verify_completed_run.py whitespace=cr-at-eol,-blank-at-eof
+05_results_github_archive_v1/results/** -text whitespace=cr-at-eol
+06_p0_branch_replication_v1/results/** -text whitespace=cr-at-eol
+07_p0_replication_analysis_v1/** -text whitespace=cr-at-eol
+07_p0_replication_analysis_v1/results/**/*.svg -diff
+# Generated HTML bundles are reproducible report artifacts.
+07_p0_replication_analysis_v1/**/dist/index.html -diff
+08_followup_experiment_design_v1/** -text whitespace=cr-at-eol
+09_fresh_evaluation_audit_v1/** -text whitespace=cr-at-eol
+10_independent_seed_checkpoint_study_v1/** -text whitespace=cr-at-eol
+11_fixed_target_donor_swap_v1/** -text whitespace=cr-at-eol
+12_task_composition_study_v1/** -text whitespace=cr-at-eol
+13_e0_e3_autonomous_queue_v1/** -text whitespace=cr-at-eol
+*.xz binary
+14_power_interruption_audit_v1/** -text whitespace=cr-at-eol
+15_verified_power_loss_recovery_v1/** -text whitespace=cr-at-eol
+16_e0_e2_results_analysis_v1/** -text whitespace=cr-at-eol
+17_e0_e2_detailed_research_report_v1/** -text whitespace=cr-at-eol
+18_practice_allocation_literature_review_v1/** -text whitespace=cr-at-eol
+19_budgeted_practice_research_feasibility_v1/** -text whitespace=cr-at-eol
+20_e0_e2_github_publication_v1/** -text whitespace=cr-at-eol
+21_e3_completed_results_analysis_v1/** -text whitespace=cr-at-eol
+21_e3_completed_results_analysis_v1/results/**/*.svg -diff
+22_candidate_factor_grounding_v1/** -text whitespace=cr-at-eol
+23_candidate_factor_screening_design_v1/** -text whitespace=cr-at-eol
+24_signal_reliability_screening_v1/** -text whitespace=cr-at-eol
+24_signal_reliability_screening_v1/results/**/*.svg -diff
+25_candidate_factor_evidence_register_v1/** -text whitespace=cr-at-eol
+26_critic_signal_screening_v1/** -text whitespace=cr-at-eol
+26_critic_signal_screening_v1/results/**/*.csv.gz binary
+27_success_retention_screening_v1/** -text whitespace=cr-at-eol
+28_gradient_update_screening_v1/** -text whitespace=cr-at-eol
+29_neural_plasticity_screening_v1/** -text whitespace=cr-at-eol
+30_exposure_experience_screening_v1/** -text whitespace=cr-at-eol
+31_fixed_horizon_alignment_v1/** -text whitespace=cr-at-eol
+32_dose_order_intervention_v1/** -text whitespace=cr-at-eol
+33_remaining_factor_queue_v1/** -text whitespace=cr-at-eol
+34_completed_factor_clue_review_v1/** -text whitespace=cr-at-eol
+35_remaining_factor_progress_audit_v1/** -text whitespace=cr-at-eol
+36_all_candidate_evidence_review_v1/** -text whitespace=cr-at-eol
+37_f08_integrated_candidate_review_v1/** -text whitespace=cr-at-eol
+37_f08_integrated_candidate_review_v1/results/**/*.svg -diff
+38_candidate_factor_publication_v1/** -text whitespace=cr-at-eol
+39_next_research_decision_plan_v1/** -text whitespace=cr-at-eol
+40_research_progress_external_review_v1/** -text whitespace=cr-at-eol
+40_research_progress_external_review_v1/**/dist/index.html -diff
+40_research_progress_external_review_v1/research_progress_report_ko.html -diff
+41_selection_value_three_stage_protocol_v1/** -text whitespace=cr-at-eol
+42_fixed_schedule_selection_value_v1/** -text whitespace=cr-at-eol
+43_feedback_revised_selection_protocol_v1/** -text whitespace=cr-at-eol
+44_selection_value_stage1_checkpoint36_v2/** -text whitespace=cr-at-eol
+45_stage1_selection_value_analysis_v1/** -text whitespace=cr-at-eol
+46_post_stage1_path_loss_design_v1/** -text whitespace=cr-at-eol
+47_existing_data_path_loss_analysis_v1/** -text whitespace=cr-at-eol
+48_bp8k_checkpoint_evaluation_v1/** -text whitespace=cr-at-eol
+49_bp8k_late_value_analysis_v1/** -text whitespace=cr-at-eol
+50_b_posthoc_concentration_review_v1/** -text whitespace=cr-at-eol
+51_same_state_future_investment_protocol_v1/** -text whitespace=cr-at-eol
+52_same_state_future_replication_v1/** -text whitespace=cr-at-eol
+53_research_progress_github_publication_v1/** -text whitespace=cr-at-eol
+54_same_state_future_replication_analysis_v1/** -text whitespace=cr-at-eol
+55_casewise_gain_loss_repeatability_v1/** -text whitespace=cr-at-eol
+56_same_vs_cross_state_overlap_v1/** -text whitespace=cr-at-eol
+57_acquisition_state_dependence_confirmation_plan_v1/** -text whitespace=cr-at-eol
+58_confirmation_prediction_preflight_v1/** -text whitespace=cr-at-eol
+59_fresh_future_confirmation_v1/** -text whitespace=cr-at-eol
+60_acquisition_confirmation_github_publication_v1/** -text whitespace=cr-at-eol
+54_same_state_future_replication_analysis_v1/results/**/*.svg -diff
+55_casewise_gain_loss_repeatability_v1/results/**/*.svg -diff
+56_same_vs_cross_state_overlap_v1/results/**/*.svg -diff
+# Generated Matplotlib paths and frozen Markdown hard line breaks retain their bytes.
+47_existing_data_path_loss_analysis_v1/results/**/*.svg -diff
+49_bp8k_late_value_analysis_v1/results/**/*.svg -diff
+40_research_progress_external_review_v1/results/**/input_snapshot/LOCAL_PRACTICE_ALLOCATION_PILOT_DESIGN_20261007.md whitespace=cr-at-eol,-blank-at-eol
+# Keep the validated report bundle intact, including generated whitespace.
+17_e0_e2_detailed_research_report_v1/**/dist/index.html -diff
+# Preserve frozen retention experiment and publication evidence byte-for-byte.
+64_gain_loss_recovery_baseline_v1/** -text whitespace=cr-at-eol
+66_retention_intervention_queue_v1/** -text whitespace=cr-at-eol
+67_baseline_analysis_repair_v1/** -text whitespace=cr-at-eol
+68_retention_intervention_result_review_v1/** -text whitespace=cr-at-eol
+70_retention_results_github_publication_v1/** -text whitespace=cr-at-eol
+73_retention_readme_video_publication_v1/** -text whitespace=cr-at-eol

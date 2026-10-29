@@ -1,0 +1,50 @@
+# 2026-10-22 연구 기록 GitHub 공개
+
+사용자의 “오늘 한 내용들 깃허브에 올려” 요청에 따른 공개 기록이다.
+기존 동결 버전은 수정하지 않고, 오늘 작성한 분석·설계·실행 코드와 그 근거를 함께 게시한다.
+
+| 범위 | 공개 내용 | 구분 |
+|---|---|---|
+| [52](../../04_stop_continue_value/52_same_state_future_replication_v1/README.md) | 이전 공개 후 완료된 10개 미래의 평가·비용·완료 기록 | 54–56번 분석의 입력 근거 |
+| [54](../../04_stop_continue_value/54_same_state_future_replication_analysis_v1/report_ko.md) | 동일 상태 미래 반복의 선택 가치 분석과 독립 검산 | 완료; 기존 투자 관문 미통과 유지 |
+| [55](../../05_acquisition_repeatability/55_casewise_gain_loss_repeatability_v1/report_ko.md) | 사례별 획득·상실 중첩, 성공 이력별 위험 비교 | 완료된 탐색 분석 |
+| [56](../../05_acquisition_repeatability/56_same_vs_cross_state_overlap_v1/report_ko.md) | 공통 적격 사례에서 동일 상태·교차 상태의 중첩 대조 | 최신 완료 과학적 분석 |
+| [57](../../05_acquisition_repeatability/57_acquisition_state_dependence_confirmation_plan_v1/one_page_spec_ko.md) | 논문 범위·두 묶음 확인 실험·고정 참조 예측 | 원설계 및 참조 자료 준비 |
+| [58](../../05_acquisition_repeatability/58_confirmation_prediction_preflight_v1/report_ko.md) | 주장 범위, M0/M1·가중치·평균 보존·G 상한·판정 기준 | 실행 전 점검 완료 |
+| [59](../../05_acquisition_repeatability/59_fresh_future_confirmation_v1/README.md) | 독립 실행 코드, 기술검사, 고정 입력과 20개 완료 분기 기록 | 학습·평가 완료; 과학적 판정 전 |
+
+59번은 2026-10-22 15:21 KST에 시작했다. 기술검사 68개를 통과했고,
+기술 비용은 6,516 환경 step이다. 승인 범위는 20×32k 학습과 최종 평가 최대 4.0M,
+기술검사 포함 총상한 4.65M step이며 자동 재시도는 0이다.
+게시 준비 당시 **2026-10-22 19:44:32 KST 기준 17/20개 완료**였고,
+18번째는 최종 평가 360/400사례를 진행했다.
+[상태 스냅샷](results/20261022T104433Z_prepare_b08ec9b1/campaign59_status.json)과
+[공개 대상 목록](results/20261022T104433Z_prepare_b08ec9b1/publication_scope.json)에
+당시의 범위를 고정해 보존했다. 이 스냅샷은 실시간 상태판이 아니다.
+
+이후 **2026-10-22 20:12:33 KST에 20/20개가 모두 완료**됐다.
+2026-10-23 게시를 마무리하며 마지막 세 분기와
+[전체 완료 요약](../../05_acquisition_repeatability/59_fresh_future_confirmation_v1/results/20261022T062003Z_fresh_confirmation_2e8df6e0/completion_summary.json)을 추가한다.
+최종 본 실험은 학습640,000＋평가2,694,843 = 3,334,843 환경step,
+기술6,516 포함 **3,341,359step**으로 승인 상한 이내다.
+전체 시작부터 종료까지 약4시간51분이 걸렸다.
+완료 후 별도 상태·파일 목록을 새 `results/*_prepare_*/`에 보존하며 이전 스냅샷을 덮어쓰지 않는다.
+이 공개는 결과 원자료의 게시이며 D/G의 과학적 판정은 수행하지 않는다.
+
+54번의 선택기 투자 기준 미통과를 유지한다. 55·56번은 가설을 좁힌 탐색 자료이고,
+57·58번의 예측 가능 상한은 실제 예측 성능이 아니다. 59번의 과학적 결과와 후속 투자 판단은
+전체 완료 후 고정 명세에 따른 별도 분석으로 기록한다. 새 부모 확대·선택기·인과 개입은 이번 공개로 실행하지 않는다.
+
+## 보관 범위
+
+일반 Git에는 코드, 보고서, 사례별 CSV, JSON 설정·지문·비용·검사 결과, 그림과 검토용 묶음을 게시한다.
+59번은 완료 마커와 결과 hash를 확인한 분기의 기록을 포함하며 최종 공개는 20개 전체를 담는다.
+controller의 stdout/stderr와 worker의 콘솔 출력은 로컬에 보존한다.
+모델·replay·NPZ·중복 소스 snapshot 등은 기존 `.gitignore`에 따라 로컬에 보관한다.
+따라서 이 공개는 전체 학습 상태 백업이 아니다. 다른 컴퓨터에서 학습을 재현하려면
+로컬 보관 checkpoint와 경로 매핑이 필요하다. 원본 기록의 절대 경로와 hash는 그대로 유지한다.
+
+`publish.py prepare`는 실행 상태와 게시 대상 파일을 고정하고,
+`publish.py verify`는 stage된 파일의 원본 바이트·크기·참조 링크 및 실행 소스 불변성을 확인한다.
+각 실행은 새 결과 폴더, 검사 코드 사본·hash와 실제 비용을 남긴다.
+이 검사는 새 SAC 학습·환경 평가·과학적 분석을 실행하지 않는다.

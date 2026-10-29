@@ -1,0 +1,23 @@
+{
+  "preparation": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\74_repository_research_structure_v1\\results\\20261029T073005Z_prepare_4b1e5fac",
+  "bare": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\74_repository_research_structure_v1\\results\\20261029T073015Z_build_a6ebdafd\\object_store.git",
+  "tree": "3cc623f811809cea9f38587012492ef78ac491cb",
+  "argv": [
+    "74_repository_research_structure_v1/verify_structure.py",
+    "--preparation",
+    "74_repository_research_structure_v1/results/20261029T073005Z_prepare_4b1e5fac",
+    "--bare",
+    "74_repository_research_structure_v1/results/20261029T073015Z_build_a6ebdafd/object_store.git",
+    "--tree",
+    "3cc623f811809cea9f38587012492ef78ac491cb"
+  ],
+  "read_only_git_commands": [
+    "rev-parse",
+    "ls-files",
+    "ls-tree",
+    "cat-file",
+    "--version"
+  ],
+  "new_environment_steps": 0,
+  "git_write_commands": 0
+}

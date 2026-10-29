@@ -1,0 +1,140 @@
+{
+  "status": "prepared",
+  "base_commit": "987ddb5d2744be5a09e395e5a9d26638b178940d",
+  "published_original_files": 31290,
+  "version_folders": 66,
+  "groups": 8,
+  "link_edited_documents": 41,
+  "link_audit": {
+    "originally_valid": 1257,
+    "valid_unchanged": 1126,
+    "corrected_targets": 131,
+    "preexisting_missing": 2256,
+    "missing_examples": [
+      {
+        "document": "18_practice_allocation_literature_review_v1/verification/20261013T103320Z_32e074df/source_snapshot/literature_review_ko.md",
+        "target": "../LOCAL_PRACTICE_ALLOCATION_PILOT_DESIGN_20261007.md"
+      },
+      {
+        "document": "18_practice_allocation_literature_review_v1/verification/20261013T103320Z_32e074df/source_snapshot/literature_review_ko.md",
+        "target": "../17_e0_e2_detailed_research_report_v1/README.md"
+      },
+      {
+        "document": "18_practice_allocation_literature_review_v1/verification/20261013T103320Z_32e074df/source_snapshot/literature_review_ko.md",
+        "target": "../17_e0_e2_detailed_research_report_v1/results/20261013T052346Z_7e2f6a68/extended_analysis.json"
+      },
+      {
+        "document": "23_candidate_factor_screening_design_v1/results/20261014T050109Z_design_3405bbb4/evidence_inputs/23_candidate_factor_screening_design_v1/README.md",
+        "target": "results/"
+      },
+      {
+        "document": "23_candidate_factor_screening_design_v1/results/20261014T050109Z_design_3405bbb4/evidence_inputs/23_candidate_factor_screening_design_v1/research_design_ko.md",
+        "target": "../22_candidate_factor_grounding_v1/candidate_factors_ko.md"
+      },
+      {
+        "document": "23_candidate_factor_screening_design_v1/results/20261014T050109Z_design_3405bbb4/evidence_inputs/23_candidate_factor_screening_design_v1/research_design_ko.md",
+        "target": "../19_budgeted_practice_research_feasibility_v1/research_plan_ko.md"
+      },
+      {
+        "document": "23_candidate_factor_screening_design_v1/results/20261014T050109Z_design_3405bbb4/evidence_inputs/23_candidate_factor_screening_design_v1/research_design_ko.md",
+        "target": "../22_candidate_factor_grounding_v1/results/20261014T040516Z_replay_b4e477d0/analysis.json"
+      },
+      {
+        "document": "23_candidate_factor_screening_design_v1/results/20261014T050109Z_design_3405bbb4/evidence_inputs/README.md",
+        "target": "LOCAL_PRACTICE_ALLOCATION_PILOT_DESIGN_20261007.md"
+      },
+      {
+        "document": "23_candidate_factor_screening_design_v1/results/20261014T050109Z_design_3405bbb4/evidence_inputs/README.md",
+        "target": "22_candidate_factor_grounding_v1/research_development_ko.md"
+      },
+      {
+        "document": "23_candidate_factor_screening_design_v1/results/20261014T050109Z_design_3405bbb4/evidence_inputs/README.md",
+        "target": "22_candidate_factor_grounding_v1/candidate_factors_ko.md"
+      },
+      {
+        "document": "23_candidate_factor_screening_design_v1/results/20261014T050109Z_design_3405bbb4/evidence_inputs/README.md",
+        "target": "01_implementation_validation_v1/README.md"
+      },
+      {
+        "document": "23_candidate_factor_screening_design_v1/results/20261014T050109Z_design_3405bbb4/evidence_inputs/README.md",
+        "target": "02_p0_uniform_pretraining_v1/README.md"
+      },
+      {
+        "document": "23_candidate_factor_screening_design_v1/results/20261014T050109Z_design_3405bbb4/evidence_inputs/README.md",
+        "target": "03_p0_pretraining_analysis_v1/README.md"
+      },
+      {
+        "document": "23_candidate_factor_screening_design_v1/results/20261014T050109Z_design_3405bbb4/evidence_inputs/README.md",
+        "target": "04_p0_allocation_branches_v1/README.md"
+      },
+      {
+        "document": "23_candidate_factor_screening_design_v1/results/20261014T050109Z_design_3405bbb4/evidence_inputs/README.md",
+        "target": "05_results_github_archive_v1/README.md"
+      },
+      {
+        "document": "23_candidate_factor_screening_design_v1/results/20261014T050109Z_design_3405bbb4/evidence_inputs/README.md",
+        "target": "06_p0_branch_replication_v1/README.md"
+      },
+      {
+        "document": "23_candidate_factor_screening_design_v1/results/20261014T050109Z_design_3405bbb4/evidence_inputs/README.md",
+        "target": "07_p0_replication_analysis_v1/README.md"
+      },
+      {
+        "document": "23_candidate_factor_screening_design_v1/results/20261014T050109Z_design_3405bbb4/evidence_inputs/README.md",
+        "target": "08_followup_experiment_design_v1/README.md"
+      },
+      {
+        "document": "23_candidate_factor_screening_design_v1/results/20261014T050109Z_design_3405bbb4/evidence_inputs/README.md",
+        "target": "09_fresh_evaluation_audit_v1/README.md"
+      },
+      {
+        "document": "23_candidate_factor_screening_design_v1/results/20261014T050109Z_design_3405bbb4/evidence_inputs/README.md",
+        "target": "10_independent_seed_checkpoint_study_v1/README.md"
+      },
+      {
+        "document": "23_candidate_factor_screening_design_v1/results/20261014T050109Z_design_3405bbb4/evidence_inputs/README.md",
+        "target": "11_fixed_target_donor_swap_v1/README.md"
+      },
+      {
+        "document": "23_candidate_factor_screening_design_v1/results/20261014T050109Z_design_3405bbb4/evidence_inputs/README.md",
+        "target": "12_task_composition_study_v1/README.md"
+      },
+      {
+        "document": "23_candidate_factor_screening_design_v1/results/20261014T050109Z_design_3405bbb4/evidence_inputs/README.md",
+        "target": "13_e0_e3_autonomous_queue_v1/README.md"
+      },
+      {
+        "document": "23_candidate_factor_screening_design_v1/results/20261014T050109Z_design_3405bbb4/evidence_inputs/README.md",
+        "target": "14_power_interruption_audit_v1/"
+      },
+      {
+        "document": "23_candidate_factor_screening_design_v1/results/20261014T050109Z_design_3405bbb4/evidence_inputs/README.md",
+        "target": "15_verified_power_loss_recovery_v1/"
+      },
+      {
+        "document": "23_candidate_factor_screening_design_v1/results/20261014T050109Z_design_3405bbb4/evidence_inputs/README.md",
+        "target": "16_e0_e2_results_analysis_v1/"
+      },
+      {
+        "document": "23_candidate_factor_screening_design_v1/results/20261014T050109Z_design_3405bbb4/evidence_inputs/README.md",
+        "target": "17_e0_e2_detailed_research_report_v1/README.md"
+      },
+      {
+        "document": "23_candidate_factor_screening_design_v1/results/20261014T050109Z_design_3405bbb4/evidence_inputs/README.md",
+        "target": "18_practice_allocation_literature_review_v1/README.md"
+      },
+      {
+        "document": "23_candidate_factor_screening_design_v1/results/20261014T050109Z_design_3405bbb4/evidence_inputs/README.md",
+        "target": "19_budgeted_practice_research_feasibility_v1/README.md"
+      },
+      {
+        "document": "23_candidate_factor_screening_design_v1/results/20261014T050109Z_design_3405bbb4/evidence_inputs/README.md",
+        "target": "20_e0_e2_github_publication_v1/README.md"
+      }
+    ]
+  },
+  "original_archives": 45,
+  "new_environment_steps": 0,
+  "local_runtime_files_moved": 0,
+  "scope": "published files reorganized; unpublished61/62/63/65/69/71/72 excluded"
+}

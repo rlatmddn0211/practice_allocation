@@ -241,3 +241,8 @@
   paths pass full hash/restore/cost audits, and requires the repaired full
   analysis and independent verification before progression. No other failure,
   partial result, learning retry or evaluation rerun is licensed by this repair.
+
+
+# Published repository layout (2026-10-29)
+
+The user requested organization by research question. Numbered versions now live under eight topic groups. Historical version names in rules are identifiers; consult74 path_manifest.json for their current paths. Training/evaluation code and data blobs are preserved. Markdown link adjustments are publication derivatives; their original blobs are retained in74 original_files and the fixed pre-organization commit. Use restore_legacy_layout.py into a new empty directory before running source that expects flat sibling paths. Do not rewrite absolute provenance paths or silently change numerical protocols. Local original runtime checkouts may intentionally retain the flat tree; do not pull the reorganized tree over checkpoint/venv assets. Future publishing must start from the current remote main, not such a legacy HEAD.
