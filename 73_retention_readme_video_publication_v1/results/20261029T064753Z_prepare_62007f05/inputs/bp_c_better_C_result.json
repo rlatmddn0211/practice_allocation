@@ -1,0 +1,110 @@
+{
+  "status": "completed",
+  "row_id": "P41011_C_N1_BP_E007",
+  "video": {
+    "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\71_bp_dc_functional_diagnostics_v1\\results\\20261029T060852Z_offline_reconstruction_14b1eab9\\videos\\P41011_C_N1_BP_E007\\video.mp4",
+    "sha256": "857f0beb95aa1dbe1e0863aeffa97e61d60acb38087c16ca43129d31808f75fe",
+    "bytes": 37994
+  },
+  "frames": [
+    {
+      "step": 0,
+      "simulation_time_s": 0.6249999999999977
+    },
+    {
+      "step": 5,
+      "simulation_time_s": 0.6874999999999963
+    },
+    {
+      "step": 10,
+      "simulation_time_s": 0.749999999999995
+    },
+    {
+      "step": 15,
+      "simulation_time_s": 0.8124999999999937
+    },
+    {
+      "step": 20,
+      "simulation_time_s": 0.8749999999999923
+    },
+    {
+      "step": 25,
+      "simulation_time_s": 0.937499999999991
+    },
+    {
+      "step": 30,
+      "simulation_time_s": 0.9999999999999897
+    },
+    {
+      "step": 35,
+      "simulation_time_s": 1.0624999999999885
+    },
+    {
+      "step": 38,
+      "simulation_time_s": 1.0999999999999877
+    }
+  ],
+  "encoded_frames": 9,
+  "playback_seconds": 0.56,
+  "playback_note": "16fps corresponds to five 80Hz control steps; terminal partial interval can be shorter, use saved frame timestamps",
+  "episode": {
+    "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\71_bp_dc_functional_diagnostics_v1\\results\\20261029T054213Z_campaign_2a4d70dd\\attempts\\20261029T054945Z_P41011_C_N1_BP_E007_main_18ff8e02\\episode.json",
+    "sha256": "393750e6485384eb73c1ff6917b858987111b08b1c5b781e6b654ee92caac2c5",
+    "bytes": 8782
+  },
+  "trajectory": {
+    "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\71_bp_dc_functional_diagnostics_v1\\results\\20261029T054213Z_campaign_2a4d70dd\\attempts\\20261029T054945Z_P41011_C_N1_BP_E007_main_18ff8e02\\trajectory.npz",
+    "sha256": "0b3126aef75eac944b7a3c7e79db5d76e998437626e66b16c003a0834a88fef0",
+    "bytes": 50181
+  },
+  "initial_snapshot": {
+    "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\71_bp_dc_functional_diagnostics_v1\\results\\20261029T054213Z_campaign_2a4d70dd\\attempts\\20261029T054945Z_P41011_C_N1_BP_E007_main_18ff8e02\\initial_snapshot.pkl",
+    "sha256": "8cb4d33e6da0cd5b4164eab6f184abea59646bc751825be25443d9b2a2344bae",
+    "bytes": 13065
+  },
+  "model_xml": {
+    "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\13_e0_e3_autonomous_queue_v1\\.venv\\Lib\\site-packages\\metaworld\\assets\\sawyer_xyz\\sawyer_button_press.xml",
+    "sha256": "d2916582394f2231d0109b5513c1a03a8110891a1c20e742fbf18f361e297914",
+    "bytes": 868
+  },
+  "original_video": {
+    "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\71_bp_dc_functional_diagnostics_v1\\results\\20261029T054213Z_campaign_2a4d70dd\\attempts\\20261029T054945Z_P41011_C_N1_BP_E007_main_18ff8e02\\video.mp4",
+    "sha256": "c5642c5d9b16a8057df0834423f5be60dae3066915afa204c550b14592ce4496"
+  },
+  "camera_rule": {
+    "type": "fixed_rule_free_camera",
+    "lookat": "initial TCP and task target midpoint",
+    "distance_m": 1.1,
+    "azimuth_deg": 135.0,
+    "elevation_deg": -25.0,
+    "width": 320,
+    "height": 240,
+    "stride": 5,
+    "fps": 16
+  },
+  "camera_lookat_world_m": [
+    0.009260162036308302,
+    0.5845485769194572,
+    0.13284329741726314
+  ],
+  "numeric_states_checked": 39,
+  "mj_forward_calls": 39,
+  "coordinate_error_max_m": {
+    "tcp_m": 0.0,
+    "object_m": 0.0,
+    "target_m": 0.0
+  },
+  "label": "offline_reconstruction_of_saved_numeric_states_not_new_policy_or_ability_probe",
+  "source_note": "Original rollout/video unchanged; camera changed after collection using saved arrays only.",
+  "integration_calls": 0,
+  "environment_calls": 0,
+  "policy_calls": 0,
+  "complete_environment_restoration_verified": false,
+  "contact_force_reconstruction_claimed": false,
+  "source": {
+    "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\71_bp_dc_functional_diagnostics_v1\\offline_video.py",
+    "sha256": "b9554cbe72ba3a4e146dcf41c231598acde2a70ea2b0608755bf455f8f592a00",
+    "bytes": 17473
+  },
+  "new_environment_steps": 0
+}

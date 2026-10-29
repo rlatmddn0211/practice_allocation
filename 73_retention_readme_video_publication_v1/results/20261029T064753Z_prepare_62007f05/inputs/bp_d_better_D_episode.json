@@ -1,0 +1,228 @@
+{
+  "row_id": "P41014_D_N1_BP_E064",
+  "parent": 41014,
+  "future": 1,
+  "arm": "D",
+  "task": "BP",
+  "task_index": 3,
+  "episode_index": 64,
+  "seed": 115108655,
+  "old_success": 1,
+  "P_label": 1,
+  "S_label": 1,
+  "model_sha256": "6daa9725debbd5274f47790022e7b02fca84fc06a76c1d7650cf70ac62661d2b",
+  "checkpoint_manifest_sha256": "ee43ab40eefb1f2784930773fdba7d4b23a5c0f7d0dde670cf5ced886c68494a",
+  "status": "completed",
+  "attempt": "20261029T055951Z_P41014_D_N1_BP_E064_main_454c67d2",
+  "purpose": "main",
+  "logging": true,
+  "initial_state_hash": "cba6db963316463f26ceba4c2b3d8432870698c69a370a2ea95764564be86d6c",
+  "task_parameter_hash": "c4c4ee1bd1f5dfb19739a86f5a51a80819cf3a56907d0789a625aa047850c8cf",
+  "success": 1,
+  "first_success_step": 40,
+  "length": 40,
+  "return": 50.64538335634937,
+  "termination_reason": "first_success",
+  "functions": {
+    "schema_version": 1,
+    "task": "BP",
+    "continuous": {
+      "min_tcp_object_distance_m": 0.05269670615691433,
+      "min_object_goal_distance_m": 0.019888474439345827,
+      "max_object_progress_m": 0.07311152556065426,
+      "max_object_progress_fraction": 0.7861454361360666,
+      "max_object_axis_displacement_m": 0.07311152556065426,
+      "max_object_joint_displacement_m": 0.07311152556065412,
+      "tcp_path_length_m": 0.33725237058332597,
+      "contact_any_sample_count": 12,
+      "contact_any_observed_duration_s": 0.15000000000000002,
+      "max_contact_normal_force_N": 286.286202517934,
+      "near_exit_count": 0,
+      "near_reentry_count": 0,
+      "contact_exit_count": 1,
+      "contact_recontact_count": 1,
+      "object_progress_max_drawdown_m": 0.0006904509456000518,
+      "object_progress_reverse_cumulative_m": 0.0006926266610631782,
+      "joint_reverse_cumulative_m": 0.0006926266610632642,
+      "object_progress_final_m": 0.07311152556065426,
+      "object_joint_displacement_final_m": 0.07311152556065412
+    },
+    "events": {
+      "near_object": {
+        "observed": false,
+        "first_step": null,
+        "available": true,
+        "censored": true,
+        "at_risk": true,
+        "initially_satisfied": false,
+        "censor_step": 40,
+        "censor_reason": "success"
+      },
+      "contact_any": {
+        "observed": true,
+        "first_step": 28,
+        "available": true,
+        "censored": false,
+        "at_risk": true,
+        "initially_satisfied": false,
+        "censor_step": null,
+        "censor_reason": null
+      },
+      "contact_handle": {
+        "observed": true,
+        "first_step": 28,
+        "available": true,
+        "censored": false,
+        "at_risk": true,
+        "initially_satisfied": false,
+        "censor_step": null,
+        "censor_reason": null
+      },
+      "contact_manipulandum": {
+        "observed": true,
+        "first_step": 28,
+        "available": true,
+        "censored": false,
+        "at_risk": true,
+        "initially_satisfied": false,
+        "censor_step": null,
+        "censor_reason": null
+      },
+      "object_motion_5mm": {
+        "observed": true,
+        "first_step": 29,
+        "available": true,
+        "censored": false,
+        "at_risk": true,
+        "initially_satisfied": false,
+        "censor_step": null,
+        "censor_reason": null
+      },
+      "official_success": {
+        "observed": true,
+        "first_step": 40,
+        "available": true,
+        "censored": false,
+        "at_risk": true,
+        "initially_satisfied": null,
+        "censor_step": null,
+        "censor_reason": null
+      }
+    },
+    "stage_transitions": {
+      "near_to_contact": {
+        "available": true,
+        "eligible": false,
+        "achieved": null,
+        "censored": false,
+        "first_eligible_step": null,
+        "source_first_step": null,
+        "target_first_step": 28,
+        "target_preexisting_at_entry": false,
+        "first_achieved_step": null,
+        "censor_reason": null
+      },
+      "contact_to_motion": {
+        "available": true,
+        "eligible": true,
+        "achieved": true,
+        "censored": false,
+        "first_eligible_step": 28,
+        "source_first_step": 28,
+        "target_first_step": 29,
+        "target_preexisting_at_entry": false,
+        "first_achieved_step": 29,
+        "censor_reason": null
+      },
+      "near_to_success": {
+        "available": true,
+        "eligible": false,
+        "achieved": null,
+        "censored": false,
+        "first_eligible_step": null,
+        "source_first_step": null,
+        "target_first_step": 40,
+        "target_preexisting_at_entry": false,
+        "first_achieved_step": null,
+        "censor_reason": null
+      },
+      "contact_to_success": {
+        "available": true,
+        "eligible": true,
+        "achieved": true,
+        "censored": false,
+        "first_eligible_step": 28,
+        "source_first_step": 28,
+        "target_first_step": 40,
+        "target_preexisting_at_entry": false,
+        "first_achieved_step": 40,
+        "censor_reason": null
+      },
+      "motion_to_success": {
+        "available": true,
+        "eligible": true,
+        "achieved": true,
+        "censored": false,
+        "first_eligible_step": 29,
+        "source_first_step": 29,
+        "target_first_step": 40,
+        "target_preexisting_at_entry": false,
+        "first_achieved_step": 40,
+        "censor_reason": null
+      }
+    },
+    "last_step": 40,
+    "samples": 41,
+    "stop_reason": "success",
+    "right_censoring": "all events after the last observed checkpoint are unknown; early-success episodes are not continued",
+    "contact_sampling_scope": "returned-state final contact only; sampled endpoint count * control_dt is a discrete occupancy proxy, not measured continuous contact duration",
+    "control_dt_s": 0.0125,
+    "contact_available": true,
+    "new_environment_steps_from_measurement": 0
+  },
+  "trajectory": {
+    "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\71_bp_dc_functional_diagnostics_v1\\results\\20261029T054213Z_campaign_2a4d70dd\\attempts\\20261029T055951Z_P41014_D_N1_BP_E064_main_454c67d2\\trajectory.npz",
+    "sha256": "8a35d6dd461f57c522455aaaed4a57eebdc0321322db43d8fd92657ebc8ae6c6"
+  },
+  "video": {
+    "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\71_bp_dc_functional_diagnostics_v1\\results\\20261029T054213Z_campaign_2a4d70dd\\attempts\\20261029T055951Z_P41014_D_N1_BP_E064_main_454c67d2\\video.mp4",
+    "sha256": "a2a963e6b7bb3020f8491efbf6ae766033489da0c8efff9cbe9bdb055d28094d"
+  },
+  "video_frames": 9,
+  "video_status": "recorded",
+  "video_playback_note": "20fps with stride5; use logged physics times, not playback seconds, for measurement",
+  "snapshots": [
+    {
+      "kind": "initial",
+      "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\71_bp_dc_functional_diagnostics_v1\\results\\20261029T054213Z_campaign_2a4d70dd\\attempts\\20261029T055951Z_P41014_D_N1_BP_E064_main_454c67d2\\initial_snapshot.pkl",
+      "sha256": "5abda1a33f090aafc86f3ff9b49527ddba43b50ca450cf2fa9940befcae7fdda"
+    },
+    {
+      "kind": "first_contact",
+      "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\71_bp_dc_functional_diagnostics_v1\\results\\20261029T054213Z_campaign_2a4d70dd\\attempts\\20261029T055951Z_P41014_D_N1_BP_E064_main_454c67d2\\first_contact_snapshot.pkl",
+      "sha256": "38cd2a396734991d4e3485f606baf20ef9989ee2ab1cf85b5dada018d6e18d0b"
+    }
+  ],
+  "snapshot_restore_verified": false,
+  "policy_restoration": {
+    "model": {
+      "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\66_retention_intervention_queue_v1\\results\\20261027T130711Z_retention_1312ce94\\jobs\\B_s41014_p4201_D_N1\\20261027T204616Z_a_77201fe3\\checkpoints\\absolute_240000\\model.zip",
+      "sha256": "6daa9725debbd5274f47790022e7b02fca84fc06a76c1d7650cf70ac62661d2b"
+    },
+    "saved_policy_tensor_hash": "8c85d5886f0644f6085684cc8959ff073b3ec713a6c7784363dcd1ec7a544702",
+    "loaded_policy_tensor_hash": "8c85d5886f0644f6085684cc8959ff073b3ec713a6c7784363dcd1ec7a544702",
+    "num_timesteps": 240000,
+    "updates": 239000,
+    "device": "cuda",
+    "evaluation_replay_size": 0,
+    "historical_replay_loaded": false,
+    "training_calls": 0
+  },
+  "source_hashes_ref": {
+    "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\71_bp_dc_functional_diagnostics_v1\\results\\20261029T054213Z_campaign_2a4d70dd\\evaluation_source_hashes.json",
+    "sha256": "267561530bb87785a130aa06abd9b7c772adadb85dfbe06cbc8a6743fa9c2de8"
+  },
+  "wall_seconds": 0.3675643000024138,
+  "new_training_steps": 0,
+  "original_label_match": true
+}

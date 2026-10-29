@@ -1,0 +1,94 @@
+{
+  "status": "completed",
+  "row_id": "P41013_D_N1_DC_E024",
+  "video": {
+    "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\71_bp_dc_functional_diagnostics_v1\\results\\20261029T060852Z_offline_reconstruction_14b1eab9\\videos\\P41013_D_N1_DC_E024\\video.mp4",
+    "sha256": "4c3f431721913a5399dc4af78dafc9e0321aa751812481a38452571033ee8d30",
+    "bytes": 26007
+  },
+  "frames": [
+    {
+      "step": 0,
+      "simulation_time_s": 0.6249999999999977
+    },
+    {
+      "step": 5,
+      "simulation_time_s": 0.6874999999999963
+    },
+    {
+      "step": 10,
+      "simulation_time_s": 0.749999999999995
+    },
+    {
+      "step": 15,
+      "simulation_time_s": 0.8124999999999937
+    },
+    {
+      "step": 16,
+      "simulation_time_s": 0.8249999999999934
+    }
+  ],
+  "encoded_frames": 5,
+  "playback_seconds": 0.31,
+  "playback_note": "16fps corresponds to five 80Hz control steps; terminal partial interval can be shorter, use saved frame timestamps",
+  "episode": {
+    "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\71_bp_dc_functional_diagnostics_v1\\results\\20261029T054213Z_campaign_2a4d70dd\\attempts\\20261029T060840Z_P41013_D_N1_DC_E024_main_7d7048fa\\episode.json",
+    "sha256": "ab760c752f1fcdf6d95b7ce8bb7c0083cfea4126b6efd238c62068d6f2c098c5",
+    "bytes": 8770
+  },
+  "trajectory": {
+    "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\71_bp_dc_functional_diagnostics_v1\\results\\20261029T054213Z_campaign_2a4d70dd\\attempts\\20261029T060840Z_P41013_D_N1_DC_E024_main_7d7048fa\\trajectory.npz",
+    "sha256": "a824b9c32b4d50a45d924528af1ae7714ab2c20897a19b55d026ea0479727d7b",
+    "bytes": 33656
+  },
+  "initial_snapshot": {
+    "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\71_bp_dc_functional_diagnostics_v1\\results\\20261029T054213Z_campaign_2a4d70dd\\attempts\\20261029T060840Z_P41013_D_N1_DC_E024_main_7d7048fa\\initial_snapshot.pkl",
+    "sha256": "814b53dc55b09365c0f82a39bfb785e5f75319eb8945ab8b90fdb310c40b374e",
+    "bytes": 13457
+  },
+  "model_xml": {
+    "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\13_e0_e3_autonomous_queue_v1\\.venv\\Lib\\site-packages\\metaworld\\assets\\sawyer_xyz\\sawyer_drawer.xml",
+    "sha256": "2a2f29aa47ab399e16fe69c5428d2e14777842baf3e27b68a5b28884d1e14d59",
+    "bytes": 808
+  },
+  "original_video": {
+    "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\71_bp_dc_functional_diagnostics_v1\\results\\20261029T054213Z_campaign_2a4d70dd\\attempts\\20261029T060840Z_P41013_D_N1_DC_E024_main_7d7048fa\\video.mp4",
+    "sha256": "2f38af67ccb0a4f650df433cfe737656a45659531d96f02854f389850d7194a9"
+  },
+  "camera_rule": {
+    "type": "fixed_rule_free_camera",
+    "lookat": "initial TCP and task target midpoint",
+    "distance_m": 1.1,
+    "azimuth_deg": 135.0,
+    "elevation_deg": -25.0,
+    "width": 320,
+    "height": 240,
+    "stride": 5,
+    "fps": 16
+  },
+  "camera_lookat_world_m": [
+    -0.021881646009186198,
+    0.6707108356164748,
+    0.12007217239810013
+  ],
+  "numeric_states_checked": 17,
+  "mj_forward_calls": 17,
+  "coordinate_error_max_m": {
+    "tcp_m": 0.0,
+    "object_m": 0.0,
+    "target_m": 0.0
+  },
+  "label": "offline_reconstruction_of_saved_numeric_states_not_new_policy_or_ability_probe",
+  "source_note": "Original rollout/video unchanged; camera changed after collection using saved arrays only.",
+  "integration_calls": 0,
+  "environment_calls": 0,
+  "policy_calls": 0,
+  "complete_environment_restoration_verified": false,
+  "contact_force_reconstruction_claimed": false,
+  "source": {
+    "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\71_bp_dc_functional_diagnostics_v1\\offline_video.py",
+    "sha256": "b9554cbe72ba3a4e146dcf41c231598acde2a70ea2b0608755bf455f8f592a00",
+    "bytes": 17473
+  },
+  "new_environment_steps": 0
+}

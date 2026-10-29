@@ -1,0 +1,318 @@
+[
+  {
+    "slug": "bp_d_better",
+    "title": "BP 사례: D 성공·C 실패",
+    "parent": 41014,
+    "task": "BP",
+    "future": 1,
+    "episode_index": 64,
+    "group": "01",
+    "C": {
+      "success": 0,
+      "length": 500,
+      "episode": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\71_bp_dc_functional_diagnostics_v1\\results\\20261029T054213Z_campaign_2a4d70dd\\attempts\\20261029T055828Z_P41014_C_N1_BP_E064_main_be0244ce\\episode.json",
+        "sha256": "5f7f3ef61b30836d2754dba627de2f3b8d4509d9155eaa2765027e92bfe3bb69",
+        "bytes": 8818
+      },
+      "video_source": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\71_bp_dc_functional_diagnostics_v1\\results\\20261029T060852Z_offline_reconstruction_14b1eab9\\videos\\P41014_C_N1_BP_E064\\video.mp4",
+        "sha256": "3dad8e1597452be7b1add09646930160d4483f8ec249998dd2629412a2287863"
+      },
+      "result": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\71_bp_dc_functional_diagnostics_v1\\results\\20261029T060852Z_offline_reconstruction_14b1eab9\\videos\\P41014_C_N1_BP_E064\\result.json",
+        "sha256": "65c088f2c86d60463f9a2d51ae62d8ac7a31f5a1300dd740631fdd77a26e71df"
+      },
+      "published_mp4": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\73_retention_readme_video_publication_v1\\results\\20261029T064753Z_prepare_62007f05\\media\\bp_d_better_C.mp4",
+        "sha256": "3dad8e1597452be7b1add09646930160d4483f8ec249998dd2629412a2287863",
+        "bytes": 150659
+      },
+      "published_preview": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\73_retention_readme_video_publication_v1\\results\\20261029T064753Z_prepare_62007f05\\media\\bp_d_better_C.gif",
+        "sha256": "46e59267ccb0b50b6fd2a3d7e76dd3f4b3109ff3cf365a2a8d988d5f48f07873",
+        "bytes": 1846533
+      },
+      "preview": {
+        "source_encoded_frames": 101,
+        "preview_frames": 51,
+        "preview_fps": 8,
+        "final_hold_ms": 1000,
+        "display_horizon_step": 500,
+        "post_observation": "last actually recorded frame shaded and labeled observation ended; no future state synthesized"
+      }
+    },
+    "D": {
+      "success": 1,
+      "length": 40,
+      "episode": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\71_bp_dc_functional_diagnostics_v1\\results\\20261029T054213Z_campaign_2a4d70dd\\attempts\\20261029T055951Z_P41014_D_N1_BP_E064_main_454c67d2\\episode.json",
+        "sha256": "da47dfe7a37eec06468279257f10c0969efb4975375b3d09325ef4d3fdc544ac",
+        "bytes": 8795
+      },
+      "video_source": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\71_bp_dc_functional_diagnostics_v1\\results\\20261029T060852Z_offline_reconstruction_14b1eab9\\videos\\P41014_D_N1_BP_E064\\video.mp4",
+        "sha256": "441445b1d74ffaca85bca1b00527ac276c5b175a46aef59c31dcfd9c5c6200cc"
+      },
+      "result": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\71_bp_dc_functional_diagnostics_v1\\results\\20261029T060852Z_offline_reconstruction_14b1eab9\\videos\\P41014_D_N1_BP_E064\\result.json",
+        "sha256": "90a761b3c96ffff52244502f749011d55e890a8e2808551467cb4b62e5cca269"
+      },
+      "published_mp4": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\73_retention_readme_video_publication_v1\\results\\20261029T064753Z_prepare_62007f05\\media\\bp_d_better_D.mp4",
+        "sha256": "441445b1d74ffaca85bca1b00527ac276c5b175a46aef59c31dcfd9c5c6200cc",
+        "bytes": 38909
+      },
+      "published_preview": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\73_retention_readme_video_publication_v1\\results\\20261029T064753Z_prepare_62007f05\\media\\bp_d_better_D.gif",
+        "sha256": "89d4f9e3f6eebe5dea47764e7214943aff17c689bde526825fdafa757cfe2ca2",
+        "bytes": 209446
+      },
+      "preview": {
+        "source_encoded_frames": 9,
+        "preview_frames": 51,
+        "preview_fps": 8,
+        "final_hold_ms": 1000,
+        "display_horizon_step": 500,
+        "post_observation": "last actually recorded frame shaded and labeled observation ended; no future state synthesized"
+      }
+    }
+  },
+  {
+    "slug": "bp_c_better",
+    "title": "반대 BP 사례: C 성공·D 실패",
+    "parent": 41011,
+    "task": "BP",
+    "future": 1,
+    "episode_index": 7,
+    "group": "10",
+    "C": {
+      "success": 1,
+      "length": 38,
+      "episode": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\71_bp_dc_functional_diagnostics_v1\\results\\20261029T054213Z_campaign_2a4d70dd\\attempts\\20261029T054945Z_P41011_C_N1_BP_E007_main_18ff8e02\\episode.json",
+        "sha256": "393750e6485384eb73c1ff6917b858987111b08b1c5b781e6b654ee92caac2c5",
+        "bytes": 8782
+      },
+      "video_source": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\71_bp_dc_functional_diagnostics_v1\\results\\20261029T060852Z_offline_reconstruction_14b1eab9\\videos\\P41011_C_N1_BP_E007\\video.mp4",
+        "sha256": "857f0beb95aa1dbe1e0863aeffa97e61d60acb38087c16ca43129d31808f75fe"
+      },
+      "result": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\71_bp_dc_functional_diagnostics_v1\\results\\20261029T060852Z_offline_reconstruction_14b1eab9\\videos\\P41011_C_N1_BP_E007\\result.json",
+        "sha256": "022250efd07f1abe66b61d9fe171cb593be8c31031e24d461fe3b790b8e01067"
+      },
+      "published_mp4": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\73_retention_readme_video_publication_v1\\results\\20261029T064753Z_prepare_62007f05\\media\\bp_c_better_C.mp4",
+        "sha256": "857f0beb95aa1dbe1e0863aeffa97e61d60acb38087c16ca43129d31808f75fe",
+        "bytes": 37994
+      },
+      "published_preview": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\73_retention_readme_video_publication_v1\\results\\20261029T064753Z_prepare_62007f05\\media\\bp_c_better_C.gif",
+        "sha256": "b13c1a7eb6a98cefd0d8bc0f656e001b71c52c10df711af17c93636f42d2c121",
+        "bytes": 171951
+      },
+      "preview": {
+        "source_encoded_frames": 9,
+        "preview_frames": 51,
+        "preview_fps": 8,
+        "final_hold_ms": 1000,
+        "display_horizon_step": 500,
+        "post_observation": "last actually recorded frame shaded and labeled observation ended; no future state synthesized"
+      }
+    },
+    "D": {
+      "success": 0,
+      "length": 500,
+      "episode": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\71_bp_dc_functional_diagnostics_v1\\results\\20261029T054213Z_campaign_2a4d70dd\\attempts\\20261029T055130Z_P41011_D_N1_BP_E007_main_b0947b84\\episode.json",
+        "sha256": "5f886c59f228c111cd081186339755ee780511683ee0c3a50b7f2ec901670e57",
+        "bytes": 8825
+      },
+      "video_source": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\71_bp_dc_functional_diagnostics_v1\\results\\20261029T060852Z_offline_reconstruction_14b1eab9\\videos\\P41011_D_N1_BP_E007\\video.mp4",
+        "sha256": "d7e8b9cd6cb8d91a8f7e5c67eb0eafc2756ec1d857c3974fff53c91b5329016e"
+      },
+      "result": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\71_bp_dc_functional_diagnostics_v1\\results\\20261029T060852Z_offline_reconstruction_14b1eab9\\videos\\P41011_D_N1_BP_E007\\result.json",
+        "sha256": "e875b3af26b27af705825147f9977cac59a83570524ea4b6182ce36ea00e353f"
+      },
+      "published_mp4": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\73_retention_readme_video_publication_v1\\results\\20261029T064753Z_prepare_62007f05\\media\\bp_c_better_D.mp4",
+        "sha256": "d7e8b9cd6cb8d91a8f7e5c67eb0eafc2756ec1d857c3974fff53c91b5329016e",
+        "bytes": 155418
+      },
+      "published_preview": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\73_retention_readme_video_publication_v1\\results\\20261029T064753Z_prepare_62007f05\\media\\bp_c_better_D.gif",
+        "sha256": "2f2f18dac703a918e0e063a7491a4582b4bebebd98ca8833d1286397b10024f9",
+        "bytes": 1843769
+      },
+      "preview": {
+        "source_encoded_frames": 101,
+        "preview_frames": 51,
+        "preview_fps": 8,
+        "final_hold_ms": 1000,
+        "display_horizon_step": 500,
+        "post_observation": "last actually recorded frame shaded and labeled observation ended; no future state synthesized"
+      }
+    }
+  },
+  {
+    "slug": "dc_d_better",
+    "title": "DC 사례: D 성공·C 실패",
+    "parent": 41013,
+    "task": "DC",
+    "future": 1,
+    "episode_index": 24,
+    "group": "01",
+    "C": {
+      "success": 0,
+      "length": 500,
+      "episode": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\71_bp_dc_functional_diagnostics_v1\\results\\20261029T054213Z_campaign_2a4d70dd\\attempts\\20261029T060415Z_P41013_C_N1_DC_E024_main_c18411ad\\episode.json",
+        "sha256": "85fcd460a40de60f3d686daa701d4f2c86b373c253dc130ee987efb3927e38a7",
+        "bytes": 8375
+      },
+      "video_source": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\71_bp_dc_functional_diagnostics_v1\\results\\20261029T060852Z_offline_reconstruction_14b1eab9\\videos\\P41013_C_N1_DC_E024\\video.mp4",
+        "sha256": "52d42b67c6d6ce830bb4d03c9a5f363f6ea3457e42cc13ef1ce89a945dc3b5ed"
+      },
+      "result": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\71_bp_dc_functional_diagnostics_v1\\results\\20261029T060852Z_offline_reconstruction_14b1eab9\\videos\\P41013_C_N1_DC_E024\\result.json",
+        "sha256": "09f09cb9c9417280648a8574b74ad196610377a75ec007d7dbe17ed1e6a42e31"
+      },
+      "published_mp4": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\73_retention_readme_video_publication_v1\\results\\20261029T064753Z_prepare_62007f05\\media\\dc_d_better_C.mp4",
+        "sha256": "52d42b67c6d6ce830bb4d03c9a5f363f6ea3457e42cc13ef1ce89a945dc3b5ed",
+        "bytes": 191013
+      },
+      "published_preview": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\73_retention_readme_video_publication_v1\\results\\20261029T064753Z_prepare_62007f05\\media\\dc_d_better_C.gif",
+        "sha256": "9cd12545ad9920008c11498004f09a190553bb1587bbd867e75aa53f743edc36",
+        "bytes": 1926886
+      },
+      "preview": {
+        "source_encoded_frames": 101,
+        "preview_frames": 51,
+        "preview_fps": 8,
+        "final_hold_ms": 1000,
+        "display_horizon_step": 500,
+        "post_observation": "last actually recorded frame shaded and labeled observation ended; no future state synthesized"
+      }
+    },
+    "D": {
+      "success": 1,
+      "length": 16,
+      "episode": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\71_bp_dc_functional_diagnostics_v1\\results\\20261029T054213Z_campaign_2a4d70dd\\attempts\\20261029T060840Z_P41013_D_N1_DC_E024_main_7d7048fa\\episode.json",
+        "sha256": "ab760c752f1fcdf6d95b7ce8bb7c0083cfea4126b6efd238c62068d6f2c098c5",
+        "bytes": 8770
+      },
+      "video_source": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\71_bp_dc_functional_diagnostics_v1\\results\\20261029T060852Z_offline_reconstruction_14b1eab9\\videos\\P41013_D_N1_DC_E024\\video.mp4",
+        "sha256": "4c3f431721913a5399dc4af78dafc9e0321aa751812481a38452571033ee8d30"
+      },
+      "result": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\71_bp_dc_functional_diagnostics_v1\\results\\20261029T060852Z_offline_reconstruction_14b1eab9\\videos\\P41013_D_N1_DC_E024\\result.json",
+        "sha256": "99e132aa8c09a6aec8a3ba1759fbdd8987dc87954af5d54107b106c67f517050"
+      },
+      "published_mp4": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\73_retention_readme_video_publication_v1\\results\\20261029T064753Z_prepare_62007f05\\media\\dc_d_better_D.mp4",
+        "sha256": "4c3f431721913a5399dc4af78dafc9e0321aa751812481a38452571033ee8d30",
+        "bytes": 26007
+      },
+      "published_preview": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\73_retention_readme_video_publication_v1\\results\\20261029T064753Z_prepare_62007f05\\media\\dc_d_better_D.gif",
+        "sha256": "4147e3f0c6935abf6aa4e50e34a16b7f41d186e8d146db5a84dbda577e3a0100",
+        "bytes": 102135
+      },
+      "preview": {
+        "source_encoded_frames": 5,
+        "preview_frames": 51,
+        "preview_fps": 8,
+        "final_hold_ms": 1000,
+        "display_horizon_step": 500,
+        "post_observation": "last actually recorded frame shaded and labeled observation ended; no future state synthesized"
+      }
+    }
+  },
+  {
+    "slug": "dc_c_better",
+    "title": "반대 DC 사례: C 성공·D 실패",
+    "parent": 41011,
+    "task": "DC",
+    "future": 1,
+    "episode_index": 17,
+    "group": "10",
+    "C": {
+      "success": 1,
+      "length": 16,
+      "episode": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\71_bp_dc_functional_diagnostics_v1\\results\\20261029T054213Z_campaign_2a4d70dd\\attempts\\20261029T055023Z_P41011_C_N1_DC_E017_main_5958384a\\episode.json",
+        "sha256": "ce60ae6b9cb2da61ba22a593f913ab50130cd1f3868aa8eb5a9fcf0998b8e940",
+        "bytes": 8705
+      },
+      "video_source": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\71_bp_dc_functional_diagnostics_v1\\results\\20261029T060852Z_offline_reconstruction_14b1eab9\\videos\\P41011_C_N1_DC_E017\\video.mp4",
+        "sha256": "512dd27cbe273896db00ba9b2acf45a8ac38828ff1ffbab6164d54179248b146"
+      },
+      "result": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\71_bp_dc_functional_diagnostics_v1\\results\\20261029T060852Z_offline_reconstruction_14b1eab9\\videos\\P41011_C_N1_DC_E017\\result.json",
+        "sha256": "1af577aefab2cbfc4677278f554a586a8f5ea30ced7edc41b16f1c6c26420665"
+      },
+      "published_mp4": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\73_retention_readme_video_publication_v1\\results\\20261029T064753Z_prepare_62007f05\\media\\dc_c_better_C.mp4",
+        "sha256": "512dd27cbe273896db00ba9b2acf45a8ac38828ff1ffbab6164d54179248b146",
+        "bytes": 24327
+      },
+      "published_preview": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\73_retention_readme_video_publication_v1\\results\\20261029T064753Z_prepare_62007f05\\media\\dc_c_better_C.gif",
+        "sha256": "1a33798ac83a84d25ffc1abbfdb82b44868c6ebb3f67f89ff1c4b41b765abb6d",
+        "bytes": 103282
+      },
+      "preview": {
+        "source_encoded_frames": 5,
+        "preview_frames": 51,
+        "preview_fps": 8,
+        "final_hold_ms": 1000,
+        "display_horizon_step": 500,
+        "post_observation": "last actually recorded frame shaded and labeled observation ended; no future state synthesized"
+      }
+    },
+    "D": {
+      "success": 0,
+      "length": 500,
+      "episode": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\71_bp_dc_functional_diagnostics_v1\\results\\20261029T054213Z_campaign_2a4d70dd\\attempts\\20261029T055219Z_P41011_D_N1_DC_E017_main_1b7f5e99\\episode.json",
+        "sha256": "872511b0b14b60972e896d6cfc0a94a265fa7917c5a45ca5817b8f6d322265ef",
+        "bytes": 8816
+      },
+      "video_source": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\71_bp_dc_functional_diagnostics_v1\\results\\20261029T060852Z_offline_reconstruction_14b1eab9\\videos\\P41011_D_N1_DC_E017\\video.mp4",
+        "sha256": "56fd928b01d4f5793ab5e113050b9fee88b4b33de1d556d3e6b12b6cf0e6eb78"
+      },
+      "result": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\71_bp_dc_functional_diagnostics_v1\\results\\20261029T060852Z_offline_reconstruction_14b1eab9\\videos\\P41011_D_N1_DC_E017\\result.json",
+        "sha256": "1264434f18e916b6568211b5e606e5df6c7415e78c24ce041c2c2693e26cfba3"
+      },
+      "published_mp4": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\73_retention_readme_video_publication_v1\\results\\20261029T064753Z_prepare_62007f05\\media\\dc_c_better_D.mp4",
+        "sha256": "56fd928b01d4f5793ab5e113050b9fee88b4b33de1d556d3e6b12b6cf0e6eb78",
+        "bytes": 116658
+      },
+      "published_preview": {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\73_retention_readme_video_publication_v1\\results\\20261029T064753Z_prepare_62007f05\\media\\dc_c_better_D.gif",
+        "sha256": "b82a4d97eae2e211d5da5f85edd49b7ec982b03982e8adae8ab3ffb077f34ea1",
+        "bytes": 1789380
+      },
+      "preview": {
+        "source_encoded_frames": 101,
+        "preview_frames": 51,
+        "preview_fps": 8,
+        "final_hold_ms": 1000,
+        "display_horizon_step": 500,
+        "post_observation": "last actually recorded frame shaded and labeled observation ended; no future state synthesized"
+      }
+    }
+  }
+]
