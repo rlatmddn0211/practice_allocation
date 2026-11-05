@@ -23,3 +23,7 @@
 번호는 생성 순서이며 과학적 확증 수준을 뜻하지 않는다. 설계·실행·분석·검산·공개 기록을 구분해서 읽는다.
 이동으로 바뀌는 문서 링크만 보정했고 학습 코드·수치 원자료·JSON 출처는 수정하지 않았다.
 정리 전 문서는 [고정 커밋 987ddb5](https://github.com/rlatmddn0211/practice_allocation/tree/987ddb5d2744be5a09e395e5a9d26638b178940d)와 [경로/원문 복원 기록](../07_operations_and_publication/74_repository_research_structure_v1/README.md)을 따른다.
+
+## 2026-11-05 추가 게시
+
+- [83 — 기본 관측 81·82 결과 게시](83_basic_observation_results_publication_v1/README.md)

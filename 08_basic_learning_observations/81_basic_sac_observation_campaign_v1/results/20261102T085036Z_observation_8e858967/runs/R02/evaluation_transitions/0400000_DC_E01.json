@@ -1,0 +1,26 @@
+{
+  "experiment_id": "81_basic_sac_observation_campaign_v1",
+  "run_id": "R02",
+  "attempt_id": "attempt_001",
+  "task_id": "DC",
+  "split_role": "observation_eval",
+  "env_instance_id": "0400000_DC_E01",
+  "episode_id": "0400000_DC_E01",
+  "initial_case_id": "DC_E01",
+  "physical_case_id": "255137c708efc9ede2d07e6f8bf6f858b11eeed5f0fc573a71ff892fd9c074d4",
+  "checkpoint_id": 400000,
+  "env_step_total": 400000,
+  "action_source": "deterministic policy mean through original tanh/scaling path",
+  "obs_policy_dtype": "float32",
+  "obs_raw_dtype": "float64",
+  "raw_success": "current official success at each returned state; no artificial first-success stop",
+  "rows": 500,
+  "trajectory": {
+    "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\81_basic_sac_observation_campaign_v1\\results\\20261102T085036Z_observation_8e858967\\runs\\R02\\evaluation_transitions\\0400000_DC_E01.npz",
+    "bytes": 201967,
+    "sha256": "875afbc1fc7b92d775ff18b64f57b48958410f79cc8998845e98341ca21cbd0f"
+  },
+  "schema_version": 1,
+  "seconds_including_rollout": 1.211680400010664,
+  "compression_write_hash_seconds": 0.024542200029827654
+}

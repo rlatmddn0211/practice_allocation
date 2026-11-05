@@ -1,0 +1,65 @@
+{
+  "status": "passed",
+  "checks": {
+    "synthetic": {
+      "gain_loss_identity": true,
+      "equal_net_loss_preserves_exchange": true,
+      "same_case_pairing_preserves_disagreement": true,
+      "initial_labels_not_multiplied": true,
+      "budget_arithmetic": true,
+      "light_union_count": true,
+      "eval_count": true,
+      "full_count": true
+    },
+    "logging_on_off_exact": true,
+    "native_time_limit_bootstrap": true,
+    "action_round_trip": true,
+    "task_encoding": true,
+    "evaluation_video_isolation_exact": true,
+    "light_policy_restore": true,
+    "full_lossless_resume_exact": true,
+    "snapshot_action_checks": [
+      {
+        "task": "DO",
+        "fixed_action_restore_exact": true
+      },
+      {
+        "task": "DC",
+        "fixed_action_restore_exact": true
+      },
+      {
+        "task": "PU",
+        "fixed_action_restore_exact": true
+      },
+      {
+        "task": "BP",
+        "fixed_action_restore_exact": true
+      }
+    ],
+    "snapshot_policy_restore_exact": true,
+    "snapshot_claim": "same-runtime full restore certified for tested four-task action traces and DO fixed policy only",
+    "all_core_passed": true
+  },
+  "error": null,
+  "costs": {
+    "category": "technical",
+    "issued_charged": 4850,
+    "completed_transitions": 4850,
+    "resets": 7,
+    "creations": 7,
+    "wall_seconds": 39.85326989996247,
+    "step_call_seconds": 12.363347100152168,
+    "step_calls": 4850,
+    "counter": {
+      "environment_creations": 20,
+      "resets": 20,
+      "environment_steps": 4850,
+      "train_iterations": 1200,
+      "evaluation_episodes": 0
+    }
+  },
+  "elapsed_seconds": 39.873303000000305,
+  "recorded_bytes": 53838814,
+  "learning_tolerance": "exact same-runtime equality; no post-outcome widening",
+  "optional_diagnostic_environment_steps": 0
+}

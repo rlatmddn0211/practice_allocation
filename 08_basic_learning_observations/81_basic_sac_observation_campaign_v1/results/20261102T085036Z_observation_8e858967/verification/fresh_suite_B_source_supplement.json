@@ -1,0 +1,21 @@
+{
+  "files": [
+    {
+      "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\44_selection_value_stage1_checkpoint36_v2\\worker.py",
+      "sha256": "865a9f5ad28e6698768e526eba2a580d1ee78291dd9b48ff2fd85d15b3ccb01a",
+      "bytes": 8197
+    },
+    {
+      "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\44_selection_value_stage1_checkpoint36_v2\\campaign.py",
+      "sha256": "6a24573db95301aad95f7a2e427f6bce99d54bcbd242748e8a6fe492fd067d07",
+      "bytes": 19290
+    },
+    {
+      "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\44_selection_value_stage1_checkpoint36_v2\\configs\\learner.json",
+      "sha256": "ba2a7dd45b3190cca9ade74bcf5b4c0a8bb1cad5bea1f0894db2d92a7f8efe53",
+      "bytes": 1028
+    }
+  ],
+  "verified": "suite B fresh AuditEngine initialization, unchanged U pretraining, same constant SAC config; excludes target-only fine-tuning",
+  "new_environment_steps": 0
+}

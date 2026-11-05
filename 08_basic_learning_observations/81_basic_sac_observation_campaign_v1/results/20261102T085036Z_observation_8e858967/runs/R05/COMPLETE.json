@@ -1,0 +1,71 @@
+{
+  "run_id": "R05",
+  "completed_at": "2026-11-03T00:06:25.590799+00:00",
+  "train_transitions": 1000000,
+  "evaluation_transitions": 320000,
+  "evaluation_episodes": 640,
+  "evaluation_checkpoints": [
+    0,
+    10000,
+    20000,
+    50000,
+    100000,
+    200000,
+    400000,
+    600000,
+    800000,
+    1000000
+  ],
+  "light_checkpoints": [
+    0,
+    10000,
+    20000,
+    50000,
+    100000,
+    150000,
+    200000,
+    250000,
+    300000,
+    350000,
+    400000,
+    450000,
+    500000,
+    550000,
+    600000,
+    650000,
+    700000,
+    750000,
+    800000,
+    850000,
+    900000,
+    950000,
+    1000000
+  ],
+  "full_checkpoints": [
+    0,
+    200000,
+    600000,
+    1000000
+  ],
+  "actor_updates": 999000,
+  "collected_by_task": {
+    "DO": 250000,
+    "DC": 250000,
+    "PU": 250000,
+    "BP": 250000
+  },
+  "replay_sampled_total": 255744000,
+  "sampled_by_task": {
+    "DO": 64012398,
+    "DC": 63872216,
+    "PU": 63901006,
+    "BP": 63958380
+  },
+  "runtime_seconds": 18850.734475300007,
+  "checkpoint_parent": null,
+  "source_hashes": {
+    "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\81_basic_sac_observation_campaign_v1\\results\\20261102T085036Z_observation_8e858967\\runs\\R05\\source_hashes.json",
+    "bytes": 3274,
+    "sha256": "b906c785b6f9f8308824edd69378c29dc9cef9b1d445defb444b5c31919f4d04"
+  }
+}

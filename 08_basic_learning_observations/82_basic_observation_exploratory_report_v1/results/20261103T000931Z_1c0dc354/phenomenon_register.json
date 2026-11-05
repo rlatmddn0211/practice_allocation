@@ -1,0 +1,267 @@
+{
+  "entries": [
+    {
+      "id": "DO_learning_and_exchange",
+      "execution_status": "analyzed",
+      "scientific_conclusion": "exploratory finite-run observation; no causal mechanism or method superiority",
+      "task": "DO",
+      "per_run": [
+        {
+          "run_id": "R01",
+          "final_success_pct": 0.0,
+          "posthoc_max_success_pct": 0.0,
+          "posthoc_max_minus_final_pp": 0.0
+        },
+        {
+          "run_id": "R02",
+          "final_success_pct": 0.0,
+          "posthoc_max_success_pct": 0.0,
+          "posthoc_max_minus_final_pp": 0.0
+        },
+        {
+          "run_id": "R03",
+          "final_success_pct": 0.0,
+          "posthoc_max_success_pct": 0.0,
+          "posthoc_max_minus_final_pp": 0.0
+        },
+        {
+          "run_id": "R04",
+          "final_success_pct": 0.0,
+          "posthoc_max_success_pct": 6.25,
+          "posthoc_max_minus_final_pp": 6.25
+        },
+        {
+          "run_id": "R05",
+          "final_success_pct": 0.0,
+          "posthoc_max_success_pct": 12.5,
+          "posthoc_max_minus_final_pp": 12.5
+        }
+      ],
+      "loss_case_run_count": 3,
+      "recovery_case_run_count": 0,
+      "opposite_and_unchanged": "all gain/loss windows and all unchanged/successful/failed histories included in accompanying tables",
+      "candidate_explanations": [
+        "policy learning variability",
+        "physical case heterogeneity",
+        "task difficulty",
+        "replay exposure and changing state visitation"
+      ],
+      "unidentified": "state/action/experience usefulness and causal mechanism not separated",
+      "next_minimal_check": "only after an explicit phenomenon is chosen; no automatic intervention or algorithm selection",
+      "scope": "5 independent initializations on the fixed 16 physical cases per task, not 80 independent initial conditions",
+      "posthoc_selection_note": "maximum checkpoint score is selected from observed outcomes and upward biased; descriptive only"
+    },
+    {
+      "id": "DC_learning_and_exchange",
+      "execution_status": "analyzed",
+      "scientific_conclusion": "exploratory finite-run observation; no causal mechanism or method superiority",
+      "task": "DC",
+      "per_run": [
+        {
+          "run_id": "R01",
+          "final_success_pct": 100.0,
+          "posthoc_max_success_pct": 100.0,
+          "posthoc_max_minus_final_pp": 0.0
+        },
+        {
+          "run_id": "R02",
+          "final_success_pct": 100.0,
+          "posthoc_max_success_pct": 100.0,
+          "posthoc_max_minus_final_pp": 0.0
+        },
+        {
+          "run_id": "R03",
+          "final_success_pct": 100.0,
+          "posthoc_max_success_pct": 100.0,
+          "posthoc_max_minus_final_pp": 0.0
+        },
+        {
+          "run_id": "R04",
+          "final_success_pct": 100.0,
+          "posthoc_max_success_pct": 100.0,
+          "posthoc_max_minus_final_pp": 0.0
+        },
+        {
+          "run_id": "R05",
+          "final_success_pct": 100.0,
+          "posthoc_max_success_pct": 100.0,
+          "posthoc_max_minus_final_pp": 0.0
+        }
+      ],
+      "loss_case_run_count": 14,
+      "recovery_case_run_count": 14,
+      "opposite_and_unchanged": "all gain/loss windows and all unchanged/successful/failed histories included in accompanying tables",
+      "candidate_explanations": [
+        "policy learning variability",
+        "physical case heterogeneity",
+        "task difficulty",
+        "replay exposure and changing state visitation"
+      ],
+      "unidentified": "state/action/experience usefulness and causal mechanism not separated",
+      "next_minimal_check": "only after an explicit phenomenon is chosen; no automatic intervention or algorithm selection",
+      "scope": "5 independent initializations on the fixed 16 physical cases per task, not 80 independent initial conditions",
+      "posthoc_selection_note": "maximum checkpoint score is selected from observed outcomes and upward biased; descriptive only"
+    },
+    {
+      "id": "PU_learning_and_exchange",
+      "execution_status": "analyzed",
+      "scientific_conclusion": "exploratory finite-run observation; no causal mechanism or method superiority",
+      "task": "PU",
+      "per_run": [
+        {
+          "run_id": "R01",
+          "final_success_pct": 0.0,
+          "posthoc_max_success_pct": 6.25,
+          "posthoc_max_minus_final_pp": 6.25
+        },
+        {
+          "run_id": "R02",
+          "final_success_pct": 0.0,
+          "posthoc_max_success_pct": 6.25,
+          "posthoc_max_minus_final_pp": 6.25
+        },
+        {
+          "run_id": "R03",
+          "final_success_pct": 6.25,
+          "posthoc_max_success_pct": 6.25,
+          "posthoc_max_minus_final_pp": 0.0
+        },
+        {
+          "run_id": "R04",
+          "final_success_pct": 0.0,
+          "posthoc_max_success_pct": 6.25,
+          "posthoc_max_minus_final_pp": 6.25
+        },
+        {
+          "run_id": "R05",
+          "final_success_pct": 0.0,
+          "posthoc_max_success_pct": 12.5,
+          "posthoc_max_minus_final_pp": 12.5
+        }
+      ],
+      "loss_case_run_count": 9,
+      "recovery_case_run_count": 0,
+      "opposite_and_unchanged": "all gain/loss windows and all unchanged/successful/failed histories included in accompanying tables",
+      "candidate_explanations": [
+        "policy learning variability",
+        "physical case heterogeneity",
+        "task difficulty",
+        "replay exposure and changing state visitation"
+      ],
+      "unidentified": "state/action/experience usefulness and causal mechanism not separated",
+      "next_minimal_check": "only after an explicit phenomenon is chosen; no automatic intervention or algorithm selection",
+      "scope": "5 independent initializations on the fixed 16 physical cases per task, not 80 independent initial conditions",
+      "posthoc_selection_note": "maximum checkpoint score is selected from observed outcomes and upward biased; descriptive only"
+    },
+    {
+      "id": "BP_learning_and_exchange",
+      "execution_status": "analyzed",
+      "scientific_conclusion": "exploratory finite-run observation; no causal mechanism or method superiority",
+      "task": "BP",
+      "per_run": [
+        {
+          "run_id": "R01",
+          "final_success_pct": 93.75,
+          "posthoc_max_success_pct": 100.0,
+          "posthoc_max_minus_final_pp": 6.25
+        },
+        {
+          "run_id": "R02",
+          "final_success_pct": 87.5,
+          "posthoc_max_success_pct": 100.0,
+          "posthoc_max_minus_final_pp": 12.5
+        },
+        {
+          "run_id": "R03",
+          "final_success_pct": 100.0,
+          "posthoc_max_success_pct": 100.0,
+          "posthoc_max_minus_final_pp": 0.0
+        },
+        {
+          "run_id": "R04",
+          "final_success_pct": 87.5,
+          "posthoc_max_success_pct": 100.0,
+          "posthoc_max_minus_final_pp": 12.5
+        },
+        {
+          "run_id": "R05",
+          "final_success_pct": 93.75,
+          "posthoc_max_success_pct": 93.75,
+          "posthoc_max_minus_final_pp": 0.0
+        }
+      ],
+      "loss_case_run_count": 45,
+      "recovery_case_run_count": 41,
+      "opposite_and_unchanged": "all gain/loss windows and all unchanged/successful/failed histories included in accompanying tables",
+      "candidate_explanations": [
+        "policy learning variability",
+        "physical case heterogeneity",
+        "task difficulty",
+        "replay exposure and changing state visitation"
+      ],
+      "unidentified": "state/action/experience usefulness and causal mechanism not separated",
+      "next_minimal_check": "only after an explicit phenomenon is chosen; no automatic intervention or algorithm selection",
+      "scope": "5 independent initializations on the fixed 16 physical cases per task, not 80 independent initial conditions",
+      "posthoc_selection_note": "maximum checkpoint score is selected from observed outcomes and upward biased; descriptive only"
+    }
+  ],
+  "original_initialization_seeds": {
+    "R01": {
+      "model_initialization": 2493096160,
+      "training_action_and_update": 646241823,
+      "replay": 1692148919,
+      "schedule": 316130153,
+      "environment": 2929435795,
+      "warmup_action": 2074269078,
+      "record_selection": 2340780063
+    },
+    "R02": {
+      "model_initialization": 1115859526,
+      "training_action_and_update": 2524149842,
+      "replay": 3696737331,
+      "schedule": 2049526447,
+      "environment": 1376033248,
+      "warmup_action": 3319856136,
+      "record_selection": 528687926
+    },
+    "R03": {
+      "model_initialization": 4219523953,
+      "training_action_and_update": 3065478315,
+      "replay": 1058443245,
+      "schedule": 3169187801,
+      "environment": 2031543142,
+      "warmup_action": 3971971199,
+      "record_selection": 857847448
+    },
+    "R04": {
+      "model_initialization": 844887944,
+      "training_action_and_update": 1822565229,
+      "replay": 1578275485,
+      "schedule": 3482269236,
+      "environment": 2697291313,
+      "warmup_action": 2341789252,
+      "record_selection": 1968934123
+    },
+    "R05": {
+      "model_initialization": 2469288265,
+      "training_action_and_update": 1208460155,
+      "replay": 3910031135,
+      "schedule": 3783114272,
+      "environment": 378204462,
+      "warmup_action": 484843922,
+      "record_selection": 3152540703
+    },
+    "TECH": {
+      "model_initialization": 4107365228,
+      "training_action_and_update": 270407760,
+      "replay": 3842661162,
+      "schedule": 3116483272,
+      "environment": 1945487801,
+      "warmup_action": 48656976,
+      "record_selection": 1602314433
+    }
+  },
+  "costs_ref": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\81_basic_sac_observation_campaign_v1\\results\\20261102T085036Z_observation_8e858967\\FINAL_STATUS.json",
+  "new_environment_steps": 0,
+  "new_policy_forwards": 0
+}

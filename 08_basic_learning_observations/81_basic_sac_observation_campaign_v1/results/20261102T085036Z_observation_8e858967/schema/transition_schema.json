@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "layout": "episode-level immutable metadata JSON + per-transition numeric NPZ arrays; join by trajectory basename",
+  "metadata_fields": [
+    "experiment_id",
+    "run_id",
+    "attempt_id",
+    "task_id",
+    "split_role",
+    "env_instance_id",
+    "episode_id",
+    "initial_case_id",
+    "checkpoint_id"
+  ],
+  "array_fields": [
+    "transition_id",
+    "episode_step",
+    "env_step_total",
+    "actor_update_count",
+    "critic_update_count",
+    "policy_version",
+    "obs_policy",
+    "obs_raw",
+    "action_executed",
+    "reward",
+    "next_obs_actual",
+    "next_obs_raw_actual",
+    "success_step",
+    "terminated",
+    "truncated",
+    "validity_status"
+  ],
+  "time": "obs/action before raw step; next/reward/success/termination after step; physical features at returned control-step endpoint",
+  "episode_step_start": 1,
+  "autoreset": "none; native final observation returned directly; reset is separate",
+  "precision": {
+    "obs_raw": "float64 original returned observation, including original environment clipping",
+    "obs_policy": "float32 original learner input plus one-hot",
+    "physics": "original float64; no quantization",
+    "action_executed": "float32 original normalized action",
+    "reward": "float64 returned scalar"
+  },
+  "action_source": {
+    "0": "original uniform warm-up",
+    "1": "original stochastic SAC collection",
+    "2": "original deterministic evaluation"
+  },
+  "policy_distribution": "stored mean and log_std are pre-tanh; warm-up unavailable represented by NaN with action_source=0",
+  "action_pre_transform": "collection action before original project scale/unscale round trip; same [-1,1] coordinates here",
+  "sampled_action_log_prob": "unavailable in original collection predict path; no extra policy sampling to manufacture it",
+  "success_flag": "noncumulative official task evaluate_state result at this returned state; episode success_any is separately accumulated",
+  "bootstrap": "1-terminated; time-limit truncation handled by original SB3 timeout mask, never silently merged",
+  "contacts": "ragged numerical rows [geom1,geom2,distance_m], addressed by contact_offsets; control endpoints only",
+  "unavailable_joint": "Push free-object state retained in qpos/qvel; scalar manipulation joint is NaN and explicitly unavailable",
+  "evaluation_data_use": "observation only; never training replay, calibration, task selection or policy inputs beyond normal eval"
+}

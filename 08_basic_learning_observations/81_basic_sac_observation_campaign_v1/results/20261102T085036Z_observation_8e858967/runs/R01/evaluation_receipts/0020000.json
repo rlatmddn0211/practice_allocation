@@ -1,0 +1,32 @@
+{
+  "checkpoint": 20000,
+  "episodes": 64,
+  "physical_cases": 64,
+  "success_by_task": {
+    "DO": 0.0,
+    "DC": 1.0,
+    "PU": 0.0,
+    "BP": 0.0
+  },
+  "costs": {
+    "environment_creations": 64,
+    "resets": 64,
+    "environment_steps": 32000,
+    "train_iterations": 0,
+    "evaluation_episodes": 0
+  },
+  "learner_before": {
+    "learning": "ea2f0e5c2d3dd7b4b959fe7323248e19c25503aa569420c77600d07ee525443c",
+    "replay": "fbec230bb074abe4a4fd597be3b3d2f47a85a17f2b1b7d78ad830663d2170a43",
+    "collector": "16846265efe8b63679a79f591b21af96d605f173de5123089909eb187810bf4b",
+    "rng": "d2e6681f7432198d6d1c9d5927dbfabecdcd75a54ddc27424641c58458b73551"
+  },
+  "learner_after": {
+    "learning": "ea2f0e5c2d3dd7b4b959fe7323248e19c25503aa569420c77600d07ee525443c",
+    "replay": "fbec230bb074abe4a4fd597be3b3d2f47a85a17f2b1b7d78ad830663d2170a43",
+    "collector": "16846265efe8b63679a79f591b21af96d605f173de5123089909eb187810bf4b",
+    "rng": "d2e6681f7432198d6d1c9d5927dbfabecdcd75a54ddc27424641c58458b73551"
+  },
+  "state_unchanged": true,
+  "wall_seconds": 66.126624800032
+}

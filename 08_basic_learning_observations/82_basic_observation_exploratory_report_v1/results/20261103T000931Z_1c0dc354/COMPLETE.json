@@ -1,0 +1,22 @@
+{
+  "status": "observations_completed",
+  "report": {
+    "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\82_basic_observation_exploratory_report_v1\\results\\20261103T000931Z_1c0dc354\\report_ko.md",
+    "sha256": "e4c8cc1b3085b5f75fc7478bc79f5c4167311c4434bca27439b30170f5a16c2d",
+    "bytes": 9224
+  },
+  "bundle": {
+    "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\82_basic_observation_exploratory_report_v1\\results\\20261103T000931Z_1c0dc354\\reproduction_bundle.zip",
+    "sha256": "81a376ef4c713f27a0ea77e228d9b008d57b22d0e2001b3e1470302b8b2f5412",
+    "bytes": 484019
+  },
+  "analysis_wall_seconds": 14.542955399956554,
+  "new_environment_steps": 0,
+  "new_neural_forwards": 0,
+  "packages": {
+    "numpy": "2.2.4",
+    "pandas": "2.3.2",
+    "pyarrow": "21.0.0"
+  },
+  "source_campaign": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\81_basic_sac_observation_campaign_v1\\results\\20261102T085036Z_observation_8e858967"
+}

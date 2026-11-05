@@ -1,0 +1,8 @@
+{
+  "kind": "full_boundary_checkpoint",
+  "environment_active": false,
+  "boundary": "native completed 500-step episode, SAC update completed, before next reset",
+  "required_state": "model/optimizers/alpha/replay/slot metadata/schedule/collector/RNG from same barrier",
+  "seconds": 0.7502133999951184,
+  "checkpoint_manifest_sha256": "ed0ca2b5ae0c5799d7c1838cae99391999fd63988008b4925fd359801b4068e5"
+}

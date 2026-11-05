@@ -1,0 +1,107 @@
+{
+  "experiment_id": "81_basic_sac_observation_campaign_v1",
+  "scope": "one baseline condition; exploratory observational campaign",
+  "authorization": "user execution prompt; 5 independent fresh initializations, all four suite-B tasks",
+  "runs": [
+    "R01",
+    "R02",
+    "R03",
+    "R04",
+    "R05"
+  ],
+  "tasks": [
+    "DO",
+    "DC",
+    "PU",
+    "BP"
+  ],
+  "suite": "B",
+  "train_transitions_per_run": 1000000,
+  "evaluation_steps": [
+    0,
+    10000,
+    20000,
+    50000,
+    100000,
+    200000,
+    400000,
+    600000,
+    800000,
+    1000000
+  ],
+  "evaluation_cases_per_task": 16,
+  "light_steps": [
+    0,
+    10000,
+    20000,
+    50000,
+    100000,
+    150000,
+    200000,
+    250000,
+    300000,
+    350000,
+    400000,
+    450000,
+    500000,
+    550000,
+    600000,
+    650000,
+    700000,
+    750000,
+    800000,
+    850000,
+    900000,
+    950000,
+    1000000
+  ],
+  "full_steps": [
+    0,
+    200000,
+    600000,
+    1000000
+  ],
+  "caps": {
+    "training": 5000000,
+    "evaluation": 1600000,
+    "technical_invalid_retry": 10000,
+    "optional_diagnostic": 100000,
+    "all_attempt": 6710000
+  },
+  "schedule": "unchanged U: shuffled 8-episode blocks, exactly 2 episodes per task; 500 steps per episode",
+  "update": "unchanged stock SAC, warmup included in training budget, one actor/critic update after transition >1000",
+  "evaluation": "same deterministic CUDA policy; continue until native truncation at 500, unlike prior first-success stop; explicit new observational rule",
+  "case_scope": "64 outcome-blind common physical initial cases; not standard full Meta-World evaluation",
+  "transition_log": "all control-step train/evaluation/diagnostic transitions; per-episode lossless NPZ numeric chunks",
+  "updates_log": "scalar loss/alpha/counters every update; full sampled Q/TD distribution summaries every 250 updates",
+  "replay_log": "exact lifetime per-slot generation counts; every 250th batch transition IDs; no claim to reconstruct all batches",
+  "gradient_norm_interval": 250,
+  "snapshots_interval": 50,
+  "video": {
+    "case_indices": [
+      0,
+      1
+    ],
+    "width": 320,
+    "height": 240,
+    "stride": 5,
+    "fps": 20,
+    "camera": "corner"
+  },
+  "snapshot_status": "diagnostic_state until same-runtime action and policy restore certified; no reset-training intervention",
+  "analysis": "descriptive all-run/task/checkpoint curves, paired case transitions, behavior/replay/update alignment, phenomena plus contrary cases; no forced method choice",
+  "optional_diagnostic": "write plan first; no optimizer updates; do not exhaust unused budget",
+  "technical_tolerance": {
+    "learning_atol": 0.0,
+    "learning_rtol": 0.0,
+    "physics_atol": 0.0,
+    "physics_rtol": 0.0
+  },
+  "normal_episodes": 3200,
+  "normal_light_checkpoints": 115,
+  "normal_full_checkpoints": 20,
+  "normal_videos": 400,
+  "parallel_workers": 2,
+  "automatic_new_seeds": false,
+  "automatic_learning_retry": false
+}

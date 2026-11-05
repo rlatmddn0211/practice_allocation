@@ -1,0 +1,12 @@
+{
+  "train": 5000000,
+  "evaluation": 1600000,
+  "technical_invalid_retry": 4850,
+  "optional_diagnostic": 0,
+  "uncertain_issued": 0,
+  "all_attempt": 6604850,
+  "control_steps_unit": "actual single-environment action transitions; unmatched issued attempts charged conservatively",
+  "analysis_seconds_so_far": 76.74532610003371,
+  "disk_bytes_campaign": 5942334695,
+  "units": "steps, wall seconds, reset counts and bytes reported separately; no mixed-unit sum"
+}

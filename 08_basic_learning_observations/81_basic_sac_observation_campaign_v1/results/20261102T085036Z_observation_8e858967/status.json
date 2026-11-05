@@ -1,0 +1,24 @@
+{
+  "time": "2026-11-03T00:06:31.421429+00:00",
+  "stage": "analysis",
+  "active_runs": [],
+  "pending_runs": [],
+  "completed_runs": [
+    "R01",
+    "R02",
+    "R03",
+    "R04",
+    "R05"
+  ],
+  "failed_runs": [],
+  "costs": {
+    "train": 5000000,
+    "evaluation": 1600000,
+    "technical_invalid_retry": 4850,
+    "optional_diagnostic": 0,
+    "uncertain_issued": 0,
+    "all_attempt": 6604850,
+    "control_steps_unit": "actual single-environment action transitions; unmatched issued attempts charged conservatively"
+  },
+  "wall_seconds": 54938.964702799974
+}

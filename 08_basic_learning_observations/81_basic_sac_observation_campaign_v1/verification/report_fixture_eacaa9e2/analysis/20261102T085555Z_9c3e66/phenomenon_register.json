@@ -1,0 +1,67 @@
+{
+  "status": "exploratory_observation",
+  "entries": [
+    {
+      "phenomenon_id": "final_DO",
+      "execution_status": "measured",
+      "observation": "original-initial-distribution performance on fixed observation panel",
+      "task": "DO",
+      "completed_runs": 5,
+      "success_mean": 0.5,
+      "run_min": 0.5,
+      "run_max": 0.5,
+      "scope": "five fresh learning runs, shared sixteen physical cases for this task; exploratory",
+      "contrary_cases": "all run/case histories and all checkpoint transitions retained",
+      "competition": "policy, task difficulty, physical-case composition, learning randomness and replay exposure not causally separated",
+      "next_confirmation": "only after a concrete pattern is identified; no follow-on method or run auto-selected"
+    },
+    {
+      "phenomenon_id": "final_DC",
+      "execution_status": "measured",
+      "observation": "original-initial-distribution performance on fixed observation panel",
+      "task": "DC",
+      "completed_runs": 5,
+      "success_mean": 0.5,
+      "run_min": 0.5,
+      "run_max": 0.5,
+      "scope": "five fresh learning runs, shared sixteen physical cases for this task; exploratory",
+      "contrary_cases": "all run/case histories and all checkpoint transitions retained",
+      "competition": "policy, task difficulty, physical-case composition, learning randomness and replay exposure not causally separated",
+      "next_confirmation": "only after a concrete pattern is identified; no follow-on method or run auto-selected"
+    },
+    {
+      "phenomenon_id": "final_PU",
+      "execution_status": "measured",
+      "observation": "original-initial-distribution performance on fixed observation panel",
+      "task": "PU",
+      "completed_runs": 5,
+      "success_mean": 0.5,
+      "run_min": 0.5,
+      "run_max": 0.5,
+      "scope": "five fresh learning runs, shared sixteen physical cases for this task; exploratory",
+      "contrary_cases": "all run/case histories and all checkpoint transitions retained",
+      "competition": "policy, task difficulty, physical-case composition, learning randomness and replay exposure not causally separated",
+      "next_confirmation": "only after a concrete pattern is identified; no follow-on method or run auto-selected"
+    },
+    {
+      "phenomenon_id": "final_BP",
+      "execution_status": "measured",
+      "observation": "original-initial-distribution performance on fixed observation panel",
+      "task": "BP",
+      "completed_runs": 5,
+      "success_mean": 0.5,
+      "run_min": 0.5,
+      "run_max": 0.5,
+      "scope": "five fresh learning runs, shared sixteen physical cases for this task; exploratory",
+      "contrary_cases": "all run/case histories and all checkpoint transitions retained",
+      "competition": "policy, task difficulty, physical-case composition, learning randomness and replay exposure not causally separated",
+      "next_confirmation": "only after a concrete pattern is identified; no follow-on method or run auto-selected"
+    }
+  ],
+  "predefined_method_selected": false,
+  "causal_mechanism_identified": false,
+  "evidence_for_primitive_skill": "unmeasured",
+  "all_paired_changes": "paired_case_transitions.csv",
+  "all_behavior_changes": "episode_behaviour.parquet",
+  "posthoc_scope": "descriptive inspection only; no classifier, weight search or new model fitted"
+}

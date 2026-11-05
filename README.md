@@ -2,9 +2,13 @@
 
 추가 학습에서 무엇을 어떻게 보호해야 기존 성공의 상실을 줄이면서, 다른 사례의 성공 획득과 이전 성공의 회복을 유지할 수 있는지 연구합니다.
 
+## 2026-11-05 게시: 기본 학습 관측 결과
+
+[81·82번 결과와 공개 자료 안내](08_basic_learning_observations/README.md): 다섯 독립 초기학습, 총 5M 학습 전이와 3,200회 평가를 완료했다. DC 100%, BP 92.5%, DO 0%, Push 1.25%는 과제당 공통 16사례의 최종 평균이다. 수치 궤적·사례 이력·그림·사전 선정 영상 400개와 비용을 함께 공개한다. 유용한 기초동작이나 학습 개선 방법은 아직 확인하지 못했다.
+
 ## 연구 질문별로 보기
 
-기존 실험 번호와 버전명은 그대로 유지하고 관련 질문을8개 큰 폴더로 묶었습니다. [연구 질문의 변화 과정](00_research_overview/RESEARCH_TRAJECTORY.md)을 먼저 보면 각 묶음이 이어진 이유를 볼 수 있습니다.
+기존 실험 번호와 버전명은 그대로 유지하고 관련 질문을 주제별 큰 폴더로 묶었습니다. [연구 질문의 변화 과정](00_research_overview/RESEARCH_TRAJECTORY.md)을 먼저 보면 각 묶음이 이어진 이유를 볼 수 있습니다.
 
 | 큰 폴더 | 핵심 질문 | 기존 버전 수 |
 |---|---|---:|
@@ -16,12 +20,13 @@
 | [획득 사례의 반복성](05_acquisition_repeatability/) | 같은 상태에서 획득하는 사례 패턴은 반복되며 다른 출발 상태와 구별되는가? | 5 |
 | [보존 개입·사례 영상](06_retention_interventions/) | 무엇을 보호하면 기존 성공의 상실을 줄이면서 획득과 회복을 유지할 수 있는가? | 5 |
 | [실행·검증·공개](07_operations_and_publication/) | 코드·상태·비용·실패·연구 기록을 어떻게 검증하고 보존·공개했는가? | 10 |
+| [기본 학습 관측](08_basic_learning_observations/) | 행동·경험·정책 변화에서 어떤 반복 현상이 관찰되는가? | 2 |
 
 실행·공개 폴더에는 이번 정리 도구74를 추가했습니다. 번호 순서는 실험의 성패나 확증 수준을 뜻하지 않습니다.
 
 ## 먼저 볼 자료
 
-- [현재 보존 개입 결과](06_retention_interventions/68_retention_intervention_result_review_v1/results/20261028T072607Z_review_323af171/report_ko.md)
+- [이전 보존 개입 결과](06_retention_interventions/68_retention_intervention_result_review_v1/results/20261028T072607Z_review_323af171/report_ko.md)
 - [보존 개입·사례 영상 목차](06_retention_interventions/README.md)
 - [연구 개요와 문헌](00_research_overview/README.md)
 - [루트 파일럿 설계 원문](LOCAL_PRACTICE_ALLOCATION_PILOT_DESIGN_20261007.md)

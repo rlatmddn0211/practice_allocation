@@ -1,0 +1,16 @@
+{
+  "scope": "same 81 campaign data, exploratory file-only synthesis; not a new independent experiment",
+  "synthetic_fixture": false,
+  "phenomena": [
+    "task/run learning heterogeneity",
+    "adjacent checkpoint gains/losses",
+    "observed multi-checkpoint recovery",
+    "within-episode success departures/reentries",
+    "replay usage versus uniform-sampling opportunity",
+    "behavior/update alignment"
+  ],
+  "selection": "all run/task/time results retained; posthoc extremes explicitly identified",
+  "inference": "no p-value/CI search, classifier, selector or model fitting; no forced method or paper topic",
+  "new_environment_steps": 0,
+  "new_model_forwards": 0
+}

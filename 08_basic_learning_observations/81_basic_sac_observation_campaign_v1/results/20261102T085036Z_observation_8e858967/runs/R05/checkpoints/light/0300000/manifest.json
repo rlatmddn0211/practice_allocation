@@ -1,0 +1,15 @@
+{
+  "kind": "light_analysis_only",
+  "model": {
+    "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\81_basic_sac_observation_campaign_v1\\results\\20261102T085036Z_observation_8e858967\\runs\\R05\\checkpoints\\light\\0300000\\model.zip",
+    "bytes": 3499436,
+    "sha256": "6a5e2ff61b1195949c4324e48facd68811c2fd13b241ee6a59fc00d0a5bf9d6b"
+  },
+  "env_step_total": 300000,
+  "actor_update_count": 299000,
+  "normalization": "none",
+  "replay_included": false,
+  "complete_training_resume": false,
+  "parameters": "actor, critics, target, alpha, model configuration; SB3 archive also preserves optimizer entries",
+  "policy_internal_state": "feedforward; no hidden state or action queue"
+}

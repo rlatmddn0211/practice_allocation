@@ -1,0 +1,44 @@
+{
+  "A": {
+    "labels": [
+      "DO",
+      "DC",
+      "WO",
+      "WC"
+    ],
+    "envs": [
+      "drawer-open-v3",
+      "drawer-close-v3",
+      "window-open-v3",
+      "window-close-v3"
+    ]
+  },
+  "B": {
+    "labels": [
+      "DO",
+      "DC",
+      "PU",
+      "BP"
+    ],
+    "envs": [
+      "drawer-open-v3",
+      "drawer-close-v3",
+      "push-v3",
+      "button-press-v3"
+    ]
+  },
+  "C": {
+    "labels": [
+      "DO",
+      "PP",
+      "PU",
+      "BP"
+    ],
+    "envs": [
+      "drawer-open-v3",
+      "pick-place-v3",
+      "push-v3",
+      "button-press-v3"
+    ]
+  }
+}
