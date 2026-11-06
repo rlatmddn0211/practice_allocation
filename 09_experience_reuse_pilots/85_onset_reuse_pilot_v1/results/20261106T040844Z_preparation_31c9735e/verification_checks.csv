@@ -1,0 +1,344 @@
+check,passed,detail,scope,critical
+clear onset uses exact first candidate and 32 original transitions,True,"{'L': 140, 'sigma': 130, 'tau': 40, 'eligible': True, 'reasons': [], 'early_progress_without_context': False, 'stationary_joint_range_m': 0.0, 'first_decrease_m': 0.0010000000000000009, 'eight_action_progress_m': 0.008000000000000007, 'hold_min_progress_m': 0.009000000000000008, 'signed_joint_progress_m': 0.008, 'P_start': 24, 'P_end': 55, 'early_max_raw_progress_m': 0.0}","synthetic, not scientific data",
+no progression has no candidate,True,,"synthetic, not scientific data",
+"early first candidate excluded, never replaced by a later event",True,,"synthetic, not scientific data",
+single sample spike removed by median and hold requirement,True,,"synthetic, not scientific data",
+window excludes the first official success transition,True,,"synthetic, not scientific data",
+inconsistent first candidate is excluded without next-candidate substitution,True,,"synthetic, not scientific data",
+random prefix integer support 33,True,,"synthetic, not scientific data",
+random prefix integer support 34,True,,"synthetic, not scientific data",
+random prefix integer support 55,True,,"synthetic, not scientific data",
+random prefix integer support 500,True,,"synthetic, not scientific data",
+permanent episode random window is order independent,True,,"synthetic, not scientific data",
+AUC weights and new budget arithmetic,True,,"synthetic, not scientific data",
+source handle definition and DO goal verified,True,,,True
+DO manipulation joint is +world-Y slide; opening reduces q,True,,,True
+DO schema joint and control dt,True,,,True
+evaluation case count and physical uniqueness,True,,,True
+reset physical mapping independently validated,True,,,True
+reset q0 kinematic derivation checked against recorded eval x0 qpos,True,9.364480229918589e-17,,True
+parent full boundary counters,True,,R01,True
+parent full contains original model replay collector RNG,True,,R01,True
+parent full boundary counters,True,,R02,True
+parent full contains original model replay collector RNG,True,,R02,True
+parent full boundary counters,True,,R03,True
+parent full contains original model replay collector RNG,True,,R03,True
+parent full boundary counters,True,,R04,True
+parent full contains original model replay collector RNG,True,,R04,True
+parent full boundary counters,True,,R05,True
+parent full contains original model replay collector RNG,True,,R05,True
+train evaluation physical schema identical,True,,R01,True
+episode IDs unique,True,,R01,True
+original DO population 500 complete episodes,True,,R01,True
+positive trajectory identity and original training source,True,,R01:train:000665,True
+positive episode counters permanent IDs steps consecutive,True,,R01:train:000665,True
+positive episode source raw and summary labels agree,True,,R01:train:000665,True
+episode pre/post continuity exact,True,,R01:train:000665,True
+original policy observation and DO encoding preserved,True,,R01:train:000665,True
+original action and timeout mapping,True,,R01:train:000665,True
+source object goal and joint columns align with raw samples,True,,R01:train:000665,True
+success geometry agrees with source,True,,R01:train:000665,True
+positive trajectory identity and original training source,True,,R01:train:001373,True
+positive episode counters permanent IDs steps consecutive,True,,R01:train:001373,True
+positive episode source raw and summary labels agree,True,,R01:train:001373,True
+episode pre/post continuity exact,True,,R01:train:001373,True
+original policy observation and DO encoding preserved,True,,R01:train:001373,True
+original action and timeout mapping,True,,R01:train:001373,True
+source object goal and joint columns align with raw samples,True,,R01:train:001373,True
+success geometry agrees with source,True,,R01:train:001373,True
+train evaluation physical schema identical,True,,R02,True
+episode IDs unique,True,,R02,True
+original DO population 500 complete episodes,True,,R02,True
+positive trajectory identity and original training source,True,,R02:train:000251,True
+positive episode counters permanent IDs steps consecutive,True,,R02:train:000251,True
+positive episode source raw and summary labels agree,True,,R02:train:000251,True
+episode pre/post continuity exact,True,,R02:train:000251,True
+original policy observation and DO encoding preserved,True,,R02:train:000251,True
+original action and timeout mapping,True,,R02:train:000251,True
+source object goal and joint columns align with raw samples,True,,R02:train:000251,True
+success geometry agrees with source,True,,R02:train:000251,True
+selected window exactly 32 pre-success original transitions,True,,R02:train:000251/ONSET,True
+selected window exactly 32 pre-success original transitions,True,,R02:train:000251/RANDOM_PRE,True
+positive trajectory identity and original training source,True,,R02:train:000679,True
+positive episode counters permanent IDs steps consecutive,True,,R02:train:000679,True
+positive episode source raw and summary labels agree,True,,R02:train:000679,True
+episode pre/post continuity exact,True,,R02:train:000679,True
+original policy observation and DO encoding preserved,True,,R02:train:000679,True
+original action and timeout mapping,True,,R02:train:000679,True
+source object goal and joint columns align with raw samples,True,,R02:train:000679,True
+success geometry agrees with source,True,,R02:train:000679,True
+selected window exactly 32 pre-success original transitions,True,,R02:train:000679/ONSET,True
+selected window exactly 32 pre-success original transitions,True,,R02:train:000679/RANDOM_PRE,True
+positive trajectory identity and original training source,True,,R02:train:000759,True
+positive episode counters permanent IDs steps consecutive,True,,R02:train:000759,True
+positive episode source raw and summary labels agree,True,,R02:train:000759,True
+episode pre/post continuity exact,True,,R02:train:000759,True
+original policy observation and DO encoding preserved,True,,R02:train:000759,True
+original action and timeout mapping,True,,R02:train:000759,True
+source object goal and joint columns align with raw samples,True,,R02:train:000759,True
+success geometry agrees with source,True,,R02:train:000759,True
+selected window exactly 32 pre-success original transitions,True,,R02:train:000759/ONSET,True
+selected window exactly 32 pre-success original transitions,True,,R02:train:000759/RANDOM_PRE,True
+positive trajectory identity and original training source,True,,R02:train:000764,True
+positive episode counters permanent IDs steps consecutive,True,,R02:train:000764,True
+positive episode source raw and summary labels agree,True,,R02:train:000764,True
+episode pre/post continuity exact,True,,R02:train:000764,True
+original policy observation and DO encoding preserved,True,,R02:train:000764,True
+original action and timeout mapping,True,,R02:train:000764,True
+source object goal and joint columns align with raw samples,True,,R02:train:000764,True
+success geometry agrees with source,True,,R02:train:000764,True
+selected window exactly 32 pre-success original transitions,True,,R02:train:000764/ONSET,True
+selected window exactly 32 pre-success original transitions,True,,R02:train:000764/RANDOM_PRE,True
+positive trajectory identity and original training source,True,,R02:train:001702,True
+positive episode counters permanent IDs steps consecutive,True,,R02:train:001702,True
+positive episode source raw and summary labels agree,True,,R02:train:001702,True
+episode pre/post continuity exact,True,,R02:train:001702,True
+original policy observation and DO encoding preserved,True,,R02:train:001702,True
+original action and timeout mapping,True,,R02:train:001702,True
+source object goal and joint columns align with raw samples,True,,R02:train:001702,True
+success geometry agrees with source,True,,R02:train:001702,True
+selected window exactly 32 pre-success original transitions,True,,R02:train:001702/ONSET,True
+selected window exactly 32 pre-success original transitions,True,,R02:train:001702/RANDOM_PRE,True
+train evaluation physical schema identical,True,,R03,True
+episode IDs unique,True,,R03,True
+original DO population 500 complete episodes,True,,R03,True
+positive trajectory identity and original training source,True,,R03:train:000240,True
+positive episode counters permanent IDs steps consecutive,True,,R03:train:000240,True
+positive episode source raw and summary labels agree,True,,R03:train:000240,True
+episode pre/post continuity exact,True,,R03:train:000240,True
+original policy observation and DO encoding preserved,True,,R03:train:000240,True
+original action and timeout mapping,True,,R03:train:000240,True
+source object goal and joint columns align with raw samples,True,,R03:train:000240,True
+success geometry agrees with source,True,,R03:train:000240,True
+selected window exactly 32 pre-success original transitions,True,,R03:train:000240/ONSET,True
+selected window exactly 32 pre-success original transitions,True,,R03:train:000240/RANDOM_PRE,True
+positive trajectory identity and original training source,True,,R03:train:000522,True
+positive episode counters permanent IDs steps consecutive,True,,R03:train:000522,True
+positive episode source raw and summary labels agree,True,,R03:train:000522,True
+episode pre/post continuity exact,True,,R03:train:000522,True
+original policy observation and DO encoding preserved,True,,R03:train:000522,True
+original action and timeout mapping,True,,R03:train:000522,True
+source object goal and joint columns align with raw samples,True,,R03:train:000522,True
+success geometry agrees with source,True,,R03:train:000522,True
+positive trajectory identity and original training source,True,,R03:train:000528,True
+positive episode counters permanent IDs steps consecutive,True,,R03:train:000528,True
+positive episode source raw and summary labels agree,True,,R03:train:000528,True
+episode pre/post continuity exact,True,,R03:train:000528,True
+original policy observation and DO encoding preserved,True,,R03:train:000528,True
+original action and timeout mapping,True,,R03:train:000528,True
+source object goal and joint columns align with raw samples,True,,R03:train:000528,True
+success geometry agrees with source,True,,R03:train:000528,True
+selected window exactly 32 pre-success original transitions,True,,R03:train:000528/ONSET,True
+selected window exactly 32 pre-success original transitions,True,,R03:train:000528/RANDOM_PRE,True
+positive trajectory identity and original training source,True,,R03:train:000584,True
+positive episode counters permanent IDs steps consecutive,True,,R03:train:000584,True
+positive episode source raw and summary labels agree,True,,R03:train:000584,True
+episode pre/post continuity exact,True,,R03:train:000584,True
+original policy observation and DO encoding preserved,True,,R03:train:000584,True
+original action and timeout mapping,True,,R03:train:000584,True
+source object goal and joint columns align with raw samples,True,,R03:train:000584,True
+success geometry agrees with source,True,,R03:train:000584,True
+selected window exactly 32 pre-success original transitions,True,,R03:train:000584/ONSET,True
+selected window exactly 32 pre-success original transitions,True,,R03:train:000584/RANDOM_PRE,True
+positive trajectory identity and original training source,True,,R03:train:000685,True
+positive episode counters permanent IDs steps consecutive,True,,R03:train:000685,True
+positive episode source raw and summary labels agree,True,,R03:train:000685,True
+episode pre/post continuity exact,True,,R03:train:000685,True
+original policy observation and DO encoding preserved,True,,R03:train:000685,True
+original action and timeout mapping,True,,R03:train:000685,True
+source object goal and joint columns align with raw samples,True,,R03:train:000685,True
+success geometry agrees with source,True,,R03:train:000685,True
+selected window exactly 32 pre-success original transitions,True,,R03:train:000685/ONSET,True
+selected window exactly 32 pre-success original transitions,True,,R03:train:000685/RANDOM_PRE,True
+positive trajectory identity and original training source,True,,R03:train:000984,True
+positive episode counters permanent IDs steps consecutive,True,,R03:train:000984,True
+positive episode source raw and summary labels agree,True,,R03:train:000984,True
+episode pre/post continuity exact,True,,R03:train:000984,True
+original policy observation and DO encoding preserved,True,,R03:train:000984,True
+original action and timeout mapping,True,,R03:train:000984,True
+source object goal and joint columns align with raw samples,True,,R03:train:000984,True
+success geometry agrees with source,True,,R03:train:000984,True
+selected window exactly 32 pre-success original transitions,True,,R03:train:000984/ONSET,True
+selected window exactly 32 pre-success original transitions,True,,R03:train:000984/RANDOM_PRE,True
+train evaluation physical schema identical,True,,R04,True
+episode IDs unique,True,,R04,True
+original DO population 500 complete episodes,True,,R04,True
+positive trajectory identity and original training source,True,,R04:train:000679,True
+positive episode counters permanent IDs steps consecutive,True,,R04:train:000679,True
+positive episode source raw and summary labels agree,True,,R04:train:000679,True
+episode pre/post continuity exact,True,,R04:train:000679,True
+original policy observation and DO encoding preserved,True,,R04:train:000679,True
+original action and timeout mapping,True,,R04:train:000679,True
+source object goal and joint columns align with raw samples,True,,R04:train:000679,True
+success geometry agrees with source,True,,R04:train:000679,True
+selected window exactly 32 pre-success original transitions,True,,R04:train:000679/ONSET,True
+selected window exactly 32 pre-success original transitions,True,,R04:train:000679/RANDOM_PRE,True
+positive trajectory identity and original training source,True,,R04:train:000720,True
+positive episode counters permanent IDs steps consecutive,True,,R04:train:000720,True
+positive episode source raw and summary labels agree,True,,R04:train:000720,True
+episode pre/post continuity exact,True,,R04:train:000720,True
+original policy observation and DO encoding preserved,True,,R04:train:000720,True
+original action and timeout mapping,True,,R04:train:000720,True
+source object goal and joint columns align with raw samples,True,,R04:train:000720,True
+success geometry agrees with source,True,,R04:train:000720,True
+selected window exactly 32 pre-success original transitions,True,,R04:train:000720/ONSET,True
+selected window exactly 32 pre-success original transitions,True,,R04:train:000720/RANDOM_PRE,True
+positive trajectory identity and original training source,True,,R04:train:000732,True
+positive episode counters permanent IDs steps consecutive,True,,R04:train:000732,True
+positive episode source raw and summary labels agree,True,,R04:train:000732,True
+episode pre/post continuity exact,True,,R04:train:000732,True
+original policy observation and DO encoding preserved,True,,R04:train:000732,True
+original action and timeout mapping,True,,R04:train:000732,True
+source object goal and joint columns align with raw samples,True,,R04:train:000732,True
+success geometry agrees with source,True,,R04:train:000732,True
+selected window exactly 32 pre-success original transitions,True,,R04:train:000732/ONSET,True
+selected window exactly 32 pre-success original transitions,True,,R04:train:000732/RANDOM_PRE,True
+positive trajectory identity and original training source,True,,R04:train:000755,True
+positive episode counters permanent IDs steps consecutive,True,,R04:train:000755,True
+positive episode source raw and summary labels agree,True,,R04:train:000755,True
+episode pre/post continuity exact,True,,R04:train:000755,True
+original policy observation and DO encoding preserved,True,,R04:train:000755,True
+original action and timeout mapping,True,,R04:train:000755,True
+source object goal and joint columns align with raw samples,True,,R04:train:000755,True
+success geometry agrees with source,True,,R04:train:000755,True
+selected window exactly 32 pre-success original transitions,True,,R04:train:000755/ONSET,True
+selected window exactly 32 pre-success original transitions,True,,R04:train:000755/RANDOM_PRE,True
+positive trajectory identity and original training source,True,,R04:train:000827,True
+positive episode counters permanent IDs steps consecutive,True,,R04:train:000827,True
+positive episode source raw and summary labels agree,True,,R04:train:000827,True
+episode pre/post continuity exact,True,,R04:train:000827,True
+original policy observation and DO encoding preserved,True,,R04:train:000827,True
+original action and timeout mapping,True,,R04:train:000827,True
+source object goal and joint columns align with raw samples,True,,R04:train:000827,True
+success geometry agrees with source,True,,R04:train:000827,True
+selected window exactly 32 pre-success original transitions,True,,R04:train:000827/ONSET,True
+selected window exactly 32 pre-success original transitions,True,,R04:train:000827/RANDOM_PRE,True
+positive trajectory identity and original training source,True,,R04:train:001019,True
+positive episode counters permanent IDs steps consecutive,True,,R04:train:001019,True
+positive episode source raw and summary labels agree,True,,R04:train:001019,True
+episode pre/post continuity exact,True,,R04:train:001019,True
+original policy observation and DO encoding preserved,True,,R04:train:001019,True
+original action and timeout mapping,True,,R04:train:001019,True
+source object goal and joint columns align with raw samples,True,,R04:train:001019,True
+success geometry agrees with source,True,,R04:train:001019,True
+selected window exactly 32 pre-success original transitions,True,,R04:train:001019/ONSET,True
+selected window exactly 32 pre-success original transitions,True,,R04:train:001019/RANDOM_PRE,True
+positive trajectory identity and original training source,True,,R04:train:001284,True
+positive episode counters permanent IDs steps consecutive,True,,R04:train:001284,True
+positive episode source raw and summary labels agree,True,,R04:train:001284,True
+episode pre/post continuity exact,True,,R04:train:001284,True
+original policy observation and DO encoding preserved,True,,R04:train:001284,True
+original action and timeout mapping,True,,R04:train:001284,True
+source object goal and joint columns align with raw samples,True,,R04:train:001284,True
+success geometry agrees with source,True,,R04:train:001284,True
+selected window exactly 32 pre-success original transitions,True,,R04:train:001284/ONSET,True
+selected window exactly 32 pre-success original transitions,True,,R04:train:001284/RANDOM_PRE,True
+positive trajectory identity and original training source,True,,R04:train:001379,True
+positive episode counters permanent IDs steps consecutive,True,,R04:train:001379,True
+positive episode source raw and summary labels agree,True,,R04:train:001379,True
+episode pre/post continuity exact,True,,R04:train:001379,True
+original policy observation and DO encoding preserved,True,,R04:train:001379,True
+original action and timeout mapping,True,,R04:train:001379,True
+source object goal and joint columns align with raw samples,True,,R04:train:001379,True
+success geometry agrees with source,True,,R04:train:001379,True
+selected window exactly 32 pre-success original transitions,True,,R04:train:001379/ONSET,True
+selected window exactly 32 pre-success original transitions,True,,R04:train:001379/RANDOM_PRE,True
+positive trajectory identity and original training source,True,,R04:train:001792,True
+positive episode counters permanent IDs steps consecutive,True,,R04:train:001792,True
+positive episode source raw and summary labels agree,True,,R04:train:001792,True
+episode pre/post continuity exact,True,,R04:train:001792,True
+original policy observation and DO encoding preserved,True,,R04:train:001792,True
+original action and timeout mapping,True,,R04:train:001792,True
+source object goal and joint columns align with raw samples,True,,R04:train:001792,True
+success geometry agrees with source,True,,R04:train:001792,True
+selected window exactly 32 pre-success original transitions,True,,R04:train:001792/ONSET,True
+selected window exactly 32 pre-success original transitions,True,,R04:train:001792/RANDOM_PRE,True
+train evaluation physical schema identical,True,,R05,True
+episode IDs unique,True,,R05,True
+original DO population 500 complete episodes,True,,R05,True
+positive trajectory identity and original training source,True,,R05:train:000247,True
+positive episode counters permanent IDs steps consecutive,True,,R05:train:000247,True
+positive episode source raw and summary labels agree,True,,R05:train:000247,True
+episode pre/post continuity exact,True,,R05:train:000247,True
+original policy observation and DO encoding preserved,True,,R05:train:000247,True
+original action and timeout mapping,True,,R05:train:000247,True
+source object goal and joint columns align with raw samples,True,,R05:train:000247,True
+success geometry agrees with source,True,,R05:train:000247,True
+selected window exactly 32 pre-success original transitions,True,,R05:train:000247/ONSET,True
+selected window exactly 32 pre-success original transitions,True,,R05:train:000247/RANDOM_PRE,True
+positive trajectory identity and original training source,True,,R05:train:000545,True
+positive episode counters permanent IDs steps consecutive,True,,R05:train:000545,True
+positive episode source raw and summary labels agree,True,,R05:train:000545,True
+episode pre/post continuity exact,True,,R05:train:000545,True
+original policy observation and DO encoding preserved,True,,R05:train:000545,True
+original action and timeout mapping,True,,R05:train:000545,True
+source object goal and joint columns align with raw samples,True,,R05:train:000545,True
+success geometry agrees with source,True,,R05:train:000545,True
+positive trajectory identity and original training source,True,,R05:train:001007,True
+positive episode counters permanent IDs steps consecutive,True,,R05:train:001007,True
+positive episode source raw and summary labels agree,True,,R05:train:001007,True
+episode pre/post continuity exact,True,,R05:train:001007,True
+original policy observation and DO encoding preserved,True,,R05:train:001007,True
+original action and timeout mapping,True,,R05:train:001007,True
+source object goal and joint columns align with raw samples,True,,R05:train:001007,True
+success geometry agrees with source,True,,R05:train:001007,True
+selected window exactly 32 pre-success original transitions,True,,R05:train:001007/ONSET,True
+selected window exactly 32 pre-success original transitions,True,,R05:train:001007/RANDOM_PRE,True
+positive trajectory identity and original training source,True,,R05:train:001010,True
+positive episode counters permanent IDs steps consecutive,True,,R05:train:001010,True
+positive episode source raw and summary labels agree,True,,R05:train:001010,True
+episode pre/post continuity exact,True,,R05:train:001010,True
+original policy observation and DO encoding preserved,True,,R05:train:001010,True
+original action and timeout mapping,True,,R05:train:001010,True
+source object goal and joint columns align with raw samples,True,,R05:train:001010,True
+success geometry agrees with source,True,,R05:train:001010,True
+selected window exactly 32 pre-success original transitions,True,,R05:train:001010/ONSET,True
+selected window exactly 32 pre-success original transitions,True,,R05:train:001010/RANDOM_PRE,True
+positive trajectory identity and original training source,True,,R05:train:001160,True
+positive episode counters permanent IDs steps consecutive,True,,R05:train:001160,True
+positive episode source raw and summary labels agree,True,,R05:train:001160,True
+episode pre/post continuity exact,True,,R05:train:001160,True
+original policy observation and DO encoding preserved,True,,R05:train:001160,True
+original action and timeout mapping,True,,R05:train:001160,True
+source object goal and joint columns align with raw samples,True,,R05:train:001160,True
+success geometry agrees with source,True,,R05:train:001160,True
+selected window exactly 32 pre-success original transitions,True,,R05:train:001160/ONSET,True
+selected window exactly 32 pre-success original transitions,True,,R05:train:001160/RANDOM_PRE,True
+positive trajectory identity and original training source,True,,R05:train:001173,True
+positive episode counters permanent IDs steps consecutive,True,,R05:train:001173,True
+positive episode source raw and summary labels agree,True,,R05:train:001173,True
+episode pre/post continuity exact,True,,R05:train:001173,True
+original policy observation and DO encoding preserved,True,,R05:train:001173,True
+original action and timeout mapping,True,,R05:train:001173,True
+source object goal and joint columns align with raw samples,True,,R05:train:001173,True
+success geometry agrees with source,True,,R05:train:001173,True
+selected window exactly 32 pre-success original transitions,True,,R05:train:001173/ONSET,True
+selected window exactly 32 pre-success original transitions,True,,R05:train:001173/RANDOM_PRE,True
+positive trajectory identity and original training source,True,,R05:train:001371,True
+positive episode counters permanent IDs steps consecutive,True,,R05:train:001371,True
+positive episode source raw and summary labels agree,True,,R05:train:001371,True
+episode pre/post continuity exact,True,,R05:train:001371,True
+original policy observation and DO encoding preserved,True,,R05:train:001371,True
+original action and timeout mapping,True,,R05:train:001371,True
+source object goal and joint columns align with raw samples,True,,R05:train:001371,True
+success geometry agrees with source,True,,R05:train:001371,True
+selected window exactly 32 pre-success original transitions,True,,R05:train:001371/ONSET,True
+selected window exactly 32 pre-success original transitions,True,,R05:train:001371/RANDOM_PRE,True
+positive trajectory identity and original training source,True,,R05:train:001700,True
+positive episode counters permanent IDs steps consecutive,True,,R05:train:001700,True
+positive episode source raw and summary labels agree,True,,R05:train:001700,True
+episode pre/post continuity exact,True,,R05:train:001700,True
+original policy observation and DO encoding preserved,True,,R05:train:001700,True
+original action and timeout mapping,True,,R05:train:001700,True
+source object goal and joint columns align with raw samples,True,,R05:train:001700,True
+success geometry agrees with source,True,,R05:train:001700,True
+positive trajectory identity and original training source,True,,R05:train:001713,True
+positive episode counters permanent IDs steps consecutive,True,,R05:train:001713,True
+positive episode source raw and summary labels agree,True,,R05:train:001713,True
+episode pre/post continuity exact,True,,R05:train:001713,True
+original policy observation and DO encoding preserved,True,,R05:train:001713,True
+original action and timeout mapping,True,,R05:train:001713,True
+source object goal and joint columns align with raw samples,True,,R05:train:001713,True
+success geometry agrees with source,True,,R05:train:001713,True
+reported success count independently agrees with raw positives,True,"[2, 5, 6, 9, 9]",,True
+planned stream seeds distinct,True,,,True

@@ -1,0 +1,15 @@
+{
+  "kind": "light_analysis_only",
+  "model": {
+    "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21\\jobs\\R02_F02_BASE\\20261106T045501Z_attempt_257b6c0a\\checkpoints\\light\\016000\\model.zip",
+    "bytes": 3500033,
+    "sha256": "dd33dc91dec7f4b9448fe0eedc8a637f729cc4850f5531dcf9dbb6cff1a56c29"
+  },
+  "env_step_total": 1016000,
+  "actor_update_count": 1015000,
+  "normalization": "none",
+  "replay_included": false,
+  "complete_training_resume": false,
+  "parameters": "actor, critics, target, alpha, model configuration; SB3 archive also preserves optimizer entries",
+  "policy_internal_state": "feedforward; no hidden state or action queue"
+}

@@ -1,0 +1,22 @@
+{
+  "protocol_version": "85_onset_reuse_pilot_v1",
+  "parent_id": "R02",
+  "future_id": "F01",
+  "arm": "ONSET",
+  "cell_number": 15,
+  "actual_train_step": 1032000,
+  "update_id": 1031000,
+  "native_draw_count": 8192000,
+  "native_actual_use": 7679786,
+  "archive_actual_use": 512214,
+  "native_task_draw_counts": [
+    2044547,
+    2042087,
+    2042631,
+    2062735
+  ],
+  "archive_draw_hash": "29226c15300bca9b33a36e760f81ed91e631151c0af7056fdc794dfb1fca6947",
+  "replacement_mask_hash": "20aaffca67dda667663257d2d27b8d20a5ce48e55a81b4cec359c54bddd4b70d",
+  "archive_actor_use": 512214,
+  "archive_critic_use": 512214
+}

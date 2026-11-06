@@ -1,0 +1,31 @@
+{
+  "experiment_id": "85_onset_reuse_pilot_v1",
+  "run_id": "R01",
+  "attempt_id": "attempt_001",
+  "task_id": "DO",
+  "split_role": "train",
+  "env_instance_id": "002001_DO",
+  "episode_id": 2001,
+  "initial_case_id": null,
+  "checkpoint_id": null,
+  "reset_seed": 3489815702,
+  "initial_state_hash": "103f4c738d93c1a421fa911821d7fab01d0a7beb98562afcfe03627a956cef8d",
+  "obs_raw_dtype": "float64",
+  "obs_policy_dtype": "float32",
+  "action_distribution": "pre-tanh mean and log_std",
+  "success_semantics": "current raw official evaluate_state success, not a cumulative flag",
+  "protocol_version": "85_onset_reuse_pilot_v1",
+  "parent_id": "R01",
+  "future_id": "F01",
+  "arm": "ONSET",
+  "cell_number": 930,
+  "rows": 100,
+  "trajectory": {
+    "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T041847Z_technical_validation_4f512db1\\pair_ONSET\\training_transitions\\002001_DO.npz",
+    "bytes": 60689,
+    "sha256": "37546c4fc14f3bbb7d1ad25131cc9b1972131f60ee32fce28bd78c8376cbbcdf"
+  },
+  "schema_version": 1,
+  "seconds_including_rollout": 2.2641122000059113,
+  "compression_write_hash_seconds": 0.012565299984999001
+}

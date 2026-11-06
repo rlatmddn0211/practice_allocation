@@ -1,0 +1,43 @@
+{
+  "checked_date_utc": "2026-11-06",
+  "role": "Primary-source context only; frozen original81 implementation remains the execution authority",
+  "new_environment_transitions": 0,
+  "sources": [
+    {
+      "title": "Curating Demonstrations using Online Experience",
+      "url": "https://arxiv.org/html/2503.03707v2",
+      "version": "arXiv v2, 2025-07-22",
+      "read_scope": "Abstract, introduction and section structure",
+      "relevance": "실행 결과로 시연 자료를 정제하는 선행이며, 이번 고정 물리 구간 SAC 재표집의 우위를 입증하는 근거가 아님"
+    },
+    {
+      "title": "CUPID: Curating Data your Robot Loves with Influence Functions",
+      "url": "https://proceedings.mlr.press/v305/agia25a.html",
+      "version": "CoRL 2025, PMLR 305:2907-2932",
+      "read_scope": "Proceedings abstract and bibliographic metadata",
+      "relevance": "자료와 후속 정책 수행의 영향을 연결한 선행이며, 이번 실험에서 influence estimator를 구현하거나 비교하지 않음"
+    },
+    {
+      "title": "Soft Actor-Critic: Off-Policy Maximum Entropy Deep Reinforcement Learning with a Stochastic Actor",
+      "url": "https://arxiv.org/abs/1801.01290",
+      "version": "arXiv v2, 2018-08-08",
+      "read_scope": "Abstract and publication metadata",
+      "relevance": "알고리즘 계열의 배경. 실제 업데이트와 하이퍼파라미터의 권위는 원 캠페인의 고정 코드임"
+    },
+    {
+      "title": "Stable-Baselines3 SAC documentation",
+      "url": "https://stable-baselines3.readthedocs.io/en/master/modules/sac.html",
+      "version": "Live master page identifies itself as 2.9.2; execution remains pinned to original81 SB3 2.7.1",
+      "read_scope": "Algorithm notes and API parameter descriptions",
+      "relevance": "참고 문서와 실제 고정 버전을 구분함. 최신 API 기본값이나 신규 n-step 기능을 본실험에 적용하지 않음"
+    },
+    {
+      "title": "Meta-World official evaluation documentation",
+      "url": "https://metaworld.farama.org/evaluation/evaluation/",
+      "read_scope": "Multi-task evaluation methodology and pseudocode",
+      "relevance": "한 번이라도 공식 성공 flag가 관측되면 에피소드 성공으로 집계. 이번 16사례 개발 패널과 500-step 계속 기록은 표준 전체 goal 평가와 구분함"
+    }
+  ],
+  "no_literature_derived_detector_thresholds_or_power_guarantee": true,
+  "no_runtime_upgrade": true
+}

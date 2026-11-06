@@ -1,0 +1,158 @@
+{
+  "algorithm": "SHA256 first 64 bits little-endian then explicit NumPy PCG64; decimal strings preserve uint64",
+  "random_pre": 41031,
+  "order": 53001,
+  "bootstrap": 54001,
+  "parent_future_streams": [
+    {
+      "parent_id": "R01",
+      "future_id": "F01",
+      "root_seed": 52001,
+      "streams": {
+        "rollout_action": "1095405640280332344",
+        "task_order": "1002536938430445413",
+        "reset_goal": "11132296170977213074",
+        "native_replay": "6489072530171925776",
+        "learning_action": "8284950555727768920",
+        "archive_replacement": "2730830001720488845",
+        "evaluation": "8949354020661049687",
+        "logging_video": "12479665909447269335"
+      }
+    },
+    {
+      "parent_id": "R01",
+      "future_id": "F02",
+      "root_seed": 52002,
+      "streams": {
+        "rollout_action": "16141646367529100364",
+        "task_order": "1314610403093577166",
+        "reset_goal": "7882288210692154385",
+        "native_replay": "955373149771772260",
+        "learning_action": "2126381764510370044",
+        "archive_replacement": "17885437477918941419",
+        "evaluation": "5405133663525589329",
+        "logging_video": "11223304471907890540"
+      }
+    },
+    {
+      "parent_id": "R02",
+      "future_id": "F01",
+      "root_seed": 52001,
+      "streams": {
+        "rollout_action": "17255958567964199511",
+        "task_order": "5511116613749978323",
+        "reset_goal": "17722070089039845283",
+        "native_replay": "18278505502438176328",
+        "learning_action": "10215709938265423968",
+        "archive_replacement": "2845604183110058400",
+        "evaluation": "4887353193282241797",
+        "logging_video": "453327020872074451"
+      }
+    },
+    {
+      "parent_id": "R02",
+      "future_id": "F02",
+      "root_seed": 52002,
+      "streams": {
+        "rollout_action": "9808657962161200480",
+        "task_order": "6134810947937946026",
+        "reset_goal": "13682210076881692341",
+        "native_replay": "15053872637413845417",
+        "learning_action": "7477695626584006608",
+        "archive_replacement": "13485324400570050096",
+        "evaluation": "2369149494659647011",
+        "logging_video": "8517452444563200324"
+      }
+    },
+    {
+      "parent_id": "R03",
+      "future_id": "F01",
+      "root_seed": 52001,
+      "streams": {
+        "rollout_action": "1283865750891138665",
+        "task_order": "3581957352638250227",
+        "reset_goal": "7431218434821375649",
+        "native_replay": "3192290033201787335",
+        "learning_action": "6631208093662717800",
+        "archive_replacement": "5796915283251144693",
+        "evaluation": "10746933450049868840",
+        "logging_video": "6150817245311525939"
+      }
+    },
+    {
+      "parent_id": "R03",
+      "future_id": "F02",
+      "root_seed": 52002,
+      "streams": {
+        "rollout_action": "10541987695949391631",
+        "task_order": "10580566229442938275",
+        "reset_goal": "16074565848253974171",
+        "native_replay": "3337003740247472327",
+        "learning_action": "6750450089526925821",
+        "archive_replacement": "14244045028840618624",
+        "evaluation": "2722069220861867474",
+        "logging_video": "11609958649231918506"
+      }
+    },
+    {
+      "parent_id": "R04",
+      "future_id": "F01",
+      "root_seed": 52001,
+      "streams": {
+        "rollout_action": "7029473972885120068",
+        "task_order": "13205292854578664448",
+        "reset_goal": "6913972419970046645",
+        "native_replay": "8148856802304390740",
+        "learning_action": "11974464617930835424",
+        "archive_replacement": "13319559226550279290",
+        "evaluation": "17815331232667913859",
+        "logging_video": "3617093708201567841"
+      }
+    },
+    {
+      "parent_id": "R04",
+      "future_id": "F02",
+      "root_seed": 52002,
+      "streams": {
+        "rollout_action": "13324629257555795678",
+        "task_order": "7434685453878992396",
+        "reset_goal": "1188404965069111773",
+        "native_replay": "7016979159106320065",
+        "learning_action": "11561075645610095923",
+        "archive_replacement": "17423256260133284854",
+        "evaluation": "2822237662918287752",
+        "logging_video": "11727895236612884774"
+      }
+    },
+    {
+      "parent_id": "R05",
+      "future_id": "F01",
+      "root_seed": 52001,
+      "streams": {
+        "rollout_action": "8617254950505641297",
+        "task_order": "7806654008385949727",
+        "reset_goal": "8874231883294809599",
+        "native_replay": "8246570809255693031",
+        "learning_action": "3816443139126204500",
+        "archive_replacement": "1148341512577002609",
+        "evaluation": "17773973276585774434",
+        "logging_video": "2998646649068384846"
+      }
+    },
+    {
+      "parent_id": "R05",
+      "future_id": "F02",
+      "root_seed": 52002,
+      "streams": {
+        "rollout_action": "4878990643624297719",
+        "task_order": "916980710057951407",
+        "reset_goal": "14232186346397134298",
+        "native_replay": "9440883104876360783",
+        "learning_action": "12977641883680851099",
+        "archive_replacement": "12891120436369339543",
+        "evaluation": "16496381362279519479",
+        "logging_video": "4386805743589933275"
+      }
+    }
+  ]
+}

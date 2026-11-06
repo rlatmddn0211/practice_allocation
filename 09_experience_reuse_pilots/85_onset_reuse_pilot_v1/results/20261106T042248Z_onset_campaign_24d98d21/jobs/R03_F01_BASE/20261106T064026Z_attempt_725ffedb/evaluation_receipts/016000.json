@@ -1,0 +1,25 @@
+{
+  "actual_train_step": 1016000,
+  "relative_step": 16000,
+  "episodes": 64,
+  "state_unchanged": true,
+  "before": {
+    "learning": "7fdca755469888f9f3264608186fa3296490bc80587d8a22f9c8ef8f926ccc25",
+    "replay": "a42e6bb19853fd8e6363bfb3f34e8a9b73fe5e15f3045b16431bec5aa732828f",
+    "collector": "afefa45045d9c51bfaf8687784022c3c3e447269764a16958a2770b3aea8af1c",
+    "rng": "aecfcd7acd7b2c4725e58d9ea394652ac2c11271736d3a310e5b800005237f82"
+  },
+  "after": {
+    "learning": "7fdca755469888f9f3264608186fa3296490bc80587d8a22f9c8ef8f926ccc25",
+    "replay": "a42e6bb19853fd8e6363bfb3f34e8a9b73fe5e15f3045b16431bec5aa732828f",
+    "collector": "afefa45045d9c51bfaf8687784022c3c3e447269764a16958a2770b3aea8af1c",
+    "rng": "aecfcd7acd7b2c4725e58d9ea394652ac2c11271736d3a310e5b800005237f82"
+  },
+  "counter": {
+    "environment_creations": 64,
+    "resets": 64,
+    "environment_steps": 32000,
+    "train_iterations": 0,
+    "evaluation_episodes": 0
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "state": "complete",
+  "status": "complete",
+  "kind": "shared_start",
+  "parent_id": "R05",
+  "attempt": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21\\jobs\\START_R05\\20261106T042901Z_attempt_e2cb9765",
+  "evaluation_episodes": 64,
+  "eval_issued": 32000,
+  "eval_completed": 32000,
+  "train_completed": 0,
+  "completed_at": "2026-11-06T04:30:17.746294+00:00",
+  "wall_seconds": 76.40355779998936,
+  "resource_costs": {
+    "memory": {
+      "rss": 4565299200,
+      "vms": 8152834048,
+      "num_page_faults": 1811609,
+      "peak_wset": 4580614144,
+      "wset": 4565299200,
+      "peak_paged_pool": 8243824,
+      "paged_pool": 8243824,
+      "peak_nonpaged_pool": 201656,
+      "nonpaged_pool": 201208,
+      "pagefile": 8152834048,
+      "peak_pagefile": 8153096192,
+      "private": 8152834048
+    },
+    "cpu": {
+      "user": 33.203125,
+      "system": 3.09375,
+      "children_user": 0.0,
+      "children_system": 0.0
+    },
+    "io": {
+      "read_count": 6883,
+      "write_count": 70318,
+      "read_bytes": 192270992,
+      "write_bytes": 17659165,
+      "other_count": 155601,
+      "other_bytes": 7012502
+    }
+  }
+}

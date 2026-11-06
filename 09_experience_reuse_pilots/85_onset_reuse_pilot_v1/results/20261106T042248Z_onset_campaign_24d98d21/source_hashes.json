@@ -1,0 +1,138 @@
+{
+  "analysis_contract.py": {
+    "sha256": "ccda2a05f00c943a87753f06695756d2021bf044b2408c5ecca021ef2a8e27fc",
+    "bytes": 2814
+  },
+  "audit_initial_state.py": {
+    "sha256": "1022fe246741e15ffd09283c5753235f248018fd26f99c1123e0a58750e509db",
+    "bytes": 6517
+  },
+  "bootstrap_runtime.py": {
+    "sha256": "c599a9a054cc2adfa2ba50bce8d914b277c882b822335efd603cc52df94503d2",
+    "bytes": 1520
+  },
+  "campaign.py": {
+    "sha256": "762b424fa11667943be030b13a18947f898f2b0a31e7d05d4db06b0f14d50665",
+    "bytes": 7495
+  },
+  "common.py": {
+    "sha256": "d8ec89fe23cbd4075993f9f17e345c76e8b49f8d600f19aeb0c8670e13a2dab8",
+    "bytes": 6164
+  },
+  "detector.py": {
+    "sha256": "73fd27a2e8cc5b0b14b6307bdaf9cd97a25a543a40c310b3f6b962c73dcb9918",
+    "bytes": 5302
+  },
+  "inspect_inputs.py": {
+    "sha256": "7b8bb5a3543aac6cbc72bfeb2703b6cf217b60f78e9737456bbd55d2360564ed",
+    "bytes": 2610
+  },
+  "pilot_evaluation.py": {
+    "sha256": "f1909ece5466d457af835738a4e985d783d0cf339108398b507b0810bc0c6ef2",
+    "bytes": 4955
+  },
+  "pilot_runtime.py": {
+    "sha256": "4e1d2210463ef9de28e46268a2d17e0f264e7c8385871fd70b8bab1c44a19b03",
+    "bytes": 18189
+  },
+  "prepare.py": {
+    "sha256": "e83670f19ef3222e066408c9e34dfac87abc356cd334e72ad70a8c352b05d4ce",
+    "bytes": 23119
+  },
+  "protocol_resolved.json": {
+    "sha256": "11f1c205d43bd62c584fa35202fa18bba2ba67506119687e1a161113b8c122ca",
+    "bytes": 6212
+  },
+  "sampler_contract.py": {
+    "sha256": "48add7a4a795c73678201dd28e097cbfdac31c41316f2b58891a256db8f504c8",
+    "bytes": 5863
+  },
+  "technical.py": {
+    "sha256": "b9575162047f1dd80d7f0076a4e71c851d0500fb26fbbdd638b4856a244d2863",
+    "bytes": 8339
+  },
+  "verify_preparation.py": {
+    "sha256": "e65f829c1e6e5b2218d8fa9fc162b0841e30d17cb183317e82fc627a72fa6dd7",
+    "bytes": 8389
+  },
+  "worker.py": {
+    "sha256": "2e603ea9c4a671210a9edd0b4294e9bfd19dc20019e36551924a93d82d78d090",
+    "bytes": 8508
+  },
+  "baseline81/analysis.py": {
+    "sha256": "438f28b07d55fc2361e6fc4355b229245fb44236799aa9658384fe2b7b8ee49c",
+    "bytes": 25923
+  },
+  "baseline81/campaign.py": {
+    "sha256": "dd5ee5e93613c3572bdb8c68a3751fb83518a1431c67c16dd09edae49b5fbe1c",
+    "bytes": 13191
+  },
+  "baseline81/checkpoints.py": {
+    "sha256": "ce25944bb8acb4e27ef8369afa3ac1ee063d7096dd7ee050a64dbbb425724dab",
+    "bytes": 3206
+  },
+  "baseline81/evaluation.py": {
+    "sha256": "7edc5653c10726f6f3a78e16dd6518a69a49149f50ef0c6f48efba36b08b9865",
+    "bytes": 9032
+  },
+  "baseline81/learner.py": {
+    "sha256": "1b47324751545bdb6f3fba9e6ba5afd44c2ebcc4223031bf52a59f88c8a1abff",
+    "bytes": 21028
+  },
+  "baseline81/prepare.py": {
+    "sha256": "db824c0c8c70cc83cb6040af44b0659dbcab27eca61c00e34f25d0593be43b8f",
+    "bytes": 10013
+  },
+  "baseline81/protocol.json": {
+    "sha256": "e0203594e55600392aa2da1be163ef79656ab2b34a403fdc778837bdfa9535a5",
+    "bytes": 3061
+  },
+  "baseline81/README.md": {
+    "sha256": "61c2fdbaf9bb00e7f82690f970a0d83b172f64dac6ea16787a1c64e390caffcf",
+    "bytes": 4049
+  },
+  "baseline81/records.py": {
+    "sha256": "58dd9ac8d50b8976dc62e76c6562b638ef2aa2a842a2510a809b17d6d7701de7",
+    "bytes": 13384
+  },
+  "baseline81/technical.py": {
+    "sha256": "ae34dcfae98ff91e720553c2a7a11a9f199f5c0ec6f9cdad497efc7b416167a4",
+    "bytes": 11084
+  },
+  "baseline81/verify_analysis.py": {
+    "sha256": "e2a56b420fbb9c8493aa6529af4f7327399f68da18378344fbd634cffcd8b9ff",
+    "bytes": 2433
+  },
+  "baseline81/configs/learner.json": {
+    "sha256": "17926ed79ad2bfdc7ffa864494ce11caf25b440b4470ef6b479a68ce25ae9ab3",
+    "bytes": 1023
+  },
+  "baseline81/configs/suites.json": {
+    "sha256": "d94a146844590a1fd66e06625222db17340f442f992df674f069514330771c77",
+    "bytes": 634
+  },
+  "baseline81/practice_allocation/core.py": {
+    "sha256": "6b5e51cacd6ac44ef117ed750ac4bcd46bb0beffac4dd5d0bd7edc7de93cb62d",
+    "bytes": 13590
+  },
+  "baseline81/practice_allocation/engine.py": {
+    "sha256": "ae090b11d36b715eb7c66ce89c39c1021d1de140abe7fbb5e820eff1ed4a3f26",
+    "bytes": 13597
+  },
+  "baseline81/practice_allocation/environment.py": {
+    "sha256": "85afb8560da5160832e619f90608eae0b4b83aa75264376800111b295ef4e4e8",
+    "bytes": 5425
+  },
+  "baseline81/practice_allocation/learning.py": {
+    "sha256": "e32e1f2e23490c651167af24386a3af5df005af766a33128c9bb75f719e30009",
+    "bytes": 7608
+  },
+  "baseline81/practice_allocation/schedules.py": {
+    "sha256": "d114ce28a4b56e52ec53f1481f6393bdae1895cdb8d4393a10b175e1e36da4ec",
+    "bytes": 1217
+  },
+  "baseline81/practice_allocation/__init__.py": {
+    "sha256": "4215c51deb3d834c283aeed7c87b8747916234e964f1a8cd9eedadaf1e465a2f",
+    "bytes": 123
+  }
+}

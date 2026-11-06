@@ -1,0 +1,107 @@
+[
+  {
+    "parent_id": "R01",
+    "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\81_basic_sac_observation_campaign_v1\\results\\20261102T085036Z_observation_8e858967\\runs\\R01\\checkpoints\\full\\1000000",
+    "step": 1000000,
+    "updates": 999000,
+    "replay_size": 100000,
+    "replay_pos": 0,
+    "files": {
+      "model.zip": "66345e2df5201c05bde14c26998f19143d6c5a662cf53d92e1a89702f4d43ca7",
+      "replay.pkl": "3e41a2f4714087b73e72b9d58a579cf33ea328f41301e90e7bc095403f8a202e",
+      "collector_and_rng.pkl": "3f1b7f534f28850d69df51c5a719809da542c126fd2bbe2d4370aa1ff348bd10"
+    },
+    "state_fingerprints": {
+      "learning": "36789cdbe7a0df47f9fad233f50b8e54959db54138f9393145ff488c799e66a6",
+      "replay": "5d41fa47fc8599d5fec4c3e00320f43a1cb51d0ac138d7932f1490af55d73a98",
+      "collector": "56e6213643e560e00fb97c4579889b15e637d190513c57318178241474e5801b",
+      "rng": "bfef71ba3cb4991d4e3918005ca3c92987bc7f996ff73ad31160a50397aa5e88"
+    },
+    "runtime_restore_status": "not_run_before_readiness",
+    "field_completeness_status": "format and source inspected; payloads hash-verified, not deserialized"
+  },
+  {
+    "parent_id": "R02",
+    "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\81_basic_sac_observation_campaign_v1\\results\\20261102T085036Z_observation_8e858967\\runs\\R02\\checkpoints\\full\\1000000",
+    "step": 1000000,
+    "updates": 999000,
+    "replay_size": 100000,
+    "replay_pos": 0,
+    "files": {
+      "model.zip": "eb0c070448c7d6e062c6e3f0b44cdbc390c4a718e6c75b400fea4a571ff5bff1",
+      "replay.pkl": "81e365365f4a8e3131ab0e0b3daec0f4ab3015a6c9b9cffbb983be0d5d7bf300",
+      "collector_and_rng.pkl": "a37f4d2acf4e4e3129169798d69ee01d5285b75f12c6fac3eeacedacf682af43"
+    },
+    "state_fingerprints": {
+      "learning": "182cc822b11154e730566d35dca1bfafed38fd713696fd416774a4d53d56dd2e",
+      "replay": "c2f3c284fe622e0cb4be37109197bf8f073507f44aec829e37ab4e97b5a12dc1",
+      "collector": "78b182dbbf2d749389b9ac6ca80ceee8c10f68dd3be2d16424c74625ef6899f3",
+      "rng": "bfbaa82ed59a241026a5bf956bf9215ebbefa6f53bad9ab9ce51acd0c1b5af35"
+    },
+    "runtime_restore_status": "not_run_before_readiness",
+    "field_completeness_status": "format and source inspected; payloads hash-verified, not deserialized"
+  },
+  {
+    "parent_id": "R03",
+    "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\81_basic_sac_observation_campaign_v1\\results\\20261102T085036Z_observation_8e858967\\runs\\R03\\checkpoints\\full\\1000000",
+    "step": 1000000,
+    "updates": 999000,
+    "replay_size": 100000,
+    "replay_pos": 0,
+    "files": {
+      "model.zip": "09003ccc888365da50e077ab86d978b2a08679f670f74cce2315c2548dd06fd3",
+      "replay.pkl": "955d6015b51f7260dd7950640aeb649503eda32e5e7721a263506115ddf94d3b",
+      "collector_and_rng.pkl": "45ca7efc42d0775ba485923e31660968e5a3bd0027b2968fef5097b0dd88f955"
+    },
+    "state_fingerprints": {
+      "learning": "2653fb47a30bd43be146f63d9a9e99f518b2bfa7b9e052ed9096d1411434d6aa",
+      "replay": "8feac21dbe7fa88cb30b2d16fc46a1cd33fce67dc239f45dbcd05a2104c1fd51",
+      "collector": "253aec751d371ac3e7ab981f2ebfe74fef1bc721646a65834b98e3468b4a6432",
+      "rng": "9a33e05841297fb7c6487ba547e9a2c5bf31867cf43fdfc398a647ddabc42296"
+    },
+    "runtime_restore_status": "not_run_before_readiness",
+    "field_completeness_status": "format and source inspected; payloads hash-verified, not deserialized"
+  },
+  {
+    "parent_id": "R04",
+    "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\81_basic_sac_observation_campaign_v1\\results\\20261102T085036Z_observation_8e858967\\runs\\R04\\checkpoints\\full\\1000000",
+    "step": 1000000,
+    "updates": 999000,
+    "replay_size": 100000,
+    "replay_pos": 0,
+    "files": {
+      "model.zip": "d57e58f52e2f04eb76f951e4a9342da4aaf93eab4e87376d328033959efde44e",
+      "replay.pkl": "c1211eb6436665943bdb4d5c7882e07bbd69a7904028b860d924eaff8271b8cd",
+      "collector_and_rng.pkl": "d09a4dbdcee13f1359614d4f38ae27ff53de4fd0bed6cc27d0ec6a44f3139de6"
+    },
+    "state_fingerprints": {
+      "learning": "2ae85d347abb8636522c6440f43ac8faa5db66c545fa24f1fe974b0898d341b1",
+      "replay": "02721fb79064e16b9ec2a4f7fb6c93a1ebb85046628fc72bbf7ee75231442935",
+      "collector": "8958a43aef014161092a3f6a07508c8508db615d0a6252db3e234b52c4752e0f",
+      "rng": "3e73c9d7eeb698818e01337a1cdc739884c35508c62e79bacf5b602f847faef0"
+    },
+    "runtime_restore_status": "not_run_before_readiness",
+    "field_completeness_status": "format and source inspected; payloads hash-verified, not deserialized"
+  },
+  {
+    "parent_id": "R05",
+    "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\81_basic_sac_observation_campaign_v1\\results\\20261102T085036Z_observation_8e858967\\runs\\R05\\checkpoints\\full\\1000000",
+    "step": 1000000,
+    "updates": 999000,
+    "replay_size": 100000,
+    "replay_pos": 0,
+    "files": {
+      "model.zip": "7fdc0ea18c7cbeae5f77f886f55e24eca1d4942138576efe3a3de21ed6dbe210",
+      "replay.pkl": "9f84e1f0cc6d077b5188c20c689af1c3b20fcb0c2064de3815105d41b2c51136",
+      "collector_and_rng.pkl": "9896fad2c3316ca15a9d6dbcb581ae18893bc1efdf71e1b31a11c41ea671d336"
+    },
+    "state_fingerprints": {
+      "learning": "a4c20321e06b492d2f765aafc4337dd85e3e0ac3c4f6cc31f2eb9bfaaf570e57",
+      "replay": "4e6420477c09ccef79e455d4b4f901afe99f0fc05e23bf8ffa23c13e393c2783",
+      "collector": "24913dca019c404672e2af830bc4f5738c96f8e8ad060fdbfe8a29cb29871000",
+      "rng": "33d2231bbf38e1e8c2d2a861de7b81050accb214244009216b92f3d039e4f5a0"
+    },
+    "runtime_restore_status": "not_run_before_readiness",
+    "field_completeness_status": "format and source inspected; payloads hash-verified, not deserialized"
+  }
+]

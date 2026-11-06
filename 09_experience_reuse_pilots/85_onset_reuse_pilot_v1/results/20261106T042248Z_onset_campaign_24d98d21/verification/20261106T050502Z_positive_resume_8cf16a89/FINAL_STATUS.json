@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "selection_rule": "first ONSET in fixed execution plan, earliest4k full checkpoint",
+  "cell_id": "R04_F02_ONSET",
+  "checkpoint": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21\\jobs\\R04_F02_ONSET\\20261106T045501Z_attempt_959be4cc\\checkpoints\\full\\004000",
+  "source_checkpoint_manifest_sha256": "43e592d635d3ddafb4f8e60cc8b0ac048d00685fc4f689279d97db5694026a49",
+  "actual_model_loads": 1,
+  "policy_forward": 0,
+  "learning_updates": 0,
+  "environment_transitions": 0,
+  "environment_resets": 0,
+  "archive_actual_preserved": 63504,
+  "native_actual_preserved": 960496,
+  "exact_all_state_fingerprints": true,
+  "wall_seconds": 5.420524699962698
+}

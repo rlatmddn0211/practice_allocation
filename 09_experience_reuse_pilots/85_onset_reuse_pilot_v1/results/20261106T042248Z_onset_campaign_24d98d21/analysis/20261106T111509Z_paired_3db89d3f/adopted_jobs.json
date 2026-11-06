@@ -1,0 +1,2342 @@
+[
+  {
+    "status": "complete",
+    "kind": "branch",
+    "protocol_version": "85_onset_reuse_pilot_v1",
+    "parent_id": "R01",
+    "future_id": "F01",
+    "arm": "BASE",
+    "cell_number": 10,
+    "attempt": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21\\jobs\\R01_F01_BASE\\20261106T061532Z_attempt_1170cecd",
+    "train_issued": 64000,
+    "train_completed": 64000,
+    "eval_issued": 96000,
+    "eval_completed": 96000,
+    "evaluation_episodes": 192,
+    "final_full": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21\\jobs\\R01_F01_BASE\\20261106T061532Z_attempt_1170cecd\\checkpoints\\full\\064000",
+    "final_model_hash": "b8be1be56a4fcfe04dc8a1d1cff1ccfd4517f1c0634b96007340481a71c0c427",
+    "usage": {
+      "protocol_version": "85_onset_reuse_pilot_v1",
+      "parent_id": "R01",
+      "future_id": "F01",
+      "arm": "BASE",
+      "cell_number": 10,
+      "actual_train_step": 1064000,
+      "update_id": 1063000,
+      "native_draw_count": 16384000,
+      "native_actual_use": 16384000,
+      "archive_actual_use": 0,
+      "native_task_draw_counts": [
+        4082191,
+        4102196,
+        4101616,
+        4097997
+      ],
+      "archive_draw_hash": "71d3788e7fb520452dcc6d2bd4b977e2a22ce00d53d671ea7e0a6efa0a215b9b",
+      "replacement_mask_hash": "1c52568c51160cc15af5fc3556f5f5c2af42c2525387737c51bc4161dd8522fe",
+      "archive_actor_use": 0,
+      "archive_critic_use": 0
+    },
+    "completed_at": "2026-11-06T06:39:57.191856+00:00",
+    "wall_seconds": 1464.3016889999853,
+    "resource_costs": {
+      "memory": {
+        "rss": 4694827008,
+        "vms": 8293666816,
+        "num_page_faults": 4720095,
+        "peak_wset": 4728250368,
+        "wset": 4694827008,
+        "peak_paged_pool": 8588880,
+        "paged_pool": 8454224,
+        "peak_nonpaged_pool": 442240,
+        "nonpaged_pool": 206568,
+        "pagefile": 8293666816,
+        "peak_pagefile": 8633888768,
+        "private": 8293666816
+      },
+      "cpu": {
+        "user": 594.453125,
+        "system": 82.90625,
+        "children_user": 0.0,
+        "children_system": 0.0
+      },
+      "io": {
+        "read_count": 15140,
+        "write_count": 370717,
+        "read_bytes": 1068802289,
+        "write_bytes": 1100544920,
+        "other_count": 2863973,
+        "other_bytes": 85970936
+      }
+    }
+  },
+  {
+    "status": "complete",
+    "kind": "branch",
+    "protocol_version": "85_onset_reuse_pilot_v1",
+    "parent_id": "R01",
+    "future_id": "F01",
+    "arm": "ONSET",
+    "cell_number": 8,
+    "attempt": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21\\jobs\\R01_F01_ONSET\\20261106T054839Z_attempt_d2b5e336",
+    "train_issued": 64000,
+    "train_completed": 64000,
+    "eval_issued": 96000,
+    "eval_completed": 96000,
+    "evaluation_episodes": 192,
+    "final_full": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21\\jobs\\R01_F01_ONSET\\20261106T054839Z_attempt_d2b5e336\\checkpoints\\full\\064000",
+    "final_model_hash": "76415d438879fd909c15cf3133908f60d220b638e14cdaf59cce3f285610b9fc",
+    "usage": {
+      "protocol_version": "85_onset_reuse_pilot_v1",
+      "parent_id": "R01",
+      "future_id": "F01",
+      "arm": "ONSET",
+      "cell_number": 8,
+      "actual_train_step": 1064000,
+      "update_id": 1063000,
+      "native_draw_count": 16384000,
+      "native_actual_use": 15362994,
+      "archive_actual_use": 1021006,
+      "native_task_draw_counts": [
+        4082191,
+        4102196,
+        4101616,
+        4097997
+      ],
+      "archive_draw_hash": "71d3788e7fb520452dcc6d2bd4b977e2a22ce00d53d671ea7e0a6efa0a215b9b",
+      "replacement_mask_hash": "f4889db3600bd8b699d459354df492a0dd53c22901558cf5032edf075894e631",
+      "archive_actor_use": 1021006,
+      "archive_critic_use": 1021006
+    },
+    "completed_at": "2026-11-06T06:15:08.207013+00:00",
+    "wall_seconds": 1588.6524965999415,
+    "resource_costs": {
+      "memory": {
+        "rss": 4693762048,
+        "vms": 8288210944,
+        "num_page_faults": 4720047,
+        "peak_wset": 4727128064,
+        "wset": 4693762048,
+        "peak_paged_pool": 8588624,
+        "paged_pool": 8453968,
+        "peak_nonpaged_pool": 442648,
+        "nonpaged_pool": 206976,
+        "pagefile": 8288210944,
+        "peak_pagefile": 8627519488,
+        "private": 8288210944
+      },
+      "cpu": {
+        "user": 689.546875,
+        "system": 106.0625,
+        "children_user": 0.0,
+        "children_system": 0.0
+      },
+      "io": {
+        "read_count": 15143,
+        "write_count": 370823,
+        "read_bytes": 1069831890,
+        "write_bytes": 1101712880,
+        "other_count": 2860799,
+        "other_bytes": 85974832
+      }
+    }
+  },
+  {
+    "status": "complete",
+    "kind": "branch",
+    "protocol_version": "85_onset_reuse_pilot_v1",
+    "parent_id": "R01",
+    "future_id": "F01",
+    "arm": "RANDOM_PRE",
+    "cell_number": 13,
+    "attempt": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21\\jobs\\R01_F01_RANDOM_PRE\\20261106T070452Z_attempt_2d30b807",
+    "train_issued": 64000,
+    "train_completed": 64000,
+    "eval_issued": 96000,
+    "eval_completed": 96000,
+    "evaluation_episodes": 192,
+    "final_full": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21\\jobs\\R01_F01_RANDOM_PRE\\20261106T070452Z_attempt_2d30b807\\checkpoints\\full\\064000",
+    "final_model_hash": "131031f77f44c904c5915c372b8c7988a8929e389f2acc02c3c0ce1ead60b099",
+    "usage": {
+      "protocol_version": "85_onset_reuse_pilot_v1",
+      "parent_id": "R01",
+      "future_id": "F01",
+      "arm": "RANDOM_PRE",
+      "cell_number": 13,
+      "actual_train_step": 1064000,
+      "update_id": 1063000,
+      "native_draw_count": 16384000,
+      "native_actual_use": 15362994,
+      "archive_actual_use": 1021006,
+      "native_task_draw_counts": [
+        4082191,
+        4102196,
+        4101616,
+        4097997
+      ],
+      "archive_draw_hash": "71d3788e7fb520452dcc6d2bd4b977e2a22ce00d53d671ea7e0a6efa0a215b9b",
+      "replacement_mask_hash": "f4889db3600bd8b699d459354df492a0dd53c22901558cf5032edf075894e631",
+      "archive_actor_use": 1021006,
+      "archive_critic_use": 1021006
+    },
+    "completed_at": "2026-11-06T07:31:35.943133+00:00",
+    "wall_seconds": 1603.23115040001,
+    "resource_costs": {
+      "memory": {
+        "rss": 4696084480,
+        "vms": 8295641088,
+        "num_page_faults": 4722536,
+        "peak_wset": 4728832000,
+        "wset": 4696084480,
+        "peak_paged_pool": 8588880,
+        "paged_pool": 8454224,
+        "peak_nonpaged_pool": 442920,
+        "nonpaged_pool": 207112,
+        "pagefile": 8295641088,
+        "peak_pagefile": 8632541184,
+        "private": 8295641088
+      },
+      "cpu": {
+        "user": 644.671875,
+        "system": 95.140625,
+        "children_user": 0.0,
+        "children_system": 0.0
+      },
+      "io": {
+        "read_count": 15119,
+        "write_count": 370703,
+        "read_bytes": 1067671137,
+        "write_bytes": 1099503844,
+        "other_count": 2862706,
+        "other_bytes": 85994120
+      }
+    }
+  },
+  {
+    "status": "complete",
+    "kind": "branch",
+    "protocol_version": "85_onset_reuse_pilot_v1",
+    "parent_id": "R01",
+    "future_id": "F02",
+    "arm": "BASE",
+    "cell_number": 2,
+    "attempt": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21\\jobs\\R01_F02_BASE\\20261106T043032Z_attempt_f50c702d",
+    "train_issued": 64000,
+    "train_completed": 64000,
+    "eval_issued": 96000,
+    "eval_completed": 96000,
+    "evaluation_episodes": 192,
+    "final_full": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21\\jobs\\R01_F02_BASE\\20261106T043032Z_attempt_f50c702d\\checkpoints\\full\\064000",
+    "final_model_hash": "a51b9b2ecd69060e98a8f5b1b8154075d294ec77e5f2ce401486887577aa57b4",
+    "usage": {
+      "protocol_version": "85_onset_reuse_pilot_v1",
+      "parent_id": "R01",
+      "future_id": "F02",
+      "arm": "BASE",
+      "cell_number": 2,
+      "actual_train_step": 1064000,
+      "update_id": 1063000,
+      "native_draw_count": 16384000,
+      "native_actual_use": 16384000,
+      "archive_actual_use": 0,
+      "native_task_draw_counts": [
+        4084835,
+        4098677,
+        4109850,
+        4090638
+      ],
+      "archive_draw_hash": "be4d865a868ac37086aefc561051d9741315c67b08adfd5f20d2a60ca343b77e",
+      "replacement_mask_hash": "1c52568c51160cc15af5fc3556f5f5c2af42c2525387737c51bc4161dd8522fe",
+      "archive_actor_use": 0,
+      "archive_critic_use": 0
+    },
+    "completed_at": "2026-11-06T04:54:45.712709+00:00",
+    "wall_seconds": 1453.6227426999249,
+    "resource_costs": {
+      "memory": {
+        "rss": 4698398720,
+        "vms": 8293269504,
+        "num_page_faults": 4719535,
+        "peak_wset": 4731162624,
+        "wset": 4698398720,
+        "peak_paged_pool": 8588928,
+        "paged_pool": 8454272,
+        "peak_nonpaged_pool": 442648,
+        "nonpaged_pool": 206840,
+        "pagefile": 8293269504,
+        "peak_pagefile": 8633024512,
+        "private": 8293269504
+      },
+      "cpu": {
+        "user": 587.140625,
+        "system": 81.84375,
+        "children_user": 0.0,
+        "children_system": 0.0
+      },
+      "io": {
+        "read_count": 15123,
+        "write_count": 370743,
+        "read_bytes": 1067983104,
+        "write_bytes": 1099788360,
+        "other_count": 2863774,
+        "other_bytes": 85977168
+      }
+    }
+  },
+  {
+    "status": "complete",
+    "kind": "branch",
+    "protocol_version": "85_onset_reuse_pilot_v1",
+    "parent_id": "R01",
+    "future_id": "F02",
+    "arm": "ONSET",
+    "cell_number": 20,
+    "attempt": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21\\jobs\\R01_F02_ONSET\\20261106T083058Z_attempt_77909620",
+    "train_issued": 64000,
+    "train_completed": 64000,
+    "eval_issued": 96000,
+    "eval_completed": 96000,
+    "evaluation_episodes": 192,
+    "final_full": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21\\jobs\\R01_F02_ONSET\\20261106T083058Z_attempt_77909620\\checkpoints\\full\\064000",
+    "final_model_hash": "e8eb2df43d5108aa1d3fff6d95f098721cb4300a23acb1badfc8754bc6d36409",
+    "usage": {
+      "protocol_version": "85_onset_reuse_pilot_v1",
+      "parent_id": "R01",
+      "future_id": "F02",
+      "arm": "ONSET",
+      "cell_number": 20,
+      "actual_train_step": 1064000,
+      "update_id": 1063000,
+      "native_draw_count": 16384000,
+      "native_actual_use": 15363997,
+      "archive_actual_use": 1020003,
+      "native_task_draw_counts": [
+        4084835,
+        4098677,
+        4109850,
+        4090638
+      ],
+      "archive_draw_hash": "be4d865a868ac37086aefc561051d9741315c67b08adfd5f20d2a60ca343b77e",
+      "replacement_mask_hash": "1425bfd025c7cafa4f63c970baeeee362a5c2c9bb104bbc1004724b8019f8227",
+      "archive_actor_use": 1020003,
+      "archive_critic_use": 1020003
+    },
+    "completed_at": "2026-11-06T09:00:39.626303+00:00",
+    "wall_seconds": 1780.890480299946,
+    "resource_costs": {
+      "memory": {
+        "rss": 4688216064,
+        "vms": 8288382976,
+        "num_page_faults": 4720634,
+        "peak_wset": 4721627136,
+        "wset": 4688216064,
+        "peak_paged_pool": 8588624,
+        "paged_pool": 8453968,
+        "peak_nonpaged_pool": 442376,
+        "nonpaged_pool": 206840,
+        "pagefile": 8288382976,
+        "peak_pagefile": 8629149696,
+        "private": 8288382976
+      },
+      "cpu": {
+        "user": 430.671875,
+        "system": 70.703125,
+        "children_user": 0.0,
+        "children_system": 0.0
+      },
+      "io": {
+        "read_count": 15120,
+        "write_count": 370692,
+        "read_bytes": 1067185491,
+        "write_bytes": 1099042107,
+        "other_count": 2862627,
+        "other_bytes": 85983440
+      }
+    }
+  },
+  {
+    "status": "complete",
+    "kind": "branch",
+    "protocol_version": "85_onset_reuse_pilot_v1",
+    "parent_id": "R01",
+    "future_id": "F02",
+    "arm": "RANDOM_PRE",
+    "cell_number": 17,
+    "attempt": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21\\jobs\\R01_F02_RANDOM_PRE\\20261106T075858Z_attempt_41c9dbf9",
+    "train_issued": 64000,
+    "train_completed": 64000,
+    "eval_issued": 96000,
+    "eval_completed": 96000,
+    "evaluation_episodes": 192,
+    "final_full": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21\\jobs\\R01_F02_RANDOM_PRE\\20261106T075858Z_attempt_41c9dbf9\\checkpoints\\full\\064000",
+    "final_model_hash": "67d876d6b91103892d3d6864966dff6d1fd5bef4c0a2e029f2442e4f0f0b4c45",
+    "usage": {
+      "protocol_version": "85_onset_reuse_pilot_v1",
+      "parent_id": "R01",
+      "future_id": "F02",
+      "arm": "RANDOM_PRE",
+      "cell_number": 17,
+      "actual_train_step": 1064000,
+      "update_id": 1063000,
+      "native_draw_count": 16384000,
+      "native_actual_use": 15363997,
+      "archive_actual_use": 1020003,
+      "native_task_draw_counts": [
+        4084835,
+        4098677,
+        4109850,
+        4090638
+      ],
+      "archive_draw_hash": "be4d865a868ac37086aefc561051d9741315c67b08adfd5f20d2a60ca343b77e",
+      "replacement_mask_hash": "1425bfd025c7cafa4f63c970baeeee362a5c2c9bb104bbc1004724b8019f8227",
+      "archive_actor_use": 1020003,
+      "archive_critic_use": 1020003
+    },
+    "completed_at": "2026-11-06T08:28:39.343368+00:00",
+    "wall_seconds": 1780.8360943000298,
+    "resource_costs": {
+      "memory": {
+        "rss": 4284612608,
+        "vms": 8292016128,
+        "num_page_faults": 4724556,
+        "peak_wset": 4634349568,
+        "wset": 4284612608,
+        "peak_paged_pool": 8588880,
+        "paged_pool": 8454224,
+        "peak_nonpaged_pool": 442240,
+        "nonpaged_pool": 206704,
+        "pagefile": 8292016128,
+        "peak_pagefile": 8631980032,
+        "private": 8292016128
+      },
+      "cpu": {
+        "user": 460.625,
+        "system": 73.75,
+        "children_user": 0.0,
+        "children_system": 0.0
+      },
+      "io": {
+        "read_count": 15125,
+        "write_count": 370720,
+        "read_bytes": 1068133005,
+        "write_bytes": 1099993756,
+        "other_count": 2863284,
+        "other_bytes": 86002792
+      }
+    }
+  },
+  {
+    "status": "complete",
+    "kind": "branch",
+    "protocol_version": "85_onset_reuse_pilot_v1",
+    "parent_id": "R02",
+    "future_id": "F01",
+    "arm": "BASE",
+    "cell_number": 16,
+    "attempt": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21\\jobs\\R02_F01_BASE\\20261106T073224Z_attempt_985c5249",
+    "train_issued": 64000,
+    "train_completed": 64000,
+    "eval_issued": 96000,
+    "eval_completed": 96000,
+    "evaluation_episodes": 192,
+    "final_full": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21\\jobs\\R02_F01_BASE\\20261106T073224Z_attempt_985c5249\\checkpoints\\full\\064000",
+    "final_model_hash": "5ed15d8fc8db4781b003077c16fb15bedc6ee8abcc2ec18deeb666432ebbe85e",
+    "usage": {
+      "protocol_version": "85_onset_reuse_pilot_v1",
+      "parent_id": "R02",
+      "future_id": "F01",
+      "arm": "BASE",
+      "cell_number": 16,
+      "actual_train_step": 1064000,
+      "update_id": 1063000,
+      "native_draw_count": 16384000,
+      "native_actual_use": 16384000,
+      "archive_actual_use": 0,
+      "native_task_draw_counts": [
+        4097036,
+        4089382,
+        4090442,
+        4107140
+      ],
+      "archive_draw_hash": "0bb39cdbf6e503d5fb04eb31176cf0e70f2ed602b2576be5d2854a4a007d31c0",
+      "replacement_mask_hash": "1c52568c51160cc15af5fc3556f5f5c2af42c2525387737c51bc4161dd8522fe",
+      "archive_actor_use": 0,
+      "archive_critic_use": 0
+    },
+    "completed_at": "2026-11-06T07:58:34.885057+00:00",
+    "wall_seconds": 1570.7985089999856,
+    "resource_costs": {
+      "memory": {
+        "rss": 4689383424,
+        "vms": 8282705920,
+        "num_page_faults": 4719673,
+        "peak_wset": 4722786304,
+        "wset": 4689383424,
+        "peak_paged_pool": 8588624,
+        "paged_pool": 8453968,
+        "peak_nonpaged_pool": 443056,
+        "nonpaged_pool": 207112,
+        "pagefile": 8282705920,
+        "peak_pagefile": 8623472640,
+        "private": 8282705920
+      },
+      "cpu": {
+        "user": 439.5625,
+        "system": 60.75,
+        "children_user": 0.0,
+        "children_system": 0.0
+      },
+      "io": {
+        "read_count": 15114,
+        "write_count": 370723,
+        "read_bytes": 1066337438,
+        "write_bytes": 1098284814,
+        "other_count": 2862929,
+        "other_bytes": 85976392
+      }
+    }
+  },
+  {
+    "status": "complete",
+    "kind": "branch",
+    "protocol_version": "85_onset_reuse_pilot_v1",
+    "parent_id": "R02",
+    "future_id": "F01",
+    "arm": "ONSET",
+    "cell_number": 15,
+    "attempt": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21\\jobs\\R02_F01_ONSET\\20261106T073208Z_attempt_5a1d9a34",
+    "train_issued": 64000,
+    "train_completed": 64000,
+    "eval_issued": 96000,
+    "eval_completed": 96000,
+    "evaluation_episodes": 192,
+    "final_full": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21\\jobs\\R02_F01_ONSET\\20261106T073208Z_attempt_5a1d9a34\\checkpoints\\full\\064000",
+    "final_model_hash": "1b9ff7d326f5251f28ab5a5a52a14e7f9957b4a90b1b1b374cfe74d58c26b16d",
+    "usage": {
+      "protocol_version": "85_onset_reuse_pilot_v1",
+      "parent_id": "R02",
+      "future_id": "F01",
+      "arm": "ONSET",
+      "cell_number": 15,
+      "actual_train_step": 1064000,
+      "update_id": 1063000,
+      "native_draw_count": 16384000,
+      "native_actual_use": 15359424,
+      "archive_actual_use": 1024576,
+      "native_task_draw_counts": [
+        4097036,
+        4089382,
+        4090442,
+        4107140
+      ],
+      "archive_draw_hash": "0bb39cdbf6e503d5fb04eb31176cf0e70f2ed602b2576be5d2854a4a007d31c0",
+      "replacement_mask_hash": "d6ad112f005f001f79463b957acbd096e6b1d1fb3b5607deba8f62e1eb3ede9c",
+      "archive_actor_use": 1024576,
+      "archive_critic_use": 1024576
+    },
+    "completed_at": "2026-11-06T08:00:39.011518+00:00",
+    "wall_seconds": 1710.2557328999974,
+    "resource_costs": {
+      "memory": {
+        "rss": 4690477056,
+        "vms": 8283234304,
+        "num_page_faults": 4720350,
+        "peak_wset": 4723900416,
+        "wset": 4690477056,
+        "peak_paged_pool": 8588624,
+        "paged_pool": 8453968,
+        "peak_nonpaged_pool": 442648,
+        "nonpaged_pool": 206840,
+        "pagefile": 8283234304,
+        "peak_pagefile": 8622383104,
+        "private": 8283234304
+      },
+      "cpu": {
+        "user": 498.09375,
+        "system": 76.984375,
+        "children_user": 0.0,
+        "children_system": 0.0
+      },
+      "io": {
+        "read_count": 15100,
+        "write_count": 370718,
+        "read_bytes": 1066612537,
+        "write_bytes": 1098596055,
+        "other_count": 2861309,
+        "other_bytes": 85980256
+      }
+    }
+  },
+  {
+    "status": "complete",
+    "kind": "branch",
+    "protocol_version": "85_onset_reuse_pilot_v1",
+    "parent_id": "R02",
+    "future_id": "F01",
+    "arm": "RANDOM_PRE",
+    "cell_number": 23,
+    "attempt": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21\\jobs\\R02_F01_RANDOM_PRE\\20261106T092829Z_attempt_9c681515",
+    "train_issued": 64000,
+    "train_completed": 64000,
+    "eval_issued": 96000,
+    "eval_completed": 96000,
+    "evaluation_episodes": 192,
+    "final_full": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21\\jobs\\R02_F01_RANDOM_PRE\\20261106T092829Z_attempt_9c681515\\checkpoints\\full\\064000",
+    "final_model_hash": "c2d97a0f78c6e249c623f2ae395dd4420c9d3538b775c29fcf729e2f7164fed1",
+    "usage": {
+      "protocol_version": "85_onset_reuse_pilot_v1",
+      "parent_id": "R02",
+      "future_id": "F01",
+      "arm": "RANDOM_PRE",
+      "cell_number": 23,
+      "actual_train_step": 1064000,
+      "update_id": 1063000,
+      "native_draw_count": 16384000,
+      "native_actual_use": 15359424,
+      "archive_actual_use": 1024576,
+      "native_task_draw_counts": [
+        4097036,
+        4089382,
+        4090442,
+        4107140
+      ],
+      "archive_draw_hash": "0bb39cdbf6e503d5fb04eb31176cf0e70f2ed602b2576be5d2854a4a007d31c0",
+      "replacement_mask_hash": "d6ad112f005f001f79463b957acbd096e6b1d1fb3b5607deba8f62e1eb3ede9c",
+      "archive_actor_use": 1024576,
+      "archive_critic_use": 1024576
+    },
+    "completed_at": "2026-11-06T09:55:43.498627+00:00",
+    "wall_seconds": 1634.0707575000124,
+    "resource_costs": {
+      "memory": {
+        "rss": 4696186880,
+        "vms": 8287576064,
+        "num_page_faults": 4717991,
+        "peak_wset": 4728950784,
+        "wset": 4696186880,
+        "peak_paged_pool": 8588880,
+        "paged_pool": 8454224,
+        "peak_nonpaged_pool": 442512,
+        "nonpaged_pool": 206976,
+        "pagefile": 8287576064,
+        "peak_pagefile": 8626245632,
+        "private": 8287576064
+      },
+      "cpu": {
+        "user": 669.3125,
+        "system": 99.34375,
+        "children_user": 0.0,
+        "children_system": 0.0
+      },
+      "io": {
+        "read_count": 15097,
+        "write_count": 370744,
+        "read_bytes": 1065512812,
+        "write_bytes": 1097507952,
+        "other_count": 2860219,
+        "other_bytes": 85992664
+      }
+    }
+  },
+  {
+    "status": "complete",
+    "kind": "branch",
+    "protocol_version": "85_onset_reuse_pilot_v1",
+    "parent_id": "R02",
+    "future_id": "F02",
+    "arm": "BASE",
+    "cell_number": 3,
+    "attempt": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21\\jobs\\R02_F02_BASE\\20261106T045501Z_attempt_257b6c0a",
+    "train_issued": 64000,
+    "train_completed": 64000,
+    "eval_issued": 96000,
+    "eval_completed": 96000,
+    "evaluation_episodes": 192,
+    "final_full": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21\\jobs\\R02_F02_BASE\\20261106T045501Z_attempt_257b6c0a\\checkpoints\\full\\064000",
+    "final_model_hash": "2e12150f2a3b80562c0fca0ca9c54250a9ce8b5c58d18175d10d9b7e15b9f3c9",
+    "usage": {
+      "protocol_version": "85_onset_reuse_pilot_v1",
+      "parent_id": "R02",
+      "future_id": "F02",
+      "arm": "BASE",
+      "cell_number": 3,
+      "actual_train_step": 1064000,
+      "update_id": 1063000,
+      "native_draw_count": 16384000,
+      "native_actual_use": 16384000,
+      "archive_actual_use": 0,
+      "native_task_draw_counts": [
+        4087898,
+        4123227,
+        4072748,
+        4100127
+      ],
+      "archive_draw_hash": "105cb8ca3ecee87ea847c921b88a94d5b966d2de553d8933066a5c255cbc93f4",
+      "replacement_mask_hash": "1c52568c51160cc15af5fc3556f5f5c2af42c2525387737c51bc4161dd8522fe",
+      "archive_actor_use": 0,
+      "archive_critic_use": 0
+    },
+    "completed_at": "2026-11-06T05:19:11.726718+00:00",
+    "wall_seconds": 1450.6432615000522,
+    "resource_costs": {
+      "memory": {
+        "rss": 4695003136,
+        "vms": 8285110272,
+        "num_page_faults": 4719981,
+        "peak_wset": 4728492032,
+        "wset": 4695003136,
+        "peak_paged_pool": 8588880,
+        "paged_pool": 8454224,
+        "peak_nonpaged_pool": 442784,
+        "nonpaged_pool": 206840,
+        "pagefile": 8285110272,
+        "peak_pagefile": 8624381952,
+        "private": 8285110272
+      },
+      "cpu": {
+        "user": 608.640625,
+        "system": 84.625,
+        "children_user": 0.0,
+        "children_system": 0.0
+      },
+      "io": {
+        "read_count": 15100,
+        "write_count": 370797,
+        "read_bytes": 1067279303,
+        "write_bytes": 1099115307,
+        "other_count": 2861716,
+        "other_bytes": 85968526
+      }
+    }
+  },
+  {
+    "status": "complete",
+    "kind": "branch",
+    "protocol_version": "85_onset_reuse_pilot_v1",
+    "parent_id": "R02",
+    "future_id": "F02",
+    "arm": "ONSET",
+    "cell_number": 24,
+    "attempt": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21\\jobs\\R02_F02_ONSET\\20261106T092931Z_attempt_7e106c97",
+    "train_issued": 64000,
+    "train_completed": 64000,
+    "eval_issued": 96000,
+    "eval_completed": 96000,
+    "evaluation_episodes": 192,
+    "final_full": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21\\jobs\\R02_F02_ONSET\\20261106T092931Z_attempt_7e106c97\\checkpoints\\full\\064000",
+    "final_model_hash": "b80926330d9d24081781ca19dacfbd1ba408d6bf8a76c945d3fda336909a49f3",
+    "usage": {
+      "protocol_version": "85_onset_reuse_pilot_v1",
+      "parent_id": "R02",
+      "future_id": "F02",
+      "arm": "ONSET",
+      "cell_number": 24,
+      "actual_train_step": 1064000,
+      "update_id": 1063000,
+      "native_draw_count": 16384000,
+      "native_actual_use": 15361224,
+      "archive_actual_use": 1022776,
+      "native_task_draw_counts": [
+        4087898,
+        4123227,
+        4072748,
+        4100127
+      ],
+      "archive_draw_hash": "105cb8ca3ecee87ea847c921b88a94d5b966d2de553d8933066a5c255cbc93f4",
+      "replacement_mask_hash": "1596f9a49f7835a7c665ee3baf55852c3613607fe9136938194d068c1a986fd9",
+      "archive_actor_use": 1022776,
+      "archive_critic_use": 1022776
+    },
+    "completed_at": "2026-11-06T09:56:38.594038+00:00",
+    "wall_seconds": 1627.5142969000153,
+    "resource_costs": {
+      "memory": {
+        "rss": 4698173440,
+        "vms": 8295460864,
+        "num_page_faults": 4720058,
+        "peak_wset": 4730949632,
+        "wset": 4698173440,
+        "peak_paged_pool": 8588880,
+        "paged_pool": 8454224,
+        "peak_nonpaged_pool": 442784,
+        "nonpaged_pool": 206840,
+        "pagefile": 8295460864,
+        "peak_pagefile": 8634867712,
+        "private": 8295460864
+      },
+      "cpu": {
+        "user": 673.953125,
+        "system": 103.046875,
+        "children_user": 0.0,
+        "children_system": 0.0
+      },
+      "io": {
+        "read_count": 15113,
+        "write_count": 370788,
+        "read_bytes": 1067883827,
+        "write_bytes": 1099900948,
+        "other_count": 2860431,
+        "other_bytes": 85973344
+      }
+    }
+  },
+  {
+    "status": "complete",
+    "kind": "branch",
+    "protocol_version": "85_onset_reuse_pilot_v1",
+    "parent_id": "R02",
+    "future_id": "F02",
+    "arm": "RANDOM_PRE",
+    "cell_number": 26,
+    "attempt": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21\\jobs\\R02_F02_RANDOM_PRE\\20261106T095701Z_attempt_a5395ed5",
+    "train_issued": 64000,
+    "train_completed": 64000,
+    "eval_issued": 96000,
+    "eval_completed": 96000,
+    "evaluation_episodes": 192,
+    "final_full": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21\\jobs\\R02_F02_RANDOM_PRE\\20261106T095701Z_attempt_a5395ed5\\checkpoints\\full\\064000",
+    "final_model_hash": "044f85c8c58cce98b783403aba5a5f306589363a92e881577bdb9ebc9853d183",
+    "usage": {
+      "protocol_version": "85_onset_reuse_pilot_v1",
+      "parent_id": "R02",
+      "future_id": "F02",
+      "arm": "RANDOM_PRE",
+      "cell_number": 26,
+      "actual_train_step": 1064000,
+      "update_id": 1063000,
+      "native_draw_count": 16384000,
+      "native_actual_use": 15361224,
+      "archive_actual_use": 1022776,
+      "native_task_draw_counts": [
+        4087898,
+        4123227,
+        4072748,
+        4100127
+      ],
+      "archive_draw_hash": "105cb8ca3ecee87ea847c921b88a94d5b966d2de553d8933066a5c255cbc93f4",
+      "replacement_mask_hash": "1596f9a49f7835a7c665ee3baf55852c3613607fe9136938194d068c1a986fd9",
+      "archive_actor_use": 1022776,
+      "archive_critic_use": 1022776
+    },
+    "completed_at": "2026-11-06T10:23:22.201013+00:00",
+    "wall_seconds": 1581.0459053000668,
+    "resource_costs": {
+      "memory": {
+        "rss": 4696932352,
+        "vms": 8289157120,
+        "num_page_faults": 4721379,
+        "peak_wset": 4730331136,
+        "wset": 4696932352,
+        "peak_paged_pool": 8588880,
+        "paged_pool": 8454224,
+        "peak_nonpaged_pool": 442784,
+        "nonpaged_pool": 207112,
+        "pagefile": 8289157120,
+        "peak_pagefile": 8629219328,
+        "private": 8289157120
+      },
+      "cpu": {
+        "user": 705.5,
+        "system": 105.3125,
+        "children_user": 0.0,
+        "children_system": 0.0
+      },
+      "io": {
+        "read_count": 15111,
+        "write_count": 370767,
+        "read_bytes": 1067171245,
+        "write_bytes": 1099175680,
+        "other_count": 2860268,
+        "other_bytes": 85991832
+      }
+    }
+  },
+  {
+    "status": "complete",
+    "kind": "branch",
+    "protocol_version": "85_onset_reuse_pilot_v1",
+    "parent_id": "R03",
+    "future_id": "F01",
+    "arm": "BASE",
+    "cell_number": 12,
+    "attempt": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21\\jobs\\R03_F01_BASE\\20261106T064026Z_attempt_725ffedb",
+    "train_issued": 64000,
+    "train_completed": 64000,
+    "eval_issued": 96000,
+    "eval_completed": 96000,
+    "evaluation_episodes": 192,
+    "final_full": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21\\jobs\\R03_F01_BASE\\20261106T064026Z_attempt_725ffedb\\checkpoints\\full\\064000",
+    "final_model_hash": "76789651784e7e0110474850e8cce52d65ed7d4346c136966c0e46a3acd935de",
+    "usage": {
+      "protocol_version": "85_onset_reuse_pilot_v1",
+      "parent_id": "R03",
+      "future_id": "F01",
+      "arm": "BASE",
+      "cell_number": 12,
+      "actual_train_step": 1064000,
+      "update_id": 1063000,
+      "native_draw_count": 16384000,
+      "native_actual_use": 16384000,
+      "archive_actual_use": 0,
+      "native_task_draw_counts": [
+        4109891,
+        4101009,
+        4090128,
+        4082972
+      ],
+      "archive_draw_hash": "9c771641929db7f8a6aa9c571537571094b6809f5d6e1160cc25153a5178f94f",
+      "replacement_mask_hash": "1c52568c51160cc15af5fc3556f5f5c2af42c2525387737c51bc4161dd8522fe",
+      "archive_actor_use": 0,
+      "archive_critic_use": 0
+    },
+    "completed_at": "2026-11-06T07:04:40.618905+00:00",
+    "wall_seconds": 1453.9197655000025,
+    "resource_costs": {
+      "memory": {
+        "rss": 4695904256,
+        "vms": 8268124160,
+        "num_page_faults": 4721696,
+        "peak_wset": 4729307136,
+        "wset": 4695904256,
+        "peak_paged_pool": 8588880,
+        "paged_pool": 8454224,
+        "peak_nonpaged_pool": 442784,
+        "nonpaged_pool": 206840,
+        "pagefile": 8268124160,
+        "peak_pagefile": 8607559680,
+        "private": 8268124160
+      },
+      "cpu": {
+        "user": 594.03125,
+        "system": 82.59375,
+        "children_user": 0.0,
+        "children_system": 0.0
+      },
+      "io": {
+        "read_count": 15112,
+        "write_count": 370673,
+        "read_bytes": 1066343485,
+        "write_bytes": 1098190014,
+        "other_count": 2861170,
+        "other_bytes": 85968648
+      }
+    }
+  },
+  {
+    "status": "complete",
+    "kind": "branch",
+    "protocol_version": "85_onset_reuse_pilot_v1",
+    "parent_id": "R03",
+    "future_id": "F01",
+    "arm": "ONSET",
+    "cell_number": 27,
+    "attempt": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21\\jobs\\R03_F01_ONSET\\20261106T102307Z_attempt_d50c3d92",
+    "train_issued": 64000,
+    "train_completed": 64000,
+    "eval_issued": 96000,
+    "eval_completed": 96000,
+    "evaluation_episodes": 192,
+    "final_full": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21\\jobs\\R03_F01_ONSET\\20261106T102307Z_attempt_d50c3d92\\checkpoints\\full\\064000",
+    "final_model_hash": "409c0b46018924c9fcbbfb354ad20d13b84afd192c35ae8f3f270669d31902b6",
+    "usage": {
+      "protocol_version": "85_onset_reuse_pilot_v1",
+      "parent_id": "R03",
+      "future_id": "F01",
+      "arm": "ONSET",
+      "cell_number": 27,
+      "actual_train_step": 1064000,
+      "update_id": 1063000,
+      "native_draw_count": 16384000,
+      "native_actual_use": 15355707,
+      "archive_actual_use": 1028293,
+      "native_task_draw_counts": [
+        4109891,
+        4101009,
+        4090128,
+        4082972
+      ],
+      "archive_draw_hash": "9c771641929db7f8a6aa9c571537571094b6809f5d6e1160cc25153a5178f94f",
+      "replacement_mask_hash": "ac1a3d9feca0d4cb658ef593669fc4e96738a087bb746092a3bc681b33c032f6",
+      "archive_actor_use": 1028293,
+      "archive_critic_use": 1028293
+    },
+    "completed_at": "2026-11-06T10:49:23.705776+00:00",
+    "wall_seconds": 1576.6525800999952,
+    "resource_costs": {
+      "memory": {
+        "rss": 4695629824,
+        "vms": 8286003200,
+        "num_page_faults": 4719601,
+        "peak_wset": 4729032704,
+        "wset": 4695629824,
+        "peak_paged_pool": 8588624,
+        "paged_pool": 8453968,
+        "peak_nonpaged_pool": 442784,
+        "nonpaged_pool": 207248,
+        "pagefile": 8286003200,
+        "peak_pagefile": 8626028544,
+        "private": 8286003200
+      },
+      "cpu": {
+        "user": 752.078125,
+        "system": 112.609375,
+        "children_user": 0.0,
+        "children_system": 0.0
+      },
+      "io": {
+        "read_count": 15127,
+        "write_count": 370650,
+        "read_bytes": 1066684121,
+        "write_bytes": 1098636412,
+        "other_count": 2863101,
+        "other_bytes": 85972480
+      }
+    }
+  },
+  {
+    "status": "complete",
+    "kind": "branch",
+    "protocol_version": "85_onset_reuse_pilot_v1",
+    "parent_id": "R03",
+    "future_id": "F01",
+    "arm": "RANDOM_PRE",
+    "cell_number": 29,
+    "attempt": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21\\jobs\\R03_F01_RANDOM_PRE\\20261106T104816Z_attempt_0ae35064",
+    "train_issued": 64000,
+    "train_completed": 64000,
+    "eval_issued": 96000,
+    "eval_completed": 96000,
+    "evaluation_episodes": 192,
+    "final_full": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21\\jobs\\R03_F01_RANDOM_PRE\\20261106T104816Z_attempt_0ae35064\\checkpoints\\full\\064000",
+    "final_model_hash": "87ef22cad0ed7452e5abee3401d9ab7e7880948ae15896b3b46c795bfd909b0a",
+    "usage": {
+      "protocol_version": "85_onset_reuse_pilot_v1",
+      "parent_id": "R03",
+      "future_id": "F01",
+      "arm": "RANDOM_PRE",
+      "cell_number": 29,
+      "actual_train_step": 1064000,
+      "update_id": 1063000,
+      "native_draw_count": 16384000,
+      "native_actual_use": 15355707,
+      "archive_actual_use": 1028293,
+      "native_task_draw_counts": [
+        4109891,
+        4101009,
+        4090128,
+        4082972
+      ],
+      "archive_draw_hash": "9c771641929db7f8a6aa9c571537571094b6809f5d6e1160cc25153a5178f94f",
+      "replacement_mask_hash": "ac1a3d9feca0d4cb658ef593669fc4e96738a087bb746092a3bc681b33c032f6",
+      "archive_actor_use": 1028293,
+      "archive_critic_use": 1028293
+    },
+    "completed_at": "2026-11-06T11:15:02.929958+00:00",
+    "wall_seconds": 1606.556898699957,
+    "resource_costs": {
+      "memory": {
+        "rss": 4694446080,
+        "vms": 8289062912,
+        "num_page_faults": 4720624,
+        "peak_wset": 4727889920,
+        "wset": 4694446080,
+        "peak_paged_pool": 8588880,
+        "paged_pool": 8454224,
+        "peak_nonpaged_pool": 442648,
+        "nonpaged_pool": 207112,
+        "pagefile": 8289062912,
+        "peak_pagefile": 8624586752,
+        "private": 8289062912
+      },
+      "cpu": {
+        "user": 727.984375,
+        "system": 110.671875,
+        "children_user": 0.0,
+        "children_system": 0.0
+      },
+      "io": {
+        "read_count": 15125,
+        "write_count": 370711,
+        "read_bytes": 1068104068,
+        "write_bytes": 1100057833,
+        "other_count": 2859966,
+        "other_bytes": 85991832
+      }
+    }
+  },
+  {
+    "status": "complete",
+    "kind": "branch",
+    "protocol_version": "85_onset_reuse_pilot_v1",
+    "parent_id": "R03",
+    "future_id": "F02",
+    "arm": "BASE",
+    "cell_number": 30,
+    "attempt": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21\\jobs\\R03_F02_BASE\\20261106T104949Z_attempt_f6109394",
+    "train_issued": 64000,
+    "train_completed": 64000,
+    "eval_issued": 96000,
+    "eval_completed": 96000,
+    "evaluation_episodes": 192,
+    "final_full": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21\\jobs\\R03_F02_BASE\\20261106T104949Z_attempt_f6109394\\checkpoints\\full\\064000",
+    "final_model_hash": "8b92dd13dce859345be76c498a3cd92ee417637eb5e11b511dcf920c9ac2d4e6",
+    "usage": {
+      "protocol_version": "85_onset_reuse_pilot_v1",
+      "parent_id": "R03",
+      "future_id": "F02",
+      "arm": "BASE",
+      "cell_number": 30,
+      "actual_train_step": 1064000,
+      "update_id": 1063000,
+      "native_draw_count": 16384000,
+      "native_actual_use": 16384000,
+      "archive_actual_use": 0,
+      "native_task_draw_counts": [
+        4106175,
+        4099422,
+        4090477,
+        4087926
+      ],
+      "archive_draw_hash": "29edc8a6cf0b46727d95c90ecdd94fecd2edd2113722cb49016cd6d3e53acbfe",
+      "replacement_mask_hash": "1c52568c51160cc15af5fc3556f5f5c2af42c2525387737c51bc4161dd8522fe",
+      "archive_actor_use": 0,
+      "archive_critic_use": 0
+    },
+    "completed_at": "2026-11-06T11:14:25.280156+00:00",
+    "wall_seconds": 1475.962483900017,
+    "resource_costs": {
+      "memory": {
+        "rss": 4694773760,
+        "vms": 8289312768,
+        "num_page_faults": 4719903,
+        "peak_wset": 4728233984,
+        "wset": 4694773760,
+        "peak_paged_pool": 8588880,
+        "paged_pool": 8454224,
+        "peak_nonpaged_pool": 442240,
+        "nonpaged_pool": 206432,
+        "pagefile": 8289312768,
+        "peak_pagefile": 8630243328,
+        "private": 8289312768
+      },
+      "cpu": {
+        "user": 650.875,
+        "system": 91.328125,
+        "children_user": 0.0,
+        "children_system": 0.0
+      },
+      "io": {
+        "read_count": 15136,
+        "write_count": 370705,
+        "read_bytes": 1068038807,
+        "write_bytes": 1099974692,
+        "other_count": 2859640,
+        "other_bytes": 85968648
+      }
+    }
+  },
+  {
+    "status": "complete",
+    "kind": "branch",
+    "protocol_version": "85_onset_reuse_pilot_v1",
+    "parent_id": "R03",
+    "future_id": "F02",
+    "arm": "ONSET",
+    "cell_number": 25,
+    "attempt": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21\\jobs\\R03_F02_ONSET\\20261106T095615Z_attempt_690f1c34",
+    "train_issued": 64000,
+    "train_completed": 64000,
+    "eval_issued": 96000,
+    "eval_completed": 96000,
+    "evaluation_episodes": 192,
+    "final_full": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21\\jobs\\R03_F02_ONSET\\20261106T095615Z_attempt_690f1c34\\checkpoints\\full\\064000",
+    "final_model_hash": "720ec9b8b1c2c5c3ad674bff43ecb51da7bba39480d73886738cce5dd8228ed2",
+    "usage": {
+      "protocol_version": "85_onset_reuse_pilot_v1",
+      "parent_id": "R03",
+      "future_id": "F02",
+      "arm": "ONSET",
+      "cell_number": 25,
+      "actual_train_step": 1064000,
+      "update_id": 1063000,
+      "native_draw_count": 16384000,
+      "native_actual_use": 15358327,
+      "archive_actual_use": 1025673,
+      "native_task_draw_counts": [
+        4106175,
+        4099422,
+        4090477,
+        4087926
+      ],
+      "archive_draw_hash": "29edc8a6cf0b46727d95c90ecdd94fecd2edd2113722cb49016cd6d3e53acbfe",
+      "replacement_mask_hash": "341ff8031ec96dc7c27a0d93340cdcd5290b2fbd29e62fa6fd699247878ec070",
+      "archive_actor_use": 1025673,
+      "archive_critic_use": 1025673
+    },
+    "completed_at": "2026-11-06T10:22:33.017751+00:00",
+    "wall_seconds": 1577.927496300079,
+    "resource_costs": {
+      "memory": {
+        "rss": 4696788992,
+        "vms": 8292073472,
+        "num_page_faults": 4721526,
+        "peak_wset": 4730171392,
+        "wset": 4696788992,
+        "peak_paged_pool": 8588880,
+        "paged_pool": 8454224,
+        "peak_nonpaged_pool": 442784,
+        "nonpaged_pool": 206840,
+        "pagefile": 8292073472,
+        "peak_pagefile": 8630611968,
+        "private": 8292073472
+      },
+      "cpu": {
+        "user": 708.328125,
+        "system": 108.109375,
+        "children_user": 0.0,
+        "children_system": 0.0
+      },
+      "io": {
+        "read_count": 15104,
+        "write_count": 370683,
+        "read_bytes": 1066437909,
+        "write_bytes": 1098379348,
+        "other_count": 2860934,
+        "other_bytes": 85972512
+      }
+    }
+  },
+  {
+    "status": "complete",
+    "kind": "branch",
+    "protocol_version": "85_onset_reuse_pilot_v1",
+    "parent_id": "R03",
+    "future_id": "F02",
+    "arm": "RANDOM_PRE",
+    "cell_number": 9,
+    "attempt": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21\\jobs\\R03_F02_RANDOM_PRE\\20261106T061114Z_attempt_96b86a9a",
+    "train_issued": 64000,
+    "train_completed": 64000,
+    "eval_issued": 96000,
+    "eval_completed": 96000,
+    "evaluation_episodes": 192,
+    "final_full": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21\\jobs\\R03_F02_RANDOM_PRE\\20261106T061114Z_attempt_96b86a9a\\checkpoints\\full\\064000",
+    "final_model_hash": "24e18db7c250a422b7e7a0e87669648f64ef85002cb3e6cb18f4e711a278b026",
+    "usage": {
+      "protocol_version": "85_onset_reuse_pilot_v1",
+      "parent_id": "R03",
+      "future_id": "F02",
+      "arm": "RANDOM_PRE",
+      "cell_number": 9,
+      "actual_train_step": 1064000,
+      "update_id": 1063000,
+      "native_draw_count": 16384000,
+      "native_actual_use": 15358327,
+      "archive_actual_use": 1025673,
+      "native_task_draw_counts": [
+        4106175,
+        4099422,
+        4090477,
+        4087926
+      ],
+      "archive_draw_hash": "29edc8a6cf0b46727d95c90ecdd94fecd2edd2113722cb49016cd6d3e53acbfe",
+      "replacement_mask_hash": "341ff8031ec96dc7c27a0d93340cdcd5290b2fbd29e62fa6fd699247878ec070",
+      "archive_actor_use": 1025673,
+      "archive_critic_use": 1025673
+    },
+    "completed_at": "2026-11-06T06:37:45.891383+00:00",
+    "wall_seconds": 1591.7871455999557,
+    "resource_costs": {
+      "memory": {
+        "rss": 4694347776,
+        "vms": 8267759616,
+        "num_page_faults": 4719833,
+        "peak_wset": 4727791616,
+        "wset": 4694347776,
+        "peak_paged_pool": 8588624,
+        "paged_pool": 8453968,
+        "peak_nonpaged_pool": 443056,
+        "nonpaged_pool": 207248,
+        "pagefile": 8267759616,
+        "peak_pagefile": 8608624640,
+        "private": 8267759616
+      },
+      "cpu": {
+        "user": 666.0625,
+        "system": 101.796875,
+        "children_user": 0.0,
+        "children_system": 0.0
+      },
+      "io": {
+        "read_count": 15115,
+        "write_count": 370658,
+        "read_bytes": 1066960260,
+        "write_bytes": 1098918874,
+        "other_count": 2859967,
+        "other_bytes": 85991800
+      }
+    }
+  },
+  {
+    "status": "complete",
+    "kind": "branch",
+    "protocol_version": "85_onset_reuse_pilot_v1",
+    "parent_id": "R04",
+    "future_id": "F01",
+    "arm": "BASE",
+    "cell_number": 28,
+    "attempt": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21\\jobs\\R04_F01_BASE\\20261106T102347Z_attempt_b2a00c34",
+    "train_issued": 64000,
+    "train_completed": 64000,
+    "eval_issued": 96000,
+    "eval_completed": 96000,
+    "evaluation_episodes": 192,
+    "final_full": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21\\jobs\\R04_F01_BASE\\20261106T102347Z_attempt_b2a00c34\\checkpoints\\full\\064000",
+    "final_model_hash": "fa570a058b7663fd66e1ff60a035eb6664a008ed5cde7cc6d2c708cac365a498",
+    "usage": {
+      "protocol_version": "85_onset_reuse_pilot_v1",
+      "parent_id": "R04",
+      "future_id": "F01",
+      "arm": "BASE",
+      "cell_number": 28,
+      "actual_train_step": 1064000,
+      "update_id": 1063000,
+      "native_draw_count": 16384000,
+      "native_actual_use": 16384000,
+      "archive_actual_use": 0,
+      "native_task_draw_counts": [
+        4089149,
+        4109837,
+        4085979,
+        4099035
+      ],
+      "archive_draw_hash": "e94fe9cbb125349d7cda3692e8a4cfe95de97614176448fee0fc31252df3c9bd",
+      "replacement_mask_hash": "1c52568c51160cc15af5fc3556f5f5c2af42c2525387737c51bc4161dd8522fe",
+      "archive_actor_use": 0,
+      "archive_critic_use": 0
+    },
+    "completed_at": "2026-11-06T10:47:52.527469+00:00",
+    "wall_seconds": 1444.8034512000158,
+    "resource_costs": {
+      "memory": {
+        "rss": 4690169856,
+        "vms": 8283398144,
+        "num_page_faults": 4718308,
+        "peak_wset": 4722917376,
+        "wset": 4690169856,
+        "peak_paged_pool": 8590224,
+        "paged_pool": 8455568,
+        "peak_nonpaged_pool": 443056,
+        "nonpaged_pool": 207248,
+        "pagefile": 8283398144,
+        "peak_pagefile": 8623243264,
+        "private": 8283398144
+      },
+      "cpu": {
+        "user": 664.09375,
+        "system": 90.46875,
+        "children_user": 0.0,
+        "children_system": 0.0
+      },
+      "io": {
+        "read_count": 15105,
+        "write_count": 370714,
+        "read_bytes": 1066430918,
+        "write_bytes": 1098489568,
+        "other_count": 2860387,
+        "other_bytes": 85966760
+      }
+    }
+  },
+  {
+    "status": "complete",
+    "kind": "branch",
+    "protocol_version": "85_onset_reuse_pilot_v1",
+    "parent_id": "R04",
+    "future_id": "F01",
+    "arm": "ONSET",
+    "cell_number": 19,
+    "attempt": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21\\jobs\\R04_F01_ONSET\\20261106T082911Z_attempt_9eb41ebe",
+    "train_issued": 64000,
+    "train_completed": 64000,
+    "eval_issued": 96000,
+    "eval_completed": 96000,
+    "evaluation_episodes": 192,
+    "final_full": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21\\jobs\\R04_F01_ONSET\\20261106T082911Z_attempt_9eb41ebe\\checkpoints\\full\\064000",
+    "final_model_hash": "f7469dd49729be29ef651dff94c3a262f515ac698dd87b77065be2b8503e8243",
+    "usage": {
+      "protocol_version": "85_onset_reuse_pilot_v1",
+      "parent_id": "R04",
+      "future_id": "F01",
+      "arm": "ONSET",
+      "cell_number": 19,
+      "actual_train_step": 1064000,
+      "update_id": 1063000,
+      "native_draw_count": 16384000,
+      "native_actual_use": 15361546,
+      "archive_actual_use": 1022454,
+      "native_task_draw_counts": [
+        4089149,
+        4109837,
+        4085979,
+        4099035
+      ],
+      "archive_draw_hash": "e94fe9cbb125349d7cda3692e8a4cfe95de97614176448fee0fc31252df3c9bd",
+      "replacement_mask_hash": "91fb1cb74e4efe944f6b393b42b6152f379be6a148e42d0f8977831603e7d5dc",
+      "archive_actor_use": 1022454,
+      "archive_critic_use": 1022454
+    },
+    "completed_at": "2026-11-06T08:58:55.624621+00:00",
+    "wall_seconds": 1784.4238303999882,
+    "resource_costs": {
+      "memory": {
+        "rss": 4333981696,
+        "vms": 8288452608,
+        "num_page_faults": 4721362,
+        "peak_wset": 4635377664,
+        "wset": 4333981696,
+        "peak_paged_pool": 8588880,
+        "paged_pool": 8454224,
+        "peak_nonpaged_pool": 442376,
+        "nonpaged_pool": 206432,
+        "pagefile": 8288452608,
+        "peak_pagefile": 8629248000,
+        "private": 8288452608
+      },
+      "cpu": {
+        "user": 418.75,
+        "system": 65.75,
+        "children_user": 0.0,
+        "children_system": 0.0
+      },
+      "io": {
+        "read_count": 15089,
+        "write_count": 370634,
+        "read_bytes": 1064785256,
+        "write_bytes": 1096838773,
+        "other_count": 2864537,
+        "other_bytes": 85979264
+      }
+    }
+  },
+  {
+    "status": "complete",
+    "kind": "branch",
+    "protocol_version": "85_onset_reuse_pilot_v1",
+    "parent_id": "R04",
+    "future_id": "F01",
+    "arm": "RANDOM_PRE",
+    "cell_number": 18,
+    "attempt": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21\\jobs\\R04_F01_RANDOM_PRE\\20261106T080101Z_attempt_dcb6aeae",
+    "train_issued": 64000,
+    "train_completed": 64000,
+    "eval_issued": 96000,
+    "eval_completed": 96000,
+    "evaluation_episodes": 192,
+    "final_full": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21\\jobs\\R04_F01_RANDOM_PRE\\20261106T080101Z_attempt_dcb6aeae\\checkpoints\\full\\064000",
+    "final_model_hash": "f738b68bc4de6c6fb00ae3312095d9193a16b956172b2d5c9317f71bd2d8a5f2",
+    "usage": {
+      "protocol_version": "85_onset_reuse_pilot_v1",
+      "parent_id": "R04",
+      "future_id": "F01",
+      "arm": "RANDOM_PRE",
+      "cell_number": 18,
+      "actual_train_step": 1064000,
+      "update_id": 1063000,
+      "native_draw_count": 16384000,
+      "native_actual_use": 15361546,
+      "archive_actual_use": 1022454,
+      "native_task_draw_counts": [
+        4089149,
+        4109837,
+        4085979,
+        4099035
+      ],
+      "archive_draw_hash": "e94fe9cbb125349d7cda3692e8a4cfe95de97614176448fee0fc31252df3c9bd",
+      "replacement_mask_hash": "91fb1cb74e4efe944f6b393b42b6152f379be6a148e42d0f8977831603e7d5dc",
+      "archive_actor_use": 1022454,
+      "archive_critic_use": 1022454
+    },
+    "completed_at": "2026-11-06T08:30:33.740223+00:00",
+    "wall_seconds": 1772.4346778000472,
+    "resource_costs": {
+      "memory": {
+        "rss": 4691693568,
+        "vms": 8289972224,
+        "num_page_faults": 4722084,
+        "peak_wset": 4725084160,
+        "wset": 4691693568,
+        "peak_paged_pool": 8588880,
+        "paged_pool": 8454224,
+        "peak_nonpaged_pool": 442104,
+        "nonpaged_pool": 206432,
+        "pagefile": 8289972224,
+        "peak_pagefile": 8626974720,
+        "private": 8289972224
+      },
+      "cpu": {
+        "user": 444.984375,
+        "system": 70.375,
+        "children_user": 0.0,
+        "children_system": 0.0
+      },
+      "io": {
+        "read_count": 15088,
+        "write_count": 370695,
+        "read_bytes": 1065788763,
+        "write_bytes": 1097866897,
+        "other_count": 2861488,
+        "other_bytes": 85998616
+      }
+    }
+  },
+  {
+    "status": "complete",
+    "kind": "branch",
+    "protocol_version": "85_onset_reuse_pilot_v1",
+    "parent_id": "R04",
+    "future_id": "F02",
+    "arm": "BASE",
+    "cell_number": 1,
+    "attempt": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21\\jobs\\R04_F02_BASE\\20261106T043032Z_attempt_2d51d3f1",
+    "train_issued": 64000,
+    "train_completed": 64000,
+    "eval_issued": 96000,
+    "eval_completed": 96000,
+    "evaluation_episodes": 192,
+    "final_full": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21\\jobs\\R04_F02_BASE\\20261106T043032Z_attempt_2d51d3f1\\checkpoints\\full\\064000",
+    "final_model_hash": "0d186ae82b5540118a705c4ab1ebae616901d4ae6b916d2d97413efcd96e491e",
+    "usage": {
+      "protocol_version": "85_onset_reuse_pilot_v1",
+      "parent_id": "R04",
+      "future_id": "F02",
+      "arm": "BASE",
+      "cell_number": 1,
+      "actual_train_step": 1064000,
+      "update_id": 1063000,
+      "native_draw_count": 16384000,
+      "native_actual_use": 16384000,
+      "archive_actual_use": 0,
+      "native_task_draw_counts": [
+        4091016,
+        4096349,
+        4109871,
+        4086764
+      ],
+      "archive_draw_hash": "10eed710284237489093ea71543c4194f5d947d81fbdbb2440b44928e4f26b6a",
+      "replacement_mask_hash": "1c52568c51160cc15af5fc3556f5f5c2af42c2525387737c51bc4161dd8522fe",
+      "archive_actor_use": 0,
+      "archive_critic_use": 0
+    },
+    "completed_at": "2026-11-06T04:54:47.048922+00:00",
+    "wall_seconds": 1454.966558199958,
+    "resource_costs": {
+      "memory": {
+        "rss": 4691640320,
+        "vms": 8259899392,
+        "num_page_faults": 4720439,
+        "peak_wset": 4725108736,
+        "wset": 4691640320,
+        "peak_paged_pool": 8588624,
+        "paged_pool": 8453968,
+        "peak_nonpaged_pool": 441696,
+        "nonpaged_pool": 206432,
+        "pagefile": 8259899392,
+        "peak_pagefile": 8460722176,
+        "private": 8259899392
+      },
+      "cpu": {
+        "user": 594.171875,
+        "system": 81.34375,
+        "children_user": 0.0,
+        "children_system": 0.0
+      },
+      "io": {
+        "read_count": 15087,
+        "write_count": 370715,
+        "read_bytes": 1065863523,
+        "write_bytes": 1097912166,
+        "other_count": 2860941,
+        "other_bytes": 85972992
+      }
+    }
+  },
+  {
+    "status": "complete",
+    "kind": "branch",
+    "protocol_version": "85_onset_reuse_pilot_v1",
+    "parent_id": "R04",
+    "future_id": "F02",
+    "arm": "ONSET",
+    "cell_number": 4,
+    "attempt": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21\\jobs\\R04_F02_ONSET\\20261106T045501Z_attempt_959be4cc",
+    "train_issued": 64000,
+    "train_completed": 64000,
+    "eval_issued": 96000,
+    "eval_completed": 96000,
+    "evaluation_episodes": 192,
+    "final_full": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21\\jobs\\R04_F02_ONSET\\20261106T045501Z_attempt_959be4cc\\checkpoints\\full\\064000",
+    "final_model_hash": "31d97919f017cc86ecdb7497715d7787cd494ae75392bb751d03a3ffd535effb",
+    "usage": {
+      "protocol_version": "85_onset_reuse_pilot_v1",
+      "parent_id": "R04",
+      "future_id": "F02",
+      "arm": "ONSET",
+      "cell_number": 4,
+      "actual_train_step": 1064000,
+      "update_id": 1063000,
+      "native_draw_count": 16384000,
+      "native_actual_use": 15362311,
+      "archive_actual_use": 1021689,
+      "native_task_draw_counts": [
+        4091016,
+        4096349,
+        4109871,
+        4086764
+      ],
+      "archive_draw_hash": "10eed710284237489093ea71543c4194f5d947d81fbdbb2440b44928e4f26b6a",
+      "replacement_mask_hash": "89ebb7d1f33441cf6ef459e1f4ac8b509d2522b89f1eb736c45b2e1e5507e73d",
+      "archive_actor_use": 1021689,
+      "archive_critic_use": 1021689
+    },
+    "completed_at": "2026-11-06T05:21:17.994236+00:00",
+    "wall_seconds": 1576.9060112000443,
+    "resource_costs": {
+      "memory": {
+        "rss": 4698267648,
+        "vms": 8263213056,
+        "num_page_faults": 4721002,
+        "peak_wset": 4731715584,
+        "wset": 4698267648,
+        "peak_paged_pool": 8588880,
+        "paged_pool": 8454224,
+        "peak_nonpaged_pool": 442784,
+        "nonpaged_pool": 206840,
+        "pagefile": 8263213056,
+        "peak_pagefile": 8602112000,
+        "private": 8263213056
+      },
+      "cpu": {
+        "user": 679.5625,
+        "system": 107.390625,
+        "children_user": 0.0,
+        "children_system": 0.0
+      },
+      "io": {
+        "read_count": 15084,
+        "write_count": 370698,
+        "read_bytes": 1065768983,
+        "write_bytes": 1097920055,
+        "other_count": 2859814,
+        "other_bytes": 85970534
+      }
+    }
+  },
+  {
+    "status": "complete",
+    "kind": "branch",
+    "protocol_version": "85_onset_reuse_pilot_v1",
+    "parent_id": "R04",
+    "future_id": "F02",
+    "arm": "RANDOM_PRE",
+    "cell_number": 14,
+    "attempt": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21\\jobs\\R04_F02_RANDOM_PRE\\20261106T070507Z_attempt_e34431be",
+    "train_issued": 64000,
+    "train_completed": 64000,
+    "eval_issued": 96000,
+    "eval_completed": 96000,
+    "evaluation_episodes": 192,
+    "final_full": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21\\jobs\\R04_F02_RANDOM_PRE\\20261106T070507Z_attempt_e34431be\\checkpoints\\full\\064000",
+    "final_model_hash": "5b6e6c3775166ba1156c1082e84d7717642c836e5c86a36e5782ebdac500008b",
+    "usage": {
+      "protocol_version": "85_onset_reuse_pilot_v1",
+      "parent_id": "R04",
+      "future_id": "F02",
+      "arm": "RANDOM_PRE",
+      "cell_number": 14,
+      "actual_train_step": 1064000,
+      "update_id": 1063000,
+      "native_draw_count": 16384000,
+      "native_actual_use": 15362311,
+      "archive_actual_use": 1021689,
+      "native_task_draw_counts": [
+        4091016,
+        4096349,
+        4109871,
+        4086764
+      ],
+      "archive_draw_hash": "10eed710284237489093ea71543c4194f5d947d81fbdbb2440b44928e4f26b6a",
+      "replacement_mask_hash": "89ebb7d1f33441cf6ef459e1f4ac8b509d2522b89f1eb736c45b2e1e5507e73d",
+      "archive_actor_use": 1021689,
+      "archive_critic_use": 1021689
+    },
+    "completed_at": "2026-11-06T07:31:54.876103+00:00",
+    "wall_seconds": 1606.9099217000185,
+    "resource_costs": {
+      "memory": {
+        "rss": 4700291072,
+        "vms": 8268722176,
+        "num_page_faults": 4720711,
+        "peak_wset": 4733767680,
+        "wset": 4700291072,
+        "peak_paged_pool": 8588880,
+        "paged_pool": 8454224,
+        "peak_nonpaged_pool": 443192,
+        "nonpaged_pool": 207248,
+        "pagefile": 8268722176,
+        "peak_pagefile": 8609419264,
+        "private": 8268722176
+      },
+      "cpu": {
+        "user": 650.109375,
+        "system": 97.390625,
+        "children_user": 0.0,
+        "children_system": 0.0
+      },
+      "io": {
+        "read_count": 15107,
+        "write_count": 370718,
+        "read_bytes": 1066686910,
+        "write_bytes": 1098831822,
+        "other_count": 2859901,
+        "other_bytes": 85989944
+      }
+    }
+  },
+  {
+    "status": "complete",
+    "kind": "branch",
+    "protocol_version": "85_onset_reuse_pilot_v1",
+    "parent_id": "R05",
+    "future_id": "F01",
+    "arm": "BASE",
+    "cell_number": 22,
+    "attempt": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21\\jobs\\R05_F01_BASE\\20261106T090059Z_attempt_ab304cd3",
+    "train_issued": 64000,
+    "train_completed": 64000,
+    "eval_issued": 96000,
+    "eval_completed": 96000,
+    "evaluation_episodes": 192,
+    "final_full": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21\\jobs\\R05_F01_BASE\\20261106T090059Z_attempt_ab304cd3\\checkpoints\\full\\064000",
+    "final_model_hash": "b368ce5c2d3f5436a7351805c833c1b3e8af4f80a8d65249962a670ec3fdbdfe",
+    "usage": {
+      "protocol_version": "85_onset_reuse_pilot_v1",
+      "parent_id": "R05",
+      "future_id": "F01",
+      "arm": "BASE",
+      "cell_number": 22,
+      "actual_train_step": 1064000,
+      "update_id": 1063000,
+      "native_draw_count": 16384000,
+      "native_actual_use": 16384000,
+      "archive_actual_use": 0,
+      "native_task_draw_counts": [
+        4083570,
+        4092678,
+        4095065,
+        4112687
+      ],
+      "archive_draw_hash": "ae5d44af212931c7b752accbd0a21614fd88b3243c4c741c67819f84aefd6ada",
+      "replacement_mask_hash": "1c52568c51160cc15af5fc3556f5f5c2af42c2525387737c51bc4161dd8522fe",
+      "archive_actor_use": 0,
+      "archive_critic_use": 0
+    },
+    "completed_at": "2026-11-06T09:28:03.054876+00:00",
+    "wall_seconds": 1623.6004792000167,
+    "resource_costs": {
+      "memory": {
+        "rss": 4687003648,
+        "vms": 8276963328,
+        "num_page_faults": 4721888,
+        "peak_wset": 4720488448,
+        "wset": 4687003648,
+        "peak_paged_pool": 8588880,
+        "paged_pool": 8454224,
+        "peak_nonpaged_pool": 441424,
+        "nonpaged_pool": 205888,
+        "pagefile": 8276963328,
+        "peak_pagefile": 8617324544,
+        "private": 8276963328
+      },
+      "cpu": {
+        "user": 386.84375,
+        "system": 55.09375,
+        "children_user": 0.0,
+        "children_system": 0.0
+      },
+      "io": {
+        "read_count": 15072,
+        "write_count": 370494,
+        "read_bytes": 1063361944,
+        "write_bytes": 1095212090,
+        "other_count": 2861180,
+        "other_bytes": 85976824
+      }
+    }
+  },
+  {
+    "status": "complete",
+    "kind": "branch",
+    "protocol_version": "85_onset_reuse_pilot_v1",
+    "parent_id": "R05",
+    "future_id": "F01",
+    "arm": "ONSET",
+    "cell_number": 5,
+    "attempt": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21\\jobs\\R05_F01_ONSET\\20261106T051932Z_attempt_22ed4045",
+    "train_issued": 64000,
+    "train_completed": 64000,
+    "eval_issued": 96000,
+    "eval_completed": 96000,
+    "evaluation_episodes": 192,
+    "final_full": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21\\jobs\\R05_F01_ONSET\\20261106T051932Z_attempt_22ed4045\\checkpoints\\full\\064000",
+    "final_model_hash": "2ffbcf0a53fc43b3be0ff4587fa486ec447324726fd059a9f8258c10f97f4e48",
+    "usage": {
+      "protocol_version": "85_onset_reuse_pilot_v1",
+      "parent_id": "R05",
+      "future_id": "F01",
+      "arm": "ONSET",
+      "cell_number": 5,
+      "actual_train_step": 1064000,
+      "update_id": 1063000,
+      "native_draw_count": 16384000,
+      "native_actual_use": 15362827,
+      "archive_actual_use": 1021173,
+      "native_task_draw_counts": [
+        4083570,
+        4092678,
+        4095065,
+        4112687
+      ],
+      "archive_draw_hash": "ae5d44af212931c7b752accbd0a21614fd88b3243c4c741c67819f84aefd6ada",
+      "replacement_mask_hash": "854d11051ca98147b83569866beb14f619c1946363fc9345df0f2c8604dc80ad",
+      "archive_actor_use": 1021173,
+      "archive_critic_use": 1021173
+    },
+    "completed_at": "2026-11-06T05:46:14.629043+00:00",
+    "wall_seconds": 1601.7389688999392,
+    "resource_costs": {
+      "memory": {
+        "rss": 4698169344,
+        "vms": 8277012480,
+        "num_page_faults": 4722660,
+        "peak_wset": 4731609088,
+        "wset": 4698169344,
+        "peak_paged_pool": 8588880,
+        "paged_pool": 8454224,
+        "peak_nonpaged_pool": 443328,
+        "nonpaged_pool": 207520,
+        "pagefile": 8277012480,
+        "peak_pagefile": 8615985152,
+        "private": 8277012480
+      },
+      "cpu": {
+        "user": 665.828125,
+        "system": 98.328125,
+        "children_user": 0.0,
+        "children_system": 0.0
+      },
+      "io": {
+        "read_count": 15094,
+        "write_count": 370578,
+        "read_bytes": 1065279996,
+        "write_bytes": 1097299817,
+        "other_count": 2861939,
+        "other_bytes": 85972016
+      }
+    }
+  },
+  {
+    "status": "complete",
+    "kind": "branch",
+    "protocol_version": "85_onset_reuse_pilot_v1",
+    "parent_id": "R05",
+    "future_id": "F01",
+    "arm": "RANDOM_PRE",
+    "cell_number": 21,
+    "attempt": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21\\jobs\\R05_F01_RANDOM_PRE\\20261106T085927Z_attempt_983f536c",
+    "train_issued": 64000,
+    "train_completed": 64000,
+    "eval_issued": 96000,
+    "eval_completed": 96000,
+    "evaluation_episodes": 192,
+    "final_full": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21\\jobs\\R05_F01_RANDOM_PRE\\20261106T085927Z_attempt_983f536c\\checkpoints\\full\\064000",
+    "final_model_hash": "6481249598e717427f5de2ad56b0dc4fac8279fde843e53c983548954ec32115",
+    "usage": {
+      "protocol_version": "85_onset_reuse_pilot_v1",
+      "parent_id": "R05",
+      "future_id": "F01",
+      "arm": "RANDOM_PRE",
+      "cell_number": 21,
+      "actual_train_step": 1064000,
+      "update_id": 1063000,
+      "native_draw_count": 16384000,
+      "native_actual_use": 15362827,
+      "archive_actual_use": 1021173,
+      "native_task_draw_counts": [
+        4083570,
+        4092678,
+        4095065,
+        4112687
+      ],
+      "archive_draw_hash": "ae5d44af212931c7b752accbd0a21614fd88b3243c4c741c67819f84aefd6ada",
+      "replacement_mask_hash": "854d11051ca98147b83569866beb14f619c1946363fc9345df0f2c8604dc80ad",
+      "archive_actor_use": 1021173,
+      "archive_critic_use": 1021173
+    },
+    "completed_at": "2026-11-06T09:28:59.446917+00:00",
+    "wall_seconds": 1772.2802455000347,
+    "resource_costs": {
+      "memory": {
+        "rss": 4431155200,
+        "vms": 8283578368,
+        "num_page_faults": 4722270,
+        "peak_wset": 4635766784,
+        "wset": 4431155200,
+        "peak_paged_pool": 8588880,
+        "paged_pool": 8454224,
+        "peak_nonpaged_pool": 441968,
+        "nonpaged_pool": 206024,
+        "pagefile": 8283578368,
+        "peak_pagefile": 8623218688,
+        "private": 8283578368
+      },
+      "cpu": {
+        "user": 421.078125,
+        "system": 68.25,
+        "children_user": 0.0,
+        "children_system": 0.0
+      },
+      "io": {
+        "read_count": 15104,
+        "write_count": 370544,
+        "read_bytes": 1064973972,
+        "write_bytes": 1096940043,
+        "other_count": 2860566,
+        "other_bytes": 86000008
+      }
+    }
+  },
+  {
+    "status": "complete",
+    "kind": "branch",
+    "protocol_version": "85_onset_reuse_pilot_v1",
+    "parent_id": "R05",
+    "future_id": "F02",
+    "arm": "BASE",
+    "cell_number": 7,
+    "attempt": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21\\jobs\\R05_F02_BASE\\20261106T054637Z_attempt_c4494671",
+    "train_issued": 64000,
+    "train_completed": 64000,
+    "eval_issued": 96000,
+    "eval_completed": 96000,
+    "evaluation_episodes": 192,
+    "final_full": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21\\jobs\\R05_F02_BASE\\20261106T054637Z_attempt_c4494671\\checkpoints\\full\\064000",
+    "final_model_hash": "918df5847449579b2e377223cd70865104dee928dd09940686e9917c04f0105b",
+    "usage": {
+      "protocol_version": "85_onset_reuse_pilot_v1",
+      "parent_id": "R05",
+      "future_id": "F02",
+      "arm": "BASE",
+      "cell_number": 7,
+      "actual_train_step": 1064000,
+      "update_id": 1063000,
+      "native_draw_count": 16384000,
+      "native_actual_use": 16384000,
+      "archive_actual_use": 0,
+      "native_task_draw_counts": [
+        4082492,
+        4107863,
+        4081190,
+        4112455
+      ],
+      "archive_draw_hash": "8fd7700c9d0fedf20f695bd19e60d1f081fceee8a56d9701eb5bed5aaac4fbd3",
+      "replacement_mask_hash": "1c52568c51160cc15af5fc3556f5f5c2af42c2525387737c51bc4161dd8522fe",
+      "archive_actor_use": 0,
+      "archive_critic_use": 0
+    },
+    "completed_at": "2026-11-06T06:10:46.551540+00:00",
+    "wall_seconds": 1448.610124800005,
+    "resource_costs": {
+      "memory": {
+        "rss": 4695830528,
+        "vms": 8288931840,
+        "num_page_faults": 4722651,
+        "peak_wset": 4729237504,
+        "wset": 4695830528,
+        "peak_paged_pool": 8588880,
+        "paged_pool": 8454224,
+        "peak_nonpaged_pool": 442512,
+        "nonpaged_pool": 206840,
+        "pagefile": 8288931840,
+        "peak_pagefile": 8629334016,
+        "private": 8288931840
+      },
+      "cpu": {
+        "user": 621.421875,
+        "system": 84.59375,
+        "children_user": 0.0,
+        "children_system": 0.0
+      },
+      "io": {
+        "read_count": 15064,
+        "write_count": 370493,
+        "read_bytes": 1063056823,
+        "write_bytes": 1094877651,
+        "other_count": 2860640,
+        "other_bytes": 85968184
+      }
+    }
+  },
+  {
+    "status": "complete",
+    "kind": "branch",
+    "protocol_version": "85_onset_reuse_pilot_v1",
+    "parent_id": "R05",
+    "future_id": "F02",
+    "arm": "ONSET",
+    "cell_number": 11,
+    "attempt": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21\\jobs\\R05_F02_ONSET\\20261106T063809Z_attempt_023a6fd7",
+    "train_issued": 64000,
+    "train_completed": 64000,
+    "eval_issued": 96000,
+    "eval_completed": 96000,
+    "evaluation_episodes": 192,
+    "final_full": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21\\jobs\\R05_F02_ONSET\\20261106T063809Z_attempt_023a6fd7\\checkpoints\\full\\064000",
+    "final_model_hash": "2039c24e31fe0cb3b22d8161e9f167a66247abe304f5bc92ba2c3f1a7d6ca8bb",
+    "usage": {
+      "protocol_version": "85_onset_reuse_pilot_v1",
+      "parent_id": "R05",
+      "future_id": "F02",
+      "arm": "ONSET",
+      "cell_number": 11,
+      "actual_train_step": 1064000,
+      "update_id": 1063000,
+      "native_draw_count": 16384000,
+      "native_actual_use": 15363799,
+      "archive_actual_use": 1020201,
+      "native_task_draw_counts": [
+        4082492,
+        4107863,
+        4081190,
+        4112455
+      ],
+      "archive_draw_hash": "8fd7700c9d0fedf20f695bd19e60d1f081fceee8a56d9701eb5bed5aaac4fbd3",
+      "replacement_mask_hash": "1e8a318ece94bb544073a33aa2bdd89186cc3a30c08916d4e5a630efb552d16f",
+      "archive_actor_use": 1020201,
+      "archive_critic_use": 1020201
+    },
+    "completed_at": "2026-11-06T07:04:29.194794+00:00",
+    "wall_seconds": 1579.6770364000695,
+    "resource_costs": {
+      "memory": {
+        "rss": 4691615744,
+        "vms": 8286900224,
+        "num_page_faults": 4721557,
+        "peak_wset": 4725043200,
+        "wset": 4691615744,
+        "peak_paged_pool": 8588624,
+        "paged_pool": 8453968,
+        "peak_nonpaged_pool": 443328,
+        "nonpaged_pool": 207384,
+        "pagefile": 8286900224,
+        "peak_pagefile": 8627433472,
+        "private": 8286900224
+      },
+      "cpu": {
+        "user": 651.140625,
+        "system": 102.21875,
+        "children_user": 0.0,
+        "children_system": 0.0
+      },
+      "io": {
+        "read_count": 15077,
+        "write_count": 370562,
+        "read_bytes": 1063979285,
+        "write_bytes": 1095903575,
+        "other_count": 2863390,
+        "other_bytes": 85972048
+      }
+    }
+  },
+  {
+    "status": "complete",
+    "kind": "branch",
+    "protocol_version": "85_onset_reuse_pilot_v1",
+    "parent_id": "R05",
+    "future_id": "F02",
+    "arm": "RANDOM_PRE",
+    "cell_number": 6,
+    "attempt": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21\\jobs\\R05_F02_RANDOM_PRE\\20261106T052149Z_attempt_0a78054e",
+    "train_issued": 64000,
+    "train_completed": 64000,
+    "eval_issued": 96000,
+    "eval_completed": 96000,
+    "evaluation_episodes": 192,
+    "final_full": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21\\jobs\\R05_F02_RANDOM_PRE\\20261106T052149Z_attempt_0a78054e\\checkpoints\\full\\064000",
+    "final_model_hash": "42feab599473f7f8433cd9c73fe6fa3ee16fd22761e1157619f257c7fb63d136",
+    "usage": {
+      "protocol_version": "85_onset_reuse_pilot_v1",
+      "parent_id": "R05",
+      "future_id": "F02",
+      "arm": "RANDOM_PRE",
+      "cell_number": 6,
+      "actual_train_step": 1064000,
+      "update_id": 1063000,
+      "native_draw_count": 16384000,
+      "native_actual_use": 15363799,
+      "archive_actual_use": 1020201,
+      "native_task_draw_counts": [
+        4082492,
+        4107863,
+        4081190,
+        4112455
+      ],
+      "archive_draw_hash": "8fd7700c9d0fedf20f695bd19e60d1f081fceee8a56d9701eb5bed5aaac4fbd3",
+      "replacement_mask_hash": "1e8a318ece94bb544073a33aa2bdd89186cc3a30c08916d4e5a630efb552d16f",
+      "archive_actor_use": 1020201,
+      "archive_critic_use": 1020201
+    },
+    "completed_at": "2026-11-06T05:48:20.351830+00:00",
+    "wall_seconds": 1591.3372226000065,
+    "resource_costs": {
+      "memory": {
+        "rss": 4695314432,
+        "vms": 8288604160,
+        "num_page_faults": 4720482,
+        "peak_wset": 4728713216,
+        "wset": 4695314432,
+        "peak_paged_pool": 8588880,
+        "paged_pool": 8454224,
+        "peak_nonpaged_pool": 442784,
+        "nonpaged_pool": 206976,
+        "pagefile": 8288604160,
+        "peak_pagefile": 8628342784,
+        "private": 8288604160
+      },
+      "cpu": {
+        "user": 659.5625,
+        "system": 99.75,
+        "children_user": 0.0,
+        "children_system": 0.0
+      },
+      "io": {
+        "read_count": 15072,
+        "write_count": 370630,
+        "read_bytes": 1064360826,
+        "write_bytes": 1096337159,
+        "other_count": 2862845,
+        "other_bytes": 85991336
+      }
+    }
+  },
+  {
+    "status": "complete",
+    "kind": "shared_start",
+    "parent_id": "R01",
+    "attempt": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21\\jobs\\START_R01\\20261106T042300Z_attempt_9198b7b0",
+    "evaluation_episodes": 64,
+    "eval_issued": 32000,
+    "eval_completed": 32000,
+    "train_completed": 0,
+    "completed_at": "2026-11-06T04:24:17.747683+00:00",
+    "wall_seconds": 77.67462429997977,
+    "resource_costs": {
+      "memory": {
+        "rss": 4566630400,
+        "vms": 8152231936,
+        "num_page_faults": 1813611,
+        "peak_wset": 4582207488,
+        "wset": 4566630400,
+        "peak_paged_pool": 8243824,
+        "paged_pool": 8243824,
+        "peak_nonpaged_pool": 201656,
+        "nonpaged_pool": 201208,
+        "pagefile": 8152231936,
+        "peak_pagefile": 8152231936,
+        "private": 8152231936
+      },
+      "cpu": {
+        "user": 31.6875,
+        "system": 4.6875,
+        "children_user": 0.0,
+        "children_system": 0.0
+      },
+      "io": {
+        "read_count": 6877,
+        "write_count": 70324,
+        "read_bytes": 192065840,
+        "write_bytes": 17454018,
+        "other_count": 155599,
+        "other_bytes": 7009050
+      }
+    }
+  },
+  {
+    "status": "complete",
+    "kind": "shared_start",
+    "parent_id": "R02",
+    "attempt": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21\\jobs\\START_R02\\20261106T042429Z_attempt_a8c49d81",
+    "evaluation_episodes": 64,
+    "eval_issued": 32000,
+    "eval_completed": 32000,
+    "train_completed": 0,
+    "completed_at": "2026-11-06T04:25:43.830680+00:00",
+    "wall_seconds": 73.84497580002062,
+    "resource_costs": {
+      "memory": {
+        "rss": 4567846912,
+        "vms": 8151461888,
+        "num_page_faults": 1813498,
+        "peak_wset": 4583505920,
+        "wset": 4567846912,
+        "peak_paged_pool": 8243824,
+        "paged_pool": 8243824,
+        "peak_nonpaged_pool": 201792,
+        "nonpaged_pool": 201344,
+        "pagefile": 8151461888,
+        "peak_pagefile": 8151461888,
+        "private": 8151461888
+      },
+      "cpu": {
+        "user": 34.765625,
+        "system": 3.421875,
+        "children_user": 0.0,
+        "children_system": 0.0
+      },
+      "io": {
+        "read_count": 6877,
+        "write_count": 70362,
+        "read_bytes": 192211510,
+        "write_bytes": 17599707,
+        "other_count": 155596,
+        "other_bytes": 7009050
+      }
+    }
+  },
+  {
+    "status": "complete",
+    "kind": "shared_start",
+    "parent_id": "R03",
+    "attempt": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21\\jobs\\START_R03\\20261106T042600Z_attempt_62a6101b",
+    "evaluation_episodes": 64,
+    "eval_issued": 32000,
+    "eval_completed": 32000,
+    "train_completed": 0,
+    "completed_at": "2026-11-06T04:27:15.904693+00:00",
+    "wall_seconds": 75.44968899991363,
+    "resource_costs": {
+      "memory": {
+        "rss": 4569022464,
+        "vms": 8156200960,
+        "num_page_faults": 1812652,
+        "peak_wset": 4584554496,
+        "wset": 4569022464,
+        "peak_paged_pool": 8243824,
+        "paged_pool": 8243824,
+        "peak_nonpaged_pool": 201656,
+        "nonpaged_pool": 201208,
+        "pagefile": 8156200960,
+        "peak_pagefile": 8156528640,
+        "private": 8156200960
+      },
+      "cpu": {
+        "user": 31.90625,
+        "system": 2.875,
+        "children_user": 0.0,
+        "children_system": 0.0
+      },
+      "io": {
+        "read_count": 6883,
+        "write_count": 70369,
+        "read_bytes": 192618121,
+        "write_bytes": 17905620,
+        "other_count": 155598,
+        "other_bytes": 7009050
+      }
+    }
+  },
+  {
+    "status": "complete",
+    "kind": "shared_start",
+    "parent_id": "R04",
+    "attempt": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21\\jobs\\START_R04\\20261106T042730Z_attempt_46912061",
+    "evaluation_episodes": 64,
+    "eval_issued": 32000,
+    "eval_completed": 32000,
+    "train_completed": 0,
+    "completed_at": "2026-11-06T04:28:45.178625+00:00",
+    "wall_seconds": 74.35230590007268,
+    "resource_costs": {
+      "memory": {
+        "rss": 4567019520,
+        "vms": 8150503424,
+        "num_page_faults": 1812061,
+        "peak_wset": 4582690816,
+        "wset": 4567019520,
+        "peak_paged_pool": 8243824,
+        "paged_pool": 8243824,
+        "peak_nonpaged_pool": 201656,
+        "nonpaged_pool": 201208,
+        "pagefile": 8150503424,
+        "peak_pagefile": 8150503424,
+        "private": 8150503424
+      },
+      "cpu": {
+        "user": 29.15625,
+        "system": 2.84375,
+        "children_user": 0.0,
+        "children_system": 0.0
+      },
+      "io": {
+        "read_count": 6875,
+        "write_count": 70353,
+        "read_bytes": 192090167,
+        "write_bytes": 17477436,
+        "other_count": 155596,
+        "other_bytes": 7009050
+      }
+    }
+  },
+  {
+    "status": "complete",
+    "kind": "shared_start",
+    "parent_id": "R05",
+    "attempt": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21\\jobs\\START_R05\\20261106T042901Z_attempt_e2cb9765",
+    "evaluation_episodes": 64,
+    "eval_issued": 32000,
+    "eval_completed": 32000,
+    "train_completed": 0,
+    "completed_at": "2026-11-06T04:30:17.746294+00:00",
+    "wall_seconds": 76.40355779998936,
+    "resource_costs": {
+      "memory": {
+        "rss": 4565299200,
+        "vms": 8152834048,
+        "num_page_faults": 1811609,
+        "peak_wset": 4580614144,
+        "wset": 4565299200,
+        "peak_paged_pool": 8243824,
+        "paged_pool": 8243824,
+        "peak_nonpaged_pool": 201656,
+        "nonpaged_pool": 201208,
+        "pagefile": 8152834048,
+        "peak_pagefile": 8153096192,
+        "private": 8152834048
+      },
+      "cpu": {
+        "user": 33.203125,
+        "system": 3.09375,
+        "children_user": 0.0,
+        "children_system": 0.0
+      },
+      "io": {
+        "read_count": 6883,
+        "write_count": 70318,
+        "read_bytes": 192270992,
+        "write_bytes": 17659165,
+        "other_count": 155601,
+        "other_bytes": 7012502
+      }
+    }
+  }
+]

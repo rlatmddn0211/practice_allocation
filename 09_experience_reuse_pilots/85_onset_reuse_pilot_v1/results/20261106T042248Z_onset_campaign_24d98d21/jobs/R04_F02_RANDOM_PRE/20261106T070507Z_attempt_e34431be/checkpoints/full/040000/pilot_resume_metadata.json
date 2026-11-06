@@ -1,0 +1,37 @@
+{
+  "protocol_version": "85_onset_reuse_pilot_v1",
+  "context": {
+    "protocol_version": "85_onset_reuse_pilot_v1",
+    "parent_id": "R04",
+    "future_id": "F02",
+    "arm": "RANDOM_PRE",
+    "cell_number": 14
+  },
+  "streams": {
+    "rollout_action": "2086919902",
+    "task_order": "2537070092",
+    "reset_goal": "4030808541",
+    "native_replay": "517600961",
+    "learning_action": "3858920755",
+    "archive_replacement": "2547543030",
+    "evaluation": "2583241096",
+    "logging_video": "2773387558"
+  },
+  "id_prefix": 1140000000,
+  "pilot_source_hashes": {
+    "analysis_contract.py": "ccda2a05f00c943a87753f06695756d2021bf044b2408c5ecca021ef2a8e27fc",
+    "audit_initial_state.py": "1022fe246741e15ffd09283c5753235f248018fd26f99c1123e0a58750e509db",
+    "bootstrap_runtime.py": "c599a9a054cc2adfa2ba50bce8d914b277c882b822335efd603cc52df94503d2",
+    "campaign.py": "762b424fa11667943be030b13a18947f898f2b0a31e7d05d4db06b0f14d50665",
+    "common.py": "d8ec89fe23cbd4075993f9f17e345c76e8b49f8d600f19aeb0c8670e13a2dab8",
+    "detector.py": "73fd27a2e8cc5b0b14b6307bdaf9cd97a25a543a40c310b3f6b962c73dcb9918",
+    "inspect_inputs.py": "7b8bb5a3543aac6cbc72bfeb2703b6cf217b60f78e9737456bbd55d2360564ed",
+    "pilot_evaluation.py": "f1909ece5466d457af835738a4e985d783d0cf339108398b507b0810bc0c6ef2",
+    "pilot_runtime.py": "4e1d2210463ef9de28e46268a2d17e0f264e7c8385871fd70b8bab1c44a19b03",
+    "prepare.py": "e83670f19ef3222e066408c9e34dfac87abc356cd334e72ad70a8c352b05d4ce",
+    "sampler_contract.py": "48add7a4a795c73678201dd28e097cbfdac31c41316f2b58891a256db8f504c8",
+    "technical.py": "b9575162047f1dd80d7f0076a4e71c851d0500fb26fbbdd638b4856a244d2863",
+    "verify_preparation.py": "e65f829c1e6e5b2218d8fa9fc162b0841e30d17cb183317e82fc627a72fa6dd7",
+    "worker.py": "2e603ea9c4a671210a9edd0b4294e9bfd19dc20019e36551924a93d82d78d090"
+  }
+}

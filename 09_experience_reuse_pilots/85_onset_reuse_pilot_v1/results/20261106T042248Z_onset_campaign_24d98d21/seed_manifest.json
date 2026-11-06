@@ -1,0 +1,158 @@
+{
+  "algorithm": "SHA256 first 64 bits little-endian; continuation seeds reduced mod 2**32 for legacy NumPy compatibility; random-window seeds use all 64 bits with explicit PCG64",
+  "random_pre": 41031,
+  "order": 53001,
+  "bootstrap": 54001,
+  "parent_future_streams": [
+    {
+      "parent_id": "R01",
+      "future_id": "F01",
+      "root_seed": 52001,
+      "streams": {
+        "rollout_action": "1239308344",
+        "task_order": "2841294693",
+        "reset_goal": "3582573202",
+        "native_replay": "3936654608",
+        "learning_action": "2278829400",
+        "archive_replacement": "42431373",
+        "evaluation": "3937876311",
+        "logging_video": "1210588119"
+      }
+    },
+    {
+      "parent_id": "R01",
+      "future_id": "F02",
+      "root_seed": 52002,
+      "streams": {
+        "rollout_action": "1653335116",
+        "task_order": "1315765710",
+        "reset_goal": "2408457233",
+        "native_replay": "1679274340",
+        "learning_action": "3800189180",
+        "archive_replacement": "64037099",
+        "evaluation": "3925004625",
+        "logging_video": "505378156"
+      }
+    },
+    {
+      "parent_id": "R02",
+      "future_id": "F01",
+      "root_seed": 52001,
+      "streams": {
+        "rollout_action": "1046301271",
+        "task_order": "1850881235",
+        "reset_goal": "3050018723",
+        "native_replay": "702133832",
+        "learning_action": "1321009248",
+        "archive_replacement": "2309226912",
+        "evaluation": "3245704453",
+        "logging_video": "237667539"
+      }
+    },
+    {
+      "parent_id": "R02",
+      "future_id": "F02",
+      "root_seed": 52002,
+      "streams": {
+        "rollout_action": "3052199264",
+        "task_order": "3020212650",
+        "reset_goal": "3469584053",
+        "native_replay": "2802215337",
+        "learning_action": "3372752848",
+        "archive_replacement": "283289136",
+        "evaluation": "3237742115",
+        "logging_video": "4118337860"
+      }
+    },
+    {
+      "parent_id": "R03",
+      "future_id": "F01",
+      "root_seed": 52001,
+      "streams": {
+        "rollout_action": "623382121",
+        "task_order": "4103732467",
+        "reset_goal": "1339868833",
+        "native_replay": "688075207",
+        "learning_action": "2792761192",
+        "archive_replacement": "2604115957",
+        "evaluation": "2063356968",
+        "logging_video": "958653491"
+      }
+    },
+    {
+      "parent_id": "R03",
+      "future_id": "F02",
+      "root_seed": 52002,
+      "streams": {
+        "rollout_action": "2744788751",
+        "task_order": "1819329955",
+        "reset_goal": "3889022619",
+        "native_replay": "3080304839",
+        "learning_action": "1279367677",
+        "archive_replacement": "1287043712",
+        "evaluation": "3279877586",
+        "logging_video": "410076586"
+      }
+    },
+    {
+      "parent_id": "R04",
+      "future_id": "F01",
+      "root_seed": 52001,
+      "streams": {
+        "rollout_action": "2813060164",
+        "task_order": "4163523584",
+        "reset_goal": "3207174837",
+        "native_replay": "1390474836",
+        "learning_action": "1732265440",
+        "archive_replacement": "3880672378",
+        "evaluation": "3474443907",
+        "logging_video": "1017620065"
+      }
+    },
+    {
+      "parent_id": "R04",
+      "future_id": "F02",
+      "root_seed": 52002,
+      "streams": {
+        "rollout_action": "2086919902",
+        "task_order": "2537070092",
+        "reset_goal": "4030808541",
+        "native_replay": "517600961",
+        "learning_action": "3858920755",
+        "archive_replacement": "2547543030",
+        "evaluation": "2583241096",
+        "logging_video": "2773387558"
+      }
+    },
+    {
+      "parent_id": "R05",
+      "future_id": "F01",
+      "root_seed": 52001,
+      "streams": {
+        "rollout_action": "2816308561",
+        "task_order": "2386120735",
+        "reset_goal": "1379638783",
+        "native_replay": "1959430887",
+        "learning_action": "2367166548",
+        "archive_replacement": "2180820081",
+        "evaluation": "1177439586",
+        "logging_video": "1688400462"
+      }
+    },
+    {
+      "parent_id": "R05",
+      "future_id": "F02",
+      "root_seed": 52002,
+      "streams": {
+        "rollout_action": "4021175543",
+        "task_order": "4041457839",
+        "reset_goal": "2720689626",
+        "native_replay": "4163138639",
+        "learning_action": "3808904347",
+        "archive_replacement": "2660414615",
+        "evaluation": "2316014839",
+        "logging_video": "3713155291"
+      }
+    }
+  ]
+}

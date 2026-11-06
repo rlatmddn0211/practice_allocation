@@ -1,0 +1,13 @@
+{
+  "preparation": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T040844Z_preparation_31c9735e",
+  "technical": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T041847Z_technical_validation_4f512db1",
+  "worker_count": 2,
+  "concurrent_assignment": "global fixed seeded order, first two jobs then next whenever a slot completes; one CUDA device, no arm-specific device",
+  "additional_full_every": 4000,
+  "additional_full_reason": "4k native block barriers limit nonrecoverable repeated work under remaining 5.1k technical/failure reserve",
+  "checkpoint_extra_storage_estimate_bytes": 31001960960,
+  "free_disk_bytes": 101480230912,
+  "normal_new_steps": 4960000,
+  "total_new_cap": 4970000,
+  "original_campaign_cost_not_recounted": 6604850
+}

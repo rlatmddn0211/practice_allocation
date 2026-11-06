@@ -1,0 +1,12 @@
+{
+  "snapshots": 66,
+  "evaluation_snapshots": 16,
+  "training_snapshots": 50,
+  "raw_reset_x_disagrees_with_saved_model_kinematics": 66,
+  "max_q0_derivation_abs_error": 9.364480229918589e-17,
+  "max_reset_YZ_disagreement_m": 0.0,
+  "physical_d0_min": 0.1899999999999994,
+  "physical_d0_max": 0.1899999999999994,
+  "conclusion": "Returned reset observation contains stale drawer X from pre-randomization forward data; actual saved-model handle position is reconstructed algebraically from current goal and slide q0.",
+  "permitted_mapping_correction": "Use physical h0=g+[0,0.19+q0,0] for detector d0 only. Preserve original replay obs and all detector constants. q0 comes from saved reset Y and fixed XML, never x1."
+}

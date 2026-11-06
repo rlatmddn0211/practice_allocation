@@ -27,3 +27,7 @@
 ## 2026-11-05 추가 게시
 
 - [83 — 기본 관측 81·82 결과 게시](83_basic_observation_results_publication_v1/README.md)
+
+## 2026-11-06 추가 게시
+
+- [86 — onset 재사용 파일럿85 결과 게시](86_onset_reuse_results_publication_v1/README.md)

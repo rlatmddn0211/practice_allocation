@@ -1,0 +1,27 @@
+{
+  "stage": "research_complete_pending_analysis",
+  "at": "2026-11-06T11:15:05.588748+00:00",
+  "completed_branches": 30,
+  "planned_branches": 30,
+  "completed_shared_parents": 5,
+  "completed_evaluation_episodes": 6080,
+  "running": [],
+  "failures": [],
+  "costs": {
+    "issued": {
+      "train": 1920000,
+      "post_eval": 2880000,
+      "start_eval": 160000,
+      "technical": 4900
+    },
+    "completed": {
+      "train": 1920000,
+      "post_eval": 2880000,
+      "start_eval": 160000,
+      "technical": 4900
+    },
+    "total_issued": 4964900,
+    "total_completed": 4964900,
+    "remaining": 5100
+  }
+}

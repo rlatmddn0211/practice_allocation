@@ -1,0 +1,33 @@
+{
+  "experiment_id": "85_onset_reuse_pilot_v1",
+  "protocol_version": "85_onset_reuse_pilot_v1",
+  "parent_id": "R05",
+  "future_id": "F01",
+  "arm": "RANDOM_PRE",
+  "cell_number": 21,
+  "run_id": "R05",
+  "attempt_id": "attempt_001",
+  "task_id": "DO",
+  "split_role": "observation_eval",
+  "env_instance_id": "1064000_DO_E01",
+  "episode_id": "1064000_DO_E01",
+  "initial_case_id": "DO_E01",
+  "physical_case_id": "7b59a4a44ed3fb28006683a8864fc4eaa86bdde82d4cdd61640b58deb7fde379",
+  "checkpoint_id": 1064000,
+  "env_step_total": 1064000,
+  "relative_train_step": 64000,
+  "checkpoint_hash": "6481249598e717427f5de2ad56b0dc4fac8279fde843e53c983548954ec32115",
+  "action_source": "deterministic policy mean through original tanh/scaling path",
+  "obs_policy_dtype": "float32",
+  "obs_raw_dtype": "float64",
+  "raw_success": "current official success at returned state; continue to native 500-step horizon",
+  "rows": 500,
+  "trajectory": {
+    "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21\\jobs\\R05_F01_RANDOM_PRE\\20261106T085927Z_attempt_983f536c\\evaluation_transitions\\1064000_DO_E01.npz",
+    "bytes": 232054,
+    "sha256": "c566cda20d4645f7bd78608689de6c2f2872707f9def3365cebc4c0d81cda665"
+  },
+  "schema_version": 1,
+  "seconds_including_rollout": 1.2210990999592468,
+  "compression_write_hash_seconds": 0.028426499920897186
+}

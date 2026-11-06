@@ -1,0 +1,2170 @@
+{
+  "file_checks_complete": true,
+  "runtime_checks": "not_run_readiness_failed",
+  "checks": [
+    {
+      "check": "clear onset uses exact first candidate and 32 original transitions",
+      "passed": true,
+      "detail": "{'L': 140, 'sigma': 130, 'tau': 40, 'eligible': True, 'reasons': [], 'early_progress_without_context': False, 'stationary_joint_range_m': 0.0, 'first_decrease_m': 0.0010000000000000009, 'eight_action_progress_m': 0.008000000000000007, 'hold_min_progress_m': 0.009000000000000008, 'signed_joint_progress_m': 0.008, 'P_start': 24, 'P_end': 55, 'early_max_raw_progress_m': 0.0}",
+      "scope": "synthetic, not scientific data"
+    },
+    {
+      "check": "no progression has no candidate",
+      "passed": true,
+      "detail": "",
+      "scope": "synthetic, not scientific data"
+    },
+    {
+      "check": "early first candidate excluded, never replaced by a later event",
+      "passed": true,
+      "detail": "",
+      "scope": "synthetic, not scientific data"
+    },
+    {
+      "check": "single sample spike removed by median and hold requirement",
+      "passed": true,
+      "detail": "",
+      "scope": "synthetic, not scientific data"
+    },
+    {
+      "check": "window excludes the first official success transition",
+      "passed": true,
+      "detail": "",
+      "scope": "synthetic, not scientific data"
+    },
+    {
+      "check": "inconsistent first candidate is excluded without next-candidate substitution",
+      "passed": true,
+      "detail": "",
+      "scope": "synthetic, not scientific data"
+    },
+    {
+      "check": "random prefix integer support 33",
+      "passed": true,
+      "detail": "",
+      "scope": "synthetic, not scientific data"
+    },
+    {
+      "check": "random prefix integer support 34",
+      "passed": true,
+      "detail": "",
+      "scope": "synthetic, not scientific data"
+    },
+    {
+      "check": "random prefix integer support 55",
+      "passed": true,
+      "detail": "",
+      "scope": "synthetic, not scientific data"
+    },
+    {
+      "check": "random prefix integer support 500",
+      "passed": true,
+      "detail": "",
+      "scope": "synthetic, not scientific data"
+    },
+    {
+      "check": "permanent episode random window is order independent",
+      "passed": true,
+      "detail": "",
+      "scope": "synthetic, not scientific data"
+    },
+    {
+      "check": "AUC weights and new budget arithmetic",
+      "passed": true,
+      "detail": "",
+      "scope": "synthetic, not scientific data"
+    },
+    {
+      "check": "source handle definition and DO goal verified",
+      "passed": true,
+      "scope": "",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "DO manipulation joint is +world-Y slide; opening reduces q",
+      "passed": true,
+      "scope": "",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "DO schema joint and control dt",
+      "passed": true,
+      "scope": "",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "evaluation case count and physical uniqueness",
+      "passed": true,
+      "scope": "",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "reset q0 kinematic derivation checked against recorded eval x0 qpos",
+      "passed": true,
+      "scope": "",
+      "detail": "9.364480229918589e-17",
+      "critical": true
+    },
+    {
+      "check": "parent full boundary counters",
+      "passed": true,
+      "scope": "R01",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "parent full contains original model replay collector RNG",
+      "passed": true,
+      "scope": "R01",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "parent full boundary counters",
+      "passed": true,
+      "scope": "R02",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "parent full contains original model replay collector RNG",
+      "passed": true,
+      "scope": "R02",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "parent full boundary counters",
+      "passed": true,
+      "scope": "R03",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "parent full contains original model replay collector RNG",
+      "passed": true,
+      "scope": "R03",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "parent full boundary counters",
+      "passed": true,
+      "scope": "R04",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "parent full contains original model replay collector RNG",
+      "passed": true,
+      "scope": "R04",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "parent full boundary counters",
+      "passed": true,
+      "scope": "R05",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "parent full contains original model replay collector RNG",
+      "passed": true,
+      "scope": "R05",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "train evaluation physical schema identical",
+      "passed": true,
+      "scope": "R01",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "episode IDs unique",
+      "passed": true,
+      "scope": "R01",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "original DO population 500 complete episodes",
+      "passed": true,
+      "scope": "R01",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive trajectory identity and original training source",
+      "passed": true,
+      "scope": "R01:train:000665",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive episode counters permanent IDs steps consecutive",
+      "passed": true,
+      "scope": "R01:train:000665",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive episode source raw and summary labels agree",
+      "passed": true,
+      "scope": "R01:train:000665",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "episode pre/post continuity exact",
+      "passed": true,
+      "scope": "R01:train:000665",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "original policy observation and DO encoding preserved",
+      "passed": true,
+      "scope": "R01:train:000665",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "original action and timeout mapping",
+      "passed": true,
+      "scope": "R01:train:000665",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "source object goal and joint columns align with raw samples",
+      "passed": true,
+      "scope": "R01:train:000665",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "success geometry agrees with source",
+      "passed": true,
+      "scope": "R01:train:000665",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive trajectory identity and original training source",
+      "passed": true,
+      "scope": "R01:train:001373",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive episode counters permanent IDs steps consecutive",
+      "passed": true,
+      "scope": "R01:train:001373",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive episode source raw and summary labels agree",
+      "passed": true,
+      "scope": "R01:train:001373",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "episode pre/post continuity exact",
+      "passed": true,
+      "scope": "R01:train:001373",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "original policy observation and DO encoding preserved",
+      "passed": true,
+      "scope": "R01:train:001373",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "original action and timeout mapping",
+      "passed": true,
+      "scope": "R01:train:001373",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "source object goal and joint columns align with raw samples",
+      "passed": true,
+      "scope": "R01:train:001373",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "success geometry agrees with source",
+      "passed": true,
+      "scope": "R01:train:001373",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "train evaluation physical schema identical",
+      "passed": true,
+      "scope": "R02",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "episode IDs unique",
+      "passed": true,
+      "scope": "R02",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "original DO population 500 complete episodes",
+      "passed": true,
+      "scope": "R02",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive trajectory identity and original training source",
+      "passed": true,
+      "scope": "R02:train:000251",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive episode counters permanent IDs steps consecutive",
+      "passed": true,
+      "scope": "R02:train:000251",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive episode source raw and summary labels agree",
+      "passed": true,
+      "scope": "R02:train:000251",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "episode pre/post continuity exact",
+      "passed": true,
+      "scope": "R02:train:000251",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "original policy observation and DO encoding preserved",
+      "passed": true,
+      "scope": "R02:train:000251",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "original action and timeout mapping",
+      "passed": true,
+      "scope": "R02:train:000251",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "source object goal and joint columns align with raw samples",
+      "passed": true,
+      "scope": "R02:train:000251",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "success geometry agrees with source",
+      "passed": true,
+      "scope": "R02:train:000251",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "selected window exactly 32 pre-success original transitions",
+      "passed": true,
+      "scope": "R02:train:000251/ONSET",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "selected window exactly 32 pre-success original transitions",
+      "passed": true,
+      "scope": "R02:train:000251/RANDOM_PRE",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive trajectory identity and original training source",
+      "passed": true,
+      "scope": "R02:train:000679",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive episode counters permanent IDs steps consecutive",
+      "passed": true,
+      "scope": "R02:train:000679",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive episode source raw and summary labels agree",
+      "passed": true,
+      "scope": "R02:train:000679",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "episode pre/post continuity exact",
+      "passed": true,
+      "scope": "R02:train:000679",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "original policy observation and DO encoding preserved",
+      "passed": true,
+      "scope": "R02:train:000679",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "original action and timeout mapping",
+      "passed": true,
+      "scope": "R02:train:000679",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "source object goal and joint columns align with raw samples",
+      "passed": true,
+      "scope": "R02:train:000679",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "success geometry agrees with source",
+      "passed": true,
+      "scope": "R02:train:000679",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "selected window exactly 32 pre-success original transitions",
+      "passed": true,
+      "scope": "R02:train:000679/ONSET",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "selected window exactly 32 pre-success original transitions",
+      "passed": true,
+      "scope": "R02:train:000679/RANDOM_PRE",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive trajectory identity and original training source",
+      "passed": true,
+      "scope": "R02:train:000759",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive episode counters permanent IDs steps consecutive",
+      "passed": true,
+      "scope": "R02:train:000759",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive episode source raw and summary labels agree",
+      "passed": true,
+      "scope": "R02:train:000759",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "episode pre/post continuity exact",
+      "passed": true,
+      "scope": "R02:train:000759",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "original policy observation and DO encoding preserved",
+      "passed": true,
+      "scope": "R02:train:000759",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "original action and timeout mapping",
+      "passed": true,
+      "scope": "R02:train:000759",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "source object goal and joint columns align with raw samples",
+      "passed": true,
+      "scope": "R02:train:000759",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "success geometry agrees with source",
+      "passed": true,
+      "scope": "R02:train:000759",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive trajectory identity and original training source",
+      "passed": true,
+      "scope": "R02:train:000764",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive episode counters permanent IDs steps consecutive",
+      "passed": true,
+      "scope": "R02:train:000764",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive episode source raw and summary labels agree",
+      "passed": true,
+      "scope": "R02:train:000764",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "episode pre/post continuity exact",
+      "passed": true,
+      "scope": "R02:train:000764",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "original policy observation and DO encoding preserved",
+      "passed": true,
+      "scope": "R02:train:000764",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "original action and timeout mapping",
+      "passed": true,
+      "scope": "R02:train:000764",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "source object goal and joint columns align with raw samples",
+      "passed": true,
+      "scope": "R02:train:000764",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "success geometry agrees with source",
+      "passed": true,
+      "scope": "R02:train:000764",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive trajectory identity and original training source",
+      "passed": true,
+      "scope": "R02:train:001702",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive episode counters permanent IDs steps consecutive",
+      "passed": true,
+      "scope": "R02:train:001702",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive episode source raw and summary labels agree",
+      "passed": true,
+      "scope": "R02:train:001702",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "episode pre/post continuity exact",
+      "passed": true,
+      "scope": "R02:train:001702",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "original policy observation and DO encoding preserved",
+      "passed": true,
+      "scope": "R02:train:001702",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "original action and timeout mapping",
+      "passed": true,
+      "scope": "R02:train:001702",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "source object goal and joint columns align with raw samples",
+      "passed": true,
+      "scope": "R02:train:001702",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "success geometry agrees with source",
+      "passed": true,
+      "scope": "R02:train:001702",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "selected window exactly 32 pre-success original transitions",
+      "passed": true,
+      "scope": "R02:train:001702/ONSET",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "selected window exactly 32 pre-success original transitions",
+      "passed": true,
+      "scope": "R02:train:001702/RANDOM_PRE",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "train evaluation physical schema identical",
+      "passed": true,
+      "scope": "R03",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "episode IDs unique",
+      "passed": true,
+      "scope": "R03",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "original DO population 500 complete episodes",
+      "passed": true,
+      "scope": "R03",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive trajectory identity and original training source",
+      "passed": true,
+      "scope": "R03:train:000240",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive episode counters permanent IDs steps consecutive",
+      "passed": true,
+      "scope": "R03:train:000240",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive episode source raw and summary labels agree",
+      "passed": true,
+      "scope": "R03:train:000240",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "episode pre/post continuity exact",
+      "passed": true,
+      "scope": "R03:train:000240",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "original policy observation and DO encoding preserved",
+      "passed": true,
+      "scope": "R03:train:000240",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "original action and timeout mapping",
+      "passed": true,
+      "scope": "R03:train:000240",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "source object goal and joint columns align with raw samples",
+      "passed": true,
+      "scope": "R03:train:000240",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "success geometry agrees with source",
+      "passed": true,
+      "scope": "R03:train:000240",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive trajectory identity and original training source",
+      "passed": true,
+      "scope": "R03:train:000522",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive episode counters permanent IDs steps consecutive",
+      "passed": true,
+      "scope": "R03:train:000522",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive episode source raw and summary labels agree",
+      "passed": true,
+      "scope": "R03:train:000522",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "episode pre/post continuity exact",
+      "passed": true,
+      "scope": "R03:train:000522",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "original policy observation and DO encoding preserved",
+      "passed": true,
+      "scope": "R03:train:000522",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "original action and timeout mapping",
+      "passed": true,
+      "scope": "R03:train:000522",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "source object goal and joint columns align with raw samples",
+      "passed": true,
+      "scope": "R03:train:000522",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "success geometry agrees with source",
+      "passed": true,
+      "scope": "R03:train:000522",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive trajectory identity and original training source",
+      "passed": true,
+      "scope": "R03:train:000528",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive episode counters permanent IDs steps consecutive",
+      "passed": true,
+      "scope": "R03:train:000528",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive episode source raw and summary labels agree",
+      "passed": true,
+      "scope": "R03:train:000528",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "episode pre/post continuity exact",
+      "passed": true,
+      "scope": "R03:train:000528",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "original policy observation and DO encoding preserved",
+      "passed": true,
+      "scope": "R03:train:000528",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "original action and timeout mapping",
+      "passed": true,
+      "scope": "R03:train:000528",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "source object goal and joint columns align with raw samples",
+      "passed": true,
+      "scope": "R03:train:000528",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "success geometry agrees with source",
+      "passed": true,
+      "scope": "R03:train:000528",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive trajectory identity and original training source",
+      "passed": true,
+      "scope": "R03:train:000584",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive episode counters permanent IDs steps consecutive",
+      "passed": true,
+      "scope": "R03:train:000584",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive episode source raw and summary labels agree",
+      "passed": true,
+      "scope": "R03:train:000584",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "episode pre/post continuity exact",
+      "passed": true,
+      "scope": "R03:train:000584",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "original policy observation and DO encoding preserved",
+      "passed": true,
+      "scope": "R03:train:000584",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "original action and timeout mapping",
+      "passed": true,
+      "scope": "R03:train:000584",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "source object goal and joint columns align with raw samples",
+      "passed": true,
+      "scope": "R03:train:000584",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "success geometry agrees with source",
+      "passed": true,
+      "scope": "R03:train:000584",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive trajectory identity and original training source",
+      "passed": true,
+      "scope": "R03:train:000685",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive episode counters permanent IDs steps consecutive",
+      "passed": true,
+      "scope": "R03:train:000685",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive episode source raw and summary labels agree",
+      "passed": true,
+      "scope": "R03:train:000685",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "episode pre/post continuity exact",
+      "passed": true,
+      "scope": "R03:train:000685",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "original policy observation and DO encoding preserved",
+      "passed": true,
+      "scope": "R03:train:000685",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "original action and timeout mapping",
+      "passed": true,
+      "scope": "R03:train:000685",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "source object goal and joint columns align with raw samples",
+      "passed": true,
+      "scope": "R03:train:000685",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "success geometry agrees with source",
+      "passed": true,
+      "scope": "R03:train:000685",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive trajectory identity and original training source",
+      "passed": true,
+      "scope": "R03:train:000984",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive episode counters permanent IDs steps consecutive",
+      "passed": true,
+      "scope": "R03:train:000984",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive episode source raw and summary labels agree",
+      "passed": true,
+      "scope": "R03:train:000984",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "episode pre/post continuity exact",
+      "passed": true,
+      "scope": "R03:train:000984",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "original policy observation and DO encoding preserved",
+      "passed": true,
+      "scope": "R03:train:000984",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "original action and timeout mapping",
+      "passed": true,
+      "scope": "R03:train:000984",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "source object goal and joint columns align with raw samples",
+      "passed": true,
+      "scope": "R03:train:000984",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "success geometry agrees with source",
+      "passed": true,
+      "scope": "R03:train:000984",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "train evaluation physical schema identical",
+      "passed": true,
+      "scope": "R04",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "episode IDs unique",
+      "passed": true,
+      "scope": "R04",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "original DO population 500 complete episodes",
+      "passed": true,
+      "scope": "R04",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive trajectory identity and original training source",
+      "passed": true,
+      "scope": "R04:train:000679",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive episode counters permanent IDs steps consecutive",
+      "passed": true,
+      "scope": "R04:train:000679",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive episode source raw and summary labels agree",
+      "passed": true,
+      "scope": "R04:train:000679",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "episode pre/post continuity exact",
+      "passed": true,
+      "scope": "R04:train:000679",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "original policy observation and DO encoding preserved",
+      "passed": true,
+      "scope": "R04:train:000679",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "original action and timeout mapping",
+      "passed": true,
+      "scope": "R04:train:000679",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "source object goal and joint columns align with raw samples",
+      "passed": true,
+      "scope": "R04:train:000679",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "success geometry agrees with source",
+      "passed": true,
+      "scope": "R04:train:000679",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "selected window exactly 32 pre-success original transitions",
+      "passed": true,
+      "scope": "R04:train:000679/ONSET",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "selected window exactly 32 pre-success original transitions",
+      "passed": true,
+      "scope": "R04:train:000679/RANDOM_PRE",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive trajectory identity and original training source",
+      "passed": true,
+      "scope": "R04:train:000720",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive episode counters permanent IDs steps consecutive",
+      "passed": true,
+      "scope": "R04:train:000720",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive episode source raw and summary labels agree",
+      "passed": true,
+      "scope": "R04:train:000720",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "episode pre/post continuity exact",
+      "passed": true,
+      "scope": "R04:train:000720",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "original policy observation and DO encoding preserved",
+      "passed": true,
+      "scope": "R04:train:000720",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "original action and timeout mapping",
+      "passed": true,
+      "scope": "R04:train:000720",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "source object goal and joint columns align with raw samples",
+      "passed": true,
+      "scope": "R04:train:000720",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "success geometry agrees with source",
+      "passed": true,
+      "scope": "R04:train:000720",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "selected window exactly 32 pre-success original transitions",
+      "passed": true,
+      "scope": "R04:train:000720/ONSET",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "selected window exactly 32 pre-success original transitions",
+      "passed": true,
+      "scope": "R04:train:000720/RANDOM_PRE",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive trajectory identity and original training source",
+      "passed": true,
+      "scope": "R04:train:000732",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive episode counters permanent IDs steps consecutive",
+      "passed": true,
+      "scope": "R04:train:000732",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive episode source raw and summary labels agree",
+      "passed": true,
+      "scope": "R04:train:000732",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "episode pre/post continuity exact",
+      "passed": true,
+      "scope": "R04:train:000732",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "original policy observation and DO encoding preserved",
+      "passed": true,
+      "scope": "R04:train:000732",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "original action and timeout mapping",
+      "passed": true,
+      "scope": "R04:train:000732",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "source object goal and joint columns align with raw samples",
+      "passed": true,
+      "scope": "R04:train:000732",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "success geometry agrees with source",
+      "passed": true,
+      "scope": "R04:train:000732",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive trajectory identity and original training source",
+      "passed": true,
+      "scope": "R04:train:000755",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive episode counters permanent IDs steps consecutive",
+      "passed": true,
+      "scope": "R04:train:000755",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive episode source raw and summary labels agree",
+      "passed": true,
+      "scope": "R04:train:000755",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "episode pre/post continuity exact",
+      "passed": true,
+      "scope": "R04:train:000755",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "original policy observation and DO encoding preserved",
+      "passed": true,
+      "scope": "R04:train:000755",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "original action and timeout mapping",
+      "passed": true,
+      "scope": "R04:train:000755",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "source object goal and joint columns align with raw samples",
+      "passed": true,
+      "scope": "R04:train:000755",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "success geometry agrees with source",
+      "passed": true,
+      "scope": "R04:train:000755",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive trajectory identity and original training source",
+      "passed": true,
+      "scope": "R04:train:000827",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive episode counters permanent IDs steps consecutive",
+      "passed": true,
+      "scope": "R04:train:000827",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive episode source raw and summary labels agree",
+      "passed": true,
+      "scope": "R04:train:000827",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "episode pre/post continuity exact",
+      "passed": true,
+      "scope": "R04:train:000827",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "original policy observation and DO encoding preserved",
+      "passed": true,
+      "scope": "R04:train:000827",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "original action and timeout mapping",
+      "passed": true,
+      "scope": "R04:train:000827",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "source object goal and joint columns align with raw samples",
+      "passed": true,
+      "scope": "R04:train:000827",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "success geometry agrees with source",
+      "passed": true,
+      "scope": "R04:train:000827",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive trajectory identity and original training source",
+      "passed": true,
+      "scope": "R04:train:001019",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive episode counters permanent IDs steps consecutive",
+      "passed": true,
+      "scope": "R04:train:001019",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive episode source raw and summary labels agree",
+      "passed": true,
+      "scope": "R04:train:001019",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "episode pre/post continuity exact",
+      "passed": true,
+      "scope": "R04:train:001019",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "original policy observation and DO encoding preserved",
+      "passed": true,
+      "scope": "R04:train:001019",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "original action and timeout mapping",
+      "passed": true,
+      "scope": "R04:train:001019",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "source object goal and joint columns align with raw samples",
+      "passed": true,
+      "scope": "R04:train:001019",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "success geometry agrees with source",
+      "passed": true,
+      "scope": "R04:train:001019",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive trajectory identity and original training source",
+      "passed": true,
+      "scope": "R04:train:001284",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive episode counters permanent IDs steps consecutive",
+      "passed": true,
+      "scope": "R04:train:001284",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive episode source raw and summary labels agree",
+      "passed": true,
+      "scope": "R04:train:001284",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "episode pre/post continuity exact",
+      "passed": true,
+      "scope": "R04:train:001284",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "original policy observation and DO encoding preserved",
+      "passed": true,
+      "scope": "R04:train:001284",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "original action and timeout mapping",
+      "passed": true,
+      "scope": "R04:train:001284",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "source object goal and joint columns align with raw samples",
+      "passed": true,
+      "scope": "R04:train:001284",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "success geometry agrees with source",
+      "passed": true,
+      "scope": "R04:train:001284",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "selected window exactly 32 pre-success original transitions",
+      "passed": true,
+      "scope": "R04:train:001284/ONSET",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "selected window exactly 32 pre-success original transitions",
+      "passed": true,
+      "scope": "R04:train:001284/RANDOM_PRE",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive trajectory identity and original training source",
+      "passed": true,
+      "scope": "R04:train:001379",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive episode counters permanent IDs steps consecutive",
+      "passed": true,
+      "scope": "R04:train:001379",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive episode source raw and summary labels agree",
+      "passed": true,
+      "scope": "R04:train:001379",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "episode pre/post continuity exact",
+      "passed": true,
+      "scope": "R04:train:001379",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "original policy observation and DO encoding preserved",
+      "passed": true,
+      "scope": "R04:train:001379",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "original action and timeout mapping",
+      "passed": true,
+      "scope": "R04:train:001379",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "source object goal and joint columns align with raw samples",
+      "passed": true,
+      "scope": "R04:train:001379",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "success geometry agrees with source",
+      "passed": true,
+      "scope": "R04:train:001379",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "selected window exactly 32 pre-success original transitions",
+      "passed": true,
+      "scope": "R04:train:001379/ONSET",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "selected window exactly 32 pre-success original transitions",
+      "passed": true,
+      "scope": "R04:train:001379/RANDOM_PRE",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive trajectory identity and original training source",
+      "passed": true,
+      "scope": "R04:train:001792",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive episode counters permanent IDs steps consecutive",
+      "passed": true,
+      "scope": "R04:train:001792",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive episode source raw and summary labels agree",
+      "passed": true,
+      "scope": "R04:train:001792",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "episode pre/post continuity exact",
+      "passed": true,
+      "scope": "R04:train:001792",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "original policy observation and DO encoding preserved",
+      "passed": true,
+      "scope": "R04:train:001792",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "original action and timeout mapping",
+      "passed": true,
+      "scope": "R04:train:001792",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "source object goal and joint columns align with raw samples",
+      "passed": true,
+      "scope": "R04:train:001792",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "success geometry agrees with source",
+      "passed": true,
+      "scope": "R04:train:001792",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "train evaluation physical schema identical",
+      "passed": true,
+      "scope": "R05",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "episode IDs unique",
+      "passed": true,
+      "scope": "R05",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "original DO population 500 complete episodes",
+      "passed": true,
+      "scope": "R05",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive trajectory identity and original training source",
+      "passed": true,
+      "scope": "R05:train:000247",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive episode counters permanent IDs steps consecutive",
+      "passed": true,
+      "scope": "R05:train:000247",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive episode source raw and summary labels agree",
+      "passed": true,
+      "scope": "R05:train:000247",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "episode pre/post continuity exact",
+      "passed": true,
+      "scope": "R05:train:000247",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "original policy observation and DO encoding preserved",
+      "passed": true,
+      "scope": "R05:train:000247",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "original action and timeout mapping",
+      "passed": true,
+      "scope": "R05:train:000247",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "source object goal and joint columns align with raw samples",
+      "passed": true,
+      "scope": "R05:train:000247",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "success geometry agrees with source",
+      "passed": true,
+      "scope": "R05:train:000247",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "selected window exactly 32 pre-success original transitions",
+      "passed": true,
+      "scope": "R05:train:000247/ONSET",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "selected window exactly 32 pre-success original transitions",
+      "passed": true,
+      "scope": "R05:train:000247/RANDOM_PRE",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive trajectory identity and original training source",
+      "passed": true,
+      "scope": "R05:train:000545",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive episode counters permanent IDs steps consecutive",
+      "passed": true,
+      "scope": "R05:train:000545",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive episode source raw and summary labels agree",
+      "passed": true,
+      "scope": "R05:train:000545",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "episode pre/post continuity exact",
+      "passed": true,
+      "scope": "R05:train:000545",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "original policy observation and DO encoding preserved",
+      "passed": true,
+      "scope": "R05:train:000545",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "original action and timeout mapping",
+      "passed": true,
+      "scope": "R05:train:000545",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "source object goal and joint columns align with raw samples",
+      "passed": true,
+      "scope": "R05:train:000545",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "success geometry agrees with source",
+      "passed": true,
+      "scope": "R05:train:000545",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive trajectory identity and original training source",
+      "passed": true,
+      "scope": "R05:train:001007",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive episode counters permanent IDs steps consecutive",
+      "passed": true,
+      "scope": "R05:train:001007",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive episode source raw and summary labels agree",
+      "passed": true,
+      "scope": "R05:train:001007",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "episode pre/post continuity exact",
+      "passed": true,
+      "scope": "R05:train:001007",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "original policy observation and DO encoding preserved",
+      "passed": true,
+      "scope": "R05:train:001007",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "original action and timeout mapping",
+      "passed": true,
+      "scope": "R05:train:001007",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "source object goal and joint columns align with raw samples",
+      "passed": true,
+      "scope": "R05:train:001007",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "success geometry agrees with source",
+      "passed": true,
+      "scope": "R05:train:001007",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive trajectory identity and original training source",
+      "passed": true,
+      "scope": "R05:train:001010",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive episode counters permanent IDs steps consecutive",
+      "passed": true,
+      "scope": "R05:train:001010",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive episode source raw and summary labels agree",
+      "passed": true,
+      "scope": "R05:train:001010",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "episode pre/post continuity exact",
+      "passed": true,
+      "scope": "R05:train:001010",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "original policy observation and DO encoding preserved",
+      "passed": true,
+      "scope": "R05:train:001010",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "original action and timeout mapping",
+      "passed": true,
+      "scope": "R05:train:001010",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "source object goal and joint columns align with raw samples",
+      "passed": true,
+      "scope": "R05:train:001010",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "success geometry agrees with source",
+      "passed": true,
+      "scope": "R05:train:001010",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive trajectory identity and original training source",
+      "passed": true,
+      "scope": "R05:train:001160",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive episode counters permanent IDs steps consecutive",
+      "passed": true,
+      "scope": "R05:train:001160",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive episode source raw and summary labels agree",
+      "passed": true,
+      "scope": "R05:train:001160",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "episode pre/post continuity exact",
+      "passed": true,
+      "scope": "R05:train:001160",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "original policy observation and DO encoding preserved",
+      "passed": true,
+      "scope": "R05:train:001160",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "original action and timeout mapping",
+      "passed": true,
+      "scope": "R05:train:001160",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "source object goal and joint columns align with raw samples",
+      "passed": true,
+      "scope": "R05:train:001160",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "success geometry agrees with source",
+      "passed": true,
+      "scope": "R05:train:001160",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive trajectory identity and original training source",
+      "passed": true,
+      "scope": "R05:train:001173",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive episode counters permanent IDs steps consecutive",
+      "passed": true,
+      "scope": "R05:train:001173",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive episode source raw and summary labels agree",
+      "passed": true,
+      "scope": "R05:train:001173",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "episode pre/post continuity exact",
+      "passed": true,
+      "scope": "R05:train:001173",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "original policy observation and DO encoding preserved",
+      "passed": true,
+      "scope": "R05:train:001173",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "original action and timeout mapping",
+      "passed": true,
+      "scope": "R05:train:001173",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "source object goal and joint columns align with raw samples",
+      "passed": true,
+      "scope": "R05:train:001173",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "success geometry agrees with source",
+      "passed": true,
+      "scope": "R05:train:001173",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "selected window exactly 32 pre-success original transitions",
+      "passed": true,
+      "scope": "R05:train:001173/ONSET",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "selected window exactly 32 pre-success original transitions",
+      "passed": true,
+      "scope": "R05:train:001173/RANDOM_PRE",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive trajectory identity and original training source",
+      "passed": true,
+      "scope": "R05:train:001371",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive episode counters permanent IDs steps consecutive",
+      "passed": true,
+      "scope": "R05:train:001371",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive episode source raw and summary labels agree",
+      "passed": true,
+      "scope": "R05:train:001371",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "episode pre/post continuity exact",
+      "passed": true,
+      "scope": "R05:train:001371",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "original policy observation and DO encoding preserved",
+      "passed": true,
+      "scope": "R05:train:001371",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "original action and timeout mapping",
+      "passed": true,
+      "scope": "R05:train:001371",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "source object goal and joint columns align with raw samples",
+      "passed": true,
+      "scope": "R05:train:001371",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "success geometry agrees with source",
+      "passed": true,
+      "scope": "R05:train:001371",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive trajectory identity and original training source",
+      "passed": true,
+      "scope": "R05:train:001700",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive episode counters permanent IDs steps consecutive",
+      "passed": true,
+      "scope": "R05:train:001700",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive episode source raw and summary labels agree",
+      "passed": true,
+      "scope": "R05:train:001700",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "episode pre/post continuity exact",
+      "passed": true,
+      "scope": "R05:train:001700",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "original policy observation and DO encoding preserved",
+      "passed": true,
+      "scope": "R05:train:001700",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "original action and timeout mapping",
+      "passed": true,
+      "scope": "R05:train:001700",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "source object goal and joint columns align with raw samples",
+      "passed": true,
+      "scope": "R05:train:001700",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "success geometry agrees with source",
+      "passed": true,
+      "scope": "R05:train:001700",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive trajectory identity and original training source",
+      "passed": true,
+      "scope": "R05:train:001713",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive episode counters permanent IDs steps consecutive",
+      "passed": true,
+      "scope": "R05:train:001713",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "positive episode source raw and summary labels agree",
+      "passed": true,
+      "scope": "R05:train:001713",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "episode pre/post continuity exact",
+      "passed": true,
+      "scope": "R05:train:001713",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "original policy observation and DO encoding preserved",
+      "passed": true,
+      "scope": "R05:train:001713",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "original action and timeout mapping",
+      "passed": true,
+      "scope": "R05:train:001713",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "source object goal and joint columns align with raw samples",
+      "passed": true,
+      "scope": "R05:train:001713",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "success geometry agrees with source",
+      "passed": true,
+      "scope": "R05:train:001713",
+      "detail": "",
+      "critical": true
+    },
+    {
+      "check": "reported success count independently agrees with raw positives",
+      "passed": true,
+      "scope": "",
+      "detail": "[2, 5, 6, 9, 9]",
+      "critical": true
+    }
+  ],
+  "new_execution": {
+    "environment_creations": 0,
+    "resets": 0,
+    "train_transitions": 0,
+    "eval_transitions": 0,
+    "technical_transitions": 0,
+    "issued_transitions": 0,
+    "completed_transitions": 0,
+    "policy_model_loads": 0,
+    "replay_deserializations": 0,
+    "policy_forwards": 0,
+    "learning_updates": 0
+  }
+}

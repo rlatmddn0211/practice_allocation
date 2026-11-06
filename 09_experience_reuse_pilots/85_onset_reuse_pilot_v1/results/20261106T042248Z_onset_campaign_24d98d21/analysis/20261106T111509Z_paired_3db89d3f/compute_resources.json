@@ -1,0 +1,65 @@
+{
+  "normal_queue_elapsed_seconds": 24724.930266,
+  "normal_queue_started_utc": "2026-11-06T04:22:57.999692+00:00",
+  "normal_queue_completed_utc": "2026-11-06T11:15:02.929958+00:00",
+  "jobs": {
+    "shared_start": {
+      "jobs": 5,
+      "job_wall_seconds_sum": 377.72515279997606,
+      "process_cpu_seconds_sum": 177.640625
+    },
+    "branch": {
+      "jobs": 30,
+      "job_wall_seconds_sum": 47786.35801440012,
+      "process_cpu_seconds_sum": 20627.609375
+    }
+  },
+  "normal_job_wall_seconds_sum": 48164.08316720009,
+  "recorded_evaluation_episode_wall_seconds_sum": 6355.888146204408,
+  "non_evaluation_job_seconds_including_restore_checkpoint_and_logging": 41808.195020995685,
+  "process_cpu_seconds_sum": 20805.25,
+  "max_individual_process_peak_working_set_bytes": 4733767680,
+  "normal_job_io_read_bytes_sum": 32954566557,
+  "normal_job_io_write_bytes_sum": 33039849358,
+  "full_checkpoint_writes": 480,
+  "full_checkpoint_write_seconds_sum": 390.78108710143715,
+  "full_checkpoint_bytes_written_sum": 24097790145,
+  "cost_categories": {
+    "post_eval": {
+      "reset_calls": 5760,
+      "environment_creations": 5760,
+      "step_call_seconds": 1748.569017871865,
+      "step_calls": 2880000
+    },
+    "train": {
+      "reset_calls": 3840,
+      "environment_creations": 3840,
+      "step_call_seconds": 1420.5525985070271,
+      "step_calls": 1920000
+    },
+    "start_eval": {
+      "reset_calls": 320,
+      "environment_creations": 320,
+      "step_call_seconds": 106.05355371255428,
+      "step_calls": 160000
+    },
+    "technical": {
+      "reset_calls": 21,
+      "environment_creations": 21,
+      "step_call_seconds": 3.3990216962993145,
+      "step_calls": 4900
+    }
+  },
+  "gpu_devices": [
+    "NVIDIA GeForce RTX 3070"
+  ],
+  "maximum_configured_concurrent_research_jobs": 2,
+  "limits": [
+    "Process wall/CPU sums overlap across concurrent jobs; do not add them to queue elapsed time.",
+    "Evaluation episode time includes policy inference, rendering and output; rendering-only time unavailable.",
+    "Non-evaluation job time includes restoration, learning, logging and checkpoint I/O; not pure learning kernel time.",
+    "Recorded reset calls count outer environment constructions; internal reset physics calls/substeps unmeasured.",
+    "Working set is host process memory, not GPU VRAM; GPU peak memory/kernel-only time unavailable.",
+    "Step-call elapsed time is not physics-kernel-only compute time."
+  ]
+}

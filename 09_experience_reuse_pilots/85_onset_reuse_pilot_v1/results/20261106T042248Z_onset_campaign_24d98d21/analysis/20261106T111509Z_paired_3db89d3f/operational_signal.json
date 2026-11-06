@@ -1,0 +1,15 @@
+{
+  "status": "nominal_pilot_signal_not_met",
+  "checks": {
+    "DO_PU_at_least_2pp": false,
+    "DO_PB_at_least_2pp": false,
+    "at_least_four_positive_parents_PU": false,
+    "at_least_four_positive_parents_PB": false,
+    "all_LOPO_PU_positive": false,
+    "all_LOPO_PB_positive": true,
+    "other_three_mean_at_least_minus1pp": true,
+    "each_other_task_at_least_minus3pp": true,
+    "macro_four_nonnegative": true,
+    "valid_complete_design": true
+  }
+}

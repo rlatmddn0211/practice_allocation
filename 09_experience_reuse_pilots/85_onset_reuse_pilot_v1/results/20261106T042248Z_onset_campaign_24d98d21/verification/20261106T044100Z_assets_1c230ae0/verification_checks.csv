@@ -1,0 +1,44 @@
+check,passed,scope
+archive executed action equals original buffer normalized action,True,R01:train:000665
+archive executed action equals original buffer normalized action,True,R01:train:001373
+archive executed action equals original buffer normalized action,True,R02:train:000251
+archive executed action equals original buffer normalized action,True,R02:train:000679
+archive executed action equals original buffer normalized action,True,R02:train:000759
+archive executed action equals original buffer normalized action,True,R02:train:000764
+archive executed action equals original buffer normalized action,True,R02:train:001702
+archive executed action equals original buffer normalized action,True,R03:train:000240
+archive executed action equals original buffer normalized action,True,R03:train:000522
+archive executed action equals original buffer normalized action,True,R03:train:000528
+archive executed action equals original buffer normalized action,True,R03:train:000584
+archive executed action equals original buffer normalized action,True,R03:train:000685
+archive executed action equals original buffer normalized action,True,R03:train:000984
+archive executed action equals original buffer normalized action,True,R04:train:000679
+archive executed action equals original buffer normalized action,True,R04:train:000720
+archive executed action equals original buffer normalized action,True,R04:train:000732
+archive executed action equals original buffer normalized action,True,R04:train:000755
+archive executed action equals original buffer normalized action,True,R04:train:000827
+archive executed action equals original buffer normalized action,True,R04:train:001019
+archive executed action equals original buffer normalized action,True,R04:train:001284
+archive executed action equals original buffer normalized action,True,R04:train:001379
+archive executed action equals original buffer normalized action,True,R04:train:001792
+archive executed action equals original buffer normalized action,True,R05:train:000247
+archive executed action equals original buffer normalized action,True,R05:train:000545
+archive executed action equals original buffer normalized action,True,R05:train:001007
+archive executed action equals original buffer normalized action,True,R05:train:001010
+archive executed action equals original buffer normalized action,True,R05:train:001160
+archive executed action equals original buffer normalized action,True,R05:train:001173
+archive executed action equals original buffer normalized action,True,R05:train:001371
+archive executed action equals original buffer normalized action,True,R05:train:001700
+archive executed action equals original buffer normalized action,True,R05:train:001713
+analysis/report source parses,True,analyze.py
+analysis/report source parses,True,audit_assets_and_code.py
+analysis/report source parses,True,finalize.py
+analysis/report source parses,True,run_pipeline.py
+analysis/report source parses,True,verify.py
+AUC time weighting,True,synthetic analysis; not scientific effect
+missing case gives no point AUC and retains 16-case bounds,True,synthetic analysis; not scientific effect
+identical arms have zero differences,True,synthetic analysis; not scientific effect
+missing branch not silently dropped,True,synthetic analysis; not scientific effect
+gain loss telescoping identity,True,synthetic analysis; not scientific effect
+macro summary must not skip missing task,True,
+label-changing case retained by identity join,True,

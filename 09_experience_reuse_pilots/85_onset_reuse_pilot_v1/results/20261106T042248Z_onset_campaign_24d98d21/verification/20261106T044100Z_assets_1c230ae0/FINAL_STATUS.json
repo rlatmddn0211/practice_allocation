@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "original_reference_files": 463,
+  "success_archive_episodes": 31,
+  "checks": 43,
+  "new_execution": {
+    "environment_creations": 0,
+    "resets": 0,
+    "train_transitions": 0,
+    "eval_transitions": 0,
+    "technical_transitions": 0,
+    "issued_transitions": 0,
+    "completed_transitions": 0,
+    "policy_model_loads": 0,
+    "replay_deserializations": 0,
+    "policy_forwards": 0,
+    "learning_updates": 0
+  },
+  "source_hashes_unchanged": true
+}

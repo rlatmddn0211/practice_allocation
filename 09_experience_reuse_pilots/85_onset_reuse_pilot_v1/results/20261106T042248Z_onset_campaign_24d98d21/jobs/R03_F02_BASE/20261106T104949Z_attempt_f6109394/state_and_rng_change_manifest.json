@@ -1,0 +1,55 @@
+{
+  "before": {
+    "learning": "2653fb47a30bd43be146f63d9a9e99f518b2bfa7b9e052ed9096d1411434d6aa",
+    "replay": "8feac21dbe7fa88cb30b2d16fc46a1cd33fce67dc239f45dbcd05a2104c1fd51",
+    "collector": "253aec751d371ac3e7ab981f2ebfe74fef1bc721646a65834b98e3468b4a6432",
+    "rng": "9a33e05841297fb7c6487ba547e9a2c5bf31867cf43fdfc398a647ddabc42296"
+  },
+  "after": {
+    "learning": "2653fb47a30bd43be146f63d9a9e99f518b2bfa7b9e052ed9096d1411434d6aa",
+    "replay": "e03b3ee3da1e9052b8c2ebe54734630078c47d6d354c7f00460c9d9368dcc6a1",
+    "collector": "1ecb7cba851083f8d78ff9a8f3877f370690ea6604f74554a993c9ea3deca7eb",
+    "rng": "337cf17573ea6c191f8f5579e1259aa40dc08c09bfd916e08d6f86bbde88b639"
+  },
+  "preserved_learning": true,
+  "preserved_schedule_fields": {
+    "candidate": "U",
+    "block": [
+      2,
+      2,
+      3,
+      0,
+      0,
+      3,
+      1,
+      1
+    ],
+    "position": 8,
+    "blocks_generated": 250
+  },
+  "changes": [
+    "schedule RNG",
+    "reset root",
+    "NumPy native-replay RNG",
+    "PyTorch learner RNG",
+    "keyed rollout RNG",
+    "read-only archive sampler metadata",
+    "new-transition provenance namespace"
+  ],
+  "learner_counter": 1000000,
+  "updates": 999000,
+  "task_visits": [
+    500,
+    500,
+    500,
+    500
+  ],
+  "collected_steps": [
+    250000,
+    250000,
+    250000,
+    250000
+  ],
+  "replay_pointer": 0,
+  "replacement_probability": 0.0
+}

@@ -1,0 +1,112 @@
+{
+  "status": "complete",
+  "completed_branches": 30,
+  "planned_branches": 30,
+  "completed_evaluations": 6080,
+  "planned_evaluations": 6080,
+  "valid_evaluations": 6080,
+  "operational_signal": {
+    "status": "nominal_pilot_signal_not_met",
+    "checks": {
+      "DO_PU_at_least_2pp": false,
+      "DO_PB_at_least_2pp": false,
+      "at_least_four_positive_parents_PU": false,
+      "at_least_four_positive_parents_PB": false,
+      "all_LOPO_PU_positive": false,
+      "all_LOPO_PB_positive": true,
+      "other_three_mean_at_least_minus1pp": true,
+      "each_other_task_at_least_minus3pp": true,
+      "macro_four_nonnegative": true,
+      "valid_complete_design": true
+    }
+  },
+  "errors": [],
+  "new_analysis_execution": {
+    "environment_creations": 0,
+    "resets": 0,
+    "train_transitions": 0,
+    "eval_transitions": 0,
+    "technical_transitions": 0,
+    "issued_transitions": 0,
+    "completed_transitions": 0,
+    "policy_model_loads": 0,
+    "replay_deserializations": 0,
+    "policy_forwards": 0,
+    "learning_updates": 0
+  },
+  "analysis_output": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21\\analysis\\20261106T111509Z_paired_3db89d3f",
+  "campaign": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21",
+  "preparation": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T040844Z_preparation_31c9735e",
+  "design_version": "85_onset_reuse_pilot_v1",
+  "scope": "fixed30-cell onset versus random-pre successful-DO replay pilot",
+  "input_availability": {
+    "original_full_parents": 5,
+    "original_successful_DO_episodes": 31,
+    "eligible_DO_episodes": 25,
+    "physical_evaluation_cases": 64
+  },
+  "readiness": {
+    "all_five_receivers_passed": true,
+    "LOO_eligible_counts": [
+      25,
+      20,
+      20,
+      16,
+      19
+    ],
+    "technical_passed": true
+  },
+  "completed_parents": 5,
+  "actual_issued": 4964900,
+  "actual_completed": 4964900,
+  "actual_train_steps": 1920000,
+  "actual_eval_steps": 3040000,
+  "actual_technical_steps": 4900,
+  "budget_remaining": 5100,
+  "operational_signal_status": "nominal_pilot_signal_not_met",
+  "report": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21\\analysis\\20261106T111509Z_paired_3db89d3f\\report_ko.md",
+  "figures": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21\\analysis\\20261106T111509Z_paired_3db89d3f\\figures",
+  "bundle": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21\\analysis\\20261106T111509Z_paired_3db89d3f\\reproduction_bundle.zip",
+  "costs": {
+    "original_campaign_cost_separate": 6604850,
+    "new_issued": 4964900,
+    "new_completed": 4964900,
+    "new_cap": 4970000,
+    "remaining": 5100,
+    "technical": 4900,
+    "technical_failed_retry_cap": 10000,
+    "original_plus_new_bookkeeping_sum": 11569750,
+    "reset_internal_physics_not_in_environment_transition_count": true,
+    "category": {
+      "post_eval": {
+        "issued": 2880000,
+        "completed": 2880000
+      },
+      "start_eval": {
+        "issued": 160000,
+        "completed": 160000
+      },
+      "technical": {
+        "issued": 4900,
+        "completed": 4900
+      },
+      "train": {
+        "issued": 1920000,
+        "completed": 1920000
+      }
+    },
+    "GPU_time_scope": "job elapsed wall time, not kernel-only GPU time"
+  },
+  "report_ready_wall_seconds": 127.83246880001388,
+  "verification": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21\\analysis\\20261106T111509Z_paired_3db89d3f\\verification\\20261106T111632Z_5a31b386",
+  "source_preparation": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T040844Z_preparation_31c9735e",
+  "interpretation_limits": [
+    "overlapping LOO archives",
+    "one fixed random window",
+    "old 16-case development panel",
+    "one starting step",
+    "selection rule not skill or causal action"
+  ],
+  "algorithm_failures": 0,
+  "missing_or_invalid": 0
+}

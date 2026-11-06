@@ -1,0 +1,26 @@
+{
+  "experiment_id": "81_basic_sac_observation_campaign_v1",
+  "run_id": "R04",
+  "attempt_id": "attempt_001",
+  "task_id": "DO",
+  "split_role": "train",
+  "env_instance_id": "001379_DO",
+  "episode_id": 1379,
+  "initial_case_id": null,
+  "checkpoint_id": null,
+  "reset_seed": 2496343193,
+  "initial_state_hash": "e0b87406fa6c2d083caf03132b9d0b651ba138e9c117bb59e6c2da888890a2ff",
+  "obs_raw_dtype": "float64",
+  "obs_policy_dtype": "float32",
+  "action_distribution": "pre-tanh mean and log_std",
+  "success_semantics": "current raw official evaluate_state success, not a cumulative flag",
+  "rows": 500,
+  "trajectory": {
+    "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\81_basic_sac_observation_campaign_v1\\results\\20261102T085036Z_observation_8e858967\\runs\\R04\\training_transitions\\001379_DO.npz",
+    "bytes": 248985,
+    "sha256": "20322fdfcbf8d1d4d9213dfdb42f65508fce97bc9eb43b68d700d38ece714c13"
+  },
+  "schema_version": 1,
+  "seconds_including_rollout": 8.34295399999246,
+  "compression_write_hash_seconds": 0.029184099985286593
+}

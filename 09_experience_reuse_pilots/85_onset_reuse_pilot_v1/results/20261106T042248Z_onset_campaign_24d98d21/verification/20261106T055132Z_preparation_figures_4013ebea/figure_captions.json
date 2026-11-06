@@ -1,0 +1,10 @@
+[
+  {
+    "file": "figures/01_onset_windows.png",
+    "caption": "적격 ID 정렬의 처음/중간/마지막 3개. 원 제어 step, 단위 mm. x0 물체 위치는 고정 XML·goal·reset joint에서 산술 복원했다. W32=0.4초이며 P/U 모두 sigma 이전 원 전이32개다. 접촉은 적격 조건이 아니다."
+  },
+  {
+    "file": "figures/02_support_and_exclusions.png",
+    "caption": "독립 donor run5개의 성공 수와 적격 수, receiver별 LOO 지원. 운영 최소8개 및 2 donor×2개 조건은 검정력 보장이 아니다. 대표 제외 사유: onset 없음2개, W32가 첫 성공에 닿음4개."
+  }
+]

@@ -1,0 +1,210 @@
+check,passed,scope,detail
+positive source IDs unique,True,,
+scalar first candidate equals preparation,True,R01:train:000665,"(401, 401.0)"
+scalar exclusions equal preparation,True,R01:train:000665,['window_reaches_first_success']
+scalar eligibility equals preparation,True,R01:train:000665,
+goal constant and first-success indexing,True,R01:train:000665,
+scalar first candidate equals preparation,True,R01:train:001373,"(426, 426.0)"
+scalar exclusions equal preparation,True,R01:train:001373,['window_reaches_first_success']
+scalar eligibility equals preparation,True,R01:train:001373,
+goal constant and first-success indexing,True,R01:train:001373,
+scalar first candidate equals preparation,True,R02:train:000251,"(72, 72.0)"
+scalar exclusions equal preparation,True,R02:train:000251,[]
+scalar eligibility equals preparation,True,R02:train:000251,
+goal constant and first-success indexing,True,R02:train:000251,
+"window original 32 contiguous IDs, none at/after success",True,R02:train:000251/ONSET,
+"window original 32 contiguous IDs, none at/after success",True,R02:train:000251/RANDOM_PRE,
+scalar first candidate equals preparation,True,R02:train:000679,"(21, 21.0)"
+scalar exclusions equal preparation,True,R02:train:000679,[]
+scalar eligibility equals preparation,True,R02:train:000679,
+goal constant and first-success indexing,True,R02:train:000679,
+"window original 32 contiguous IDs, none at/after success",True,R02:train:000679/ONSET,
+"window original 32 contiguous IDs, none at/after success",True,R02:train:000679/RANDOM_PRE,
+scalar first candidate equals preparation,True,R02:train:000759,"(248, 248.0)"
+scalar exclusions equal preparation,True,R02:train:000759,[]
+scalar eligibility equals preparation,True,R02:train:000759,
+goal constant and first-success indexing,True,R02:train:000759,
+"window original 32 contiguous IDs, none at/after success",True,R02:train:000759/ONSET,
+"window original 32 contiguous IDs, none at/after success",True,R02:train:000759/RANDOM_PRE,
+scalar first candidate equals preparation,True,R02:train:000764,"(41, 41.0)"
+scalar exclusions equal preparation,True,R02:train:000764,[]
+scalar eligibility equals preparation,True,R02:train:000764,
+goal constant and first-success indexing,True,R02:train:000764,
+"window original 32 contiguous IDs, none at/after success",True,R02:train:000764/ONSET,
+"window original 32 contiguous IDs, none at/after success",True,R02:train:000764/RANDOM_PRE,
+scalar first candidate equals preparation,True,R02:train:001702,"(325, 325.0)"
+scalar exclusions equal preparation,True,R02:train:001702,[]
+scalar eligibility equals preparation,True,R02:train:001702,
+goal constant and first-success indexing,True,R02:train:001702,
+"window original 32 contiguous IDs, none at/after success",True,R02:train:001702/ONSET,
+"window original 32 contiguous IDs, none at/after success",True,R02:train:001702/RANDOM_PRE,
+scalar first candidate equals preparation,True,R03:train:000240,"(29, 29.0)"
+scalar exclusions equal preparation,True,R03:train:000240,[]
+scalar eligibility equals preparation,True,R03:train:000240,
+goal constant and first-success indexing,True,R03:train:000240,
+"window original 32 contiguous IDs, none at/after success",True,R03:train:000240/ONSET,
+"window original 32 contiguous IDs, none at/after success",True,R03:train:000240/RANDOM_PRE,
+scalar first candidate equals preparation,True,R03:train:000522,"(318, 318.0)"
+scalar exclusions equal preparation,True,R03:train:000522,['window_reaches_first_success']
+scalar eligibility equals preparation,True,R03:train:000522,
+goal constant and first-success indexing,True,R03:train:000522,
+scalar first candidate equals preparation,True,R03:train:000528,"(70, 70.0)"
+scalar exclusions equal preparation,True,R03:train:000528,[]
+scalar eligibility equals preparation,True,R03:train:000528,
+goal constant and first-success indexing,True,R03:train:000528,
+"window original 32 contiguous IDs, none at/after success",True,R03:train:000528/ONSET,
+"window original 32 contiguous IDs, none at/after success",True,R03:train:000528/RANDOM_PRE,
+scalar first candidate equals preparation,True,R03:train:000584,"(184, 184.0)"
+scalar exclusions equal preparation,True,R03:train:000584,[]
+scalar eligibility equals preparation,True,R03:train:000584,
+goal constant and first-success indexing,True,R03:train:000584,
+"window original 32 contiguous IDs, none at/after success",True,R03:train:000584/ONSET,
+"window original 32 contiguous IDs, none at/after success",True,R03:train:000584/RANDOM_PRE,
+scalar first candidate equals preparation,True,R03:train:000685,"(180, 180.0)"
+scalar exclusions equal preparation,True,R03:train:000685,[]
+scalar eligibility equals preparation,True,R03:train:000685,
+goal constant and first-success indexing,True,R03:train:000685,
+"window original 32 contiguous IDs, none at/after success",True,R03:train:000685/ONSET,
+"window original 32 contiguous IDs, none at/after success",True,R03:train:000685/RANDOM_PRE,
+scalar first candidate equals preparation,True,R03:train:000984,"(51, 51.0)"
+scalar exclusions equal preparation,True,R03:train:000984,[]
+scalar eligibility equals preparation,True,R03:train:000984,
+goal constant and first-success indexing,True,R03:train:000984,
+"window original 32 contiguous IDs, none at/after success",True,R03:train:000984/ONSET,
+"window original 32 contiguous IDs, none at/after success",True,R03:train:000984/RANDOM_PRE,
+scalar first candidate equals preparation,True,R04:train:000679,"(25, 25.0)"
+scalar exclusions equal preparation,True,R04:train:000679,[]
+scalar eligibility equals preparation,True,R04:train:000679,
+goal constant and first-success indexing,True,R04:train:000679,
+"window original 32 contiguous IDs, none at/after success",True,R04:train:000679/ONSET,
+"window original 32 contiguous IDs, none at/after success",True,R04:train:000679/RANDOM_PRE,
+scalar first candidate equals preparation,True,R04:train:000720,"(323, 323.0)"
+scalar exclusions equal preparation,True,R04:train:000720,[]
+scalar eligibility equals preparation,True,R04:train:000720,
+goal constant and first-success indexing,True,R04:train:000720,
+"window original 32 contiguous IDs, none at/after success",True,R04:train:000720/ONSET,
+"window original 32 contiguous IDs, none at/after success",True,R04:train:000720/RANDOM_PRE,
+scalar first candidate equals preparation,True,R04:train:000732,"(49, 49.0)"
+scalar exclusions equal preparation,True,R04:train:000732,[]
+scalar eligibility equals preparation,True,R04:train:000732,
+goal constant and first-success indexing,True,R04:train:000732,
+"window original 32 contiguous IDs, none at/after success",True,R04:train:000732/ONSET,
+"window original 32 contiguous IDs, none at/after success",True,R04:train:000732/RANDOM_PRE,
+scalar first candidate equals preparation,True,R04:train:000755,"(112, 112.0)"
+scalar exclusions equal preparation,True,R04:train:000755,[]
+scalar eligibility equals preparation,True,R04:train:000755,
+goal constant and first-success indexing,True,R04:train:000755,
+"window original 32 contiguous IDs, none at/after success",True,R04:train:000755/ONSET,
+"window original 32 contiguous IDs, none at/after success",True,R04:train:000755/RANDOM_PRE,
+scalar first candidate equals preparation,True,R04:train:000827,"(365, 365.0)"
+scalar exclusions equal preparation,True,R04:train:000827,[]
+scalar eligibility equals preparation,True,R04:train:000827,
+goal constant and first-success indexing,True,R04:train:000827,
+"window original 32 contiguous IDs, none at/after success",True,R04:train:000827/ONSET,
+"window original 32 contiguous IDs, none at/after success",True,R04:train:000827/RANDOM_PRE,
+scalar first candidate equals preparation,True,R04:train:001019,"(330, 330.0)"
+scalar exclusions equal preparation,True,R04:train:001019,[]
+scalar eligibility equals preparation,True,R04:train:001019,
+goal constant and first-success indexing,True,R04:train:001019,
+"window original 32 contiguous IDs, none at/after success",True,R04:train:001019/ONSET,
+"window original 32 contiguous IDs, none at/after success",True,R04:train:001019/RANDOM_PRE,
+scalar first candidate equals preparation,True,R04:train:001284,"(56, 56.0)"
+scalar exclusions equal preparation,True,R04:train:001284,[]
+scalar eligibility equals preparation,True,R04:train:001284,
+goal constant and first-success indexing,True,R04:train:001284,
+"window original 32 contiguous IDs, none at/after success",True,R04:train:001284/ONSET,
+"window original 32 contiguous IDs, none at/after success",True,R04:train:001284/RANDOM_PRE,
+scalar first candidate equals preparation,True,R04:train:001379,"(46, 46.0)"
+scalar exclusions equal preparation,True,R04:train:001379,[]
+scalar eligibility equals preparation,True,R04:train:001379,
+goal constant and first-success indexing,True,R04:train:001379,
+"window original 32 contiguous IDs, none at/after success",True,R04:train:001379/ONSET,
+"window original 32 contiguous IDs, none at/after success",True,R04:train:001379/RANDOM_PRE,
+scalar first candidate equals preparation,True,R04:train:001792,"(304, 304.0)"
+scalar exclusions equal preparation,True,R04:train:001792,[]
+scalar eligibility equals preparation,True,R04:train:001792,
+goal constant and first-success indexing,True,R04:train:001792,
+"window original 32 contiguous IDs, none at/after success",True,R04:train:001792/ONSET,
+"window original 32 contiguous IDs, none at/after success",True,R04:train:001792/RANDOM_PRE,
+scalar first candidate equals preparation,True,R05:train:000247,"(175, 175.0)"
+scalar exclusions equal preparation,True,R05:train:000247,[]
+scalar eligibility equals preparation,True,R05:train:000247,
+goal constant and first-success indexing,True,R05:train:000247,
+"window original 32 contiguous IDs, none at/after success",True,R05:train:000247/ONSET,
+"window original 32 contiguous IDs, none at/after success",True,R05:train:000247/RANDOM_PRE,
+scalar first candidate equals preparation,True,R05:train:000545,"(None, nan)"
+scalar exclusions equal preparation,True,R05:train:000545,['no_qualifying_onset']
+scalar eligibility equals preparation,True,R05:train:000545,
+goal constant and first-success indexing,True,R05:train:000545,
+scalar first candidate equals preparation,True,R05:train:001007,"(266, 266.0)"
+scalar exclusions equal preparation,True,R05:train:001007,[]
+scalar eligibility equals preparation,True,R05:train:001007,
+goal constant and first-success indexing,True,R05:train:001007,
+"window original 32 contiguous IDs, none at/after success",True,R05:train:001007/ONSET,
+"window original 32 contiguous IDs, none at/after success",True,R05:train:001007/RANDOM_PRE,
+scalar first candidate equals preparation,True,R05:train:001010,"(189, 189.0)"
+scalar exclusions equal preparation,True,R05:train:001010,[]
+scalar eligibility equals preparation,True,R05:train:001010,
+goal constant and first-success indexing,True,R05:train:001010,
+"window original 32 contiguous IDs, none at/after success",True,R05:train:001010/ONSET,
+"window original 32 contiguous IDs, none at/after success",True,R05:train:001010/RANDOM_PRE,
+scalar first candidate equals preparation,True,R05:train:001160,"(318, 318.0)"
+scalar exclusions equal preparation,True,R05:train:001160,[]
+scalar eligibility equals preparation,True,R05:train:001160,
+goal constant and first-success indexing,True,R05:train:001160,
+"window original 32 contiguous IDs, none at/after success",True,R05:train:001160/ONSET,
+"window original 32 contiguous IDs, none at/after success",True,R05:train:001160/RANDOM_PRE,
+scalar first candidate equals preparation,True,R05:train:001173,"(253, 253.0)"
+scalar exclusions equal preparation,True,R05:train:001173,[]
+scalar eligibility equals preparation,True,R05:train:001173,
+goal constant and first-success indexing,True,R05:train:001173,
+"window original 32 contiguous IDs, none at/after success",True,R05:train:001173/ONSET,
+"window original 32 contiguous IDs, none at/after success",True,R05:train:001173/RANDOM_PRE,
+scalar first candidate equals preparation,True,R05:train:001371,"(195, 195.0)"
+scalar exclusions equal preparation,True,R05:train:001371,[]
+scalar eligibility equals preparation,True,R05:train:001371,
+goal constant and first-success indexing,True,R05:train:001371,
+"window original 32 contiguous IDs, none at/after success",True,R05:train:001371/ONSET,
+"window original 32 contiguous IDs, none at/after success",True,R05:train:001371/RANDOM_PRE,
+scalar first candidate equals preparation,True,R05:train:001700,"(None, nan)"
+scalar exclusions equal preparation,True,R05:train:001700,['no_qualifying_onset']
+scalar eligibility equals preparation,True,R05:train:001700,
+goal constant and first-success indexing,True,R05:train:001700,
+scalar first candidate equals preparation,True,R05:train:001713,"(196, 196.0)"
+scalar exclusions equal preparation,True,R05:train:001713,['window_reaches_first_success']
+scalar eligibility equals preparation,True,R05:train:001713,
+goal constant and first-success indexing,True,R05:train:001713,
+independent LOO episode and donor support,True,R01,
+receiver excluded from pool,True,R01,
+P U same source episodes and length support,True,R01,
+readiness truth value from exact operational minima,True,R01,
+independent LOO episode and donor support,True,R02,
+receiver excluded from pool,True,R02,
+P U same source episodes and length support,True,R02,
+readiness truth value from exact operational minima,True,R02,
+independent LOO episode and donor support,True,R03,
+receiver excluded from pool,True,R03,
+P U same source episodes and length support,True,R03,
+readiness truth value from exact operational minima,True,R03,
+independent LOO episode and donor support,True,R04,
+receiver excluded from pool,True,R04,
+P U same source episodes and length support,True,R04,
+readiness truth value from exact operational minima,True,R04,
+independent LOO episode and donor support,True,R05,
+receiver excluded from pool,True,R05,
+P U same source episodes and length support,True,R05,
+readiness truth value from exact operational minima,True,R05,
+replacement preserves legacy global NumPy RNG,True,synthetic sampler contract; no SAC runtime,
+P U primitive draws and episode offsets correspond,True,synthetic sampler contract; no SAC runtime,
+all task slots preserved exactly,True,synthetic sampler contract; no SAC runtime,
+zero replacement and BASE leave original arrays bitwise identical,True,synthetic sampler contract; no SAC runtime,
+actual native use excludes replaced original draws,True,synthetic sampler contract; no SAC runtime,
+no window-edge artificial terminal,True,synthetic sampler contract; no SAC runtime,
+episode and offset marginals uniform within fixed 6 sigma audit,True,synthetic sampler contract; no SAC runtime,
+Bernoulli rate within fixed 6 sigma audit,True,synthetic sampler contract; no SAC runtime,
+AUC time weighting,True,synthetic analysis; not scientific effect,
+missing case gives no point AUC and retains 16-case bounds,True,synthetic analysis; not scientific effect,
+identical arms have zero differences,True,synthetic analysis; not scientific effect,
+missing branch not silently dropped,True,synthetic analysis; not scientific effect,
+gain loss telescoping identity,True,synthetic analysis; not scientific effect,
+all thirty fixed cells retained without execution,True,,

@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "scope": "independent scalar raw-data detector, LOO, window, sampler and AUC contracts",
+  "check_rows": 209,
+  "all_passed": true,
+  "preparation": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T040844Z_preparation_31c9735e",
+  "new_execution": {
+    "environment_creations": 0,
+    "resets": 0,
+    "train_transitions": 0,
+    "eval_transitions": 0,
+    "technical_transitions": 0,
+    "issued_transitions": 0,
+    "completed_transitions": 0,
+    "policy_model_loads": 0,
+    "replay_deserializations": 0,
+    "policy_forwards": 0,
+    "learning_updates": 0
+  }
+}

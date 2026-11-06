@@ -1,0 +1,72 @@
+{
+  "state": "complete",
+  "status": "complete",
+  "kind": "branch",
+  "protocol_version": "85_onset_reuse_pilot_v1",
+  "parent_id": "R03",
+  "future_id": "F02",
+  "arm": "RANDOM_PRE",
+  "cell_number": 9,
+  "attempt": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21\\jobs\\R03_F02_RANDOM_PRE\\20261106T061114Z_attempt_96b86a9a",
+  "train_issued": 64000,
+  "train_completed": 64000,
+  "eval_issued": 96000,
+  "eval_completed": 96000,
+  "evaluation_episodes": 192,
+  "final_full": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21\\jobs\\R03_F02_RANDOM_PRE\\20261106T061114Z_attempt_96b86a9a\\checkpoints\\full\\064000",
+  "final_model_hash": "24e18db7c250a422b7e7a0e87669648f64ef85002cb3e6cb18f4e711a278b026",
+  "usage": {
+    "protocol_version": "85_onset_reuse_pilot_v1",
+    "parent_id": "R03",
+    "future_id": "F02",
+    "arm": "RANDOM_PRE",
+    "cell_number": 9,
+    "actual_train_step": 1064000,
+    "update_id": 1063000,
+    "native_draw_count": 16384000,
+    "native_actual_use": 15358327,
+    "archive_actual_use": 1025673,
+    "native_task_draw_counts": [
+      4106175,
+      4099422,
+      4090477,
+      4087926
+    ],
+    "archive_draw_hash": "29edc8a6cf0b46727d95c90ecdd94fecd2edd2113722cb49016cd6d3e53acbfe",
+    "replacement_mask_hash": "341ff8031ec96dc7c27a0d93340cdcd5290b2fbd29e62fa6fd699247878ec070",
+    "archive_actor_use": 1025673,
+    "archive_critic_use": 1025673
+  },
+  "completed_at": "2026-11-06T06:37:45.891383+00:00",
+  "wall_seconds": 1591.7871455999557,
+  "resource_costs": {
+    "memory": {
+      "rss": 4694347776,
+      "vms": 8267759616,
+      "num_page_faults": 4719833,
+      "peak_wset": 4727791616,
+      "wset": 4694347776,
+      "peak_paged_pool": 8588624,
+      "paged_pool": 8453968,
+      "peak_nonpaged_pool": 443056,
+      "nonpaged_pool": 207248,
+      "pagefile": 8267759616,
+      "peak_pagefile": 8608624640,
+      "private": 8267759616
+    },
+    "cpu": {
+      "user": 666.0625,
+      "system": 101.796875,
+      "children_user": 0.0,
+      "children_system": 0.0
+    },
+    "io": {
+      "read_count": 15115,
+      "write_count": 370658,
+      "read_bytes": 1066960260,
+      "write_bytes": 1098918874,
+      "other_count": 2859967,
+      "other_bytes": 85991800
+    }
+  }
+}

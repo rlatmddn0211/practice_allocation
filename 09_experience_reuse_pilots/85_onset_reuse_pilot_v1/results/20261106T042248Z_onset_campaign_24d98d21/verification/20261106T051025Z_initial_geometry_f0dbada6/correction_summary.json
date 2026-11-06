@@ -1,0 +1,36 @@
+{
+  "N": 80,
+  "unique_physical_cases": 16,
+  "parents": 5,
+  "raw_reset_progress": 63,
+  "physical_reset_progress": 14,
+  "raw_only": 49,
+  "official_successes": 0,
+  "new_execution": {
+    "environment_creations": 0,
+    "resets": 0,
+    "train_transitions": 0,
+    "eval_transitions": 0,
+    "technical_transitions": 0,
+    "issued_transitions": 0,
+    "completed_transitions": 0,
+    "policy_model_loads": 0,
+    "replay_deserializations": 0,
+    "policy_forwards": 0,
+    "learning_updates": 0
+  },
+  "threshold_m": 0.005,
+  "prior_reports_preserved": true,
+  "geometry": {
+    "joint_type": "slide",
+    "joint_range_m": [
+      -0.16,
+      0.0
+    ],
+    "world_axis": "0 1 0",
+    "nominal_closed_handle_goal_distance_m": 0.19,
+    "nominal_static_goal_distance_at_joint_lower_bound_m": 0.03,
+    "official_DO_success_radius_m": 0.03,
+    "interpretation": "Static source/XML geometry places the nominal success boundary at the joint lower limit. Actual soft constraints and returned endpoint distances remain authoritative; do not recreate labels from joint position or rounded numbers."
+  }
+}

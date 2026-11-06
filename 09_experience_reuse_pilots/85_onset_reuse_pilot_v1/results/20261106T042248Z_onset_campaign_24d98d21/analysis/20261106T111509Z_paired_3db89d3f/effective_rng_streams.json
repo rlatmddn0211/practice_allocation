@@ -1,0 +1,18 @@
+{
+  "planned_seed_manifest": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T040844Z_preparation_31c9735e\\seed_manifest.json",
+  "effective_rules": {
+    "rollout_action": "keyed SHA256(pilot version, rollout_action stream seed, absolute env counter) mod(2**63-1); torch fork_rng restores learner RNG",
+    "task_order": "new PCG64 state on original exhausted schedule; block/position/block count preserved",
+    "reset_goal": "existing derived_seed(reset_goal role,20,task,original continued task_visit_index)",
+    "native_replay": "legacy global NumPy RandomState seeded only from native_replay role; archive draws private",
+    "learning_action": "original shared PyTorch actor/target stochastic update stream; separated from rollout using fork_rng",
+    "archive_replacement": "independent private keyed PCG64 replacement/episode/offset fields per update and all256 slots",
+    "evaluation": "original fixed per-case reset_seed/action_seed, isolated; newly derived future evaluation seed is unused",
+    "logging_video": "deterministic frozen case IDs and frame stride; derived logging_video seed unused"
+  },
+  "unused_planned_roles": [
+    "evaluation future-derived seed",
+    "logging_video seed"
+  ],
+  "no_claim_same_seed_same_trajectory": true
+}

@@ -1,0 +1,166 @@
+{
+  "status": "passed",
+  "analysis": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21\\analysis\\20261106T111509Z_paired_3db89d3f",
+  "source_sha256": "a9e5faf064cff5a46333668ae861d0bf53ce59105e6f35706233d35b0b9d37b5",
+  "checks": [
+    {
+      "check": "Complete fixed design",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Issued and completed costs agree inside fixed caps",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Independent saved-label verification passed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Exactly all planned cells adopted once",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Exactly five shared initial evaluations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Fixed final evaluation videos recorded without extra rollouts",
+      "passed": true,
+      "detail": {
+        "videos": 240
+      }
+    },
+    {
+      "check": "Six required standalone figures present",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Both source snapshots and live frozen research files match hashes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Bundle checksum matches immutable receipt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Bundle CRC valid",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Bundle status equals delivered final status",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Bundle report equals delivered report",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Final native/archive use conserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Archive actor and critic batch-use counts agree",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "All ten P/U draw and replacement hash correspondences passed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Fixed final DO counts match report",
+      "passed": true,
+      "detail": {
+        "BASE": 1,
+        "ONSET": 4,
+        "RANDOM_PRE": 11
+      }
+    }
+  ],
+  "manual_visual_review": {
+    "all_six_inspected": true,
+    "legible_Korean_and_units": true,
+    "figures": [
+      {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21\\analysis\\20261106T111509Z_paired_3db89d3f\\figures\\01_onset_windows.png",
+        "sha256": "5a6723b330264f3b156dd0d41238986988d11a77236ddf6d6a10e958b74d1009"
+      },
+      {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21\\analysis\\20261106T111509Z_paired_3db89d3f\\figures\\02_support_and_exclusions.png",
+        "sha256": "6fa4ea86b693c50b6b0e083a8aabc81d01ecce6f1fa8b17a85c3889230a0796a"
+      },
+      {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21\\analysis\\20261106T111509Z_paired_3db89d3f\\figures\\03_do_learning_curves.png",
+        "sha256": "4dd8bd7eff2365b7581e3a52011428581c4a00e03446626e1875791379a2da50"
+      },
+      {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21\\analysis\\20261106T111509Z_paired_3db89d3f\\figures\\04_paired_parent_future_effects.png",
+        "sha256": "8bc405a82e7e9eeecf778f99a5d3136dfaf8bbb06c70672f1e25056135af2812"
+      },
+      {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21\\analysis\\20261106T111509Z_paired_3db89d3f\\figures\\05_task_tradeoffs.png",
+        "sha256": "18b2823d20c865e60344a199b21e8638eaec5385de63fa3da8f25fcfc413c94e"
+      },
+      {
+        "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21\\analysis\\20261106T111509Z_paired_3db89d3f\\figures\\06_archive_exposure.png",
+        "sha256": "a913069e38350b07d693ca6ecf3e8254bd1cff52a4a59836e6f3203d9bbfd7d9"
+      }
+    ],
+    "notes": "All six plots inspected in image tool; figure03 retains full0-100% scale. No raw data or scientific result altered."
+  },
+  "final_DO_ONSET_positive_cells": [
+    {
+      "parent_id": "R04",
+      "future_id": "F01",
+      "final_successes": 4
+    }
+  ],
+  "actual_final_batch_usage": [
+    {
+      "arm": "BASE",
+      "native_draw_count": 163840000,
+      "native_actual_use": 163840000,
+      "archive_actual_use": 0,
+      "archive_actor_use": 0,
+      "archive_critic_use": 0
+    },
+    {
+      "arm": "ONSET",
+      "native_draw_count": 163840000,
+      "native_actual_use": 153612156,
+      "archive_actual_use": 10227844,
+      "archive_actor_use": 10227844,
+      "archive_critic_use": 10227844
+    },
+    {
+      "arm": "RANDOM_PRE",
+      "native_draw_count": 163840000,
+      "native_actual_use": 153612156,
+      "archive_actual_use": 10227844,
+      "archive_actor_use": 10227844,
+      "archive_critic_use": 10227844
+    }
+  ],
+  "wall_seconds": 0.19390650000423193,
+  "new_execution": {
+    "environment_creations": 0,
+    "resets": 0,
+    "transitions": 0,
+    "model_loads": 0,
+    "policy_forwards": 0,
+    "learning_updates": 0
+  }
+}

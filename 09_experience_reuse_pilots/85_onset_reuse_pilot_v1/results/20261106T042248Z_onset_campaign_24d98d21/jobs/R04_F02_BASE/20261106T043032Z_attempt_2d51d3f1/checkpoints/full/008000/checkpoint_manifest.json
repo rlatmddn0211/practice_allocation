@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-11-06T04:33:14.488010+00:00",
+  "boundary": "after transition, update, episode close; before next reset",
+  "step": 1008000,
+  "updates": 1007000,
+  "replay_size": 100000,
+  "replay_pos": 8000,
+  "state_fingerprints": {
+    "learning": "39752e2f56f91230ab09e98d22dd14a6e75d735bbef0d24ab7a4d2c843663017",
+    "replay": "7bbfb4d7bbba143f2182969bcb18252a5eff34cd0c48ca7dd5f2b6dea0233203",
+    "collector": "b8a28608c49f9ead6cf079f6062da0f7944437e07deb3cd27d34fc49acf0e45b",
+    "rng": "d0d1b5a4c9963b408d9f85342a6d006d6dfb931b46dac8aa126ff1a6c6ead713"
+  },
+  "config_hash": "3a71f64d59a6e20b2b35a14f593018c3a338b2030c943fe2b221b8d673d78280",
+  "packages": {
+    "numpy": "2.2.4",
+    "torch": "2.5.1+cu121",
+    "gymnasium": "1.2.3",
+    "mujoco": "3.5.0",
+    "metaworld": "3.0.0",
+    "stable-baselines3": "2.7.1"
+  },
+  "source_hashes": {
+    "analysis.py": "438f28b07d55fc2361e6fc4355b229245fb44236799aa9658384fe2b7b8ee49c",
+    "campaign.py": "dd5ee5e93613c3572bdb8c68a3751fb83518a1431c67c16dd09edae49b5fbe1c",
+    "checkpoints.py": "ce25944bb8acb4e27ef8369afa3ac1ee063d7096dd7ee050a64dbbb425724dab",
+    "evaluation.py": "7edc5653c10726f6f3a78e16dd6518a69a49149f50ef0c6f48efba36b08b9865",
+    "learner.py": "1b47324751545bdb6f3fba9e6ba5afd44c2ebcc4223031bf52a59f88c8a1abff",
+    "prepare.py": "db824c0c8c70cc83cb6040af44b0659dbcab27eca61c00e34f25d0593be43b8f",
+    "records.py": "58dd9ac8d50b8976dc62e76c6562b638ef2aa2a842a2510a809b17d6d7701de7",
+    "technical.py": "ae34dcfae98ff91e720553c2a7a11a9f199f5c0ec6f9cdad497efc7b416167a4",
+    "verify_analysis.py": "e2a56b420fbb9c8493aa6529af4f7327399f68da18378344fbd634cffcd8b9ff",
+    "protocol.json": "e0203594e55600392aa2da1be163ef79656ab2b34a403fdc778837bdfa9535a5",
+    "practice_allocation/__init__.py": "4215c51deb3d834c283aeed7c87b8747916234e964f1a8cd9eedadaf1e465a2f",
+    "practice_allocation/core.py": "6b5e51cacd6ac44ef117ed750ac4bcd46bb0beffac4dd5d0bd7edc7de93cb62d",
+    "practice_allocation/engine.py": "ae090b11d36b715eb7c66ce89c39c1021d1de140abe7fbb5e820eff1ed4a3f26",
+    "practice_allocation/environment.py": "85afb8560da5160832e619f90608eae0b4b83aa75264376800111b295ef4e4e8",
+    "practice_allocation/learning.py": "e32e1f2e23490c651167af24386a3af5df005af766a33128c9bb75f719e30009",
+    "practice_allocation/schedules.py": "d114ce28a4b56e52ec53f1481f6393bdae1895cdb8d4393a10b175e1e36da4ec",
+    "configs/learner.json": "17926ed79ad2bfdc7ffa864494ce11caf25b440b4470ef6b479a68ce25ae9ab3",
+    "configs/suites.json": "d94a146844590a1fd66e06625222db17340f442f992df674f069514330771c77",
+    "README.md": "61c2fdbaf9bb00e7f82690f970a0d83b172f64dac6ea16787a1c64e390caffcf"
+  },
+  "files": {
+    "model.zip": "5a577fc7f7636eca5437f74e009fa150a0ff3fb7714156bfd6e7624e6660a95d",
+    "replay.pkl": "763b8c539e02824f6904af3b2ec7c8bab02d51a3721a5e56ce3c978ce6ca1a98",
+    "collector_and_rng.pkl": "d9891e07a78dbe0cbc87b8328375bffe7d8cb1dc52c4f175d6ace0a9a6c160c2"
+  },
+  "seconds": 0.426655099960044
+}

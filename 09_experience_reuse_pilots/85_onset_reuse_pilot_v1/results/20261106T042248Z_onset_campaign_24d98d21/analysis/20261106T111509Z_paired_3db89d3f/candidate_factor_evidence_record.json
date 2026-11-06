@@ -1,0 +1,88 @@
+{
+  "execution_status": "complete",
+  "scientific_status": "nominal_pilot_signal_not_met",
+  "factor": "fixed onset-centered successful DO pre-success replay selection",
+  "baselines": [
+    "BASE",
+    "RANDOM_PRE"
+  ],
+  "source_campaign": "20261102T085036Z_observation_8e858967",
+  "parent_ids": [
+    "R01",
+    "R02",
+    "R03",
+    "R04",
+    "R05"
+  ],
+  "original_seeds_reference": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\81_basic_sac_observation_campaign_v1\\results\\20261102T085036Z_observation_8e858967\\seed_manifest.json",
+  "continuation_seeds_reference": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T040844Z_preparation_31c9735e\\seed_manifest.json",
+  "effect_sizes": [
+    {
+      "비교": "P-U",
+      "DO_AUC차이_pp": -1.25,
+      "분위하한_pp": -1.875,
+      "분위상한_pp": -0.546875,
+      "양의부모수": 0,
+      "LOPO최소_pp": -1.5625,
+      "LOPO최대_pp": -0.9765625
+    },
+    {
+      "비교": "P-B",
+      "DO_AUC차이_pp": 1.328125,
+      "분위하한_pp": -0.46875,
+      "분위상한_pp": 3.8281250000000004,
+      "양의부모수": 3,
+      "LOPO최소_pp": 0.09765625,
+      "LOPO최대_pp": 1.953125
+    },
+    {
+      "비교": "U-B",
+      "DO_AUC차이_pp": 2.578125,
+      "분위하한_pp": 0.234375,
+      "분위상한_pp": 5.3125,
+      "양의부모수": 4,
+      "LOPO최소_pp": 1.3671875,
+      "LOPO최대_pp": 3.515625
+    }
+  ],
+  "uncertainty_scope": "descriptive parent-composition sensitivity, fixed overlapping LOO archives and 16-case development panels; no population coverage guarantee",
+  "actual_costs": {
+    "original_campaign_cost_separate": 6604850,
+    "new_issued": 4964900,
+    "new_completed": 4964900,
+    "new_cap": 4970000,
+    "remaining": 5100,
+    "technical": 4900,
+    "technical_failed_retry_cap": 10000,
+    "original_plus_new_bookkeeping_sum": 11569750,
+    "reset_internal_physics_not_in_environment_transition_count": true,
+    "category": {
+      "post_eval": {
+        "issued": 2880000,
+        "completed": 2880000
+      },
+      "start_eval": {
+        "issued": 160000,
+        "completed": 160000
+      },
+      "technical": {
+        "issued": 4900,
+        "completed": 4900
+      },
+      "train": {
+        "issued": 1920000,
+        "completed": 1920000
+      }
+    },
+    "GPU_time_scope": "job elapsed wall time, not kernel-only GPU time"
+  },
+  "unfavorable_inconclusive_findings_reference": "all parent/future rows in paired_effects_by_parent_future.csv",
+  "limitations": [
+    "overlapping LOO archives",
+    "one fixed random window",
+    "old 16-case development panel",
+    "one starting step",
+    "selection rule not skill or causal action"
+  ],
+  "next_decision": "No automatic expansion; nominal pilot signal and tradeoffs determine whether to propose independent confirmation"
+}

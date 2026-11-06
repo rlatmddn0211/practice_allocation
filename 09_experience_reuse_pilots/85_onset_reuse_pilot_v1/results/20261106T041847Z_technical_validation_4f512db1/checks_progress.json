@@ -1,0 +1,86 @@
+[
+  {
+    "check": "same parent restored twice: actions physics rewards updates exactly equal",
+    "passed": true,
+    "scope": "R01",
+    "detail": ""
+  },
+  {
+    "check": "same parent restored twice: actions physics rewards updates exactly equal",
+    "passed": true,
+    "scope": "R02",
+    "detail": ""
+  },
+  {
+    "check": "same parent restored twice: actions physics rewards updates exactly equal",
+    "passed": true,
+    "scope": "R03",
+    "detail": ""
+  },
+  {
+    "check": "same parent restored twice: actions physics rewards updates exactly equal",
+    "passed": true,
+    "scope": "R04",
+    "detail": ""
+  },
+  {
+    "check": "same parent restored twice: actions physics rewards updates exactly equal",
+    "passed": true,
+    "scope": "R05",
+    "detail": ""
+  },
+  {
+    "check": "stock original sampler and zero replacement exactly equal",
+    "passed": true,
+    "scope": "",
+    "detail": ""
+  },
+  {
+    "check": "full pilot checkpoint restores optimizer replay collector RNG and exact continuation",
+    "passed": true,
+    "scope": "",
+    "detail": ""
+  },
+  {
+    "check": "replacement usage conserves 256 final slots per update",
+    "passed": true,
+    "scope": "ONSET",
+    "detail": ""
+  },
+  {
+    "check": "replacement usage conserves 256 final slots per update",
+    "passed": true,
+    "scope": "RANDOM_PRE",
+    "detail": ""
+  },
+  {
+    "check": "P U draw and replacement masks correspond at identical stream keys",
+    "passed": true,
+    "scope": "",
+    "detail": ""
+  },
+  {
+    "check": "pilot evaluation matches original deterministic full-horizon evaluator",
+    "passed": true,
+    "scope": "",
+    "detail": ""
+  },
+  {
+    "check": "evaluation keeps all training state and RNG exactly unchanged",
+    "passed": true,
+    "scope": "",
+    "detail": ""
+  },
+  {
+    "check": "all four original physical cases reproduced at native horizon",
+    "passed": true,
+    "scope": "",
+    "detail": ""
+  },
+  {
+    "check": "shared technical/failure reserve obeyed",
+    "passed": true,
+    "scope": "",
+    "detail": ""
+  }
+]

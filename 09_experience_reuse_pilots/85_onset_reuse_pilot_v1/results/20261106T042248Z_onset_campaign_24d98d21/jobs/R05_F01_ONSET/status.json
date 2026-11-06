@@ -1,0 +1,72 @@
+{
+  "state": "complete",
+  "status": "complete",
+  "kind": "branch",
+  "protocol_version": "85_onset_reuse_pilot_v1",
+  "parent_id": "R05",
+  "future_id": "F01",
+  "arm": "ONSET",
+  "cell_number": 5,
+  "attempt": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21\\jobs\\R05_F01_ONSET\\20261106T051932Z_attempt_22ed4045",
+  "train_issued": 64000,
+  "train_completed": 64000,
+  "eval_issued": 96000,
+  "eval_completed": 96000,
+  "evaluation_episodes": 192,
+  "final_full": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21\\jobs\\R05_F01_ONSET\\20261106T051932Z_attempt_22ed4045\\checkpoints\\full\\064000",
+  "final_model_hash": "2ffbcf0a53fc43b3be0ff4587fa486ec447324726fd059a9f8258c10f97f4e48",
+  "usage": {
+    "protocol_version": "85_onset_reuse_pilot_v1",
+    "parent_id": "R05",
+    "future_id": "F01",
+    "arm": "ONSET",
+    "cell_number": 5,
+    "actual_train_step": 1064000,
+    "update_id": 1063000,
+    "native_draw_count": 16384000,
+    "native_actual_use": 15362827,
+    "archive_actual_use": 1021173,
+    "native_task_draw_counts": [
+      4083570,
+      4092678,
+      4095065,
+      4112687
+    ],
+    "archive_draw_hash": "ae5d44af212931c7b752accbd0a21614fd88b3243c4c741c67819f84aefd6ada",
+    "replacement_mask_hash": "854d11051ca98147b83569866beb14f619c1946363fc9345df0f2c8604dc80ad",
+    "archive_actor_use": 1021173,
+    "archive_critic_use": 1021173
+  },
+  "completed_at": "2026-11-06T05:46:14.629043+00:00",
+  "wall_seconds": 1601.7389688999392,
+  "resource_costs": {
+    "memory": {
+      "rss": 4698169344,
+      "vms": 8277012480,
+      "num_page_faults": 4722660,
+      "peak_wset": 4731609088,
+      "wset": 4698169344,
+      "peak_paged_pool": 8588880,
+      "paged_pool": 8454224,
+      "peak_nonpaged_pool": 443328,
+      "nonpaged_pool": 207520,
+      "pagefile": 8277012480,
+      "peak_pagefile": 8615985152,
+      "private": 8277012480
+    },
+    "cpu": {
+      "user": 665.828125,
+      "system": 98.328125,
+      "children_user": 0.0,
+      "children_system": 0.0
+    },
+    "io": {
+      "read_count": 15094,
+      "write_count": 370578,
+      "read_bytes": 1065279996,
+      "write_bytes": 1097299817,
+      "other_count": 2861939,
+      "other_bytes": 85972016
+    }
+  }
+}

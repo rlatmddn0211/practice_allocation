@@ -1,0 +1,46 @@
+{
+  "wall_seconds": 2.1199104000115767,
+  "cpu": {
+    "user": 0.140625,
+    "system": 0.03125,
+    "children_user": 0.0,
+    "children_system": 0.0
+  },
+  "memory": {
+    "rss": 154730496,
+    "vms": 951074816,
+    "num_page_faults": 38522,
+    "peak_wset": 154730496,
+    "wset": 154730496,
+    "peak_paged_pool": 379448,
+    "paged_pool": 379352,
+    "peak_nonpaged_pool": 58808,
+    "nonpaged_pool": 50024,
+    "pagefile": 951074816,
+    "peak_pagefile": 951074816,
+    "private": 951074816
+  },
+  "process_io": {
+    "read_count": 10387,
+    "write_count": 1201,
+    "read_bytes": 311372397,
+    "write_bytes": 1358311,
+    "other_count": 90484,
+    "other_bytes": 5953684
+  },
+  "tracked_read_bytes": 266564331,
+  "new_execution": {
+    "environment_creations": 0,
+    "resets": 0,
+    "train_transitions": 0,
+    "eval_transitions": 0,
+    "technical_transitions": 0,
+    "issued_transitions": 0,
+    "completed_transitions": 0,
+    "policy_model_loads": 0,
+    "replay_deserializations": 0,
+    "policy_forwards": 0,
+    "learning_updates": 0
+  },
+  "original_campaign_cost_separate": 6604850
+}
