@@ -1,0 +1,56 @@
+[
+  {
+    "id": "01_BP_repetition",
+    "caption": "상단은 부모 안 두 미래 평균 성공률, 하단은10개 부모×미래 대응 AUC. 각 점의 평가 분모16이며 독립 부모는5개. 선은 네 관측 시점의 연결이고 연속 학습 경로가 아니다. B=BASE,U=RANDOM_PRE,P=ONSET.",
+    "png": "figures/01_BP_repetition.png",
+    "svg": "figures/01_BP_repetition.svg"
+  },
+  {
+    "id": "02_BP_all160_histories",
+    "caption": "각 arm160행의 동일 parent/future/case 순서. 초기148성공/12실패는 부모별 공통 초기 관측을 두 미래에 재사용한 수이며 고유 물리 사례는16개다.1111은 네 평가에서 관측된 성공이고 평가 사이의 보존을 뜻하지 않는다.",
+    "png": "figures/02_BP_all160_histories.png",
+    "svg": "figures/02_BP_all160_histories.svg"
+  },
+  {
+    "id": "03_BP_retention_acquisition",
+    "caption": "왼쪽148/arm은 초기 성공 고정집합, 오른쪽12/arm은 초기 실패 고정집합. U의2이력은 끝까지 성공 미관측. P16k획득11중2이력은 중간 상실 뒤 회복했다.64k최초 획득의 이후 유지는 미측정이다.",
+    "png": "figures/03_BP_retention_acquisition.png",
+    "svg": "figures/03_BP_retention_acquisition.svg"
+  },
+  {
+    "id": "04_BP_paired_raw_paths",
+    "caption": "모든160사례를 분류한 뒤 각 유형의 AUC차 중앙 사례를 선택했다. P-U,+64k,동일 물리 초기조건. 버튼축 오차는post-action 세계Y오차,20mm선은 고정 공식 성공 기준. TCP거리는m→mm 변환,하단 접촉 점은제어endpoint 표본이다. action은[-1,1]정규화 명령이며 물체 변위나 인과 기여가 아니다.영상 유무로 사례를 교체하지 않았다.",
+    "png": "figures/04_BP_paired_raw_paths.png",
+    "svg": "figures/04_BP_paired_raw_paths.svg"
+  },
+  {
+    "id": "05_DO_all25_contents",
+    "caption": "각32전이 창의 시작 직전부터끝까지p=-q의변화를집계.양수=개방,음수=닫힘.세번째열은창밖첫성공까지의맥락이며학습에재사용되지않았다.초기좌표는85정정물리h0를사용했고원SAC관측은수정하지않았다.원본q/m자료의표시만mm로변환했다.",
+    "png": "figures/05_DO_all25_contents.png",
+    "svg": "figures/05_DO_all25_contents.svg"
+  },
+  {
+    "id": "06_DO_context_and_fixed_windows",
+    "caption": "모든 전수 집계 후 선택: 완전 되돌림R02:000251,창순개방음수R04:000679,정렬ID중앙사례.색은원래고정P/U창32개,회색점선은tau,녹색점선은첫성공sigma.이는경로맥락예시이며창밖자료를재사용했다고뜻하지않는다.신규검출·창선택·환경실행없음.",
+    "png": "figures/06_DO_context_and_fixed_windows.png",
+    "svg": "figures/06_DO_context_and_fixed_windows.svg"
+  },
+  {
+    "id": "07_actual_interval_exposure",
+    "caption": "각부모×미래×arm에서누적actual최종배치사용량의차분을먼저계산했다.뒤32k구간은길이가두배이므로update당량을보였다.P/U episode-offset사용량은정확히대응하며실제다른내용을같은횟수로사용했다.BASE는archive0,조건부내용평균NA.연속선은3구간요약이고개별전이의인과효과가아니다.",
+    "png": "figures/07_actual_interval_exposure.png",
+    "svg": "figures/07_actual_interval_exposure.svg"
+  },
+  {
+    "id": "08_content_effect_linkage",
+    "caption": "각점은부모×미래,노출은해당64k까지실제사용된자료만포함.부모상태와LOO저장소가함께달라져내용효과를분리하지못한다.부모평균의정렬은다수요약을살핀뒤발견한약한후보이고5부모에서추정한선택규칙이아니다.R05/F02는AUC양수지만최종P-U음수다.",
+    "png": "figures/08_content_effect_linkage.png",
+    "svg": "figures/08_content_effect_linkage.svg"
+  },
+  {
+    "id": "09_BP_recovery_observation_paths",
+    "caption": "P-U공통최종성공·이력상이유형의정해진중앙사례.R01/F01/BP_E00:P1011,U1001.16k둘실패,32kP회복/U실패,64k둘회복.동일초기조건에서서로다른정책의자연궤적이며이후방문상태까지같은대조가아니다.상실·회복의정확한학습step은미측정이다.",
+    "png": "figures/09_BP_recovery_observation_paths.png",
+    "svg": "figures/09_BP_recovery_observation_paths.svg"
+  }
+]

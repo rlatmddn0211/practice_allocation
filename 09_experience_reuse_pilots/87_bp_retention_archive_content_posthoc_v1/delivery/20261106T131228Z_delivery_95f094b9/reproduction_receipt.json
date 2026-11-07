@@ -1,0 +1,22 @@
+{
+  "status": "complete",
+  "sha256": "652ed2e4f893a4e566f5cea84d9d35cfade2659ca1e7c0cb3caa7d92eefbe876",
+  "bundle_bytes": 5284588,
+  "files": 121,
+  "uncompressed_artifact_bytes": 13338375,
+  "all_delivery_files_bytes": 18723077,
+  "pack_and_crc_seconds": 0.2684673999901861,
+  "content": "small derived tables/code/config/figures/receipts only; immutable raw inputs referenced by path+hash",
+  "current_status_in_zip": true,
+  "new_execution": {
+    "environment_creations": 0,
+    "resets": 0,
+    "environment_transitions": 0,
+    "environment_restores": 0,
+    "mujoco_forward": 0,
+    "model_loads": 0,
+    "policy_forwards": 0,
+    "learning_updates": 0,
+    "new_bootstrap_draws": 0
+  }
+}

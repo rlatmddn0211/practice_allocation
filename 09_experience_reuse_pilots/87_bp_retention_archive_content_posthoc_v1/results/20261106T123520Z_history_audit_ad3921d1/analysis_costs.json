@@ -1,0 +1,43 @@
+{
+  "wall_seconds": 0.21236989996396005,
+  "memory": {
+    "rss": 132431872,
+    "vms": 958763008,
+    "num_page_faults": 32879,
+    "peak_wset": 132431872,
+    "wset": 132431872,
+    "peak_paged_pool": 378648,
+    "paged_pool": 378552,
+    "peak_nonpaged_pool": 48936,
+    "nonpaged_pool": 48256,
+    "pagefile": 958763008,
+    "peak_pagefile": 958763008,
+    "private": 958763008
+  },
+  "cpu": {
+    "user": 0.09375,
+    "system": 0.0,
+    "children_user": 0.0,
+    "children_system": 0.0
+  },
+  "io": {
+    "read_count": 1102,
+    "write_count": 388,
+    "read_bytes": 16132320,
+    "write_bytes": 263121,
+    "other_count": 17853,
+    "other_bytes": 807804
+  },
+  "tracked_input_bytes": 986944,
+  "new_execution": {
+    "environment_creations": 0,
+    "resets": 0,
+    "environment_transitions": 0,
+    "environment_restores": 0,
+    "mujoco_forward": 0,
+    "model_loads": 0,
+    "policy_forwards": 0,
+    "learning_updates": 0,
+    "new_bootstrap_draws": 0
+  }
+}

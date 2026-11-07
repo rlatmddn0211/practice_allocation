@@ -1,0 +1,9 @@
+arm,first_success_train_step,subsequent_evaluation_opportunities,histories,final_successes,histories_with_later_loss,recovery_events
+BASE,16000.0,2.0,8,2,6,0
+BASE,32000.0,1.0,2,0,2,0
+BASE,64000.0,0.0,2,2,0,0
+ONSET,16000.0,2.0,11,11,2,2
+ONSET,32000.0,1.0,1,1,False,0
+RANDOM_PRE,16000.0,2.0,7,6,2,1
+RANDOM_PRE,64000.0,0.0,3,3,0,0
+RANDOM_PRE,,,2,0,0,0

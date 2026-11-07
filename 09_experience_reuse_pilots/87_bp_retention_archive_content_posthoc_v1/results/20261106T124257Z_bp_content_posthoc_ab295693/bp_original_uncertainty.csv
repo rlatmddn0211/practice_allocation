@@ -1,0 +1,7 @@
+contrast,scope,metric,estimate,lower,upper,positive_parents,zero_parents,negative_parents,lopo_min,lopo_max
+P-U,BP,delta_auc,0.07578125,-0.01171875,0.1765625,3,0,2,0.029296875,0.1064453125
+P-U,BP,delta_final,0.06875,0.01875,0.11875,3,2,0,0.046875,0.0859375
+P-B,BP,delta_auc,0.1203125,0.0265625,0.2453125,4,0,1,0.0615234375,0.154296875
+P-B,BP,delta_final,0.25,0.1125,0.425,5,0,0,0.171875,0.3046875
+U-B,BP,delta_auc,0.04453125,-0.0375,0.1265625,3,0,2,0.017578125,0.076171875
+U-B,BP,delta_final,0.18125,0.0375,0.3126562499999863,4,0,1,0.125,0.2421875

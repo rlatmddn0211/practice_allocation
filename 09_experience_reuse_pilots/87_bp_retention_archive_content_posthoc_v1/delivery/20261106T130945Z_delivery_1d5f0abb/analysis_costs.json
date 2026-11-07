@@ -1,0 +1,106 @@
+{
+  "started_utc": "2026-11-06T13:09:45.573109+00:00",
+  "finished_utc": "2026-11-06T13:09:53.007112+00:00",
+  "delivery_wall_seconds": 7.435790900024585,
+  "delivery_memory": {
+    "rss": 205332480,
+    "vms": 1067171840,
+    "num_page_faults": 313020,
+    "peak_wset": 267714560,
+    "wset": 205332480,
+    "peak_paged_pool": 389056,
+    "paged_pool": 388880,
+    "peak_nonpaged_pool": 1619128,
+    "nonpaged_pool": 54512,
+    "pagefile": 1067171840,
+    "peak_pagefile": 1129590784,
+    "private": 1067171840
+  },
+  "delivery_io": {
+    "read_count": 60014,
+    "write_count": 285,
+    "read_bytes": 540674441,
+    "write_bytes": 13375762,
+    "other_count": 41028,
+    "other_bytes": 2937000
+  },
+  "delivery_cpu": {
+    "user": 2.53125,
+    "system": 0.109375,
+    "children_user": 0.0,
+    "children_system": 0.0
+  },
+  "tracked_delivery_input_bytes": 13109992,
+  "core_costs": {
+    "wall_seconds": 20.371890499955043,
+    "memory": {
+      "rss": 216317952,
+      "vms": 1094660096,
+      "num_page_faults": 106680,
+      "peak_wset": 259567616,
+      "wset": 216317952,
+      "peak_paged_pool": 382744,
+      "paged_pool": 382648,
+      "peak_nonpaged_pool": 59408,
+      "nonpaged_pool": 55328,
+      "pagefile": 1094660096,
+      "peak_pagefile": 1181388800,
+      "private": 1094660096
+    },
+    "cpu": {
+      "user": 5.3125,
+      "system": 0.34375,
+      "children_user": 0.0,
+      "children_system": 0.0
+    },
+    "io": {
+      "read_count": 49144,
+      "write_count": 3542,
+      "read_bytes": 742443984,
+      "write_bytes": 9537909,
+      "other_count": 97915,
+      "other_bytes": 8775102
+    },
+    "tracked_input_bytes": 388199560,
+    "new_execution": {
+      "environment_creations": 0,
+      "resets": 0,
+      "environment_transitions": 0,
+      "environment_restores": 0,
+      "mujoco_forward": 0,
+      "model_loads": 0,
+      "policy_forwards": 0,
+      "learning_updates": 0,
+      "new_bootstrap_draws": 0
+    }
+  },
+  "independent_verification_costs": {
+    "wall_seconds": 0.4316116999834776,
+    "tracked_input_bytes": 8275978,
+    "new_execution": {
+      "environment_creations": 0,
+      "resets": 0,
+      "environment_transitions": 0,
+      "environment_restores": 0,
+      "mujoco_forward": 0,
+      "model_loads": 0,
+      "policy_forwards": 0,
+      "learning_updates": 0,
+      "new_bootstrap_draws": 0
+    }
+  },
+  "historical_preliminary_history_audit": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\87_bp_retention_archive_content_posthoc_v1\\results\\20261106T123520Z_history_audit_ad3921d1\\analysis_costs.json",
+  "source_campaign_environment_steps_not_recounted": 4964900,
+  "new_execution": {
+    "environment_creations": 0,
+    "resets": 0,
+    "environment_transitions": 0,
+    "environment_restores": 0,
+    "mujoco_forward": 0,
+    "model_loads": 0,
+    "policy_forwards": 0,
+    "learning_updates": 0,
+    "new_bootstrap_draws": 0
+  },
+  "cost_units": "wall seconds/CPU seconds/OS read-write bytes/working-set bytes are separate; not GPU kernel time"
+}

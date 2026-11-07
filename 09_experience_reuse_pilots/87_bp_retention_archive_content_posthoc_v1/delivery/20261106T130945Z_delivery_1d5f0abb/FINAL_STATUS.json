@@ -1,0 +1,42 @@
+{
+  "version": "87_bp_retention_archive_content_posthoc_v1",
+  "status": "analysis_complete_pending_file_delivery_review",
+  "stages": {
+    "BP_repetition": {
+      "status": "complete",
+      "reason": "10 parent-future and5 parent means,all3 comparisons,LOPO and full160 paired histories"
+    },
+    "BP_histories_and_performance": {
+      "status": "complete",
+      "reason": "480 arm histories;1520 complete BP evaluations;all760000 endpoints source-verified"
+    },
+    "fixed_DO_content": {
+      "status": "complete",
+      "reason": "25 episodes;50 frozen windows;1600 transition contents;corrected physical x0 and post-window context"
+    },
+    "actual_use_and_effect_linkage": {
+      "status": "complete",
+      "reason": "38400 usage rows;60 interval exposures;90 time-respecting comparison links"
+    }
+  },
+  "independent_confirmation": false,
+  "source_campaign": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21",
+  "core_analysis": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\87_bp_retention_archive_content_posthoc_v1\\results\\20261106T124257Z_bp_content_posthoc_ab295693",
+  "verification": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\87_bp_retention_archive_content_posthoc_v1\\results\\20261106T124257Z_bp_content_posthoc_ab295693\\verification\\20261106T124841Z_6a8af63a",
+  "missingness": "missingness_and_diagnostics.csv",
+  "new_execution": {
+    "environment_creations": 0,
+    "resets": 0,
+    "environment_transitions": 0,
+    "environment_restores": 0,
+    "mujoco_forward": 0,
+    "model_loads": 0,
+    "policy_forwards": 0,
+    "learning_updates": 0,
+    "new_bootstrap_draws": 0
+  },
+  "scientific_status": "Exploratory BP signal with adverse parents and task tradeoffs; no transferable condition or primitive established",
+  "next_experiment_launched": false,
+  "publication_performed": false,
+  "output": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\87_bp_retention_archive_content_posthoc_v1\\delivery\\20261106T130945Z_delivery_1d5f0abb"
+}

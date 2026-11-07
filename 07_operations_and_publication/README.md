@@ -31,3 +31,7 @@
 ## 2026-11-06 추가 게시
 
 - [86 — onset 재사용 파일럿85 결과 게시](86_onset_reuse_results_publication_v1/README.md)
+
+## 2026-11-07 추가 게시
+
+- [88 — BP 보존 사후분석87 결과 게시](88_bp_retention_posthoc_publication_v1/README.md)

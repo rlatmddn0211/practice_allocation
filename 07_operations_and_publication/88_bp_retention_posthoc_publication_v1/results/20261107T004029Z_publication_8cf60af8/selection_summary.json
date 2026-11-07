@@ -1,0 +1,20 @@
+{
+  "files": 209,
+  "bytes": 28620847,
+  "original_BP_raw_episodes": 1520,
+  "previously_public_BP_raw_episodes": 60,
+  "new_raw_model_payloads": 0,
+  "all_other_local_experiments_excluded": true,
+  "report_original_bytes_preserved": true,
+  "new_execution": {
+    "environment_creations": 0,
+    "resets": 0,
+    "environment_transitions": 0,
+    "environment_restores": 0,
+    "mujoco_forward": 0,
+    "model_loads": 0,
+    "policy_forwards": 0,
+    "learning_updates": 0,
+    "new_bootstrap_draws": 0
+  }
+}

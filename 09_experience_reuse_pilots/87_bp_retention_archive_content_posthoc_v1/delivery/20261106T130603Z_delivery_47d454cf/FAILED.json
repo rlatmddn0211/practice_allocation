@@ -1,0 +1,16 @@
+{
+  "error": "FileNotFoundError(2, 'No such file or directory')",
+  "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\SS\\Projects\\robot_practice_allocation\\87_bp_retention_archive_content_posthoc_v1\\report.py\", line 459, in main\n    d.derived_tables();d.setup_plot();d.plots();d.report();d.finish()\n                                                           ^^^^^^^^^^\n  File \"C:\\Users\\SS\\Projects\\robot_practice_allocation\\87_bp_retention_archive_content_posthoc_v1\\report.py\", line 417, in finish\n    independent_verification_costs=load(Path(self.verification['output'])/'analysis_costs.json'),\n                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\SS\\Projects\\robot_practice_allocation\\87_bp_retention_archive_content_posthoc_v1\\common.py\", line 50, in load\n    def load(p):return json.loads(Path(p).read_text(encoding='utf-8-sig'))\n                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Python312\\Lib\\pathlib.py\", line 1028, in read_text\n    with self.open(mode='r', encoding=encoding, errors=errors) as f:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Python312\\Lib\\pathlib.py\", line 1014, in open\n    return io.open(self, mode, buffering, encoding, errors, newline)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: 'C:\\\\Users\\\\SS\\\\Projects\\\\robot_practice_allocation\\\\87_bp_retention_archive_content_posthoc_v1\\\\results\\\\20261106T124257Z_bp_content_posthoc_ab295693\\\\verification\\\\20261106T124841Z_6a8af63a\\\\analysis_costs.json'\n",
+  "new_execution": {
+    "environment_creations": 0,
+    "resets": 0,
+    "environment_transitions": 0,
+    "environment_restores": 0,
+    "mujoco_forward": 0,
+    "model_loads": 0,
+    "policy_forwards": 0,
+    "learning_updates": 0,
+    "new_bootstrap_draws": 0
+  },
+  "elapsed_seconds": 9.842095100088045
+}

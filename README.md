@@ -10,6 +10,10 @@
 
 [85번 보고서·표·그림·원자료 공개 안내](09_experience_reuse_pilots/85_onset_reuse_pilot_v1/PUBLICATION_README_ko.md): 원81의 다섯1M 부모에서 BASE/RANDOM_PRE/ONSET30분기와6,080에피소드 평가를 완료했다. DO AUC의 ONSET−RANDOM_PRE는−1.250%p, ONSET−BASE는+1.328%p다. 현재 onset 선택의 확대 기준은 충족하지 못했다. BP 이득·Push 손해와 초기 좌표에 따른 DO 진행63/80→14/80 정정을 함께 남긴다. 원문 보고서·재현 자료·사전 고정 영상240개를 공개한다.
 
+## 2026-11-07 게시: BP 보존과 DO 경험 내용의 사후분석
+
+[87번 보고서·표·그림9개·재현 자료](09_experience_reuse_pilots/87_bp_retention_archive_content_posthoc_v1/PUBLICATION_README_ko.md): 같은85 기록에서 BP160개 대응 이력과 실제 경험 사용을 분해했다. BP AUC의 ONSET−RANDOM_PRE는+7.578%p이며 부모3/5개에서 양수,2개에서 음수였다. 실제자료사용량은두재사용조건에서같았지만내용은달랐다. 출발학습기와자료구성의얽힘은남으며,독립확인이나공유기초동작발견으로해석하지않는다. 원85의DO보류판정은유지한다.
+
 ## 연구 질문별로 보기
 
 기존 실험 번호와 버전명은 그대로 유지하고 관련 질문을 주제별 큰 폴더로 묶었습니다. [연구 질문의 변화 과정](00_research_overview/RESEARCH_TRAJECTORY.md)을 먼저 보면 각 묶음이 이어진 이유를 볼 수 있습니다.
@@ -23,9 +27,9 @@
 | [중단·지속의 가치](04_stop_continue_value/) | 8k 이후 지속의 순손익과 중단·지속 선택은 다른 학습 미래에도 유지되는가? | 8 |
 | [획득 사례의 반복성](05_acquisition_repeatability/) | 같은 상태에서 획득하는 사례 패턴은 반복되며 다른 출발 상태와 구별되는가? | 5 |
 | [보존 개입·사례 영상](06_retention_interventions/) | 무엇을 보호하면 기존 성공의 상실을 줄이면서 획득과 회복을 유지할 수 있는가? | 5 |
-| [실행·검증·공개](07_operations_and_publication/) | 코드·상태·비용·실패·연구 기록을 어떻게 검증하고 보존·공개했는가? | 10 |
+| [실행·검증·공개](07_operations_and_publication/) | 코드·상태·비용·실패·연구 기록을 어떻게 검증하고 보존·공개했는가? | 14 |
 | [기본 학습 관측](08_basic_learning_observations/) | 행동·경험·정책 변화에서 어떤 반복 현상이 관찰되는가? | 2 |
-| [경험 구간 재사용](09_experience_reuse_pilots/) | 성공 경험의 어느 구간을 재사용하면 추가 SAC 학습에 유용한가? | 1 |
+| [경험 구간 재사용](09_experience_reuse_pilots/) | 성공 경험의 어느 구간을 재사용하면 추가 SAC 학습에 유용한가? | 2 |
 
 실행·공개 폴더에는 이번 정리 도구74를 추가했습니다. 번호 순서는 실험의 성패나 확증 수준을 뜻하지 않습니다.
 

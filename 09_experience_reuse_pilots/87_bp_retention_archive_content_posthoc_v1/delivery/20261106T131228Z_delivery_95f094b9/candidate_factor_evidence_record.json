@@ -1,0 +1,44 @@
+{
+  "version": "87",
+  "execution_status": "completed_existing_files",
+  "scientific_conclusion": "BP response repeats within fixed parent/pool but varies across parents; content condition is weak and exploratory",
+  "primary_effects": {
+    "BP_AUC_P_U_pp": 7.578125,
+    "BP_AUC_P_B_pp": 12.03125,
+    "BP_final_P_U_cases": 11,
+    "BP_final_P_B_cases": 40
+  },
+  "baselines": [
+    "RANDOM_PRE",
+    "BASE"
+  ],
+  "uncertainty_scope": "Reuse original85 nominal parent-bootstrap ranges;5 parents and overlapping LOO;fixed16 development cases;no new draws",
+  "seeds": {
+    "original_initialization_manifest": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\81_basic_sac_observation_campaign_v1\\results\\20261102T085036Z_observation_8e858967\\seed_manifest.json",
+    "continuation_manifest": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21\\seed_manifest.json",
+    "F01_root": 52001,
+    "F02_root": 52002,
+    "new_draws": 0
+  },
+  "actual_costs": "analysis_costs.json; all new environment/model/learning counts0",
+  "source_and_input_provenance": [
+    "input_manifest.jsonl",
+    "provenance/core_input_manifest.jsonl",
+    "source_hashes.json"
+  ],
+  "unfavorable": [
+    "P-U AUC negative R03/R04",
+    "R05 F02 final P-U negative",
+    "P-B AUC negative R01",
+    "DO/Push P-U AUC negative"
+  ],
+  "limitations": [
+    "same85 posthoc evidence, no independent confirmation",
+    "learner state and LOO composition jointly differ",
+    "world axes DO/BP opposite",
+    "no direct policy/critic/gradient or individual data causal attribution"
+  ],
+  "next_decision_criteria": "No new gate. First isolate state versus archive composition; independently confirm BP question before general method claims.",
+  "prior_record": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21\\analysis\\20261106T111509Z_paired_3db89d3f\\candidate_factor_evidence_record.json",
+  "automatic_followup_authorized": false
+}

@@ -1,0 +1,46 @@
+{
+  "status": "passed",
+  "checks": 3110,
+  "BP_totals": {
+    "BASE": {
+      "gain": 32,
+      "loss": 75,
+      "recovery": 20,
+      "initial": 148,
+      "final": 105,
+      "all_four": 87,
+      "initial_recovered": 14
+    },
+    "RANDOM_PRE": {
+      "gain": 34,
+      "loss": 48,
+      "recovery": 24,
+      "initial": 148,
+      "final": 134,
+      "all_four": 105,
+      "initial_recovered": 20
+    },
+    "ONSET": {
+      "gain": 34,
+      "loss": 37,
+      "recovery": 22,
+      "initial": 148,
+      "final": 145,
+      "all_four": 113,
+      "initial_recovered": 20
+    }
+  },
+  "raw_BP_rescan": false,
+  "verification_scope": "original85 labels/cumulative counts and original25 DO joint series; all BP raw1520 were checked once during extraction",
+  "new_execution": {
+    "environment_creations": 0,
+    "resets": 0,
+    "environment_transitions": 0,
+    "environment_restores": 0,
+    "mujoco_forward": 0,
+    "model_loads": 0,
+    "policy_forwards": 0,
+    "learning_updates": 0,
+    "new_bootstrap_draws": 0
+  }
+}

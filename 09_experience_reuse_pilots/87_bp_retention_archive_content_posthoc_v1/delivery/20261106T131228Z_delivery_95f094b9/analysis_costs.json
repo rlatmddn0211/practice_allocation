@@ -1,0 +1,205 @@
+{
+  "started_utc": "2026-11-06T13:12:28.800619+00:00",
+  "finished_utc": "2026-11-06T13:12:36.377534+00:00",
+  "delivery_wall_seconds": 7.576939200051129,
+  "delivery_memory": {
+    "rss": 204808192,
+    "vms": 1064161280,
+    "num_page_faults": 311974,
+    "peak_wset": 267694080,
+    "wset": 204808192,
+    "peak_paged_pool": 389056,
+    "paged_pool": 388880,
+    "peak_nonpaged_pool": 1619128,
+    "nonpaged_pool": 54512,
+    "pagefile": 1064161280,
+    "peak_pagefile": 1127596032,
+    "private": 1064161280
+  },
+  "delivery_io": {
+    "read_count": 60020,
+    "write_count": 284,
+    "read_bytes": 540694276,
+    "write_bytes": 13380513,
+    "other_count": 41060,
+    "other_bytes": 2938386
+  },
+  "delivery_cpu": {
+    "user": 2.8125,
+    "system": 0.0625,
+    "children_user": 0.0,
+    "children_system": 0.0
+  },
+  "tracked_delivery_input_bytes": 13109981,
+  "core_costs": {
+    "wall_seconds": 20.371890499955043,
+    "memory": {
+      "rss": 216317952,
+      "vms": 1094660096,
+      "num_page_faults": 106680,
+      "peak_wset": 259567616,
+      "wset": 216317952,
+      "peak_paged_pool": 382744,
+      "paged_pool": 382648,
+      "peak_nonpaged_pool": 59408,
+      "nonpaged_pool": 55328,
+      "pagefile": 1094660096,
+      "peak_pagefile": 1181388800,
+      "private": 1094660096
+    },
+    "cpu": {
+      "user": 5.3125,
+      "system": 0.34375,
+      "children_user": 0.0,
+      "children_system": 0.0
+    },
+    "io": {
+      "read_count": 49144,
+      "write_count": 3542,
+      "read_bytes": 742443984,
+      "write_bytes": 9537909,
+      "other_count": 97915,
+      "other_bytes": 8775102
+    },
+    "tracked_input_bytes": 388199560,
+    "new_execution": {
+      "environment_creations": 0,
+      "resets": 0,
+      "environment_transitions": 0,
+      "environment_restores": 0,
+      "mujoco_forward": 0,
+      "model_loads": 0,
+      "policy_forwards": 0,
+      "learning_updates": 0,
+      "new_bootstrap_draws": 0
+    }
+  },
+  "independent_verification_costs": {
+    "wall_seconds": 0.4316116999834776,
+    "tracked_input_bytes": 8275978,
+    "new_execution": {
+      "environment_creations": 0,
+      "resets": 0,
+      "environment_transitions": 0,
+      "environment_restores": 0,
+      "mujoco_forward": 0,
+      "model_loads": 0,
+      "policy_forwards": 0,
+      "learning_updates": 0,
+      "new_bootstrap_draws": 0
+    }
+  },
+  "historical_preliminary_history_audit": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\87_bp_retention_archive_content_posthoc_v1\\results\\20261106T123520Z_history_audit_ad3921d1\\analysis_costs.json",
+  "source_campaign_environment_steps_not_recounted": 4964900,
+  "new_execution": {
+    "environment_creations": 0,
+    "resets": 0,
+    "environment_transitions": 0,
+    "environment_restores": 0,
+    "mujoco_forward": 0,
+    "model_loads": 0,
+    "policy_forwards": 0,
+    "learning_updates": 0,
+    "new_bootstrap_draws": 0
+  },
+  "cost_units": "wall seconds/CPU seconds/OS read-write bytes/working-set bytes are separate; not GPU kernel time",
+  "delivery_attempts": [
+    {
+      "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\87_bp_retention_archive_content_posthoc_v1\\delivery\\20261106T130603Z_delivery_47d454cf",
+      "status": "failed_file_only",
+      "wall_seconds": 9.842095100088045,
+      "reason": "FileNotFoundError(2, 'No such file or directory')"
+    },
+    {
+      "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\87_bp_retention_archive_content_posthoc_v1\\delivery\\20261106T130720Z_delivery_aa3bf34e",
+      "status": "preserved_prior_presentation",
+      "wall_seconds": 7.392068299930543
+    },
+    {
+      "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\87_bp_retention_archive_content_posthoc_v1\\delivery\\20261106T130945Z_delivery_1d5f0abb",
+      "status": "preserved_prior_presentation",
+      "wall_seconds": 7.435790900024585
+    },
+    {
+      "path": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\87_bp_retention_archive_content_posthoc_v1\\delivery\\20261106T131228Z_delivery_95f094b9",
+      "status": "adopted",
+      "wall_seconds": 7.576939200051129
+    }
+  ],
+  "preliminary_history_audit_costs": {
+    "wall_seconds": 0.21236989996396005,
+    "memory": {
+      "rss": 132431872,
+      "vms": 958763008,
+      "num_page_faults": 32879,
+      "peak_wset": 132431872,
+      "wset": 132431872,
+      "peak_paged_pool": 378648,
+      "paged_pool": 378552,
+      "peak_nonpaged_pool": 48936,
+      "nonpaged_pool": 48256,
+      "pagefile": 958763008,
+      "peak_pagefile": 958763008,
+      "private": 958763008
+    },
+    "cpu": {
+      "user": 0.09375,
+      "system": 0.0,
+      "children_user": 0.0,
+      "children_system": 0.0
+    },
+    "io": {
+      "read_count": 1102,
+      "write_count": 388,
+      "read_bytes": 16132320,
+      "write_bytes": 263121,
+      "other_count": 17853,
+      "other_bytes": 807804
+    },
+    "tracked_input_bytes": 986944,
+    "new_execution": {
+      "environment_creations": 0,
+      "resets": 0,
+      "environment_transitions": 0,
+      "environment_restores": 0,
+      "mujoco_forward": 0,
+      "model_loads": 0,
+      "policy_forwards": 0,
+      "learning_updates": 0,
+      "new_bootstrap_draws": 0
+    }
+  },
+  "file_delivery_review": {
+    "wall_seconds": 0.22171399998478591,
+    "memory": {
+      "rss": 100163584,
+      "vms": 891052032,
+      "num_page_faults": 25613,
+      "peak_wset": 100716544,
+      "wset": 100163584,
+      "peak_paged_pool": 378456,
+      "paged_pool": 378456,
+      "peak_nonpaged_pool": 48048,
+      "nonpaged_pool": 47440,
+      "pagefile": 891052032,
+      "peak_pagefile": 891052032,
+      "private": 891052032
+    },
+    "cpu": {
+      "user": 0.015625,
+      "system": 0.0625,
+      "children_user": 0.0,
+      "children_system": 0.0
+    },
+    "io": {
+      "read_count": 1448,
+      "write_count": 3,
+      "read_bytes": 34664994,
+      "write_bytes": 29323,
+      "other_count": 19917,
+      "other_bytes": 960876
+    }
+  },
+  "recorded_analysis_process_wall_seconds_sum_before_packaging": 53.48447959998157,
+  "time_note": "Sum of recorded sequential analysis processes; excludes conversation/planning/visual inspection and unmetered ad-hoc file inspection. Not end-to-end user latency or GPU kernel time."
+}

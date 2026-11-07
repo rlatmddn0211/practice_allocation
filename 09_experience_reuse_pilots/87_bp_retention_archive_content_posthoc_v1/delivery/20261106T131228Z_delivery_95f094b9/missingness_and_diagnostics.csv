@@ -1,0 +1,9 @@
+item,status,scope,impact
+BP success/history/raw physical endpoints,complete,1520 episodes; 160 paired histories x3 arms,none
+DO fixed window physical content,complete,25 donor episodes;50 windows;1600 window transitions,none
+actual final-batch usage by interval,complete,38400 interval-transition rows;60 exposure rows;90 paired linkage rows,none
+initial BP TCP,not_inferred,reset physical TCP site not separately saved,TCP path only post1 to post500; do not infer from a different observation point
+contact during all MuJoCo substeps,unmeasured,only control endpoint contact samples,no contact sample does not establish no substep contact
+selected case videos,limited_to_original_selection,saved final videos only; selected unavailable videos not regenerated,"numeric analysis population unchanged; videos referenced, not viewed in87"
+same-state actor/Q/gradient analysis,out_of_scope,no model load/forward/backward,no direct parameter/mechanism claim
+independent new-case confirmation / causal archive contribution,unmeasured,same85 development panel and overlapping LOO pools,exploratory conditional findings only

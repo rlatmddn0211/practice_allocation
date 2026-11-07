@@ -1,0 +1,23 @@
+{
+  "status": "core_complete_pending_report",
+  "completed_stages": [
+    "BP repetition/histories",
+    "BP physical trajectories",
+    "fixed DO content",
+    "actual exposure and linkage"
+  ],
+  "campaign": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21",
+  "source_analysis": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\85_onset_reuse_pilot_v1\\results\\20261106T042248Z_onset_campaign_24d98d21\\analysis\\20261106T111509Z_paired_3db89d3f",
+  "new_execution": {
+    "environment_creations": 0,
+    "resets": 0,
+    "environment_transitions": 0,
+    "environment_restores": 0,
+    "mujoco_forward": 0,
+    "model_loads": 0,
+    "policy_forwards": 0,
+    "learning_updates": 0,
+    "new_bootstrap_draws": 0
+  },
+  "output": "C:\\Users\\SS\\Projects\\robot_practice_allocation\\87_bp_retention_archive_content_posthoc_v1\\results\\20261106T124257Z_bp_content_posthoc_ab295693"
+}

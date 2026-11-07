@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "new_execution": {
+    "environment_creations": 0,
+    "resets": 0,
+    "environment_transitions": 0,
+    "environment_restores": 0,
+    "mujoco_forward": 0,
+    "model_loads": 0,
+    "policy_forwards": 0,
+    "learning_updates": 0,
+    "new_bootstrap_draws": 0
+  },
+  "checks": 51,
+  "scope": "artifact transfer, report links, numeric populations and visual-content hash identity"
+}
